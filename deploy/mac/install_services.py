@@ -33,8 +33,9 @@ if 'crawl-search-searxng' not in containers:
     subprocess.run([docker,'run','-d','--name','crawl-search-searxng','--restart','unless-stopped','--cpus','2','--memory','1536m','--memory-swap','1536m',
         '-p','127.0.0.1:8088:8080','-v',f'{config}:/etc/searxng',image],check=True)
 else:
-    actual=subprocess.check_output([docker,'inspect','--format','{{.Config.Image}}','crawl-search-searxng'],text=True).strip()
-    if actual!=image:raise RuntimeError('Existing search container uses a different image; migrate it explicitly')
+    actual=subprocess.check_output([docker,'inspect','--format','{{.Image}}','crawl-search-searxng'],text=True).strip()
+    expected=subprocess.check_output([docker,'image','inspect','--format','{{.Id}}',image],text=True).strip()
+    if actual!=expected:raise RuntimeError('Existing search container uses a different image; migrate it explicitly')
     subprocess.run([docker,'restart','crawl-search-searxng'],check=True)
 logs=BASE/'logs';logs.mkdir(exist_ok=True)
 state=BASE/'state';state.mkdir(exist_ok=True);os.chmod(state,0o700)
