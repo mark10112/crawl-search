@@ -5,6 +5,7 @@ import base64
 import hashlib
 import ipaddress
 import json
+import math
 import os
 import socket
 import sys
@@ -22,6 +23,19 @@ from lxml import html as html_parser
 
 def ms(start: float) -> float:
     return round((time.perf_counter() - start) * 1000, 2)
+
+def render_ocr_page(page):
+    """Keep real small-print detail, with bounded pixels and encoded payload."""
+    dpi=min(300,int(72*math.sqrt(12000000/(page.rect.width*page.rect.height))))
+    if dpi<1:raise ValueError('PDF page exceeds OCR pixel budget at minimum DPI')
+    while True:
+        pix=page.get_pixmap(dpi=dpi,alpha=False)
+        data=pix.tobytes('png')
+        if len(data)<=20*1024*1024:
+            return data,{'dpi':dpi,'width':pix.width,'height':pix.height,'encoded_bytes':len(data)}
+        next_dpi=int(dpi*.8)
+        if next_dpi<1:raise ValueError('PDF page exceeds OCR payload budget')
+        dpi=next_dpi
 
 
 @dataclass
@@ -204,10 +218,11 @@ class ResearchStack:
     async def router_ocr(self, data: bytes, language_hint: str | None, policy: str, cache: bool) -> dict:
         if not self.settings.ocr_service_url:
             raise RuntimeError("OCR router service is not configured")
-        images=[]
+        images=[];rendering=[]
         if data.startswith(b"%PDF"):
             with pymupdf.open(stream=data,filetype="pdf") as doc:
-                images=[page.get_pixmap(dpi=144,alpha=False).tobytes("png") for page in doc]
+                for page in doc:
+                    image,metadata=render_ocr_page(page);images.append(image);rendering.append(metadata)
         else:
             images=[data]
         texts=[]
@@ -222,6 +237,7 @@ class ResearchStack:
                 raise RuntimeError(result.get('error','OCR router returned unusable text'))
             texts.append(f'<!-- subset page {number} -->\n'+result['text'])
             routes.append({k:result.get(k) for k in ['engine','revision','route','cache_hit','policy','language_hint','elapsed_ms','quality_warning']})
+            if rendering:routes[-1]['rendering']=rendering[number-1]
         return {'text':'\n\n'.join(texts),'engine':'router:'+','.join(dict.fromkeys(r['engine'] for r in routes)),
                 'cold':False,'conversion_ms':sum(r['elapsed_ms'] for r in routes),'routes':routes}
 
@@ -241,7 +257,7 @@ class ResearchStack:
         max_pages = max(1, min(max_pages, 10))
         start_page = max(1, start_page)
         start = time.perf_counter()
-        key = hashlib.sha256(json.dumps(["reader-v7-stream-guard-complete-output", url, mode, max_chars, max_pages, start_page, ocr_engine,language_hint,ocr_policy]).encode()).hexdigest()
+        key = hashlib.sha256(json.dumps(["reader-v8-native300-table-bands", url, mode, max_chars, max_pages, start_page, ocr_engine,language_hint,ocr_policy]).encode()).hexdigest()
         cached_path = self.settings.state_dir / (key + ".json")
         if cache and cached_path.exists() and time.time() - cached_path.stat().st_mtime < self.settings.cache_seconds:
             result = json.loads(cached_path.read_text(encoding="utf-8"))

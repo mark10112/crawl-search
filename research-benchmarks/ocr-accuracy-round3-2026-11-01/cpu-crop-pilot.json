@@ -1,0 +1,174 @@
+{
+  "model": "th_PP-OCRv5_mobile_rec",
+  "detector": "PP-OCRv5_mobile_det",
+  "setup_seconds": 0.46815166600208613,
+  "seconds": 0.3664316670001426,
+  "results": [
+    {
+      "input_path": "/Users/markmacminim4/research-server/benchmarks/ocr-accuracy-round3-2026-11-01/actual-failing-crop.png",
+      "page_index": null,
+      "model_settings": {
+        "use_doc_preprocessor": false,
+        "use_textline_orientation": false
+      },
+      "dt_polys": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            127,
+            2
+          ],
+          [
+            127,
+            24
+          ],
+          [
+            1,
+            21
+          ]
+        ],
+        [
+          [
+            0,
+            45
+          ],
+          [
+            336,
+            45
+          ],
+          [
+            336,
+            74
+          ],
+          [
+            0,
+            74
+          ]
+        ],
+        [
+          [
+            500,
+            51
+          ],
+          [
+            537,
+            48
+          ],
+          [
+            538,
+            71
+          ],
+          [
+            501,
+            74
+          ]
+        ]
+      ],
+      "text_det_params": {
+        "limit_side_len": 64,
+        "limit_type": "min",
+        "thresh": 0.3,
+        "max_side_limit": 4000,
+        "box_thresh": 0.6,
+        "unclip_ratio": 1.5
+      },
+      "text_type": "general",
+      "textline_orientation_angles": [
+        -1,
+        -1,
+        -1
+      ],
+      "text_rec_score_thresh": 0.0,
+      "return_word_box": false,
+      "rec_texts": [
+        "พ.ศ. ๒๔๐๗)",
+        "246 ประกาศสงกรานต์ บีชวด ฉศก",
+        "bb"
+      ],
+      "rec_scores": [
+        0.8171044588088989,
+        0.9628976583480835,
+        0.5462237596511841
+      ],
+      "rec_polys": [
+        [
+          [
+            1,
+            0
+          ],
+          [
+            127,
+            2
+          ],
+          [
+            127,
+            24
+          ],
+          [
+            1,
+            21
+          ]
+        ],
+        [
+          [
+            0,
+            45
+          ],
+          [
+            336,
+            45
+          ],
+          [
+            336,
+            74
+          ],
+          [
+            0,
+            74
+          ]
+        ],
+        [
+          [
+            500,
+            51
+          ],
+          [
+            537,
+            48
+          ],
+          [
+            538,
+            71
+          ],
+          [
+            501,
+            74
+          ]
+        ]
+      ],
+      "rec_boxes": [
+        [
+          1,
+          0,
+          127,
+          24
+        ],
+        [
+          0,
+          45,
+          336,
+          74
+        ],
+        [
+          500,
+          48,
+          538,
+          74
+        ]
+      ]
+    }
+  ]
+}

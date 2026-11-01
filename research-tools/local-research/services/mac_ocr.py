@@ -5,6 +5,7 @@ from pathlib import Path
 import httpx
 from PIL import Image
 from completion_checks import completion_flags,compact_markup,excessive_repetition
+from table_bands import is_table,request_image,bands,tile_request,combine
 
 REVISION='c5630abae1d940eafe0697512a0325494b02ab42'
 STATE=Path(os.environ.get('MAC_OCR_STATE',str(Path.home()/'research-server/state/ocr')));STATE.mkdir(parents=True,exist_ok=True)
@@ -51,20 +52,33 @@ def collect_stream(lines):
             'usage':usage or {'completion_tokens':None},'repetition_guard':guard,
             'token_usage_complete':usage is not None,'received_chunks':chunks,'received_chars':len(text)}
 
+def stream_recognition(path,body):
+    streaming={**body,'stream':True,'stream_options':{'include_usage':True}}
+    with httpx.Client(timeout=240) as client:
+        with client.stream('POST','http://127.0.0.1:8111'+path,json=streaming) as response:
+            if response.status_code!=200:return httpx.Response(response.status_code,content=response.read())
+            payload=collect_stream(response.iter_lines())
+    return httpx.Response(200,json=payload)
+
 def forward_recognition(path,body):
     # Paddle dispatches regions concurrently. Keep only one image request in
     # this MLX backend's continuous batch; isolated crop probes finish normally
     # where concurrent layout requests can run to the token limit.
     with generation_lock:
-        streaming={**body,'stream':True,'stream_options':{'include_usage':True}}
-        with httpx.Client(timeout=240) as client:
-            with client.stream('POST','http://127.0.0.1:8111'+path,json=streaming) as response:
-                if response.status_code!=200:
-                    return httpx.Response(response.status_code,content=response.read())
-                payload=collect_stream(response.iter_lines())
-                # Leaving this context closes the HTTP stream. MLX cancels its
-                # request on disconnect instead of continuing the token loop.
-        return httpx.Response(200,json=payload)
+        image=request_image(body) if is_table(body) else None
+        intervals=bands(image) if image is not None else []
+        if len(intervals)<=1:return stream_recognition(path,body)
+        parts=[];metadata=[]
+        for interval in intervals:
+            request,source_hash=tile_request(body,image,interval)
+            response=stream_recognition(path,request)
+            if response.status_code!=200:return response
+            payload=response.json();parts.append(payload)
+            metadata.append({'y':list(interval),'width':image.width,'input_sha256':source_hash,
+                'finish_reason':payload['choices'][0]['finish_reason'],'usage':payload.get('usage'),
+                'repetition_guard':payload.get('repetition_guard',False)})
+            if payload['choices'][0]['finish_reason'] not in {'stop','eos_token'}:break
+        return httpx.Response(200,json=combine(parts,metadata,image.height))
 
 class Proxy(BaseHTTPRequestHandler):
     def do_POST(self):
@@ -77,7 +91,9 @@ class Proxy(BaseHTTPRequestHandler):
                     'requested_max_tokens':requested,'effective_max_tokens':body['max_tokens'],
                     'repetition_penalty':body['repetition_penalty'],'repetition_context_size':body['repetition_context_size'],
                     'serialized':True,'repetition_guard':payload.get('repetition_guard',False),
-                    'token_usage_complete':payload.get('token_usage_complete',True),'received_chars':payload.get('received_chars')} for c in payload.get('choices',[]))
+                    'token_usage_complete':payload.get('token_usage_complete',True),'received_chars':payload.get('received_chars'),
+                    'table_bands':payload.get('table_bands'),'table_band_complete':payload.get('table_band_complete'),
+                    'table_band_columns':payload.get('table_band_columns')} for c in payload.get('choices',[]))
             self.send_response(r.status_code);self.send_header('Content-Type','application/json');self.end_headers();self.wfile.write(r.content)
         except Exception as exc:
             self.send_response(502);self.end_headers();self.wfile.write(json.dumps({'error':str(exc)}).encode())
@@ -93,7 +109,7 @@ def ocr(body):
     if image.width*image.height>16000000:raise ValueError('Image exceeds 16 megapixels')
     policy=body.get('policy','balanced')
     if policy not in {'balanced','quality'}:raise ValueError('Invalid OCR policy')
-    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v5-stream-guard',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64]).encode()).hexdigest();cache=STATE/(key+'.json')
+    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v6-table-bands',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64]).encode()).hexdigest();cache=STATE/(key+'.json')
     with lock:
         if body.get('cache',True) and cache.exists():
             result=json.loads(cache.read_text());result.update(cache_hit=True,elapsed_ms=0);return result

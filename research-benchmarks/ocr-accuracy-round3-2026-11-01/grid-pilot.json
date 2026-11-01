@@ -1,0 +1,3898 @@
+[
+  {
+    "file": "us-census-p2-table0.png",
+    "seconds": 18.111381082999287,
+    "result": {
+      "text": "<table><tr><td>CONI1900</td><td>1890 18800</td><td>1870 1880</td><td>18650</td><td>1840</td><td>1880</td><td>1880</td><td>1810</td><td>1500</td><td>190</td></tr><tr><td></td><td>20</td><td>0</td><td>2</td><td>20</td><td>2</td><td></td><td></td><td></td><td></td></tr><tr><td>Ch    </td><td>1</td><td> </td><td></td><td>.  </td><td>. </td><td>3 0</td><td> </td><td> </td><td> </td></tr><tr><td>De  </td><td></td><td> </td><td> </td><td> </td><td> </td><td>.A </td><td> </td><td> </td><td> </td></tr><tr><td>Pe   </td><td></td><td> </td><td>S.00 </td><td>A </td><td>27 </td><td> </td><td>S </td><td>  e</td><td> </td></tr><tr><td>   </td><td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td></tr><tr><td>h  </td><td></td><td> </td><td> </td><td>T</td><td> </td><td> </td><td> </td><td></td><td> </td></tr><tr><td> </td><td></td><td> </td><td> </td><td> </td><td>. </td><td>611</td><td> </td><td>10 </td><td> </td></tr><tr><td></td><td>20</td><td>20</td><td>20</td><td>20</td><td>2</td><td>2</td><td></td><td></td><td></td></tr></table>",
+      "cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "bbox": [
+            0,
+            0,
+            237,
+            52
+          ],
+          "text": "CONI1900",
+          "score": 0.5940309762954712,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "bbox": [
+            237,
+            0,
+            372,
+            52
+          ],
+          "text": "1890 18800",
+          "score": 0.8785678744316101,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "bbox": [
+            372,
+            0,
+            509,
+            52
+          ],
+          "text": "1870 1880",
+          "score": 0.8414487242698669,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "bbox": [
+            509,
+            0,
+            580,
+            52
+          ],
+          "text": "18650",
+          "score": 0.7935536503791809,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "bbox": [
+            580,
+            0,
+            652,
+            52
+          ],
+          "text": "1840",
+          "score": 0.9240878224372864,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "bbox": [
+            652,
+            0,
+            725,
+            52
+          ],
+          "text": "1880",
+          "score": 0.996575653553009,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 6,
+          "bbox": [
+            725,
+            0,
+            800,
+            52
+          ],
+          "text": "1880",
+          "score": 0.9936211109161377,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 7,
+          "bbox": [
+            800,
+            0,
+            862,
+            52
+          ],
+          "text": "1810",
+          "score": 0.9860966205596924,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 8,
+          "bbox": [
+            862,
+            0,
+            932,
+            52
+          ],
+          "text": "1500",
+          "score": 0.9106285572052002,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 9,
+          "bbox": [
+            932,
+            0,
+            1002,
+            52
+          ],
+          "text": "190",
+          "score": 0.8120612502098083,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "bbox": [
+            0,
+            52,
+            237,
+            299
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            237,
+            52,
+            372,
+            299
+          ],
+          "text": "20",
+          "score": 0.4730807840824127,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            372,
+            52,
+            509,
+            299
+          ],
+          "text": "0",
+          "score": 0.5707513093948364,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            509,
+            52,
+            580,
+            299
+          ],
+          "text": "2",
+          "score": 0.6428285837173462,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "bbox": [
+            580,
+            52,
+            652,
+            299
+          ],
+          "text": "20",
+          "score": 0.6311517953872681,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "bbox": [
+            652,
+            52,
+            725,
+            299
+          ],
+          "text": "2",
+          "score": 0.1731056123971939,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "bbox": [
+            725,
+            52,
+            800,
+            299
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "bbox": [
+            800,
+            52,
+            862,
+            299
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "bbox": [
+            862,
+            52,
+            932,
+            299
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "bbox": [
+            932,
+            52,
+            1002,
+            299
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "bbox": [
+            0,
+            299,
+            237,
+            371
+          ],
+          "text": "Ch    ",
+          "score": 0.2789374887943268,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            237,
+            299,
+            372,
+            371
+          ],
+          "text": "1",
+          "score": 0.36312782764434814,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            372,
+            299,
+            509,
+            371
+          ],
+          "text": " ",
+          "score": 0.5185387134552002,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            509,
+            299,
+            580,
+            371
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "bbox": [
+            580,
+            299,
+            652,
+            371
+          ],
+          "text": ".  ",
+          "score": 0.30204689502716064,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "bbox": [
+            652,
+            299,
+            725,
+            371
+          ],
+          "text": ". ",
+          "score": 0.44095879793167114,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "bbox": [
+            725,
+            299,
+            800,
+            371
+          ],
+          "text": "3 0",
+          "score": 0.3101823031902313,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "bbox": [
+            800,
+            299,
+            862,
+            371
+          ],
+          "text": " ",
+          "score": 0.43851813673973083,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "bbox": [
+            862,
+            299,
+            932,
+            371
+          ],
+          "text": " ",
+          "score": 0.3460250496864319,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "bbox": [
+            932,
+            299,
+            1002,
+            371
+          ],
+          "text": " ",
+          "score": 0.3169601261615753,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "bbox": [
+            0,
+            371,
+            237,
+            442
+          ],
+          "text": "De  ",
+          "score": 0.27745750546455383,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            237,
+            371,
+            372,
+            442
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            372,
+            371,
+            509,
+            442
+          ],
+          "text": " ",
+          "score": 0.38427746295928955,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            509,
+            371,
+            580,
+            442
+          ],
+          "text": " ",
+          "score": 0.5266517996788025,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "bbox": [
+            580,
+            371,
+            652,
+            442
+          ],
+          "text": " ",
+          "score": 0.5629416704177856,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "bbox": [
+            652,
+            371,
+            725,
+            442
+          ],
+          "text": " ",
+          "score": 0.6111046075820923,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "bbox": [
+            725,
+            371,
+            800,
+            442
+          ],
+          "text": ".A ",
+          "score": 0.4451519548892975,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "bbox": [
+            800,
+            371,
+            862,
+            442
+          ],
+          "text": " ",
+          "score": 0.5307639241218567,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "bbox": [
+            862,
+            371,
+            932,
+            442
+          ],
+          "text": " ",
+          "score": 0.47097375988960266,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "bbox": [
+            932,
+            371,
+            1002,
+            442
+          ],
+          "text": " ",
+          "score": 0.5389132499694824,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "bbox": [
+            0,
+            442,
+            237,
+            513
+          ],
+          "text": "Pe   ",
+          "score": 0.24988560378551483,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            237,
+            442,
+            372,
+            513
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            372,
+            442,
+            509,
+            513
+          ],
+          "text": " ",
+          "score": 0.5211755633354187,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            509,
+            442,
+            580,
+            513
+          ],
+          "text": "S.00 ",
+          "score": 0.30591124296188354,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "bbox": [
+            580,
+            442,
+            652,
+            513
+          ],
+          "text": "A ",
+          "score": 0.4693053364753723,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "bbox": [
+            652,
+            442,
+            725,
+            513
+          ],
+          "text": "27 ",
+          "score": 0.4400923550128937,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "bbox": [
+            725,
+            442,
+            800,
+            513
+          ],
+          "text": " ",
+          "score": 0.59147047996521,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "bbox": [
+            800,
+            442,
+            862,
+            513
+          ],
+          "text": "S ",
+          "score": 0.3144797682762146,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "bbox": [
+            862,
+            442,
+            932,
+            513
+          ],
+          "text": "  e",
+          "score": 0.2663705348968506,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "bbox": [
+            932,
+            442,
+            1002,
+            513
+          ],
+          "text": " ",
+          "score": 0.5250409841537476,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "bbox": [
+            0,
+            513,
+            237,
+            585
+          ],
+          "text": "   ",
+          "score": 0.29847466945648193,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            237,
+            513,
+            372,
+            585
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            372,
+            513,
+            509,
+            585
+          ],
+          "text": " ",
+          "score": 0.44332587718963623,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            509,
+            513,
+            580,
+            585
+          ],
+          "text": " ",
+          "score": 0.4942546784877777,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "bbox": [
+            580,
+            513,
+            652,
+            585
+          ],
+          "text": " ",
+          "score": 0.48952680826187134,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "bbox": [
+            652,
+            513,
+            725,
+            585
+          ],
+          "text": " ",
+          "score": 0.27227482199668884,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "bbox": [
+            725,
+            513,
+            800,
+            585
+          ],
+          "text": " ",
+          "score": 0.4063244163990021,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "bbox": [
+            800,
+            513,
+            862,
+            585
+          ],
+          "text": " ",
+          "score": 0.4898666739463806,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "bbox": [
+            862,
+            513,
+            932,
+            585
+          ],
+          "text": " ",
+          "score": 0.4582369327545166,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "bbox": [
+            932,
+            513,
+            1002,
+            585
+          ],
+          "text": " ",
+          "score": 0.4060909152030945,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 0,
+          "bbox": [
+            0,
+            585,
+            237,
+            655
+          ],
+          "text": "h  ",
+          "score": 0.22463251650333405,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            237,
+            585,
+            372,
+            655
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            372,
+            585,
+            509,
+            655
+          ],
+          "text": " ",
+          "score": 0.4574374556541443,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "bbox": [
+            509,
+            585,
+            580,
+            655
+          ],
+          "text": " ",
+          "score": 0.47686225175857544,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "bbox": [
+            580,
+            585,
+            652,
+            655
+          ],
+          "text": "T",
+          "score": 0.41589486598968506,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "bbox": [
+            652,
+            585,
+            725,
+            655
+          ],
+          "text": " ",
+          "score": 0.6584628820419312,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "bbox": [
+            725,
+            585,
+            800,
+            655
+          ],
+          "text": " ",
+          "score": 0.5289018154144287,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "bbox": [
+            800,
+            585,
+            862,
+            655
+          ],
+          "text": " ",
+          "score": 0.43264034390449524,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "bbox": [
+            862,
+            585,
+            932,
+            655
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "bbox": [
+            932,
+            585,
+            1002,
+            655
+          ],
+          "text": " ",
+          "score": 0.3887876272201538,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 0,
+          "bbox": [
+            0,
+            655,
+            237,
+            727
+          ],
+          "text": " ",
+          "score": 0.4638523459434509,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "bbox": [
+            237,
+            655,
+            372,
+            727
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            372,
+            655,
+            509,
+            727
+          ],
+          "text": " ",
+          "score": 0.6127862930297852,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "bbox": [
+            509,
+            655,
+            580,
+            727
+          ],
+          "text": " ",
+          "score": 0.5047804117202759,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "bbox": [
+            580,
+            655,
+            652,
+            727
+          ],
+          "text": " ",
+          "score": 0.47290316224098206,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "bbox": [
+            652,
+            655,
+            725,
+            727
+          ],
+          "text": ". ",
+          "score": 0.39214056730270386,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "bbox": [
+            725,
+            655,
+            800,
+            727
+          ],
+          "text": "611",
+          "score": 0.3951910436153412,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "bbox": [
+            800,
+            655,
+            862,
+            727
+          ],
+          "text": " ",
+          "score": 0.4567825198173523,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 8,
+          "bbox": [
+            862,
+            655,
+            932,
+            727
+          ],
+          "text": "10 ",
+          "score": 0.4618828594684601,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 9,
+          "bbox": [
+            932,
+            655,
+            1002,
+            727
+          ],
+          "text": " ",
+          "score": 0.3882399797439575,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 8,
+          "column": 0,
+          "bbox": [
+            0,
+            727,
+            237,
+            1225
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "bbox": [
+            237,
+            727,
+            372,
+            1225
+          ],
+          "text": "20",
+          "score": 0.8886933326721191,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "bbox": [
+            372,
+            727,
+            509,
+            1225
+          ],
+          "text": "20",
+          "score": 0.7036033868789673,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "bbox": [
+            509,
+            727,
+            580,
+            1225
+          ],
+          "text": "20",
+          "score": 0.49463149905204773,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "bbox": [
+            580,
+            727,
+            652,
+            1225
+          ],
+          "text": "20",
+          "score": 0.5586832165718079,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 8,
+          "column": 5,
+          "bbox": [
+            652,
+            727,
+            725,
+            1225
+          ],
+          "text": "2",
+          "score": 0.43644005060195923,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 8,
+          "column": 6,
+          "bbox": [
+            725,
+            727,
+            800,
+            1225
+          ],
+          "text": "2",
+          "score": 0.07835843414068222,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 8,
+          "column": 7,
+          "bbox": [
+            800,
+            727,
+            862,
+            1225
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 8,
+          "column": 8,
+          "bbox": [
+            862,
+            727,
+            932,
+            1225
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 8,
+          "column": 9,
+          "bbox": [
+            932,
+            727,
+            1002,
+            1225
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        }
+      ],
+      "columns": 10,
+      "rows": 9,
+      "x_boundaries": [
+        0,
+        237,
+        372,
+        509,
+        580,
+        652,
+        725,
+        800,
+        862,
+        932,
+        1002
+      ],
+      "y_boundaries": [
+        0,
+        52,
+        299,
+        371,
+        442,
+        513,
+        585,
+        655,
+        727,
+        1225
+      ]
+    }
+  },
+  {
+    "file": "us-census-p3-table0.png",
+    "seconds": 7.875739583996619,
+    "result": {
+      "text": "<table><tr><td>—</td><td>— .</td><td>  —</td><td></td><td> ..</td><td>— . </td><td></td><td></td><td>—. . . </td><td></td><td> -...</td><td> . </td><td>:-. .</td></tr><tr><td>OOUNTTES</td><td>1000</td><td>−1800</td><td>1880</td><td>1870</td><td>1860</td><td>1850</td><td>−1840</td><td>−1830</td><td>1820</td><td>1810</td><td>1800</td><td>1790</td></tr><tr><td>—&quot;—</td><td></td><td></td><td></td><td>——</td><td>—</td><td></td><td>—</td><td></td><td></td><td>—</td><td>—</td><td>———</td></tr><tr><td>Roi ian n</td><td> </td><td> </td><td></td><td> </td><td> </td><td> </td><td>  </td><td> </td><td> </td><td> </td><td>T </td><td> </td></tr><tr><td>Boo </td><td></td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td></td><td></td><td> </td><td> </td><td></td></tr><tr><td>Vuanto ho</td><td> </td><td> </td><td> </td><td> </td><td> </td><td>J</td><td> </td><td> </td><td>2</td><td></td><td></td><td></td></tr><tr><td>W skhinngon n</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td>1 </td><td>12</td><td> </td><td></td><td> </td></tr><tr><td>W thi  s</td><td> </td><td> </td><td> </td><td> </td><td> </td><td> </td><td>A. </td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+      "cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "bbox": [
+            0,
+            0,
+            173,
+            17
+          ],
+          "text": "—",
+          "score": 0.5768395066261292,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "bbox": [
+            173,
+            0,
+            247,
+            17
+          ],
+          "text": "— .",
+          "score": 0.6887655854225159,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "bbox": [
+            247,
+            0,
+            322,
+            17
+          ],
+          "text": "  —",
+          "score": 0.5110390782356262,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "bbox": [
+            322,
+            0,
+            396,
+            17
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "bbox": [
+            396,
+            0,
+            470,
+            17
+          ],
+          "text": " ..",
+          "score": 0.6231741309165955,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "bbox": [
+            470,
+            0,
+            542,
+            17
+          ],
+          "text": "— . ",
+          "score": 0.7429279685020447,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 6,
+          "bbox": [
+            542,
+            0,
+            616,
+            17
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 7,
+          "bbox": [
+            616,
+            0,
+            689,
+            17
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 8,
+          "bbox": [
+            689,
+            0,
+            760,
+            17
+          ],
+          "text": "—. . . ",
+          "score": 0.48932161927223206,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 9,
+          "bbox": [
+            760,
+            0,
+            832,
+            17
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 10,
+          "bbox": [
+            832,
+            0,
+            891,
+            17
+          ],
+          "text": " -...",
+          "score": 0.6113528609275818,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 11,
+          "bbox": [
+            891,
+            0,
+            954,
+            17
+          ],
+          "text": " . ",
+          "score": 0.6484439969062805,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 12,
+          "bbox": [
+            954,
+            0,
+            1018,
+            17
+          ],
+          "text": ":-. .",
+          "score": 0.6176666617393494,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "bbox": [
+            0,
+            17,
+            173,
+            38
+          ],
+          "text": "OOUNTTES",
+          "score": 0.897581160068512,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            173,
+            17,
+            247,
+            38
+          ],
+          "text": "1000",
+          "score": 0.9860310554504395,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            247,
+            17,
+            322,
+            38
+          ],
+          "text": "−1800",
+          "score": 0.9197994470596313,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            322,
+            17,
+            396,
+            38
+          ],
+          "text": "1880",
+          "score": 0.9899940490722656,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "bbox": [
+            396,
+            17,
+            470,
+            38
+          ],
+          "text": "1870",
+          "score": 0.9927821159362793,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "bbox": [
+            470,
+            17,
+            542,
+            38
+          ],
+          "text": "1860",
+          "score": 0.9917251467704773,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 6,
+          "bbox": [
+            542,
+            17,
+            616,
+            38
+          ],
+          "text": "1850",
+          "score": 0.9988949298858643,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 7,
+          "bbox": [
+            616,
+            17,
+            689,
+            38
+          ],
+          "text": "−1840",
+          "score": 0.8427144885063171,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 8,
+          "bbox": [
+            689,
+            17,
+            760,
+            38
+          ],
+          "text": "−1830",
+          "score": 0.8553164601325989,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 9,
+          "bbox": [
+            760,
+            17,
+            832,
+            38
+          ],
+          "text": "1820",
+          "score": 0.9979740977287292,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 10,
+          "bbox": [
+            832,
+            17,
+            891,
+            38
+          ],
+          "text": "1810",
+          "score": 0.9880484938621521,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 11,
+          "bbox": [
+            891,
+            17,
+            954,
+            38
+          ],
+          "text": "1800",
+          "score": 0.998605489730835,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 12,
+          "bbox": [
+            954,
+            17,
+            1018,
+            38
+          ],
+          "text": "1790",
+          "score": 0.9995841979980469,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "bbox": [
+            0,
+            38,
+            173,
+            54
+          ],
+          "text": "—\"—",
+          "score": 0.6288748383522034,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            173,
+            38,
+            247,
+            54
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            247,
+            38,
+            322,
+            54
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            322,
+            38,
+            396,
+            54
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "bbox": [
+            396,
+            38,
+            470,
+            54
+          ],
+          "text": "——",
+          "score": 0.6076001524925232,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "bbox": [
+            470,
+            38,
+            542,
+            54
+          ],
+          "text": "—",
+          "score": 0.4217658042907715,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 6,
+          "bbox": [
+            542,
+            38,
+            616,
+            54
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 7,
+          "bbox": [
+            616,
+            38,
+            689,
+            54
+          ],
+          "text": "—",
+          "score": 0.8401504158973694,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 8,
+          "bbox": [
+            689,
+            38,
+            760,
+            54
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 9,
+          "bbox": [
+            760,
+            38,
+            832,
+            54
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 10,
+          "bbox": [
+            832,
+            38,
+            891,
+            54
+          ],
+          "text": "—",
+          "score": 0.4973456561565399,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 11,
+          "bbox": [
+            891,
+            38,
+            954,
+            54
+          ],
+          "text": "—",
+          "score": 0.7207688689231873,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 12,
+          "bbox": [
+            954,
+            38,
+            1018,
+            54
+          ],
+          "text": "———",
+          "score": 0.6004428267478943,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "bbox": [
+            0,
+            54,
+            173,
+            126
+          ],
+          "text": "Roi ian n",
+          "score": 0.3673722445964813,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            173,
+            54,
+            247,
+            126
+          ],
+          "text": " ",
+          "score": 0.44319766759872437,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            247,
+            54,
+            322,
+            126
+          ],
+          "text": " ",
+          "score": 0.4656628370285034,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            322,
+            54,
+            396,
+            126
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "bbox": [
+            396,
+            54,
+            470,
+            126
+          ],
+          "text": " ",
+          "score": 0.5199872851371765,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "bbox": [
+            470,
+            54,
+            542,
+            126
+          ],
+          "text": " ",
+          "score": 0.45483097434043884,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 6,
+          "bbox": [
+            542,
+            54,
+            616,
+            126
+          ],
+          "text": " ",
+          "score": 0.4670383632183075,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 7,
+          "bbox": [
+            616,
+            54,
+            689,
+            126
+          ],
+          "text": "  ",
+          "score": 0.5538610816001892,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 8,
+          "bbox": [
+            689,
+            54,
+            760,
+            126
+          ],
+          "text": " ",
+          "score": 0.5286913514137268,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 9,
+          "bbox": [
+            760,
+            54,
+            832,
+            126
+          ],
+          "text": " ",
+          "score": 0.3926844000816345,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 10,
+          "bbox": [
+            832,
+            54,
+            891,
+            126
+          ],
+          "text": " ",
+          "score": 0.44943585991859436,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 11,
+          "bbox": [
+            891,
+            54,
+            954,
+            126
+          ],
+          "text": "T ",
+          "score": 0.44936496019363403,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 12,
+          "bbox": [
+            954,
+            54,
+            1018,
+            126
+          ],
+          "text": " ",
+          "score": 0.47958433628082275,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "bbox": [
+            0,
+            126,
+            173,
+            198
+          ],
+          "text": "Boo ",
+          "score": 0.35629531741142273,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            173,
+            126,
+            247,
+            198
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            247,
+            126,
+            322,
+            198
+          ],
+          "text": " ",
+          "score": 0.4746873378753662,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            322,
+            126,
+            396,
+            198
+          ],
+          "text": " ",
+          "score": 0.530323326587677,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "bbox": [
+            396,
+            126,
+            470,
+            198
+          ],
+          "text": " ",
+          "score": 0.46177056431770325,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 5,
+          "bbox": [
+            470,
+            126,
+            542,
+            198
+          ],
+          "text": " ",
+          "score": 0.527378261089325,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 6,
+          "bbox": [
+            542,
+            126,
+            616,
+            198
+          ],
+          "text": " ",
+          "score": 0.38332852721214294,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 7,
+          "bbox": [
+            616,
+            126,
+            689,
+            198
+          ],
+          "text": " ",
+          "score": 0.49683430790901184,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 8,
+          "bbox": [
+            689,
+            126,
+            760,
+            198
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 9,
+          "bbox": [
+            760,
+            126,
+            832,
+            198
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 10,
+          "bbox": [
+            832,
+            126,
+            891,
+            198
+          ],
+          "text": " ",
+          "score": 0.3431011736392975,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 11,
+          "bbox": [
+            891,
+            126,
+            954,
+            198
+          ],
+          "text": " ",
+          "score": 0.47491899132728577,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 12,
+          "bbox": [
+            954,
+            126,
+            1018,
+            198
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "bbox": [
+            0,
+            198,
+            173,
+            257
+          ],
+          "text": "Vuanto ho",
+          "score": 0.3544430434703827,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            173,
+            198,
+            247,
+            257
+          ],
+          "text": " ",
+          "score": 0.37551987171173096,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            247,
+            198,
+            322,
+            257
+          ],
+          "text": " ",
+          "score": 0.5710124373435974,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            322,
+            198,
+            396,
+            257
+          ],
+          "text": " ",
+          "score": 0.43375784158706665,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "bbox": [
+            396,
+            198,
+            470,
+            257
+          ],
+          "text": " ",
+          "score": 0.6098915338516235,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 5,
+          "bbox": [
+            470,
+            198,
+            542,
+            257
+          ],
+          "text": " ",
+          "score": 0.5120822787284851,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 6,
+          "bbox": [
+            542,
+            198,
+            616,
+            257
+          ],
+          "text": "J",
+          "score": 0.34703272581100464,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 7,
+          "bbox": [
+            616,
+            198,
+            689,
+            257
+          ],
+          "text": " ",
+          "score": 0.5667470097541809,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 8,
+          "bbox": [
+            689,
+            198,
+            760,
+            257
+          ],
+          "text": " ",
+          "score": 0.4352300763130188,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 9,
+          "bbox": [
+            760,
+            198,
+            832,
+            257
+          ],
+          "text": "2",
+          "score": 0.4736132323741913,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 10,
+          "bbox": [
+            832,
+            198,
+            891,
+            257
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 11,
+          "bbox": [
+            891,
+            198,
+            954,
+            257
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 12,
+          "bbox": [
+            954,
+            198,
+            1018,
+            257
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 0,
+          "bbox": [
+            0,
+            257,
+            173,
+            318
+          ],
+          "text": "W skhinngon n",
+          "score": 0.603664755821228,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            173,
+            257,
+            247,
+            318
+          ],
+          "text": " ",
+          "score": 0.6997328400611877,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            247,
+            257,
+            322,
+            318
+          ],
+          "text": " ",
+          "score": 0.5218098163604736,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "bbox": [
+            322,
+            257,
+            396,
+            318
+          ],
+          "text": " ",
+          "score": 0.541301965713501,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "bbox": [
+            396,
+            257,
+            470,
+            318
+          ],
+          "text": " ",
+          "score": 0.4916699528694153,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 5,
+          "bbox": [
+            470,
+            257,
+            542,
+            318
+          ],
+          "text": " ",
+          "score": 0.519338846206665,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 6,
+          "bbox": [
+            542,
+            257,
+            616,
+            318
+          ],
+          "text": " ",
+          "score": 0.5031193494796753,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 7,
+          "bbox": [
+            616,
+            257,
+            689,
+            318
+          ],
+          "text": " ",
+          "score": 0.6324514150619507,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 8,
+          "bbox": [
+            689,
+            257,
+            760,
+            318
+          ],
+          "text": "1 ",
+          "score": 0.35894912481307983,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 9,
+          "bbox": [
+            760,
+            257,
+            832,
+            318
+          ],
+          "text": "12",
+          "score": 0.5129290223121643,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 10,
+          "bbox": [
+            832,
+            257,
+            891,
+            318
+          ],
+          "text": " ",
+          "score": 0.4278815686702728,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 11,
+          "bbox": [
+            891,
+            257,
+            954,
+            318
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 12,
+          "bbox": [
+            954,
+            257,
+            1018,
+            318
+          ],
+          "text": " ",
+          "score": 0.47067663073539734,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 0,
+          "bbox": [
+            0,
+            318,
+            173,
+            381
+          ],
+          "text": "W thi  s",
+          "score": 0.3754459619522095,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "bbox": [
+            173,
+            318,
+            247,
+            381
+          ],
+          "text": " ",
+          "score": 0.38543230295181274,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            247,
+            318,
+            322,
+            381
+          ],
+          "text": " ",
+          "score": 0.5790451169013977,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "bbox": [
+            322,
+            318,
+            396,
+            381
+          ],
+          "text": " ",
+          "score": 0.576898455619812,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "bbox": [
+            396,
+            318,
+            470,
+            381
+          ],
+          "text": " ",
+          "score": 0.5257046222686768,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 5,
+          "bbox": [
+            470,
+            318,
+            542,
+            381
+          ],
+          "text": " ",
+          "score": 0.5184155106544495,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 6,
+          "bbox": [
+            542,
+            318,
+            616,
+            381
+          ],
+          "text": " ",
+          "score": 0.3997977077960968,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 7,
+          "bbox": [
+            616,
+            318,
+            689,
+            381
+          ],
+          "text": "A. ",
+          "score": 0.3921907842159271,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 8,
+          "bbox": [
+            689,
+            318,
+            760,
+            381
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 9,
+          "bbox": [
+            760,
+            318,
+            832,
+            381
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 10,
+          "bbox": [
+            832,
+            318,
+            891,
+            381
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 11,
+          "bbox": [
+            891,
+            318,
+            954,
+            381
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 12,
+          "bbox": [
+            954,
+            318,
+            1018,
+            381
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        }
+      ],
+      "columns": 13,
+      "rows": 8,
+      "x_boundaries": [
+        0,
+        173,
+        247,
+        322,
+        396,
+        470,
+        542,
+        616,
+        689,
+        760,
+        832,
+        891,
+        954,
+        1018
+      ],
+      "y_boundaries": [
+        0,
+        17,
+        38,
+        54,
+        126,
+        198,
+        257,
+        318,
+        381
+      ]
+    }
+  },
+  {
+    "file": "us-census-p3-table1.png",
+    "seconds": 0.0075112500016984995,
+    "result": null
+  },
+  {
+    "file": "us-preservation-p3-table0.png",
+    "seconds": 0.004130624998651911,
+    "result": null
+  },
+  {
+    "file": "us-preservation-p3-table1.png",
+    "seconds": 0.0010665830013749655,
+    "result": null
+  },
+  {
+    "file": "us-preservation-p3-table2.png",
+    "seconds": 15.683039832998475,
+    "result": {
+      "text": "<table><tr><td></td><td>bPerce</td><td>ntages of</td><td>each</td><td></td></tr><tr><td></td><td>−kf</td><td>nd of flb</td><td>b</td><td></td></tr><tr><td></td><td>———</td><td>—</td><td>—1</td><td></td></tr><tr><td>TitleDate</td><td></td><td>.Chem-</td><td></td><td>Orade</td></tr><tr><td></td><td>.Rag</td><td>−ical</td><td>Straw</td><td></td></tr><tr><td></td><td>|</td><td>−wood</td><td></td><td></td></tr><tr><td></td><td>|———</td><td>——</td><td>|—</td><td>.—:</td></tr><tr><td>New YorkWorld___-.......................____________Jan. 19, 1868</td><td>85</td><td>....._--</td><td>b15</td><td>−1</td></tr><tr><td>BNow Ym  18</td><td>-*6</td><td>.…</td><td>−30</td><td>−0</td></tr><tr><td>New York Times__.----...-.----.-..-----.-..-....-.-.- Aug. 20, l871</td><td>:15</td><td>--------</td><td>85</td><td>−1</td></tr><tr><td>NlbwArgH.........87</td><td>95</td><td>._15</td><td>−70</td><td>−1</td></tr><tr><td>New Ys157</td><td>-*</td><td>.</td><td>−10</td><td>|1</td></tr><tr><td>New York Times__-..-.-.-..-.--.---.--.....-....-..... Aug, 2, 1873</td><td>25</td><td>-.------</td><td>75</td><td>−3</td></tr><tr><td>Sha</td><td></td><td>**</td><td>1</td><td>i</td></tr></table>",
+      "cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "bbox": [
+            0,
+            0,
+            433,
+            17
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "bbox": [
+            433,
+            0,
+            484,
+            17
+          ],
+          "text": "bPerce",
+          "score": 0.8453828692436218,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "bbox": [
+            484,
+            0,
+            536,
+            17
+          ],
+          "text": "ntages of",
+          "score": 0.9581185579299927,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "bbox": [
+            536,
+            0,
+            586,
+            17
+          ],
+          "text": "each",
+          "score": 0.9894494414329529,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "bbox": [
+            586,
+            0,
+            638,
+            17
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "bbox": [
+            0,
+            17,
+            433,
+            32
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            433,
+            17,
+            484,
+            32
+          ],
+          "text": "−kf",
+          "score": 0.8429925441741943,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            484,
+            17,
+            536,
+            32
+          ],
+          "text": "nd of flb",
+          "score": 0.9231106638908386,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            536,
+            17,
+            586,
+            32
+          ],
+          "text": "b",
+          "score": 0.6597671508789062,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "bbox": [
+            586,
+            17,
+            638,
+            32
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "bbox": [
+            0,
+            32,
+            433,
+            42
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            433,
+            32,
+            484,
+            42
+          ],
+          "text": "———",
+          "score": 0.6521983742713928,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            484,
+            32,
+            536,
+            42
+          ],
+          "text": "—",
+          "score": 0.2833058536052704,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            536,
+            32,
+            586,
+            42
+          ],
+          "text": "—1",
+          "score": 0.5189020037651062,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "bbox": [
+            586,
+            32,
+            638,
+            42
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "bbox": [
+            0,
+            42,
+            433,
+            62
+          ],
+          "text": "TitleDate",
+          "score": 0.5128469467163086,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            433,
+            42,
+            484,
+            62
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            484,
+            42,
+            536,
+            62
+          ],
+          "text": ".Chem-",
+          "score": 0.8965330123901367,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            536,
+            42,
+            586,
+            62
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "bbox": [
+            586,
+            42,
+            638,
+            62
+          ],
+          "text": "Orade",
+          "score": 0.8725686073303223,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 0,
+          "bbox": [
+            0,
+            62,
+            433,
+            76
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            433,
+            62,
+            484,
+            76
+          ],
+          "text": ".Rag",
+          "score": 0.9623960852622986,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            484,
+            62,
+            536,
+            76
+          ],
+          "text": "−ical",
+          "score": 0.9699962735176086,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            536,
+            62,
+            586,
+            76
+          ],
+          "text": "Straw",
+          "score": 0.9989117383956909,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 4,
+          "column": 4,
+          "bbox": [
+            586,
+            62,
+            638,
+            76
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 5,
+          "column": 0,
+          "bbox": [
+            0,
+            76,
+            433,
+            92
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 5,
+          "column": 1,
+          "bbox": [
+            433,
+            76,
+            484,
+            92
+          ],
+          "text": "|",
+          "score": 0.3167308568954468,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 2,
+          "bbox": [
+            484,
+            76,
+            536,
+            92
+          ],
+          "text": "−wood",
+          "score": 0.8394461870193481,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 5,
+          "column": 3,
+          "bbox": [
+            536,
+            76,
+            586,
+            92
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 5,
+          "column": 4,
+          "bbox": [
+            586,
+            76,
+            638,
+            92
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 6,
+          "column": 0,
+          "bbox": [
+            0,
+            92,
+            433,
+            108
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 1,
+          "bbox": [
+            433,
+            92,
+            484,
+            108
+          ],
+          "text": "|———",
+          "score": 0.7019706964492798,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 2,
+          "bbox": [
+            484,
+            92,
+            536,
+            108
+          ],
+          "text": "——",
+          "score": 0.8708713054656982,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 3,
+          "bbox": [
+            536,
+            92,
+            586,
+            108
+          ],
+          "text": "|—",
+          "score": 0.5577900409698486,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 6,
+          "column": 4,
+          "bbox": [
+            586,
+            92,
+            638,
+            108
+          ],
+          "text": ".—:",
+          "score": 0.682094395160675,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 0,
+          "bbox": [
+            0,
+            108,
+            433,
+            125
+          ],
+          "text": "New YorkWorld___-.......................____________Jan. 19, 1868",
+          "score": 0.7848324775695801,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 1,
+          "bbox": [
+            433,
+            108,
+            484,
+            125
+          ],
+          "text": "85",
+          "score": 0.9718525409698486,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 2,
+          "bbox": [
+            484,
+            108,
+            536,
+            125
+          ],
+          "text": "....._--",
+          "score": 0.6501110792160034,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 3,
+          "bbox": [
+            536,
+            108,
+            586,
+            125
+          ],
+          "text": "b15",
+          "score": 0.6812028884887695,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 7,
+          "column": 4,
+          "bbox": [
+            586,
+            108,
+            638,
+            125
+          ],
+          "text": "−1",
+          "score": 0.3243107199668884,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 8,
+          "column": 0,
+          "bbox": [
+            0,
+            125,
+            433,
+            161
+          ],
+          "text": "BNow Ym  18",
+          "score": 0.5911571979522705,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 8,
+          "column": 1,
+          "bbox": [
+            433,
+            125,
+            484,
+            161
+          ],
+          "text": "-*6",
+          "score": 0.6586107015609741,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 8,
+          "column": 2,
+          "bbox": [
+            484,
+            125,
+            536,
+            161
+          ],
+          "text": ".…",
+          "score": 0.7258256673812866,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 8,
+          "column": 3,
+          "bbox": [
+            536,
+            125,
+            586,
+            161
+          ],
+          "text": "−30",
+          "score": 0.6611520648002625,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 8,
+          "column": 4,
+          "bbox": [
+            586,
+            125,
+            638,
+            161
+          ],
+          "text": "−0",
+          "score": 0.33731895685195923,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 9,
+          "column": 0,
+          "bbox": [
+            0,
+            161,
+            433,
+            173
+          ],
+          "text": "New York Times__.----...-.----.-..-----.-..-....-.-.- Aug. 20, l871",
+          "score": 0.6905462741851807,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 9,
+          "column": 1,
+          "bbox": [
+            433,
+            161,
+            484,
+            173
+          ],
+          "text": ":15",
+          "score": 0.8477864861488342,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 9,
+          "column": 2,
+          "bbox": [
+            484,
+            161,
+            536,
+            173
+          ],
+          "text": "--------",
+          "score": 0.8657248020172119,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 9,
+          "column": 3,
+          "bbox": [
+            536,
+            161,
+            586,
+            173
+          ],
+          "text": "85",
+          "score": 0.867713212966919,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 9,
+          "column": 4,
+          "bbox": [
+            586,
+            161,
+            638,
+            173
+          ],
+          "text": "−1",
+          "score": 0.6964406371116638,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 10,
+          "column": 0,
+          "bbox": [
+            0,
+            173,
+            433,
+            197
+          ],
+          "text": "NlbwArgH.........87",
+          "score": 0.575631320476532,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 10,
+          "column": 1,
+          "bbox": [
+            433,
+            173,
+            484,
+            197
+          ],
+          "text": "95",
+          "score": 0.7282987833023071,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 10,
+          "column": 2,
+          "bbox": [
+            484,
+            173,
+            536,
+            197
+          ],
+          "text": "._15",
+          "score": 0.5101653337478638,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 10,
+          "column": 3,
+          "bbox": [
+            536,
+            173,
+            586,
+            197
+          ],
+          "text": "−70",
+          "score": 0.6546719670295715,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 10,
+          "column": 4,
+          "bbox": [
+            586,
+            173,
+            638,
+            197
+          ],
+          "text": "−1",
+          "score": 0.611163854598999,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 11,
+          "column": 0,
+          "bbox": [
+            0,
+            197,
+            433,
+            233
+          ],
+          "text": "New Ys157",
+          "score": 0.5260577201843262,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 11,
+          "column": 1,
+          "bbox": [
+            433,
+            197,
+            484,
+            233
+          ],
+          "text": "-*",
+          "score": 0.7059324979782104,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 11,
+          "column": 2,
+          "bbox": [
+            484,
+            197,
+            536,
+            233
+          ],
+          "text": ".",
+          "score": 0.49573320150375366,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 11,
+          "column": 3,
+          "bbox": [
+            536,
+            197,
+            586,
+            233
+          ],
+          "text": "−10",
+          "score": 0.65993332862854,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 11,
+          "column": 4,
+          "bbox": [
+            586,
+            197,
+            638,
+            233
+          ],
+          "text": "|1",
+          "score": 0.3612564206123352,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 12,
+          "column": 0,
+          "bbox": [
+            0,
+            233,
+            433,
+            245
+          ],
+          "text": "New York Times__-..-.-.-..-.--.---.--.....-....-..... Aug, 2, 1873",
+          "score": 0.7557234168052673,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 12,
+          "column": 1,
+          "bbox": [
+            433,
+            233,
+            484,
+            245
+          ],
+          "text": "25",
+          "score": 0.9984830617904663,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 12,
+          "column": 2,
+          "bbox": [
+            484,
+            233,
+            536,
+            245
+          ],
+          "text": "-.------",
+          "score": 0.6093823313713074,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 12,
+          "column": 3,
+          "bbox": [
+            536,
+            233,
+            586,
+            245
+          ],
+          "text": "75",
+          "score": 0.9990266561508179,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 12,
+          "column": 4,
+          "bbox": [
+            586,
+            233,
+            638,
+            245
+          ],
+          "text": "−3",
+          "score": 0.69775390625,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 13,
+          "column": 0,
+          "bbox": [
+            0,
+            245,
+            433,
+            300
+          ],
+          "text": "Sha",
+          "score": 0.27277088165283203,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 13,
+          "column": 1,
+          "bbox": [
+            433,
+            245,
+            484,
+            300
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 13,
+          "column": 2,
+          "bbox": [
+            484,
+            245,
+            536,
+            300
+          ],
+          "text": "**",
+          "score": 0.5633785724639893,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 13,
+          "column": 3,
+          "bbox": [
+            536,
+            245,
+            586,
+            300
+          ],
+          "text": "1",
+          "score": 0.6806429028511047,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 13,
+          "column": 4,
+          "bbox": [
+            586,
+            245,
+            638,
+            300
+          ],
+          "text": "i",
+          "score": 0.2685486376285553,
+          "status": "ctc-decoded"
+        }
+      ],
+      "columns": 5,
+      "rows": 14,
+      "x_boundaries": [
+        0,
+        433,
+        484,
+        536,
+        586,
+        638
+      ],
+      "y_boundaries": [
+        0,
+        17,
+        32,
+        42,
+        62,
+        76,
+        92,
+        108,
+        125,
+        161,
+        173,
+        197,
+        233,
+        245,
+        300
+      ]
+    }
+  },
+  {
+    "file": "us-preservation-p3-table3.png",
+    "seconds": 5.21145504100059,
+    "result": {
+      "text": "<table><tr><td>—    — . . ———</td><td></td><td></td><td></td><td></td><td>−-… </td></tr><tr><td>Poart </td><td>Jant. 31, 18 </td><td>._5</td><td>.…</td><td>−3</td><td>|2</td></tr><tr><td></td><td>-</td><td>1-</td><td>—-</td><td>-</td><td>]</td></tr><tr><td></td><td>_-</td><td>...-</td><td>.-.--</td><td>---.-</td><td>−1.s</td></tr></table>",
+      "cells": [
+        {
+          "row": 0,
+          "column": 0,
+          "bbox": [
+            0,
+            0,
+            340,
+            11
+          ],
+          "text": "—    — . . ———",
+          "score": 0.6243293881416321,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "bbox": [
+            340,
+            0,
+            432,
+            11
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "bbox": [
+            432,
+            0,
+            484,
+            11
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 0,
+          "column": 3,
+          "bbox": [
+            484,
+            0,
+            534,
+            11
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 0,
+          "column": 4,
+          "bbox": [
+            534,
+            0,
+            585,
+            11
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 0,
+          "column": 5,
+          "bbox": [
+            585,
+            0,
+            636,
+            11
+          ],
+          "text": "−-… ",
+          "score": 0.47169458866119385,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 0,
+          "bbox": [
+            0,
+            11,
+            340,
+            42
+          ],
+          "text": "Poart ",
+          "score": 0.6596314907073975,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            340,
+            11,
+            432,
+            42
+          ],
+          "text": "Jant. 31, 18 ",
+          "score": 0.71650230884552,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            432,
+            11,
+            484,
+            42
+          ],
+          "text": "._5",
+          "score": 0.5962101817131042,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            484,
+            11,
+            534,
+            42
+          ],
+          "text": ".…",
+          "score": 0.5281490087509155,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 4,
+          "bbox": [
+            534,
+            11,
+            585,
+            42
+          ],
+          "text": "−3",
+          "score": 0.8327494859695435,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 1,
+          "column": 5,
+          "bbox": [
+            585,
+            11,
+            636,
+            42
+          ],
+          "text": "|2",
+          "score": 0.5726433992385864,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 0,
+          "bbox": [
+            0,
+            42,
+            340,
+            50
+          ],
+          "text": "",
+          "score": null,
+          "status": "blank-or-rules"
+        },
+        {
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            340,
+            42,
+            432,
+            50
+          ],
+          "text": "-",
+          "score": 0.5228890180587769,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            432,
+            42,
+            484,
+            50
+          ],
+          "text": "1-",
+          "score": 0.7717498540878296,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            484,
+            42,
+            534,
+            50
+          ],
+          "text": "—-",
+          "score": 0.42409563064575195,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 4,
+          "bbox": [
+            534,
+            42,
+            585,
+            50
+          ],
+          "text": "-",
+          "score": 0.7032934427261353,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 2,
+          "column": 5,
+          "bbox": [
+            585,
+            42,
+            636,
+            50
+          ],
+          "text": "]",
+          "score": 0.8694690465927124,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 0,
+          "bbox": [
+            0,
+            50,
+            340,
+            76
+          ],
+          "text": "",
+          "score": 0.0,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            340,
+            50,
+            432,
+            76
+          ],
+          "text": "_-",
+          "score": 0.5050594806671143,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            432,
+            50,
+            484,
+            76
+          ],
+          "text": "...-",
+          "score": 0.44139641523361206,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            484,
+            50,
+            534,
+            76
+          ],
+          "text": ".-.--",
+          "score": 0.6523657441139221,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 4,
+          "bbox": [
+            534,
+            50,
+            585,
+            76
+          ],
+          "text": "---.-",
+          "score": 0.6544734239578247,
+          "status": "ctc-decoded"
+        },
+        {
+          "row": 3,
+          "column": 5,
+          "bbox": [
+            585,
+            50,
+            636,
+            76
+          ],
+          "text": "−1.s",
+          "score": 0.8021104335784912,
+          "status": "ctc-decoded"
+        }
+      ],
+      "columns": 6,
+      "rows": 4,
+      "x_boundaries": [
+        0,
+        340,
+        432,
+        484,
+        534,
+        585,
+        636
+      ],
+      "y_boundaries": [
+        0,
+        11,
+        42,
+        50,
+        76
+      ]
+    }
+  }
+]
