@@ -1,5 +1,5 @@
 """Install per-user launchd services; run on the Mac after Git checkout/dependencies."""
-import json,os,plistlib,secrets,subprocess
+import json,os,plistlib,secrets,subprocess,time
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];HOME=Path.home();BASE=HOME/'research-server'
 os.environ['PATH']='/opt/homebrew/bin:/usr/local/bin:/Applications/Docker.app/Contents/Resources/bin:/usr/bin:/bin:/usr/sbin:/sbin'
@@ -35,5 +35,13 @@ for name,args in services.items():
     path.write_bytes(plistlib.dumps(spec));os.chmod(path,0o600)
     domain=f'gui/{os.getuid()}'
     subprocess.run(['launchctl','bootout',domain+'/'+label],capture_output=True)
-    subprocess.run(['launchctl','bootstrap',domain,str(path)],check=True)
+    # bootout returns before the old service is fully reaped; wait before re-registering.
+    for attempt in range(20):
+        if subprocess.run(['launchctl','print',domain+'/'+label],capture_output=True).returncode!=0:break
+        time.sleep(.25)
+    for attempt in range(5):
+        registered=subprocess.run(['launchctl','bootstrap',domain,str(path)],capture_output=True)
+        if registered.returncode==0:break
+        if attempt==4:raise RuntimeError(registered.stderr.decode())
+        time.sleep(1)
 print(json.dumps({'services':list(services),'commit':env['RESEARCH_COMMIT'],'state':str(state)}))
