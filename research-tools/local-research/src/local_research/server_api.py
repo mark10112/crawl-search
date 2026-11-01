@@ -9,7 +9,7 @@ import uvicorn
 from .stack import ResearchStack,Settings
 from .jobs import JobStore
 
-stack=None;store=None;worker=None
+stack=None;store=None;worker=None;draining=False
 ALLOWED={'url','upload_id','max_pages','start_page','max_chars','cache','ocr_engine','language_hint','ocr_policy','mode'}
 def validate(args):
     if set(args)-ALLOWED:raise ValueError('Unsupported reader arguments')
@@ -39,7 +39,8 @@ async def consume():
         result['server_commit']=os.getenv('RESEARCH_COMMIT','unknown');store.finish(job['id'],result)
 @asynccontextmanager
 async def lifespan(app):
-    global stack,store,worker
+    global stack,store,worker,draining
+    draining=os.getenv('RESEARCH_START_DRAINED','0')=='1'
     stack=ResearchStack();store=JobStore(Path(os.getenv('RESEARCH_JOBS_DIR',str(stack.settings.state_dir/'jobs'))));store.recover();worker=asyncio.create_task(consume())
     try:yield
     finally:
@@ -50,6 +51,7 @@ async def guarded(fn):
     try:return JSONResponse(await fn())
     except Exception as exc:return JSONResponse({'ok':False,'error':str(exc)},status_code=400)
 async def read(request):
+    if admission_closed(request):return JSONResponse({'ok':False,'error':'Deployment in progress; retry shortly'},status_code=503,headers={'Retry-After':'10'})
     async def call():
         job=store.submit(validate(await request.json()));deadline=time.monotonic()+600
         while job['status'] in {'queued','running'}:
@@ -62,11 +64,28 @@ async def search(request):
     async def call():return await stack.search(**await request.json())
     return await guarded(call)
 async def health(request):
-    result=await stack.health();result.update(server='mac-research',commit=os.getenv('RESEARCH_COMMIT','unknown'),worker_alive=bool(worker and not worker.done()));return JSONResponse(result)
+    result=await stack.health();result.update(server='mac-research',commit=os.getenv('RESEARCH_COMMIT','unknown'),worker_alive=bool(worker and not worker.done()),draining=draining,jobs=store.counts())
+    status_file=os.getenv('RESEARCH_DEPLOY_STATUS_FILE')
+    if status_file:
+        try:
+            import json
+            result['deployment']=json.loads(Path(status_file).read_text())
+        except (OSError,ValueError):pass
+    return JSONResponse(result)
+def admission_closed(request):
+    # Admission control during rollout, not authentication. The API is loopback-only.
+    return draining and request.headers.get('x-research-deploy-probe')!='1'
+async def maintenance(request):
+    global draining
+    body=await request.json()
+    if body.get('action') not in {'drain','resume'}:return JSONResponse({'error':'Invalid maintenance action'},status_code=400)
+    draining=body['action']=='drain'
+    return JSONResponse({'draining':draining,'jobs':store.counts()})
 async def complete(request):
     async def call():return await stack.complete_fallback(**await request.json())
     return await guarded(call)
 async def submit(request):
+    if admission_closed(request):return JSONResponse({'ok':False,'error':'Deployment in progress; retry shortly'},status_code=503,headers={'Retry-After':'10'})
     async def call():return store.submit(validate(await request.json()))
     return await guarded(call)
 async def status(request):
@@ -86,5 +105,5 @@ async def asset(request):
         media='application/pdf' if magic.startswith(b'%PDF') else 'image/png' if magic.startswith(b'\x89PNG') else 'image/jpeg' if magic.startswith(b'\xff\xd8') else 'image/tiff'
         return FileResponse(path,media_type=media)
     except ValueError:return JSONResponse({'error':'Unknown asset'},status_code=404)
-app=Starlette(routes=[Route('/read',read,methods=['POST']),Route('/search',search,methods=['POST']),Route('/health',health),Route('/complete',complete,methods=['POST']),Route('/jobs',submit,methods=['POST']),Route('/jobs/{ident}',status),Route('/uploads',upload,methods=['POST']),Route('/assets/{ident}',asset)],lifespan=lifespan)
+app=Starlette(routes=[Route('/read',read,methods=['POST']),Route('/search',search,methods=['POST']),Route('/health',health),Route('/maintenance',maintenance,methods=['POST']),Route('/complete',complete,methods=['POST']),Route('/jobs',submit,methods=['POST']),Route('/jobs/{ident}',status),Route('/uploads',upload,methods=['POST']),Route('/assets/{ident}',asset)],lifespan=lifespan)
 if __name__=='__main__':uvicorn.run(app,host='127.0.0.1',port=int(os.getenv('LOCAL_RESEARCH_PORT','8768')),log_level='warning')

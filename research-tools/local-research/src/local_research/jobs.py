@@ -23,6 +23,8 @@ class JobStore:
         row=self.db.execute("SELECT id FROM jobs WHERE status='queued' ORDER BY created LIMIT 1").fetchone()
         if not row:return None
         self.db.execute("UPDATE jobs SET status='running',attempts=attempts+1,updated=? WHERE id=?",(time.time(),row['id']));self.db.commit();return self.get(row['id'])
+    def counts(self):
+        return {row['status']:row['n'] for row in self.db.execute('SELECT status,COUNT(*) AS n FROM jobs GROUP BY status')}
     def finish(self,ident,result):
         self.db.execute('UPDATE jobs SET status=?,result=?,updated=? WHERE id=?',('complete' if result.get('ok') else 'failed',json.dumps(result,ensure_ascii=False),time.time(),ident));self.db.commit()
     def upload(self,data):

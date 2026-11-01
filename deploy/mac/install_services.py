@@ -3,7 +3,7 @@ import json,os,plistlib,secrets,subprocess,time
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];HOME=Path.home();BASE=HOME/'research-server'
 os.environ['PATH']='/opt/homebrew/bin:/usr/local/bin:/Applications/Docker.app/Contents/Resources/bin:/usr/bin:/bin:/usr/sbin:/sbin'
-PKG=ROOT/'research-tools/local-research';PY=PKG/'.venv/bin/python';OCR=BASE/'envs/ocr/bin/python'
+PKG=ROOT/'research-tools/local-research';PY=PKG/'.venv/bin/python';OCR=Path(os.getenv('RESEARCH_OCR_PYTHON',str(BASE/'envs/ocr/bin/python')))
 MODEL=HOME/'.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42'
 config=BASE/'config/searxng';config.mkdir(parents=True,exist_ok=True)
 settings=config/'settings.yml'
@@ -43,6 +43,7 @@ env={'PATH':'/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin','HF
     'PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK':'True','LOCAL_RESEARCH_STATE':str(state/'reader'),'LOCAL_RESEARCH_OCR_URL':'http://127.0.0.1:8091',
     'LOCAL_RESEARCH_OCR_TIMEOUT':'480','SEARXNG_URL':'http://127.0.0.1:8088','RESEARCH_JOBS_DIR':str(state/'jobs'),
     'MAC_OCR_MODEL':str(MODEL),'PADDLEOCR_VL_MAX_NEW_TOKENS':'8192','RESEARCH_COMMIT':subprocess.check_output(['git','-C',str(ROOT),'rev-parse','HEAD'],text=True).strip()}
+env.update(RESEARCH_START_DRAINED=os.getenv('RESEARCH_START_DRAINED','0'),RESEARCH_DEPLOY_STATUS_FILE=str(BASE/'deployments/status.json'))
 agents=HOME/'Library/LaunchAgents';agents.mkdir(exist_ok=True)
 services={
     'search':[str(PY),str(ROOT/'deploy/mac/search_service.py')],
