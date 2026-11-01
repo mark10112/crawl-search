@@ -1,0 +1,55 @@
+{
+  "variant": "after",
+  "mode": "auto",
+  "id": "us-preservation",
+  "worker_sha": "27466cae9c17ab3427295d0c64cc1b93556e551c",
+  "reader_sha": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b",
+  "started_at": 1793545109.6162162,
+  "ended_at": 1793545109.848119,
+  "elapsed_ms": 231.9,
+  "request": {
+    "upload_id": "20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+    "mode": "auto",
+    "cache": false,
+    "max_pages": 3,
+    "max_chars": 40000,
+    "ocr_policy": "balanced"
+  },
+  "raw": {
+    "ok": true,
+    "url": "http://127.0.0.1:8778/assets/20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+    "reader": "pdf-text",
+    "cache_hit": false,
+    "stages": [
+      {
+        "name": "fetch",
+        "ok": true,
+        "elapsed_ms": 6.19
+      },
+      {
+        "name": "pdf-text",
+        "ok": true,
+        "elapsed_ms": 13.74,
+        "needs_ocr": false
+      }
+    ],
+    "text": "<!-- page 1 -->\nPRESERVATION OF NEWSPAPER RECORDS\nBy B. W.\nScribner\nABSTRACT\nAn examination of newspapers published in the United States during the period\n1830 to 1900 was made relative to preservation\nof\nthis form\nof record.\nThe\npapers were composed entirely of rag fiber prior to\n1868, and mixtures of this\nfiber with other chemically treated fibers from straw were found in some papers\ndated prior to 1880.\nNearly all of these papers were in good condition.\nMost of\nthe papers published after 1868 contained crude ground wood fiber and\nthese\nhad deteriorated considerably.\nTests of special issues of newspapers printed since\n1927 on high-grade paper for permanent library files indicate that some records\nwill be. preserved in this way.\nFor retarding decay of newspapers, the use of\njapanese tissue paper or transparent cellulose acetate sheeting appears to be effec-\ntive.\nApparently very stable reproductions of newspaper records can be made by\nphotostatic and photolithographic printing on high-grade paper or by the use of\nphotographic\nglass\nplates.\nThe\nprinting\nof\nthe\nnegative on\nglass\nplates\nin\nminiature, and reproduction of the prints on film slides, from which they can be\nprojected in enlarged form for reading,\nare suggested\nfor consideration when\nextensive reproductions are made.\nCONTENTS\nPage\nI.\nIntroduction\n1\nII. Examination of old newspapers\n2\nIII.\nProtective measures\n5\nIV. Reproduction of newspapers\n8\nV. Newsprint for permanent editions\n9\nVI. Recommendations\n10\nI. INTRODUCTION\nNewspapers are a most important class of historical records as they\npresent, when taken as a whole, the most authentic cross section of\ncontemporaneous\nlife and\nevents.\nThese records\nare\nin\nthe main\nfactual; they are not the result of opinions and deductions such as is\noften the case in historical writings.\nFor this reason, the newspaper\nfiles constitute one of the most important and active classes of refer-\nence records preserved in libraries.\nUnfortunately,\nconsidered from the viewpoint\nof\ntheir perpetual\nvalue, the immediate function of newspapers\nis to inform people of\ncurrent events\nas\nquickly and inexpensively\nas\npossible, and\nthis\nrequires cheap paper\nsuited\nto\nrapid and low-cost\nprinting.\nThe\npresent type of newsprint, composed largely of crude ground wood\nfibers, is ideally suited to this function but its preservation is difficult,\nas its initial strength is low and it becomes brittle through deteriora-\ntion of the fibers.\nNewspapers were first printed on rag fiber paper\nwhich was strong and durable, and there has been little difficulty in\npreserving the papers printed prior to the use of crude wood fibers.\nAs a result\nof the observed deterioration of newspapers,\nthe New\nYork Times initiated in 1927 the issue of a part of its daily edition\n67698—34\ni\n\n\n<!-- page 2 -->\n2\nMiscellaneous Publications, National Bureau of Standards\nprinted on high-grade paper for the permanent files of libraries, and\nseveral\nother\nnewspaper\npublishers\nhave\nadopted\nthis\npractice.\nPreceding these special editions, then, there was a long period during\nwhich all newspapers were printed on paper which is subject to more or\nless rapid decay.\nIn view of the importance of obtaining information\nwhich might assist in any project to perpetuate the newspaper records,\na study of newspapers stored in libraries was made to definitely fix the\nperiod of use of impermanent newsprint, and some attention was given\nto preservative treatments for newspapers and the reproduction of\ntheir contents.\n1\nII. EXAMINATION OF OLD NEWSPAPERS\nThrough the cooperation\nof the New York Public Library,\nthe\nLibrary of Congress, the Free Library of Oakland,\nCalif., and pub-\nlishers of Pacific coast papers, specimens were secured from news-\npapers published in the United States during the period 1830 to 1900,\nwith\nshort\nintervals between\nthe\npublication\ndates.\nThis\nperiod\ncovers the various transitions in the use of different kinds of fibers\nfor newsprint.\nThe specimens examined were from 18 eastern papers\nand 9 west coast papers.\nSince there are seldom duplicate copies of\nold newspapers in any one file, the specimens were necessarily limited\nto small strips cut from the margins.\nThey were examined for state\nof preservation by visual inspection of color and by creasing them\nbetween\nthe\nfingers\nfor\nestimation\nof\ntheir\nrelative\nstrength and\nflexibility.\nActual measurement of these properties was not neces-\nsary as it was found that three different operators graded the papers\nquite uniformly by this procedure.\nThe papers fell naturally into five\ngrades.\nThose designated as grade\n1\nwere\nin\nexcellent condition,\nshowing little\nevidence of discoloration or brittleness, while those in\ngrade\n5 were deep brown\nin color and so\nbrittle that they usually\nbroke under one or two creasings.\nThe other specimens were interme-\ndiate in these respects, in the relative order of the numbers.\nThe de-\ngree of discoloration of the specimens closely paralleled the degree of\nbrittleness.\nIdentification of the fibers was made by the usual micro-\nscopical method.\nThe results of the examination of the papers are given in tables\n1,\n2, and 3, in which the papers are grouped according to the kinds of\nfibers\nin\nthem.\nSome\nof\nthe\npapers\napparently\ncontained some\nesparto fibers but, as their differentiation from straw fibers could not\nin most cases be made positively, all such fibers were included under\nthe general designation of \" straw.\"\ni This is one of a series of investigations concerning the preservation of written and printed records made\nat the National Bureau of Standards with the assistance of a fund granted for the purpose by the Carnegie\nCorporation to the National Research Council.\n\n\n<!-- page 3 -->\nScribner]\nPreservation of Newspaper Records\nTable\n1.\nCondition of newspapers composed\nentirely of chemically\npurified\nrag fiber\nEASTERN PAPERS\nTitle\nDate\nGrade\nNew York Journal of Commerce...\nAlbany Argus\nCincinnati Daily Gazette\nNew York Journal of Commerce...\nAlbany Argus\nNew York Herald\nCincinnati Daily Gazette...\nAlbany Argus\nNew York Herald\nNew York Journal of Commerce. ..\nCincinnati Daily Gazette\nDo\nNew York Journal of Commerce. ..\nNew York Hearld\nAlbany Argus\nNew York Herald\nNew York Journal of Commerce...\nCincinnati Daily Gazette.\nAlbany Journal\nAlbany Argus\nNew York Commercial Advertiser.\nNew York Herald\nNew York Evening Post\nCincinnati Daily Gazette\nNew York Journal of Commerce...\nNew York Commercial Advertizer.\nNew York Evening Post.\nNew York Herald\nNew York Journal of Commerce...\nCincinnati Daily Gazette\nNew York Staats Zeitung.\nMay 19,1830\nJune\n30,1830\nOct.\n2, 1830\nOct.\n1, 1834\nJune\n30,1835\nMay\n1, 1838\nSept.\n6,1838\nJuly\n30,1839\nFeb.\n4, 1840\nJune\n27,1840\nSept.\n2,1840\nJune 21,1845\nJune\n24,1845\nSept.\n1,1845\nSept.\n5,1845\nJune\n22,1850\nJune 28,1850\nSept.\n2,1850\nSept.\n3,1850\nFeb.\n21,1855\nJune\n22,1855\nJune\n24,1855\nJune\n30,1855\nSept.\n1,1855\nSept.\n4,1855\nSept.\n2,1859\nJune\n29,1860\nJune\n30,1860\nSept.\n4,1860\ndo\nJan.\n9, 1866\nPACIFIC COAST PAPERS\nSan Francisco Chronicle.\nPortland Oregonian\nDo\nDo\nDo\nAverage.\nJuly\n17, 1854\n1\nSept. — , 1859\n1\nJan. — , 1863\n2\nAug. —, 1872\n1\nJan. — , 1876\n1\n1.2\nTable\n2.-\nCondition of newspapers composed of various chemically purified fibers\nEASTERN PAPERS\nTitle\nDate\nPercentages of each\nkind of fiber\nGrade\nRag\nChem-\nical\nwood\nStraw\nNew York World\nJan.\n19,1868\nJan.\n27,1869\nSept.\n7,1870\nJan.\n26,1870\nAug.\n20,1871\nMar. 19,1872\nDec.\n28,1872\nMay 21,1872\nJan.\n31,1872\nMar.\n27, 1873\nAug.\n23,1873\nAug.\n15,1873\nFeb.\n14,1874\nApr.\n29,1876\nAug.\n30,1880\n85\n15\n100\n50\n25\n85\n70\n10\n100\n80\n90\n75\n15\n2\nBrooklyn Daily Eagle\nNew York Evening Express...\n_._\n50\n75\n15\n15\n90\nNew York Staats Zeitung\n.\nNew York Times\nAlbany Argus\n15\nNew York Herald\nNew York Sun\n..\n..\n..\nNew York Weekly Times..\n._\n.\n.\n.\n20\n10\n25\n85\n90\n50\n10\nNew York Journal of Commerce\nNew York Times\nNew York Evening Post.\n...\n..\nChicago Verbote\n10\n30\n90\nDo\n20\nCincinnati Daily Gazette\nPACIFIC COAST PAPERS\nPortland Oregonian\nJan.\n—1868\nOct.\n31,1872\n35\n65\n100\n2\n1\nSan Diego Sun\nAverage\n1.8\n1\n",
+    "external_fallback_required": false,
+    "credits_used": 0,
+    "final_url": "http://127.0.0.1:8778/assets/20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+    "content_sha256": "20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+    "document_language_hint": null,
+    "total_pages": 3,
+    "pages_read": [
+      1,
+      3
+    ],
+    "extracted_chars": 7993,
+    "truncated": false,
+    "elapsed_ms": 20.17,
+    "fallback_count": 0,
+    "upload_id": "20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+    "source_kind": "uploaded-document",
+    "server_commit": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b"
+  }
+}

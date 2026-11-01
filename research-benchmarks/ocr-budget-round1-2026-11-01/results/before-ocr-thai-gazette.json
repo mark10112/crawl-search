@@ -1,0 +1,250 @@
+{
+  "variant": "before",
+  "mode": "ocr",
+  "id": "thai-gazette",
+  "worker_sha": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b",
+  "reader_sha": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b",
+  "started_at": 1793544763.600259,
+  "ended_at": 1793544779.0848231,
+  "elapsed_ms": 15484.51,
+  "request": {
+    "upload_id": "4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+    "mode": "ocr",
+    "cache": false,
+    "max_pages": 3,
+    "max_chars": 40000,
+    "ocr_policy": "quality"
+  },
+  "raw": {
+    "ok": true,
+    "url": "http://127.0.0.1:8778/assets/4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+    "reader": "router:paddleocr-vl-1.6-mlx-layout",
+    "cache_hit": false,
+    "stages": [
+      {
+        "name": "fetch",
+        "ok": true,
+        "elapsed_ms": 9.81
+      },
+      {
+        "name": "pdf-text",
+        "ok": true,
+        "elapsed_ms": 1.84,
+        "needs_ocr": true
+      },
+      {
+        "name": "ocr-router",
+        "ok": true,
+        "elapsed_ms": 15273.27
+      }
+    ],
+    "text": "\n\n<!-- subset page 1 -->\n# สารบาดู\n\nW.P. ๑๔๑๐๕\n\ni0a ประกาศสงกรานต์ ปีจอ จัตวาศก\n\nประการกำเนิดเรื่องการถวายทางเงินพระเจ้าลูกเรือ\n\nในการโสกินค์\n\nประกาศเรื่องเกณฑ์ทรายโรยถนนในการ\n\nพระศพ\n\nประกาศห้ามมิให้กราบบังคมทุลทักอ้วนผอม\n\nขาวคำ\n\nประกาศวางโทษเรื่องทักอ้วนผอม\n\nประกาศให้เรียกกลองวัดชัยพฤกษ์ว่ากลองมหา\n\nสวัสดี กลองเข้าไปพระปฐมว่ากลองเจ็ดยีบูชา\n\nออส ประกาศให้ชำระตัวเลขพระกลังสุภรัต ซึ่งไป\n\nแอบอิงอยูในกรมท่างๆ ส่งให้กลังสุภรัต\n\n<!-- subset page 2 -->\nประกาศให้คัดเรื่องความที่ราบฝรพ์อาร์อังขัน\n\nทุลเกล้า ฯ ถวาย\n\n๒๒๐ ประกาศให้เก็บภาษีหัวเปียรวมอยูโนบ่อน\n\nประกาศให้ใช้กะแปะอัฐแลโสพสต์ที่ทำขึ้นใหม่\n\n๒๒๒ ประกาศห้ามไม่ให้คืนกันเรื่องกะแปะอัฐแลโสพส\n\nจะใช้ไม่ได้\n\n意的\n\nปรากฏกำหนดในข้อมูลที่ใช้ในสายลดที่พื้นที่ที่จ่าย\n\nปราวกาศขยายสถานทีวัตหน้าแล้วกับกระแปะอัฐแล้โสพส\n\nต้นประกาศพระราชทานเปลี่ยนทีวิสูจน์ความสีมา\n\nเมืองลพบุรี\n\nโปรกาศการพระราชพิธีลงสร้างไส้กำเนิดพระเจ้า\n\nลูกเธอ\n\nประกาศให้ข้าราชการที่ทำการวิว่าหมดโกนจุก\n\nบุตร นำความกราบบังคมทูล ๖ แล้วข้าราชการใน\n\nทำเนียบ ถึงแก่กรรมให้บอกกระทรวงวัง\n\nประกาศไม่ให้หม่อมเจ้าหม่อมราชวงศ์กลอดจน\n\nบุตรหลานเหล่นไปเทียวตามหัวเมืองโดยมิได้\n\nทุลลา\n\nประกาศเรื่องการนุ่มขาว และกระแสพระราชค่ำรัส\n\nในการที่ทรงแจกพระราชทรัพย์ส่วนพระองค์\n\n<!-- subset page 3 -->\nประกาศมหาสงกรานต์ บีกุน เบญจศก\n\nประกาศพระราชบัญญัติรับฟ้องความเจ้าแล\n\n๒๓๑\n\nห้ามเจ้ามิให้ไปไกลพระนคร\n\n๑๐๖\n\n௩௩௦ ประกาศการทรงปฏิสังขรณ์พระเจ้าก็ยว้กชุมพล-\n\nนิกายราม เกาะบางปะอิน\n\n௦௧௱௦ ประกาศพระราชทานอนุญาตให้ข้าราชการ\n\n௩௦௥௧௦ ฝ่ายในทุลลาออกนอกราชการได้\n\n௩௦௥௧ ประกาศพิกัดรากทางแปท พิศ พักถึงตั\n\n௩௦௥௧ ประกาศห้ามไม่ให้เชื่อถือข้าราชการนอก\n\nทำแท่นง\n\n\n\n\n\n\n\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_seal_box_359_392_461_576.jpg\" alt=\"Image\" width=\"16%\" /></div>\n\n\nประกาศว่าด้วยการเดินเป็นเจ้าเมือง\n\nประกาศงานพระเมรุเจ้าพื้นที่ทรรมณาทล\n\nแลงงานฉลองวัด\n\nปรากฏกำหนดที่ 1 หรือ 100 ทีม 100 ร้าน 100 ดร\n\nW.A.P. 100000\n\nIra'o ประกาศสงกรานต์ บีชวด ฉศก\n\nW.A.P. 100000\n\nIra'o ประกาศสงกรานต์ บีชวด ฉศก",
+    "external_fallback_required": false,
+    "credits_used": 0,
+    "final_url": "http://127.0.0.1:8778/assets/4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+    "content_sha256": "4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+    "document_language_hint": null,
+    "total_pages": 3,
+    "pages_read": [
+      1,
+      3
+    ],
+    "ocr_pages": [
+      1,
+      2,
+      3
+    ],
+    "ocr_routes": [
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 13,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 4
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 3
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 3
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 7
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 7
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 20
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 21
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 28
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 29
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 34
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 36
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 54
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 55
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 5092.42,
+        "quality_warning": "Completion checks are not proof of transcription accuracy."
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 12,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 4
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 27
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 35
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 37
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 37
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 39
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 39
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 42
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 44
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 56
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 57
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 76
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 5072.67,
+        "quality_warning": "Completion checks are not proof of transcription accuracy."
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 12,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 16
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 25
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 33
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 38
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 58
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 80
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 209
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 4943.71,
+        "quality_warning": "Completion checks are not proof of transcription accuracy."
+      }
+    ],
+    "ocr_conversion_ms": 15108.8,
+    "ocr_cold": false,
+    "fast_ocr_error": null,
+    "ocr_warning": "OCR subset page numbers map in order to ocr_pages. OCR may misread names, dates and Thai text; verify against page images.",
+    "extracted_chars": 1880,
+    "truncated": false,
+    "elapsed_ms": 15286.36,
+    "fallback_count": 1,
+    "upload_id": "4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+    "source_kind": "uploaded-document",
+    "server_commit": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b"
+  }
+}

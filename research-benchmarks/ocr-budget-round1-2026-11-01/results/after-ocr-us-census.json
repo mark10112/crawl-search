@@ -1,0 +1,314 @@
+{
+  "variant": "after",
+  "mode": "ocr",
+  "id": "us-census",
+  "worker_sha": "27466cae9c17ab3427295d0c64cc1b93556e551c",
+  "reader_sha": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b",
+  "started_at": 1793545301.122275,
+  "ended_at": 1793545385.750528,
+  "elapsed_ms": 84627.95,
+  "request": {
+    "upload_id": "4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+    "mode": "ocr",
+    "cache": false,
+    "max_pages": 3,
+    "max_chars": 40000,
+    "ocr_policy": "quality"
+  },
+  "raw": {
+    "ok": true,
+    "url": "http://127.0.0.1:8778/assets/4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+    "reader": "router:paddleocr-vl-1.6-mlx-layout",
+    "cache_hit": false,
+    "stages": [
+      {
+        "name": "fetch",
+        "ok": true,
+        "elapsed_ms": 4.26
+      },
+      {
+        "name": "pdf-text",
+        "ok": true,
+        "elapsed_ms": 29.35,
+        "needs_ocr": true
+      },
+      {
+        "name": "ocr-router",
+        "ok": true,
+        "elapsed_ms": 84363.93
+      }
+    ],
+    "text": "\n\n<!-- subset page 1 -->\n# CENSUS BULLETIN.\n\nNo. 21.\n\nWASHINGTON, D. C.\n\nDecember 15, 1900.\n\n## POPULATION OF ILLINOIS BY COUNTIES AND MINOR CIVIL DIVISIONS\n\nThis bulletin, prepared under the direction of Mr. WILLIAM C. HUNT, chief statistician for population, gives the aggregate population of Illinois by counties and minor civil divisions, according to the official count of the returns of the Twelfth Census, taken as of June 1, 1900.\n\ni. The population of Illinois at each census from 1810 to 1900, inclusive, together with the increase by number and per cent during each decade.\n\n<div style=\"text-align: center;\">TABLE 1.—POPULATION OF ILLINOIS: 1810 TO 1900.</div>\n\n\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan=\"2\">GENSUS YEARS.</td><td rowspan=\"2\">Population.</td><td colspan=\"2\">INCREASE.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Number.</td><td style='text-align: center; word-wrap: break-word;'>Per cent.</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1900</td><td style='text-align: center; word-wrap: break-word;'>4,821,550</td><td style='text-align: center; word-wrap: break-word;'>995,199</td><td style='text-align: center; word-wrap: break-word;'>26.0</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1890</td><td style='text-align: center; word-wrap: break-word;'>5,826,351</td><td style='text-align: center; word-wrap: break-word;'>748,480</td><td style='text-align: center; word-wrap: break-word;'>24.3</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1880</td><td style='text-align: center; word-wrap: break-word;'>8,077,871</td><td style='text-align: center; word-wrap: break-word;'>587,980</td><td style='text-align: center; word-wrap: break-word;'>21.1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1870</td><td style='text-align: center; word-wrap: break-word;'>2,599,891</td><td style='text-align: center; word-wrap: break-word;'>827,940</td><td style='text-align: center; word-wrap: break-word;'>48.3</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1860</td><td style='text-align: center; word-wrap: break-word;'>1,711,951</td><td style='text-align: center; word-wrap: break-word;'>860,481</td><td style='text-align: center; word-wrap: break-word;'>101.0</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1850</td><td style='text-align: center; word-wrap: break-word;'>851,470</td><td style='text-align: center; word-wrap: break-word;'>875,287</td><td style='text-align: center; word-wrap: break-word;'>78.8</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1840</td><td style='text-align: center; word-wrap: break-word;'>476,183</td><td style='text-align: center; word-wrap: break-word;'>818,738</td><td style='text-align: center; word-wrap: break-word;'>202.4</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1830</td><td style='text-align: center; word-wrap: break-word;'>157,445</td><td style='text-align: center; word-wrap: break-word;'>102,283</td><td style='text-align: center; word-wrap: break-word;'>185.4</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1820</td><td style='text-align: center; word-wrap: break-word;'>55,162</td><td style='text-align: center; word-wrap: break-word;'>42,880</td><td style='text-align: center; word-wrap: break-word;'>849.1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>1810</td><td style='text-align: center; word-wrap: break-word;'>12,282</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr></table>\n\nThe population of the state in 1900 is 4,821,550 as compared with a population in 1890 of 3,826,351, showing an increase during the last ten years of 995,199, or 26 per cent. This is a greater rate of increase than that for any decade since 1870, and a greater numerical increase than that for any decade in the history of the state. Prior to 1870 the growth of the state was very rapid, and the rate of increase was much greater than it has since been.\n\niThe present population of the state is more than 392 times as great as the population reported for 1810, the first census taken after its organization as a territory in 1809.\n\nThe total land surface of Illinois is, approximately, 56,000 square miles, the average number of persons to the square mile at the censuses of 1890 and 1900 being as follows: 1890, 68.3; 1900, 86.0.\n\n<!-- subset page 2 -->\n-Table 2 shows the population of Illinois by counties at each census from 1810 to 1900, inclusive, while the population of Illinois is higher in the years from 1890 to 1900. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 1900. The population of the city is also a factor that has a significant impact on the population. This is due to the number of county-level populations in the years from 1890 to 19000.\n\n<div style=\"text-align: center;\">TABLE 2.—POPULATION OF ILLINOIS BY COUNTIES: 1810 TO 1900.</div>\n\n\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>COUNTIES.</td><td style='text-align: center; word-wrap: break-word;'>1900</td><td style='text-align: center; word-wrap: break-word;'>1890</td><td style='text-align: center; word-wrap: break-word;'>1880</td><td style='text-align: center; word-wrap: break-word;'>1870</td><td style='text-align: center; word-wrap: break-word;'>1860</td><td style='text-align: center; word-wrap: break-word;'>1850</td><td style='text-align: center; word-wrap: break-word;'>1840</td><td style='text-align: center; word-wrap: break-word;'>1830</td><td style='text-align: center; word-wrap: break-word;'>1820</td><td style='text-align: center; word-wrap: break-word;'>1810</td><td style='text-align: center; word-wrap: break-word;'>1800</td><td style='text-align: center; word-wrap: break-word;'>1790</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>The State</td><td style='text-align: center; word-wrap: break-word;'>4,821,550</td><td style='text-align: center; word-wrap: break-word;'>8,826,351</td><td style='text-align: center; word-wrap: break-word;'>3,077,871</td><td style='text-align: center; word-wrap: break-word;'>2,539,891</td><td style='text-align: center; word-wrap: break-word;'>1,711,951</td><td style='text-align: center; word-wrap: break-word;'>851,470</td><td style='text-align: center; word-wrap: break-word;'>476,183</td><td style='text-align: center; word-wrap: break-word;'>167,445</td><td style='text-align: center; word-wrap: break-word;'>55,162</td><td style='text-align: center; word-wrap: break-word;'>12,282</td><td style='text-align: center; word-wrap: break-word;'>12,458</td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Adams</td><td style='text-align: center; word-wrap: break-word;'>67,056</td><td style='text-align: center; word-wrap: break-word;'>61,588</td><td style='text-align: center; word-wrap: break-word;'>59,135</td><td style='text-align: center; word-wrap: break-word;'>55,862</td><td style='text-align: center; word-wrap: break-word;'>41,323</td><td style='text-align: center; word-wrap: break-word;'>26,509</td><td style='text-align: center; word-wrap: break-word;'>14,476</td><td style='text-align: center; word-wrap: break-word;'>2,186</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Alexander</td><td style='text-align: center; word-wrap: break-word;'>19,984</td><td style='text-align: center; word-wrap: break-word;'>16,568</td><td style='text-align: center; word-wrap: break-word;'>14,828</td><td style='text-align: center; word-wrap: break-word;'>10,944</td><td style='text-align: center; word-wrap: break-word;'>4,707</td><td style='text-align: center; word-wrap: break-word;'>2,454</td><td style='text-align: center; word-wrap: break-word;'>3,313</td><td style='text-align: center; word-wrap: break-word;'>1,390</td><td style='text-align: center; word-wrap: break-word;'>625</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Bond</td><td style='text-align: center; word-wrap: break-word;'>16,078</td><td style='text-align: center; word-wrap: break-word;'>14,550</td><td style='text-align: center; word-wrap: break-word;'>14,806</td><td style='text-align: center; word-wrap: break-word;'>10,152</td><td style='text-align: center; word-wrap: break-word;'>9,815</td><td style='text-align: center; word-wrap: break-word;'>6,144</td><td style='text-align: center; word-wrap: break-word;'>5,060</td><td style='text-align: center; word-wrap: break-word;'>8,124</td><td style='text-align: center; word-wrap: break-word;'>2,931</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Boone</td><td style='text-align: center; word-wrap: break-word;'>16,791</td><td style='text-align: center; word-wrap: break-word;'>12,203</td><td style='text-align: center; word-wrap: break-word;'>11,508</td><td style='text-align: center; word-wrap: break-word;'>12,942</td><td style='text-align: center; word-wrap: break-word;'>11,673</td><td style='text-align: center; word-wrap: break-word;'>7,624</td><td style='text-align: center; word-wrap: break-word;'>1,705</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Brown</td><td style='text-align: center; word-wrap: break-word;'>11,557</td><td style='text-align: center; word-wrap: break-word;'>11,951</td><td style='text-align: center; word-wrap: break-word;'>13,041</td><td style='text-align: center; word-wrap: break-word;'>12,205</td><td style='text-align: center; word-wrap: break-word;'>9,938</td><td style='text-align: center; word-wrap: break-word;'>7,198</td><td style='text-align: center; word-wrap: break-word;'>4,183</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Bureau</td><td style='text-align: center; word-wrap: break-word;'>41,112</td><td style='text-align: center; word-wrap: break-word;'>85,014</td><td style='text-align: center; word-wrap: break-word;'>83,172</td><td style='text-align: center; word-wrap: break-word;'>82,415</td><td style='text-align: center; word-wrap: break-word;'>26,426</td><td style='text-align: center; word-wrap: break-word;'>8,841</td><td style='text-align: center; word-wrap: break-word;'>3,067</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Calhoun</td><td style='text-align: center; word-wrap: break-word;'>8,917</td><td style='text-align: center; word-wrap: break-word;'>7,692</td><td style='text-align: center; word-wrap: break-word;'>7,467</td><td style='text-align: center; word-wrap: break-word;'>6,562</td><td style='text-align: center; word-wrap: break-word;'>5,144</td><td style='text-align: center; word-wrap: break-word;'>3,231</td><td style='text-align: center; word-wrap: break-word;'>1,741</td><td style='text-align: center; word-wrap: break-word;'>1,090</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Carroll</td><td style='text-align: center; word-wrap: break-word;'>18,563</td><td style='text-align: center; word-wrap: break-word;'>18,320</td><td style='text-align: center; word-wrap: break-word;'>16,976</td><td style='text-align: center; word-wrap: break-word;'>16,705</td><td style='text-align: center; word-wrap: break-word;'>11,733</td><td style='text-align: center; word-wrap: break-word;'>4,586</td><td style='text-align: center; word-wrap: break-word;'>1,028</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Oass</td><td style='text-align: center; word-wrap: break-word;'>17,222</td><td style='text-align: center; word-wrap: break-word;'>15,983</td><td style='text-align: center; word-wrap: break-word;'>14,483</td><td style='text-align: center; word-wrap: break-word;'>11,580</td><td style='text-align: center; word-wrap: break-word;'>11,325</td><td style='text-align: center; word-wrap: break-word;'>7,235</td><td style='text-align: center; word-wrap: break-word;'>2,931</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Champaign</td><td style='text-align: center; word-wrap: break-word;'>47,622</td><td style='text-align: center; word-wrap: break-word;'>42,159</td><td style='text-align: center; word-wrap: break-word;'>40,583</td><td style='text-align: center; word-wrap: break-word;'>38,787</td><td style='text-align: center; word-wrap: break-word;'>14,629</td><td style='text-align: center; word-wrap: break-word;'>2,649</td><td style='text-align: center; word-wrap: break-word;'>1,475</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Christian</td><td style='text-align: center; word-wrap: break-word;'>32,790</td><td style='text-align: center; word-wrap: break-word;'>30,531</td><td style='text-align: center; word-wrap: break-word;'>28,227</td><td style='text-align: center; word-wrap: break-word;'>20,363</td><td style='text-align: center; word-wrap: break-word;'>10,492</td><td style='text-align: center; word-wrap: break-word;'>8,208</td><td style='text-align: center; word-wrap: break-word;'>1,878</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Clark</td><td style='text-align: center; word-wrap: break-word;'>24,023</td><td style='text-align: center; word-wrap: break-word;'>21,889</td><td style='text-align: center; word-wrap: break-word;'>21,894</td><td style='text-align: center; word-wrap: break-word;'>13,719</td><td style='text-align: center; word-wrap: break-word;'>14,967</td><td style='text-align: center; word-wrap: break-word;'>9,552</td><td style='text-align: center; word-wrap: break-word;'>7,453</td><td style='text-align: center; word-wrap: break-word;'>8,940</td><td style='text-align: center; word-wrap: break-word;'>631</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Glay</td><td style='text-align: center; word-wrap: break-word;'>19,658</td><td style='text-align: center; word-wrap: break-word;'>16,772</td><td style='text-align: center; word-wrap: break-word;'>16,192</td><td style='text-align: center; word-wrap: break-word;'>15,875</td><td style='text-align: center; word-wrap: break-word;'>5,336</td><td style='text-align: center; word-wrap: break-word;'>4,289</td><td style='text-align: center; word-wrap: break-word;'>3,228</td><td style='text-align: center; word-wrap: break-word;'>755</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Clinton</td><td style='text-align: center; word-wrap: break-word;'>19,824</td><td style='text-align: center; word-wrap: break-word;'>17,411</td><td style='text-align: center; word-wrap: break-word;'>18,714</td><td style='text-align: center; word-wrap: break-word;'>16,285</td><td style='text-align: center; word-wrap: break-word;'>10,941</td><td style='text-align: center; word-wrap: break-word;'>5,139</td><td style='text-align: center; word-wrap: break-word;'>3,718</td><td style='text-align: center; word-wrap: break-word;'>2,830</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Coles</td><td style='text-align: center; word-wrap: break-word;'>34,146</td><td style='text-align: center; word-wrap: break-word;'>30,098</td><td style='text-align: center; word-wrap: break-word;'>27,042</td><td style='text-align: center; word-wrap: break-word;'>25,235</td><td style='text-align: center; word-wrap: break-word;'>14,203</td><td style='text-align: center; word-wrap: break-word;'>9,335</td><td style='text-align: center; word-wrap: break-word;'>9,616</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cook</td><td style='text-align: center; word-wrap: break-word;'>1,833,725</td><td style='text-align: center; word-wrap: break-word;'>1,191,922</td><td style='text-align: center; word-wrap: break-word;'>607,524</td><td style='text-align: center; word-wrap: break-word;'>849,966</td><td style='text-align: center; word-wrap: break-word;'>144,954</td><td style='text-align: center; word-wrap: break-word;'>43,385</td><td style='text-align: center; word-wrap: break-word;'>10,201</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Crawford</td><td style='text-align: center; word-wrap: break-word;'>19,240</td><td style='text-align: center; word-wrap: break-word;'>17,283</td><td style='text-align: center; word-wrap: break-word;'>16,197</td><td style='text-align: center; word-wrap: break-word;'>13,889</td><td style='text-align: center; word-wrap: break-word;'>11,551</td><td style='text-align: center; word-wrap: break-word;'>7,135</td><td style='text-align: center; word-wrap: break-word;'>4,422</td><td style='text-align: center; word-wrap: break-word;'>8,117</td><td style='text-align: center; word-wrap: break-word;'>2,909</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cumberland</td><td style='text-align: center; word-wrap: break-word;'>16,124</td><td style='text-align: center; word-wrap: break-word;'>15,448</td><td style='text-align: center; word-wrap: break-word;'>13,759</td><td style='text-align: center; word-wrap: break-word;'>12,223</td><td style='text-align: center; word-wrap: break-word;'>8,311</td><td style='text-align: center; word-wrap: break-word;'>8,718</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Dekalb</td><td style='text-align: center; word-wrap: break-word;'>31,750</td><td style='text-align: center; word-wrap: break-word;'>27,088</td><td style='text-align: center; word-wrap: break-word;'>26,768</td><td style='text-align: center; word-wrap: break-word;'>26,265</td><td style='text-align: center; word-wrap: break-word;'>19,086</td><td style='text-align: center; word-wrap: break-word;'>7,540</td><td style='text-align: center; word-wrap: break-word;'>1,097</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Dewitt</td><td style='text-align: center; word-wrap: break-word;'>18,972</td><td style='text-align: center; word-wrap: break-word;'>17,011</td><td style='text-align: center; word-wrap: break-word;'>17,010</td><td style='text-align: center; word-wrap: break-word;'>14,768</td><td style='text-align: center; word-wrap: break-word;'>10,820</td><td style='text-align: center; word-wrap: break-word;'>5,002</td><td style='text-align: center; word-wrap: break-word;'>3,247</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Douglas</td><td style='text-align: center; word-wrap: break-word;'>19,097</td><td style='text-align: center; word-wrap: break-word;'>17,669</td><td style='text-align: center; word-wrap: break-word;'>15,853</td><td style='text-align: center; word-wrap: break-word;'>13,484</td><td style='text-align: center; word-wrap: break-word;'>7,140</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Dupage</td><td style='text-align: center; word-wrap: break-word;'>28,198</td><td style='text-align: center; word-wrap: break-word;'>22,551</td><td style='text-align: center; word-wrap: break-word;'>19,101</td><td style='text-align: center; word-wrap: break-word;'>16,685</td><td style='text-align: center; word-wrap: break-word;'>14,701</td><td style='text-align: center; word-wrap: break-word;'>9,200</td><td style='text-align: center; word-wrap: break-word;'>3,585</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Edgar</td><td style='text-align: center; word-wrap: break-word;'>28,273</td><td style='text-align: center; word-wrap: break-word;'>23,787</td><td style='text-align: center; word-wrap: break-word;'>25,400</td><td style='text-align: center; word-wrap: break-word;'>21,458</td><td style='text-align: center; word-wrap: break-word;'>10,925</td><td style='text-align: center; word-wrap: break-word;'>10,692</td><td style='text-align: center; word-wrap: break-word;'>8,223</td><td style='text-align: center; word-wrap: break-word;'>4,071</td><td style='text-align: center; word-wrap: break-word;'>8,444</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Edwards</td><td style='text-align: center; word-wrap: break-word;'>10,345</td><td style='text-align: center; word-wrap: break-word;'>9,444</td><td style='text-align: center; word-wrap: break-word;'>8,507</td><td style='text-align: center; word-wrap: break-word;'>7,055</td><td style='text-align: center; word-wrap: break-word;'>5,454</td><td style='text-align: center; word-wrap: break-word;'>3,799</td><td style='text-align: center; word-wrap: break-word;'>1,675</td><td style='text-align: center; word-wrap: break-word;'>1,649</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Eiffingham</td><td style='text-align: center; word-wrap: break-word;'>20,405</td><td style='text-align: center; word-wrap: break-word;'>19,358</td><td style='text-align: center; word-wrap: break-word;'>18,920</td><td style='text-align: center; word-wrap: break-word;'>15,658</td><td style='text-align: center; word-wrap: break-word;'>7,816</td><td style='text-align: center; word-wrap: break-word;'>8,524</td><td style='text-align: center; word-wrap: break-word;'>3,070</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Fayette</td><td style='text-align: center; word-wrap: break-word;'>28,005</td><td style='text-align: center; word-wrap: break-word;'>23,357</td><td style='text-align: center; word-wrap: break-word;'>23,241</td><td style='text-align: center; word-wrap: break-word;'>19,638</td><td style='text-align: center; word-wrap: break-word;'>11,189</td><td style='text-align: center; word-wrap: break-word;'>8,075</td><td style='text-align: center; word-wrap: break-word;'>6,928</td><td style='text-align: center; word-wrap: break-word;'>2,704</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Ford</td><td style='text-align: center; word-wrap: break-word;'>18,350</td><td style='text-align: center; word-wrap: break-word;'>17,035</td><td style='text-align: center; word-wrap: break-word;'>15,099</td><td style='text-align: center; word-wrap: break-word;'>9,108</td><td style='text-align: center; word-wrap: break-word;'>1,979</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Franklin</td><td style='text-align: center; word-wrap: break-word;'>19,075</td><td style='text-align: center; word-wrap: break-word;'>17,138</td><td style='text-align: center; word-wrap: break-word;'>16,129</td><td style='text-align: center; word-wrap: break-word;'>12,652</td><td style='text-align: center; word-wrap: break-word;'>9,303</td><td style='text-align: center; word-wrap: break-word;'>5,651</td><td style='text-align: center; word-wrap: break-word;'>3,682</td><td style='text-align: center; word-wrap: break-word;'>4,083</td><td style='text-align: center; word-wrap: break-word;'>1,768</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Fulton</td><td style='text-align: center; word-wrap: break-word;'>48,201</td><td style='text-align: center; word-wrap: break-word;'>43,110</td><td style='text-align: center; word-wrap: break-word;'>41,240</td><td style='text-align: center; word-wrap: break-word;'>83,291</td><td style='text-align: center; word-wrap: break-word;'>33,338</td><td style='text-align: center; word-wrap: break-word;'>22,508</td><td style='text-align: center; word-wrap: break-word;'>13,142</td><td style='text-align: center; word-wrap: break-word;'>1,841</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Gallatin</td><td style='text-align: center; word-wrap: break-word;'>15,836</td><td style='text-align: center; word-wrap: break-word;'>14,885</td><td style='text-align: center; word-wrap: break-word;'>12,801</td><td style='text-align: center; word-wrap: break-word;'>11,134</td><td style='text-align: center; word-wrap: break-word;'>8,055</td><td style='text-align: center; word-wrap: break-word;'>5,448</td><td style='text-align: center; word-wrap: break-word;'>10,760</td><td style='text-align: center; word-wrap: break-word;'>7,406</td><td style='text-align: center; word-wrap: break-word;'>8,155</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Greene</td><td style='text-align: center; word-wrap: break-word;'>28,402</td><td style='text-align: center; word-wrap: break-word;'>23,791</td><td style='text-align: center; word-wrap: break-word;'>23,010</td><td style='text-align: center; word-wrap: break-word;'>20,277</td><td style='text-align: center; word-wrap: break-word;'>15,093</td><td style='text-align: center; word-wrap: break-word;'>12,429</td><td style='text-align: center; word-wrap: break-word;'>11,951</td><td style='text-align: center; word-wrap: break-word;'>7,674</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Grundy</td><td style='text-align: center; word-wrap: break-word;'>21,136</td><td style='text-align: center; word-wrap: break-word;'>21,024</td><td style='text-align: center; word-wrap: break-word;'>16,732</td><td style='text-align: center; word-wrap: break-word;'>14,098</td><td style='text-align: center; word-wrap: break-word;'>10,379</td><td style='text-align: center; word-wrap: break-word;'>8,028</td><td style='text-align: center; word-wrap: break-word;'>8,915</td><td style='text-align: center; word-wrap: break-word;'>2,616</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Hamilton</td><td style='text-align: center; word-wrap: break-word;'>30,107</td><td style='text-align: center; word-wrap: break-word;'>17,680</td><td style='text-align: center; word-wrap: break-word;'>16,712</td><td style='text-align: center; word-wrap: break-word;'>13,014</td><td style='text-align: center; word-wrap: break-word;'>9,315</td><td style='text-align: center; word-wrap: break-word;'>6,362</td><td style='text-align: center; word-wrap: break-word;'>9,946</td><td style='text-align: center; word-wrap: break-word;'>483</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Hanceock</td><td style='text-align: center; word-wrap: break-word;'>32,215</td><td style='text-align: center; word-wrap: break-word;'>81,907</td><td style='text-align: center; word-wrap: break-word;'>35,337</td><td style='text-align: center; word-wrap: break-word;'>35,935</td><td style='text-align: center; word-wrap: break-word;'>29,051</td><td style='text-align: center; word-wrap: break-word;'>14,652</td><td style='text-align: center; word-wrap: break-word;'>1,878</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Hardin</td><td style='text-align: center; word-wrap: break-word;'>7,448</td><td style='text-align: center; word-wrap: break-word;'>7,224</td><td style='text-align: center; word-wrap: break-word;'>6,024</td><td style='text-align: center; word-wrap: break-word;'>5,113</td><td style='text-align: center; word-wrap: break-word;'>3,759</td><td style='text-align: center; word-wrap: break-word;'>2,887</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: ",
+    "external_fallback_required": false,
+    "credits_used": 0,
+    "final_url": "http://127.0.0.1:8778/assets/4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+    "content_sha256": "4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+    "document_language_hint": null,
+    "total_pages": 3,
+    "pages_read": [
+      1,
+      3
+    ],
+    "ocr_pages": [
+      1,
+      2,
+      3
+    ],
+    "ocr_routes": [
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 13,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 8,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 9,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 9,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 11,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 13,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 22,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 26,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 38,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 46,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 67,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 74,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 137,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 299,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 7370.36,
+        "quality_warning": "Completion checks are not proof of transcription accuracy."
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 8,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 6,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 9,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 17,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 21,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 29,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 891,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 4782,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 56471.21,
+        "quality_warning": "Completion checks are not proof of transcription accuracy."
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 11,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 6,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 10,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 19,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 24,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 26,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 32,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 33,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 123,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 1382,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 1485,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 20263.46,
+        "quality_warning": "Completion checks are not proof of transcription accuracy."
+      }
+    ],
+    "ocr_conversion_ms": 84105.03,
+    "ocr_cold": false,
+    "fast_ocr_error": null,
+    "ocr_warning": "OCR subset page numbers map in order to ocr_pages. OCR may misread names, dates and Thai text; verify against page images.",
+    "extracted_chars": 119712,
+    "truncated": true,
+    "elapsed_ms": 84397.91,
+    "fallback_count": 1,
+    "upload_id": "4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+    "source_kind": "uploaded-document",
+    "server_commit": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b"
+  }
+}

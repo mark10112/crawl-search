@@ -1,0 +1,302 @@
+{
+  "variant": "after",
+  "mode": "ocr",
+  "id": "us-preservation",
+  "worker_sha": "27466cae9c17ab3427295d0c64cc1b93556e551c",
+  "reader_sha": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b",
+  "started_at": 1793545385.75475,
+  "ended_at": 1793545409.205813,
+  "elapsed_ms": 23450.98,
+  "request": {
+    "upload_id": "20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+    "mode": "ocr",
+    "cache": false,
+    "max_pages": 3,
+    "max_chars": 40000,
+    "ocr_policy": "quality"
+  },
+  "raw": {
+    "ok": true,
+    "url": "http://127.0.0.1:8778/assets/20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+    "reader": "router:paddleocr-vl-1.6-mlx-layout",
+    "cache_hit": false,
+    "stages": [
+      {
+        "name": "fetch",
+        "ok": true,
+        "elapsed_ms": 6.4
+      },
+      {
+        "name": "pdf-text",
+        "ok": true,
+        "elapsed_ms": 18.45,
+        "needs_ocr": true
+      },
+      {
+        "name": "ocr-router",
+        "ok": true,
+        "elapsed_ms": 23245.02
+      }
+    ],
+    "text": "\n\n<!-- subset page 1 -->\n# PRESERVATION OF NEWSPAPER RECORDS\n\niBy B. W. Scribner\n\n## ABSTRACT\n\nAn examination of newspapers published in the United States during the period 1830 to 1900 was made relative to preservation of this form of record. The papers were composed entirely of rag fiber prior to 1868, and mixtures of this fiber with other chemically treated fibers from straw were found in some papers dated prior to 1880. Nearly all of these papers were in good condition. Most of the papers published after 1868 contained crude ground wood fiber and these had deteriorated considerably. Tests of special issues of newspapers printed since 1927 on high-grade paper for permanent library files indicate that some records will be preserved in this way. For retarding decay of newspapers, the use of Japanese tissue paper or transparent cellulose acetate sheeting appears to be effective. Apparently very stable reproductions of newspaper records can be made by photostatic and photolithographic printing on high-grade paper or by the use of photographic glass plates. The printing of the negative on glass plates in miniature, and reproduction of the prints on film slides, from which they can be projected in enlarged form for reading, are suggested for consideration when extensive reproductions are made.\n\n## CONTENTS\n\nI. Introduction.....1  \nII. Examination of old newspapers.....2  \nIII. Protective measures.....5  \nIV. Reproduction of newspapers.....8  \nV. Newsprint for permanent editions.....9  \nVI. Recommendations.....10\n\n### I. INTRODUCTION\n\nNewspapers are a most important class of historical records as they present, when taken as a whole, the most authentic cross section of contemporaneous life and events. These records are in the main factual; they are not the result of opinions and deductions such as is often the case in historical writings. For this reason, the newspaper files constitute one of the most important and active classes of reference records preserved in libraries.\n\nUnfortunately, considered from the viewpoint of their perpetual value, the immediate function of newspapers is to inform people of current events as quickly and inexpensively as possible, and this requires cheap paper suited to rapid and low-cost printing. The present type of newsprint, composed largely of crude ground wood fibers, is ideally suited to this function but its preservation is difficult, as its initial strength is low and it becomes brittle through deterioration of the fibers. Newspapers were first printed on rag fiber paper which was strong and durable, and there has been little difficulty in preserving the papers printed prior to the use of crude wood fibers. As a result of the observed deterioration of newspapers, the New York Times initiated in 1927 the issue of a part of its daily edition\n\n<!-- subset page 2 -->\nprinted on high-grade paper for the permanent files of libraries, and\n\nseveral other newspaper publishers have adopted this practice.\n\nPreceding these special editions, then, there was a long period during\n\nwhich all newspapers were printed on paper which is subject to more or\n\nless rapid decay. In view of the importance of obtaining information\n\nwhich might assist in any project to perpetuate the newspaper records,\n\na study of newspapers stored in libraries was made to definitely fix the\n\nperiod of use of impermanent newsprint, and some attention was given\n\nto preservative treatments for newspapers and the reproduction of\n\ntheir contents.¹\n\n### II. EXAMINATION OF OLD NEWSPAPERS\n\nThrough the cooperation of the New York Public Library, the Library of Congress, the Free Library of Oakland, Calif., and publishers of Pacific coast papers, specimens were secured from newspapers published in the United States during the period 1830 to 1900, with short intervals between the publication dates. This period covers the various transitions in the use of different kinds of fibers for newsprint. The specimens examined were from 18 eastern papers and 9 west coast papers. Since there are seldom duplicate copies of old newspapers in any one file, the specimens were necessarily limited to small strips cut from the margins. They were examined for state of preservation by visual inspection of color and by increasing them between the fingers for estimation of their relative strength and flexibility. Actual measurement of these properties was not necessary as it was found that three different operators graded the papers quite uniformly by this procedure. The papers fell naturally into five grades. Those designated as grade 1 were in excellent condition, showing little evidence of discoloration or brittleness, while those in grade 5 were deep brown in color and so brittle that they usually broke under one or two creasings. The other specimens were intermediate in these respects, in the relative order of the numbers. The degree of discoloration of the specimens closely paralleled the degree of brittleness. Identification of the fibers was made by the usual microscopical method.\n\nThe results of the examination of the papers are given in tables 1, 2, and 3, in which the papers are grouped according to the kinds of fibers in them. Some of the papers apparently contained some esparto fibers but, as their differentiation from straw fibers could not in most cases be made positively, all such fibers were included under the general designation of “straw.”\n\n<!-- subset page 3 -->\n<div style=\"text-align: center;\">TABLE 1.—Condition of newspapers composed entirely of chemically purified rag fiber EASTERN PAPERS</div>\n\n\n<div style=\"text-align: center;\">EASTERN PAPERS</div>\n\n\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Title</td><td style='text-align: center; word-wrap: break-word;'>Date</td><td style='text-align: center; word-wrap: break-word;'>Grade</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Journal of Commerce</td><td style='text-align: center; word-wrap: break-word;'>May 19, 1830</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Albany Argus</td><td style='text-align: center; word-wrap: break-word;'>June 30, 1830</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cincinnati Daily Gazette</td><td style='text-align: center; word-wrap: break-word;'>Oct. 2, 1830</td><td style='text-align: center; word-wrap: break-word;'>2</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Journal of Commerce</td><td style='text-align: center; word-wrap: break-word;'>Oct. 1, 1834</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Albany Argus</td><td style='text-align: center; word-wrap: break-word;'>June 30, 1835</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Herald</td><td style='text-align: center; word-wrap: break-word;'>May 1, 1838</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cincinnati Daily Gazette</td><td style='text-align: center; word-wrap: break-word;'>Sept. 6, 1838</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Albany Argus</td><td style='text-align: center; word-wrap: break-word;'>July 30, 1839</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Herald</td><td style='text-align: center; word-wrap: break-word;'>Feb. 4, 1840</td><td style='text-align: center; word-wrap: break-word;'>2</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Journal of Commerce</td><td style='text-align: center; word-wrap: break-word;'>June 27, 1840</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cincinnati Daily Gazette</td><td style='text-align: center; word-wrap: break-word;'>Sept. 2, 1840</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Journal of Commerce</td><td style='text-align: center; word-wrap: break-word;'>June 21, 1845</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Journal of Commerce</td><td style='text-align: center; word-wrap: break-word;'>Sept. 1, 1845</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Albany Argus</td><td style='text-align: center; word-wrap: break-word;'>Sept. 5, 1845</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Herald</td><td style='text-align: center; word-wrap: break-word;'>June 22, 1850</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Journal of Commerce</td><td style='text-align: center; word-wrap: break-word;'>June 28, 1850</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cincinnati Daily Gazette</td><td style='text-align: center; word-wrap: break-word;'>Sept. 2, 1850</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Albany Journal</td><td style='text-align: center; word-wrap: break-word;'>Sept. 3, 1850</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Commercial Advertiser</td><td style='text-align: center; word-wrap: break-word;'>Feb. 21, 1855</td><td style='text-align: center; word-wrap: break-word;'>2</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Herald</td><td style='text-align: center; word-wrap: break-word;'>June 22, 1855</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Evening Post</td><td style='text-align: center; word-wrap: break-word;'>June 24, 1855</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cincinnati Daily Gazette</td><td style='text-align: center; word-wrap: break-word;'>June 30, 1855</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Journal of Commerce</td><td style='text-align: center; word-wrap: break-word;'>Sept. 1, 1855</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Commercial Advertiser</td><td style='text-align: center; word-wrap: break-word;'>Sept. 4, 1855</td><td style='text-align: center; word-wrap: break-word;'>2</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Evening Post</td><td style='text-align: center; word-wrap: break-word;'>Sept. 2, 1859</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Herald</td><td style='text-align: center; word-wrap: break-word;'>June 29, 1860</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Journal of Commerce</td><td style='text-align: center; word-wrap: break-word;'>June 30, 1860</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cincinnati Daily Gazette</td><td style='text-align: center; word-wrap: break-word;'>Sept. 4, 1860</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York State&#x27;s Zeitung</td><td style='text-align: center; word-wrap: break-word;'>Jan. 9, 1866</td><td style='text-align: center; word-wrap: break-word;'>2</td></tr></table>\n\n<div style=\"text-align: center;\">PACIFIC COAST PAPERS</div>\n\n\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>San Francisco Chronicle</td><td style='text-align: center; word-wrap: break-word;'>July 17, 1854</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Portland Oregonian</td><td style='text-align: center; word-wrap: break-word;'>Sept. —, 1859</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Do</td><td style='text-align: center; word-wrap: break-word;'>Jan. —, 1863</td><td style='text-align: center; word-wrap: break-word;'>2</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Do</td><td style='text-align: center; word-wrap: break-word;'>Aug. —, 1872</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Do</td><td style='text-align: center; word-wrap: break-word;'>Jan. —, 1876</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Average</td><td colspan=\"2\">1.2</td></tr></table>\n\n<div style=\"text-align: center;\">TABLE 2.—Condition of newspapers composed of various chemically purified fibers EASTERN PAPERS</div>\n\n\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td rowspan=\"2\">Date</td><td rowspan=\"2\" colspan=\"3\">Percentages of each kind of fiber</td><td style='text-align: center; word-wrap: break-word;'>Grade</td><td rowspan=\"2\"></td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Rag</td><td style='text-align: center; word-wrap: break-word;'>Chemical wood</td><td style='text-align: center; word-wrap: break-word;'>Straw</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York World</td><td style='text-align: center; word-wrap: break-word;'>Jan. 19, 1868</td><td style='text-align: center; word-wrap: break-word;'>85</td><td style='text-align: center; word-wrap: break-word;'>-----</td><td style='text-align: center; word-wrap: break-word;'>15</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Brooklyn Daily Eagle</td><td style='text-align: center; word-wrap: break-word;'>Jan. 27, 1869</td><td style='text-align: center; word-wrap: break-word;'>-----</td><td style='text-align: center; word-wrap: break-word;'>-----</td><td style='text-align: center; word-wrap: break-word;'>100</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Evening Express</td><td style='text-align: center; word-wrap: break-word;'>Sept. 7, 1870</td><td style='text-align: center; word-wrap: break-word;'>50</td><td style='text-align: center; word-wrap: break-word;'>-----</td><td style='text-align: center; word-wrap: break-word;'>50</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Staats Zeitung</td><td style='text-align: center; word-wrap: break-word;'>Jan. 26, 1870</td><td style='text-align: center; word-wrap: break-word;'>75</td><td style='text-align: center; word-wrap: break-word;'>-----</td><td style='text-align: center; word-wrap: break-word;'>25</td><td style='text-align: center; word-wrap: break-word;'>4</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Times</td><td style='text-align: center; word-wrap: break-word;'>Aug. 20, 1871</td><td style='text-align: center; word-wrap: break-word;'>15</td><td style='text-align: center; word-wrap: break-word;'>-----</td><td style='text-align: center; word-wrap: break-word;'>85</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Albany Argus</td><td style='text-align: center; word-wrap: break-word;'>Mar. 19, 1872</td><td style='text-align: center; word-wrap: break-word;'>15</td><td style='text-align: center; word-wrap: break-word;'>15</td><td style='text-align: center; word-wrap: break-word;'>70</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Herald</td><td style='text-align: center; word-wrap: break-word;'>Dec. 28, 1872</td><td style='text-align: center; word-wrap: break-word;'>90</td><td style='text-align: center; word-wrap: break-word;'>-----</td><td style='text-align: center; word-wrap: break-word;'>10</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Sun</td><td style='text-align: center; word-wrap: break-word;'>May 21, 1872</td><td style='text-align: center; word-wrap: break-word;'>-----</td><td style='text-align: center; word-wrap: break-word;'>-----</td><td style='text-align: center; word-wrap: break-word;'>100</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Weekly Times</td><td style='text-align: center; word-wrap: break-word;'>Jan. 31, 1872</td><td style='text-align: center; word-wrap: break-word;'>20</td><td style='text-align: center; word-wrap: break-word;'>-----</td><td style='text-align: center; word-wrap: break-word;'>80</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Journal of Commerce</td><td style='text-align: center; word-wrap: break-word;'>Mar. 27, 1873</td><td style='text-align: center; word-wrap: break-word;'>10</td><td style='text-align: center; word-wrap: break-word;'>-----</td><td style='text-align: center; word-wrap: break-word;'>90</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Times</td><td style='text-align: center; word-wrap: break-word;'>Aug. 23, 1873</td><td style='text-align: center; word-wrap: break-word;'>25</td><td style='text-align: center; word-wrap: break-word;'>-----</td><td style='text-align: center; word-wrap: break-word;'>75</td><td style='text-align: center; word-wrap: break-word;'>3</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>New York Evening Post</td><td style='text-align: center; word-wrap: break-word;'>Aug. 15, 1873</td><td style='text-align: center; word-wrap: break-word;'>85</td><td style='text-align: center; word-wrap: break-word;'>-----</td><td style='text-align: center; word-wrap: break-word;'>15</td><td style='text-align: center; word-wrap: break-word;'>1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Chicago Verbote</td><td style='text-align: center; word-wrap: break-word;'>Feb. 14, 1874</td><td style='text-align: center; word-wrap: break-word;'>90</td><td style='text-align: center; word-wrap: break-word;'>10</td><td style='text-align: center; word-wrap: break-word;'>20</td><td style='text-align: center; word-wrap: break-word;'>4</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Do</td><td style='text-align: center; word-wrap: break-word;'>Apr. 29, 1876</td><td style='text-align: center; word-wrap: break-word;'>50</td><td style='text-align: center; word-wrap: break-word;'>30</td><td style='text-align: center; word-wrap: break-word;'>20</td><td style='text-align: center; word-wrap: break-word;'>4</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Cincinnati Daily Gazette</td><td style='text-align: center; word-wrap: break-word;'>Aug. 30, 1880</td><td style='text-align: center; word-wrap: break-word;'>10</td><td style='text-align: center; word-wrap: break-word;'>90</td><td style='text-align: center; word-wrap: break-word;'>20</td><td style='text-align: center; word-wrap: break-word;'>2</td></tr></table>\n\n<div style=\"text-align: center;\">PACIFIC COAST PAPERS</div>\n\n\n\n<table border=1 style='margin: auto; word-wrap: break-word;'><tr><td style='text-align: center; word-wrap: break-word;'>Portland Oregonian San Diego Sun</td><td style='text-align: center; word-wrap: break-word;'>Jan. —, 1868 Oct. 31, 1872</td><td style='text-align: center; word-wrap: break-word;'>35</td><td style='text-align: center; word-wrap: break-word;'>65 100</td><td style='text-align: center; word-wrap: break-word;'>2 1</td></tr><tr><td style='text-align: center; word-wrap: break-word;'>Average</td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'></td><td style='text-align: center; word-wrap: break-word;'>1.8</td></tr></table>",
+    "external_fallback_required": false,
+    "credits_used": 0,
+    "final_url": "http://127.0.0.1:8778/assets/20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+    "content_sha256": "20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+    "document_language_hint": null,
+    "total_pages": 3,
+    "pages_read": [
+      1,
+      3
+    ],
+    "ocr_pages": [
+      1,
+      2,
+      3
+    ],
+    "ocr_routes": [
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 11,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 3,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 6,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 9,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 12,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 10,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 53,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 85,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 159,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 246,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 6311.52,
+        "quality_warning": "Completion checks are not proof of transcription accuracy."
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 7,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 10,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 13,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 51,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 80,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 129,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 288,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 6164.36,
+        "quality_warning": "Completion checks are not proof of transcription accuracy."
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 12,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 4,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 7,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 8,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 8,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 8,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 21,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 23,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 54,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 91,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 453,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 589,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 10014.47,
+        "quality_warning": "Completion checks are not proof of transcription accuracy."
+      }
+    ],
+    "ocr_conversion_ms": 22490.35,
+    "ocr_cold": false,
+    "fast_ocr_error": null,
+    "ocr_warning": "OCR subset page numbers map in order to ocr_pages. OCR may misread names, dates and Thai text; verify against page images.",
+    "extracted_chars": 21288,
+    "truncated": false,
+    "elapsed_ms": 23270.32,
+    "fallback_count": 1,
+    "upload_id": "20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+    "source_kind": "uploaded-document",
+    "server_commit": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b"
+  }
+}
