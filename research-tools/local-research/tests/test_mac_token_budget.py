@@ -98,6 +98,18 @@ class TokenBudgetTests(unittest.TestCase):
     def test_missing_stream_finish_is_rejected(self):
         with self.assertRaisesRegex(RuntimeError,'without a finish reason'):
             self.worker.collect_stream(['data: [DONE]'])
+    def test_index_rebuild_preserves_ids_values_and_rejects_unfinished_reads(self):
+        geometry=[{'id_bbox':[0,0,3,20],'label_bbox':[3,0,15,20],'value_bbox':[15,0,20,20]}]
+        def value(text,finish='stop'):
+            return {'text':text,'finish_reason':finish,'repetition_guard':False}
+        with patch.object(self.worker,'read_crop',side_effect=[value('๒๑๒'),value('Historical entry'),value('๑')]):
+            text,attempts=self.worker.read_index(Image.new('RGB',(20,20)),geometry)
+        self.assertIn('<td>๒๑๒</td><td>Historical entry</td><td>๑</td>',text)
+        self.assertTrue(attempts[0]['complete'])
+        with patch.object(self.worker,'read_crop',side_effect=[value('๒๑๒'),value('Historical entry'),value('๑','length')]):
+            text,attempts=self.worker.read_index(Image.new('RGB',(20,20)),geometry)
+        self.assertIsNone(text)
+        self.assertFalse(attempts[0]['complete'])
     def test_budget_change_cannot_reuse_old_page_result(self):
         self.worker.MAX_NEW_TOKENS=4096
         self.worker.ocr(self.body)
