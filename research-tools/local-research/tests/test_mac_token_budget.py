@@ -110,6 +110,14 @@ class TokenBudgetTests(unittest.TestCase):
             text,attempts=self.worker.read_index(Image.new('RGB',(20,20)),geometry)
         self.assertIsNone(text)
         self.assertFalse(attempts[0]['complete'])
+    def test_crop_accepts_real_internal_response_and_preserves_finish(self):
+        import httpx
+        payload={'choices':[{'message':{'content':'๑๕๙'},'finish_reason':'stop'}],'usage':{'completion_tokens':4}}
+        with patch.object(self.worker,'forward_recognition',return_value=httpx.Response(200,json=payload)):
+            result=self.worker.read_crop(Image.new('RGB',(20,20)),[1,1,19,19])
+        self.assertEqual(result['text'],'๑๕๙')
+        self.assertEqual(result['finish_reason'],'stop')
+        self.assertEqual(self.worker.calls[-1]['tokens'],4)
     def test_budget_change_cannot_reuse_old_page_result(self):
         self.worker.MAX_NEW_TOKENS=4096
         self.worker.ocr(self.body)

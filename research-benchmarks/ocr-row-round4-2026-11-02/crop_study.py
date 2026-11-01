@@ -24,7 +24,9 @@ def read(image,key,prompt,metadata):
     request,_=worker.recognition_request(request)
     start=time.perf_counter()
     try:
-        response=worker.stream_recognition('/v1/chat/completions',request);response.raise_for_status();raw=response.json()
+        response=worker.stream_recognition('/v1/chat/completions',request)
+        if response.status_code!=200:raise RuntimeError('Recognition HTTP '+str(response.status_code))
+        raw=response.json()
     except Exception as exc:raw={'error':str(exc)}
     record={'key':key,**metadata,'prompt':prompt,'input_sha256':hashlib.sha256(data).hexdigest(),
             'width':image.width,'height':image.height,'seconds':time.perf_counter()-start,'raw':raw}

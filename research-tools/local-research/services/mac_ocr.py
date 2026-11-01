@@ -117,7 +117,9 @@ def read_crop(image,bbox):
     buf=io.BytesIO();image.crop(tuple(bbox)).save(buf,format='PNG');data=buf.getvalue()
     body={'messages':[{'role':'user','content':[{'type':'image_url','image_url':{'url':'data:image/png;base64,'+base64.b64encode(data).decode()}},{'type':'text','text':'OCR:'}]}]}
     body,requested=recognition_request(body)
-    response=forward_recognition('/v1/chat/completions',body);response.raise_for_status();payload=response.json()
+    response=forward_recognition('/v1/chat/completions',body)
+    if response.status_code!=200:raise RuntimeError('Crop recognition HTTP '+str(response.status_code))
+    payload=response.json()
     choice=payload['choices'][0]
     meta={'bbox':bbox,'input_sha256':hashlib.sha256(data).hexdigest(),'finish_reason':choice['finish_reason'],
           'tokens':(payload.get('usage') or {}).get('completion_tokens'),'usage':payload.get('usage'),

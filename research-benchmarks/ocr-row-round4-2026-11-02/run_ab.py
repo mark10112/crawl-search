@@ -4,7 +4,7 @@ from pathlib import Path
 import httpx
 
 ROOT=Path(__file__).resolve().parents[2];HERE=Path(__file__).parent;BASE=Path.home()/'research-server'
-WORK=BASE/'benchmarks/ocr-row-round4-2026-11-02';WORK.mkdir(parents=True,exist_ok=True)
+WORK=BASE/'benchmarks'/os.environ.get('OCR_ROW_RUN','ocr-row-round4-2026-11-02');WORK.mkdir(parents=True,exist_ok=True)
 assert not (WORK/'started.json').exists(),'Use a fresh run directory, do not overwrite evidence'
 BEFORE=BASE/'experiments/ocr-accuracy-round3-before'
 BEFORE_SHA='9859627a68a7960f575a91f50aba34107543dbda'
