@@ -1,0 +1,9 @@
+{
+  "time": 1793559862.460284,
+  "candidate": "217f20cd3149563e8b17ea4f1cf68707933bdfdc",
+  "mlx_restart_to_ready_seconds": 1.6517636669996136,
+  "model_order": [
+    "paddle_mobile_ocr"
+  ],
+  "note": "One reader at a time; CPU readers run with production MLX unloaded. Model/file OS caches not flushed. Three warm passes after first pass."
+}

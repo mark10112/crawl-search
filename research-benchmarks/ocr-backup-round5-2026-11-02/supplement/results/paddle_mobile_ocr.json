@@ -1,0 +1,2326 @@
+{
+  "mode": "paddle_mobile_ocr",
+  "setup": {
+    "model_constructor_seconds": {
+      "tha": 0.468604082998354,
+      "eng": 0.10000466699784738
+    },
+    "startup_seconds": 2.135241042000416
+  },
+  "rows": [
+    {
+      "id": "g1",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "seconds": 0.028071208998881048,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "g2",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "seconds": 0.08322600000246894,
+      "text": "3O",
+      "scores": [
+        0.5784753561019897
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              10,
+              0
+            ],
+            [
+              58,
+              1
+            ],
+            [
+              57,
+              24
+            ],
+            [
+              9,
+              23
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "3O"
+        ],
+        "rec_scores": [
+          0.5784753561019897
+        ],
+        "rec_polys": [
+          [
+            [
+              10,
+              0
+            ],
+            [
+              58,
+              1
+            ],
+            [
+              57,
+              24
+            ],
+            [
+              9,
+              23
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            9,
+            0,
+            58,
+            24
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g3",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "seconds": 0.010499583000637358,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "g4",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "seconds": 0.06468254100036575,
+      "text": "3",
+      "scores": [
+        0.43564873933792114
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              59,
+              0
+            ],
+            [
+              94,
+              0
+            ],
+            [
+              94,
+              23
+            ],
+            [
+              59,
+              23
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "3"
+        ],
+        "rec_scores": [
+          0.43564873933792114
+        ],
+        "rec_polys": [
+          [
+            [
+              59,
+              0
+            ],
+            [
+              94,
+              0
+            ],
+            [
+              94,
+              23
+            ],
+            [
+              59,
+              23
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            59,
+            0,
+            94,
+            23
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g5",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "seconds": 0.009427332999621285,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "g6",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "seconds": 0.008234000000811648,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "r1-c3",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "seconds": 0.08456633300011163,
+      "text": "69, 135",
+      "scores": [
+        0.9746221303939819
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              52,
+              2
+            ],
+            [
+              125,
+              3
+            ],
+            [
+              124,
+              30
+            ],
+            [
+              51,
+              29
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "69, 135"
+        ],
+        "rec_scores": [
+          0.9746221303939819
+        ],
+        "rec_polys": [
+          [
+            [
+              52,
+              2
+            ],
+            [
+              125,
+              3
+            ],
+            [
+              124,
+              30
+            ],
+            [
+              51,
+              29
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            51,
+            2,
+            125,
+            30
+          ]
+        ]
+      }
+    },
+    {
+      "id": "r3-c1",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "seconds": 0.06171737499971641,
+      "text": "1, 838, 735",
+      "scores": [
+        0.9712022542953491
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              24,
+              0
+            ],
+            [
+              132,
+              1
+            ],
+            [
+              132,
+              28
+            ],
+            [
+              24,
+              27
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "1, 838, 735"
+        ],
+        "rec_scores": [
+          0.9712022542953491
+        ],
+        "rec_polys": [
+          [
+            [
+              24,
+              0
+            ],
+            [
+              132,
+              1
+            ],
+            [
+              132,
+              28
+            ],
+            [
+              24,
+              27
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            24,
+            0,
+            132,
+            28
+          ]
+        ]
+      }
+    },
+    {
+      "id": "r4-c5",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "seconds": 0.062170375000278,
+      "text": "18, 282",
+      "scores": [
+        0.9179792404174805
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              56,
+              0
+            ],
+            [
+              136,
+              0
+            ],
+            [
+              137,
+              30
+            ],
+            [
+              57,
+              31
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "18, 282"
+        ],
+        "rec_scores": [
+          0.9179792404174805
+        ],
+        "rec_polys": [
+          [
+            [
+              56,
+              0
+            ],
+            [
+              136,
+              0
+            ],
+            [
+              137,
+              30
+            ],
+            [
+              57,
+              31
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            56,
+            0,
+            137,
+            31
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g1",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "seconds": 0.010044917002232978,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "g2",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "seconds": 0.06495908299984876,
+      "text": "3O",
+      "scores": [
+        0.5784753561019897
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              10,
+              0
+            ],
+            [
+              58,
+              1
+            ],
+            [
+              57,
+              24
+            ],
+            [
+              9,
+              23
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "3O"
+        ],
+        "rec_scores": [
+          0.5784753561019897
+        ],
+        "rec_polys": [
+          [
+            [
+              10,
+              0
+            ],
+            [
+              58,
+              1
+            ],
+            [
+              57,
+              24
+            ],
+            [
+              9,
+              23
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            9,
+            0,
+            58,
+            24
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g3",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "seconds": 0.010828124999534339,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "g4",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "seconds": 0.06528787500064936,
+      "text": "3",
+      "scores": [
+        0.43564873933792114
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              59,
+              0
+            ],
+            [
+              94,
+              0
+            ],
+            [
+              94,
+              23
+            ],
+            [
+              59,
+              23
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "3"
+        ],
+        "rec_scores": [
+          0.43564873933792114
+        ],
+        "rec_polys": [
+          [
+            [
+              59,
+              0
+            ],
+            [
+              94,
+              0
+            ],
+            [
+              94,
+              23
+            ],
+            [
+              59,
+              23
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            59,
+            0,
+            94,
+            23
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g5",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "seconds": 0.009680833001766587,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "g6",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "seconds": 0.007961916999192908,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "r1-c3",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "seconds": 0.06188170799941872,
+      "text": "69, 135",
+      "scores": [
+        0.9746221303939819
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              52,
+              2
+            ],
+            [
+              125,
+              3
+            ],
+            [
+              124,
+              30
+            ],
+            [
+              51,
+              29
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "69, 135"
+        ],
+        "rec_scores": [
+          0.9746221303939819
+        ],
+        "rec_polys": [
+          [
+            [
+              52,
+              2
+            ],
+            [
+              125,
+              3
+            ],
+            [
+              124,
+              30
+            ],
+            [
+              51,
+              29
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            51,
+            2,
+            125,
+            30
+          ]
+        ]
+      }
+    },
+    {
+      "id": "r3-c1",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "seconds": 0.06168966699988232,
+      "text": "1, 838, 735",
+      "scores": [
+        0.9712022542953491
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              24,
+              0
+            ],
+            [
+              132,
+              1
+            ],
+            [
+              132,
+              28
+            ],
+            [
+              24,
+              27
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "1, 838, 735"
+        ],
+        "rec_scores": [
+          0.9712022542953491
+        ],
+        "rec_polys": [
+          [
+            [
+              24,
+              0
+            ],
+            [
+              132,
+              1
+            ],
+            [
+              132,
+              28
+            ],
+            [
+              24,
+              27
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            24,
+            0,
+            132,
+            28
+          ]
+        ]
+      }
+    },
+    {
+      "id": "r4-c5",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "seconds": 0.061853750001318986,
+      "text": "18, 282",
+      "scores": [
+        0.9179792404174805
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              56,
+              0
+            ],
+            [
+              136,
+              0
+            ],
+            [
+              137,
+              30
+            ],
+            [
+              57,
+              31
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "18, 282"
+        ],
+        "rec_scores": [
+          0.9179792404174805
+        ],
+        "rec_polys": [
+          [
+            [
+              56,
+              0
+            ],
+            [
+              136,
+              0
+            ],
+            [
+              137,
+              30
+            ],
+            [
+              57,
+              31
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            56,
+            0,
+            137,
+            31
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g1",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "seconds": 0.00984858299852931,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "g2",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "seconds": 0.06451554199884413,
+      "text": "3O",
+      "scores": [
+        0.5784753561019897
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              10,
+              0
+            ],
+            [
+              58,
+              1
+            ],
+            [
+              57,
+              24
+            ],
+            [
+              9,
+              23
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "3O"
+        ],
+        "rec_scores": [
+          0.5784753561019897
+        ],
+        "rec_polys": [
+          [
+            [
+              10,
+              0
+            ],
+            [
+              58,
+              1
+            ],
+            [
+              57,
+              24
+            ],
+            [
+              9,
+              23
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            9,
+            0,
+            58,
+            24
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g3",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "seconds": 0.010815707999427104,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "g4",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "seconds": 0.06451429200023995,
+      "text": "3",
+      "scores": [
+        0.43564873933792114
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              59,
+              0
+            ],
+            [
+              94,
+              0
+            ],
+            [
+              94,
+              23
+            ],
+            [
+              59,
+              23
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "3"
+        ],
+        "rec_scores": [
+          0.43564873933792114
+        ],
+        "rec_polys": [
+          [
+            [
+              59,
+              0
+            ],
+            [
+              94,
+              0
+            ],
+            [
+              94,
+              23
+            ],
+            [
+              59,
+              23
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            59,
+            0,
+            94,
+            23
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g5",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "seconds": 0.009544958000333281,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "g6",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "seconds": 0.007927958002255764,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "r1-c3",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "seconds": 0.06203904200083343,
+      "text": "69, 135",
+      "scores": [
+        0.9746221303939819
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              52,
+              2
+            ],
+            [
+              125,
+              3
+            ],
+            [
+              124,
+              30
+            ],
+            [
+              51,
+              29
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "69, 135"
+        ],
+        "rec_scores": [
+          0.9746221303939819
+        ],
+        "rec_polys": [
+          [
+            [
+              52,
+              2
+            ],
+            [
+              125,
+              3
+            ],
+            [
+              124,
+              30
+            ],
+            [
+              51,
+              29
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            51,
+            2,
+            125,
+            30
+          ]
+        ]
+      }
+    },
+    {
+      "id": "r3-c1",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "seconds": 0.061471749999327585,
+      "text": "1, 838, 735",
+      "scores": [
+        0.9712022542953491
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              24,
+              0
+            ],
+            [
+              132,
+              1
+            ],
+            [
+              132,
+              28
+            ],
+            [
+              24,
+              27
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "1, 838, 735"
+        ],
+        "rec_scores": [
+          0.9712022542953491
+        ],
+        "rec_polys": [
+          [
+            [
+              24,
+              0
+            ],
+            [
+              132,
+              1
+            ],
+            [
+              132,
+              28
+            ],
+            [
+              24,
+              27
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            24,
+            0,
+            132,
+            28
+          ]
+        ]
+      }
+    },
+    {
+      "id": "r4-c5",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "seconds": 0.06183858300209977,
+      "text": "18, 282",
+      "scores": [
+        0.9179792404174805
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              56,
+              0
+            ],
+            [
+              136,
+              0
+            ],
+            [
+              137,
+              30
+            ],
+            [
+              57,
+              31
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "18, 282"
+        ],
+        "rec_scores": [
+          0.9179792404174805
+        ],
+        "rec_polys": [
+          [
+            [
+              56,
+              0
+            ],
+            [
+              136,
+              0
+            ],
+            [
+              137,
+              30
+            ],
+            [
+              57,
+              31
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            56,
+            0,
+            137,
+            31
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g1",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "seconds": 0.01017583300199476,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "g2",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "seconds": 0.06396804099858855,
+      "text": "3O",
+      "scores": [
+        0.5784753561019897
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              10,
+              0
+            ],
+            [
+              58,
+              1
+            ],
+            [
+              57,
+              24
+            ],
+            [
+              9,
+              23
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "3O"
+        ],
+        "rec_scores": [
+          0.5784753561019897
+        ],
+        "rec_polys": [
+          [
+            [
+              10,
+              0
+            ],
+            [
+              58,
+              1
+            ],
+            [
+              57,
+              24
+            ],
+            [
+              9,
+              23
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            9,
+            0,
+            58,
+            24
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g3",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "seconds": 0.010555500000918983,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "g4",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "seconds": 0.06521866700131795,
+      "text": "3",
+      "scores": [
+        0.43564873933792114
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              59,
+              0
+            ],
+            [
+              94,
+              0
+            ],
+            [
+              94,
+              23
+            ],
+            [
+              59,
+              23
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "3"
+        ],
+        "rec_scores": [
+          0.43564873933792114
+        ],
+        "rec_polys": [
+          [
+            [
+              59,
+              0
+            ],
+            [
+              94,
+              0
+            ],
+            [
+              94,
+              23
+            ],
+            [
+              59,
+              23
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            59,
+            0,
+            94,
+            23
+          ]
+        ]
+      }
+    },
+    {
+      "id": "g5",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "seconds": 0.010544999997364357,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "g6",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "seconds": 0.008110333001241088,
+      "text": "",
+      "scores": [],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [],
+        "rec_scores": [],
+        "rec_polys": [],
+        "rec_boxes": []
+      }
+    },
+    {
+      "id": "r1-c3",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "seconds": 0.062070332998700906,
+      "text": "69, 135",
+      "scores": [
+        0.9746221303939819
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              52,
+              2
+            ],
+            [
+              125,
+              3
+            ],
+            [
+              124,
+              30
+            ],
+            [
+              51,
+              29
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "69, 135"
+        ],
+        "rec_scores": [
+          0.9746221303939819
+        ],
+        "rec_polys": [
+          [
+            [
+              52,
+              2
+            ],
+            [
+              125,
+              3
+            ],
+            [
+              124,
+              30
+            ],
+            [
+              51,
+              29
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            51,
+            2,
+            125,
+            30
+          ]
+        ]
+      }
+    },
+    {
+      "id": "r3-c1",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "seconds": 0.06180133299858426,
+      "text": "1, 838, 735",
+      "scores": [
+        0.9712022542953491
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              24,
+              0
+            ],
+            [
+              132,
+              1
+            ],
+            [
+              132,
+              28
+            ],
+            [
+              24,
+              27
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "1, 838, 735"
+        ],
+        "rec_scores": [
+          0.9712022542953491
+        ],
+        "rec_polys": [
+          [
+            [
+              24,
+              0
+            ],
+            [
+              132,
+              1
+            ],
+            [
+              132,
+              28
+            ],
+            [
+              24,
+              27
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            24,
+            0,
+            132,
+            28
+          ]
+        ]
+      }
+    },
+    {
+      "id": "r4-c5",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "seconds": 0.061776083002769155,
+      "text": "18, 282",
+      "scores": [
+        0.9179792404174805
+      ],
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+          "use_doc_preprocessor": false,
+          "use_textline_orientation": false
+        },
+        "dt_polys": [
+          [
+            [
+              56,
+              0
+            ],
+            [
+              136,
+              0
+            ],
+            [
+              137,
+              30
+            ],
+            [
+              57,
+              31
+            ]
+          ]
+        ],
+        "text_det_params": {
+          "limit_side_len": 64,
+          "limit_type": "min",
+          "thresh": 0.3,
+          "max_side_limit": 4000,
+          "box_thresh": 0.6,
+          "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+          -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+          "18, 282"
+        ],
+        "rec_scores": [
+          0.9179792404174805
+        ],
+        "rec_polys": [
+          [
+            [
+              56,
+              0
+            ],
+            [
+              136,
+              0
+            ],
+            [
+              137,
+              30
+            ],
+            [
+              57,
+              31
+            ]
+          ]
+        ],
+        "rec_boxes": [
+          [
+            56,
+            0,
+            137,
+            31
+          ]
+        ]
+      }
+    }
+  ],
+  "self_peak_rss_bytes": 1054982144,
+  "versions": {
+    "paddleocr": "3.7.0",
+    "paddlex": "3.7.2",
+    "paddlepaddle": "3.2.1",
+    "mlx-vlm": "0.7.11",
+    "pillow": "13.0.0",
+    "numpy": "2.3.5",
+    "psutil": "7.2.2"
+  }
+}

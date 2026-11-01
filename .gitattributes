@@ -4,3 +4,6 @@ research-benchmarks/**/results/*.jsonl -text
 research-benchmarks/**/results/*.log -text
 research-benchmarks/ocr-row-round4-2026-11-02/**/*.json -text
 research-benchmarks/ocr-row-round4-2026-11-02/**/*.jsonl -text
+research-benchmarks/ocr-backup-round5-2026-11-02/**/*.json -text
+research-benchmarks/ocr-backup-round5-2026-11-02/**/*.jsonl -text
+research-benchmarks/ocr-backup-round5-2026-11-02/**/*.log -text

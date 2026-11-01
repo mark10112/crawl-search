@@ -1,0 +1,200 @@
+{
+  "reference_hash": "72a37213b39a3a3dd1b4e344162d962b39c3c460fcad2bf2dfea105620301ac2",
+  "inputs": [
+    {
+      "id": "g1",
+      "file": "g1.png",
+      "group": "gazette",
+      "language": "tha",
+      "sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "size": [
+        167,
+        26
+      ],
+      "provenance": {
+        "page": 1,
+        "bbox": [
+          1103,
+          845,
+          1270,
+          871
+        ],
+        "kind": "reconstructed-frozen-round4-geometry",
+        "previous_request_byte_hash_verified": true
+      }
+    },
+    {
+      "id": "g2",
+      "file": "g2.png",
+      "group": "gazette",
+      "language": "tha",
+      "sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "size": [
+        167,
+        26
+      ],
+      "provenance": {
+        "page": 1,
+        "bbox": [
+          1103,
+          1480,
+          1270,
+          1506
+        ],
+        "kind": "reconstructed-frozen-round4-geometry",
+        "previous_request_byte_hash_verified": false
+      }
+    },
+    {
+      "id": "g3",
+      "file": "g3.png",
+      "group": "gazette",
+      "language": "tha",
+      "sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "size": [
+        169,
+        25
+      ],
+      "provenance": {
+        "page": 2,
+        "bbox": [
+          1118,
+          520,
+          1287,
+          545
+        ],
+        "kind": "reconstructed-frozen-round4-geometry",
+        "previous_request_byte_hash_verified": false
+      }
+    },
+    {
+      "id": "g4",
+      "file": "g4.png",
+      "group": "gazette",
+      "language": "tha",
+      "sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "size": [
+        169,
+        24
+      ],
+      "provenance": {
+        "page": 2,
+        "bbox": [
+          1118,
+          600,
+          1287,
+          624
+        ],
+        "kind": "reconstructed-frozen-round4-geometry",
+        "previous_request_byte_hash_verified": false
+      }
+    },
+    {
+      "id": "g5",
+      "file": "g5.png",
+      "group": "gazette",
+      "language": "tha",
+      "sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "size": [
+        169,
+        28
+      ],
+      "provenance": {
+        "page": 3,
+        "bbox": [
+          1118,
+          429,
+          1287,
+          457
+        ],
+        "kind": "reconstructed-frozen-round4-geometry",
+        "previous_request_byte_hash_verified": true
+      }
+    },
+    {
+      "id": "g6",
+      "file": "g6.png",
+      "group": "gazette",
+      "language": "tha",
+      "sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "size": [
+        169,
+        33
+      ],
+      "provenance": {
+        "page": 3,
+        "bbox": [
+          1118,
+          1620,
+          1287,
+          1653
+        ],
+        "kind": "reconstructed-frozen-round4-geometry",
+        "previous_request_byte_hash_verified": false
+      }
+    },
+    {
+      "id": "r1-c3",
+      "file": "r1-c3.png",
+      "group": "census",
+      "language": "eng",
+      "sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "size": [
+        132,
+        30
+      ],
+      "provenance": {
+        "kind": "byte-identical-round4-file",
+        "bbox": [
+          944,
+          586,
+          1076,
+          616
+        ],
+        "page": 2
+      }
+    },
+    {
+      "id": "r3-c1",
+      "file": "r3-c1.png",
+      "group": "census",
+      "language": "eng",
+      "sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "size": [
+        139,
+        33
+      ],
+      "provenance": {
+        "kind": "byte-identical-round4-file",
+        "bbox": [
+          654,
+          1032,
+          793,
+          1065
+        ],
+        "page": 2
+      }
+    },
+    {
+      "id": "r4-c5",
+      "file": "r4-c5.png",
+      "group": "census",
+      "language": "eng",
+      "sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "size": [
+        147,
+        38
+      ],
+      "provenance": {
+        "kind": "byte-identical-round4-file",
+        "bbox": [
+          1202,
+          1000,
+          1349,
+          1038
+        ],
+        "page": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{"time": 1793559609.4655502, "rss": 10354688, "pids": {"58899": 10354688}, "available": 7719567360, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559609.495906, "rss": 28721152, "pids": {"58899": 27525120, "58900": 1196032}, "available": 7719567360, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559609.531005, "rss": 69386240, "pids": {"58899": 27607040, "58902": 1196032, "58903": 40583168}, "available": 7719567360, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559609.565978, "rss": 27656192, "pids": {"58899": 27656192}, "available": 7719567360, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559609.601187, "rss": 69648384, "pids": {"58899": 27672576, "58908": 1196032, "58909": 40779776}, "available": 7719567360, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559609.636085, "rss": 38256640, "pids": {"58899": 27688960, "58912": 1196032, "58913": 9371648}, "available": 7719567360, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559609.6710458, "rss": 108068864, "pids": {"58899": 27688960, "58912": 1196032, "58913": 79183872}, "available": 7719567360, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559609.706275, "rss": 105332736, "pids": {"58899": 27688960, "58914": 1196032, "58915": 76447744}, "available": 7719567360, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559609.741164, "rss": 114180096, "pids": {"58899": 27688960, "58914": 1196032, "58915": 85295104}, "available": 7719567360, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559609.775576, "rss": 107266048, "pids": {"58899": 27705344, "58916": 1196032, "58917": 78364672}, "available": 7719567360, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559609.8098612, "rss": 28901376, "pids": {"58899": 27705344, "58918": 1196032}, "available": 7719567360, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559609.844286, "rss": 69828608, "pids": {"58899": 27705344, "58920": 1196032, "58921": 40927232}, "available": 7719567360, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559609.877099, "rss": 28934144, "pids": {"58899": 27738112, "58924": 1196032}, "available": 7724826624, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559609.912212, "rss": 69861376, "pids": {"58899": 27787264, "58926": 1196032, "58927": 40878080}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559609.944365, "rss": 28999680, "pids": {"58899": 27803648, "58930": 1196032}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559609.978718, "rss": 108118016, "pids": {"58899": 27803648, "58930": 1196032, "58931": 79118336}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.013126, "rss": 105152512, "pids": {"58899": 27803648, "58932": 1196032, "58933": 76152832}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.047374, "rss": 114393088, "pids": {"58899": 27803648, "58932": 1196032, "58933": 85393408}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.081665, "rss": 107462656, "pids": {"58899": 27803648, "58934": 1196032, "58935": 78462976}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.116363, "rss": 37781504, "pids": {"58899": 27803648, "58936": 1196032, "58937": 8781824}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.150888, "rss": 28999680, "pids": {"58899": 27803648, "58938": 1196032}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.181988, "rss": 29016064, "pids": {"58899": 27820032, "58942": 1196032}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.216457, "rss": 69779456, "pids": {"58899": 27820032, "58944": 1196032, "58945": 40763392}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.250689, "rss": 34357248, "pids": {"58899": 27852800, "58948": 1196032, "58949": 5308416}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.285525, "rss": 108478464, "pids": {"58899": 27852800, "58948": 1196032, "58949": 79429632}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.3206232, "rss": 105578496, "pids": {"58899": 27852800, "58950": 1196032, "58951": 76529664}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.35554, "rss": 29048832, "pids": {"58899": 27852800, "58950": 1196032}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.390461, "rss": 107790336, "pids": {"58899": 27852800, "58952": 1196032, "58953": 78741504}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.425355, "rss": 67796992, "pids": {"58899": 27852800, "58954": 1196032, "58955": 38748160}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.460195, "rss": 27885568, "pids": {"58899": 27885568}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.495286, "rss": 69337088, "pids": {"58899": 27885568, "58960": 1196032, "58961": 40255488}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.530132, "rss": 27918336, "pids": {"58899": 27918336}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.56528, "rss": 104775680, "pids": {"58899": 27951104, "58966": 1196032, "58967": 75628544}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.6000462, "rss": 113950720, "pids": {"58899": 27951104, "58966": 1196032, "58967": 84803584}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.6350021, "rss": 107446272, "pids": {"58899": 27951104, "58968": 1196032, "58969": 78299136}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.669746, "rss": 29147136, "pids": {"58899": 27951104, "58970": 1196032}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.704753, "rss": 108396544, "pids": {"58899": 27951104, "58970": 1196032, "58971": 79249408}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}
+{"time": 1793559610.7394922, "rss": 0, "pids": {}, "available": 7691288576, "swap_used": 690487296, "rss_includes_metal_allocation": false}

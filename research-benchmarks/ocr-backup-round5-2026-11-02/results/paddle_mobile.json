@@ -1,0 +1,598 @@
+{
+  "mode": "paddle_mobile",
+  "setup": {
+    "model_constructor_seconds": {
+      "tha": 0.7842098330002045,
+      "eng": 0.032222292000369634
+    },
+    "startup_seconds": 3.1238466249997145
+  },
+  "rows": [
+    {
+      "id": "g1",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "seconds": 0.11454562500148313,
+      "text": "cl",
+      "score": 0.3488919138908386,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cl",
+        "rec_score": 0.3488919138908386
+      }
+    },
+    {
+      "id": "g2",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "seconds": 0.054965583000011975,
+      "text": "cYalwb",
+      "score": 0.537834107875824,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cYalwb",
+        "rec_score": 0.537834107875824
+      }
+    },
+    {
+      "id": "g3",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "seconds": 0.05551112499961164,
+      "text": "c-w",
+      "score": 0.5938233733177185,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "c-w",
+        "rec_score": 0.5938233733177185
+      }
+    },
+    {
+      "id": "g4",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "seconds": 0.05738633399960236,
+      "text": "c-b",
+      "score": 0.5841607451438904,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "c-b",
+        "rec_score": 0.5841607451438904
+      }
+    },
+    {
+      "id": "g5",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "seconds": 0.054862999997567385,
+      "text": "cYwb",
+      "score": 0.4935750365257263,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cYwb",
+        "rec_score": 0.4935750365257263
+      }
+    },
+    {
+      "id": "g6",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "seconds": 0.05509145799805992,
+      "text": "cYwb",
+      "score": 0.47784319519996643,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cYwb",
+        "rec_score": 0.47784319519996643
+      }
+    },
+    {
+      "id": "r1-c3",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "seconds": 0.06685441700028605,
+      "text": "69, 135",
+      "score": 0.9738066792488098,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "69, 135",
+        "rec_score": 0.9738066792488098
+      }
+    },
+    {
+      "id": "r3-c1",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "seconds": 0.054717666000215104,
+      "text": "1, 838, 785",
+      "score": 0.9368142485618591,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "1, 838, 785",
+        "rec_score": 0.9368142485618591
+      }
+    },
+    {
+      "id": "r4-c5",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "seconds": 0.05474612499892828,
+      "text": "18, 282",
+      "score": 0.980572521686554,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "18, 282",
+        "rec_score": 0.980572521686554
+      }
+    },
+    {
+      "id": "g1",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "seconds": 0.055071917002351256,
+      "text": "cl",
+      "score": 0.3488919138908386,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cl",
+        "rec_score": 0.3488919138908386
+      }
+    },
+    {
+      "id": "g2",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "seconds": 0.0549995420005871,
+      "text": "cYalwb",
+      "score": 0.537834107875824,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cYalwb",
+        "rec_score": 0.537834107875824
+      }
+    },
+    {
+      "id": "g3",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "seconds": 0.055624249998800224,
+      "text": "c-w",
+      "score": 0.5938233733177185,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "c-w",
+        "rec_score": 0.5938233733177185
+      }
+    },
+    {
+      "id": "g4",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "seconds": 0.05770458300321479,
+      "text": "c-b",
+      "score": 0.5841607451438904,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "c-b",
+        "rec_score": 0.5841607451438904
+      }
+    },
+    {
+      "id": "g5",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "seconds": 0.05490562500199303,
+      "text": "cYwb",
+      "score": 0.4935750365257263,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cYwb",
+        "rec_score": 0.4935750365257263
+      }
+    },
+    {
+      "id": "g6",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "seconds": 0.05474483299985877,
+      "text": "cYwb",
+      "score": 0.47784319519996643,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cYwb",
+        "rec_score": 0.47784319519996643
+      }
+    },
+    {
+      "id": "r1-c3",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "seconds": 0.05474079199848347,
+      "text": "69, 135",
+      "score": 0.9738066792488098,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "69, 135",
+        "rec_score": 0.9738066792488098
+      }
+    },
+    {
+      "id": "r3-c1",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "seconds": 0.0561576249965583,
+      "text": "1, 838, 785",
+      "score": 0.9368142485618591,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "1, 838, 785",
+        "rec_score": 0.9368142485618591
+      }
+    },
+    {
+      "id": "r4-c5",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "seconds": 0.05451499999981024,
+      "text": "18, 282",
+      "score": 0.980572521686554,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "18, 282",
+        "rec_score": 0.980572521686554
+      }
+    },
+    {
+      "id": "g1",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "seconds": 0.054845833001309074,
+      "text": "cl",
+      "score": 0.3488919138908386,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cl",
+        "rec_score": 0.3488919138908386
+      }
+    },
+    {
+      "id": "g2",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "seconds": 0.054795790998468874,
+      "text": "cYalwb",
+      "score": 0.537834107875824,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cYalwb",
+        "rec_score": 0.537834107875824
+      }
+    },
+    {
+      "id": "g3",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "seconds": 0.05518174999815528,
+      "text": "c-w",
+      "score": 0.5938233733177185,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "c-w",
+        "rec_score": 0.5938233733177185
+      }
+    },
+    {
+      "id": "g4",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "seconds": 0.05786412499946891,
+      "text": "c-b",
+      "score": 0.5841607451438904,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "c-b",
+        "rec_score": 0.5841607451438904
+      }
+    },
+    {
+      "id": "g5",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "seconds": 0.05512850000013714,
+      "text": "cYwb",
+      "score": 0.4935750365257263,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cYwb",
+        "rec_score": 0.4935750365257263
+      }
+    },
+    {
+      "id": "g6",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "seconds": 0.054694292000931455,
+      "text": "cYwb",
+      "score": 0.47784319519996643,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cYwb",
+        "rec_score": 0.47784319519996643
+      }
+    },
+    {
+      "id": "r1-c3",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "seconds": 0.05486387500059209,
+      "text": "69, 135",
+      "score": 0.9738066792488098,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "69, 135",
+        "rec_score": 0.9738066792488098
+      }
+    },
+    {
+      "id": "r3-c1",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "seconds": 0.055226000000402564,
+      "text": "1, 838, 785",
+      "score": 0.9368142485618591,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "1, 838, 785",
+        "rec_score": 0.9368142485618591
+      }
+    },
+    {
+      "id": "r4-c5",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "seconds": 0.05490483299945481,
+      "text": "18, 282",
+      "score": 0.980572521686554,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "18, 282",
+        "rec_score": 0.980572521686554
+      }
+    },
+    {
+      "id": "g1",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "seconds": 0.05486741699860431,
+      "text": "cl",
+      "score": 0.3488919138908386,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cl",
+        "rec_score": 0.3488919138908386
+      }
+    },
+    {
+      "id": "g2",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "seconds": 0.054764333999628434,
+      "text": "cYalwb",
+      "score": 0.537834107875824,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cYalwb",
+        "rec_score": 0.537834107875824
+      }
+    },
+    {
+      "id": "g3",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "seconds": 0.05544933300188859,
+      "text": "c-w",
+      "score": 0.5938233733177185,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "c-w",
+        "rec_score": 0.5938233733177185
+      }
+    },
+    {
+      "id": "g4",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "seconds": 0.057979625002190005,
+      "text": "c-b",
+      "score": 0.5841607451438904,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "c-b",
+        "rec_score": 0.5841607451438904
+      }
+    },
+    {
+      "id": "g5",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "seconds": 0.05491154199989978,
+      "text": "cYwb",
+      "score": 0.4935750365257263,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cYwb",
+        "rec_score": 0.4935750365257263
+      }
+    },
+    {
+      "id": "g6",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "seconds": 0.05502529200020945,
+      "text": "cYwb",
+      "score": 0.47784319519996643,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "cYwb",
+        "rec_score": 0.47784319519996643
+      }
+    },
+    {
+      "id": "r1-c3",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "seconds": 0.05491329100186704,
+      "text": "69, 135",
+      "score": 0.9738066792488098,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "69, 135",
+        "rec_score": 0.9738066792488098
+      }
+    },
+    {
+      "id": "r3-c1",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "seconds": 0.05503625000346801,
+      "text": "1, 838, 785",
+      "score": 0.9368142485618591,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "1, 838, 785",
+        "rec_score": 0.9368142485618591
+      }
+    },
+    {
+      "id": "r4-c5",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "seconds": 0.05467804200088722,
+      "text": "18, 282",
+      "score": 0.980572521686554,
+      "complete": true,
+      "raw": {
+        "input_path": null,
+        "page_index": null,
+        "rec_text": "18, 282",
+        "rec_score": 0.980572521686554
+      }
+    }
+  ],
+  "self_peak_rss_bytes": 1043234816,
+  "versions": {
+    "paddleocr": "3.7.0",
+    "paddlex": "3.7.2",
+    "paddlepaddle": "3.2.1",
+    "mlx-vlm": "0.7.11",
+    "pillow": "13.0.0",
+    "numpy": "2.3.5",
+    "psutil": "7.2.2"
+  }
+}
