@@ -1,0 +1,166 @@
+{
+  "source": "failed-request-02f65818b68dbc89181050a54170ddb2b7df58c3f2f3a6c0fea13df99e3f51da.json",
+  "max_tokens": 512,
+  "note": "Exact request image and prompt, supplemental one-region diagnostic, not full-document scoring.",
+  "rows": [
+    {
+      "variant": "penalty-1.1",
+      "changes": {
+        "repetition_penalty": 1.1
+      },
+      "seconds": 4.662334417000238,
+      "response": {
+        "id": "chatcmpl-ad8ed406-ef53-43af-9b09-b83454db4d87",
+        "object": "chat.completion",
+        "created": 1793548610,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "length",
+            "message": {
+              "role": "assistant",
+              "content": "W.A.T. 1000ωππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππ",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 512,
+          "total_tokens": 685,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 173,
+          "cache_n": 0,
+          "predicted_n": 512,
+          "prompt_ms": 252.54150000182563,
+          "prompt_per_token_ms": 1.4597774566579516,
+          "prompt_per_second": 685.0359247836469,
+          "predicted_ms": 4327.250828775131,
+          "predicted_per_token_ms": 8.451661774951427,
+          "predicted_per_second": 118.3199264982119,
+          "peak_memory": 2.685011498,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "variant": "penalty-1.15",
+      "changes": {
+        "repetition_penalty": 1.15
+      },
+      "seconds": 4.592184042001463,
+      "response": {
+        "id": "chatcmpl-a34cd2ec-da52-44b7-a559-045bb4b34da5",
+        "object": "chat.completion",
+        "created": 1793548614,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "length",
+            "message": {
+              "role": "assistant",
+              "content": "W.A.T. 1000ωππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππππ",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 512,
+          "total_tokens": 685,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 173,
+          "cache_n": 0,
+          "predicted_n": 512,
+          "prompt_ms": 247.70983300004445,
+          "prompt_per_token_ms": 1.4318487456649969,
+          "prompt_per_second": 698.3977902886437,
+          "predicted_ms": 4305.406705470876,
+          "predicted_per_token_ms": 8.408997471622804,
+          "predicted_per_second": 118.92024029911092,
+          "peak_memory": 2.685011498,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "variant": "min-pixels-112896",
+      "changes": {
+        "min_pixels": 112896
+      },
+      "seconds": 4.515214625000226,
+      "response": {
+        "id": "chatcmpl-48a13b8c-cbb1-4700-b572-618e311fbbe1",
+        "object": "chat.completion",
+        "created": 1793548619,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "length",
+            "message": {
+              "role": "assistant",
+              "content": "W.A.T. 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 512,
+          "total_tokens": 685,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 173,
+          "cache_n": 0,
+          "predicted_n": 512,
+          "prompt_ms": 247.45962399902055,
+          "prompt_per_token_ms": 1.4304024508613904,
+          "prompt_per_second": 699.1039475623091,
+          "predicted_ms": 4227.7763757340745,
+          "predicted_per_token_ms": 8.257375733855614,
+          "predicted_per_second": 121.10385093655782,
+          "peak_memory": 2.685011498,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    }
+  ]
+}

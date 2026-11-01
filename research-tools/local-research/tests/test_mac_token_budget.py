@@ -48,11 +48,45 @@ class TokenBudgetTests(unittest.TestCase):
         def request(_):
             start.wait()
             return self.worker.forward_recognition('/v1/chat/completions',{'messages':[]})
-        with patch.object(self.worker.httpx,'post',side_effect=post) as mocked:
+        # Exercise the real forwarding boundary, including concurrent callers.
+        class Client:
+            def __init__(self,*args,**kwargs):pass
+            def __enter__(self):return self
+            def __exit__(self,*args):pass
+            def stream(self,*args,**kwargs):
+                post()
+                class Response:
+                    status_code=200
+                    def __enter__(self):return self
+                    def __exit__(self,*args):pass
+                    def iter_lines(self):return iter(['data: {"choices":[{"delta":{"content":"hello"},"finish_reason":"stop"}]}','data: [DONE]'])
+                return Response()
+        with patch.object(self.worker.httpx,'Client',Client):
             with ThreadPoolExecutor(max_workers=4) as pool:results=list(pool.map(request,range(4)))
         self.assertEqual(peak,1)
-        self.assertEqual(mocked.call_count,4)
         self.assertTrue(all(r.status_code==200 for r in results))
+    def test_stream_guard_stops_consuming_and_never_reports_success(self):
+        import json
+        def lines():
+            yield 'data: '+json.dumps({'choices':[{'delta':{'content':'W.A.T. '+'0'*150},'finish_reason':None}]})
+            raise AssertionError('The runaway stream must be closed without consuming more tokens')
+        result=self.worker.collect_stream(lines())
+        self.assertTrue(result['repetition_guard'])
+        self.assertEqual(result['choices'][0]['finish_reason'],'length')
+        self.assertIsNone(result['usage']['completion_tokens'])
+        self.assertFalse(result['token_usage_complete'])
+    def test_normal_stream_keeps_full_text_and_final_token_usage(self):
+        import json
+        events=[{'choices':[{'delta':{'content':'Public revenue records and expenditure evidence.'},'finish_reason':None}]},
+                {'choices':[{'delta':{},'finish_reason':'stop'}]},
+                {'choices':[],'usage':{'completion_tokens':9}}]
+        result=self.worker.collect_stream(['data: '+json.dumps(e) for e in events]+['data: [DONE]'])
+        self.assertFalse(result['repetition_guard'])
+        self.assertEqual(result['usage']['completion_tokens'],9)
+        self.assertEqual(result['choices'][0]['message']['content'],events[0]['choices'][0]['delta']['content'])
+    def test_missing_stream_finish_is_rejected(self):
+        with self.assertRaisesRegex(RuntimeError,'without a finish reason'):
+            self.worker.collect_stream(['data: [DONE]'])
     def test_budget_change_cannot_reuse_old_page_result(self):
         self.worker.MAX_NEW_TOKENS=4096
         self.worker.ocr(self.body)

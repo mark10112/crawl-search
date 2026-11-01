@@ -1,0 +1,116 @@
+{
+  "source_id": "thai-gazette",
+  "page": 3,
+  "dpi": 144,
+  "bbox": [
+    359,
+    392,
+    461,
+    576
+  ],
+  "prompt": "OCR:",
+  "max_tokens": 1024,
+  "note": "Supplemental isolated region; different from full layout/batched inference, not scored as a document.",
+  "rows": [
+    {
+      "prompt": "Seal Recognition:",
+      "seconds": 0.37918733399965276,
+      "response": {
+        "id": "chatcmpl-56983589-2325-4089-b67f-a8e6c7d5e11a",
+        "object": "chat.completion",
+        "created": 1793548202,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "WPG\nW\nW",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 167,
+          "completion_tokens": 8,
+          "total_tokens": 175,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 167,
+          "cache_n": 0,
+          "predicted_n": 8,
+          "prompt_ms": 255.1294590011821,
+          "prompt_per_token_ms": 1.527721311384324,
+          "prompt_per_second": 654.5696473225627,
+          "predicted_ms": 71.74585714320918,
+          "predicted_per_token_ms": 8.968232142901147,
+          "predicted_per_second": 111.50469613920012,
+          "peak_memory": 2.685011498,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "prompt": "OCR:",
+      "seconds": 0.3360775000001013,
+      "response": {
+        "id": "chatcmpl-41ff0473-ccf7-4c6c-a330-e551e8beb68f",
+        "object": "chat.completion",
+        "created": 1793548203,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "ทำงานทำการ",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 5,
+          "total_tokens": 171,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 166,
+          "cache_n": 0,
+          "predicted_n": 5,
+          "prompt_ms": 245.53162599841016,
+          "prompt_per_token_ms": 1.4791061807133143,
+          "prompt_per_second": 676.0839843950484,
+          "predicted_ms": 48.91989625093629,
+          "predicted_per_token_ms": 9.783979250187258,
+          "predicted_per_second": 102.20790277952202,
+          "peak_memory": 2.685011498,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    }
+  ]
+}

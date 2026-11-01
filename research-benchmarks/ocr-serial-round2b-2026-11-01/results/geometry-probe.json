@@ -1,0 +1,262 @@
+{
+  "source": "failed-request-02f65818b68dbc89181050a54170ddb2b7df58c3f2f3a6c0fea13df99e3f51da.json",
+  "max_tokens": 512,
+  "note": "Exact request image and prompt, supplemental one-region diagnostic, not full-document scoring.",
+  "rows": [
+    {
+      "variant": "upscale-2",
+      "changes": {},
+      "seconds": 2.689935415999571,
+      "response": {
+        "id": "chatcmpl-e7b92c6c-4e82-4d5c-8ddf-4b32eaff3c2a",
+        "object": "chat.completion",
+        "created": 1793548719,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "W.ศ. โดด๑๑ งเชิงมีหัวข้อมูล ๒๕๓๑๓๒ ๒๓๓๓๓๓๓๓ ๒๓๓๓๓๓๓๓ ๒๓๓๓๓๓๓๓๓ ๒๓๓๓๓๓๓๓๓๓ ๒๓๓๓๓๓๓๓๓๓ ๒๓๓๓๓๓๓๓๓๓ ๒๓๓๓๓๓๓๓๓๓ ๒๓๓๓๓๓๓๓๓๓",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 203,
+          "completion_tokens": 280,
+          "total_tokens": 483,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 203,
+          "cache_n": 0,
+          "predicted_n": 280,
+          "prompt_ms": 309.0207080003893,
+          "prompt_per_token_ms": 1.5222694975388635,
+          "prompt_per_second": 656.9139049404556,
+          "predicted_ms": 2290.671720429959,
+          "predicted_per_token_ms": 8.180970430106996,
+          "predicted_per_second": 122.23488747983671,
+          "peak_memory": 2.685011498,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "variant": "pad-28",
+      "changes": {},
+      "seconds": 0.9716201670016744,
+      "response": {
+        "id": "chatcmpl-7cd6a29f-d4d1-4975-a589-ee57ef184466",
+        "object": "chat.completion",
+        "created": 1793548720,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "ฟ.ศ. โต๋อ๓ ลำบัญชีกูมล ผอัฆาต ฯ ฯ ฯ ฯ ฯ\nลลอประทาศสงกรานต์บีชวดฉศกงัวและฤล",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 85,
+          "total_tokens": 254,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 169,
+          "cache_n": 0,
+          "predicted_n": 85,
+          "prompt_ms": 246.33691699818883,
+          "prompt_per_token_ms": 1.4576148934804072,
+          "prompt_per_second": 686.0522655694459,
+          "predicted_ms": 690.1961213696137,
+          "predicted_per_token_ms": 8.119954369054279,
+          "predicted_per_second": 123.153401429332,
+          "peak_memory": 2.685011498,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "variant": "upscale-2-pad-28",
+      "changes": {},
+      "seconds": 1.2906240000011167,
+      "response": {
+        "id": "chatcmpl-3544c2f2-e493-465f-841f-898fd48f0552",
+        "object": "chat.completion",
+        "created": 1793548721,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "ฟ.ศ. โดย๑๐๑ ลำปรัชช์กุฎนาตาอัฬนาฬิกาและสะดสการกายหน้า\nลดล่อประกาศสงกรานต์บีชวดฉศกงีรัสสาลจ๑๒๖",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 293,
+          "completion_tokens": 96,
+          "total_tokens": 389,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 293,
+          "cache_n": 0,
+          "predicted_n": 96,
+          "prompt_ms": 450.54987500043353,
+          "prompt_per_token_ms": 1.537712883960524,
+          "prompt_per_second": 650.316460524416,
+          "predicted_ms": 794.3587371779263,
+          "predicted_per_token_ms": 8.274570178936733,
+          "predicted_per_second": 120.85219876985784,
+          "peak_memory": 2.685011498,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "variant": "top-line-pad",
+      "changes": {},
+      "seconds": 0.49826779200157034,
+      "response": {
+        "id": "chatcmpl-0bc56e05-efc3-4b31-832c-a4e1cc3c3e4a",
+        "object": "chat.completion",
+        "created": 1793548722,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "W.Y. ιωδος\nαπαιθεύση από τον ακούστενιο:",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 26,
+          "total_tokens": 194,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 168,
+          "cache_n": 0,
+          "predicted_n": 26,
+          "prompt_ms": 245.73504100226276,
+          "prompt_per_token_ms": 1.4627085773944213,
+          "prompt_per_second": 683.6631817537697,
+          "predicted_ms": 213.9148273607134,
+          "predicted_per_token_ms": 8.227493360027438,
+          "predicted_per_second": 121.54370185923372,
+          "peak_memory": 2.685011498,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "variant": "bottom-line-pad",
+      "changes": {},
+      "seconds": 0.6090510419999191,
+      "response": {
+        "id": "chatcmpl-a5d6eea9-2c29-4e19-a846-bce0fc243bbb",
+        "object": "chat.completion",
+        "created": 1793548722,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "เอาอี\nประกาศสงกรานต์บีชวดฉศกงัวละคร๑๒๖",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 40,
+          "total_tokens": 203,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 163,
+          "cache_n": 0,
+          "predicted_n": 40,
+          "prompt_ms": 242.182000001776,
+          "prompt_per_token_ms": 1.4857791411151902,
+          "prompt_per_second": 673.0475427521643,
+          "predicted_ms": 326.5659825653226,
+          "predicted_per_token_ms": 8.164149564133066,
+          "predicted_per_second": 122.48673204043489,
+          "peak_memory": 2.685011498,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    }
+  ]
+}

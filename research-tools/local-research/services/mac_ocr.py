@@ -4,7 +4,7 @@ from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
 from pathlib import Path
 import httpx
 from PIL import Image
-from completion_checks import completion_flags,compact_markup
+from completion_checks import completion_flags,compact_markup,excessive_repetition
 
 REVISION='c5630abae1d940eafe0697512a0325494b02ab42'
 STATE=Path(os.environ.get('MAC_OCR_STATE',str(Path.home()/'research-server/state/ocr')));STATE.mkdir(parents=True,exist_ok=True)
@@ -22,12 +22,49 @@ def recognition_request(body):
     body.pop('max_completion_tokens',None);body['model']=MODEL
     return body,requested
 
+def collect_stream(lines):
+    """Reassemble SSE, cancelling consumption on the existing repetition rule.
+
+    A guard is an incomplete result, never a synthetic normal finish. Token
+    usage stays unknown when cancellation prevents the final usage packet.
+    """
+    text='';finish=None;usage=None;guard=False;chunks=0;checked=0;metadata={}
+    for line in lines:
+        if not line.startswith('data:'):continue
+        data=line[5:].strip()
+        if data=='[DONE]':break
+        event=json.loads(data)
+        metadata.update({k:event[k] for k in ['id','created','model'] if k in event})
+        if event.get('error'):raise RuntimeError(str(event['error']))
+        if event.get('usage'):usage=event['usage']
+        for choice in event.get('choices',[]):
+            text+=choice.get('delta',{}).get('content') or ''
+            chunks+=1
+            if choice.get('finish_reason') is not None:finish=choice['finish_reason']
+        if len(text)-checked>=128 or finish is not None:
+            checked=len(text)
+            if excessive_repetition(text[-4096:]):guard=True;break
+    if not guard and finish is None:raise RuntimeError('Recognition stream ended without a finish reason')
+    return {'id':metadata.get('id','native-'+str(time.time_ns())),'created':metadata.get('created',int(time.time())),
+            'model':metadata.get('model',MODEL),'object':'chat.completion',
+            'choices':[{'index':0,'message':{'role':'assistant','content':text},'finish_reason':'length' if guard else finish}],
+            'usage':usage or {'completion_tokens':None},'repetition_guard':guard,
+            'token_usage_complete':usage is not None,'received_chunks':chunks,'received_chars':len(text)}
+
 def forward_recognition(path,body):
     # Paddle dispatches regions concurrently. Keep only one image request in
     # this MLX backend's continuous batch; isolated crop probes finish normally
     # where concurrent layout requests can run to the token limit.
     with generation_lock:
-        return httpx.post('http://127.0.0.1:8111'+path,json=body,timeout=240)
+        streaming={**body,'stream':True,'stream_options':{'include_usage':True}}
+        with httpx.Client(timeout=240) as client:
+            with client.stream('POST','http://127.0.0.1:8111'+path,json=streaming) as response:
+                if response.status_code!=200:
+                    return httpx.Response(response.status_code,content=response.read())
+                payload=collect_stream(response.iter_lines())
+                # Leaving this context closes the HTTP stream. MLX cancels its
+                # request on disconnect instead of continuing the token loop.
+        return httpx.Response(200,json=payload)
 
 class Proxy(BaseHTTPRequestHandler):
     def do_POST(self):
@@ -36,10 +73,11 @@ class Proxy(BaseHTTPRequestHandler):
             body,requested=recognition_request(body)
             r=forward_recognition(self.path,body)
             if r.status_code==200:
-                payload=r.json();calls.extend({'finish_reason':c.get('finish_reason'),'tokens':payload.get('usage',{}).get('completion_tokens'),
+                payload=r.json();calls.extend({'finish_reason':'repetition_guard' if payload.get('repetition_guard') else c.get('finish_reason'),'tokens':payload.get('usage',{}).get('completion_tokens'),
                     'requested_max_tokens':requested,'effective_max_tokens':body['max_tokens'],
                     'repetition_penalty':body['repetition_penalty'],'repetition_context_size':body['repetition_context_size'],
-                    'serialized':True} for c in payload.get('choices',[]))
+                    'serialized':True,'repetition_guard':payload.get('repetition_guard',False),
+                    'token_usage_complete':payload.get('token_usage_complete',True),'received_chars':payload.get('received_chars')} for c in payload.get('choices',[]))
             self.send_response(r.status_code);self.send_header('Content-Type','application/json');self.end_headers();self.wfile.write(r.content)
         except Exception as exc:
             self.send_response(502);self.end_headers();self.wfile.write(json.dumps({'error':str(exc)}).encode())
@@ -55,7 +93,7 @@ def ocr(body):
     if image.width*image.height>16000000:raise ValueError('Image exceeds 16 megapixels')
     policy=body.get('policy','balanced')
     if policy not in {'balanced','quality'}:raise ValueError('Invalid OCR policy')
-    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v4-serial-compact',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64]).encode()).hexdigest();cache=STATE/(key+'.json')
+    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v5-stream-guard',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64]).encode()).hexdigest();cache=STATE/(key+'.json')
     with lock:
         if body.get('cache',True) and cache.exists():
             result=json.loads(cache.read_text());result.update(cache_hit=True,elapsed_ms=0);return result

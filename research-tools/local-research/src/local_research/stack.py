@@ -241,7 +241,7 @@ class ResearchStack:
         max_pages = max(1, min(max_pages, 10))
         start_page = max(1, start_page)
         start = time.perf_counter()
-        key = hashlib.sha256(json.dumps(["reader-v6-complete-output", url, mode, max_chars, max_pages, start_page, ocr_engine,language_hint,ocr_policy]).encode()).hexdigest()
+        key = hashlib.sha256(json.dumps(["reader-v7-stream-guard-complete-output", url, mode, max_chars, max_pages, start_page, ocr_engine,language_hint,ocr_policy]).encode()).hexdigest()
         cached_path = self.settings.state_dir / (key + ".json")
         if cache and cached_path.exists() and time.time() - cached_path.stat().st_mtime < self.settings.cache_seconds:
             result = json.loads(cached_path.read_text(encoding="utf-8"))
@@ -250,7 +250,7 @@ class ResearchStack:
                           original_credits_used=result.get('credits_used',0),credits_used=0)
             return result
         stages = []
-        result = {"ok": False, "url": url, "reader": None, "cache_hit": False,
+        result = {"ok": False, "output_complete": False, "url": url, "reader": None, "cache_hit": False,
                   "stages": stages, "text": "", "external_fallback_required": False,'credits_used':0}
         source_allowed=False
         async def stage(name, operation):
