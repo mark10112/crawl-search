@@ -235,11 +235,13 @@ class ResearchStack:
             raise ValueError("ocr_engine must be auto/tesseract/docling/router")
         if ocr_policy not in {"balanced","quality"}:
             raise ValueError("ocr_policy must be balanced or quality")
-        max_chars = max(100, min(max_chars, 40000))
+        if max_chars < 0:
+            raise ValueError('max_chars must be nonnegative; 0 returns the complete selected page range')
+        max_chars = max(100, max_chars) if max_chars else 0
         max_pages = max(1, min(max_pages, 10))
         start_page = max(1, start_page)
         start = time.perf_counter()
-        key = hashlib.sha256(json.dumps(["reader-v5-explicit-ocr-budget", url, mode, max_chars, max_pages, start_page, ocr_engine,language_hint,ocr_policy]).encode()).hexdigest()
+        key = hashlib.sha256(json.dumps(["reader-v6-complete-output", url, mode, max_chars, max_pages, start_page, ocr_engine,language_hint,ocr_policy]).encode()).hexdigest()
         cached_path = self.settings.state_dir / (key + ".json")
         if cache and cached_path.exists() and time.time() - cached_path.stat().st_mtime < self.settings.cache_seconds:
             result = json.loads(cached_path.read_text(encoding="utf-8"))
@@ -344,7 +346,10 @@ class ResearchStack:
             if mode == "basic" and result.get("reader") == "pdf-text" and needs_ocr:
                 result["ok"] = False
                 result["incomplete_pages"] = [p + 1 for p in ocr_pages]
-            result.update(text=text[:max_chars], extracted_chars=len(text), truncated=len(text) > max_chars)
+            truncated=bool(max_chars and len(text)>max_chars)
+            result.update(text=text[:max_chars] if max_chars else text, extracted_chars=len(text),
+                          truncated=truncated,output_complete=bool(result['ok'] and not truncated))
+            if truncated:result['next_step']='Repeat with max_chars=0 for the complete selected page range.'
             if not result["ok"]:
                 result["error"] = "No usable article text; do not treat an empty/challenge page as evidence"
         except Exception as exc:
@@ -385,10 +390,14 @@ class ResearchStack:
         if metadata.get('numPages',0)>pending['max_pages']:
             raise ValueError('External reader exceeded the requested page bound')
         result={**pending['local_result'],'ok':self.usable(text),'reader':'firecrawl-fallback',
-                'text':text[:pending['max_chars']],'external_metadata':metadata,'credits_used':credits_used,
+                'text':text[:pending['max_chars']] if pending['max_chars'] else text,'external_metadata':metadata,'credits_used':credits_used,
                 'external_fallback_required':False,'fallback_request_id':request_id,
                 'cache_hit':False,'fallback_count':pending['local_result'].get('fallback_count',0)+1,
                 'elapsed_ms':round((time.time()-pending['created_at'])*1000+pending['local_result']['elapsed_ms'],2)}
+        truncated=bool(pending['max_chars'] and len(text)>pending['max_chars'])
+        result.update(extracted_chars=len(text),truncated=truncated,output_complete=bool(result['ok'] and not truncated))
+        if truncated:result['next_step']='Repeat with max_chars=0 for the complete selected page range.'
+        else:result.pop('next_step',None)
         if result['ok']:
             result.pop('error',None)
         if pending['cache'] and result['ok']:

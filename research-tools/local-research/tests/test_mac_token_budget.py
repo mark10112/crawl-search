@@ -28,6 +28,13 @@ class TokenBudgetTests(unittest.TestCase):
         result=self.worker.ocr(self.body)
         self.assertTrue(result['ok'])
         self.assertEqual(self.requests[0]['max_new_tokens'],8192)
+    def test_proxy_forwards_penalty_without_losing_token_ceiling(self):
+        body,requested=self.worker.recognition_request({'max_completion_tokens':10000,'messages':[]})
+        self.assertEqual(requested,10000)
+        self.assertEqual(body['max_tokens'],8192)
+        self.assertEqual(body['repetition_penalty'],1.05)
+        self.assertEqual(body['repetition_context_size'],64)
+        self.assertNotIn('max_completion_tokens',body)
     def test_budget_change_cannot_reuse_old_page_result(self):
         self.worker.MAX_NEW_TOKENS=4096
         self.worker.ocr(self.body)

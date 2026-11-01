@@ -56,15 +56,15 @@ async def research_job(job_id:str)->dict:
     r=await client.get('/jobs/'+job_id);r.raise_for_status();return r.json()
 @mcp.tool()
 async def research_read(url:str,max_pages:int=5,start_page:int=1,max_chars:int=22000,cache:bool=True,ocr_engine:str='auto',language_hint:str|None=None,ocr_policy:str='balanced',mode:str='auto')->dict:
-    """Read remotely and wait up to ten minutes. Incomplete OCR is not successful evidence. Firecrawl handoff remains a client tool."""
+    """Read remotely; max_chars=0 returns the complete selected page range. Positive values request a preview; check output_complete. Incomplete OCR is not successful evidence."""
     return await wait(await post('/jobs',locals()))
 @mcp.tool()
-async def research_read_file(path:str,max_pages:int=5,ocr_policy:str='balanced',start_page:int=1,cache:bool=True,mode:str='auto')->dict:
+async def research_read_file(path:str,max_pages:int=5,ocr_policy:str='balanced',start_page:int=1,cache:bool=True,mode:str='auto',max_chars:int=0)->dict:
     """Upload a local client PDF/image once by content hash and read it on Mac. Max 32 MiB."""
     source=Path(path).expanduser()
     if source.stat().st_size>32*1024*1024:raise ValueError('File exceeds 32 MiB')
     r=await client.post('/uploads',content=source.read_bytes());r.raise_for_status()
-    return await wait(await post('/jobs',{'upload_id':r.json()['upload_id'],'max_pages':max_pages,'start_page':start_page,'cache':cache,'mode':mode,'ocr_policy':ocr_policy}))
+    return await wait(await post('/jobs',{'upload_id':r.json()['upload_id'],'max_pages':max_pages,'start_page':start_page,'cache':cache,'mode':mode,'ocr_policy':ocr_policy,'max_chars':max_chars}))
 @mcp.tool()
 async def research_complete_fallback(request_id:str,markdown:str,metadata:dict,credits_used:int|None=None)->dict:
     """Cache a real connected Firecrawl result on Mac after the requested client-agent handoff."""

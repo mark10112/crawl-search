@@ -7,6 +7,22 @@ from local_research.stack import ResearchStack, Settings
 
 
 class RoutingTests(unittest.IsolatedAsyncioTestCase):
+    async def test_explicit_full_output_does_not_silently_cap_at_40000(self):
+        content = 'Public revenue evidence and historical records. ' * 3000
+        self.stack.fetch = AsyncMock(return_value=(content.encode(), 'text/plain', 'https://example.org'))
+        result = await self.stack.read('https://example.org', max_chars=0)
+        self.assertEqual(result['text'], content)
+        self.assertTrue(result['output_complete'])
+        self.assertFalse(result['truncated'])
+
+    async def test_requested_preview_marks_output_incomplete(self):
+        content = 'Public revenue evidence and historical records. ' * 3000
+        self.stack.fetch = AsyncMock(return_value=(content.encode(), 'text/plain', 'https://example.org'))
+        result = await self.stack.read('https://example.org', max_chars=50000)
+        self.assertEqual(len(result['text']), 50000)
+        self.assertFalse(result['output_complete'])
+        self.assertEqual(result['next_step'], 'Repeat with max_chars=0 for the complete selected page range.')
+
     async def asyncSetUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.stack = ResearchStack(Settings(state_dir=Path(self.temp.name), allow_local=True))

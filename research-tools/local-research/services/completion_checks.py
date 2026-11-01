@@ -2,6 +2,17 @@
 import re
 from bs4 import BeautifulSoup
 
+def compact_markup(text):
+    """Drop presentation attributes, never cells, spans, text or table structure."""
+    # Parse only HTML fragments: parsing a whole Markdown document escapes '<'
+    # in ordinary source text and can change paragraph whitespace.
+    def compact(match):
+        soup=BeautifulSoup(match.group(0),'html.parser')
+        for tag in soup.find_all(True):
+            tag.attrs={k:v for k,v in tag.attrs.items() if k in {'rowspan','colspan'}}
+        return str(soup)
+    return re.sub(r'<table\b[^>]*>.*?</table\s*>',compact,text,flags=re.I|re.S)
+
 def completion_flags(text, generations):
     plain=BeautifulSoup(text,'html.parser').get_text(' ')
     flags=[]

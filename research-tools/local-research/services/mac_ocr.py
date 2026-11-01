@@ -4,25 +4,34 @@ from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
 from pathlib import Path
 import httpx
 from PIL import Image
-from completion_checks import completion_flags
+from completion_checks import completion_flags,compact_markup
 
 REVISION='c5630abae1d940eafe0697512a0325494b02ab42'
 STATE=Path(os.environ.get('MAC_OCR_STATE',str(Path.home()/'research-server/state/ocr')));STATE.mkdir(parents=True,exist_ok=True)
 MODEL=os.environ['MAC_OCR_MODEL'];pipeline=None;lock=threading.Lock();calls=[]
 MAX_NEW_TOKENS=int(os.getenv('PADDLEOCR_VL_MAX_NEW_TOKENS','8192'))
 if not 1<=MAX_NEW_TOKENS<=8192:raise ValueError('PADDLEOCR_VL_MAX_NEW_TOKENS must be between 1 and 8192')
+REPETITION_PENALTY=float(os.getenv('MAC_OCR_REPETITION_PENALTY','1.05'))
+if not 1<=REPETITION_PENALTY<=1.2:raise ValueError('MAC_OCR_REPETITION_PENALTY must be between 1 and 1.2')
+
+def recognition_request(body):
+    body=dict(body)
+    requested=body.get('max_tokens') or body.get('max_completion_tokens')
+    body.update(stream=False,temperature=0,max_tokens=min(int(requested or MAX_NEW_TOKENS),MAX_NEW_TOKENS),
+                repetition_penalty=REPETITION_PENALTY,repetition_context_size=64)
+    body.pop('max_completion_tokens',None);body['model']=MODEL
+    return body,requested
 
 class Proxy(BaseHTTPRequestHandler):
     def do_POST(self):
         try:
             body=json.loads(self.rfile.read(int(self.headers.get('Content-Length',0))))
-            requested=body.get('max_tokens') or body.get('max_completion_tokens')
-            body.update(stream=False,temperature=0,max_tokens=min(int(requested or MAX_NEW_TOKENS),MAX_NEW_TOKENS))
-            body.pop('max_completion_tokens',None);body['model']=MODEL
+            body,requested=recognition_request(body)
             r=httpx.post('http://127.0.0.1:8111'+self.path,json=body,timeout=240)
             if r.status_code==200:
                 payload=r.json();calls.extend({'finish_reason':c.get('finish_reason'),'tokens':payload.get('usage',{}).get('completion_tokens'),
-                    'requested_max_tokens':requested,'effective_max_tokens':body['max_tokens']} for c in payload.get('choices',[]))
+                    'requested_max_tokens':requested,'effective_max_tokens':body['max_tokens'],
+                    'repetition_penalty':body['repetition_penalty'],'repetition_context_size':body['repetition_context_size']} for c in payload.get('choices',[]))
             self.send_response(r.status_code);self.send_header('Content-Type','application/json');self.end_headers();self.wfile.write(r.content)
         except Exception as exc:
             self.send_response(502);self.end_headers();self.wfile.write(json.dumps({'error':str(exc)}).encode())
@@ -38,7 +47,7 @@ def ocr(body):
     if image.width*image.height>16000000:raise ValueError('Image exceeds 16 megapixels')
     policy=body.get('policy','balanced')
     if policy not in {'balanced','quality'}:raise ValueError('Invalid OCR policy')
-    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v2',policy,MAX_NEW_TOKENS]).encode()).hexdigest();cache=STATE/(key+'.json')
+    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v3-compact',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64]).encode()).hexdigest();cache=STATE/(key+'.json')
     with lock:
         if body.get('cache',True) and cache.exists():
             result=json.loads(cache.read_text());result.update(cache_hit=True,elapsed_ms=0);return result
@@ -54,9 +63,11 @@ def ocr(body):
             markdown=result.markdown;texts.append(markdown.get('markdown_texts',''))
             detail=result.json
             if isinstance(detail,dict):regions.extend(detail.get('res',detail).get('parsing_res_list',[]))
-        text='\n\n'.join(texts);flags=completion_flags(text,calls)
+        original_text='\n\n'.join(texts);flags=completion_flags(original_text,calls)
+        text=compact_markup(original_text)
         result={'ok':not flags,'text':text,'engine':'paddleocr-vl-1.6-mlx-layout','revision':REVISION,'cache_hit':False,
-            'truncated':bool(flags),'policy':policy,'max_new_tokens':MAX_NEW_TOKENS,'language_hint':body.get('language_hint'),'elapsed_ms':round((time.perf_counter()-start)*1000,2),
+            'truncated':bool(flags),'policy':policy,'max_new_tokens':MAX_NEW_TOKENS,'repetition_penalty':REPETITION_PENALTY,
+            'original_markup_chars':len(original_text),'language_hint':body.get('language_hint'),'elapsed_ms':round((time.perf_counter()-start)*1000,2),
             'route':[{'engine':'paddle-layout+mlx','regions':len(regions),'generations':list(calls)}],
             'quality_flags':flags,'regions':regions,'quality_warning':'Completion checks are not proof of transcription accuracy.'}
         if flags:result['error']='; '.join(flags)
