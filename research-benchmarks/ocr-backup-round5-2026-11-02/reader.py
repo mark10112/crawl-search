@@ -20,22 +20,28 @@ if mode=='vl':
                 'finish_reason':choice['finish_reason'],'raw':raw}
     before=time.perf_counter();warm=read(ROOT/'research-benchmarks/ocr-multilingual-2026-11-01/dataset/english.png','eng')
     setup['warmup_seconds']=time.perf_counter()-before;setup['warmup']=warm
-elif mode=='paddle_mobile':
+elif mode in ['paddle_mobile','paddle_mobile_ocr']:
     import numpy as np
     from PIL import Image
-    from paddleocr import TextRecognition
+    from paddleocr import TextRecognition,PaddleOCR
     load_times={}
     for language,model in [('tha','th_PP-OCRv5_mobile_rec'),('eng','en_PP-OCRv5_mobile_rec')]:
         before=time.perf_counter()
-        models[language]=TextRecognition(model_name=model,model_dir=str(Path.home()/'.paddlex/official_models'/model),device='cpu',enable_mkldnn=False,cpu_threads=2)
+        if mode=='paddle_mobile':
+            models[language]=TextRecognition(model_name=model,model_dir=str(Path.home()/'.paddlex/official_models'/model),device='cpu',enable_mkldnn=False,cpu_threads=2)
+        else:
+            models[language]=PaddleOCR(text_detection_model_name='PP-OCRv5_mobile_det',text_recognition_model_name=model,
+                use_doc_orientation_classify=False,use_doc_unwarping=False,use_textline_orientation=False,
+                device='cpu',enable_mkldnn=False,cpu_threads=2,text_rec_score_thresh=0.0)
         load_times[language]=time.perf_counter()-before
     setup['model_constructor_seconds']=load_times
     def read(file,language):
         image=np.asarray(Image.open(file).convert('RGB'))[:,:,::-1].copy()
-        results=list(models[language].predict(input=[image],batch_size=1))
+        results=list(models[language].predict(input=[image],**({'batch_size':1} if mode=='paddle_mobile' else {})))
         if len(results)!=1:raise RuntimeError('Unexpected recognition count')
         raw=results[0].json;raw=raw.get('res',raw)
-        return {'text':raw['rec_text'],'score':float(raw['rec_score']),'complete':True,'raw':raw}
+        if mode=='paddle_mobile':return {'text':raw['rec_text'],'score':float(raw['rec_score']),'complete':True,'raw':raw}
+        return {'text':' '.join(raw['rec_texts']),'scores':raw['rec_scores'],'complete':True,'raw':raw}
 elif mode in ['tesseract_fast','tesseract_best']:
     variant=mode.split('_')[1];folder=Path.home()/'research-server/models/tesseract-round5'/variant
     def read(file,language):

@@ -3,7 +3,8 @@ import json,os,re,signal,subprocess,sys,threading,time
 from pathlib import Path
 import httpx,psutil
 ROOT=Path(__file__).resolve().parents[2];HERE=Path(__file__).parent
-BASE=Path.home()/'research-server';WORK=BASE/'benchmarks/ocr-backup-round5-2026-11-02'
+BASE=Path.home()/'research-server';WORK=Path(sys.argv[1]) if len(sys.argv)>1 else BASE/'benchmarks/ocr-backup-round5-2026-11-02'
+MODES=os.getenv('BACKUP_MODES','vl,paddle_mobile,tesseract_fast,tesseract_best').split(',')
 OCR=BASE/'envs/ocr/bin/python';domain=f'gui/{os.getuid()}'
 MODEL=Path.home()/'.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42'
 assert (WORK/'inputs.json').exists() and not (WORK/'started.json').exists()
@@ -55,10 +56,10 @@ try:
     command(['launchctl','bootout',domain+'/local.crawl-search.ocr']);ocr_down=True
     before=time.perf_counter();command(['launchctl','kickstart','-k',domain+'/local.crawl-search.mlx']);ready('http://127.0.0.1:8111/v1/models')
     write('started.json',{'time':time.time(),'candidate':subprocess.check_output(['git','-C',str(ROOT),'rev-parse','HEAD'],text=True).strip(),
-                          'mlx_restart_to_ready_seconds':time.perf_counter()-before,'model_order':['vl','paddle_mobile','tesseract_fast','tesseract_best'],
+                          'mlx_restart_to_ready_seconds':time.perf_counter()-before,'model_order':MODES,
                           'note':'One reader at a time; CPU readers run with production MLX unloaded. Model/file OS caches not flushed. Three warm passes after first pass.'})
-    for mode in ['vl','paddle_mobile','tesseract_fast','tesseract_best']:
-        if mode=='paddle_mobile':
+    for mode in MODES:
+        if mode!='vl' and not mlx_down:
             command(['launchctl','bootout',domain+'/local.crawl-search.mlx']);mlx_down=True
             time.sleep(1)
             for p in psutil.process_iter(['cmdline']):
