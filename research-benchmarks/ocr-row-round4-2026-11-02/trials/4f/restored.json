@@ -1,0 +1,36 @@
+{
+  "time": 1793558378.982271,
+  "health": {
+    "searxng": 200,
+    "packages": {
+      "local-research-stack": "0.2.0",
+      "crawl4ai": "0.9.5",
+      "docling": "not installed",
+      "easyocr": "not installed",
+      "torch": "not installed",
+      "mcp": "1.30.0"
+    },
+    "browser_started": false,
+    "ocr_started": false,
+    "ocr_router": {
+      "ok": true,
+      "backend": "paddle-layout+mlx",
+      "pipeline_loaded": false,
+      "revision": "c5630abae1d940eafe0697512a0325494b02ab42"
+    },
+    "paid_fallback": "connected-client-agent-handoff",
+    "server": "mac-research",
+    "commit": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b",
+    "worker_alive": true,
+    "draining": false,
+    "jobs": {
+      "complete": 12,
+      "failed": 1
+    },
+    "deployment": {
+      "status": "healthy",
+      "sha": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b",
+      "time": 1793541655.427594
+    }
+  }
+}

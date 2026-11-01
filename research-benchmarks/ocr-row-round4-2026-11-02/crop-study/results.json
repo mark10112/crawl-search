@@ -1,0 +1,1193 @@
+{
+  "model_revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+  "candidate": "58f1ac25096a8b8de80b89e356df29275255201b",
+  "source_sha256": "4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+  "temperature": 0,
+  "max_tokens": 8192,
+  "note": "Diagnostic oracle coordinates; not autonomous routing or a corpus score. Same 300-DPI source pixels; no upscaling/cleanup. No reference file loaded. Order whole tables, rows, cells. Single observations.",
+  "rows": [
+    {
+      "key": "whole-p2",
+      "page": 2,
+      "scope": "whole",
+      "bbox": [
+        302,
+        396,
+        2389,
+        2954
+      ],
+      "prompt": "Table Recognition:",
+      "input_sha256": "a5ffcf89930ec52207aa6c138604f0937fc7352c2c4558805436f058d78c7021",
+      "width": 2087,
+      "height": 2558,
+      "seconds": 52.58923949999735,
+      "raw": {
+        "id": "chatcmpl-da02194f-0bfb-47b4-9407-799b7cbc81d9",
+        "created": 1793557831,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>COUNTIES<lcel><fcel>1900<fcel>1890<fcel>1880<fcel>1870<fcel>1860<fcel>1850<fcel>1840<fcel>1830<fcel>1820<fcel>1810<fcel>1800<fcel>1790<nl><fcel>The State<lcel><fcel>4,821,550<fcel>8,826,351<fcel>3,077,871<fcel>2,539,891<fcel>1,711,931<fcel>851,470<fcel>476,183<fcel>157,445<fcel>55,162<fcel>12,282<fcel>12,458<ecel><nl><fcel>Adams<fcel>67,058<fcel>61,888<fcel>59,155<fcel>56,862<fcel>41,323<fcel>26,508<fcel>14,476<fcel>2,186<ecel><ecel><ecel><ecel><ecel><nl><fcel>Alexander<fcel>15,884<fcel>16,565<fcel>14,826<fcel>10,844<fcel>4,707<fcel>2,454<fcel>3,013<fcel>1,390<fcel>626<ecel><ecel><ecel><ecel><nl><fcel>Bond<fcel>16,078<fcel>14,550<fcel>14,806<fcel>10,152<fcel>9,815<fcel>6,144<fcel>5,090<fcel>3,124<fcel>2,931<ecel><ecel><ecel><ecel><nl><fcel>Boone<fcel>15,791<fcel>12,205<fcel>11,508<fcel>12,942<fcel>11,678<fcel>7,624<fcel>1,705<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Brown<fcel>11,557<fcel>11,951<fcel>13,041<fcel>12,205<fcel>9,938<fcel>7,198<fcel>4,168<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Bureau<fcel>41,112<fcel>85,014<fcel>83,172<fcel>82,415<fcel>26,426<fcel>8,841<fcel>3,067<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Calhoun<fcel>8,917<fcel>7,652<fcel>7,407<fcel>6,562<fcel>5,144<fcel>3,231<fcel>1,741<fcel>1,090<ecel><ecel><ecel><ecel><ecel><nl><fcel>Carroll<fcel>18,963<fcel>18,320<fcel>16,976<fcel>16,705<fcel>11,733<fcel>4,586<fcel>1,028<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Glas<fcel>17,222<fcel>15,903<fcel>14,493<fcel>11,580<fcel>11,329<fcel>7,253<fcel>2,931<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Champaign<fcel>47,622<fcel>42,159<fcel>40,563<fcel>32,737<fcel>14,629<fcel>2,649<fcel>1,475<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Christian<fcel>32,790<fcel>30,531<fcel>28,227<fcel>20,363<fcel>10,492<fcel>3,208<fcel>1,878<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Chase<fcel>24,083<fcel>21,899<fcel>23,694<fcel>15,719<fcel>14,987<fcel>9,532<fcel>7,455<fcel>3,940<fcel>631<ecel><ecel><ecel><ecel><nl><fcel>Clay<fcel>19,653<fcel>16,732<fcel>16,192<fcel>15,975<fcel>9,326<fcel>4,259<fcel>2,228<fcel>755<ecel><ecel><ecel><ecel><ecel><nl><fcel>Clinton<fcel>19,824<fcel>17,411<fcel>18,714<fcel>16,285<fcel>10,941<fcel>5,139<fcel>3,718<fcel>2,830<ecel><ecel><ecel><ecel><ecel><nl><fcel>Coles<fcel>84,146<fcel>30,098<fcel>27,042<fcel>25,235<fcel>14,203<fcel>9,335<fcel>9,616<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Cook<fcel>1,835,785<fcel>1,191,922<fcel>607,524<fcel>849,966<fcel>144,954<fcel>43,385<fcel>10,201<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Crawford<fcel>19,240<fcel>17,283<fcel>10,197<fcel>18,859<fcel>11,551<fcel>7,135<fcel>4,422<fcel>8,117<fcel>2,999<ecel><ecel><ecel><ecel><nl><fcel>Cumberland<fcel>16,124<fcel>15,448<fcel>13,759<fcel>12,223<fcel>8,311<fcel>8,718<ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Descalp<fcel>31,736<fcel>27,065<fcel>26,768<fcel>25,265<fcel>19,095<fcel>7,540<fcel>1,697<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Dewitt<fcel>18,972<fcel>17,011<fcel>17,010<fcel>14,768<fcel>10,820<fcel>5,002<fcel>3,247<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Douglas<fcel>19,097<fcel>17,669<fcel>15,853<fcel>13,484<fcel>7,140<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Duryage<fcel>23,106<fcel>22,651<fcel>19,161<fcel>16,685<fcel>14,701<fcel>9,200<fcel>3,585<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Edgar<fcel>28,373<fcel>25,767<fcel>25,490<fcel>21,450<fcel>10,925<fcel>10,692<fcel>8,235<fcel>4,071<fcel>3,444<ecel><ecel><ecel><ecel><nl><fcel>Edwards<fcel>10,845<fcel>9,444<fcel>8,507<fcel>7,565<fcel>5,454<fcel>3,524<fcel>3,070<fcel>1,649<ecel><ecel><ecel><ecel><ecel><nl><fcel>Eiffingham<fcel>20,405<fcel>19,358<fcel>18,920<fcel>15,658<fcel>7,816<fcel>3,799<fcel>1,675<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Fayette<fcel>28,065<fcel>23,857<fcel>23,241<fcel>19,638<fcel>11,180<fcel>8,075<fcel>6,828<fcel>2,704<ecel><ecel><ecel><ecel><ecel><nl><fcel>Ford<fcel>18,899<fcel>17,035<fcel>15,099<fcel>9,100<fcel>1,979<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Franklin<fcel>19,075<fcel>17,138<fcel>16,129<fcel>12,652<fcel>9,393<fcel>5,651<fcel>3,682<fcel>4,083<fcel>1,768<ecel><ecel><ecel><ecel><nl><fcel>Fulton<fcel>45,201<fcel>48,110<fcel>41,240<fcel>88,291<fcel>33,338<fcel>22,508<fcel>13,142<fcel>1,841<ecel><ecel><ecel><ecel><ecel><nl><fcel>Gallatin<fcel>15,836<fcel>14,305<fcel>12,801<fcel>11,134<fcel>8,055<fcel>5,448<fcel>10,700<fcel>7,405<fcel>8,155<ecel><ecel><ecel><ecel><nl><fcel>Greene<fcel>23,402<fcel>23,791<fcel>23,010<fcel>20,277<fcel>16,093<fcel>12,429<fcel>11,951<fcel>7,674<ecel><ecel><ecel><ecel><ecel><nl><fcel>Grundy<fcel>24,136<fcel>21,024<fcel>16,732<fcel>14,938<fcel>10,879<fcel>9,023<ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Hamilton<fcel>30,157<fcel>17,980<fcel>16,712<fcel>12,014<fcel>9,915<fcel>6,302<fcel>8,945<fcel>2,616<ecel><ecel><ecel><ecel><ecel><nl><fcel>Hancock<fcel>32,215<fcel>81,907<fcel>85,837<fcel>35,935<fcel>29,061<fcel>14,622<fcel>9,946<fcel>453<ecel><ecel><ecel><ecel><ecel><nl><fcel>Hardin<fcel>7,448<fcel>7,224<fcel>6,024<fcel>5,113<fcel>3,759<fcel>2,887<fcel>1,878<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Henderson<fcel>10,836<fcel>9,878<fcel>10,722<fcel>12,582<fcel>9,501<fcel>4,412<ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Henry<fcel>40,049<fcel>83,838<fcel>36,597<fcel>35,506<fcel>20,660<fcel>3,807<fcel>1,320<fcel>41<ecel><ecel><ecel><ecel><ecel><nl><fcel>Iroquois<fcel>38,014<fcel>85,167<fcel>35,451<fcel>25,782<fcel>12,325<fcel>4,149<fcel>1,695<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Jackson<fcel>33,871<fcel>27,809<fcel>22,505<fcel>19,684<fcel>9,650<fcel>5,862<fcel>3,566<fcel>1,828<fcel>1,542<ecel><ecel><ecel><ecel><nl><fcel>Jasper<fcel>20,160<fcel>18,188<fcel>14,515<fcel>11,234<fcel>8,364<fcel>3,220<fcel>1,472<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Jefferson<fcel>28,138<fcel>22,590<fcel>20,686<fcel>17,804<fcel>12,965<fcel>8,109<fcel>5,762<fcel>2,555<fcel>691<ecel><ecel><ecel><ecel><nl><fcel>Jorey<fcel>14,612<fcel>14,810<fcel>15,542<fcel>15,054<fcel>12,051<fcel>7,854<fcel>4,535<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Jo. Davless<fcel>24,533<fcel>25,101<fcel>27,738<fcel>27,820<fcel>27,825<fcel>18,004<fcel>6,180<fcel>2,111<ecel><ecel><ecel><fcel>1,100<ecel><nl><fcel>Johnson<fcel>15,667<fcel>15,018<fcel>13,078<fcel>11,248<fcel>9,192<fcel>4,114<fcel>8,626<fcel>1,596<fcel>843<ecel><ecel><ecel><ecel><nl><fcel>Kane<fcel>75,792<fcel>65,061<fcel>44,999<fcel>39,691<fcel>30,062<fcel>16,708<fcel>6,501<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Kankakee<fcel>37,154<fcel>28,782<fcel>25,047<fcel>24,352<fcel>15,412<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Kendall<fcel>11,467<fcel>12,106<fcel>13,083<fcel>12,399<fcel>13,074<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Knox<fcel>43,612<fcel>88,782<fcel>38,844<fcel>39,522<fcel>28,663<fcel>13,279<fcel>7,060<fcel>274<ecel><ecel><ecel><ecel><ecel><nl><fcel>Lake<fcel>34,504<fcel>24,225<fcel>21,296<fcel>21,014<fcel>18,257<fcel>14,226<fcel>2,634<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Lasalle<fcel>87,776<fcel>80,798<fcel>70,403<fcel>60,792<fcel>48,832<fcel>17,815<fcel>9,848<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Lawrence<fcel>16,523<fcel>14,698<fcel>13,668<fcel>12,533<fcel>9,214<fcel>6,121<fcel>7,092<fcel>8,668<ecel><ecel><ecel><ecel><ecel><nl><fcel>Lose<fcel>29,894<fcel>26,187<fcel>27,491<fcel>27,171<fcel>17,631<fcel>5,292<fcel>2,035<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Livingston<fcel>40,036<fcel>38,455<fcel>38,460<fcel>81,471<fcel>11,637<fcel>1,552<fcel>759<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Logan<fcel>26,680<fcel>25,489<fcel>25,037<fcel>29,050<fcel>14,272<fcel>5,128<fcel>2,333<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>McDonough<fcel>26,412<fcel>27,467<fcel>27,970<fcel>26,509<fcel>20,069<fcel>7,616<fcel>5,808<fcel>(2)<ecel><ecel><ecel><ecel><ecel><nl><fcel>McHenry<fcel>23,759<fcel>26,114<fcel>24,908<fcel>23,762<fcel>23,089<fcel>14,978<fcel>2,678<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>McLean<fcel>67,848<fcel>63,096<fcel>60,100<fcel>58,988<fcel>25,772<fcel>10,113<fcel>6,565<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Macon<fcel>44,003<fcel>38,088<fcel>30,665<fcel>26,481<fcel>13,738<fcel>9,888<fcel>5,089<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Macupin<fcel>42,266<fcel>40,880<fcel>37,692<fcel>32,726<fcel>24,602<fcel>12,355<fcel>7,826<fcel>1,122<ecel><ecel><ecel><ecel><ecel><nl><fcel>Madison<fcel>64,694<fcel>51,555<fcel>60,126<fcel>44,181<fcel>81,251<fcel>20,441<fcel>14,433<fcel>1,990<ecel><ecel><ecel><ecel><ecel><nl><fcel>Marlon<fcel>30,446<fcel>24,841<fcel>28,686<fcel>20,622<fcel>12,739<fcel>6,720<fcel>4,742<fcel>2,125<fcel>18,550<ecel><ecel><ecel><ecel><nl><fcel>Marshall<fcel>16,370<fcel>13,688<fcel>15,055<fcel>16,956<fcel>13,437<fcel>5,150<fcel>1,849<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Mason<fcel>17,431<fcel>16,067<fcel>15,242<fcel>16,184<fcel>10,931<fcel>5,921<ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Massac<fcel>13,110<fcel>11,818<fcel>10,443<fcel>9,681<fcel>6,213<fcel>4,002<ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Menard<fcel>14,386<fcel>13,120<fcel>13,024<fcel>11,735<fcel>9,394<fcel>6,849<fcel>4,431<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Mercer<fcel>20,945<fcel>18,545<fcel>19,502<fcel>15,769<fcel>15,042<fcel>5,246<fcel>2,852<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Monroe<fcel>13,847<fcel>12,948<fcel>13,682<fcel>12,063<fcel>12,382<fcel>6,679<fcel>4,481<fcel>26<ecel><ecel><ecel><ecel><ecel><nl><fcel>Montgomery<fcel>30,836<fcel>30,003<fcel>28,078<fcel>23,314<fcel>13,979<fcel>6,277<fcel>4,480<fcel>2,000<fcel>1,516<ecel><ecel><ecel><ecel><nl><fcel>Moyam<fcel>35,006<fcel>82,636<fcel>81,514<fcel>28,463<fcel>22,112<fcel>16,064<fcel>19,547<fcel>12,714<ecel><ecel><ecel><ecel><ecel><nl><fcel>Moutrie<fcel>15,224<fcel>14,481<fcel>13,699<fcel>10,385<fcel>6,385<fcel>3,234<ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Ogle<fcel>29,129<fcel>28,710<fcel>29,997<fcel>27,492<fcel>22,888<fcel>10,020<fcel>8,479<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Poeoria<fcel>88,608<fcel>70,878<fcel>65,555<fcel>47,540<fcel>80,601<fcel>17,547<fcel>6,158<fcel>(3)<ecel><ecel><ecel><ecel><ecel><nl><fcel>Perry<fcel>19,800<fcel>17,529<fcel>15,007<fcel>13,723<fcel>9,552<fcel>5,278<fcel>3,222<ecel><fcel>1,215<ecel><ecel><ecel><ecel><nl><fcel>Platt<fcel>17,708<fcel>17,062<fcel>15,583<fcel>10,953<fcel>6,127<fcel>1,606<ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Pike<fcel>81,595<fcel>81,000<fcel>83,701<fcel>30,768<fcel>27,249<fcel>18,819<fcel>11,728<fcel>2,836<ecel><ecel><ecel><ecel><ecel><nl><fcel>Pope<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Pulaski<fcel>13,585<fcel>14,018<fcel>13,256<fcel>11,437<fcel>6,743<fcel>8,975<ecel><fcel>4,094<fcel>8,316<ecel><ecel><ecel><ecel><nl><fcel>Putnam<fcel>14,594<fcel>11,355<fcel>9,507<fcel>8,752<fcel>3,948<fcel>2,265<ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Randoah<fcel>4,746<fcel>4,780<fcel>5,554<fcel>6,280<fcel>5,587<fcel>3,924<ecel><fcel>8,110<ecel><ecel><ecel><ecel><ecel><nl><fcel>Richland<fcel>28,001<fcel>25,049<fcel>25,690<fcel>20,859<fcel>17,205<fcel>11,079<fcel>7,944<fcel>4,429<ecel><ecel><ecel><ecel><ecel><nl><fcel>1<fcel>15,591<fcel>15,019<fcel>15,545<fcel>12,803<fcel>9,711<fcel>4,012<ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl>"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1261,
+          "completion_tokens": 4886,
+          "total_tokens": 6147,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 4886,
+        "received_chars": 11298
+      }
+    },
+    {
+      "key": "whole-p3",
+      "page": 3,
+      "scope": "whole",
+      "bbox": [
+        220,
+        252,
+        2339,
+        1046
+      ],
+      "prompt": "Table Recognition:",
+      "input_sha256": "65fc9f1dd2502b6b9d408fc89ebce9896b19e8eb92146f35bf2b5a90593657db",
+      "width": 2119,
+      "height": 794,
+      "seconds": 15.685791542000516,
+      "raw": {
+        "id": "chatcmpl-4e7a2e61-82d0-4693-bff9-6b9fc6ffe663",
+        "created": 1793557847,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>COUNTIES.<fcel>1900<fcel>1890<fcel>1880<fcel>1870<fcel>1860<fcel>1850<fcel>1840<fcel>1830<fcel>1820<fcel>1810<fcel>1800<fcel>1790<nl><fcel>Rock Island<fcel>55,249<fcel>41,917<fcel>38,302<fcel>29,783<fcel>21,005<fcel>6,937<fcel>2,610<ecel><ecel><ecel><ecel><ecel><nl><fcel>St. Clair<fcel>86,685<fcel>66,571<fcel>61,806<fcel>51,068<fcel>37,694<fcel>20,180<fcel>13,631<fcel>7,078<fcel>5,248<fcel>5,007<fcel>11,255<ecel><nl><fcel>Saline<fcel>21,685<fcel>19,342<fcel>15,940<fcel>12,714<fcel>9,331<fcel>5,588<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Sangamon<fcel>71,593<fcel>61,195<fcel>52,894<fcel>46,852<fcel>82,274<fcel>19,228<fcel>14,716<fcel>12,900<ecel><ecel><ecel><ecel><nl><fcel>Schuyler<fcel>16,129<fcel>16,013<fcel>16,249<fcel>17,419<fcel>14,684<fcel>10,573<fcel>6,972<fcel>22,959<ecel><ecel><ecel><ecel><nl><fcel>Scott<fcel>10,455<fcel>10,304<fcel>10,741<fcel>10,580<fcel>9,069<fcel>7,914<fcel>6,215<ecel><ecel><ecel><ecel><ecel><nl><fcel>Shelby<fcel>32,126<fcel>31,191<fcel>30,270<fcel>25,476<fcel>14,613<fcel>7,807<fcel>6,659<fcel>2,972<ecel><ecel><ecel><ecel><nl><fcel>Stark<fcel>10,186<fcel>9,982<fcel>11,207<fcel>10,751<fcel>9,004<fcel>3,710<fcel>1,573<ecel><ecel><ecel><ecel><ecel><nl><fcel>Stephenson<fcel>34,933<fcel>31,338<fcel>31,963<fcel>30,608<fcel>25,112<fcel>11,666<fcel>2,800<ecel><ecel><ecel><ecel><ecel><nl><fcel>Tazewell<fcel>33,221<fcel>29,556<fcel>29,666<fcel>27,903<fcel>21,470<fcel>12,052<fcel>7,221<fcel>4,716<ecel><ecel><ecel><ecel><nl><fcel>Union<fcel>22,610<fcel>21,549<fcel>18,102<fcel>16,518<fcel>11,181<fcel>7,615<fcel>5,524<fcel>3,239<fcel>2,362<ecel><ecel><ecel><nl><fcel>Vermillion<fcel>65,635<fcel>49,905<fcel>41,588<fcel>30,388<fcel>19,800<fcel>11,492<fcel>9,303<fcel>5,836<ecel><ecel><ecel><ecel><nl><fcel>Wabash<fcel>12,583<fcel>11,866<fcel>9,945<fcel>8,841<fcel>7,313<fcel>4,690<fcel>4,240<fcel>2,710<ecel><ecel><ecel><ecel><nl><fcel>Warren<fcel>23,163<fcel>21,281<fcel>22,933<fcel>23,174<fcel>18,336<fcel>8,176<fcel>6,739<fcel>308<ecel><ecel><ecel><ecel><nl><fcel>Washington<fcel>19,526<fcel>19,262<fcel>21,112<fcel>17,599<fcel>13,731<fcel>6,953<fcel>4,810<fcel>1,675<fcel>1,517<ecel><ecel><ecel><nl><fcel>Wayne<fcel>27,626<fcel>23,806<fcel>21,291<fcel>19,758<fcel>12,223<fcel>6,825<fcel>5,133<fcel>2,553<fcel>1,114<ecel><ecel><ecel><nl><fcel>White<fcel>25,386<fcel>25,005<fcel>23,087<fcel>16,846<fcel>12,403<fcel>8,925<fcel>7,919<fcel>6,091<fcel>4,828<ecel><ecel><ecel><nl><fcel>Whiteside<fcel>34,710<fcel>30,854<fcel>30,885<fcel>27,503<fcel>18,737<fcel>5,361<fcel>2,514<ecel><ecel><ecel><ecel><ecel><nl><fcel>Will<fcel>74,764<fcel>62,007<fcel>53,422<fcel>48,013<fcel>29,821<fcel>16,703<fcel>10,167<ecel><ecel><ecel><ecel><ecel><nl><fcel>Williamson<fcel>27,796<fcel>22,226<fcel>19,324<fcel>17,329<fcel>12,205<fcel>7,216<fcel>4,457<ecel><ecel><ecel><ecel><ecel><nl><fcel>Winnebago<fcel>47,845<fcel>39,938<fcel>30,505<fcel>29,301<fcel>24,491<fcel>11,773<fcel>4,609<ecel><ecel><ecel><ecel><ecel><nl><fcel>Woodford<fcel>21,822<fcel>21,429<fcel>21,620<fcel>18,956<fcel>18,282<fcel>4,415<ecel><ecel><ecel><ecel><ecel><ecel><nl>"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1231,
+          "completion_tokens": 1392,
+          "total_tokens": 2623,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 1392,
+        "received_chars": 3076
+      }
+    },
+    {
+      "key": "r1-row",
+      "page": 2,
+      "scope": "row",
+      "case": "r1",
+      "bbox": [
+        302,
+        586,
+        2389,
+        616
+      ],
+      "prompt": "Table Recognition:",
+      "input_sha256": "50808756aabef680685c401102f7b7a8bb809ed6010f6993fb01abccf9688e02",
+      "width": 2087,
+      "height": 30,
+      "seconds": 0.9354099999982282,
+      "raw": {
+        "id": "chatcmpl-d5354aad-65c8-4e81-98db-2a67ff5a31f1",
+        "created": 1793557848,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Adams_<fcel>67,058<fcel>61,888<fcel>59,135<fcel>56,362<fcel>41,323<fcel>26,508<fcel>14,476<fcel>2,186<fcel>---<fcel>---<fcel>---<fcel>---<nl>"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 215,
+          "completion_tokens": 69,
+          "total_tokens": 284,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 69,
+        "received_chars": 147
+      }
+    },
+    {
+      "key": "r2-row",
+      "page": 2,
+      "scope": "row",
+      "case": "r2",
+      "bbox": [
+        302,
+        612,
+        2389,
+        641
+      ],
+      "prompt": "Table Recognition:",
+      "input_sha256": "448fa91adf4cf41fe7f6ab454460265206b315ebf64127d346d96c20ed25eae0",
+      "width": 2087,
+      "height": 29,
+      "seconds": 1.8153792500015697,
+      "raw": {
+        "id": "chatcmpl-62aad2b8-2505-4e38-9d3b-41f30e64de37",
+        "created": 1793557850,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Alexander<fcel>19,384<fcel>16,563<fcel>14,808<fcel>10,564<fcel>4,707<fcel>2,484<fcel>3,313<fcel>1,390<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>626<fcel>"
+            },
+            "finish_reason": "length"
+          }
+        ],
+        "usage": {
+          "completion_tokens": null
+        },
+        "repetition_guard": true,
+        "token_usage_complete": false,
+        "received_chunks": 179,
+        "received_chars": 392
+      }
+    },
+    {
+      "key": "r3-row",
+      "page": 2,
+      "scope": "row",
+      "case": "r3",
+      "bbox": [
+        302,
+        1032,
+        2389,
+        1065
+      ],
+      "prompt": "Table Recognition:",
+      "input_sha256": "b97a4eb43619c3b94fb573025e177d03ae4c787e28062adcfeb17cfe781dc0cc",
+      "width": 2087,
+      "height": 33,
+      "seconds": 0.8664248749992112,
+      "raw": {
+        "id": "chatcmpl-11efc95e-484a-4e4d-ac26-e43fdf73202b",
+        "created": 1793557851,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Cook<fcel>1,838,735<fcel>1,191,922<fcel>607,524<fcel>349,966<fcel>144,954<fcel>43,385<fcel>10,201<ecel><ecel><ecel><ecel><nl>"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 205,
+          "completion_tokens": 66,
+          "total_tokens": 271,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 66,
+        "received_chars": 131
+      }
+    },
+    {
+      "key": "r4-row",
+      "page": 3,
+      "scope": "row",
+      "case": "r4",
+      "bbox": [
+        220,
+        1000,
+        2339,
+        1038
+      ],
+      "prompt": "Table Recognition:",
+      "input_sha256": "49b25a02d89e3bea26cab364b1dd64cb8afb31736784f04de35d3f97122453f4",
+      "width": 2119,
+      "height": 38,
+      "seconds": 0.7395951250000508,
+      "raw": {
+        "id": "chatcmpl-e8a2cc4e-3135-4030-a7cb-8586a7623c6e",
+        "created": 1793557851,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Woodford<fcel>21,822<fcel>21,429<fcel>21,620<fcel>18,956<fcel>18,282<fcel>4,415<ecel><ecel><ecel><ecel><ecel><ecel><nl>"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 193,
+          "completion_tokens": 52,
+          "total_tokens": 245,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 52,
+        "received_chars": 125
+      }
+    },
+    {
+      "key": "r1-c1",
+      "page": 2,
+      "scope": "cell",
+      "case": "r1",
+      "column": 1,
+      "bbox": [
+        654,
+        586,
+        793,
+        616
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "9874c97e36c65fdbc8144d40f839c2e1775496662421368adaa3b37782f6a409",
+      "width": 139,
+      "height": 30,
+      "seconds": 0.3304990420001559,
+      "raw": {
+        "id": "chatcmpl-b9688e08-6293-45c7-88b7-e48de5a7ee2e",
+        "created": 1793557852,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "67,058"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 7,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "key": "r1-c2",
+      "page": 2,
+      "scope": "cell",
+      "case": "r1",
+      "column": 2,
+      "bbox": [
+        801,
+        586,
+        936,
+        616
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "2c01c43307a4ce0aad0f290d8f1b1d3ec0510ba2ead64fe9b52ca0f6e395d9d2",
+      "width": 135,
+      "height": 30,
+      "seconds": 0.32836566700279946,
+      "raw": {
+        "id": "chatcmpl-f4c29f7d-d68a-4376-b71c-29b46391d9e5",
+        "created": 1793557852,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "61,888"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 7,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "key": "r1-c3",
+      "page": 2,
+      "scope": "cell",
+      "case": "r1",
+      "column": 3,
+      "bbox": [
+        944,
+        586,
+        1076,
+        616
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "width": 132,
+      "height": 30,
+      "seconds": 0.3268095830026141,
+      "raw": {
+        "id": "chatcmpl-7f84bc83-2157-4e1d-aa6a-4e646aa1996a",
+        "created": 1793557852,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 7,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "key": "r1-c4",
+      "page": 2,
+      "scope": "cell",
+      "case": "r1",
+      "column": 4,
+      "bbox": [
+        1084,
+        586,
+        1221,
+        616
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "0146a693a201e786481a8c8dfa925d180ed9ac18d1fcdee5050b3682dfff2606",
+      "width": 137,
+      "height": 30,
+      "seconds": 0.3414396249972924,
+      "raw": {
+        "id": "chatcmpl-f8927068-dbc6-4c15-8b16-1be8131bdab7",
+        "created": 1793557853,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "56,362"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 7,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "key": "r1-c5",
+      "page": 2,
+      "scope": "cell",
+      "case": "r1",
+      "column": 5,
+      "bbox": [
+        1229,
+        586,
+        1369,
+        616
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "e5c9a02003242032c4d6716f8954125fe5e3e2f9546a0046998a7666bd669294",
+      "width": 140,
+      "height": 30,
+      "seconds": 0.32953129099769285,
+      "raw": {
+        "id": "chatcmpl-3f86085c-04f0-4096-ae9d-45675db05720",
+        "created": 1793557853,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "41,323"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 7,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "key": "r2-c1",
+      "page": 2,
+      "scope": "cell",
+      "case": "r2",
+      "column": 1,
+      "bbox": [
+        654,
+        612,
+        793,
+        641
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "f335a6e491d3669206ac362fff5f6da813b88daf307cd68931d876b75a65c7a0",
+      "width": 139,
+      "height": 29,
+      "seconds": 0.3474547090008855,
+      "raw": {
+        "id": "chatcmpl-97e45b04-350e-4a44-9995-faf72d460de7",
+        "created": 1793557853,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "19,384"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 7,
+          "total_tokens": 182,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "key": "r2-c2",
+      "page": 2,
+      "scope": "cell",
+      "case": "r2",
+      "column": 2,
+      "bbox": [
+        801,
+        612,
+        936,
+        641
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "05100bc2e1cf45855275b789b9b911f5dfa702a6708ad5273dedbeacb274e1be",
+      "width": 135,
+      "height": 29,
+      "seconds": 0.32714416599992546,
+      "raw": {
+        "id": "chatcmpl-461353d8-53f6-4cba-a6de-fa1edfe96635",
+        "created": 1793557854,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "16,563"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 7,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "key": "r2-c3",
+      "page": 2,
+      "scope": "cell",
+      "case": "r2",
+      "column": 3,
+      "bbox": [
+        944,
+        612,
+        1076,
+        641
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "c0a5fe210efe69887b7a5c38393649efa88ede3f15794ddcb721fae8f1ac04ae",
+      "width": 132,
+      "height": 29,
+      "seconds": 0.3325680830021156,
+      "raw": {
+        "id": "chatcmpl-4a515b7a-bdf4-4374-af68-1db754e70262",
+        "created": 1793557854,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "14,808"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 7,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "key": "r2-c4",
+      "page": 2,
+      "scope": "cell",
+      "case": "r2",
+      "column": 4,
+      "bbox": [
+        1084,
+        612,
+        1221,
+        641
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "49cfefe8a4be39d3c9e995b5f872affce49c9a32805fe4e0f4f3cb9402e0ef70",
+      "width": 137,
+      "height": 29,
+      "seconds": 0.34674337500109687,
+      "raw": {
+        "id": "chatcmpl-76f28b62-f38e-4718-bffe-29c845a0bdfc",
+        "created": 1793557854,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "10,564"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 7,
+          "total_tokens": 182,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "key": "r2-c5",
+      "page": 2,
+      "scope": "cell",
+      "case": "r2",
+      "column": 5,
+      "bbox": [
+        1229,
+        612,
+        1369,
+        641
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "e721d9c4f03db15800181c0f138d9bb16cb795b8ad5b8143ce7ae98c2b2966f6",
+      "width": 140,
+      "height": 29,
+      "seconds": 0.33932554200146114,
+      "raw": {
+        "id": "chatcmpl-25607c23-306d-4296-8bc8-fd5e1c49e9a4",
+        "created": 1793557855,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "4,707"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 6,
+          "total_tokens": 181,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 6,
+        "received_chars": 5
+      }
+    },
+    {
+      "key": "r3-c1",
+      "page": 2,
+      "scope": "cell",
+      "case": "r3",
+      "column": 1,
+      "bbox": [
+        654,
+        1032,
+        793,
+        1065
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "width": 139,
+      "height": 33,
+      "seconds": 0.3482142920001934,
+      "raw": {
+        "id": "chatcmpl-a4cd9d17-06a5-41ab-90ee-bd4866a773bf",
+        "created": 1793557855,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,833,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 10,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "key": "r3-c2",
+      "page": 2,
+      "scope": "cell",
+      "case": "r3",
+      "column": 2,
+      "bbox": [
+        801,
+        1032,
+        936,
+        1065
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "b16afb9d29e5fa7092594bcc30a2447874f70ac03557f7123edf632116fc6e4b",
+      "width": 135,
+      "height": 33,
+      "seconds": 0.34336099999927683,
+      "raw": {
+        "id": "chatcmpl-da6f31ac-2928-4ea1-a537-e0048eee0ad0",
+        "created": 1793557856,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,191,922"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 10,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "key": "r3-c3",
+      "page": 2,
+      "scope": "cell",
+      "case": "r3",
+      "column": 3,
+      "bbox": [
+        944,
+        1032,
+        1076,
+        1065
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "8202fe3933a25300e5c39a3939839134031eb78af21f638585d161e2de16ccf0",
+      "width": 132,
+      "height": 33,
+      "seconds": 0.3131059580009605,
+      "raw": {
+        "id": "chatcmpl-e7a6ba22-9721-4837-89ae-cff13ea1b873",
+        "created": 1793557856,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "607,524"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 157,
+          "completion_tokens": 8,
+          "total_tokens": 165,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 8,
+        "received_chars": 7
+      }
+    },
+    {
+      "key": "r3-c4",
+      "page": 2,
+      "scope": "cell",
+      "case": "r3",
+      "column": 4,
+      "bbox": [
+        1084,
+        1032,
+        1221,
+        1065
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "0c299afa83fb870476948a5a5e142807b76fabc4a35e131e69d84c6037198d3f",
+      "width": 137,
+      "height": 33,
+      "seconds": 0.33224970899755135,
+      "raw": {
+        "id": "chatcmpl-358dcfd0-5af6-4979-80c2-39891341e305",
+        "created": 1793557856,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "349,966"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 8,
+          "total_tokens": 171,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 8,
+        "received_chars": 7
+      }
+    },
+    {
+      "key": "r3-c5",
+      "page": 2,
+      "scope": "cell",
+      "case": "r3",
+      "column": 5,
+      "bbox": [
+        1229,
+        1032,
+        1369,
+        1065
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "c69d296cd9e8e0accf6e5172a2346d2b907c2b7cc4c65c5bfabe4be8846dfc08",
+      "width": 140,
+      "height": 33,
+      "seconds": 0.32885874999919906,
+      "raw": {
+        "id": "chatcmpl-2c005594-82b0-4fe1-9034-281c58766a5b",
+        "created": 1793557857,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "144,954"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 8,
+          "total_tokens": 171,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 8,
+        "received_chars": 7
+      }
+    },
+    {
+      "key": "r4-c1",
+      "page": 3,
+      "scope": "cell",
+      "case": "r4",
+      "column": 1,
+      "bbox": [
+        580,
+        1000,
+        729,
+        1038
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "1010274e388b70cec8404b021f1d9522b1b716a1d52c75d1360abf6a43c849ed",
+      "width": 149,
+      "height": 38,
+      "seconds": 0.3488559580000583,
+      "raw": {
+        "id": "chatcmpl-bc4161fe-a54b-4aed-b1f1-32995ba8f8a8",
+        "created": 1793557857,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "21,822"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "key": "r4-c2",
+      "page": 3,
+      "scope": "cell",
+      "case": "r4",
+      "column": 2,
+      "bbox": [
+        737,
+        1000,
+        884,
+        1038
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "4bf30cbd79cdfab0bcdd64f83d659ce4c52d8cbfa169401d41dd8efa322e730f",
+      "width": 147,
+      "height": 38,
+      "seconds": 0.3477801249973709,
+      "raw": {
+        "id": "chatcmpl-0576e038-cc59-4008-8658-df1f04bb73d6",
+        "created": 1793557857,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "21,429"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "key": "r4-c3",
+      "page": 3,
+      "scope": "cell",
+      "case": "r4",
+      "column": 3,
+      "bbox": [
+        892,
+        1000,
+        1039,
+        1038
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "1d3734c48a33167cb5858acbe552abde53afeeb90145c497159eee8dcaa8f1f6",
+      "width": 147,
+      "height": 38,
+      "seconds": 0.34319933299775585,
+      "raw": {
+        "id": "chatcmpl-6808226d-6da6-4631-b3c1-a644a4b696cb",
+        "created": 1793557858,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "21,620"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "key": "r4-c4",
+      "page": 3,
+      "scope": "cell",
+      "case": "r4",
+      "column": 4,
+      "bbox": [
+        1047,
+        1000,
+        1194,
+        1038
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "855b0002170aa39fd0d00561c4c51bb94997f7845a354abeb0fc362ddb2d9903",
+      "width": 147,
+      "height": 38,
+      "seconds": 0.34938262500145356,
+      "raw": {
+        "id": "chatcmpl-47f484eb-4b9f-49f7-b0d1-ea2656f1ef3f",
+        "created": 1793557858,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,956"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "key": "r4-c5",
+      "page": 3,
+      "scope": "cell",
+      "case": "r4",
+      "column": 5,
+      "bbox": [
+        1202,
+        1000,
+        1349,
+        1038
+      ],
+      "prompt": "OCR:",
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "width": 147,
+      "height": 38,
+      "seconds": 0.35005795799952466,
+      "raw": {
+        "id": "chatcmpl-60d98514-caba-425c-8bf6-36fc113d3b0c",
+        "created": 1793557858,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    }
+  ]
+}
