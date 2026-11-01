@@ -1,0 +1,60 @@
+name: Research quality
+
+on:
+  push:
+    branches: ['**']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quality-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    name: Quality (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    defaults:
+      run:
+        working-directory: research-tools/local-research
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6
+        with:
+          version: '0.13.6'
+          enable-cache: true
+          cache-dependency-glob: research-tools/local-research/uv.lock
+      - name: Install frozen reader dependencies
+        run: uv sync --frozen --python 3.12 --extra browser
+      - name: Compile shipped Python
+        run: uv run --frozen --extra browser python -m compileall -q src services ../../deploy/mac
+      - name: Routing, jobs, deployment policy and rollback checks
+        run: uv run --frozen --extra browser python -m unittest discover -s tests -v
+  gate:
+    name: Quality gate
+    needs: quality
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Require both platforms
+        env:
+          QUALITY_RESULT: ${{ needs.quality.result }}
+        run: test "$QUALITY_RESULT" = success
+      - name: Publish eligibility
+        env:
+          COMMIT: ${{ github.sha }}
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          printf 'Quality passed for `%s` on `%s`.\n' "$COMMIT" "$BRANCH" >> "$GITHUB_STEP_SUMMARY"
+          printf 'The Mac deploy agent only accepts successful push runs for the current main commit.\n' >> "$GITHUB_STEP_SUMMARY"

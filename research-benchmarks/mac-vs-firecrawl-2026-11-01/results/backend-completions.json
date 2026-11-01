@@ -1,0 +1,1394 @@
+[
+  {
+    "prompt_tokens": "173",
+    "generated_tokens": "2",
+    "elapsed": "2.229s",
+    "finish_reason": "stop",
+    "in_flight": "12",
+    "local_timestamp": "2026-11-01 20:06:31,689"
+  },
+  {
+    "prompt_tokens": "165",
+    "generated_tokens": "2",
+    "elapsed": "3.431s",
+    "finish_reason": "stop",
+    "in_flight": "11",
+    "local_timestamp": "2026-11-01 20:06:32,908"
+  },
+  {
+    "prompt_tokens": "167",
+    "generated_tokens": "3",
+    "elapsed": "3.445s",
+    "finish_reason": "stop",
+    "in_flight": "10",
+    "local_timestamp": "2026-11-01 20:06:32,927"
+  },
+  {
+    "prompt_tokens": "167",
+    "generated_tokens": "3",
+    "elapsed": "3.449s",
+    "finish_reason": "stop",
+    "in_flight": "9",
+    "local_timestamp": "2026-11-01 20:06:32,941"
+  },
+  {
+    "prompt_tokens": "167",
+    "generated_tokens": "4",
+    "elapsed": "3.532s",
+    "finish_reason": "stop",
+    "in_flight": "8",
+    "local_timestamp": "2026-11-01 20:06:33,002"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "6",
+    "elapsed": "3.535s",
+    "finish_reason": "stop",
+    "in_flight": "7",
+    "local_timestamp": "2026-11-01 20:06:33,038"
+  },
+  {
+    "prompt_tokens": "175",
+    "generated_tokens": "21",
+    "elapsed": "3.723s",
+    "finish_reason": "stop",
+    "in_flight": "6",
+    "local_timestamp": "2026-11-01 20:06:33,208"
+  },
+  {
+    "prompt_tokens": "169",
+    "generated_tokens": "29",
+    "elapsed": "3.789s",
+    "finish_reason": "stop",
+    "in_flight": "5",
+    "local_timestamp": "2026-11-01 20:06:33,278"
+  },
+  {
+    "prompt_tokens": "187",
+    "generated_tokens": "29",
+    "elapsed": "3.833s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:06:33,313"
+  },
+  {
+    "prompt_tokens": "158",
+    "generated_tokens": "34",
+    "elapsed": "3.836s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:06:33,355"
+  },
+  {
+    "prompt_tokens": "187",
+    "generated_tokens": "36",
+    "elapsed": "3.908s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:06:33,404"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "54",
+    "elapsed": "4.039s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:06:33,547"
+  },
+  {
+    "prompt_tokens": "187",
+    "generated_tokens": "55",
+    "elapsed": "4.063s",
+    "finish_reason": "stop",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:06:33,579"
+  },
+  {
+    "prompt_tokens": "167",
+    "generated_tokens": "6",
+    "elapsed": "3.077s",
+    "finish_reason": "stop",
+    "in_flight": "11",
+    "local_timestamp": "2026-11-01 20:06:38,112"
+  },
+  {
+    "prompt_tokens": "185",
+    "generated_tokens": "27",
+    "elapsed": "3.349s",
+    "finish_reason": "stop",
+    "in_flight": "10",
+    "local_timestamp": "2026-11-01 20:06:38,358"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "35",
+    "elapsed": "3.423s",
+    "finish_reason": "stop",
+    "in_flight": "9",
+    "local_timestamp": "2026-11-01 20:06:38,437"
+  },
+  {
+    "prompt_tokens": "193",
+    "generated_tokens": "37",
+    "elapsed": "3.487s",
+    "finish_reason": "stop",
+    "in_flight": "8",
+    "local_timestamp": "2026-11-01 20:06:38,493"
+  },
+  {
+    "prompt_tokens": "173",
+    "generated_tokens": "44",
+    "elapsed": "3.562s",
+    "finish_reason": "stop",
+    "in_flight": "7",
+    "local_timestamp": "2026-11-01 20:06:38,559"
+  },
+  {
+    "prompt_tokens": "173",
+    "generated_tokens": "46",
+    "elapsed": "3.579s",
+    "finish_reason": "stop",
+    "in_flight": "6",
+    "local_timestamp": "2026-11-01 20:06:38,596"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "50",
+    "elapsed": "3.629s",
+    "finish_reason": "stop",
+    "in_flight": "5",
+    "local_timestamp": "2026-11-01 20:06:38,651"
+  },
+  {
+    "prompt_tokens": "168",
+    "generated_tokens": "56",
+    "elapsed": "3.693s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:06:38,719"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "57",
+    "elapsed": "3.715s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:06:38,745"
+  },
+  {
+    "prompt_tokens": "178",
+    "generated_tokens": "56",
+    "elapsed": "3.726s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:06:38,770"
+  },
+  {
+    "prompt_tokens": "189",
+    "generated_tokens": "70",
+    "elapsed": "3.874s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:06:38,868"
+  },
+  {
+    "prompt_tokens": "169",
+    "generated_tokens": "78",
+    "elapsed": "3.918s",
+    "finish_reason": "stop",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:06:38,957"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "16",
+    "elapsed": "2.122s",
+    "finish_reason": "stop",
+    "in_flight": "6",
+    "local_timestamp": "2026-11-01 20:06:42,415"
+  },
+  {
+    "prompt_tokens": "197",
+    "generated_tokens": "25",
+    "elapsed": "2.222s",
+    "finish_reason": "stop",
+    "in_flight": "5",
+    "local_timestamp": "2026-11-01 20:06:42,510"
+  },
+  {
+    "prompt_tokens": "178",
+    "generated_tokens": "32",
+    "elapsed": "2.288s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:06:42,589"
+  },
+  {
+    "prompt_tokens": "205",
+    "generated_tokens": "38",
+    "elapsed": "2.366s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:06:42,656"
+  },
+  {
+    "prompt_tokens": "183",
+    "generated_tokens": "58",
+    "elapsed": "2.541s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:06:42,838"
+  },
+  {
+    "prompt_tokens": "203",
+    "generated_tokens": "209",
+    "elapsed": "3.784s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:06:44,066"
+  },
+  {
+    "prompt_tokens": "173",
+    "generated_tokens": "4096",
+    "elapsed": "40.599s",
+    "finish_reason": "length",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:07:20,885"
+  },
+  {
+    "prompt_tokens": "199",
+    "generated_tokens": "31",
+    "elapsed": "5.164s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:07:29,320"
+  },
+  {
+    "prompt_tokens": "169",
+    "generated_tokens": "50",
+    "elapsed": "5.386s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:07:29,553"
+  },
+  {
+    "prompt_tokens": "229",
+    "generated_tokens": "79",
+    "elapsed": "5.679s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:07:29,843"
+  },
+  {
+    "prompt_tokens": "1261",
+    "generated_tokens": "778",
+    "elapsed": "12.150s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:07:36,322"
+  },
+  {
+    "prompt_tokens": "381",
+    "generated_tokens": "4096",
+    "elapsed": "43.485s",
+    "finish_reason": "length",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:08:07,655"
+  },
+  {
+    "prompt_tokens": "167",
+    "generated_tokens": "2",
+    "elapsed": "2.218s",
+    "finish_reason": "stop",
+    "in_flight": "12",
+    "local_timestamp": "2026-11-01 20:08:14,183"
+  },
+  {
+    "prompt_tokens": "167",
+    "generated_tokens": "3",
+    "elapsed": "3.259s",
+    "finish_reason": "stop",
+    "in_flight": "11",
+    "local_timestamp": "2026-11-01 20:08:15,256"
+  },
+  {
+    "prompt_tokens": "167",
+    "generated_tokens": "4",
+    "elapsed": "3.312s",
+    "finish_reason": "stop",
+    "in_flight": "10",
+    "local_timestamp": "2026-11-01 20:08:15,283"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "7",
+    "elapsed": "3.346s",
+    "finish_reason": "stop",
+    "in_flight": "9",
+    "local_timestamp": "2026-11-01 20:08:15,330"
+  },
+  {
+    "prompt_tokens": "173",
+    "generated_tokens": "7",
+    "elapsed": "3.377s",
+    "finish_reason": "stop",
+    "in_flight": "8",
+    "local_timestamp": "2026-11-01 20:08:15,353"
+  },
+  {
+    "prompt_tokens": "165",
+    "generated_tokens": "20",
+    "elapsed": "3.491s",
+    "finish_reason": "stop",
+    "in_flight": "7",
+    "local_timestamp": "2026-11-01 20:08:15,481"
+  },
+  {
+    "prompt_tokens": "175",
+    "generated_tokens": "21",
+    "elapsed": "3.539s",
+    "finish_reason": "stop",
+    "in_flight": "6",
+    "local_timestamp": "2026-11-01 20:08:15,525"
+  },
+  {
+    "prompt_tokens": "169",
+    "generated_tokens": "28",
+    "elapsed": "3.582s",
+    "finish_reason": "stop",
+    "in_flight": "5",
+    "local_timestamp": "2026-11-01 20:08:15,587"
+  },
+  {
+    "prompt_tokens": "187",
+    "generated_tokens": "29",
+    "elapsed": "3.611s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:08:15,630"
+  },
+  {
+    "prompt_tokens": "158",
+    "generated_tokens": "34",
+    "elapsed": "3.651s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:08:15,673"
+  },
+  {
+    "prompt_tokens": "187",
+    "generated_tokens": "36",
+    "elapsed": "3.723s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:08:15,724"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "54",
+    "elapsed": "3.840s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:08:15,865"
+  },
+  {
+    "prompt_tokens": "187",
+    "generated_tokens": "55",
+    "elapsed": "3.882s",
+    "finish_reason": "stop",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:08:15,898"
+  },
+  {
+    "prompt_tokens": "167",
+    "generated_tokens": "6",
+    "elapsed": "3.071s",
+    "finish_reason": "stop",
+    "in_flight": "11",
+    "local_timestamp": "2026-11-01 20:08:20,456"
+  },
+  {
+    "prompt_tokens": "185",
+    "generated_tokens": "27",
+    "elapsed": "3.349s",
+    "finish_reason": "stop",
+    "in_flight": "10",
+    "local_timestamp": "2026-11-01 20:08:20,702"
+  },
+  {
+    "prompt_tokens": "173",
+    "generated_tokens": "39",
+    "elapsed": "3.471s",
+    "finish_reason": "stop",
+    "in_flight": "9",
+    "local_timestamp": "2026-11-01 20:08:20,801"
+  },
+  {
+    "prompt_tokens": "173",
+    "generated_tokens": "37",
+    "elapsed": "3.452s",
+    "finish_reason": "stop",
+    "in_flight": "8",
+    "local_timestamp": "2026-11-01 20:08:20,823"
+  },
+  {
+    "prompt_tokens": "189",
+    "generated_tokens": "35",
+    "elapsed": "3.492s",
+    "finish_reason": "stop",
+    "in_flight": "7",
+    "local_timestamp": "2026-11-01 20:08:20,839"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "39",
+    "elapsed": "3.491s",
+    "finish_reason": "stop",
+    "in_flight": "6",
+    "local_timestamp": "2026-11-01 20:08:20,866"
+  },
+  {
+    "prompt_tokens": "168",
+    "generated_tokens": "39",
+    "elapsed": "3.522s",
+    "finish_reason": "stop",
+    "in_flight": "5",
+    "local_timestamp": "2026-11-01 20:08:20,882"
+  },
+  {
+    "prompt_tokens": "193",
+    "generated_tokens": "37",
+    "elapsed": "3.555s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:08:20,896"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "42",
+    "elapsed": "3.604s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:08:20,940"
+  },
+  {
+    "prompt_tokens": "178",
+    "generated_tokens": "56",
+    "elapsed": "3.676s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:08:21,070"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "57",
+    "elapsed": "3.730s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:08:21,095"
+  },
+  {
+    "prompt_tokens": "169",
+    "generated_tokens": "76",
+    "elapsed": "3.907s",
+    "finish_reason": "stop",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:08:21,256"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "16",
+    "elapsed": "2.117s",
+    "finish_reason": "stop",
+    "in_flight": "6",
+    "local_timestamp": "2026-11-01 20:08:24,807"
+  },
+  {
+    "prompt_tokens": "197",
+    "generated_tokens": "24",
+    "elapsed": "2.220s",
+    "finish_reason": "stop",
+    "in_flight": "5",
+    "local_timestamp": "2026-11-01 20:08:24,912"
+  },
+  {
+    "prompt_tokens": "178",
+    "generated_tokens": "33",
+    "elapsed": "2.310s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:08:25,007"
+  },
+  {
+    "prompt_tokens": "205",
+    "generated_tokens": "38",
+    "elapsed": "2.365s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:08:25,067"
+  },
+  {
+    "prompt_tokens": "183",
+    "generated_tokens": "58",
+    "elapsed": "2.562s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:08:25,249"
+  },
+  {
+    "prompt_tokens": "203",
+    "generated_tokens": "248",
+    "elapsed": "4.083s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:08:26,777"
+  },
+  {
+    "prompt_tokens": "173",
+    "generated_tokens": "4096",
+    "elapsed": "40.511s",
+    "finish_reason": "length",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:09:03,211"
+  },
+  {
+    "prompt_tokens": "199",
+    "generated_tokens": "31",
+    "elapsed": "5.165s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:09:12,688"
+  },
+  {
+    "prompt_tokens": "169",
+    "generated_tokens": "50",
+    "elapsed": "5.393s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:09:12,922"
+  },
+  {
+    "prompt_tokens": "229",
+    "generated_tokens": "79",
+    "elapsed": "5.685s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:09:13,211"
+  },
+  {
+    "prompt_tokens": "1261",
+    "generated_tokens": "778",
+    "elapsed": "12.130s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:09:19,666"
+  },
+  {
+    "prompt_tokens": "381",
+    "generated_tokens": "4096",
+    "elapsed": "44.475s",
+    "finish_reason": "length",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:09:52,007"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "16",
+    "elapsed": "2.132s",
+    "finish_reason": "stop",
+    "in_flight": "6",
+    "local_timestamp": "2026-11-01 20:09:58,485"
+  },
+  {
+    "prompt_tokens": "178",
+    "generated_tokens": "33",
+    "elapsed": "2.294s",
+    "finish_reason": "stop",
+    "in_flight": "5",
+    "local_timestamp": "2026-11-01 20:09:58,653"
+  },
+  {
+    "prompt_tokens": "197",
+    "generated_tokens": "36",
+    "elapsed": "2.336s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:09:58,679"
+  },
+  {
+    "prompt_tokens": "205",
+    "generated_tokens": "38",
+    "elapsed": "2.370s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:09:58,735"
+  },
+  {
+    "prompt_tokens": "183",
+    "generated_tokens": "58",
+    "elapsed": "2.586s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:09:58,926"
+  },
+  {
+    "prompt_tokens": "173",
+    "generated_tokens": "80",
+    "elapsed": "2.758s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:09:59,120"
+  },
+  {
+    "prompt_tokens": "203",
+    "generated_tokens": "193",
+    "elapsed": "3.686s",
+    "finish_reason": "stop",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:10:00,041"
+  },
+  {
+    "prompt_tokens": "199",
+    "generated_tokens": "31",
+    "elapsed": "5.176s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:10:08,211"
+  },
+  {
+    "prompt_tokens": "169",
+    "generated_tokens": "56",
+    "elapsed": "5.420s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:10:08,463"
+  },
+  {
+    "prompt_tokens": "229",
+    "generated_tokens": "79",
+    "elapsed": "5.675s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:10:08,717"
+  },
+  {
+    "prompt_tokens": "1261",
+    "generated_tokens": "778",
+    "elapsed": "12.131s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:10:15,181"
+  },
+  {
+    "prompt_tokens": "381",
+    "generated_tokens": "4096",
+    "elapsed": "43.764s",
+    "finish_reason": "length",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:10:46,812"
+  },
+  {
+    "prompt_tokens": "167",
+    "generated_tokens": "2",
+    "elapsed": "2.255s",
+    "finish_reason": "stop",
+    "in_flight": "12",
+    "local_timestamp": "2026-11-01 20:10:51,876"
+  },
+  {
+    "prompt_tokens": "167",
+    "generated_tokens": "3",
+    "elapsed": "3.313s",
+    "finish_reason": "stop",
+    "in_flight": "11",
+    "local_timestamp": "2026-11-01 20:10:52,947"
+  },
+  {
+    "prompt_tokens": "167",
+    "generated_tokens": "4",
+    "elapsed": "3.363s",
+    "finish_reason": "stop",
+    "in_flight": "10",
+    "local_timestamp": "2026-11-01 20:10:52,986"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "7",
+    "elapsed": "3.355s",
+    "finish_reason": "stop",
+    "in_flight": "9",
+    "local_timestamp": "2026-11-01 20:10:53,035"
+  },
+  {
+    "prompt_tokens": "173",
+    "generated_tokens": "7",
+    "elapsed": "3.413s",
+    "finish_reason": "stop",
+    "in_flight": "8",
+    "local_timestamp": "2026-11-01 20:10:53,056"
+  },
+  {
+    "prompt_tokens": "165",
+    "generated_tokens": "20",
+    "elapsed": "3.537s",
+    "finish_reason": "stop",
+    "in_flight": "7",
+    "local_timestamp": "2026-11-01 20:10:53,184"
+  },
+  {
+    "prompt_tokens": "175",
+    "generated_tokens": "21",
+    "elapsed": "3.576s",
+    "finish_reason": "stop",
+    "in_flight": "6",
+    "local_timestamp": "2026-11-01 20:10:53,229"
+  },
+  {
+    "prompt_tokens": "169",
+    "generated_tokens": "28",
+    "elapsed": "3.650s",
+    "finish_reason": "stop",
+    "in_flight": "5",
+    "local_timestamp": "2026-11-01 20:10:53,291"
+  },
+  {
+    "prompt_tokens": "187",
+    "generated_tokens": "29",
+    "elapsed": "3.674s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:10:53,335"
+  },
+  {
+    "prompt_tokens": "158",
+    "generated_tokens": "34",
+    "elapsed": "3.729s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:10:53,379"
+  },
+  {
+    "prompt_tokens": "187",
+    "generated_tokens": "36",
+    "elapsed": "3.773s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:10:53,430"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "54",
+    "elapsed": "3.909s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:10:53,574"
+  },
+  {
+    "prompt_tokens": "187",
+    "generated_tokens": "55",
+    "elapsed": "3.939s",
+    "finish_reason": "stop",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:10:53,608"
+  },
+  {
+    "prompt_tokens": "167",
+    "generated_tokens": "4",
+    "elapsed": "3.072s",
+    "finish_reason": "stop",
+    "in_flight": "11",
+    "local_timestamp": "2026-11-01 20:10:58,074"
+  },
+  {
+    "prompt_tokens": "185",
+    "generated_tokens": "27",
+    "elapsed": "3.350s",
+    "finish_reason": "stop",
+    "in_flight": "10",
+    "local_timestamp": "2026-11-01 20:10:58,362"
+  },
+  {
+    "prompt_tokens": "173",
+    "generated_tokens": "37",
+    "elapsed": "3.442s",
+    "finish_reason": "stop",
+    "in_flight": "9",
+    "local_timestamp": "2026-11-01 20:10:58,462"
+  },
+  {
+    "prompt_tokens": "189",
+    "generated_tokens": "35",
+    "elapsed": "3.460s",
+    "finish_reason": "stop",
+    "in_flight": "8",
+    "local_timestamp": "2026-11-01 20:10:58,484"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "39",
+    "elapsed": "3.485s",
+    "finish_reason": "stop",
+    "in_flight": "7",
+    "local_timestamp": "2026-11-01 20:10:58,512"
+  },
+  {
+    "prompt_tokens": "193",
+    "generated_tokens": "37",
+    "elapsed": "3.505s",
+    "finish_reason": "stop",
+    "in_flight": "6",
+    "local_timestamp": "2026-11-01 20:10:58,536"
+  },
+  {
+    "prompt_tokens": "168",
+    "generated_tokens": "39",
+    "elapsed": "3.516s",
+    "finish_reason": "stop",
+    "in_flight": "5",
+    "local_timestamp": "2026-11-01 20:10:58,557"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "42",
+    "elapsed": "3.569s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:10:58,584"
+  },
+  {
+    "prompt_tokens": "173",
+    "generated_tokens": "44",
+    "elapsed": "3.570s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:10:58,620"
+  },
+  {
+    "prompt_tokens": "178",
+    "generated_tokens": "56",
+    "elapsed": "3.664s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:10:58,735"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "57",
+    "elapsed": "3.714s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:10:58,760"
+  },
+  {
+    "prompt_tokens": "169",
+    "generated_tokens": "76",
+    "elapsed": "3.888s",
+    "finish_reason": "stop",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:10:58,925"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "16",
+    "elapsed": "2.101s",
+    "finish_reason": "stop",
+    "in_flight": "6",
+    "local_timestamp": "2026-11-01 20:11:02,342"
+  },
+  {
+    "prompt_tokens": "197",
+    "generated_tokens": "25",
+    "elapsed": "2.205s",
+    "finish_reason": "stop",
+    "in_flight": "5",
+    "local_timestamp": "2026-11-01 20:11:02,439"
+  },
+  {
+    "prompt_tokens": "178",
+    "generated_tokens": "33",
+    "elapsed": "2.270s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:11:02,526"
+  },
+  {
+    "prompt_tokens": "205",
+    "generated_tokens": "38",
+    "elapsed": "2.337s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:11:02,586"
+  },
+  {
+    "prompt_tokens": "183",
+    "generated_tokens": "42",
+    "elapsed": "2.389s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:11:02,621"
+  },
+  {
+    "prompt_tokens": "173",
+    "generated_tokens": "80",
+    "elapsed": "2.706s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:11:02,959"
+  },
+  {
+    "prompt_tokens": "203",
+    "generated_tokens": "209",
+    "elapsed": "3.771s",
+    "finish_reason": "stop",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:11:04,017"
+  },
+  {
+    "prompt_tokens": "199",
+    "generated_tokens": "31",
+    "elapsed": "5.159s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:11:13,549"
+  },
+  {
+    "prompt_tokens": "169",
+    "generated_tokens": "50",
+    "elapsed": "5.396s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:11:13,796"
+  },
+  {
+    "prompt_tokens": "229",
+    "generated_tokens": "79",
+    "elapsed": "5.692s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:11:14,087"
+  },
+  {
+    "prompt_tokens": "1261",
+    "generated_tokens": "778",
+    "elapsed": "12.139s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:11:20,542"
+  },
+  {
+    "prompt_tokens": "381",
+    "generated_tokens": "4096",
+    "elapsed": "44.525s",
+    "finish_reason": "length",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:11:52,923"
+  },
+  {
+    "prompt_tokens": "161",
+    "generated_tokens": "9",
+    "elapsed": "3.552s",
+    "finish_reason": "stop",
+    "in_flight": "12",
+    "local_timestamp": "2026-11-01 20:11:59,027"
+  },
+  {
+    "prompt_tokens": "174",
+    "generated_tokens": "7",
+    "elapsed": "3.565s",
+    "finish_reason": "stop",
+    "in_flight": "11",
+    "local_timestamp": "2026-11-01 20:11:59,049"
+  },
+  {
+    "prompt_tokens": "161",
+    "generated_tokens": "9",
+    "elapsed": "3.596s",
+    "finish_reason": "stop",
+    "in_flight": "10",
+    "local_timestamp": "2026-11-01 20:11:59,077"
+  },
+  {
+    "prompt_tokens": "185",
+    "generated_tokens": "10",
+    "elapsed": "3.634s",
+    "finish_reason": "stop",
+    "in_flight": "9",
+    "local_timestamp": "2026-11-01 20:11:59,106"
+  },
+  {
+    "prompt_tokens": "188",
+    "generated_tokens": "13",
+    "elapsed": "3.674s",
+    "finish_reason": "stop",
+    "in_flight": "8",
+    "local_timestamp": "2026-11-01 20:11:59,172"
+  },
+  {
+    "prompt_tokens": "184",
+    "generated_tokens": "22",
+    "elapsed": "3.762s",
+    "finish_reason": "stop",
+    "in_flight": "7",
+    "local_timestamp": "2026-11-01 20:11:59,256"
+  },
+  {
+    "prompt_tokens": "175",
+    "generated_tokens": "26",
+    "elapsed": "3.801s",
+    "finish_reason": "stop",
+    "in_flight": "6",
+    "local_timestamp": "2026-11-01 20:11:59,310"
+  },
+  {
+    "prompt_tokens": "193",
+    "generated_tokens": "38",
+    "elapsed": "3.929s",
+    "finish_reason": "stop",
+    "in_flight": "5",
+    "local_timestamp": "2026-11-01 20:11:59,451"
+  },
+  {
+    "prompt_tokens": "181",
+    "generated_tokens": "46",
+    "elapsed": "3.991s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:11:59,521"
+  },
+  {
+    "prompt_tokens": "197",
+    "generated_tokens": "67",
+    "elapsed": "4.231s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:11:59,737"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "74",
+    "elapsed": "4.272s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:11:59,797"
+  },
+  {
+    "prompt_tokens": "169",
+    "generated_tokens": "137",
+    "elapsed": "4.798s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:12:00,315"
+  },
+  {
+    "prompt_tokens": "193",
+    "generated_tokens": "299",
+    "elapsed": "6.142s",
+    "finish_reason": "stop",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:12:01,655"
+  },
+  {
+    "prompt_tokens": "167",
+    "generated_tokens": "2",
+    "elapsed": "5.920s",
+    "finish_reason": "stop",
+    "in_flight": "7",
+    "local_timestamp": "2026-11-01 20:12:08,892"
+  },
+  {
+    "prompt_tokens": "175",
+    "generated_tokens": "6",
+    "elapsed": "5.966s",
+    "finish_reason": "stop",
+    "in_flight": "6",
+    "local_timestamp": "2026-11-01 20:12:08,958"
+  },
+  {
+    "prompt_tokens": "181",
+    "generated_tokens": "9",
+    "elapsed": "6.013s",
+    "finish_reason": "stop",
+    "in_flight": "5",
+    "local_timestamp": "2026-11-01 20:12:09,009"
+  },
+  {
+    "prompt_tokens": "172",
+    "generated_tokens": "17",
+    "elapsed": "6.126s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:12:09,116"
+  },
+  {
+    "prompt_tokens": "166",
+    "generated_tokens": "21",
+    "elapsed": "6.192s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:12:09,178"
+  },
+  {
+    "prompt_tokens": "193",
+    "generated_tokens": "29",
+    "elapsed": "6.292s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:12:09,273"
+  },
+  {
+    "prompt_tokens": "189",
+    "generated_tokens": "123",
+    "elapsed": "7.138s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:12:10,108"
+  },
+  {
+    "prompt_tokens": "1261",
+    "generated_tokens": "4096",
+    "elapsed": "46.486s",
+    "finish_reason": "length",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:12:49,488"
+  },
+  {
+    "prompt_tokens": "168",
+    "generated_tokens": "3",
+    "elapsed": "2.906s",
+    "finish_reason": "stop",
+    "in_flight": "10",
+    "local_timestamp": "2026-11-01 20:12:56,622"
+  },
+  {
+    "prompt_tokens": "181",
+    "generated_tokens": "2",
+    "elapsed": "2.984s",
+    "finish_reason": "stop",
+    "in_flight": "9",
+    "local_timestamp": "2026-11-01 20:12:56,709"
+  },
+  {
+    "prompt_tokens": "181",
+    "generated_tokens": "2",
+    "elapsed": "2.973s",
+    "finish_reason": "stop",
+    "in_flight": "8",
+    "local_timestamp": "2026-11-01 20:12:56,730"
+  },
+  {
+    "prompt_tokens": "165",
+    "generated_tokens": "6",
+    "elapsed": "3.045s",
+    "finish_reason": "stop",
+    "in_flight": "7",
+    "local_timestamp": "2026-11-01 20:12:56,788"
+  },
+  {
+    "prompt_tokens": "174",
+    "generated_tokens": "9",
+    "elapsed": "3.087s",
+    "finish_reason": "stop",
+    "in_flight": "6",
+    "local_timestamp": "2026-11-01 20:12:56,834"
+  },
+  {
+    "prompt_tokens": "178",
+    "generated_tokens": "10",
+    "elapsed": "3.141s",
+    "finish_reason": "stop",
+    "in_flight": "5",
+    "local_timestamp": "2026-11-01 20:12:56,861"
+  },
+  {
+    "prompt_tokens": "172",
+    "generated_tokens": "12",
+    "elapsed": "3.169s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:12:56,898"
+  },
+  {
+    "prompt_tokens": "158",
+    "generated_tokens": "53",
+    "elapsed": "3.535s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:12:57,268"
+  },
+  {
+    "prompt_tokens": "169",
+    "generated_tokens": "85",
+    "elapsed": "3.798s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:12:57,549"
+  },
+  {
+    "prompt_tokens": "220",
+    "generated_tokens": "159",
+    "elapsed": "4.436s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:12:58,174"
+  },
+  {
+    "prompt_tokens": "220",
+    "generated_tokens": "246",
+    "elapsed": "5.169s",
+    "finish_reason": "stop",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:12:58,890"
+  },
+  {
+    "prompt_tokens": "167",
+    "generated_tokens": "2",
+    "elapsed": "2.499s",
+    "finish_reason": "stop",
+    "in_flight": "6",
+    "local_timestamp": "2026-11-01 20:13:02,731"
+  },
+  {
+    "prompt_tokens": "187",
+    "generated_tokens": "10",
+    "elapsed": "2.574s",
+    "finish_reason": "stop",
+    "in_flight": "5",
+    "local_timestamp": "2026-11-01 20:13:02,804"
+  },
+  {
+    "prompt_tokens": "184",
+    "generated_tokens": "13",
+    "elapsed": "2.615s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:13:02,869"
+  },
+  {
+    "prompt_tokens": "201",
+    "generated_tokens": "51",
+    "elapsed": "2.973s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:13:03,221"
+  },
+  {
+    "prompt_tokens": "181",
+    "generated_tokens": "80",
+    "elapsed": "3.237s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:13:03,478"
+  },
+  {
+    "prompt_tokens": "174",
+    "generated_tokens": "129",
+    "elapsed": "3.656s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:13:03,900"
+  },
+  {
+    "prompt_tokens": "404",
+    "generated_tokens": "288",
+    "elapsed": "4.975s",
+    "finish_reason": "stop",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:13:05,226"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "2",
+    "elapsed": "3.600s",
+    "finish_reason": "stop",
+    "in_flight": "11",
+    "local_timestamp": "2026-11-01 20:13:10,214"
+  },
+  {
+    "prompt_tokens": "167",
+    "generated_tokens": "4",
+    "elapsed": "3.646s",
+    "finish_reason": "stop",
+    "in_flight": "10",
+    "local_timestamp": "2026-11-01 20:13:10,253"
+  },
+  {
+    "prompt_tokens": "189",
+    "generated_tokens": "8",
+    "elapsed": "3.696s",
+    "finish_reason": "stop",
+    "in_flight": "9",
+    "local_timestamp": "2026-11-01 20:13:10,292"
+  },
+  {
+    "prompt_tokens": "188",
+    "generated_tokens": "7",
+    "elapsed": "3.690s",
+    "finish_reason": "stop",
+    "in_flight": "8",
+    "local_timestamp": "2026-11-01 20:13:10,320"
+  },
+  {
+    "prompt_tokens": "169",
+    "generated_tokens": "8",
+    "elapsed": "3.709s",
+    "finish_reason": "stop",
+    "in_flight": "7",
+    "local_timestamp": "2026-11-01 20:13:10,348"
+  },
+  {
+    "prompt_tokens": "173",
+    "generated_tokens": "8",
+    "elapsed": "3.753s",
+    "finish_reason": "stop",
+    "in_flight": "6",
+    "local_timestamp": "2026-11-01 20:13:10,369"
+  },
+  {
+    "prompt_tokens": "163",
+    "generated_tokens": "21",
+    "elapsed": "3.881s",
+    "finish_reason": "stop",
+    "in_flight": "5",
+    "local_timestamp": "2026-11-01 20:13:10,515"
+  },
+  {
+    "prompt_tokens": "189",
+    "generated_tokens": "23",
+    "elapsed": "3.944s",
+    "finish_reason": "stop",
+    "in_flight": "4",
+    "local_timestamp": "2026-11-01 20:13:10,570"
+  },
+  {
+    "prompt_tokens": "188",
+    "generated_tokens": "54",
+    "elapsed": "4.222s",
+    "finish_reason": "stop",
+    "in_flight": "3",
+    "local_timestamp": "2026-11-01 20:13:10,842"
+  },
+  {
+    "prompt_tokens": "187",
+    "generated_tokens": "90",
+    "elapsed": "4.545s",
+    "finish_reason": "stop",
+    "in_flight": "2",
+    "local_timestamp": "2026-11-01 20:13:11,158"
+  },
+  {
+    "prompt_tokens": "266",
+    "generated_tokens": "453",
+    "elapsed": "7.538s",
+    "finish_reason": "stop",
+    "in_flight": "1",
+    "local_timestamp": "2026-11-01 20:13:14,197"
+  },
+  {
+    "prompt_tokens": "358",
+    "generated_tokens": "589",
+    "elapsed": "8.741s",
+    "finish_reason": "stop",
+    "in_flight": "0",
+    "local_timestamp": "2026-11-01 20:13:15,359"
+  }
+]

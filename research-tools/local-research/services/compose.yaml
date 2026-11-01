@@ -1,0 +1,16 @@
+services:
+  ocr:
+    build: .
+    image: local-research-ocr:0.2.0
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8091:8091"
+    volumes:
+      - ocr-models:/cache
+    environment:
+      HF_HOME: /cache/hf
+    gpus: all
+    shm_size: 1gb
+volumes:
+  ocr-models:
+    name: ocr-benchmark-models

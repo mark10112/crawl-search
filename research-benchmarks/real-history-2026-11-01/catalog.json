@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {"id":"thai-gazette","title":"ประมวลประกาศ รัชกาลที่ ๔ เล่ม ๓ — สารบัญ","url":"https://www.finearts.go.th/storage/contents/2026/01/file/pW1tIxOtOfOBe9adBYoO1x4i2JZsyQkNHoqhxJb2.pdf","publisher":"กรมศิลปากร","source_pages":[6,7,8],"note":"สแกนสารบัญฉบับรวมประกาศ พ.ศ. 2405–2407 มีตราประทับ อักษรจากหน้าหลังทะลุ และตารางชื่อประกาศกับเลขหน้า เป็นฉบับรวมพิมพ์ภายหลัง ไม่ใช่ราชกิจจาฯ ต้นฉบับศตวรรษที่ 19 หรือตารางการเงิน"},
+    {"id":"thai-royal","title":"จดหมายเหตุพระราชกิจรายวัน ภาค ๘ — พระราชนิพนธ์ รัชกาลที่ ๕","url":"https://finearts.go.th/storage/contents/file/aEPSVNEror9Xrm172S73ikol2N7ZQKovZIZ5xGYE.pdf","publisher":"กรมศิลปากร digital collection","source_pages":[13,14,15],"note":"ฉบับพิมพ์กระดาษเหลือง มีหนังสือการทูตและข้อกำหนดการเก็บน้ำมัน ชื่อบนหน้าปกในระบุภาค ๘ จึงใช้ชื่อนี้ แม้คำบรรยายในผลค้นหาจะระบุภาคอื่น"},
+    {"id":"us-census","title":"Census Bulletin No. 21 — Population of Illinois by Counties and Minor Civil Divisions (1900)","url":"https://www2.census.gov/library/publications/decennial/1900/bulletins/demographic/21-population-il.pdf","publisher":"U.S. Census Bureau","source_pages":[1,2,3],"note":"สแกนต้นฉบับ มี OCR เก่าที่ผิดบางจุดฝังอยู่ ตารางหนาแน่นและตัวเลขหลายคอลัมน์"},
+    {"id":"us-preservation","title":"Preservation of Newspaper Records — B. W. Scribner (1934), Miscellaneous Publication 145","url":"https://nvlpubs.nist.gov/nistpubs/Legacy/MP/nbsmiscellaneouspub145.pdf","publisher":"U.S. National Bureau of Standards / NIST","source_pages":[5,6,7],"note":"กระดาษเหลือง มี OCR เดิม บทความและตารางสัดส่วนเส้นใยกระดาษ วันที่ และเกรดคุณภาพ"}
+  ],
+  "setup_exclusions": [
+    {"source":"Royal Gazette direct PDF","reason":"403 Cloudflare challenge; retained separately as access limitation, not scored as OCR failure."},
+    {"source":"Wikimedia original calendar PDF","reason":"403 robot-policy response; no attempt to bypass, excluded from fixed corpus."},
+    {"source":"siamese-heritage.org JSS historical law PDF","reason":"DNS resolution failed; excluded before corpus lock."}
+  ]
+}

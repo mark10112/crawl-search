@@ -1,0 +1,3834 @@
+{
+  "reference_canonical_sha256": "72a37213b39a3a3dd1b4e344162d962b39c3c460fcad2bf2dfea105620301ac2",
+  "summaries": [
+    {
+      "provider": "mac",
+      "phase": "off",
+      "n": 4,
+      "ok": 2,
+      "p50_ms": 23949.46,
+      "accepted_p50_ms": 1001.565,
+      "accepted_cer_pct": 7.38,
+      "delivery_penalty_error_pct": 53.69,
+      "anchors_present": 10,
+      "anchors_total": 24,
+      "table_correct": 1,
+      "table_total": 15,
+      "cache_hits": 0,
+      "credits_reported": 0,
+      "unknown_credit_records": 0,
+      "native_rss_peak": 3708747776,
+      "system_nonfree_peak": 17117954048,
+      "compressor_peak": 3734618112,
+      "available_min": 3602137088,
+      "swap_out_delta": 589824
+    },
+    {
+      "provider": "mac",
+      "phase": "prime",
+      "n": 4,
+      "ok": 2,
+      "p50_ms": 25130.88,
+      "accepted_p50_ms": 1140.25,
+      "accepted_cer_pct": 7.38,
+      "delivery_penalty_error_pct": 53.69,
+      "anchors_present": 10,
+      "anchors_total": 24,
+      "table_correct": 1,
+      "table_total": 15,
+      "cache_hits": 0,
+      "credits_reported": 0,
+      "unknown_credit_records": 0,
+      "native_rss_peak": 3358834688,
+      "system_nonfree_peak": 17125490688,
+      "compressor_peak": 4172791808,
+      "available_min": 2576760832,
+      "swap_out_delta": 704512
+    },
+    {
+      "provider": "mac",
+      "phase": "hit",
+      "n": 4,
+      "ok": 3,
+      "p50_ms": 2954.135,
+      "accepted_p50_ms": 224.4,
+      "accepted_cer_pct": 10.06,
+      "delivery_penalty_error_pct": 32.545,
+      "anchors_present": 15,
+      "anchors_total": 24,
+      "table_correct": 1,
+      "table_total": 15,
+      "cache_hits": 2,
+      "credits_reported": 0,
+      "unknown_credit_records": 0,
+      "native_rss_peak": 3189669888,
+      "system_nonfree_peak": 17116217344,
+      "compressor_peak": 4104044544,
+      "available_min": 2559737856,
+      "swap_out_delta": 65536
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "n": 4,
+      "ok": 4,
+      "p50_ms": 3424.5,
+      "accepted_p50_ms": 3424.5,
+      "accepted_cer_pct": 3.387,
+      "delivery_penalty_error_pct": 3.387,
+      "anchors_present": 23,
+      "anchors_total": 24,
+      "table_correct": 9,
+      "table_total": 15,
+      "cache_hits": 0,
+      "credits_reported": 12,
+      "unknown_credit_records": 0,
+      "native_rss_peak": null,
+      "system_nonfree_peak": null,
+      "compressor_peak": null,
+      "available_min": null,
+      "swap_out_delta": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "n": 4,
+      "ok": 4,
+      "p50_ms": 3317.5,
+      "accepted_p50_ms": 3317.5,
+      "accepted_cer_pct": 3.387,
+      "delivery_penalty_error_pct": 3.387,
+      "anchors_present": 23,
+      "anchors_total": 24,
+      "table_correct": 9,
+      "table_total": 15,
+      "cache_hits": 0,
+      "credits_reported": 12,
+      "unknown_credit_records": 0,
+      "native_rss_peak": null,
+      "system_nonfree_peak": null,
+      "compressor_peak": null,
+      "available_min": null,
+      "swap_out_delta": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "n": 4,
+      "ok": 4,
+      "p50_ms": 2145.5,
+      "accepted_p50_ms": 2145.5,
+      "accepted_cer_pct": 3.387,
+      "delivery_penalty_error_pct": 3.387,
+      "anchors_present": 23,
+      "anchors_total": 24,
+      "table_correct": 9,
+      "table_total": 15,
+      "cache_hits": 4,
+      "credits_reported": 12,
+      "unknown_credit_records": 0,
+      "native_rss_peak": null,
+      "system_nonfree_peak": null,
+      "compressor_peak": null,
+      "available_min": null,
+      "swap_out_delta": null
+    },
+    {
+      "provider": "mac-forced-quality",
+      "phase": "off",
+      "n": 4,
+      "ok": 2,
+      "p50_ms": 37318.125,
+      "accepted_p50_ms": 21281.04,
+      "accepted_cer_pct": 11.015,
+      "delivery_penalty_error_pct": 55.508,
+      "anchors_present": 10,
+      "anchors_total": 24,
+      "table_correct": 2,
+      "table_total": 15,
+      "cache_hits": 0,
+      "credits_reported": 0,
+      "unknown_credit_records": 0,
+      "native_rss_peak": 3624419328,
+      "system_nonfree_peak": 17118134272,
+      "compressor_peak": 4431249408,
+      "available_min": 1569767424,
+      "swap_out_delta": 1933312
+    }
+  ],
+  "rows": [
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "thai-gazette",
+      "ok": true,
+      "elapsed_ms": 2479,
+      "cache_hit": true,
+      "credits_reported": 3,
+      "reader": null,
+      "chars": 1822,
+      "error": null,
+      "accepted_cer_pct": 1.897,
+      "delivery_penalty_error_pct": 1.897,
+      "anchors_present": 6,
+      "anchors_total": 6,
+      "table_correct": 3,
+      "table_total": 6,
+      "hash_matches": null,
+      "ocr_page_cache_hits": 0,
+      "profile": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "thai-royal",
+      "ok": true,
+      "elapsed_ms": 2189,
+      "cache_hit": true,
+      "credits_reported": 3,
+      "reader": null,
+      "chars": 5393,
+      "error": null,
+      "accepted_cer_pct": 3.096,
+      "delivery_penalty_error_pct": 3.096,
+      "anchors_present": 6,
+      "anchors_total": 6,
+      "table_correct": 0,
+      "table_total": 0,
+      "hash_matches": null,
+      "ocr_page_cache_hits": 0,
+      "profile": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "us-census",
+      "ok": true,
+      "elapsed_ms": 2102,
+      "cache_hit": true,
+      "credits_reported": 3,
+      "reader": null,
+      "chars": 21409,
+      "error": null,
+      "accepted_cer_pct": 1.109,
+      "delivery_penalty_error_pct": 1.109,
+      "anchors_present": 6,
+      "anchors_total": 6,
+      "table_correct": 4,
+      "table_total": 6,
+      "hash_matches": null,
+      "ocr_page_cache_hits": 0,
+      "profile": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "us-preservation",
+      "ok": true,
+      "elapsed_ms": 2065,
+      "cache_hit": true,
+      "credits_reported": 3,
+      "reader": null,
+      "chars": 8739,
+      "error": null,
+      "accepted_cer_pct": 7.445,
+      "delivery_penalty_error_pct": 7.445,
+      "anchors_present": 5,
+      "anchors_total": 6,
+      "table_correct": 2,
+      "table_total": 3,
+      "hash_matches": null,
+      "ocr_page_cache_hits": 0,
+      "profile": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "thai-gazette",
+      "ok": true,
+      "elapsed_ms": 4919,
+      "cache_hit": false,
+      "credits_reported": 3,
+      "reader": null,
+      "chars": 1818,
+      "error": null,
+      "accepted_cer_pct": 1.897,
+      "delivery_penalty_error_pct": 1.897,
+      "anchors_present": 6,
+      "anchors_total": 6,
+      "table_correct": 3,
+      "table_total": 6,
+      "hash_matches": null,
+      "ocr_page_cache_hits": 0,
+      "profile": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "thai-royal",
+      "ok": true,
+      "elapsed_ms": 3292,
+      "cache_hit": false,
+      "credits_reported": 3,
+      "reader": null,
+      "chars": 5387,
+      "error": null,
+      "accepted_cer_pct": 3.096,
+      "delivery_penalty_error_pct": 3.096,
+      "anchors_present": 6,
+      "anchors_total": 6,
+      "table_correct": 0,
+      "table_total": 0,
+      "hash_matches": null,
+      "ocr_page_cache_hits": 0,
+      "profile": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "us-census",
+      "ok": true,
+      "elapsed_ms": 3307,
+      "cache_hit": false,
+      "credits_reported": 3,
+      "reader": null,
+      "chars": 21400,
+      "error": null,
+      "accepted_cer_pct": 1.109,
+      "delivery_penalty_error_pct": 1.109,
+      "anchors_present": 6,
+      "anchors_total": 6,
+      "table_correct": 4,
+      "table_total": 6,
+      "hash_matches": null,
+      "ocr_page_cache_hits": 0,
+      "profile": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "us-preservation",
+      "ok": true,
+      "elapsed_ms": 3542,
+      "cache_hit": false,
+      "credits_reported": 3,
+      "reader": null,
+      "chars": 8758,
+      "error": null,
+      "accepted_cer_pct": 7.445,
+      "delivery_penalty_error_pct": 7.445,
+      "anchors_present": 5,
+      "anchors_total": 6,
+      "table_correct": 2,
+      "table_total": 3,
+      "hash_matches": null,
+      "ocr_page_cache_hits": 0,
+      "profile": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "thai-gazette",
+      "ok": true,
+      "elapsed_ms": 5085,
+      "cache_hit": false,
+      "credits_reported": 3,
+      "reader": null,
+      "chars": 1818,
+      "error": null,
+      "accepted_cer_pct": 1.897,
+      "delivery_penalty_error_pct": 1.897,
+      "anchors_present": 6,
+      "anchors_total": 6,
+      "table_correct": 3,
+      "table_total": 6,
+      "hash_matches": null,
+      "ocr_page_cache_hits": 0,
+      "profile": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "thai-royal",
+      "ok": true,
+      "elapsed_ms": 3045,
+      "cache_hit": false,
+      "credits_reported": 3,
+      "reader": null,
+      "chars": 5387,
+      "error": null,
+      "accepted_cer_pct": 3.096,
+      "delivery_penalty_error_pct": 3.096,
+      "anchors_present": 6,
+      "anchors_total": 6,
+      "table_correct": 0,
+      "table_total": 0,
+      "hash_matches": null,
+      "ocr_page_cache_hits": 0,
+      "profile": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "us-census",
+      "ok": true,
+      "elapsed_ms": 3360,
+      "cache_hit": false,
+      "credits_reported": 3,
+      "reader": null,
+      "chars": 21400,
+      "error": null,
+      "accepted_cer_pct": 1.109,
+      "delivery_penalty_error_pct": 1.109,
+      "anchors_present": 6,
+      "anchors_total": 6,
+      "table_correct": 4,
+      "table_total": 6,
+      "hash_matches": null,
+      "ocr_page_cache_hits": 0,
+      "profile": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "us-preservation",
+      "ok": true,
+      "elapsed_ms": 3275,
+      "cache_hit": false,
+      "credits_reported": 3,
+      "reader": null,
+      "chars": 8758,
+      "error": null,
+      "accepted_cer_pct": 7.445,
+      "delivery_penalty_error_pct": 7.445,
+      "anchors_present": 5,
+      "anchors_total": 6,
+      "table_correct": 2,
+      "table_total": 3,
+      "hash_matches": null,
+      "ocr_page_cache_hits": 0,
+      "profile": null
+    },
+    {
+      "provider": "mac-forced-quality",
+      "phase": "off",
+      "id": "thai-gazette",
+      "ok": true,
+      "elapsed_ms": 16829.36,
+      "cache_hit": false,
+      "credits_reported": 0,
+      "reader": "router:paddleocr-vl-1.6-mlx-layout",
+      "chars": 1875,
+      "error": null,
+      "accepted_cer_pct": 14.586,
+      "delivery_penalty_error_pct": 14.586,
+      "anchors_present": 5,
+      "anchors_total": 6,
+      "table_correct": 0,
+      "table_total": 6,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 0,
+      "profile": {
+        "in_call_samples": 33,
+        "uses_bracketing_samples": false,
+        "native_rss_baseline": 3151011840.0,
+        "native_rss_peak": 3249143808,
+        "native_rss_peak_delta": 98131968.0,
+        "system_nonfree_peak": 16772513792,
+        "compressor_peak": 3952852992,
+        "available_min": 3147956224,
+        "swap_used_peak": 510853120,
+        "swap_in_delta": 82165760,
+        "swap_out_delta": 1064960
+      }
+    },
+    {
+      "provider": "mac-forced-quality",
+      "phase": "off",
+      "id": "thai-royal",
+      "ok": false,
+      "elapsed_ms": 48903.53,
+      "cache_hit": false,
+      "credits_reported": 0,
+      "reader": "pdf-text",
+      "chars": 0,
+      "error": "Recognition did not explicitly finish normally",
+      "accepted_cer_pct": null,
+      "delivery_penalty_error_pct": 100,
+      "anchors_present": 0,
+      "anchors_total": 6,
+      "table_correct": 0,
+      "table_total": 0,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 0,
+      "profile": {
+        "in_call_samples": 96,
+        "uses_bracketing_samples": false,
+        "native_rss_baseline": 3111100416.0,
+        "native_rss_peak": 3232268288,
+        "native_rss_peak_delta": 121167872.0,
+        "system_nonfree_peak": 14975713280,
+        "compressor_peak": 3921330176,
+        "available_min": 4618829824,
+        "swap_used_peak": 510853120,
+        "swap_in_delta": 14106624,
+        "swap_out_delta": 0
+      }
+    },
+    {
+      "provider": "mac-forced-quality",
+      "phase": "off",
+      "id": "us-census",
+      "ok": false,
+      "elapsed_ms": 56654.77,
+      "cache_hit": false,
+      "credits_reported": 0,
+      "reader": "pdf-text",
+      "chars": 0,
+      "error": "Recognition did not explicitly finish normally",
+      "accepted_cer_pct": null,
+      "delivery_penalty_error_pct": 100,
+      "anchors_present": 0,
+      "anchors_total": 6,
+      "table_correct": 0,
+      "table_total": 6,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 0,
+      "profile": {
+        "in_call_samples": 111,
+        "uses_bracketing_samples": false,
+        "native_rss_baseline": 3203203072.0,
+        "native_rss_peak": 3262873600,
+        "native_rss_peak_delta": 59670528.0,
+        "system_nonfree_peak": 17118134272,
+        "compressor_peak": 4431249408,
+        "available_min": 1569767424,
+        "swap_used_peak": 528941056,
+        "swap_in_delta": 411926528,
+        "swap_out_delta": 180224
+      }
+    },
+    {
+      "provider": "mac-forced-quality",
+      "phase": "off",
+      "id": "us-preservation",
+      "ok": true,
+      "elapsed_ms": 25732.72,
+      "cache_hit": false,
+      "credits_reported": 0,
+      "reader": "router:paddleocr-vl-1.6-mlx-layout",
+      "chars": 21288,
+      "error": null,
+      "accepted_cer_pct": 7.445,
+      "delivery_penalty_error_pct": 7.445,
+      "anchors_present": 5,
+      "anchors_total": 6,
+      "table_correct": 2,
+      "table_total": 3,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 0,
+      "profile": {
+        "in_call_samples": 50,
+        "uses_bracketing_samples": false,
+        "native_rss_baseline": 3020529664.0,
+        "native_rss_peak": 3624419328,
+        "native_rss_peak_delta": 603889664.0,
+        "system_nonfree_peak": 17041080320,
+        "compressor_peak": 4203085824,
+        "available_min": 2361966592,
+        "swap_used_peak": 528941056,
+        "swap_in_delta": 12730368,
+        "swap_out_delta": 688128
+      }
+    },
+    {
+      "provider": "mac",
+      "phase": "hit",
+      "id": "thai-gazette",
+      "ok": true,
+      "elapsed_ms": 5683.87,
+      "cache_hit": false,
+      "credits_reported": 0,
+      "reader": "router:paddleocr-vl-1.6-mlx-layout",
+      "chars": 1884,
+      "error": null,
+      "accepted_cer_pct": 15.419,
+      "delivery_penalty_error_pct": 15.419,
+      "anchors_present": 5,
+      "anchors_total": 6,
+      "table_correct": 0,
+      "table_total": 6,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 2,
+      "profile": {
+        "in_call_samples": 11,
+        "uses_bracketing_samples": false,
+        "native_rss_baseline": 3142623232.0,
+        "native_rss_peak": 3189669888,
+        "native_rss_peak_delta": 47046656.0,
+        "system_nonfree_peak": 17116217344,
+        "compressor_peak": 4104044544,
+        "available_min": 2559737856,
+        "swap_used_peak": 510853120,
+        "swap_in_delta": 2605056,
+        "swap_out_delta": 65536
+      }
+    },
+    {
+      "provider": "mac",
+      "phase": "hit",
+      "id": "thai-royal",
+      "ok": false,
+      "elapsed_ms": 46737.54,
+      "cache_hit": false,
+      "credits_reported": 0,
+      "reader": "pdf-text",
+      "chars": 0,
+      "error": "Recognition did not explicitly finish normally",
+      "accepted_cer_pct": null,
+      "delivery_penalty_error_pct": 100,
+      "anchors_present": 0,
+      "anchors_total": 6,
+      "table_correct": 0,
+      "table_total": 0,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 0,
+      "profile": {
+        "in_call_samples": 92,
+        "uses_bracketing_samples": false,
+        "native_rss_baseline": 3098345472.0,
+        "native_rss_peak": 3186507776,
+        "native_rss_peak_delta": 88162304.0,
+        "system_nonfree_peak": 15121956864,
+        "compressor_peak": 4082532352,
+        "available_min": 4450762752,
+        "swap_used_peak": 510853120,
+        "swap_in_delta": 117669888,
+        "swap_out_delta": 0
+      }
+    },
+    {
+      "provider": "mac",
+      "phase": "hit",
+      "id": "us-census",
+      "ok": true,
+      "elapsed_ms": 224.4,
+      "cache_hit": true,
+      "credits_reported": 0,
+      "reader": "pdf-text",
+      "chars": 23185,
+      "error": null,
+      "accepted_cer_pct": 0.67,
+      "delivery_penalty_error_pct": 0.67,
+      "anchors_present": 6,
+      "anchors_total": 6,
+      "table_correct": 1,
+      "table_total": 6,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 0,
+      "profile": {
+        "in_call_samples": 0,
+        "uses_bracketing_samples": true,
+        "native_rss_baseline": 3151011840.0,
+        "native_rss_peak": 3151036416,
+        "native_rss_peak_delta": 24576.0,
+        "system_nonfree_peak": 13531136000,
+        "compressor_peak": 3911532544,
+        "available_min": 6173704192,
+        "swap_used_peak": 510853120,
+        "swap_in_delta": 212992,
+        "swap_out_delta": 0
+      }
+    },
+    {
+      "provider": "mac",
+      "phase": "hit",
+      "id": "us-preservation",
+      "ok": true,
+      "elapsed_ms": 214.85,
+      "cache_hit": true,
+      "credits_reported": 0,
+      "reader": "pdf-text",
+      "chars": 7993,
+      "error": null,
+      "accepted_cer_pct": 14.091,
+      "delivery_penalty_error_pct": 14.091,
+      "anchors_present": 4,
+      "anchors_total": 6,
+      "table_correct": 0,
+      "table_total": 3,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 0,
+      "profile": {
+        "in_call_samples": 1,
+        "uses_bracketing_samples": false,
+        "native_rss_baseline": 3151011840.0,
+        "native_rss_peak": 3151036416,
+        "native_rss_peak_delta": 24576.0,
+        "system_nonfree_peak": 13531136000,
+        "compressor_peak": 3911417856,
+        "available_min": 6173704192,
+        "swap_used_peak": 510853120,
+        "swap_in_delta": 0,
+        "swap_out_delta": 0
+      }
+    },
+    {
+      "provider": "mac",
+      "phase": "off",
+      "id": "thai-gazette",
+      "ok": false,
+      "elapsed_ms": 54999.07,
+      "cache_hit": false,
+      "credits_reported": 0,
+      "reader": "pdf-text",
+      "chars": 0,
+      "error": "Recognition did not explicitly finish normally",
+      "accepted_cer_pct": null,
+      "delivery_penalty_error_pct": 100,
+      "anchors_present": 0,
+      "anchors_total": 6,
+      "table_correct": 0,
+      "table_total": 6,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 0,
+      "profile": {
+        "in_call_samples": 108,
+        "uses_bracketing_samples": false,
+        "native_rss_baseline": 3439525888.0,
+        "native_rss_peak": 3708747776,
+        "native_rss_peak_delta": 269221888.0,
+        "system_nonfree_peak": 17117954048,
+        "compressor_peak": 3734618112,
+        "available_min": 3602137088,
+        "swap_used_peak": 510853120,
+        "swap_in_delta": 750911488,
+        "swap_out_delta": 589824
+      }
+    },
+    {
+      "provider": "mac",
+      "phase": "off",
+      "id": "thai-royal",
+      "ok": false,
+      "elapsed_ms": 46785.87,
+      "cache_hit": false,
+      "credits_reported": 0,
+      "reader": "pdf-text",
+      "chars": 0,
+      "error": "Recognition did not explicitly finish normally",
+      "accepted_cer_pct": null,
+      "delivery_penalty_error_pct": 100,
+      "anchors_present": 0,
+      "anchors_total": 6,
+      "table_correct": 0,
+      "table_total": 0,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 0,
+      "profile": {
+        "in_call_samples": 92,
+        "uses_bracketing_samples": false,
+        "native_rss_baseline": 3045621760,
+        "native_rss_peak": 3340288000,
+        "native_rss_peak_delta": 294666240,
+        "system_nonfree_peak": 16053895168,
+        "compressor_peak": 3509993472,
+        "available_min": 4178903040,
+        "swap_used_peak": 510853120,
+        "swap_in_delta": 19267584,
+        "swap_out_delta": 0
+      }
+    },
+    {
+      "provider": "mac",
+      "phase": "off",
+      "id": "us-census",
+      "ok": true,
+      "elapsed_ms": 1113.05,
+      "cache_hit": false,
+      "credits_reported": 0,
+      "reader": "pdf-text",
+      "chars": 23185,
+      "error": null,
+      "accepted_cer_pct": 0.67,
+      "delivery_penalty_error_pct": 0.67,
+      "anchors_present": 6,
+      "anchors_total": 6,
+      "table_correct": 1,
+      "table_total": 6,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 0,
+      "profile": {
+        "in_call_samples": 2,
+        "uses_bracketing_samples": false,
+        "native_rss_baseline": 3311828992.0,
+        "native_rss_peak": 3311861760,
+        "native_rss_peak_delta": 32768.0,
+        "system_nonfree_peak": 14303641600,
+        "compressor_peak": 3417112576,
+        "available_min": 5988253696,
+        "swap_used_peak": 510853120,
+        "swap_in_delta": 114688,
+        "swap_out_delta": 0
+      }
+    },
+    {
+      "provider": "mac",
+      "phase": "off",
+      "id": "us-preservation",
+      "ok": true,
+      "elapsed_ms": 890.08,
+      "cache_hit": false,
+      "credits_reported": 0,
+      "reader": "pdf-text",
+      "chars": 7993,
+      "error": null,
+      "accepted_cer_pct": 14.091,
+      "delivery_penalty_error_pct": 14.091,
+      "anchors_present": 4,
+      "anchors_total": 6,
+      "table_correct": 0,
+      "table_total": 3,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 0,
+      "profile": {
+        "in_call_samples": 1,
+        "uses_bracketing_samples": false,
+        "native_rss_baseline": 3311853568.0,
+        "native_rss_peak": 3315269632,
+        "native_rss_peak_delta": 3416064.0,
+        "system_nonfree_peak": 14246232064,
+        "compressor_peak": 3416915968,
+        "available_min": 6161743872,
+        "swap_used_peak": 510853120,
+        "swap_in_delta": 0,
+        "swap_out_delta": 0
+      }
+    },
+    {
+      "provider": "mac",
+      "phase": "prime",
+      "id": "thai-gazette",
+      "ok": false,
+      "elapsed_ms": 53560.1,
+      "cache_hit": false,
+      "credits_reported": 0,
+      "reader": "pdf-text",
+      "chars": 0,
+      "error": "Recognition did not explicitly finish normally",
+      "accepted_cer_pct": null,
+      "delivery_penalty_error_pct": 100,
+      "anchors_present": 0,
+      "anchors_total": 6,
+      "table_correct": 0,
+      "table_total": 6,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 0,
+      "profile": {
+        "in_call_samples": 105,
+        "uses_bracketing_samples": false,
+        "native_rss_baseline": 3313541120.0,
+        "native_rss_peak": 3358834688,
+        "native_rss_peak_delta": 45293568.0,
+        "system_nonfree_peak": 17125490688,
+        "compressor_peak": 4172791808,
+        "available_min": 2576760832,
+        "swap_used_peak": 510853120,
+        "swap_in_delta": 439910400,
+        "swap_out_delta": 704512
+      }
+    },
+    {
+      "provider": "mac",
+      "phase": "prime",
+      "id": "thai-royal",
+      "ok": false,
+      "elapsed_ms": 48842.4,
+      "cache_hit": false,
+      "credits_reported": 0,
+      "reader": "pdf-text",
+      "chars": 0,
+      "error": "Recognition did not explicitly finish normally",
+      "accepted_cer_pct": null,
+      "delivery_penalty_error_pct": 100,
+      "anchors_present": 0,
+      "anchors_total": 6,
+      "table_correct": 0,
+      "table_total": 0,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 0,
+      "profile": {
+        "in_call_samples": 96,
+        "uses_bracketing_samples": false,
+        "native_rss_baseline": 2931015680,
+        "native_rss_peak": 3156410368,
+        "native_rss_peak_delta": 225394688,
+        "system_nonfree_peak": 15269462016,
+        "compressor_peak": 4076552192,
+        "available_min": 4419665920,
+        "swap_used_peak": 510853120,
+        "swap_in_delta": 17383424,
+        "swap_out_delta": 0
+      }
+    },
+    {
+      "provider": "mac",
+      "phase": "prime",
+      "id": "us-census",
+      "ok": true,
+      "elapsed_ms": 1419.36,
+      "cache_hit": false,
+      "credits_reported": 0,
+      "reader": "pdf-text",
+      "chars": 23185,
+      "error": null,
+      "accepted_cer_pct": 0.67,
+      "delivery_penalty_error_pct": 0.67,
+      "anchors_present": 6,
+      "anchors_total": 6,
+      "table_correct": 1,
+      "table_total": 6,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 0,
+      "profile": {
+        "in_call_samples": 3,
+        "uses_bracketing_samples": false,
+        "native_rss_baseline": 3141189632.0,
+        "native_rss_peak": 3141255168,
+        "native_rss_peak_delta": 65536.0,
+        "system_nonfree_peak": 13428932608,
+        "compressor_peak": 3941203968,
+        "available_min": 6248595456,
+        "swap_used_peak": 510853120,
+        "swap_in_delta": 32768,
+        "swap_out_delta": 0
+      }
+    },
+    {
+      "provider": "mac",
+      "phase": "prime",
+      "id": "us-preservation",
+      "ok": true,
+      "elapsed_ms": 861.14,
+      "cache_hit": false,
+      "credits_reported": 0,
+      "reader": "pdf-text",
+      "chars": 7993,
+      "error": null,
+      "accepted_cer_pct": 14.091,
+      "delivery_penalty_error_pct": 14.091,
+      "anchors_present": 4,
+      "anchors_total": 6,
+      "table_correct": 0,
+      "table_total": 3,
+      "hash_matches": true,
+      "ocr_page_cache_hits": 0,
+      "profile": {
+        "in_call_samples": 2,
+        "uses_bracketing_samples": false,
+        "native_rss_baseline": 3141246976.0,
+        "native_rss_peak": 3144007680,
+        "native_rss_peak_delta": 2760704.0,
+        "system_nonfree_peak": 13454393344,
+        "compressor_peak": 3939532800,
+        "available_min": 6303809536,
+        "swap_used_peak": 510853120,
+        "swap_in_delta": 65536,
+        "swap_out_delta": 0
+      }
+    }
+  ],
+  "details": [
+    {
+      "file": "firecrawl-hit-thai-gazette.json",
+      "anchors": [
+        {
+          "id": "g1-top",
+          "page": 1,
+          "expected": "ประกาศสงกรานต์ปีจอจัตวาศก",
+          "aligned_prediction": "ประกาศสงกรานต์บีจอจัตวาศก",
+          "accepted_cer_pct": 4.0,
+          "delivery_penalty_error_pct": 4.0,
+          "present": true
+        },
+        {
+          "id": "g1-bottom",
+          "page": 1,
+          "expected": "ประกาศให้ชำระตัวเลขพระคลังสุภรัตซึ่งไปแอบอิงอยู่ในกรมต่างๆส่งให้คลังสุภรัต",
+          "aligned_prediction": "ประกาศให้ชำระตัวเลขพระคลังสุภรัตซึ่งไปแอบอิงอยู่ในกรมต่างๆส่งให้คลังสุภรัต",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "g2-top",
+          "page": 2,
+          "expected": "ประกาศให้คัดเรื่องความที่ราษฎรฟ้องร้องขึ้นทูลเกล้าฯถวาย",
+          "aligned_prediction": "ประกาศให้คัดเรื่องความที่ราษฎรพ้องร้องขึ้นทูลเกล้าฯถวาย",
+          "accepted_cer_pct": 1.818,
+          "delivery_penalty_error_pct": 1.818,
+          "present": true
+        },
+        {
+          "id": "g2-bottom",
+          "page": 2,
+          "expected": "ประกาศเรื่องการนั่งขวาแลกระแสพระราชดำรัสในการที่ทรงแจกพระราชทรัพย์ส่วนพระองค์",
+          "aligned_prediction": "ประกาศเรื่องการนุ่งขาวแลกระแสพระราชดำรัสในการที่ทรงแจกพระราชทรัพย์ส่วนพระองค์",
+          "accepted_cer_pct": 3.896,
+          "delivery_penalty_error_pct": 3.896,
+          "present": true
+        },
+        {
+          "id": "g3-top",
+          "page": 3,
+          "expected": "ประกาศพระราชบัญญัติรับฟ้องความเจ้าแลห้ามเจ้ามิให้ไปไกลพระนคร",
+          "aligned_prediction": "ประกาศพระราชบัญญัติรับพ้องความเจ้าแลห้ามเจ้ามิให้ไปไกลพระนคร",
+          "accepted_cer_pct": 1.667,
+          "delivery_penalty_error_pct": 1.667,
+          "present": true
+        },
+        {
+          "id": "g3-bottom",
+          "page": 3,
+          "expected": "ประกาศพิกัดภาษีเรือตึกแพโรงร้าน",
+          "aligned_prediction": "ประกาศพิกัดภาษีเรือตึกแพโรงร้าน",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        }
+      ],
+      "tables": [
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศสงกรานต์ ปีจอ จัตวาศก",
+          "values": [
+            "๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศวางโทษเรื่องทักอ้วนผอม",
+          "values": [
+            "๒๐"
+          ],
+          "correct": true
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้เก็บภาษีหัวเบี้ยรวมอยู่ในบ่อน",
+          "values": [
+            "๒๘"
+          ],
+          "correct": true
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้ใช้กะแปะอัฐแลโสฬศที่ทำขึ้นใหม่",
+          "values": [
+            "๓๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศมหาสงกรานต์ ปีกุน เบญจศก",
+          "values": [
+            "๙๔"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศพิกัดภาษี เรือ ตึก แพ โรง ร้าน",
+          "values": [
+            "๑๕๙"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    {
+      "file": "firecrawl-hit-thai-royal.json",
+      "anchors": [
+        {
+          "id": "r1-top",
+          "page": 1,
+          "expected": "จดหมายเหตุพระราชกิจรายวันพระราชนิพนธ์ในพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว",
+          "aligned_prediction": "จดหมายเหตุพระราชกิจรายวันพระราชนิพนธ์ในพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "r1-bottom",
+          "page": 1,
+          "expected": "การประชุมที่เบอร์ลินเลิกเมื่อวันที่๑๓ยุไลลอร์ดบิคอนฟิลด์กับลอร์ดเซลลิสบูรีราชทูตอังกฤษได้กลับมากรุงลอนดอนแล้ว",
+          "aligned_prediction": "การประชุมที่เบอร์ลินเลิกเมื่อวันที่๑๓ยุไลลอร์ดบิคอนพีนด์กับลอร์ดเซลลิศบุรีราชทูตอังกฤษได้กลับมากรุงลอนดอนแล้ว",
+          "accepted_cer_pct": 4.587,
+          "delivery_penalty_error_pct": 4.587,
+          "present": true
+        },
+        {
+          "id": "r2-top",
+          "page": 2,
+          "expected": "มิสเตอร์ริดเมืองสิงคโปร์มีจดหมายฉบับหนึ่งว่าได้พบกับแอดเคองของเกาวนาสิงคโปร์แจ้งว่า",
+          "aligned_prediction": "มิสเตอร์ริดเมืองสิงคโปร์มีมาฉบับหนึ่งว่าได้พบกับแอดเดอกงของเกาะนาสิงคโปร์แจ้งว่า",
+          "accepted_cer_pct": 8.434,
+          "delivery_penalty_error_pct": 8.434,
+          "present": true
+        },
+        {
+          "id": "r2-bottom",
+          "page": 2,
+          "expected": "ถ้าจะเกิดเพลิงไหม้บ้านเรือนเรือแพขึ้นแล้วน้ำมันก็จะเป็นเชื้อให้ไหม้มากขึ้นการจะช่วยดับเพลิงได้โดยยาก",
+          "aligned_prediction": "ถ้าจะเกิดเพลิงไหม้บ้านเรือนเรือแพขึ้นแล้วน้ำมันก็จะเป็นเชื้อให้ไหม้มากขึ้นการจะช่วยดับเพลิงได้โดยยาก",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "r3-top",
+          "page": 3,
+          "expected": "รวมประมาณเงิน๑๑๔ชั่งแลค่าใช้สอยสำหรับโรงนั้นการซ่อมแซมคิดเดือนละ๕๐บาท",
+          "aligned_prediction": "รวมประมาณเงิน๑๑๕ชั่วและค่าใช้สอยสำหรับโรงนั้นการซ่อมแซมคิดเดือนละ๕๐บาท",
+          "accepted_cer_pct": 4.348,
+          "delivery_penalty_error_pct": 4.348,
+          "present": true
+        },
+        {
+          "id": "r3-bottom",
+          "page": 3,
+          "expected": "ข้อ๔ว่าห้ามมิให้เรือไฟหรือใบลำหนึ่งลำใดรับบรรทุกน้ำมันลงเรือหรือขนขึ้นในเวลากลางคืน",
+          "aligned_prediction": "ข้อ๔ว่าห้ามมิให้เรือไฟเรือใบลำหนึ่งลำใดรับบรรทุกน้ำมันลงเรือหรือขนขึ้นในเวลากลางคืน",
+          "accepted_cer_pct": 1.205,
+          "delivery_penalty_error_pct": 1.205,
+          "present": true
+        }
+      ],
+      "tables": []
+    },
+    {
+      "file": "firecrawl-hit-us-census.json",
+      "anchors": [
+        {
+          "id": "c1-top",
+          "page": 1,
+          "expected": "Thisbulletin,preparedunderthedirectionofMr.WILLIAMC.HUNT,chiefstatisticianforpopulation,givestheaggregatepopulationofIllinoisbycountiesandminorcivildivisions,accordingtotheofficialcountofthereturnsoftheTwelfthCensus,takenasofJune1,1900.",
+          "aligned_prediction": "Thisbulletin,preparedunderthedirectionofMr.WILLIAMC.HUNT,chiefstatisticianforpopulation,givestheaggregatepopulationofIllinoisbycountiesandminorcivildivisions,accordingtotheofficialcountofthereturnsoftheTwelfthCensus,takenasofJune1,1900.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c1-bottom",
+          "page": 1,
+          "expected": "Thepopulationofthestatein1900is4,821,550ascomparedwithapopulationin1890of3,826,351,showinganincreaseduringthelasttenyearsof995,199,or26percent.",
+          "aligned_prediction": "Thepopulationofthestatein1900is4,821,550ascomparedwithapopulationin1890of3,826,351,showinganincreaseduringthelasttenyearsof995,199,or26percent.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c2-top",
+          "page": 2,
+          "expected": "TABLE2.-POPULATIONOFILLINOISBYCOUNTIES:1810TO1900.",
+          "aligned_prediction": "TABLE2.POPULATIONOFILLINOISBYCOUNTIES:1810TO1900.",
+          "accepted_cer_pct": 2.0,
+          "delivery_penalty_error_pct": 2.0,
+          "present": true
+        },
+        {
+          "id": "c2-body",
+          "page": 2,
+          "expected": "Cook1,838,7351,191,922607,524349,966144,954",
+          "aligned_prediction": "Cook1,833,7851,191,922607,524349,966144,954",
+          "accepted_cer_pct": 4.651,
+          "delivery_penalty_error_pct": 4.651,
+          "present": true
+        },
+        {
+          "id": "c3-top",
+          "page": 3,
+          "expected": "RockIsland55,24941,91738,30229,78321,0056,9372,610",
+          "aligned_prediction": "RockIsland55,24941,91738,30229,78321,0056,9372,610",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c3-bottom",
+          "page": 3,
+          "expected": "The6countiesshowingadecreaseareBrown,Greene,Jersey,JoDaviess,Kendall,andPope.",
+          "aligned_prediction": "The6countiesshowingadecreaseareBrown,Greene,Jersey,JoDaviess,Kendall,andPope.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        }
+      ],
+      "tables": [
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Adams",
+          "values": [
+            "67,058",
+            "61,888",
+            "59,135",
+            "56,362",
+            "41,323"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Alexander",
+          "values": [
+            "19,384",
+            "16,563",
+            "14,808",
+            "10,564",
+            "4,707"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Cook",
+          "values": [
+            "1,838,735",
+            "1,191,922",
+            "607,524",
+            "349,966",
+            "144,954"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Rock Island",
+          "values": [
+            "55,249",
+            "41,917",
+            "38,302",
+            "29,783",
+            "21,005"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Saline",
+          "values": [
+            "21,685",
+            "19,342",
+            "15,940",
+            "12,714",
+            "9,331"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Woodford",
+          "values": [
+            "21,822",
+            "21,429",
+            "21,620",
+            "18,956",
+            "13,282"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "firecrawl-hit-us-preservation.json",
+      "anchors": [
+        {
+          "id": "p1-top",
+          "page": 1,
+          "expected": "AnexaminationofnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900wasmaderelativetothepreservationofthisformofrecord.",
+          "aligned_prediction": "AnexaminationofnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900wasmaderelativetopreservationofthisformofrecord.",
+          "accepted_cer_pct": 2.362,
+          "delivery_penalty_error_pct": 2.362,
+          "present": true
+        },
+        {
+          "id": "p1-bottom",
+          "page": 1,
+          "expected": "Asaresultoftheobserveddeteriorationofnewspapers,theNewYorkTimesinitiatedin1927theissueofapartofitsdailyedition",
+          "aligned_prediction": "Asaresultoftheobserveddeteriorationofnewspapers,theNewYorkTimesinitiatedin1927theissueofapartofitsdailyedition",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p2-top",
+          "page": 2,
+          "expected": "ThroughthecooperationoftheNewYorkPublicLibrary,theLibraryofCongress,theFreeLibraryofOakland,Calif.,andpublishersofPacificcoastpapers,specimensweresecuredfromnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900,withshortintervalsbetweenthepublicationdates.",
+          "aligned_prediction": "ThroughthecooperationoftheNewYorkPublicLibrary,theLibraryofCongress,theFreeLibraryofOakland,Calif.,andpublishersofPacificcoastpapers,specimensweresecuredfromnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900,withshortintervalsbetweenthepublicationdates.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p2-bottom",
+          "page": 2,
+          "expected": "Someofthepapersapparentlycontainedsomeespartofibersbut,astheirdifferentiationfromstrawfiberscouldnotinmostcasesbemadepositively,allsuchfiberswereincludedunderthegeneraldesignationof\"straw.\"",
+          "aligned_prediction": "Someofthepapersapparentlycontainedsomeespartofibersbut,astheirdifferentiationfromstrawfiberscouldnotinmostcasesbemadepositively,allsuchfiberswereincludedunderthegeneraldesignationof\"straw.\"",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p3-top",
+          "page": 3,
+          "expected": "NewYorkJournalofCommerceMay19,18301",
+          "aligned_prediction": "NewYorkJournalofCommerceMay19,18301",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p3-bottom",
+          "page": 3,
+          "expected": "SanDiegoSunOct.31,18721001",
+          "aligned_prediction": "SanDiegoSunJan.-,18",
+          "accepted_cer_pct": 42.308,
+          "delivery_penalty_error_pct": 42.308,
+          "present": false
+        }
+      ],
+      "tables": [
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "New York Journal of Commerce",
+          "values": [
+            "May",
+            "19",
+            "1830",
+            "1"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "Brooklyn Daily Eagle",
+          "values": [
+            "Jan.",
+            "27",
+            "1869",
+            "100",
+            "1"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "San Diego Sun",
+          "values": [
+            "Oct.",
+            "31",
+            "1872",
+            "100",
+            "1"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "firecrawl-off-thai-gazette.json",
+      "anchors": [
+        {
+          "id": "g1-top",
+          "page": 1,
+          "expected": "ประกาศสงกรานต์ปีจอจัตวาศก",
+          "aligned_prediction": "ประกาศสงกรานต์บีจอจัตวาศก",
+          "accepted_cer_pct": 4.0,
+          "delivery_penalty_error_pct": 4.0,
+          "present": true
+        },
+        {
+          "id": "g1-bottom",
+          "page": 1,
+          "expected": "ประกาศให้ชำระตัวเลขพระคลังสุภรัตซึ่งไปแอบอิงอยู่ในกรมต่างๆส่งให้คลังสุภรัต",
+          "aligned_prediction": "ประกาศให้ชำระตัวเลขพระคลังสุภรัตซึ่งไปแอบอิงอยู่ในกรมต่างๆส่งให้คลังสุภรัต",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "g2-top",
+          "page": 2,
+          "expected": "ประกาศให้คัดเรื่องความที่ราษฎรฟ้องร้องขึ้นทูลเกล้าฯถวาย",
+          "aligned_prediction": "ประกาศให้คัดเรื่องความที่ราษฎรพ้องร้องขึ้นทูลเกล้าฯถวาย",
+          "accepted_cer_pct": 1.818,
+          "delivery_penalty_error_pct": 1.818,
+          "present": true
+        },
+        {
+          "id": "g2-bottom",
+          "page": 2,
+          "expected": "ประกาศเรื่องการนั่งขวาแลกระแสพระราชดำรัสในการที่ทรงแจกพระราชทรัพย์ส่วนพระองค์",
+          "aligned_prediction": "ประกาศเรื่องการนุ่งขาวแลกระแสพระราชดำรัสในการที่ทรงแจกพระราชทรัพย์ส่วนพระองค์",
+          "accepted_cer_pct": 3.896,
+          "delivery_penalty_error_pct": 3.896,
+          "present": true
+        },
+        {
+          "id": "g3-top",
+          "page": 3,
+          "expected": "ประกาศพระราชบัญญัติรับฟ้องความเจ้าแลห้ามเจ้ามิให้ไปไกลพระนคร",
+          "aligned_prediction": "ประกาศพระราชบัญญัติรับพ้องความเจ้าแลห้ามเจ้ามิให้ไปไกลพระนคร",
+          "accepted_cer_pct": 1.667,
+          "delivery_penalty_error_pct": 1.667,
+          "present": true
+        },
+        {
+          "id": "g3-bottom",
+          "page": 3,
+          "expected": "ประกาศพิกัดภาษีเรือตึกแพโรงร้าน",
+          "aligned_prediction": "ประกาศพิกัดภาษีเรือตึกแพโรงร้าน",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        }
+      ],
+      "tables": [
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศสงกรานต์ ปีจอ จัตวาศก",
+          "values": [
+            "๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศวางโทษเรื่องทักอ้วนผอม",
+          "values": [
+            "๒๐"
+          ],
+          "correct": true
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้เก็บภาษีหัวเบี้ยรวมอยู่ในบ่อน",
+          "values": [
+            "๒๘"
+          ],
+          "correct": true
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้ใช้กะแปะอัฐแลโสฬศที่ทำขึ้นใหม่",
+          "values": [
+            "๓๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศมหาสงกรานต์ ปีกุน เบญจศก",
+          "values": [
+            "๙๔"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศพิกัดภาษี เรือ ตึก แพ โรง ร้าน",
+          "values": [
+            "๑๕๙"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    {
+      "file": "firecrawl-off-thai-royal.json",
+      "anchors": [
+        {
+          "id": "r1-top",
+          "page": 1,
+          "expected": "จดหมายเหตุพระราชกิจรายวันพระราชนิพนธ์ในพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว",
+          "aligned_prediction": "จดหมายเหตุพระราชกิจรายวันพระราชนิพนธ์ในพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "r1-bottom",
+          "page": 1,
+          "expected": "การประชุมที่เบอร์ลินเลิกเมื่อวันที่๑๓ยุไลลอร์ดบิคอนฟิลด์กับลอร์ดเซลลิสบูรีราชทูตอังกฤษได้กลับมากรุงลอนดอนแล้ว",
+          "aligned_prediction": "การประชุมที่เบอร์ลินเลิกเมื่อวันที่๑๓ยุไลลอร์ดบิคอนพีนด์กับลอร์ดเซลลิศบุรีราชทูตอังกฤษได้กลับมากรุงลอนดอนแล้ว",
+          "accepted_cer_pct": 4.587,
+          "delivery_penalty_error_pct": 4.587,
+          "present": true
+        },
+        {
+          "id": "r2-top",
+          "page": 2,
+          "expected": "มิสเตอร์ริดเมืองสิงคโปร์มีจดหมายฉบับหนึ่งว่าได้พบกับแอดเคองของเกาวนาสิงคโปร์แจ้งว่า",
+          "aligned_prediction": "มิสเตอร์ริดเมืองสิงคโปร์มีมาฉบับหนึ่งว่าได้พบกับแอดเดอกงของเกาะนาสิงคโปร์แจ้งว่า",
+          "accepted_cer_pct": 8.434,
+          "delivery_penalty_error_pct": 8.434,
+          "present": true
+        },
+        {
+          "id": "r2-bottom",
+          "page": 2,
+          "expected": "ถ้าจะเกิดเพลิงไหม้บ้านเรือนเรือแพขึ้นแล้วน้ำมันก็จะเป็นเชื้อให้ไหม้มากขึ้นการจะช่วยดับเพลิงได้โดยยาก",
+          "aligned_prediction": "ถ้าจะเกิดเพลิงไหม้บ้านเรือนเรือแพขึ้นแล้วน้ำมันก็จะเป็นเชื้อให้ไหม้มากขึ้นการจะช่วยดับเพลิงได้โดยยาก",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "r3-top",
+          "page": 3,
+          "expected": "รวมประมาณเงิน๑๑๔ชั่งแลค่าใช้สอยสำหรับโรงนั้นการซ่อมแซมคิดเดือนละ๕๐บาท",
+          "aligned_prediction": "รวมประมาณเงิน๑๑๕ชั่วและค่าใช้สอยสำหรับโรงนั้นการซ่อมแซมคิดเดือนละ๕๐บาท",
+          "accepted_cer_pct": 4.348,
+          "delivery_penalty_error_pct": 4.348,
+          "present": true
+        },
+        {
+          "id": "r3-bottom",
+          "page": 3,
+          "expected": "ข้อ๔ว่าห้ามมิให้เรือไฟหรือใบลำหนึ่งลำใดรับบรรทุกน้ำมันลงเรือหรือขนขึ้นในเวลากลางคืน",
+          "aligned_prediction": "ข้อ๔ว่าห้ามมิให้เรือไฟเรือใบลำหนึ่งลำใดรับบรรทุกน้ำมันลงเรือหรือขนขึ้นในเวลากลางคืน",
+          "accepted_cer_pct": 1.205,
+          "delivery_penalty_error_pct": 1.205,
+          "present": true
+        }
+      ],
+      "tables": []
+    },
+    {
+      "file": "firecrawl-off-us-census.json",
+      "anchors": [
+        {
+          "id": "c1-top",
+          "page": 1,
+          "expected": "Thisbulletin,preparedunderthedirectionofMr.WILLIAMC.HUNT,chiefstatisticianforpopulation,givestheaggregatepopulationofIllinoisbycountiesandminorcivildivisions,accordingtotheofficialcountofthereturnsoftheTwelfthCensus,takenasofJune1,1900.",
+          "aligned_prediction": "Thisbulletin,preparedunderthedirectionofMr.WILLIAMC.HUNT,chiefstatisticianforpopulation,givestheaggregatepopulationofIllinoisbycountiesandminorcivildivisions,accordingtotheofficialcountofthereturnsoftheTwelfthCensus,takenasofJune1,1900.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c1-bottom",
+          "page": 1,
+          "expected": "Thepopulationofthestatein1900is4,821,550ascomparedwithapopulationin1890of3,826,351,showinganincreaseduringthelasttenyearsof995,199,or26percent.",
+          "aligned_prediction": "Thepopulationofthestatein1900is4,821,550ascomparedwithapopulationin1890of3,826,351,showinganincreaseduringthelasttenyearsof995,199,or26percent.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c2-top",
+          "page": 2,
+          "expected": "TABLE2.-POPULATIONOFILLINOISBYCOUNTIES:1810TO1900.",
+          "aligned_prediction": "TABLE2.POPULATIONOFILLINOISBYCOUNTIES:1810TO1900.",
+          "accepted_cer_pct": 2.0,
+          "delivery_penalty_error_pct": 2.0,
+          "present": true
+        },
+        {
+          "id": "c2-body",
+          "page": 2,
+          "expected": "Cook1,838,7351,191,922607,524349,966144,954",
+          "aligned_prediction": "Cook1,833,7851,191,922607,524349,966144,954",
+          "accepted_cer_pct": 4.651,
+          "delivery_penalty_error_pct": 4.651,
+          "present": true
+        },
+        {
+          "id": "c3-top",
+          "page": 3,
+          "expected": "RockIsland55,24941,91738,30229,78321,0056,9372,610",
+          "aligned_prediction": "RockIsland55,24941,91738,30229,78321,0056,9372,610",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c3-bottom",
+          "page": 3,
+          "expected": "The6countiesshowingadecreaseareBrown,Greene,Jersey,JoDaviess,Kendall,andPope.",
+          "aligned_prediction": "The6countiesshowingadecreaseareBrown,Greene,Jersey,JoDaviess,Kendall,andPope.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        }
+      ],
+      "tables": [
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Adams",
+          "values": [
+            "67,058",
+            "61,888",
+            "59,135",
+            "56,362",
+            "41,323"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Alexander",
+          "values": [
+            "19,384",
+            "16,563",
+            "14,808",
+            "10,564",
+            "4,707"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Cook",
+          "values": [
+            "1,838,735",
+            "1,191,922",
+            "607,524",
+            "349,966",
+            "144,954"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Rock Island",
+          "values": [
+            "55,249",
+            "41,917",
+            "38,302",
+            "29,783",
+            "21,005"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Saline",
+          "values": [
+            "21,685",
+            "19,342",
+            "15,940",
+            "12,714",
+            "9,331"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Woodford",
+          "values": [
+            "21,822",
+            "21,429",
+            "21,620",
+            "18,956",
+            "13,282"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "firecrawl-off-us-preservation.json",
+      "anchors": [
+        {
+          "id": "p1-top",
+          "page": 1,
+          "expected": "AnexaminationofnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900wasmaderelativetothepreservationofthisformofrecord.",
+          "aligned_prediction": "AnexaminationofnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900wasmaderelativetopreservationofthisformofrecord.",
+          "accepted_cer_pct": 2.362,
+          "delivery_penalty_error_pct": 2.362,
+          "present": true
+        },
+        {
+          "id": "p1-bottom",
+          "page": 1,
+          "expected": "Asaresultoftheobserveddeteriorationofnewspapers,theNewYorkTimesinitiatedin1927theissueofapartofitsdailyedition",
+          "aligned_prediction": "Asaresultoftheobserveddeteriorationofnewspapers,theNewYorkTimesinitiatedin1927theissueofapartofitsdailyedition",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p2-top",
+          "page": 2,
+          "expected": "ThroughthecooperationoftheNewYorkPublicLibrary,theLibraryofCongress,theFreeLibraryofOakland,Calif.,andpublishersofPacificcoastpapers,specimensweresecuredfromnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900,withshortintervalsbetweenthepublicationdates.",
+          "aligned_prediction": "ThroughthecooperationoftheNewYorkPublicLibrary,theLibraryofCongress,theFreeLibraryofOakland,Calif.,andpublishersofPacificcoastpapers,specimensweresecuredfromnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900,withshortintervalsbetweenthepublicationdates.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p2-bottom",
+          "page": 2,
+          "expected": "Someofthepapersapparentlycontainedsomeespartofibersbut,astheirdifferentiationfromstrawfiberscouldnotinmostcasesbemadepositively,allsuchfiberswereincludedunderthegeneraldesignationof\"straw.\"",
+          "aligned_prediction": "Someofthepapersapparentlycontainedsomeespartofibersbut,astheirdifferentiationfromstrawfiberscouldnotinmostcasesbemadepositively,allsuchfiberswereincludedunderthegeneraldesignationof\"straw.\"",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p3-top",
+          "page": 3,
+          "expected": "NewYorkJournalofCommerceMay19,18301",
+          "aligned_prediction": "NewYorkJournalofCommerceMay19,18301",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p3-bottom",
+          "page": 3,
+          "expected": "SanDiegoSunOct.31,18721001",
+          "aligned_prediction": "SanDiegoSunJan.-,18",
+          "accepted_cer_pct": 42.308,
+          "delivery_penalty_error_pct": 42.308,
+          "present": false
+        }
+      ],
+      "tables": [
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "New York Journal of Commerce",
+          "values": [
+            "May",
+            "19",
+            "1830",
+            "1"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "Brooklyn Daily Eagle",
+          "values": [
+            "Jan.",
+            "27",
+            "1869",
+            "100",
+            "1"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "San Diego Sun",
+          "values": [
+            "Oct.",
+            "31",
+            "1872",
+            "100",
+            "1"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "firecrawl-prime-thai-gazette.json",
+      "anchors": [
+        {
+          "id": "g1-top",
+          "page": 1,
+          "expected": "ประกาศสงกรานต์ปีจอจัตวาศก",
+          "aligned_prediction": "ประกาศสงกรานต์บีจอจัตวาศก",
+          "accepted_cer_pct": 4.0,
+          "delivery_penalty_error_pct": 4.0,
+          "present": true
+        },
+        {
+          "id": "g1-bottom",
+          "page": 1,
+          "expected": "ประกาศให้ชำระตัวเลขพระคลังสุภรัตซึ่งไปแอบอิงอยู่ในกรมต่างๆส่งให้คลังสุภรัต",
+          "aligned_prediction": "ประกาศให้ชำระตัวเลขพระคลังสุภรัตซึ่งไปแอบอิงอยู่ในกรมต่างๆส่งให้คลังสุภรัต",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "g2-top",
+          "page": 2,
+          "expected": "ประกาศให้คัดเรื่องความที่ราษฎรฟ้องร้องขึ้นทูลเกล้าฯถวาย",
+          "aligned_prediction": "ประกาศให้คัดเรื่องความที่ราษฎรพ้องร้องขึ้นทูลเกล้าฯถวาย",
+          "accepted_cer_pct": 1.818,
+          "delivery_penalty_error_pct": 1.818,
+          "present": true
+        },
+        {
+          "id": "g2-bottom",
+          "page": 2,
+          "expected": "ประกาศเรื่องการนั่งขวาแลกระแสพระราชดำรัสในการที่ทรงแจกพระราชทรัพย์ส่วนพระองค์",
+          "aligned_prediction": "ประกาศเรื่องการนุ่งขาวแลกระแสพระราชดำรัสในการที่ทรงแจกพระราชทรัพย์ส่วนพระองค์",
+          "accepted_cer_pct": 3.896,
+          "delivery_penalty_error_pct": 3.896,
+          "present": true
+        },
+        {
+          "id": "g3-top",
+          "page": 3,
+          "expected": "ประกาศพระราชบัญญัติรับฟ้องความเจ้าแลห้ามเจ้ามิให้ไปไกลพระนคร",
+          "aligned_prediction": "ประกาศพระราชบัญญัติรับพ้องความเจ้าแลห้ามเจ้ามิให้ไปไกลพระนคร",
+          "accepted_cer_pct": 1.667,
+          "delivery_penalty_error_pct": 1.667,
+          "present": true
+        },
+        {
+          "id": "g3-bottom",
+          "page": 3,
+          "expected": "ประกาศพิกัดภาษีเรือตึกแพโรงร้าน",
+          "aligned_prediction": "ประกาศพิกัดภาษีเรือตึกแพโรงร้าน",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        }
+      ],
+      "tables": [
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศสงกรานต์ ปีจอ จัตวาศก",
+          "values": [
+            "๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศวางโทษเรื่องทักอ้วนผอม",
+          "values": [
+            "๒๐"
+          ],
+          "correct": true
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้เก็บภาษีหัวเบี้ยรวมอยู่ในบ่อน",
+          "values": [
+            "๒๘"
+          ],
+          "correct": true
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้ใช้กะแปะอัฐแลโสฬศที่ทำขึ้นใหม่",
+          "values": [
+            "๓๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศมหาสงกรานต์ ปีกุน เบญจศก",
+          "values": [
+            "๙๔"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศพิกัดภาษี เรือ ตึก แพ โรง ร้าน",
+          "values": [
+            "๑๕๙"
+          ],
+          "correct": true
+        }
+      ]
+    },
+    {
+      "file": "firecrawl-prime-thai-royal.json",
+      "anchors": [
+        {
+          "id": "r1-top",
+          "page": 1,
+          "expected": "จดหมายเหตุพระราชกิจรายวันพระราชนิพนธ์ในพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว",
+          "aligned_prediction": "จดหมายเหตุพระราชกิจรายวันพระราชนิพนธ์ในพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "r1-bottom",
+          "page": 1,
+          "expected": "การประชุมที่เบอร์ลินเลิกเมื่อวันที่๑๓ยุไลลอร์ดบิคอนฟิลด์กับลอร์ดเซลลิสบูรีราชทูตอังกฤษได้กลับมากรุงลอนดอนแล้ว",
+          "aligned_prediction": "การประชุมที่เบอร์ลินเลิกเมื่อวันที่๑๓ยุไลลอร์ดบิคอนพีนด์กับลอร์ดเซลลิศบุรีราชทูตอังกฤษได้กลับมากรุงลอนดอนแล้ว",
+          "accepted_cer_pct": 4.587,
+          "delivery_penalty_error_pct": 4.587,
+          "present": true
+        },
+        {
+          "id": "r2-top",
+          "page": 2,
+          "expected": "มิสเตอร์ริดเมืองสิงคโปร์มีจดหมายฉบับหนึ่งว่าได้พบกับแอดเคองของเกาวนาสิงคโปร์แจ้งว่า",
+          "aligned_prediction": "มิสเตอร์ริดเมืองสิงคโปร์มีมาฉบับหนึ่งว่าได้พบกับแอดเดอกงของเกาะนาสิงคโปร์แจ้งว่า",
+          "accepted_cer_pct": 8.434,
+          "delivery_penalty_error_pct": 8.434,
+          "present": true
+        },
+        {
+          "id": "r2-bottom",
+          "page": 2,
+          "expected": "ถ้าจะเกิดเพลิงไหม้บ้านเรือนเรือแพขึ้นแล้วน้ำมันก็จะเป็นเชื้อให้ไหม้มากขึ้นการจะช่วยดับเพลิงได้โดยยาก",
+          "aligned_prediction": "ถ้าจะเกิดเพลิงไหม้บ้านเรือนเรือแพขึ้นแล้วน้ำมันก็จะเป็นเชื้อให้ไหม้มากขึ้นการจะช่วยดับเพลิงได้โดยยาก",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "r3-top",
+          "page": 3,
+          "expected": "รวมประมาณเงิน๑๑๔ชั่งแลค่าใช้สอยสำหรับโรงนั้นการซ่อมแซมคิดเดือนละ๕๐บาท",
+          "aligned_prediction": "รวมประมาณเงิน๑๑๕ชั่วและค่าใช้สอยสำหรับโรงนั้นการซ่อมแซมคิดเดือนละ๕๐บาท",
+          "accepted_cer_pct": 4.348,
+          "delivery_penalty_error_pct": 4.348,
+          "present": true
+        },
+        {
+          "id": "r3-bottom",
+          "page": 3,
+          "expected": "ข้อ๔ว่าห้ามมิให้เรือไฟหรือใบลำหนึ่งลำใดรับบรรทุกน้ำมันลงเรือหรือขนขึ้นในเวลากลางคืน",
+          "aligned_prediction": "ข้อ๔ว่าห้ามมิให้เรือไฟเรือใบลำหนึ่งลำใดรับบรรทุกน้ำมันลงเรือหรือขนขึ้นในเวลากลางคืน",
+          "accepted_cer_pct": 1.205,
+          "delivery_penalty_error_pct": 1.205,
+          "present": true
+        }
+      ],
+      "tables": []
+    },
+    {
+      "file": "firecrawl-prime-us-census.json",
+      "anchors": [
+        {
+          "id": "c1-top",
+          "page": 1,
+          "expected": "Thisbulletin,preparedunderthedirectionofMr.WILLIAMC.HUNT,chiefstatisticianforpopulation,givestheaggregatepopulationofIllinoisbycountiesandminorcivildivisions,accordingtotheofficialcountofthereturnsoftheTwelfthCensus,takenasofJune1,1900.",
+          "aligned_prediction": "Thisbulletin,preparedunderthedirectionofMr.WILLIAMC.HUNT,chiefstatisticianforpopulation,givestheaggregatepopulationofIllinoisbycountiesandminorcivildivisions,accordingtotheofficialcountofthereturnsoftheTwelfthCensus,takenasofJune1,1900.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c1-bottom",
+          "page": 1,
+          "expected": "Thepopulationofthestatein1900is4,821,550ascomparedwithapopulationin1890of3,826,351,showinganincreaseduringthelasttenyearsof995,199,or26percent.",
+          "aligned_prediction": "Thepopulationofthestatein1900is4,821,550ascomparedwithapopulationin1890of3,826,351,showinganincreaseduringthelasttenyearsof995,199,or26percent.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c2-top",
+          "page": 2,
+          "expected": "TABLE2.-POPULATIONOFILLINOISBYCOUNTIES:1810TO1900.",
+          "aligned_prediction": "TABLE2.POPULATIONOFILLINOISBYCOUNTIES:1810TO1900.",
+          "accepted_cer_pct": 2.0,
+          "delivery_penalty_error_pct": 2.0,
+          "present": true
+        },
+        {
+          "id": "c2-body",
+          "page": 2,
+          "expected": "Cook1,838,7351,191,922607,524349,966144,954",
+          "aligned_prediction": "Cook1,833,7851,191,922607,524349,966144,954",
+          "accepted_cer_pct": 4.651,
+          "delivery_penalty_error_pct": 4.651,
+          "present": true
+        },
+        {
+          "id": "c3-top",
+          "page": 3,
+          "expected": "RockIsland55,24941,91738,30229,78321,0056,9372,610",
+          "aligned_prediction": "RockIsland55,24941,91738,30229,78321,0056,9372,610",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c3-bottom",
+          "page": 3,
+          "expected": "The6countiesshowingadecreaseareBrown,Greene,Jersey,JoDaviess,Kendall,andPope.",
+          "aligned_prediction": "The6countiesshowingadecreaseareBrown,Greene,Jersey,JoDaviess,Kendall,andPope.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        }
+      ],
+      "tables": [
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Adams",
+          "values": [
+            "67,058",
+            "61,888",
+            "59,135",
+            "56,362",
+            "41,323"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Alexander",
+          "values": [
+            "19,384",
+            "16,563",
+            "14,808",
+            "10,564",
+            "4,707"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Cook",
+          "values": [
+            "1,838,735",
+            "1,191,922",
+            "607,524",
+            "349,966",
+            "144,954"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Rock Island",
+          "values": [
+            "55,249",
+            "41,917",
+            "38,302",
+            "29,783",
+            "21,005"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Saline",
+          "values": [
+            "21,685",
+            "19,342",
+            "15,940",
+            "12,714",
+            "9,331"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Woodford",
+          "values": [
+            "21,822",
+            "21,429",
+            "21,620",
+            "18,956",
+            "13,282"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "firecrawl-prime-us-preservation.json",
+      "anchors": [
+        {
+          "id": "p1-top",
+          "page": 1,
+          "expected": "AnexaminationofnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900wasmaderelativetothepreservationofthisformofrecord.",
+          "aligned_prediction": "AnexaminationofnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900wasmaderelativetopreservationofthisformofrecord.",
+          "accepted_cer_pct": 2.362,
+          "delivery_penalty_error_pct": 2.362,
+          "present": true
+        },
+        {
+          "id": "p1-bottom",
+          "page": 1,
+          "expected": "Asaresultoftheobserveddeteriorationofnewspapers,theNewYorkTimesinitiatedin1927theissueofapartofitsdailyedition",
+          "aligned_prediction": "Asaresultoftheobserveddeteriorationofnewspapers,theNewYorkTimesinitiatedin1927theissueofapartofitsdailyedition",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p2-top",
+          "page": 2,
+          "expected": "ThroughthecooperationoftheNewYorkPublicLibrary,theLibraryofCongress,theFreeLibraryofOakland,Calif.,andpublishersofPacificcoastpapers,specimensweresecuredfromnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900,withshortintervalsbetweenthepublicationdates.",
+          "aligned_prediction": "ThroughthecooperationoftheNewYorkPublicLibrary,theLibraryofCongress,theFreeLibraryofOakland,Calif.,andpublishersofPacificcoastpapers,specimensweresecuredfromnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900,withshortintervalsbetweenthepublicationdates.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p2-bottom",
+          "page": 2,
+          "expected": "Someofthepapersapparentlycontainedsomeespartofibersbut,astheirdifferentiationfromstrawfiberscouldnotinmostcasesbemadepositively,allsuchfiberswereincludedunderthegeneraldesignationof\"straw.\"",
+          "aligned_prediction": "Someofthepapersapparentlycontainedsomeespartofibersbut,astheirdifferentiationfromstrawfiberscouldnotinmostcasesbemadepositively,allsuchfiberswereincludedunderthegeneraldesignationof\"straw.\"",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p3-top",
+          "page": 3,
+          "expected": "NewYorkJournalofCommerceMay19,18301",
+          "aligned_prediction": "NewYorkJournalofCommerceMay19,18301",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p3-bottom",
+          "page": 3,
+          "expected": "SanDiegoSunOct.31,18721001",
+          "aligned_prediction": "SanDiegoSunJan.-,18",
+          "accepted_cer_pct": 42.308,
+          "delivery_penalty_error_pct": 42.308,
+          "present": false
+        }
+      ],
+      "tables": [
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "New York Journal of Commerce",
+          "values": [
+            "May",
+            "19",
+            "1830",
+            "1"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "Brooklyn Daily Eagle",
+          "values": [
+            "Jan.",
+            "27",
+            "1869",
+            "100",
+            "1"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "San Diego Sun",
+          "values": [
+            "Oct.",
+            "31",
+            "1872",
+            "100",
+            "1"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "mac-forced-quality-off-thai-gazette.json",
+      "anchors": [
+        {
+          "id": "g1-top",
+          "page": 1,
+          "expected": "ประกาศสงกรานต์ปีจอจัตวาศก",
+          "aligned_prediction": "ประกาศสงกรานต์ปีจอจัตวาศก",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "g1-bottom",
+          "page": 1,
+          "expected": "ประกาศให้ชำระตัวเลขพระคลังสุภรัตซึ่งไปแอบอิงอยู่ในกรมต่างๆส่งให้คลังสุภรัต",
+          "aligned_prediction": "ประกาศให้ชำระตัวเลขพระกลังสุภรัตซึ่งไปแอบอิงอยูในกรมท่างๆส่งให้กลังสุภรัต",
+          "accepted_cer_pct": 5.405,
+          "delivery_penalty_error_pct": 5.405,
+          "present": true
+        },
+        {
+          "id": "g2-top",
+          "page": 2,
+          "expected": "ประกาศให้คัดเรื่องความที่ราษฎรฟ้องร้องขึ้นทูลเกล้าฯถวาย",
+          "aligned_prediction": "ประกาศให้คัดเรื่องความที่ราบฝรพ์อาร์อังขันทุลเกล้าฯถวาย",
+          "accepted_cer_pct": 18.182,
+          "delivery_penalty_error_pct": 18.182,
+          "present": true
+        },
+        {
+          "id": "g2-bottom",
+          "page": 2,
+          "expected": "ประกาศเรื่องการนั่งขวาแลกระแสพระราชดำรัสในการที่ทรงแจกพระราชทรัพย์ส่วนพระองค์",
+          "aligned_prediction": "ประกาศเรื่องการนุ่มขาวและกระแสพระราชค่ำรัสในการที่ทรงแจกพระราชทรัพย์ส่วนพระองค์",
+          "accepted_cer_pct": 9.091,
+          "delivery_penalty_error_pct": 9.091,
+          "present": true
+        },
+        {
+          "id": "g3-top",
+          "page": 3,
+          "expected": "ประกาศพระราชบัญญัติรับฟ้องความเจ้าแลห้ามเจ้ามิให้ไปไกลพระนคร",
+          "aligned_prediction": "ประกาศพระราชบัญญัติรับฟ้องความเจ้าแลห้ามเจ้ามิให้ไปไกลพระนคร",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "g3-bottom",
+          "page": 3,
+          "expected": "ประกาศพิกัดภาษีเรือตึกแพโรงร้าน",
+          "aligned_prediction": "ประกาศพิกัดรากทา",
+          "accepted_cer_pct": 54.839,
+          "delivery_penalty_error_pct": 54.839,
+          "present": false
+        }
+      ],
+      "tables": [
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศสงกรานต์ ปีจอ จัตวาศก",
+          "values": [
+            "๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศวางโทษเรื่องทักอ้วนผอม",
+          "values": [
+            "๒๐"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้เก็บภาษีหัวเบี้ยรวมอยู่ในบ่อน",
+          "values": [
+            "๒๘"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้ใช้กะแปะอัฐแลโสฬศที่ทำขึ้นใหม่",
+          "values": [
+            "๓๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศมหาสงกรานต์ ปีกุน เบญจศก",
+          "values": [
+            "๙๔"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศพิกัดภาษี เรือ ตึก แพ โรง ร้าน",
+          "values": [
+            "๑๕๙"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "mac-forced-quality-off-thai-royal.json",
+      "anchors": [
+        {
+          "id": "r1-top",
+          "page": 1,
+          "expected": "จดหมายเหตุพระราชกิจรายวันพระราชนิพนธ์ในพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r1-bottom",
+          "page": 1,
+          "expected": "การประชุมที่เบอร์ลินเลิกเมื่อวันที่๑๓ยุไลลอร์ดบิคอนฟิลด์กับลอร์ดเซลลิสบูรีราชทูตอังกฤษได้กลับมากรุงลอนดอนแล้ว",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r2-top",
+          "page": 2,
+          "expected": "มิสเตอร์ริดเมืองสิงคโปร์มีจดหมายฉบับหนึ่งว่าได้พบกับแอดเคองของเกาวนาสิงคโปร์แจ้งว่า",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r2-bottom",
+          "page": 2,
+          "expected": "ถ้าจะเกิดเพลิงไหม้บ้านเรือนเรือแพขึ้นแล้วน้ำมันก็จะเป็นเชื้อให้ไหม้มากขึ้นการจะช่วยดับเพลิงได้โดยยาก",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r3-top",
+          "page": 3,
+          "expected": "รวมประมาณเงิน๑๑๔ชั่งแลค่าใช้สอยสำหรับโรงนั้นการซ่อมแซมคิดเดือนละ๕๐บาท",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r3-bottom",
+          "page": 3,
+          "expected": "ข้อ๔ว่าห้ามมิให้เรือไฟหรือใบลำหนึ่งลำใดรับบรรทุกน้ำมันลงเรือหรือขนขึ้นในเวลากลางคืน",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        }
+      ],
+      "tables": []
+    },
+    {
+      "file": "mac-forced-quality-off-us-census.json",
+      "anchors": [
+        {
+          "id": "c1-top",
+          "page": 1,
+          "expected": "Thisbulletin,preparedunderthedirectionofMr.WILLIAMC.HUNT,chiefstatisticianforpopulation,givestheaggregatepopulationofIllinoisbycountiesandminorcivildivisions,accordingtotheofficialcountofthereturnsoftheTwelfthCensus,takenasofJune1,1900.",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "c1-bottom",
+          "page": 1,
+          "expected": "Thepopulationofthestatein1900is4,821,550ascomparedwithapopulationin1890of3,826,351,showinganincreaseduringthelasttenyearsof995,199,or26percent.",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "c2-top",
+          "page": 2,
+          "expected": "TABLE2.-POPULATIONOFILLINOISBYCOUNTIES:1810TO1900.",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "c2-body",
+          "page": 2,
+          "expected": "Cook1,838,7351,191,922607,524349,966144,954",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "c3-top",
+          "page": 3,
+          "expected": "RockIsland55,24941,91738,30229,78321,0056,9372,610",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "c3-bottom",
+          "page": 3,
+          "expected": "The6countiesshowingadecreaseareBrown,Greene,Jersey,JoDaviess,Kendall,andPope.",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        }
+      ],
+      "tables": [
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Adams",
+          "values": [
+            "67,058",
+            "61,888",
+            "59,135",
+            "56,362",
+            "41,323"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Alexander",
+          "values": [
+            "19,384",
+            "16,563",
+            "14,808",
+            "10,564",
+            "4,707"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Cook",
+          "values": [
+            "1,838,735",
+            "1,191,922",
+            "607,524",
+            "349,966",
+            "144,954"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Rock Island",
+          "values": [
+            "55,249",
+            "41,917",
+            "38,302",
+            "29,783",
+            "21,005"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Saline",
+          "values": [
+            "21,685",
+            "19,342",
+            "15,940",
+            "12,714",
+            "9,331"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Woodford",
+          "values": [
+            "21,822",
+            "21,429",
+            "21,620",
+            "18,956",
+            "13,282"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "mac-forced-quality-off-us-preservation.json",
+      "anchors": [
+        {
+          "id": "p1-top",
+          "page": 1,
+          "expected": "AnexaminationofnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900wasmaderelativetothepreservationofthisformofrecord.",
+          "aligned_prediction": "AnexaminationofnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900wasmaderelativetopreservationofthisformofrecord.",
+          "accepted_cer_pct": 2.362,
+          "delivery_penalty_error_pct": 2.362,
+          "present": true
+        },
+        {
+          "id": "p1-bottom",
+          "page": 1,
+          "expected": "Asaresultoftheobserveddeteriorationofnewspapers,theNewYorkTimesinitiatedin1927theissueofapartofitsdailyedition",
+          "aligned_prediction": "Asaresultoftheobserveddeteriorationofnewspapers,theNewYorkTimesinitiatedin1927theissueofapartofitsdailyedition",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p2-top",
+          "page": 2,
+          "expected": "ThroughthecooperationoftheNewYorkPublicLibrary,theLibraryofCongress,theFreeLibraryofOakland,Calif.,andpublishersofPacificcoastpapers,specimensweresecuredfromnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900,withshortintervalsbetweenthepublicationdates.",
+          "aligned_prediction": "ThroughthecooperationoftheNewYorkPublicLibrary,theLibraryofCongress,theFreeLibraryofOakland,Calif.,andpublishersofPacificcoastpapers,specimensweresecuredfromnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900,withshortintervalsbetweenthepublicationdates.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p2-bottom",
+          "page": 2,
+          "expected": "Someofthepapersapparentlycontainedsomeespartofibersbut,astheirdifferentiationfromstrawfiberscouldnotinmostcasesbemadepositively,allsuchfiberswereincludedunderthegeneraldesignationof\"straw.\"",
+          "aligned_prediction": "Someofthepapersapparentlycontainedsomeespartofibersbut,astheirdifferentiationfromstrawfiberscouldnotinmostcasesbemadepositively,allsuchfiberswereincludedunderthegeneraldesignationof\"straw.\"",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p3-top",
+          "page": 3,
+          "expected": "NewYorkJournalofCommerceMay19,18301",
+          "aligned_prediction": "NewYorkJournalofCommerceMay19,18301",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p3-bottom",
+          "page": 3,
+          "expected": "SanDiegoSunOct.31,18721001",
+          "aligned_prediction": "SanDiegoSunJan.-,18",
+          "accepted_cer_pct": 42.308,
+          "delivery_penalty_error_pct": 42.308,
+          "present": false
+        }
+      ],
+      "tables": [
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "New York Journal of Commerce",
+          "values": [
+            "May",
+            "19",
+            "1830",
+            "1"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "Brooklyn Daily Eagle",
+          "values": [
+            "Jan.",
+            "27",
+            "1869",
+            "100",
+            "1"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "San Diego Sun",
+          "values": [
+            "Oct.",
+            "31",
+            "1872",
+            "100",
+            "1"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "mac-hit-thai-gazette.json",
+      "anchors": [
+        {
+          "id": "g1-top",
+          "page": 1,
+          "expected": "ประกาศสงกรานต์ปีจอจัตวาศก",
+          "aligned_prediction": "ประกาศสงกรานต์ปีจอจัตวาศก",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "g1-bottom",
+          "page": 1,
+          "expected": "ประกาศให้ชำระตัวเลขพระคลังสุภรัตซึ่งไปแอบอิงอยู่ในกรมต่างๆส่งให้คลังสุภรัต",
+          "aligned_prediction": "ประกาศให้ชำระตัวเลขพระกลังสุภรัตซึ่งไปแอบอิงอยูในกรมท่างๆส่งให้กลังสุภรัต",
+          "accepted_cer_pct": 5.405,
+          "delivery_penalty_error_pct": 5.405,
+          "present": true
+        },
+        {
+          "id": "g2-top",
+          "page": 2,
+          "expected": "ประกาศให้คัดเรื่องความที่ราษฎรฟ้องร้องขึ้นทูลเกล้าฯถวาย",
+          "aligned_prediction": "ประกาศให้คัดเรื่องความที่ราบฝรพ์อาร์อังขันทุลเกล้าฯถวาย",
+          "accepted_cer_pct": 18.182,
+          "delivery_penalty_error_pct": 18.182,
+          "present": true
+        },
+        {
+          "id": "g2-bottom",
+          "page": 2,
+          "expected": "ประกาศเรื่องการนั่งขวาแลกระแสพระราชดำรัสในการที่ทรงแจกพระราชทรัพย์ส่วนพระองค์",
+          "aligned_prediction": "ประกาศเรื่องการนุ่มขาวและกระแสพระราชค่ำรัสในการที่ทรงแจกพระราชทรัพย์ส่วนพระองค์",
+          "accepted_cer_pct": 9.091,
+          "delivery_penalty_error_pct": 9.091,
+          "present": true
+        },
+        {
+          "id": "g3-top",
+          "page": 3,
+          "expected": "ประกาศพระราชบัญญัติรับฟ้องความเจ้าแลห้ามเจ้ามิให้ไปไกลพระนคร",
+          "aligned_prediction": "ประกาศพระราชบัญญัติรับฟ้องความเจ้าแล๒๓๑ห้ามเจ้ามิให้ไปไกลพระนคร",
+          "accepted_cer_pct": 5.0,
+          "delivery_penalty_error_pct": 5.0,
+          "present": true
+        },
+        {
+          "id": "g3-bottom",
+          "page": 3,
+          "expected": "ประกาศพิกัดภาษีเรือตึกแพโรงร้าน",
+          "aligned_prediction": "ประกาศพิกัดรากทา",
+          "accepted_cer_pct": 54.839,
+          "delivery_penalty_error_pct": 54.839,
+          "present": false
+        }
+      ],
+      "tables": [
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศสงกรานต์ ปีจอ จัตวาศก",
+          "values": [
+            "๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศวางโทษเรื่องทักอ้วนผอม",
+          "values": [
+            "๒๐"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้เก็บภาษีหัวเบี้ยรวมอยู่ในบ่อน",
+          "values": [
+            "๒๘"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้ใช้กะแปะอัฐแลโสฬศที่ทำขึ้นใหม่",
+          "values": [
+            "๓๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศมหาสงกรานต์ ปีกุน เบญจศก",
+          "values": [
+            "๙๔"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศพิกัดภาษี เรือ ตึก แพ โรง ร้าน",
+          "values": [
+            "๑๕๙"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "mac-hit-thai-royal.json",
+      "anchors": [
+        {
+          "id": "r1-top",
+          "page": 1,
+          "expected": "จดหมายเหตุพระราชกิจรายวันพระราชนิพนธ์ในพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r1-bottom",
+          "page": 1,
+          "expected": "การประชุมที่เบอร์ลินเลิกเมื่อวันที่๑๓ยุไลลอร์ดบิคอนฟิลด์กับลอร์ดเซลลิสบูรีราชทูตอังกฤษได้กลับมากรุงลอนดอนแล้ว",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r2-top",
+          "page": 2,
+          "expected": "มิสเตอร์ริดเมืองสิงคโปร์มีจดหมายฉบับหนึ่งว่าได้พบกับแอดเคองของเกาวนาสิงคโปร์แจ้งว่า",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r2-bottom",
+          "page": 2,
+          "expected": "ถ้าจะเกิดเพลิงไหม้บ้านเรือนเรือแพขึ้นแล้วน้ำมันก็จะเป็นเชื้อให้ไหม้มากขึ้นการจะช่วยดับเพลิงได้โดยยาก",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r3-top",
+          "page": 3,
+          "expected": "รวมประมาณเงิน๑๑๔ชั่งแลค่าใช้สอยสำหรับโรงนั้นการซ่อมแซมคิดเดือนละ๕๐บาท",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r3-bottom",
+          "page": 3,
+          "expected": "ข้อ๔ว่าห้ามมิให้เรือไฟหรือใบลำหนึ่งลำใดรับบรรทุกน้ำมันลงเรือหรือขนขึ้นในเวลากลางคืน",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        }
+      ],
+      "tables": []
+    },
+    {
+      "file": "mac-hit-us-census.json",
+      "anchors": [
+        {
+          "id": "c1-top",
+          "page": 1,
+          "expected": "Thisbulletin,preparedunderthedirectionofMr.WILLIAMC.HUNT,chiefstatisticianforpopulation,givestheaggregatepopulationofIllinoisbycountiesandminorcivildivisions,accordingtotheofficialcountofthereturnsoftheTwelfthCensus,takenasofJune1,1900.",
+          "aligned_prediction": "Thisbulletin:,preparedunclerthedirectionofMr.WILLIAM0.HUNT,chiefstatisticianforpopulation,givestheaggregatepopulationofIllinoisbycountiesandminorcivildivisions,accordingtotheofficialcountofthereturnsoftheTwelfthCensus,takenasofJune1,1900.",
+          "accepted_cer_pct": 1.695,
+          "delivery_penalty_error_pct": 1.695,
+          "present": true
+        },
+        {
+          "id": "c1-bottom",
+          "page": 1,
+          "expected": "Thepopulationofthestatein1900is4,821,550ascomparedwithapopulationin1890of3,826,351,showinganincreaseduringthelasttenyearsof995,199,or26percent.",
+          "aligned_prediction": "Thepopulationofthestatein1900is4,821,550ascomparedwithapopulationin1890of3,826,351,showinganincreaseduringthelasttenyearsof995,199,or26percent.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c2-top",
+          "page": 2,
+          "expected": "TABLE2.-POPULATIONOFILLINOISBYCOUNTIES:1810TO1900.",
+          "aligned_prediction": "TABLE2.-POPULATIONOFILLINOISBYCOUNTIES:1810TO1900.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c2-body",
+          "page": 2,
+          "expected": "Cook1,838,7351,191,922607,524349,966144,954",
+          "aligned_prediction": "Cook1,838,7851,191,922607,524349,966144,954",
+          "accepted_cer_pct": 2.326,
+          "delivery_penalty_error_pct": 2.326,
+          "present": true
+        },
+        {
+          "id": "c3-top",
+          "page": 3,
+          "expected": "RockIsland55,24941,91738,30229,78321,0056,9372,610",
+          "aligned_prediction": "RockIsland55,24941,91738,30229,78321,0056,9372,610",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c3-bottom",
+          "page": 3,
+          "expected": "The6countiesshowingadecreaseareBrown,Greene,Jersey,JoDaviess,Kendall,andPope.",
+          "aligned_prediction": "The6countiesshowingadecreaseareBrown,Greene,Jersey,JoDaviess,Kendall,andPope.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        }
+      ],
+      "tables": [
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Adams",
+          "values": [
+            "67,058",
+            "61,888",
+            "59,135",
+            "56,362",
+            "41,323"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Alexander",
+          "values": [
+            "19,384",
+            "16,563",
+            "14,808",
+            "10,564",
+            "4,707"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Cook",
+          "values": [
+            "1,838,735",
+            "1,191,922",
+            "607,524",
+            "349,966",
+            "144,954"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Rock Island",
+          "values": [
+            "55,249",
+            "41,917",
+            "38,302",
+            "29,783",
+            "21,005"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Saline",
+          "values": [
+            "21,685",
+            "19,342",
+            "15,940",
+            "12,714",
+            "9,331"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Woodford",
+          "values": [
+            "21,822",
+            "21,429",
+            "21,620",
+            "18,956",
+            "13,282"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "mac-hit-us-preservation.json",
+      "anchors": [
+        {
+          "id": "p1-top",
+          "page": 1,
+          "expected": "AnexaminationofnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900wasmaderelativetothepreservationofthisformofrecord.",
+          "aligned_prediction": "AnexaminationofnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900wasmaderelativetopreservationofthisformofrecord.",
+          "accepted_cer_pct": 2.362,
+          "delivery_penalty_error_pct": 2.362,
+          "present": true
+        },
+        {
+          "id": "p1-bottom",
+          "page": 1,
+          "expected": "Asaresultoftheobserveddeteriorationofnewspapers,theNewYorkTimesinitiatedin1927theissueofapartofitsdailyedition",
+          "aligned_prediction": "Asaresultoftheobserveddeteriorationofnewspapers,theNewYorkTimesinitiatedin1927theissueofapartofitsdailyedition",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p2-top",
+          "page": 2,
+          "expected": "ThroughthecooperationoftheNewYorkPublicLibrary,theLibraryofCongress,theFreeLibraryofOakland,Calif.,andpublishersofPacificcoastpapers,specimensweresecuredfromnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900,withshortintervalsbetweenthepublicationdates.",
+          "aligned_prediction": "ThroughthecooperationoftheNewYorkPublicLibrary,theLibraryofCongress,theFreeLibraryofOakland,Calif.,andpub-lishersofPacificcoastpapers,specimensweresecuredfromnews-paperspublishedintheUnitedStatesduringtheperiod1830to1900,withshortintervalsbetweenthepublicationdates.",
+          "accepted_cer_pct": 0.758,
+          "delivery_penalty_error_pct": 0.758,
+          "present": true
+        },
+        {
+          "id": "p2-bottom",
+          "page": 2,
+          "expected": "Someofthepapersapparentlycontainedsomeespartofibersbut,astheirdifferentiationfromstrawfiberscouldnotinmostcasesbemadepositively,allsuchfiberswereincludedunderthegeneraldesignationof\"straw.\"",
+          "aligned_prediction": "Someofthepapersapparentlycontainedsomeespartofibersbut,astheirdifferentiationfromstrawfiberscouldnotinmostcasesbemadepositively,allsuchfiberswereincludedunderthegeneraldesignationof\"straw.\"",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p3-top",
+          "page": 3,
+          "expected": "NewYorkJournalofCommerceMay19,18301",
+          "aligned_prediction": "NewYorkJournalofCommerce",
+          "accepted_cer_pct": 31.429,
+          "delivery_penalty_error_pct": 31.429,
+          "present": false
+        },
+        {
+          "id": "p3-bottom",
+          "page": 3,
+          "expected": "SanDiegoSunOct.31,18721001",
+          "aligned_prediction": "Jan.-1868Oct.31,1872",
+          "accepted_cer_pct": 50.0,
+          "delivery_penalty_error_pct": 50.0,
+          "present": false
+        }
+      ],
+      "tables": [
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "New York Journal of Commerce",
+          "values": [
+            "May",
+            "19",
+            "1830",
+            "1"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "Brooklyn Daily Eagle",
+          "values": [
+            "Jan.",
+            "27",
+            "1869",
+            "100",
+            "1"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "San Diego Sun",
+          "values": [
+            "Oct.",
+            "31",
+            "1872",
+            "100",
+            "1"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "mac-off-thai-gazette.json",
+      "anchors": [
+        {
+          "id": "g1-top",
+          "page": 1,
+          "expected": "ประกาศสงกรานต์ปีจอจัตวาศก",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "g1-bottom",
+          "page": 1,
+          "expected": "ประกาศให้ชำระตัวเลขพระคลังสุภรัตซึ่งไปแอบอิงอยู่ในกรมต่างๆส่งให้คลังสุภรัต",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "g2-top",
+          "page": 2,
+          "expected": "ประกาศให้คัดเรื่องความที่ราษฎรฟ้องร้องขึ้นทูลเกล้าฯถวาย",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "g2-bottom",
+          "page": 2,
+          "expected": "ประกาศเรื่องการนั่งขวาแลกระแสพระราชดำรัสในการที่ทรงแจกพระราชทรัพย์ส่วนพระองค์",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "g3-top",
+          "page": 3,
+          "expected": "ประกาศพระราชบัญญัติรับฟ้องความเจ้าแลห้ามเจ้ามิให้ไปไกลพระนคร",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "g3-bottom",
+          "page": 3,
+          "expected": "ประกาศพิกัดภาษีเรือตึกแพโรงร้าน",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        }
+      ],
+      "tables": [
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศสงกรานต์ ปีจอ จัตวาศก",
+          "values": [
+            "๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศวางโทษเรื่องทักอ้วนผอม",
+          "values": [
+            "๒๐"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้เก็บภาษีหัวเบี้ยรวมอยู่ในบ่อน",
+          "values": [
+            "๒๘"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้ใช้กะแปะอัฐแลโสฬศที่ทำขึ้นใหม่",
+          "values": [
+            "๓๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศมหาสงกรานต์ ปีกุน เบญจศก",
+          "values": [
+            "๙๔"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศพิกัดภาษี เรือ ตึก แพ โรง ร้าน",
+          "values": [
+            "๑๕๙"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "mac-off-thai-royal.json",
+      "anchors": [
+        {
+          "id": "r1-top",
+          "page": 1,
+          "expected": "จดหมายเหตุพระราชกิจรายวันพระราชนิพนธ์ในพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r1-bottom",
+          "page": 1,
+          "expected": "การประชุมที่เบอร์ลินเลิกเมื่อวันที่๑๓ยุไลลอร์ดบิคอนฟิลด์กับลอร์ดเซลลิสบูรีราชทูตอังกฤษได้กลับมากรุงลอนดอนแล้ว",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r2-top",
+          "page": 2,
+          "expected": "มิสเตอร์ริดเมืองสิงคโปร์มีจดหมายฉบับหนึ่งว่าได้พบกับแอดเคองของเกาวนาสิงคโปร์แจ้งว่า",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r2-bottom",
+          "page": 2,
+          "expected": "ถ้าจะเกิดเพลิงไหม้บ้านเรือนเรือแพขึ้นแล้วน้ำมันก็จะเป็นเชื้อให้ไหม้มากขึ้นการจะช่วยดับเพลิงได้โดยยาก",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r3-top",
+          "page": 3,
+          "expected": "รวมประมาณเงิน๑๑๔ชั่งแลค่าใช้สอยสำหรับโรงนั้นการซ่อมแซมคิดเดือนละ๕๐บาท",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r3-bottom",
+          "page": 3,
+          "expected": "ข้อ๔ว่าห้ามมิให้เรือไฟหรือใบลำหนึ่งลำใดรับบรรทุกน้ำมันลงเรือหรือขนขึ้นในเวลากลางคืน",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        }
+      ],
+      "tables": []
+    },
+    {
+      "file": "mac-off-us-census.json",
+      "anchors": [
+        {
+          "id": "c1-top",
+          "page": 1,
+          "expected": "Thisbulletin,preparedunderthedirectionofMr.WILLIAMC.HUNT,chiefstatisticianforpopulation,givestheaggregatepopulationofIllinoisbycountiesandminorcivildivisions,accordingtotheofficialcountofthereturnsoftheTwelfthCensus,takenasofJune1,1900.",
+          "aligned_prediction": "Thisbulletin:,preparedunclerthedirectionofMr.WILLIAM0.HUNT,chiefstatisticianforpopulation,givestheaggregatepopulationofIllinoisbycountiesandminorcivildivisions,accordingtotheofficialcountofthereturnsoftheTwelfthCensus,takenasofJune1,1900.",
+          "accepted_cer_pct": 1.695,
+          "delivery_penalty_error_pct": 1.695,
+          "present": true
+        },
+        {
+          "id": "c1-bottom",
+          "page": 1,
+          "expected": "Thepopulationofthestatein1900is4,821,550ascomparedwithapopulationin1890of3,826,351,showinganincreaseduringthelasttenyearsof995,199,or26percent.",
+          "aligned_prediction": "Thepopulationofthestatein1900is4,821,550ascomparedwithapopulationin1890of3,826,351,showinganincreaseduringthelasttenyearsof995,199,or26percent.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c2-top",
+          "page": 2,
+          "expected": "TABLE2.-POPULATIONOFILLINOISBYCOUNTIES:1810TO1900.",
+          "aligned_prediction": "TABLE2.-POPULATIONOFILLINOISBYCOUNTIES:1810TO1900.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c2-body",
+          "page": 2,
+          "expected": "Cook1,838,7351,191,922607,524349,966144,954",
+          "aligned_prediction": "Cook1,838,7851,191,922607,524349,966144,954",
+          "accepted_cer_pct": 2.326,
+          "delivery_penalty_error_pct": 2.326,
+          "present": true
+        },
+        {
+          "id": "c3-top",
+          "page": 3,
+          "expected": "RockIsland55,24941,91738,30229,78321,0056,9372,610",
+          "aligned_prediction": "RockIsland55,24941,91738,30229,78321,0056,9372,610",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c3-bottom",
+          "page": 3,
+          "expected": "The6countiesshowingadecreaseareBrown,Greene,Jersey,JoDaviess,Kendall,andPope.",
+          "aligned_prediction": "The6countiesshowingadecreaseareBrown,Greene,Jersey,JoDaviess,Kendall,andPope.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        }
+      ],
+      "tables": [
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Adams",
+          "values": [
+            "67,058",
+            "61,888",
+            "59,135",
+            "56,362",
+            "41,323"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Alexander",
+          "values": [
+            "19,384",
+            "16,563",
+            "14,808",
+            "10,564",
+            "4,707"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Cook",
+          "values": [
+            "1,838,735",
+            "1,191,922",
+            "607,524",
+            "349,966",
+            "144,954"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Rock Island",
+          "values": [
+            "55,249",
+            "41,917",
+            "38,302",
+            "29,783",
+            "21,005"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Saline",
+          "values": [
+            "21,685",
+            "19,342",
+            "15,940",
+            "12,714",
+            "9,331"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Woodford",
+          "values": [
+            "21,822",
+            "21,429",
+            "21,620",
+            "18,956",
+            "13,282"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "mac-off-us-preservation.json",
+      "anchors": [
+        {
+          "id": "p1-top",
+          "page": 1,
+          "expected": "AnexaminationofnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900wasmaderelativetothepreservationofthisformofrecord.",
+          "aligned_prediction": "AnexaminationofnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900wasmaderelativetopreservationofthisformofrecord.",
+          "accepted_cer_pct": 2.362,
+          "delivery_penalty_error_pct": 2.362,
+          "present": true
+        },
+        {
+          "id": "p1-bottom",
+          "page": 1,
+          "expected": "Asaresultoftheobserveddeteriorationofnewspapers,theNewYorkTimesinitiatedin1927theissueofapartofitsdailyedition",
+          "aligned_prediction": "Asaresultoftheobserveddeteriorationofnewspapers,theNewYorkTimesinitiatedin1927theissueofapartofitsdailyedition",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p2-top",
+          "page": 2,
+          "expected": "ThroughthecooperationoftheNewYorkPublicLibrary,theLibraryofCongress,theFreeLibraryofOakland,Calif.,andpublishersofPacificcoastpapers,specimensweresecuredfromnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900,withshortintervalsbetweenthepublicationdates.",
+          "aligned_prediction": "ThroughthecooperationoftheNewYorkPublicLibrary,theLibraryofCongress,theFreeLibraryofOakland,Calif.,andpub-lishersofPacificcoastpapers,specimensweresecuredfromnews-paperspublishedintheUnitedStatesduringtheperiod1830to1900,withshortintervalsbetweenthepublicationdates.",
+          "accepted_cer_pct": 0.758,
+          "delivery_penalty_error_pct": 0.758,
+          "present": true
+        },
+        {
+          "id": "p2-bottom",
+          "page": 2,
+          "expected": "Someofthepapersapparentlycontainedsomeespartofibersbut,astheirdifferentiationfromstrawfiberscouldnotinmostcasesbemadepositively,allsuchfiberswereincludedunderthegeneraldesignationof\"straw.\"",
+          "aligned_prediction": "Someofthepapersapparentlycontainedsomeespartofibersbut,astheirdifferentiationfromstrawfiberscouldnotinmostcasesbemadepositively,allsuchfiberswereincludedunderthegeneraldesignationof\"straw.\"",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p3-top",
+          "page": 3,
+          "expected": "NewYorkJournalofCommerceMay19,18301",
+          "aligned_prediction": "NewYorkJournalofCommerce",
+          "accepted_cer_pct": 31.429,
+          "delivery_penalty_error_pct": 31.429,
+          "present": false
+        },
+        {
+          "id": "p3-bottom",
+          "page": 3,
+          "expected": "SanDiegoSunOct.31,18721001",
+          "aligned_prediction": "Jan.-1868Oct.31,1872",
+          "accepted_cer_pct": 50.0,
+          "delivery_penalty_error_pct": 50.0,
+          "present": false
+        }
+      ],
+      "tables": [
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "New York Journal of Commerce",
+          "values": [
+            "May",
+            "19",
+            "1830",
+            "1"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "Brooklyn Daily Eagle",
+          "values": [
+            "Jan.",
+            "27",
+            "1869",
+            "100",
+            "1"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "San Diego Sun",
+          "values": [
+            "Oct.",
+            "31",
+            "1872",
+            "100",
+            "1"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "mac-prime-thai-gazette.json",
+      "anchors": [
+        {
+          "id": "g1-top",
+          "page": 1,
+          "expected": "ประกาศสงกรานต์ปีจอจัตวาศก",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "g1-bottom",
+          "page": 1,
+          "expected": "ประกาศให้ชำระตัวเลขพระคลังสุภรัตซึ่งไปแอบอิงอยู่ในกรมต่างๆส่งให้คลังสุภรัต",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "g2-top",
+          "page": 2,
+          "expected": "ประกาศให้คัดเรื่องความที่ราษฎรฟ้องร้องขึ้นทูลเกล้าฯถวาย",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "g2-bottom",
+          "page": 2,
+          "expected": "ประกาศเรื่องการนั่งขวาแลกระแสพระราชดำรัสในการที่ทรงแจกพระราชทรัพย์ส่วนพระองค์",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "g3-top",
+          "page": 3,
+          "expected": "ประกาศพระราชบัญญัติรับฟ้องความเจ้าแลห้ามเจ้ามิให้ไปไกลพระนคร",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "g3-bottom",
+          "page": 3,
+          "expected": "ประกาศพิกัดภาษีเรือตึกแพโรงร้าน",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        }
+      ],
+      "tables": [
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศสงกรานต์ ปีจอ จัตวาศก",
+          "values": [
+            "๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศวางโทษเรื่องทักอ้วนผอม",
+          "values": [
+            "๒๐"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้เก็บภาษีหัวเบี้ยรวมอยู่ในบ่อน",
+          "values": [
+            "๒๘"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้ใช้กะแปะอัฐแลโสฬศที่ทำขึ้นใหม่",
+          "values": [
+            "๓๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศมหาสงกรานต์ ปีกุน เบญจศก",
+          "values": [
+            "๙๔"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศพิกัดภาษี เรือ ตึก แพ โรง ร้าน",
+          "values": [
+            "๑๕๙"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "mac-prime-thai-royal.json",
+      "anchors": [
+        {
+          "id": "r1-top",
+          "page": 1,
+          "expected": "จดหมายเหตุพระราชกิจรายวันพระราชนิพนธ์ในพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยู่หัว",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r1-bottom",
+          "page": 1,
+          "expected": "การประชุมที่เบอร์ลินเลิกเมื่อวันที่๑๓ยุไลลอร์ดบิคอนฟิลด์กับลอร์ดเซลลิสบูรีราชทูตอังกฤษได้กลับมากรุงลอนดอนแล้ว",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r2-top",
+          "page": 2,
+          "expected": "มิสเตอร์ริดเมืองสิงคโปร์มีจดหมายฉบับหนึ่งว่าได้พบกับแอดเคองของเกาวนาสิงคโปร์แจ้งว่า",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r2-bottom",
+          "page": 2,
+          "expected": "ถ้าจะเกิดเพลิงไหม้บ้านเรือนเรือแพขึ้นแล้วน้ำมันก็จะเป็นเชื้อให้ไหม้มากขึ้นการจะช่วยดับเพลิงได้โดยยาก",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r3-top",
+          "page": 3,
+          "expected": "รวมประมาณเงิน๑๑๔ชั่งแลค่าใช้สอยสำหรับโรงนั้นการซ่อมแซมคิดเดือนละ๕๐บาท",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        },
+        {
+          "id": "r3-bottom",
+          "page": 3,
+          "expected": "ข้อ๔ว่าห้ามมิให้เรือไฟหรือใบลำหนึ่งลำใดรับบรรทุกน้ำมันลงเรือหรือขนขึ้นในเวลากลางคืน",
+          "aligned_prediction": "",
+          "accepted_cer_pct": null,
+          "delivery_penalty_error_pct": 100,
+          "present": false
+        }
+      ],
+      "tables": []
+    },
+    {
+      "file": "mac-prime-us-census.json",
+      "anchors": [
+        {
+          "id": "c1-top",
+          "page": 1,
+          "expected": "Thisbulletin,preparedunderthedirectionofMr.WILLIAMC.HUNT,chiefstatisticianforpopulation,givestheaggregatepopulationofIllinoisbycountiesandminorcivildivisions,accordingtotheofficialcountofthereturnsoftheTwelfthCensus,takenasofJune1,1900.",
+          "aligned_prediction": "Thisbulletin:,preparedunclerthedirectionofMr.WILLIAM0.HUNT,chiefstatisticianforpopulation,givestheaggregatepopulationofIllinoisbycountiesandminorcivildivisions,accordingtotheofficialcountofthereturnsoftheTwelfthCensus,takenasofJune1,1900.",
+          "accepted_cer_pct": 1.695,
+          "delivery_penalty_error_pct": 1.695,
+          "present": true
+        },
+        {
+          "id": "c1-bottom",
+          "page": 1,
+          "expected": "Thepopulationofthestatein1900is4,821,550ascomparedwithapopulationin1890of3,826,351,showinganincreaseduringthelasttenyearsof995,199,or26percent.",
+          "aligned_prediction": "Thepopulationofthestatein1900is4,821,550ascomparedwithapopulationin1890of3,826,351,showinganincreaseduringthelasttenyearsof995,199,or26percent.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c2-top",
+          "page": 2,
+          "expected": "TABLE2.-POPULATIONOFILLINOISBYCOUNTIES:1810TO1900.",
+          "aligned_prediction": "TABLE2.-POPULATIONOFILLINOISBYCOUNTIES:1810TO1900.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c2-body",
+          "page": 2,
+          "expected": "Cook1,838,7351,191,922607,524349,966144,954",
+          "aligned_prediction": "Cook1,838,7851,191,922607,524349,966144,954",
+          "accepted_cer_pct": 2.326,
+          "delivery_penalty_error_pct": 2.326,
+          "present": true
+        },
+        {
+          "id": "c3-top",
+          "page": 3,
+          "expected": "RockIsland55,24941,91738,30229,78321,0056,9372,610",
+          "aligned_prediction": "RockIsland55,24941,91738,30229,78321,0056,9372,610",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "c3-bottom",
+          "page": 3,
+          "expected": "The6countiesshowingadecreaseareBrown,Greene,Jersey,JoDaviess,Kendall,andPope.",
+          "aligned_prediction": "The6countiesshowingadecreaseareBrown,Greene,Jersey,JoDaviess,Kendall,andPope.",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        }
+      ],
+      "tables": [
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Adams",
+          "values": [
+            "67,058",
+            "61,888",
+            "59,135",
+            "56,362",
+            "41,323"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Alexander",
+          "values": [
+            "19,384",
+            "16,563",
+            "14,808",
+            "10,564",
+            "4,707"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Cook",
+          "values": [
+            "1,838,735",
+            "1,191,922",
+            "607,524",
+            "349,966",
+            "144,954"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Rock Island",
+          "values": [
+            "55,249",
+            "41,917",
+            "38,302",
+            "29,783",
+            "21,005"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Saline",
+          "values": [
+            "21,685",
+            "19,342",
+            "15,940",
+            "12,714",
+            "9,331"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Woodford",
+          "values": [
+            "21,822",
+            "21,429",
+            "21,620",
+            "18,956",
+            "13,282"
+          ],
+          "correct": false
+        }
+      ]
+    },
+    {
+      "file": "mac-prime-us-preservation.json",
+      "anchors": [
+        {
+          "id": "p1-top",
+          "page": 1,
+          "expected": "AnexaminationofnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900wasmaderelativetothepreservationofthisformofrecord.",
+          "aligned_prediction": "AnexaminationofnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900wasmaderelativetopreservationofthisformofrecord.",
+          "accepted_cer_pct": 2.362,
+          "delivery_penalty_error_pct": 2.362,
+          "present": true
+        },
+        {
+          "id": "p1-bottom",
+          "page": 1,
+          "expected": "Asaresultoftheobserveddeteriorationofnewspapers,theNewYorkTimesinitiatedin1927theissueofapartofitsdailyedition",
+          "aligned_prediction": "Asaresultoftheobserveddeteriorationofnewspapers,theNewYorkTimesinitiatedin1927theissueofapartofitsdailyedition",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p2-top",
+          "page": 2,
+          "expected": "ThroughthecooperationoftheNewYorkPublicLibrary,theLibraryofCongress,theFreeLibraryofOakland,Calif.,andpublishersofPacificcoastpapers,specimensweresecuredfromnewspaperspublishedintheUnitedStatesduringtheperiod1830to1900,withshortintervalsbetweenthepublicationdates.",
+          "aligned_prediction": "ThroughthecooperationoftheNewYorkPublicLibrary,theLibraryofCongress,theFreeLibraryofOakland,Calif.,andpub-lishersofPacificcoastpapers,specimensweresecuredfromnews-paperspublishedintheUnitedStatesduringtheperiod1830to1900,withshortintervalsbetweenthepublicationdates.",
+          "accepted_cer_pct": 0.758,
+          "delivery_penalty_error_pct": 0.758,
+          "present": true
+        },
+        {
+          "id": "p2-bottom",
+          "page": 2,
+          "expected": "Someofthepapersapparentlycontainedsomeespartofibersbut,astheirdifferentiationfromstrawfiberscouldnotinmostcasesbemadepositively,allsuchfiberswereincludedunderthegeneraldesignationof\"straw.\"",
+          "aligned_prediction": "Someofthepapersapparentlycontainedsomeespartofibersbut,astheirdifferentiationfromstrawfiberscouldnotinmostcasesbemadepositively,allsuchfiberswereincludedunderthegeneraldesignationof\"straw.\"",
+          "accepted_cer_pct": 0.0,
+          "delivery_penalty_error_pct": 0.0,
+          "present": true
+        },
+        {
+          "id": "p3-top",
+          "page": 3,
+          "expected": "NewYorkJournalofCommerceMay19,18301",
+          "aligned_prediction": "NewYorkJournalofCommerce",
+          "accepted_cer_pct": 31.429,
+          "delivery_penalty_error_pct": 31.429,
+          "present": false
+        },
+        {
+          "id": "p3-bottom",
+          "page": 3,
+          "expected": "SanDiegoSunOct.31,18721001",
+          "aligned_prediction": "Jan.-1868Oct.31,1872",
+          "accepted_cer_pct": 50.0,
+          "delivery_penalty_error_pct": 50.0,
+          "present": false
+        }
+      ],
+      "tables": [
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "New York Journal of Commerce",
+          "values": [
+            "May",
+            "19",
+            "1830",
+            "1"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "Brooklyn Daily Eagle",
+          "values": [
+            "Jan.",
+            "27",
+            "1869",
+            "100",
+            "1"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "San Diego Sun",
+          "values": [
+            "Oct.",
+            "31",
+            "1872",
+            "100",
+            "1"
+          ],
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

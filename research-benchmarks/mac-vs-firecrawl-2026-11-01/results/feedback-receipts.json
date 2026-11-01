@@ -1,0 +1,151 @@
+[
+  {
+    "provider": "firecrawl",
+    "phase": "off",
+    "id": "thai-gazette",
+    "creditsRefunded": 1
+  },
+  {
+    "provider": "firecrawl",
+    "phase": "off",
+    "id": "thai-royal",
+    "result": {
+      "success": true,
+      "feedbackId": "01a19735-4106-74bb-83a7-c6e4c9f2da8e",
+      "creditsRefunded": 1,
+      "creditsRefundedToday": 7,
+      "dailyRefundCap": 50,
+      "conversationId": "baea8685-c49c-84f1-bff3-4587dec522eb"
+    }
+  },
+  {
+    "provider": "firecrawl",
+    "phase": "off",
+    "id": "us-census",
+    "result": {
+      "success": true,
+      "feedbackId": "01a19735-655c-7529-a051-45c35ed66821",
+      "creditsRefunded": 1,
+      "creditsRefundedToday": 8,
+      "dailyRefundCap": 50,
+      "conversationId": "baea8685-c49c-84f1-bff3-4587dec522eb"
+    }
+  },
+  {
+    "provider": "firecrawl",
+    "phase": "off",
+    "id": "us-preservation",
+    "result": {
+      "success": true,
+      "feedbackId": "01a19735-8b7d-74b4-bdf3-d0bd5bf7af89",
+      "creditsRefunded": 1,
+      "creditsRefundedToday": 9,
+      "dailyRefundCap": 50,
+      "conversationId": "baea8685-c49c-84f1-bff3-4587dec522eb"
+    }
+  },
+  {
+    "provider": "firecrawl",
+    "phase": "prime",
+    "id": "thai-gazette",
+    "result": {
+      "success": true,
+      "feedbackId": "01a19736-01bb-719c-a57c-6d32f9e01b22",
+      "creditsRefunded": 1,
+      "creditsRefundedToday": 10,
+      "dailyRefundCap": 50,
+      "conversationId": "baea8685-c49c-84f1-bff3-4587dec522eb"
+    }
+  },
+  {
+    "provider": "firecrawl",
+    "phase": "prime",
+    "id": "thai-royal",
+    "result": {
+      "success": true,
+      "feedbackId": "01a19736-2251-700e-8cdf-f0a99293a547",
+      "creditsRefunded": 1,
+      "creditsRefundedToday": 11,
+      "dailyRefundCap": 50,
+      "conversationId": "baea8685-c49c-84f1-bff3-4587dec522eb"
+    }
+  },
+  {
+    "provider": "firecrawl",
+    "phase": "prime",
+    "id": "us-census",
+    "result": {
+      "success": true,
+      "feedbackId": "01a19736-4a96-730f-a423-2e899923d61f",
+      "creditsRefunded": 1,
+      "creditsRefundedToday": 12,
+      "dailyRefundCap": 50,
+      "conversationId": "baea8685-c49c-84f1-bff3-4587dec522eb"
+    }
+  },
+  {
+    "provider": "firecrawl",
+    "phase": "prime",
+    "id": "us-preservation",
+    "result": {
+      "success": true,
+      "feedbackId": "01a19736-7121-75a9-8c81-636f4ceca6c6",
+      "creditsRefunded": 1,
+      "creditsRefundedToday": 13,
+      "dailyRefundCap": 50,
+      "conversationId": "baea8685-c49c-84f1-bff3-4587dec522eb"
+    }
+  },
+  {
+    "provider": "firecrawl",
+    "phase": "hit",
+    "id": "thai-gazette",
+    "result": {
+      "success": true,
+      "feedbackId": "01a19736-cb54-710c-b7cc-13f3d88b3a62",
+      "creditsRefunded": 1,
+      "creditsRefundedToday": 14,
+      "dailyRefundCap": 50,
+      "conversationId": "baea8685-c49c-84f1-bff3-4587dec522eb"
+    }
+  },
+  {
+    "provider": "firecrawl",
+    "phase": "hit",
+    "id": "thai-royal",
+    "result": {
+      "success": true,
+      "feedbackId": "01a19736-ea8e-768a-b251-c5225a81e55b",
+      "creditsRefunded": 1,
+      "creditsRefundedToday": 15,
+      "dailyRefundCap": 50,
+      "conversationId": "baea8685-c49c-84f1-bff3-4587dec522eb"
+    }
+  },
+  {
+    "provider": "firecrawl",
+    "phase": "hit",
+    "id": "us-census",
+    "result": {
+      "success": true,
+      "feedbackId": "01a19737-0dd5-73ac-9112-835a3234afa7",
+      "creditsRefunded": 1,
+      "creditsRefundedToday": 16,
+      "dailyRefundCap": 50,
+      "conversationId": "baea8685-c49c-84f1-bff3-4587dec522eb"
+    }
+  },
+  {
+    "provider": "firecrawl",
+    "phase": "hit",
+    "id": "us-preservation",
+    "result": {
+      "success": true,
+      "feedbackId": "01a19737-2c6b-72ff-b8f5-2a910e4713b6",
+      "creditsRefunded": 1,
+      "creditsRefundedToday": 17,
+      "dailyRefundCap": 50,
+      "conversationId": "baea8685-c49c-84f1-bff3-4587dec522eb"
+    }
+  }
+]

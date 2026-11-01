@@ -1,0 +1,3053 @@
+{
+  "summaries": [
+    {
+      "provider": "local",
+      "phase": "off",
+      "group": "all",
+      "n": 17,
+      "ok": 17,
+      "cache_hits": 0,
+      "mean_cer_pct": 1.3387,
+      "p50_ms": 1442.03,
+      "p95_ms": 4726.06,
+      "serial_total_ms": 34778.66,
+      "credits_used": 0,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "group": "scanned-pdf",
+      "n": 13,
+      "ok": 13,
+      "cache_hits": 0,
+      "mean_cer_pct": 1.7506,
+      "p50_ms": 1569.18,
+      "p95_ms": 4726.06,
+      "serial_total_ms": 32541.52,
+      "credits_used": 0,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "group": "web-and-digital",
+      "n": 4,
+      "ok": 4,
+      "cache_hits": 0,
+      "mean_cer_pct": 0.0,
+      "p50_ms": 271.67,
+      "p95_ms": 1430.31,
+      "serial_total_ms": 2237.14,
+      "credits_used": 0,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "group": "all",
+      "n": 17,
+      "ok": 17,
+      "cache_hits": 0,
+      "mean_cer_pct": 1.3387,
+      "p50_ms": 1478.17,
+      "p95_ms": 4481.76,
+      "serial_total_ms": 30352.31,
+      "credits_used": 0,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "group": "scanned-pdf",
+      "n": 13,
+      "ok": 13,
+      "cache_hits": 0,
+      "mean_cer_pct": 1.7506,
+      "p50_ms": 1512.64,
+      "p95_ms": 4481.76,
+      "serial_total_ms": 28618.0,
+      "credits_used": 0,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "group": "web-and-digital",
+      "n": 4,
+      "ok": 4,
+      "cache_hits": 0,
+      "mean_cer_pct": 0.0,
+      "p50_ms": 277.4,
+      "p95_ms": 923.42,
+      "serial_total_ms": 1734.31,
+      "credits_used": 0,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "group": "all",
+      "n": 17,
+      "ok": 17,
+      "cache_hits": 17,
+      "mean_cer_pct": 1.3387,
+      "p50_ms": 8.96,
+      "p95_ms": 17.82,
+      "serial_total_ms": 158.84,
+      "credits_used": 0,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "group": "scanned-pdf",
+      "n": 13,
+      "ok": 13,
+      "cache_hits": 13,
+      "mean_cer_pct": 1.7506,
+      "p50_ms": 9.08,
+      "p95_ms": 17.82,
+      "serial_total_ms": 124.7,
+      "credits_used": 0,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "group": "web-and-digital",
+      "n": 4,
+      "ok": 4,
+      "cache_hits": 4,
+      "mean_cer_pct": 0.0,
+      "p50_ms": 8.45,
+      "p95_ms": 9.05,
+      "serial_total_ms": 34.14,
+      "credits_used": 0,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "group": "all",
+      "n": 17,
+      "ok": 17,
+      "cache_hits": 0,
+      "mean_cer_pct": 0.4117,
+      "p50_ms": 4355.23,
+      "p95_ms": 11314.99,
+      "serial_total_ms": 70685.23,
+      "credits_used": 0,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "group": "scanned-pdf",
+      "n": 13,
+      "ok": 13,
+      "cache_hits": 0,
+      "mean_cer_pct": 0.5384,
+      "p50_ms": 4711.7,
+      "p95_ms": 11314.99,
+      "serial_total_ms": 68849.71,
+      "credits_used": 0,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "group": "web-and-digital",
+      "n": 4,
+      "ok": 4,
+      "cache_hits": 0,
+      "mean_cer_pct": 0.0,
+      "p50_ms": 290.25,
+      "p95_ms": 995.16,
+      "serial_total_ms": 1835.52,
+      "credits_used": 0,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "group": "all",
+      "n": 17,
+      "ok": 17,
+      "cache_hits": 0,
+      "mean_cer_pct": 4.9095,
+      "p50_ms": 5511,
+      "p95_ms": 7961,
+      "serial_total_ms": 89027,
+      "credits_used": 17,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "group": "scanned-pdf",
+      "n": 13,
+      "ok": 13,
+      "cache_hits": 0,
+      "mean_cer_pct": 6.4201,
+      "p50_ms": 5541,
+      "p95_ms": 7961,
+      "serial_total_ms": 76012,
+      "credits_used": 13,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "group": "web-and-digital",
+      "n": 4,
+      "ok": 4,
+      "cache_hits": 0,
+      "mean_cer_pct": 0.0,
+      "p50_ms": 2951.0,
+      "p95_ms": 4589,
+      "serial_total_ms": 13015,
+      "credits_used": 4,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "group": "all",
+      "n": 17,
+      "ok": 17,
+      "cache_hits": 0,
+      "mean_cer_pct": 4.9095,
+      "p50_ms": 3203,
+      "p95_ms": 8870,
+      "serial_total_ms": 61602,
+      "credits_used": 17,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "group": "scanned-pdf",
+      "n": 13,
+      "ok": 13,
+      "cache_hits": 0,
+      "mean_cer_pct": 6.4201,
+      "p50_ms": 3108,
+      "p95_ms": 8870,
+      "serial_total_ms": 46842,
+      "credits_used": 13,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "group": "web-and-digital",
+      "n": 4,
+      "ok": 4,
+      "cache_hits": 0,
+      "mean_cer_pct": 0.0,
+      "p50_ms": 3287.5,
+      "p95_ms": 5362,
+      "serial_total_ms": 14760,
+      "credits_used": 4,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "group": "all",
+      "n": 17,
+      "ok": 17,
+      "cache_hits": 17,
+      "mean_cer_pct": 4.9095,
+      "p50_ms": 2099,
+      "p95_ms": 2354,
+      "serial_total_ms": 35570,
+      "credits_used": 17,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "group": "scanned-pdf",
+      "n": 13,
+      "ok": 13,
+      "cache_hits": 13,
+      "mean_cer_pct": 6.4201,
+      "p50_ms": 2099,
+      "p95_ms": 2354,
+      "serial_total_ms": 27311,
+      "credits_used": 13,
+      "unknown_credit_records": 0
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "group": "web-and-digital",
+      "n": 4,
+      "ok": 4,
+      "cache_hits": 4,
+      "mean_cer_pct": 0.0,
+      "p50_ms": 2073.5,
+      "p95_ms": 2130,
+      "serial_total_ms": 8259,
+      "credits_used": 4,
+      "unknown_credit_records": 0
+    }
+  ],
+  "rows": [
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "english",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4726.06,
+      "cer_pct": 1.3636,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 3927.09,
+              "quality_pass": true,
+              "mean_confidence": 0.9910594117647058,
+              "min_confidence": 0.92109,
+              "lines": 17
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "en",
+          "elapsed_ms": 3941.68
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nResearch memorandum\nThe council\nmet on 18 April\n1855 to\ndiscuss\ntrade and taxation.\nImport duties were\ncalculated\nIon the market value of goods.\nA successful\nagreement required\ntrust,\nmoney, a\nand clear records.\nInvoice\ne number 1874: total\npayment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "french",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1482.75,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1135.13,
+              "quality_pass": true,
+              "mean_confidence": 0.9937911111111111,
+              "min_confidence": 0.97149,
+              "lines": 9
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "fr",
+          "elapsed_ms": 1146.64
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nNote de recherche\nLe comité étudie les relations entre le commerce et le pouvoir.\nLes archives\ndécrivent une négociation\n difficile et plusieurs intérêts.\nIl faut vérifier les sources avant de tirer une conclusion.\nRéférence\n1875 : coût total 2 345,60\neuros.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "german",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1113.75,
+      "cer_pct": 1.3158,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 752.13,
+              "quality_pass": true,
+              "mean_confidence": 0.9911961538461538,
+              "min_confidence": 0.96114,
+              "lines": 13
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "de",
+          "elapsed_ms": 763.29
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nForschungsbericht\nDie Regierung\ng prüft die Einnahmen und die ö\nöffentlichen Ausgaben.\nEine zuverlässige\nQuelle unterscheidet Tatsachen von\nVermutungen.\nÜbermäßige\nMacht kann neue\npolitische Konflikte verursachen.\nAktenzeichen\nn 1874: Gesamtbetrag\n3.456,70 Euro.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "thai",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1427.54,
+      "cer_pct": 1.0256,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1098.74,
+              "quality_pass": true,
+              "mean_confidence": 0.970326,
+              "min_confidence": 0.95295,
+              "lines": 5
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "th",
+          "elapsed_ms": 1109.88
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nบันทึกการวิจัย\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ\nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม\nควรตรวจสอบหลักฐานก่อนสรุปว่าใครเป็นผู้สังการ\nเลขที่เอกสาร ๒๔๑๗ จำนวนเงิน ๑๒,๔๕0 บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "chinese",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1370.41,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1036.65,
+              "quality_pass": true,
+              "mean_confidence": 0.9995200000000001,
+              "min_confidence": 0.99895,
+              "lines": 5
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "zh",
+          "elapsed_ms": 1048.32
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\n研究记录\n委员会讨论了贸易、税收以及政府的公共支出。\n可靠的历史研究必须区分事实、传闻和个人意见。\n谈判双方都希望保护自己的利益与安全。\n档案编号1874：总金额为12,450元。",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "japanese",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1569.18,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1249.49,
+              "quality_pass": true,
+              "mean_confidence": 0.9964500000000001,
+              "min_confidence": 0.98303,
+              "lines": 5
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "ja",
+          "elapsed_ms": 1260.86
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\n調査報告書\n委員会は貿易と税金について話し合いました。\n歴史を研究するときは、事実と推測を区別する必要があります。\n交渉では、それぞれの立場と利益を理解することが重要です。\n資料番号1874：合計金額は12,450円です。",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "arabic",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1442.03,
+      "cer_pct": 7.3034,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1101.77,
+              "quality_pass": true,
+              "mean_confidence": 0.9506560000000001,
+              "min_confidence": 0.91322,
+              "lines": 5
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "ar",
+          "elapsed_ms": 1112.23
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nتقرير البحث\nناقشت اللجنة التجارة والضرائب والنفقات العامة\nيجب التمييز بين الحقائق والشائعات عند قراءة الوثائق التاريخية\nتحتاج المفاوضات إلى الثقة والسجلات الواضحة\nرقم الوثيقةوالمبلغ الإجمالي",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "hindi",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1370.56,
+      "cer_pct": 3.7838,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1040.71,
+              "quality_pass": true,
+              "mean_confidence": 0.9663311111111111,
+              "min_confidence": 0.88685,
+              "lines": 9
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "hi",
+          "elapsed_ms": 1051.58
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nअनुसंधान रिपोर्ट\nसमिति ने व्यापार\nऔर सार्वजनिक खर्च पर चर्चा की।\nऐतिहासिक दस्तावेज पढ़ते समय तथ्य और अनुमान अलग रखने\nचाहिए।\nसमझौत के लिए विश्षास और स्पए अभिलेख आवश्यक हैं।\nदस्तावेज संख्या 1874\nऔर कुल राशि\n12४५0 रुपये है।",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "mixed-thai-english",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4515.38,
+      "cer_pct": 1.9608,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 4196.18
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "mul",
+          "elapsed_ms": 4207.02
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nTrade and public revenue  \nรายการค้าและรายได้ของรัฐ  \nImport duty: 3 percent of the market value.  \nต้องตรวจสอบบัญชีและหลักฐานการชำระเงิน  \nReference 1874 / จำนวนเงิน 12,450 บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "mixed-latin",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4365.3,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 4034.14
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "mul",
+          "elapsed_ms": 4049.42
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nInternational research notes\n\nVerify the source before making a claim.\n\nVérifiez les sources avant de conclure.\n\nPrüfen Sie die Quelle vor einer Schlussfolgerung.\n\nTotal: 1,234.50 / Référence 1874 / Akte 1875",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "english-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2787.45,
+      "cer_pct": 0.4545,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 2438.99,
+              "quality_pass": true,
+              "mean_confidence": 0.9829720000000002,
+              "min_confidence": 0.93682,
+              "lines": 15
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "en",
+          "elapsed_ms": 2451.99
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nResearch memorandum\nThe council\nI met on 18 April\n1855 to \ndiscuss trade and taxation.\nImport duties were calculated\non the market value of goods.\nA successful\nagreement required\ntrust,\nmoney,\nand\nclear records.\nInvoice number 1874: total\npayment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "thai-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1806.91,
+      "cer_pct": 3.5897,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1435.37,
+              "quality_pass": true,
+              "mean_confidence": 0.9700620000000001,
+              "min_confidence": 0.94675,
+              "lines": 5
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "th",
+          "elapsed_ms": 1446.69
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nบันทึกการวิจัย\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ\nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม\nควรตรวจสอบหลักฐานก่อนสรุปว่าโครเป็นผู้สั้งการ\nเลขที่เอกสาร ๒41๗ จำนวนเงิน 1๒,4๕0 บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "mixed-thai-english-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4564.2,
+      "cer_pct": 1.9608,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 4227.55
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "mul",
+          "elapsed_ms": 4239.79
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nTrade and public revenue  \nรายการค้าและรายได้ของรัฐ  \nImport duty: 3 percent of the market value.  \nต้องตรวจสอบบัญชีและหลักฐานการชำระเงิน  \nReference 1874 / จำนวนเงิน 12,450 บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "static-english",
+      "kind": "html",
+      "ok": true,
+      "elapsed_ms": 274.09,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "http-trafilatura",
+      "ocr_routes": [],
+      "text": "Research memorandum The council met on 18 April 1855 to discuss trade and taxation. Import duties were calculated on the market value of goods. A successful agreement required trust, money, and clear records. Invoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "static-french",
+      "kind": "html",
+      "ok": true,
+      "elapsed_ms": 269.26,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "http-trafilatura",
+      "ocr_routes": [],
+      "text": "Note de recherche Le comité étudie les relations entre le commerce et le pouvoir. Les archives décrivent une négociation difficile et plusieurs intérêts. Il faut vérifier les sources avant de tirer une conclusion. Référence 1875 : coût total 2 345,60 euros.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "dynamic-english",
+      "kind": "javascript",
+      "ok": true,
+      "elapsed_ms": 1430.31,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "crawl4ai",
+      "ocr_routes": [],
+      "text": "Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\n\nImport duties were calculated on the market value of goods.\n\nA successful agreement required trust, money, and clear records.\n\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "off",
+      "id": "digital-english",
+      "kind": "digital-pdf",
+      "ok": true,
+      "elapsed_ms": 263.48,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "pdf-text",
+      "ocr_routes": [],
+      "text": "<!-- page 1 -->\nResearch memorandum\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht.\n",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "english",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1806.46,
+      "cer_pct": 1.3636,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 985.11,
+              "quality_pass": true,
+              "mean_confidence": 0.9910594117647058,
+              "min_confidence": 0.92109,
+              "lines": 17
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "en",
+          "elapsed_ms": 1002.26
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nResearch memorandum\nThe council\nmet on 18 April\n1855 to\ndiscuss\ntrade and taxation.\nImport duties were\ncalculated\nIon the market value of goods.\nA successful\nagreement required\ntrust,\nmoney, a\nand clear records.\nInvoice\ne number 1874: total\npayment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "french",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1500.29,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1152.95,
+              "quality_pass": true,
+              "mean_confidence": 0.9937911111111111,
+              "min_confidence": 0.97149,
+              "lines": 9
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "fr",
+          "elapsed_ms": 1163.37
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nNote de recherche\nLe comité étudie les relations entre le commerce et le pouvoir.\nLes archives\ndécrivent une négociation\n difficile et plusieurs intérêts.\nIl faut vérifier les sources avant de tirer une conclusion.\nRéférence\n1875 : coût total 2 345,60\neuros.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "german",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1512.64,
+      "cer_pct": 1.3158,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1188.0,
+              "quality_pass": true,
+              "mean_confidence": 0.9911961538461538,
+              "min_confidence": 0.96114,
+              "lines": 13
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "de",
+          "elapsed_ms": 1198.54
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nForschungsbericht\nDie Regierung\ng prüft die Einnahmen und die ö\nöffentlichen Ausgaben.\nEine zuverlässige\nQuelle unterscheidet Tatsachen von\nVermutungen.\nÜbermäßige\nMacht kann neue\npolitische Konflikte verursachen.\nAktenzeichen\nn 1874: Gesamtbetrag\n3.456,70 Euro.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "thai",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1221.69,
+      "cer_pct": 1.0256,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 893.99,
+              "quality_pass": true,
+              "mean_confidence": 0.970326,
+              "min_confidence": 0.95295,
+              "lines": 5
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "th",
+          "elapsed_ms": 906.47
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nบันทึกการวิจัย\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ\nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม\nควรตรวจสอบหลักฐานก่อนสรุปว่าใครเป็นผู้สังการ\nเลขที่เอกสาร ๒๔๑๗ จำนวนเงิน ๑๒,๔๕0 บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "chinese",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1344.04,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1020.54,
+              "quality_pass": true,
+              "mean_confidence": 0.9995200000000001,
+              "min_confidence": 0.99895,
+              "lines": 5
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "zh",
+          "elapsed_ms": 1030.8
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\n研究记录\n委员会讨论了贸易、税收以及政府的公共支出。\n可靠的历史研究必须区分事实、传闻和个人意见。\n谈判双方都希望保护自己的利益与安全。\n档案编号1874：总金额为12,450元。",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "japanese",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1743.62,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1326.49,
+              "quality_pass": true,
+              "mean_confidence": 0.9964500000000001,
+              "min_confidence": 0.98303,
+              "lines": 5
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "ja",
+          "elapsed_ms": 1336.62
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\n調査報告書\n委員会は貿易と税金について話し合いました。\n歴史を研究するときは、事実と推測を区別する必要があります。\n交渉では、それぞれの立場と利益を理解することが重要です。\n資料番号1874：合計金額は12,450円です。",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "arabic",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1371.52,
+      "cer_pct": 7.3034,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1047.08,
+              "quality_pass": true,
+              "mean_confidence": 0.9506560000000001,
+              "min_confidence": 0.91322,
+              "lines": 5
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "ar",
+          "elapsed_ms": 1057.31
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nتقرير البحث\nناقشت اللجنة التجارة والضرائب والنفقات العامة\nيجب التمييز بين الحقائق والشائعات عند قراءة الوثائق التاريخية\nتحتاج المفاوضات إلى الثقة والسجلات الواضحة\nرقم الوثيقةوالمبلغ الإجمالي",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "hindi",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1478.17,
+      "cer_pct": 3.7838,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1146.64,
+              "quality_pass": true,
+              "mean_confidence": 0.9663311111111111,
+              "min_confidence": 0.88685,
+              "lines": 9
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "hi",
+          "elapsed_ms": 1158.23
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nअनुसंधान रिपोर्ट\nसमिति ने व्यापार\nऔर सार्वजनिक खर्च पर चर्चा की।\nऐतिहासिक दस्तावेज पढ़ते समय तथ्य और अनुमान अलग रखने\nचाहिए।\nसमझौत के लिए विश्षास और स्पए अभिलेख आवश्यक हैं।\nदस्तावेज संख्या 1874\nऔर कुल राशि\n12४५0 रुपये है।",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "mixed-thai-english",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4363.27,
+      "cer_pct": 1.9608,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 4053.01
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "mul",
+          "elapsed_ms": 4063.32
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nTrade and public revenue  \nรายการค้าและรายได้ของรัฐ  \nImport duty: 3 percent of the market value.  \nต้องตรวจสอบบัญชีและหลักฐานการชำระเงิน  \nReference 1874 / จำนวนเงิน 12,450 บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "mixed-latin",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4481.76,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 4149.93
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "mul",
+          "elapsed_ms": 4160.58
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nInternational research notes\n\nVerify the source before making a claim.\n\nVérifiez les sources avant de conclure.\n\nPrüfen Sie die Quelle vor einer Schlussfolgerung.\n\nTotal: 1,234.50 / Référence 1874 / Akte 1875",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "english-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1884.55,
+      "cer_pct": 0.4545,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1537.75,
+              "quality_pass": true,
+              "mean_confidence": 0.9829720000000002,
+              "min_confidence": 0.93682,
+              "lines": 15
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "en",
+          "elapsed_ms": 1548.82
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nResearch memorandum\nThe council\nI met on 18 April\n1855 to \ndiscuss trade and taxation.\nImport duties were calculated\non the market value of goods.\nA successful\nagreement required\ntrust,\nmoney,\nand\nclear records.\nInvoice number 1874: total\npayment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "thai-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1450.33,
+      "cer_pct": 3.5897,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1102.68,
+              "quality_pass": true,
+              "mean_confidence": 0.9700620000000001,
+              "min_confidence": 0.94675,
+              "lines": 5
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "th",
+          "elapsed_ms": 1114.38
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nบันทึกการวิจัย\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ\nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม\nควรตรวจสอบหลักฐานก่อนสรุปว่าโครเป็นผู้สั้งการ\nเลขที่เอกสาร ๒41๗ จำนวนเงิน 1๒,4๕0 บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "mixed-thai-english-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4459.66,
+      "cer_pct": 1.9608,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 4098.66
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "mul",
+          "elapsed_ms": 4111.88
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nTrade and public revenue  \nรายการค้าและรายได้ของรัฐ  \nImport duty: 3 percent of the market value.  \nต้องตรวจสอบบัญชีและหลักฐานการชำระเงิน  \nReference 1874 / จำนวนเงิน 12,450 บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "static-english",
+      "kind": "html",
+      "ok": true,
+      "elapsed_ms": 276.95,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "http-trafilatura",
+      "ocr_routes": [],
+      "text": "Research memorandum The council met on 18 April 1855 to discuss trade and taxation. Import duties were calculated on the market value of goods. A successful agreement required trust, money, and clear records. Invoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "static-french",
+      "kind": "html",
+      "ok": true,
+      "elapsed_ms": 256.09,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "http-trafilatura",
+      "ocr_routes": [],
+      "text": "Note de recherche Le comité étudie les relations entre le commerce et le pouvoir. Les archives décrivent une négociation difficile et plusieurs intérêts. Il faut vérifier les sources avant de tirer une conclusion. Référence 1875 : coût total 2 345,60 euros.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "dynamic-english",
+      "kind": "javascript",
+      "ok": true,
+      "elapsed_ms": 923.42,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "crawl4ai",
+      "ocr_routes": [],
+      "text": "Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\n\nImport duties were calculated on the market value of goods.\n\nA successful agreement required trust, money, and clear records.\n\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "prime",
+      "id": "digital-english",
+      "kind": "digital-pdf",
+      "ok": true,
+      "elapsed_ms": 277.85,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "pdf-text",
+      "ocr_routes": [],
+      "text": "<!-- page 1 -->\nResearch memorandum\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht.\n",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "english",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 17.82,
+      "cer_pct": 1.3636,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 985.11,
+              "quality_pass": true,
+              "mean_confidence": 0.9910594117647058,
+              "min_confidence": 0.92109,
+              "lines": 17
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "en",
+          "elapsed_ms": 1002.26
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nResearch memorandum\nThe council\nmet on 18 April\n1855 to\ndiscuss\ntrade and taxation.\nImport duties were\ncalculated\nIon the market value of goods.\nA successful\nagreement required\ntrust,\nmoney, a\nand clear records.\nInvoice\ne number 1874: total\npayment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "french",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 9.08,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1152.95,
+              "quality_pass": true,
+              "mean_confidence": 0.9937911111111111,
+              "min_confidence": 0.97149,
+              "lines": 9
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "fr",
+          "elapsed_ms": 1163.37
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nNote de recherche\nLe comité étudie les relations entre le commerce et le pouvoir.\nLes archives\ndécrivent une négociation\n difficile et plusieurs intérêts.\nIl faut vérifier les sources avant de tirer une conclusion.\nRéférence\n1875 : coût total 2 345,60\neuros.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "german",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 8.18,
+      "cer_pct": 1.3158,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1188.0,
+              "quality_pass": true,
+              "mean_confidence": 0.9911961538461538,
+              "min_confidence": 0.96114,
+              "lines": 13
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "de",
+          "elapsed_ms": 1198.54
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nForschungsbericht\nDie Regierung\ng prüft die Einnahmen und die ö\nöffentlichen Ausgaben.\nEine zuverlässige\nQuelle unterscheidet Tatsachen von\nVermutungen.\nÜbermäßige\nMacht kann neue\npolitische Konflikte verursachen.\nAktenzeichen\nn 1874: Gesamtbetrag\n3.456,70 Euro.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "thai",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 10.75,
+      "cer_pct": 1.0256,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 893.99,
+              "quality_pass": true,
+              "mean_confidence": 0.970326,
+              "min_confidence": 0.95295,
+              "lines": 5
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "th",
+          "elapsed_ms": 906.47
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nบันทึกการวิจัย\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ\nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม\nควรตรวจสอบหลักฐานก่อนสรุปว่าใครเป็นผู้สังการ\nเลขที่เอกสาร ๒๔๑๗ จำนวนเงิน ๑๒,๔๕0 บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "chinese",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 7.52,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1020.54,
+              "quality_pass": true,
+              "mean_confidence": 0.9995200000000001,
+              "min_confidence": 0.99895,
+              "lines": 5
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "zh",
+          "elapsed_ms": 1030.8
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\n研究记录\n委员会讨论了贸易、税收以及政府的公共支出。\n可靠的历史研究必须区分事实、传闻和个人意见。\n谈判双方都希望保护自己的利益与安全。\n档案编号1874：总金额为12,450元。",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "japanese",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 9.43,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1326.49,
+              "quality_pass": true,
+              "mean_confidence": 0.9964500000000001,
+              "min_confidence": 0.98303,
+              "lines": 5
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "ja",
+          "elapsed_ms": 1336.62
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\n調査報告書\n委員会は貿易と税金について話し合いました。\n歴史を研究するときは、事実と推測を区別する必要があります。\n交渉では、それぞれの立場と利益を理解することが重要です。\n資料番号1874：合計金額は12,450円です。",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "arabic",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 7.63,
+      "cer_pct": 7.3034,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1047.08,
+              "quality_pass": true,
+              "mean_confidence": 0.9506560000000001,
+              "min_confidence": 0.91322,
+              "lines": 5
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "ar",
+          "elapsed_ms": 1057.31
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nتقرير البحث\nناقشت اللجنة التجارة والضرائب والنفقات العامة\nيجب التمييز بين الحقائق والشائعات عند قراءة الوثائق التاريخية\nتحتاج المفاوضات إلى الثقة والسجلات الواضحة\nرقم الوثيقةوالمبلغ الإجمالي",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "hindi",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 8.67,
+      "cer_pct": 3.7838,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1146.64,
+              "quality_pass": true,
+              "mean_confidence": 0.9663311111111111,
+              "min_confidence": 0.88685,
+              "lines": 9
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "hi",
+          "elapsed_ms": 1158.23
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nअनुसंधान रिपोर्ट\nसमिति ने व्यापार\nऔर सार्वजनिक खर्च पर चर्चा की।\nऐतिहासिक दस्तावेज पढ़ते समय तथ्य और अनुमान अलग रखने\nचाहिए।\nसमझौत के लिए विश्षास और स्पए अभिलेख आवश्यक हैं।\nदस्तावेज संख्या 1874\nऔर कुल राशि\n12४५0 रुपये है।",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "mixed-thai-english",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 9.19,
+      "cer_pct": 1.9608,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 4053.01
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "mul",
+          "elapsed_ms": 4063.32
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nTrade and public revenue  \nรายการค้าและรายได้ของรัฐ  \nImport duty: 3 percent of the market value.  \nต้องตรวจสอบบัญชีและหลักฐานการชำระเงิน  \nReference 1874 / จำนวนเงิน 12,450 บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "mixed-latin",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 9.35,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 4149.93
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "mul",
+          "elapsed_ms": 4160.58
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nInternational research notes\n\nVerify the source before making a claim.\n\nVérifiez les sources avant de conclure.\n\nPrüfen Sie die Quelle vor einer Schlussfolgerung.\n\nTotal: 1,234.50 / Référence 1874 / Akte 1875",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "english-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 8.96,
+      "cer_pct": 0.4545,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1537.75,
+              "quality_pass": true,
+              "mean_confidence": 0.9829720000000002,
+              "min_confidence": 0.93682,
+              "lines": 15
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "en",
+          "elapsed_ms": 1548.82
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nResearch memorandum\nThe council\nI met on 18 April\n1855 to \ndiscuss trade and taxation.\nImport duties were calculated\non the market value of goods.\nA successful\nagreement required\ntrust,\nmoney,\nand\nclear records.\nInvoice number 1874: total\npayment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "thai-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 8.94,
+      "cer_pct": 3.5897,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "router:rapidocr",
+      "ocr_routes": [
+        {
+          "engine": "rapidocr",
+          "route": [
+            {
+              "engine": "rapidocr",
+              "elapsed_ms": 1102.68,
+              "quality_pass": true,
+              "mean_confidence": 0.9700620000000001,
+              "min_confidence": 0.94675,
+              "lines": 5
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "th",
+          "elapsed_ms": 1114.38
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nบันทึกการวิจัย\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ\nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม\nควรตรวจสอบหลักฐานก่อนสรุปว่าโครเป็นผู้สั้งการ\nเลขที่เอกสาร ๒41๗ จำนวนเงิน 1๒,4๕0 บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "mixed-thai-english-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 9.18,
+      "cer_pct": 1.9608,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 4098.66
+            }
+          ],
+          "cache_hit": false,
+          "policy": "balanced",
+          "language_hint": "mul",
+          "elapsed_ms": 4111.88
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nTrade and public revenue  \nรายการค้าและรายได้ของรัฐ  \nImport duty: 3 percent of the market value.  \nต้องตรวจสอบบัญชีและหลักฐานการชำระเงิน  \nReference 1874 / จำนวนเงิน 12,450 บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "static-english",
+      "kind": "html",
+      "ok": true,
+      "elapsed_ms": 8.64,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "http-trafilatura",
+      "ocr_routes": [],
+      "text": "Research memorandum The council met on 18 April 1855 to discuss trade and taxation. Import duties were calculated on the market value of goods. A successful agreement required trust, money, and clear records. Invoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "static-french",
+      "kind": "html",
+      "ok": true,
+      "elapsed_ms": 8.25,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "http-trafilatura",
+      "ocr_routes": [],
+      "text": "Note de recherche Le comité étudie les relations entre le commerce et le pouvoir. Les archives décrivent une négociation difficile et plusieurs intérêts. Il faut vérifier les sources avant de tirer une conclusion. Référence 1875 : coût total 2 345,60 euros.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "dynamic-english",
+      "kind": "javascript",
+      "ok": true,
+      "elapsed_ms": 9.05,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "crawl4ai",
+      "ocr_routes": [],
+      "text": "Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\n\nImport duties were calculated on the market value of goods.\n\nA successful agreement required trust, money, and clear records.\n\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local",
+      "phase": "hit",
+      "id": "digital-english",
+      "kind": "digital-pdf",
+      "ok": true,
+      "elapsed_ms": 8.2,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": true,
+      "cache_state_reported": true,
+      "reader": "pdf-text",
+      "ocr_routes": [],
+      "text": "<!-- page 1 -->\nResearch memorandum\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht.\n",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "english",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 5140.64,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 4324.06
+            }
+          ],
+          "cache_hit": false,
+          "policy": "quality",
+          "language_hint": "en",
+          "elapsed_ms": 4348.46
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nResearch memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.  \nImport duties were calculated on the market value of goods.  \nA successful agreement required trust, money, and clear records.  \nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "french",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4418.97,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 4088.93
+            }
+          ],
+          "cache_hit": false,
+          "policy": "quality",
+          "language_hint": "fr",
+          "elapsed_ms": 4098.71
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nNote de recherche\n\nLe comité étudie les relations entre le commerce et le pouvoir.\n\nLes archives décrivent une négociation difficile et plusieurs intérêts.\n\nIl faut vérifier les sources avant de tirer une conclusion.\n\nRéférence 1875 : coût total 2 345,60 euros.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "german",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 5374.57,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 5033.34
+            }
+          ],
+          "cache_hit": false,
+          "policy": "quality",
+          "language_hint": "de",
+          "elapsed_ms": 5044.8
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nForschungsbericht\n\nDie Regierung prüft die Einnahmen und die öffentlichen Ausgaben.  \nEine zuverlässige Quelle unterscheidet Tatsachen von Vermutungen.  \nÜbermäßige Macht kann neue politische Konflikte verursachen.  \nAktenzeichen 1874: Gesamtbetrag 3.456,70 Euro.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "thai",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 6228.1,
+      "cer_pct": 1.5385,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 5882.69
+            }
+          ],
+          "cache_hit": false,
+          "policy": "quality",
+          "language_hint": "th",
+          "elapsed_ms": 5892.72
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nบันทึกการวิจัย\n\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ\n\nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม\n\nควรตรวจสอบหลักฐานก่อนสรุปว่าใครเป็นผู้สังการ\n\nเลขที่เอกสาร ๒๕๑๗ จำนวนเงิน ๑๒,๕๕๐ บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "chinese",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 3652.83,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 3290.16
+            }
+          ],
+          "cache_hit": false,
+          "policy": "quality",
+          "language_hint": "zh",
+          "elapsed_ms": 3301.29
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\n研究记录\n\n委员会讨论了贸易、税收以及政府的公共支出。\n\n可靠的历史研究必须区分事实、传闻和个人意见。\n\n谈判双方都希望保护自己的利益与安全。\n\n档案编号1874：总金额为12,450元。",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "japanese",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 5125.02,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 4797.79
+            }
+          ],
+          "cache_hit": false,
+          "policy": "quality",
+          "language_hint": "ja",
+          "elapsed_ms": 4810.08
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\n# 調査報告書\n\n委員会は貿易と税金について話し合いました。\n\n歴史を研究するときは、事実と推測を区別する必要があります。\n\n交渉では、それぞれの立場と利益を理解することが重要です。\n\n資料番号1874：合計金額は12,450円です。",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "arabic",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4711.7,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 4378.72
+            }
+          ],
+          "cache_hit": false,
+          "policy": "quality",
+          "language_hint": "ar",
+          "elapsed_ms": 4391.12
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nتقرير البحث\n\nناقشت اللجنة التجارة والضرائب والنفقات العامة.\n\nيجب التمييز بين الحقائق والشائعات عند قراءة الوثائق التاريخية.\n\nتحتاج المفاوضات إلى الثقة والسجلات الواضحة.\n\nرقم الوثيقة 1874 والمبلغ الإجمالي 12450.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "hindi",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 11314.99,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 10989.12
+            }
+          ],
+          "cache_hit": false,
+          "policy": "quality",
+          "language_hint": "hi",
+          "elapsed_ms": 10999.32
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nअनुसंधान रिपोर्ट\n\nसमिति ने व्यापार और सार्वजनिक खर्च पर चर्चा की।\n\nऐतिहासिक दस्तावेज पढ़ते समय तथ्य और अनुमान अलग रखने चाहिए।\n\nसमझौते के लिए विश्वास और स्पष्ट अभिलेख आवश्यक हैं।\n\nदस्तावेज संख्या 1874 और कुल राशि 12450 रुपये है।",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "mixed-thai-english",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4037.74,
+      "cer_pct": 1.9608,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 3695.16
+            }
+          ],
+          "cache_hit": false,
+          "policy": "quality",
+          "language_hint": "mul",
+          "elapsed_ms": 3707.71
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nTrade and public revenue  \nรายการค้าและรายได้ของรัฐ  \nImport duty: 3 percent of the market value.  \nต้องตรวจสอบบัญชีและหลักฐานการชำระเงิน  \nReference 1874 / จำนวนเงิน 12,450 บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "mixed-latin",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4070.64,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 3740.93
+            }
+          ],
+          "cache_hit": false,
+          "policy": "quality",
+          "language_hint": "mul",
+          "elapsed_ms": 3753.08
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nInternational research notes\n\nVerify the source before making a claim.\n\nVérifiez les sources avant de conclure.\n\nPrüfen Sie die Quelle vor einer Schlussfolgerung.\n\nTotal: 1,234.50 / Référence 1874 / Akte 1875",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "english-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4355.23,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 4011.71
+            }
+          ],
+          "cache_hit": false,
+          "policy": "quality",
+          "language_hint": "en",
+          "elapsed_ms": 4022.28
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nResearch memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.  \nImport duties were calculated on the market value of goods.  \nA successful agreement required trust, money, and clear records.  \nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "thai-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 6196.1,
+      "cer_pct": 1.5385,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 5864.66
+            }
+          ],
+          "cache_hit": false,
+          "policy": "quality",
+          "language_hint": "th",
+          "elapsed_ms": 5875.78
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nบันทึกการวิจัย\n\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ  \nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม  \nควรตรวจสอบหลักฐานก่อนสรุปว่าใครเป็นผู้สังการ  \nเลขที่เอกสาร ๒๕๑๗ จำนวนเงิน ๑๒,๕๕๐ บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "mixed-thai-english-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4223.18,
+      "cer_pct": 1.9608,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "router:lighton",
+      "ocr_routes": [
+        {
+          "engine": "lighton",
+          "route": [
+            {
+              "engine": "lighton",
+              "elapsed_ms": 3856.91
+            }
+          ],
+          "cache_hit": false,
+          "policy": "quality",
+          "language_hint": "mul",
+          "elapsed_ms": 3868.74
+        }
+      ],
+      "text": "\n\n<!-- subset page 1 -->\nTrade and public revenue  \nรายการค้าและรายได้ของรัฐ  \nImport duty: 3 percent of the market value.  \nต้องตรวจสอบบัญชีและหลักฐานการชำระเงิน  \nReference 1874 / จำนวนเงิน 12,450 บาท",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "static-english",
+      "kind": "html",
+      "ok": true,
+      "elapsed_ms": 314.84,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "http-trafilatura",
+      "ocr_routes": [],
+      "text": "Research memorandum The council met on 18 April 1855 to discuss trade and taxation. Import duties were calculated on the market value of goods. A successful agreement required trust, money, and clear records. Invoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "static-french",
+      "kind": "html",
+      "ok": true,
+      "elapsed_ms": 265.65,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "http-trafilatura",
+      "ocr_routes": [],
+      "text": "Note de recherche Le comité étudie les relations entre le commerce et le pouvoir. Les archives décrivent une négociation difficile et plusieurs intérêts. Il faut vérifier les sources avant de tirer une conclusion. Référence 1875 : coût total 2 345,60 euros.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "dynamic-english",
+      "kind": "javascript",
+      "ok": true,
+      "elapsed_ms": 995.16,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "crawl4ai",
+      "ocr_routes": [],
+      "text": "Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\n\nImport duties were calculated on the market value of goods.\n\nA successful agreement required trust, money, and clear records.\n\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "local-quality",
+      "phase": "off",
+      "id": "digital-english",
+      "kind": "digital-pdf",
+      "ok": true,
+      "elapsed_ms": 259.87,
+      "cer_pct": 0.0,
+      "credits_used": 0,
+      "cache_hit": false,
+      "cache_state_reported": false,
+      "reader": "pdf-text",
+      "ocr_routes": [],
+      "text": "<!-- page 1 -->\nResearch memorandum\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht.\n",
+      "local_hash_matches": true
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "english",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 6027,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "french",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 5306,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Note de recherche\nLe comité étudie les relations entre le commerce et le pouvoir.\nLes archives décrivent une négociation difficile et plusieurs intérêts.\nIl faut vérifier les sources avant de tirer une conclusion.\nRéférence 1875 : coût total 2 345,60 euros.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "german",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 5541,
+      "cer_pct": 0.4386,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Forschungsbericht\nDie Regierung prüft die Einnahmen und die öffentlichen Ausgaben.\nEine zuverlässige Quelle unterscheidet Tatsachen von Vermutungen.\nÜbermäßeige Macht kann neue politische Konflikte verursachen.\nAktenzeichen 1874: Gesamtbetrag 3.456,70 Euro.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "thai",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 7069,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "## บันทึกการวิจัย\n\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ\nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม\nควรตรวจสอบหลักฐานก่อนสรุปว่าใครเป็นผู้สั่งการ\nเลขที่เอกสาร ๒๔๑๗ จำนวนเงิน ๑๒,๔๕๐ บาท",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "chinese",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4962,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "## 研究记录委员会讨论了贸易、税收以及政府的公共支出。可靠的历史研究必须区分事实、传闻和个人意见。谈判双方都希望保护自己的利益与安全。档案编号1874：总金额为12,450元。",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "japanese",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 5957,
+      "cer_pct": 0.9346,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "## 調査報告書委員会は貿易と税金について話し合いました。歴史を研究するときは、事実と推測を区别する必要があります。交渉では、それぞれの立場と利益を理解することが重要です。資料番号1874：合計金額は12,450円です。",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "arabic",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4390,
+      "cer_pct": 5.618,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "ناقشت اللجنة التجارة والضرائب والنفقات العامة.\n\nيجب التمييز بين الحقائق والشائعات عند قراءة الوثائق التاريخية.\nتحتاج المفاوضات إلى الثقة والسجلات الواضحة.\n\nرقم الوثيقة 1874 والمبلغ الإجمالي 12450.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "hindi",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 7961,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "# अनुसंधान रिपोर्ट\n\nसमिति ने व्यापार और सार्वजनिक खर्च पर चर्चा की।\n\nऐतिहासिक दस्तावेज पढ़ते समय तथ्य और अनुमान अलग रखने चाहिए।\n\nसमझौते के लिए विश्वास और स्पष्ट अभिलेख आवश्यक हैं।\n\nदस्तावेज संख्या 1874 और कुल राशि 12450 रुपये है।",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "mixed-thai-english",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 5545,
+      "cer_pct": 37.9085,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Trade and public revenue\nรายปฏิการคำแสดงรายปฏิการ\nImport duty: 3 percent of the market value.\nตัวอย่างคำสั่งอย่างเช่นและหลักคำสั่งพบการจัดการ\nReference 1874 / สำหรับผู้ 12,450 บาท",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "mixed-latin",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 5536,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "International research notes\n\nVerify the source before making a claim.\n\nVérifiez les sources avant de conclure.\n\nPrüfen Sie die Quelle vor einer Schlussfolgerung.\n\nTotal: 1,234.50 / Référence 1874 / Akte 1875",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "english-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 5511,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "## Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "thai-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 6800,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "## บันทึกการวิจัย\n\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ\nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม\nควรตรวจสอบหลักฐานก่อนสรุปว่าใครเป็นผู้สั่งการ\nเลขที่เอกสาร ๒๔๑๗ จำนวนเงิน ๑๒,๔๕๐ บาท",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "mixed-thai-english-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 5407,
+      "cer_pct": 38.5621,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Trade and public revenue\nรายปากการค้าและรายปัญหาในต้นองทริบิวต์\nImport duty: 3 percent of the market value.\nดังต่อสูงสุดอย่างนี้และพื้นฐานการค้าและรายปัญหาใน\nReference 1874 / ดังนายเฟน 12,450 บาท",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "static-english",
+      "kind": "html",
+      "ok": true,
+      "elapsed_ms": 3036,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\n\nImport duties were calculated on the market value of goods.\n\nA successful agreement required trust, money, and clear records.\n\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "static-french",
+      "kind": "html",
+      "ok": true,
+      "elapsed_ms": 2866,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Note de recherche\n\nLe comité étudie les relations entre le commerce et le pouvoir.\n\nLes archives décrivent une négociation difficile et plusieurs intérêts.\n\nIl faut vérifier les sources avant de tirer une conclusion.\n\nRéférence 1875 : coût total 2 345,60 euros.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "dynamic-english",
+      "kind": "javascript",
+      "ok": true,
+      "elapsed_ms": 4589,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\n\nImport duties were calculated on the market value of goods.\n\nA successful agreement required trust, money, and clear records.\n\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "off",
+      "id": "digital-english",
+      "kind": "digital-pdf",
+      "ok": true,
+      "elapsed_ms": 2524,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": null,
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Research memorandum The council met on 18 April 1855 to discuss trade and taxation. Import duties were calculated on the market value of goods. A successful agreement required trust, money, and clear records. Invoice number 1874: total payment 12,450.75 baht.\n",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "english",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 8870,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "french",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 3103,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Note de recherche\nLe comité étudie les relations entre le commerce et le pouvoir.\nLes archives décrivent une négociation difficile et plusieurs intérêts.\nIl faut vérifier les sources avant de tirer une conclusion.\nRéférence 1875 : coût total 2 345,60 euros.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "german",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2659,
+      "cer_pct": 0.4386,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Forschungsbericht\nDie Regierung prüft die Einnahmen und die öffentlichen Ausgaben.\nEine zuverlässige Quelle unterscheidet Tatsachen von Vermutungen.\nÜbermäßeige Macht kann neue politische Konflikte verursachen.\nAktenzeichen 1874: Gesamtbetrag 3.456,70 Euro.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "thai",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 3356,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "## บันทึกการวิจัย\n\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ\nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม\nควรตรวจสอบหลักฐานก่อนสรุปว่าใครเป็นผู้สั่งการ\nเลขที่เอกสาร ๒๔๑๗ จำนวนเงิน ๑๒,๔๕๐ บาท",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "chinese",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2732,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "## 研究记录委员会讨论了贸易、税收以及政府的公共支出。可靠的历史研究必须区分事实、传闻和个人意见。谈判双方都希望保护自己的利益与安全。档案编号1874：总金额为12,450元。",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "japanese",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 3108,
+      "cer_pct": 0.9346,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "## 調査報告書委員会は貿易と税金について話し合いました。歴史を研究するときは、事実と推測を区别する必要があります。交渉では、それぞれの立場と利益を理解することが重要です。資料番号1874：合計金額は12,450円です。",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "arabic",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 3274,
+      "cer_pct": 5.618,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "ناقشت اللجنة التجارة والضرائب والنفقات العامة.\n\nيجب التمييز بين الحقائق والشائعات عند قراءة الوثائق التاريخية.\nتحتاج المفاوضات إلى الثقة والسجلات الواضحة.\n\nرقم الوثيقة 1874 والمبلغ الإجمالي 12450.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "hindi",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 4148,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "# अनुसंधान रिपोर्ट\n\nसमिति ने व्यापार और सार्वजनिक खर्च पर चर्चा की।\n\nऐतिहासिक दस्तावेज पढ़ते समय तथ्य और अनुमान अलग रखने चाहिए।\n\nसमझौते के लिए विश्वास और स्पष्ट अभिलेख आवश्यक हैं।\n\nदस्तावेज संख्या 1874 और कुल राशि 12450 रुपये है।",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "mixed-thai-english",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 3580,
+      "cer_pct": 37.9085,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Trade and public revenue\nรายปฏิการคำแสดงรายปฏิการ\nImport duty: 3 percent of the market value.\nตัวอย่างคำสั่งอย่างเช่นและหลักคำสั่งพบการจัดการ\nReference 1874 / สำหรับผู้ 12,450 บาท",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "mixed-latin",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2768,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "International research notes\n\nVerify the source before making a claim.\n\nVérifiez les sources avant de conclure.\n\nPrüfen Sie die Quelle vor einer Schlussfolgerung.\n\nTotal: 1,234.50 / Référence 1874 / Akte 1875",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "english-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 3468,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "## Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "thai-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 3014,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "## บันทึกการวิจัย\n\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ\nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม\nควรตรวจสอบหลักฐานก่อนสรุปว่าใครเป็นผู้สั่งการ\nเลขที่เอกสาร ๒๔๑๗ จำนวนเงิน ๑๒,๔๕๐ บาท",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "mixed-thai-english-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2762,
+      "cer_pct": 38.5621,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Trade and public revenue\nรายปากการค้าและรายปัญหาในต้นองทริบิวต์\nImport duty: 3 percent of the market value.\nดังต่อสูงสุดอย่างนี้และพื้นฐานการค้าและรายปัญหาใน\nReference 1874 / ดังนายเฟน 12,450 บาท",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "static-english",
+      "kind": "html",
+      "ok": true,
+      "elapsed_ms": 3203,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\n\nImport duties were calculated on the market value of goods.\n\nA successful agreement required trust, money, and clear records.\n\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "static-french",
+      "kind": "html",
+      "ok": true,
+      "elapsed_ms": 3372,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Note de recherche\n\nLe comité étudie les relations entre le commerce et le pouvoir.\n\nLes archives décrivent une négociation difficile et plusieurs intérêts.\n\nIl faut vérifier les sources avant de tirer une conclusion.\n\nRéférence 1875 : coût total 2 345,60 euros.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "dynamic-english",
+      "kind": "javascript",
+      "ok": true,
+      "elapsed_ms": 5362,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\n\nImport duties were calculated on the market value of goods.\n\nA successful agreement required trust, money, and clear records.\n\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "prime",
+      "id": "digital-english",
+      "kind": "digital-pdf",
+      "ok": true,
+      "elapsed_ms": 2823,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": false,
+      "cache_state_reported": "miss",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Research memorandum The council met on 18 April 1855 to discuss trade and taxation. Import duties were calculated on the market value of goods. A successful agreement required trust, money, and clear records. Invoice number 1874: total payment 12,450.75 baht.\n",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "english",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2099,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "french",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2324,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Note de recherche\nLe comité étudie les relations entre le commerce et le pouvoir.\nLes archives décrivent une négociation difficile et plusieurs intérêts.\nIl faut vérifier les sources avant de tirer une conclusion.\nRéférence 1875 : coût total 2 345,60 euros.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "german",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2085,
+      "cer_pct": 0.4386,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Forschungsbericht\nDie Regierung prüft die Einnahmen und die öffentlichen Ausgaben.\nEine zuverlässige Quelle unterscheidet Tatsachen von Vermutungen.\nÜbermäßeige Macht kann neue politische Konflikte verursachen.\nAktenzeichen 1874: Gesamtbetrag 3.456,70 Euro.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "thai",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2024,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "## บันทึกการวิจัย\n\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ\nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม\nควรตรวจสอบหลักฐานก่อนสรุปว่าใครเป็นผู้สั่งการ\nเลขที่เอกสาร ๒๔๑๗ จำนวนเงิน ๑๒,๔๕๐ บาท",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "chinese",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2330,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "## 研究记录委员会讨论了贸易、税收以及政府的公共支出。可靠的历史研究必须区分事实、传闻和个人意见。谈判双方都希望保护自己的利益与安全。档案编号1874：总金额为12,450元。",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "japanese",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2164,
+      "cer_pct": 0.9346,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "## 調査報告書委員会は貿易と税金について話し合いました。歴史を研究するときは、事実と推測を区别する必要があります。交渉では、それぞれの立場と利益を理解することが重要です。資料番号1874：合計金額は12,450円です。",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "arabic",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1565,
+      "cer_pct": 5.618,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "ناقشت اللجنة التجارة والضرائب والنفقات العامة.\n\nيجب التمييز بين الحقائق والشائعات عند قراءة الوثائق التاريخية.\nتحتاج المفاوضات إلى الثقة والسجلات الواضحة.\n\nرقم الوثيقة 1874 والمبلغ الإجمالي 12450.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "hindi",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2112,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "# अनुसंधान रिपोर्ट\n\nसमिति ने व्यापार और सार्वजनिक खर्च पर चर्चा की।\n\nऐतिहासिक दस्तावेज पढ़ते समय तथ्य और अनुमान अलग रखने चाहिए।\n\nसमझौते के लिए विश्वास और स्पष्ट अभिलेख आवश्यक हैं।\n\nदस्तावेज संख्या 1874 और कुल राशि 12450 रुपये है।",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "mixed-thai-english",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2354,
+      "cer_pct": 37.9085,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Trade and public revenue\nรายปฏิการคำแสดงรายปฏิการ\nImport duty: 3 percent of the market value.\nตัวอย่างคำสั่งอย่างเช่นและหลักคำสั่งพบการจัดการ\nReference 1874 / สำหรับผู้ 12,450 บาท",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "mixed-latin",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 1944,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "International research notes\n\nVerify the source before making a claim.\n\nVérifiez les sources avant de conclure.\n\nPrüfen Sie die Quelle vor einer Schlussfolgerung.\n\nTotal: 1,234.50 / Référence 1874 / Akte 1875",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "english-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2006,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "## Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "thai-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2234,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "## บันทึกการวิจัย\n\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ\nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม\nควรตรวจสอบหลักฐานก่อนสรุปว่าใครเป็นผู้สั่งการ\nเลขที่เอกสาร ๒๔๑๗ จำนวนเงิน ๑๒,๔๕๐ บาท",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "mixed-thai-english-degraded",
+      "kind": "scanned-pdf",
+      "ok": true,
+      "elapsed_ms": 2070,
+      "cer_pct": 38.5621,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Trade and public revenue\nรายปากการค้าและรายปัญหาในต้นองทริบิวต์\nImport duty: 3 percent of the market value.\nดังต่อสูงสุดอย่างนี้และพื้นฐานการค้าและรายปัญหาใน\nReference 1874 / ดังนายเฟน 12,450 บาท",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "static-english",
+      "kind": "html",
+      "ok": true,
+      "elapsed_ms": 2130,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\n\nImport duties were calculated on the market value of goods.\n\nA successful agreement required trust, money, and clear records.\n\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "static-french",
+      "kind": "html",
+      "ok": true,
+      "elapsed_ms": 2030,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Note de recherche\n\nLe comité étudie les relations entre le commerce et le pouvoir.\n\nLes archives décrivent une négociation difficile et plusieurs intérêts.\n\nIl faut vérifier les sources avant de tirer une conclusion.\n\nRéférence 1875 : coût total 2 345,60 euros.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "dynamic-english",
+      "kind": "javascript",
+      "ok": true,
+      "elapsed_ms": 2117,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation.\n\nImport duties were calculated on the market value of goods.\n\nA successful agreement required trust, money, and clear records.\n\nInvoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": null
+    },
+    {
+      "provider": "firecrawl",
+      "phase": "hit",
+      "id": "digital-english",
+      "kind": "digital-pdf",
+      "ok": true,
+      "elapsed_ms": 1982,
+      "cer_pct": 0.0,
+      "credits_used": 1,
+      "cache_hit": true,
+      "cache_state_reported": "hit",
+      "reader": null,
+      "ocr_routes": [],
+      "text": "Research memorandum The council met on 18 April 1855 to discuss trade and taxation. Import duties were calculated on the market value of goods. A successful agreement required trust, money, and clear records. Invoice number 1874: total payment 12,450.75 baht.",
+      "local_hash_matches": null
+    }
+  ],
+  "cases": 17
+}

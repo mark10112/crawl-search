@@ -1,0 +1,11 @@
+{
+  "configured_proxy_maximum_tokens": 8192,
+  "observed_length_stop_tokens": [
+    4096
+  ],
+  "length_stops": 7,
+  "rejected_mac_jobs": 7,
+  "warm_native_rss_baseline_median_bytes": 3439525888,
+  "memory_samples": 1783,
+  "maximum_sample_interval_seconds": 0.5102636814117432
+}
