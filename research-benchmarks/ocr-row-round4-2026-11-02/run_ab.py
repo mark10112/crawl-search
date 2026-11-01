@@ -100,7 +100,7 @@ try:
                         'reader_sha':BEFORE_SHA if variant=='before' else candidate,'started_at':start,'ended_at':time.time(),'elapsed_ms':round((time.perf_counter()-clock)*1000,2),'request':request,'raw':result}
                     out=WORK/'results';out.mkdir(exist_ok=True);write(out/f'{variant}-{mode}-{case["id"]}.json',row)
                     print(json.dumps({k:row[k] for k in ['variant','mode','id','elapsed_ms']}|{'ok':result.get('ok'),'error':result.get('error')},ensure_ascii=False),flush=True)
-            if os.environ.get('OCR_ROW_SKIP_STUDY')!='1':run([OCR,HERE/'crop_study.py',ROOT,WORK],env=venv)
+            if os.environ.get('OCR_ROW_SKIP_STUDY')!='1':run([PY,HERE/'crop_study.py',ROOT,WORK],env=venv)
             stop('worker');stop('gateway')
     write(WORK/'completed.json',{'time':time.time()})
 finally:restore()
