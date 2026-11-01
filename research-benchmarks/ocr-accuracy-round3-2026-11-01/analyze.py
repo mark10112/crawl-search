@@ -66,6 +66,12 @@ for path in sorted((ROOT/'results').glob('*.json')):
         'memory_bracketed':bracketed,'swap_out_delta':inside[-1]['swap_out_bytes']-inside[0]['swap_out_bytes']}
     pages=[r['result'] for r in telemetry if r.get('variant')==rec['variant'] and r.get('mode')==rec['mode'] and r.get('id')==rec['id'] and r['kind']=='page']
     row['diagnostic_pages_observed']=len(pages)
+    row['render_dpi']=[p.get('rendering',{}).get('dpi',144) for p in raw.get('ocr_routes',[])]
+    row['table_band_counts']=[len(c['table_bands']) for c in calls if c.get('table_bands')]
+    row['table_band_columns']=[c.get('table_band_columns') for c in calls if c.get('table_bands')]
+    row['table_band_completeness']=[c.get('table_band_complete') for c in calls if c.get('table_bands')]
+    row['actual_upstream_generations']=sum(len(c['table_bands']) if c.get('table_bands') else 1 for c in calls)
+    row['reported_max_single_generation_tokens']=max([((b.get('usage') or {}).get('completion_tokens') or 0) for c in calls for b in (c.get('table_bands') or [{'usage':c.get('usage')}])],default=0)
     row['normal_pages']=sum(bool(p.get('ok')) for p in pages)
     row['region_counts']=[len(p.get('regions',[])) for p in pages]
     row['original_markup_chars']=sum(p.get('original_markup_chars',len(p.get('text',''))) for p in pages)

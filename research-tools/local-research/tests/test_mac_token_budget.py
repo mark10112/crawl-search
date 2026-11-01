@@ -94,6 +94,12 @@ class TokenBudgetTests(unittest.TestCase):
         second=self.worker.ocr(self.body)
         self.assertFalse(second['cache_hit'])
         self.assertEqual(len(self.requests),2)
+    def test_recognition_profiles_cannot_share_page_cache(self):
+        detail=self.worker.ocr({**self.body,'recognition_profile':'detail'})
+        baseline=self.worker.ocr({**self.body,'recognition_profile':'baseline'})
+        self.assertFalse(detail['cache_hit']);self.assertFalse(baseline['cache_hit'])
+        self.assertEqual(baseline['recognition_profile'],'baseline')
+        self.assertEqual(len(self.requests),2)
         third=self.worker.ocr(self.body)
         self.assertTrue(third['cache_hit'])
         self.assertEqual(len(self.requests),2)

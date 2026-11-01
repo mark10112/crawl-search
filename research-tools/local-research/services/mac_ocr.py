@@ -9,7 +9,7 @@ from table_bands import is_table,request_image,bands,tile_request,combine
 
 REVISION='c5630abae1d940eafe0697512a0325494b02ab42'
 STATE=Path(os.environ.get('MAC_OCR_STATE',str(Path.home()/'research-server/state/ocr')));STATE.mkdir(parents=True,exist_ok=True)
-MODEL=os.environ['MAC_OCR_MODEL'];pipeline=None;lock=threading.Lock();generation_lock=threading.Lock();calls=[]
+MODEL=os.environ['MAC_OCR_MODEL'];pipeline=None;lock=threading.Lock();generation_lock=threading.Lock();calls=[];recognition_profile='detail'
 MAX_NEW_TOKENS=int(os.getenv('PADDLEOCR_VL_MAX_NEW_TOKENS','8192'))
 if not 1<=MAX_NEW_TOKENS<=8192:raise ValueError('PADDLEOCR_VL_MAX_NEW_TOKENS must be between 1 and 8192')
 REPETITION_PENALTY=float(os.getenv('MAC_OCR_REPETITION_PENALTY','1.0'))
@@ -65,7 +65,7 @@ def forward_recognition(path,body):
     # this MLX backend's continuous batch; isolated crop probes finish normally
     # where concurrent layout requests can run to the token limit.
     with generation_lock:
-        image=request_image(body) if is_table(body) else None
+        image=request_image(body) if recognition_profile!='baseline' and is_table(body) else None
         intervals=bands(image) if image is not None else []
         if len(intervals)<=1:return stream_recognition(path,body)
         parts=[];metadata=[]
@@ -102,15 +102,18 @@ class Proxy(BaseHTTPRequestHandler):
     def log_message(self,*args):pass
 
 def ocr(body):
-    global pipeline
+    global pipeline,recognition_profile
     data=base64.b64decode(body['image_base64'],validate=True)
     if len(data)>20*1024*1024:raise ValueError('Image exceeds 20 MiB')
     image=Image.open(io.BytesIO(data))
     if image.width*image.height>16000000:raise ValueError('Image exceeds 16 megapixels')
     policy=body.get('policy','balanced')
     if policy not in {'balanced','quality'}:raise ValueError('Invalid OCR policy')
-    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v6-table-bands',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64]).encode()).hexdigest();cache=STATE/(key+'.json')
+    profile=body.get('recognition_profile','detail')
+    if profile not in {'detail','baseline'}:raise ValueError('Invalid recognition profile')
+    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v7-bounded-profile',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64,profile]).encode()).hexdigest();cache=STATE/(key+'.json')
     with lock:
+        recognition_profile=profile
         if body.get('cache',True) and cache.exists():
             result=json.loads(cache.read_text());result.update(cache_hit=True,elapsed_ms=0);return result
         if pipeline is None:
@@ -129,7 +132,7 @@ def ocr(body):
         text=compact_markup(original_text)
         result={'ok':not flags,'text':text,'engine':'paddleocr-vl-1.6-mlx-layout','revision':REVISION,'cache_hit':False,
             'truncated':bool(flags),'policy':policy,'max_new_tokens':MAX_NEW_TOKENS,'repetition_penalty':REPETITION_PENALTY,
-            'original_markup_chars':len(original_text),'language_hint':body.get('language_hint'),'elapsed_ms':round((time.perf_counter()-start)*1000,2),
+            'original_markup_chars':len(original_text),'recognition_profile':profile,'language_hint':body.get('language_hint'),'elapsed_ms':round((time.perf_counter()-start)*1000,2),
             'route':[{'engine':'paddle-layout+mlx','regions':len(regions),'generations':list(calls)}],
             'quality_flags':flags,'regions':regions,'quality_warning':'Completion checks are not proof of transcription accuracy.'}
         if flags:result['error']='; '.join(flags)

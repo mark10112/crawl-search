@@ -25,7 +25,7 @@ for i,ident in enumerate(ids):
 ax.set_yticks(range(4),ids);ax.invert_yaxis();ax.set_xlim(0,max(r['seconds'] for r in rows)*1.45)
 ax.set_xlabel('Seconds to full result or rejection (forced OCR, cache off)')
 ax.set_title('Same historical PDFs: forced OCR before / after',loc='left',weight='bold')
-ax.legend(handles=[Patch(color='#98A3B5',label='Before: 8192, no penalty'),Patch(color='#176B87',label='After: serialized + repetition guard'),Patch(facecolor='white',edgecolor='#758095',hatch='///',label='Completion gate rejected')],loc='lower right',frameon=False,fontsize=8)
+ax.legend(handles=[Patch(color='#98A3B5',label='Before: 144 DPI + guard'),Patch(color='#176B87',label='After: source 300 DPI + table bands'),Patch(facecolor='white',edgecolor='#758095',hatch='///',label='Completion gate rejected')],loc='lower right',frameon=False,fontsize=8)
 ax.grid(axis='x',alpha=.15);ax.set_axisbelow(True)
 # Do not interpolate across the diagnostic/experiment gap in reused-baseline runs.
 max_duration=max((max(r['ended_at'] for r in raw if r['variant']==v)-min(r['started_at'] for r in raw if r['variant']==v))/60 for v in ['before','after'])
@@ -40,6 +40,6 @@ for variant,mem in [('before',mem_before),('after',mem_after)]:
     mem.set_xlim(0,max_duration+.1);mem.set_ylim(bottom=0)
     mem.set_xlabel('Minutes since first '+variant+' read');mem.set_ylabel('GiB');mem.grid(alpha=.15)
     mem.legend(frameon=False,fontsize=8,loc='best')
-fig.suptitle('Bounded recognition + complete output: Mac M4 reused-baseline follow-up',weight='bold',fontsize=13)
+fig.suptitle('Source detail + dense table bands: fresh paired Mac M4 A/B',weight='bold',fontsize=13)
 fig.savefig(R/'comparison.png',dpi=160)
 print(R/'comparison.png')

@@ -7,6 +7,31 @@ from local_research.stack import ResearchStack, Settings
 
 
 class RoutingTests(unittest.IsolatedAsyncioTestCase):
+    async def test_failed_detail_read_uses_one_genuine_baseline_read_and_keeps_attempts(self):
+        import base64,io,httpx,pymupdf
+        from PIL import Image
+        doc=pymupdf.open();doc.new_page(width=72,height=72);data=doc.tobytes();doc.close()
+        self.stack.settings.ocr_service_url='http://127.0.0.1:8091'
+        def response(value):return httpx.Response(200,json=value,request=httpx.Request('POST','http://127.0.0.1/ocr'))
+        text='A complete independent recognition of the source page, with provenance.'
+        self.stack.client.post=AsyncMock(side_effect=[response({'ok':False,'text':'000000','error':'guard','quality_flags':['guard']}),
+            response({'ok':True,'text':text,'engine':'paddle','elapsed_ms':1,'route':[]})])
+        result=await self.stack.router_ocr(data,None,'quality',False)
+        calls=self.stack.client.post.call_args_list
+        self.assertEqual(len(calls),2)
+        self.assertEqual([c.kwargs['json']['recognition_profile'] for c in calls],['detail','baseline'])
+        self.assertEqual([Image.open(io.BytesIO(base64.b64decode(c.kwargs['json']['image_base64']))).size for c in calls],[(300,300),(144,144)])
+        self.assertIn(text,result['text']);self.assertNotIn('000000',result['text'])
+        self.assertEqual([a['ok'] for a in result['routes'][0]['attempts']],[False,True])
+        self.assertTrue(all(c.kwargs['json']['cache'] is False for c in calls))
+
+    async def test_both_resolution_attempts_fail_without_third_attempt_or_false_success(self):
+        import httpx,pymupdf
+        doc=pymupdf.open();doc.new_page(width=72,height=72);data=doc.tobytes();doc.close()
+        self.stack.settings.ocr_service_url='http://127.0.0.1:8091'
+        self.stack.client.post=AsyncMock(return_value=httpx.Response(200,json={'ok':False,'error':'incomplete'},request=httpx.Request('POST','http://127.0.0.1/ocr')))
+        with self.assertRaisesRegex(RuntimeError,'incomplete'):await self.stack.router_ocr(data,None,'quality',False)
+        self.assertEqual(self.stack.client.post.await_count,2)
     async def test_explicit_full_output_does_not_silently_cap_at_40000(self):
         content = 'Public revenue evidence and historical records. ' * 3000
         self.stack.fetch = AsyncMock(return_value=(content.encode(), 'text/plain', 'https://example.org'))

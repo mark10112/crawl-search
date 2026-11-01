@@ -24,9 +24,9 @@ from lxml import html as html_parser
 def ms(start: float) -> float:
     return round((time.perf_counter() - start) * 1000, 2)
 
-def render_ocr_page(page):
+def render_ocr_page(page,target_dpi=300):
     """Keep real small-print detail, with bounded pixels and encoded payload."""
-    dpi=min(300,int(72*math.sqrt(12000000/(page.rect.width*page.rect.height))))
+    dpi=min(target_dpi,int(72*math.sqrt(12000000/(page.rect.width*page.rect.height))))
     if dpi<1:raise ValueError('PDF page exceeds OCR pixel budget at minimum DPI')
     while True:
         pix=page.get_pixmap(dpi=dpi,alpha=False)
@@ -228,16 +228,35 @@ class ResearchStack:
         texts=[]
         routes=[]
         for number,image in enumerate(images,1):
+            attempts=[]
             response=await self.client.post(self.settings.ocr_service_url.rstrip('/')+'/ocr',json={
                 'image_base64':base64.b64encode(image).decode(), 'language_hint':language_hint,
-                'policy':policy,'cache':cache},timeout=self.settings.ocr_timeout)
+                'policy':policy,'cache':cache,'recognition_profile':'detail'},timeout=self.settings.ocr_timeout)
             response.raise_for_status()
             result=response.json()
+            def attempt(value,metadata,profile):
+                return {'ok':value.get('ok'),'engine':value.get('engine'),'error':value.get('error'),
+                        'quality_flags':value.get('quality_flags'),'route':value.get('route'),
+                        'rendering':metadata,'recognition_profile':profile}
+            if rendering:
+                selected_rendering=rendering[number-1]
+                attempts.append(attempt(result,selected_rendering,'detail'))
+            if not result.get('ok') and rendering:
+                # A higher-detail crop can still destabilize a generative model.
+                # One genuine baseline read is permitted; never turn the failed
+                # high-detail output itself into an accepted transcript.
+                with pymupdf.open(stream=data,filetype='pdf') as retry_pdf:
+                    retry_image,selected_rendering=render_ocr_page(retry_pdf[number-1],target_dpi=144)
+                response=await self.client.post(self.settings.ocr_service_url.rstrip('/')+'/ocr',json={
+                    'image_base64':base64.b64encode(retry_image).decode(),'language_hint':language_hint,
+                    'policy':policy,'cache':cache,'recognition_profile':'baseline'},timeout=self.settings.ocr_timeout)
+                response.raise_for_status();result=response.json()
+                attempts.append(attempt(result,selected_rendering,'baseline'))
             if not result.get('ok'):
                 raise RuntimeError(result.get('error','OCR router returned unusable text'))
             texts.append(f'<!-- subset page {number} -->\n'+result['text'])
             routes.append({k:result.get(k) for k in ['engine','revision','route','cache_hit','policy','language_hint','elapsed_ms','quality_warning']})
-            if rendering:routes[-1]['rendering']=rendering[number-1]
+            if rendering:routes[-1].update(rendering=selected_rendering,attempts=attempts)
         return {'text':'\n\n'.join(texts),'engine':'router:'+','.join(dict.fromkeys(r['engine'] for r in routes)),
                 'cold':False,'conversion_ms':sum(r['elapsed_ms'] for r in routes),'routes':routes}
 
@@ -257,7 +276,7 @@ class ResearchStack:
         max_pages = max(1, min(max_pages, 10))
         start_page = max(1, start_page)
         start = time.perf_counter()
-        key = hashlib.sha256(json.dumps(["reader-v8-native300-table-bands", url, mode, max_chars, max_pages, start_page, ocr_engine,language_hint,ocr_policy]).encode()).hexdigest()
+        key = hashlib.sha256(json.dumps(["reader-v9-native300-bounded-retry", url, mode, max_chars, max_pages, start_page, ocr_engine,language_hint,ocr_policy]).encode()).hexdigest()
         cached_path = self.settings.state_dir / (key + ".json")
         if cache and cached_path.exists() and time.time() - cached_path.stat().st_mtime < self.settings.cache_seconds:
             result = json.loads(cached_path.read_text(encoding="utf-8"))
