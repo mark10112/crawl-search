@@ -122,11 +122,13 @@ class Proxy(BaseHTTPRequestHandler):
         r=httpx.get('http://127.0.0.1:8111'+self.path,timeout=15);self.send_response(r.status_code);self.end_headers();self.wfile.write(r.content)
     def log_message(self,*args):pass
 
-def read_crop(image,bbox,prompt='OCR:'):
+def read_crop(image,bbox,prompt='OCR:',direct=False):
     buf=io.BytesIO();image.crop(tuple(bbox)).save(buf,format='PNG');data=buf.getvalue()
     body={'messages':[{'role':'user','content':[{'type':'image_url','image_url':{'url':'data:image/png;base64,'+base64.b64encode(data).decode()}},{'type':'text','text':prompt}]}]}
     body,requested=recognition_request(body)
-    response=forward_recognition('/v1/chat/completions',body)
+    if direct:
+        with generation_lock:response=stream_recognition('/v1/chat/completions',body)
+    else:response=forward_recognition('/v1/chat/completions',body)
     if response.status_code!=200:raise RuntimeError('Crop recognition HTTP '+str(response.status_code))
     payload=response.json()
     choice=payload['choices'][0]
@@ -150,6 +152,22 @@ def read_index(image,rows):
         output.append('<tr>'+''.join('<td>'+html.escape(cell)+'</td>' for cell in cells)+'</tr>')
     return '<table>'+''.join(output)+'</table>',attempts
 
+def read_index_page(image,rows):
+    # The measured row/cell trials lost Thai language context. Keep the entire
+    # source page in one genuine recognition, bypassing table band splitting.
+    part=read_crop(image,[0,0,image.width,image.height],prompt='Table Recognition:',direct=True)
+    parsed=[]
+    for raw in part['text'].split('<nl>'):
+        if not raw.strip():continue
+        cells=[c.strip() for c in re.split(r'<(?:fcel|ecel|lcel|ucel|xcel)>',raw)[1:]]
+        parsed.append(cells)
+    data=[cells for cells in parsed if len(cells)==3 and re.fullmatch(r'\d{2,6}',cells[0]) and cells[1] and re.fullmatch(r'\d{1,6}',cells[2])]
+    complete=part['finish_reason'] in {'stop','eos_token'} and not part['repetition_guard'] and len(data)==len(rows)
+    attempt={'strategy':'whole-index-page-no-banding','recognition':part,'cells':parsed,'data_rows':len(data),'expected_rows':len(rows),'complete':bool(complete)}
+    # Preserve headers/years in the same order when they are present in output.
+    text='<table>'+''.join('<tr>'+''.join('<td>'+html.escape(cell)+'</td>' for cell in cells)+'</tr>' for cells in parsed)+'</table>'
+    return (text if complete else None),[attempt]
+
 def ocr(body):
     global pipeline,recognition_profile
     data=base64.b64decode(body['image_base64'],validate=True)
@@ -160,7 +178,7 @@ def ocr(body):
     if policy not in {'balanced','quality'}:raise ValueError('Invalid OCR policy')
     profile=body.get('recognition_profile','detail')
     if profile not in {'detail','baseline'}:raise ValueError('Invalid recognition profile')
-    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v11-index-ocr-summary-agreement',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64,profile]).encode()).hexdigest();cache=STATE/(key+'.json')
+    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v12-index-page-context',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64,profile]).encode()).hexdigest();cache=STATE/(key+'.json')
     with lock:
         recognition_profile=profile
         if body.get('cache',True) and cache.exists():
@@ -180,7 +198,7 @@ def ocr(body):
         layout_text='\n\n'.join(texts);original_text=layout_text;row_attempts=[]
         detected=index_rows(image) if profile!='baseline' else []
         if detected:
-            rebuilt,row_attempts=read_index(image,detected)
+            rebuilt,row_attempts=read_index_page(image,detected)
             if rebuilt is not None:
                 # Keep headings/year labels outside the reconstructed row area.
                 top=detected[0]['bbox'][1];bottom=detected[-1]['bbox'][3]
@@ -188,7 +206,7 @@ def ocr(body):
                          (r['block_bbox'][3]<top or r['block_bbox'][1]>bottom)]
                 original_text='\n\n'.join(outside+[rebuilt])
         flags=completion_flags(original_text,calls)
-        if detected and (not row_attempts or not all(a['complete'] for a in row_attempts) or len(row_attempts)!=len(detected)):
+        if detected and (not row_attempts or not all(a['complete'] for a in row_attempts)):
             flags.append('Index row reconstruction incomplete')
         text=compact_markup(original_text)
         result={'ok':not flags,'text':text,'engine':'paddleocr-vl-1.6-mlx-layout','revision':REVISION,'cache_hit':False,

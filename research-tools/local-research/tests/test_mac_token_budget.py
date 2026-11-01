@@ -118,6 +118,16 @@ class TokenBudgetTests(unittest.TestCase):
         self.assertEqual(result['text'],'๑๕๙')
         self.assertEqual(result['finish_reason'],'stop')
         self.assertEqual(self.worker.calls[-1]['tokens'],4)
+    def test_contextual_index_requires_all_geometric_rows(self):
+        def value(text):return {'text':text,'finish_reason':'stop','repetition_guard':False}
+        text='<fcel>๒๑๒<fcel>Entry one<fcel>๑<nl><fcel>๒๑๓<fcel>Entry two<fcel>๒๐<nl>'
+        with patch.object(self.worker,'read_crop',return_value=value(text)) as read:
+            rebuilt,attempts=self.worker.read_index_page(Image.new('RGB',(100,200)),[{},{}])
+        self.assertIsNotNone(rebuilt);self.assertTrue(attempts[0]['complete'])
+        self.assertTrue(read.call_args.kwargs['direct'])
+        with patch.object(self.worker,'read_crop',return_value=value(text)):
+            rebuilt,attempts=self.worker.read_index_page(Image.new('RGB',(100,200)),[{},{},{}])
+        self.assertIsNone(rebuilt);self.assertFalse(attempts[0]['complete'])
     def test_budget_change_cannot_reuse_old_page_result(self):
         self.worker.MAX_NEW_TOKENS=4096
         self.worker.ocr(self.body)
