@@ -18,3 +18,4 @@ with httpx.Client(base_url='http://127.0.0.1:8768',timeout=30) as client:
     (OUT/'api-smoke.json').write_text(json.dumps({'health':health,'search':search,'upload':upload,'job':job},ensure_ascii=False,indent=2))
     print(json.dumps({'status':job['status'],'seconds':round(time.monotonic()-start,2),'result':job.get('result')},ensure_ascii=False),flush=True)
     assert job['status']=='complete',job
+    assert search.get('ok'),search

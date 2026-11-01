@@ -1,5 +1,5 @@
 """Loopback API with durable OCR jobs; reach it over SSH forwarding."""
-import asyncio,contextlib,os
+import asyncio,contextlib,os,time
 from contextlib import asynccontextmanager
 from pathlib import Path
 from starlette.applications import Starlette
@@ -50,7 +50,13 @@ async def guarded(fn):
     try:return JSONResponse(await fn())
     except Exception as exc:return JSONResponse({'ok':False,'error':str(exc)},status_code=400)
 async def read(request):
-    async def call():return await run_job(validate(await request.json()))
+    async def call():
+        job=store.submit(validate(await request.json()));deadline=time.monotonic()+600
+        while job['status'] in {'queued','running'}:
+            if time.monotonic()>deadline:
+                return {'ok':False,'pending':True,'job_id':job['id'],'next_step':'Poll /jobs/{job_id}; the job continues.'}
+            await asyncio.sleep(.5);job=store.get(job['id'])
+        return {**(job.get('result') or {'ok':False,'error':'Job failed'}),'job_id':job['id']}
     return await guarded(call)
 async def search(request):
     async def call():return await stack.search(**await request.json())

@@ -1,13 +1,16 @@
 # Crawl Search
 
-ระบบค้นหาเว็บ อ่านเอกสาร และ OCR สำหรับรันเอง โดยเตรียมย้ายงานประมวลผลไป Mac mini M4 และให้ Windows เรียกผ่าน SSH
+ระบบค้นหาเว็บ อ่านเอกสาร และ OCR สำหรับรันเอง งานประมวลผลทำบน Mac mini M4 และ Windows เรียกผ่าน MCP กับ SSH
 
 ## สถานะ
 
 - นำเข้า prototype `local-research-stack` 0.2.0 ที่ทดสอบบน Windows แล้ว
 - มี SearXNG client, HTTP/browser/PDF reader, OCR router, cache และ Firecrawl client-agent handoff
 - นำเข้ารายงาน benchmark ทั้งชุดจำลองและเอกสารประวัติศาสตร์จริง ผลจริงพบข้อจำกัดของ OCR เก่า ตาราง และการรายงานข้อความขาด
-- Mac server อยู่ระหว่างเตรียมย้าย ยังไม่ได้เปิดใช้ native OCR backend หรือสลับ production
+- เปิดใช้ Mac server แล้ว: SearXNG, HTTP/browser/PDF reader และ PaddleOCR-VL 1.6 ผ่าน native MLX/Metal พร้อมคิวงาน SQLite
+- Windows เหลือ MCP bridge; ปิด SearXNG/OCR containers เดิมและปิดการเริ่มใหม่อัตโนมัติแล้ว
+- ทดสอบผ่าน MCP จริงทั้งค้นหา เว็บ JavaScript อัปโหลดภาพไทย และการเก็บผลหลังรีสตาร์ต API; ดู [สถานะและคู่มือ](docs/mac-server.md)
+- การย้ายเครื่องไม่ได้ยืนยันว่าความแม่น OCR สแกนเก่า/ตารางแก้ครบแล้ว ยังต้องเทียบชุดเอกสารจริงใหม่
 
 ## โครงสร้าง
 
@@ -15,7 +18,8 @@
 |---|---|
 | `research-tools/local-research/` | ตัวอ่าน MCP/CLI, HTTP adapter, tests และ OCR service prototype |
 | `research-benchmarks/` | สคริปต์ ชุดจำลอง เฉลย และผลวัดที่คัดไว้ |
-| `docs/mac-server.md` | แผนย้ายบริการไป Mac และขั้นตอนเปิดใช้ |
+| `deploy/mac/` | ติดตั้งบริการบน Mac, เวอร์ชัน OCR และทดสอบผ่าน API/MCP |
+| `docs/mac-server.md` | สถานะบริการ ขั้นตอนติดตั้ง และคู่มือดูแล Mac server |
 
 ## ทดลองตัวอ่านพื้นฐาน
 
