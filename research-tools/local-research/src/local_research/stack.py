@@ -30,7 +30,7 @@ class Settings:
     state_dir: Path = field(default_factory=lambda: Path(os.getenv("LOCAL_RESEARCH_STATE", ".cache")))
     fetch_timeout: float = 15
     browser_timeout: float = 30
-    ocr_timeout: float = 180
+    ocr_timeout: float = field(default_factory=lambda: float(os.getenv('LOCAL_RESEARCH_OCR_TIMEOUT','180')))
     cache_seconds: int = 3600
     max_bytes: int = 32 * 1024 * 1024
     allow_local: bool = False  # Only enabled inside the controlled benchmark.
