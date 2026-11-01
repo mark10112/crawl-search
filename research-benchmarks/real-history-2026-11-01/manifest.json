@@ -1,0 +1,92 @@
+{
+  "cases": [
+    {
+      "id": "thai-gazette",
+      "filename": "thai-gazette.pdf",
+      "source_pages": [
+        6,
+        7,
+        8
+      ],
+      "pages": 3,
+      "source_total_pages": 11,
+      "source_sha256": "d37334374a592fe624db6b19941a23328cd496b768c459523e904026a6940994",
+      "sha256": "4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+      "text_layer_lengths": [
+        0,
+        0,
+        0
+      ],
+      "language_metadata": [
+        "null",
+        "null"
+      ]
+    },
+    {
+      "id": "thai-royal",
+      "filename": "thai-royal.pdf",
+      "source_pages": [
+        13,
+        14,
+        15
+      ],
+      "pages": 3,
+      "source_total_pages": 103,
+      "source_sha256": "296555001b91df3cf13ed11afd1aefb3f1f2b1b8fdfce90e1a396a83206abbc8",
+      "sha256": "d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+      "text_layer_lengths": [
+        0,
+        0,
+        0
+      ],
+      "language_metadata": [
+        "null",
+        "null"
+      ]
+    },
+    {
+      "id": "us-census",
+      "filename": "us-census.pdf",
+      "source_pages": [
+        1,
+        2,
+        3
+      ],
+      "pages": 3,
+      "source_total_pages": 25,
+      "source_sha256": "866123c3cbb0cc01e5dcca56e92d5ed85ba4711c04f44d3cec5f84dde49c68a6",
+      "sha256": "4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+      "text_layer_lengths": [
+        2390,
+        12095,
+        8648
+      ],
+      "language_metadata": [
+        "null",
+        "null"
+      ]
+    },
+    {
+      "id": "us-preservation",
+      "filename": "us-preservation.pdf",
+      "source_pages": [
+        5,
+        6,
+        7
+      ],
+      "pages": 3,
+      "source_total_pages": 16,
+      "source_sha256": "5fd84a2ae1e084198e1e483d8f1a3d39587d2e1a4feb82735508a2e915203b80",
+      "sha256": "20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+      "text_layer_lengths": [
+        2766,
+        2885,
+        2290
+      ],
+      "language_metadata": [
+        "null",
+        "null"
+      ]
+    }
+  ]
+}

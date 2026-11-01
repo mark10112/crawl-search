@@ -1,0 +1,13 @@
+# Reproduction
+
+1. Existing package/runtime: `research-tools/local-research`, OCR service on loopback8091, SearXNG8088. Services are unchanged during measurements. Source snapshot/image hash are in results/.
+2. Source originals under sources/; URL catalog and SHA-256 in manifest/provenance. download.py documents the successful download batch. The initial us-census original was downloaded in the first batch; use catalog.json URL to restore it if absent.
+3. excerpts.py selects native pages without rasterizing/adding text. Do not rerun local_run.py against an old cache namespace if measuring fresh prime; use a new LOCAL_RESEARCH_STATE and public tunnel URL.
+4. serve_fixtures.py exposes only public-assets PDF files. Start package `python -m local_research.http_api` on loopback8768 with LOCAL_RESEARCH_OCR_URL=http://127.0.0.1:8091 and a dedicated state directory. Start an allowlisted public fixture tunnel only for cloud testing. Replace BASE in local_run.py with its new URL.
+5. local_run.py writes off/prime/hit and supplemental forced-quality observations. Model/browser startup is not included. Never replace a failed recorded observation with a faster success without disclosing it.
+6. Firecrawl calls were made via the connected client tool, not a local API key. Every results/firecrawl-*.json preserves exact request arguments, full structured response, creditsUsed and Date.now invocation latency. Repeat those arguments with the new fixture URLs. This costs credits again; three phases for twelve pages reported 36 credits in this run. Disclosure: discovery search cost is not included.
+7. Scoring runtime is the existing `ocr-multilingual-bench:2026-11-01` Docker image, plus edlib==1.3.9.post1 installed in benchmark-local .deps (Linux cp311). Mount this folder at /work and run /work/analyze.py. Set BENCH_REFERENCE=references-original.json and BENCH_ANALYSIS=analysis-original-reference.json for the original-reference sensitivity report.
+8. report.py requires all 24 main plus four supplemental records, verifies cache hits/hashes/receipt totals, then renders REPORT.md. bundle.py packages excerpts, reviewed crops, raw observations and scripts; excludes model weights and full-source PDF duplicates. Original PDFs remain available locally and by source URL.
+9. Close temporary tunnel and fixture/API processes when finished. Keep the installed SearXNG/OCR services for actual use.
+
+This is a pilot: four sources, single visual reviewer, sampled spans, no randomized repeated latency trials. Independent human reference adjudication and more sources are required before generalizing the accuracy scores.

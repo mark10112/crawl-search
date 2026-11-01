@@ -1,0 +1,123 @@
+{
+  "synthetic": true,
+  "notes": "Self-authored multilingual test blocks, not a representative historical-document corpus. RapidOCR gets the known script; language detection cost excluded.",
+  "items": [
+    {
+      "id": "english",
+      "languages": "en",
+      "rapid_language": "en",
+      "image": "english.png",
+      "reference": "Research memorandum\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht.",
+      "sha256": "cb8d557e8774128dd993e188b56fbd34812732d9dc4c5e6a0d5c81e1cfdc8748",
+      "kind": "clean-single-block"
+    },
+    {
+      "id": "french",
+      "languages": "fr",
+      "rapid_language": "latin",
+      "image": "french.png",
+      "reference": "Note de recherche\nLe comité étudie les relations entre le commerce et le pouvoir.\nLes archives décrivent une négociation difficile et plusieurs intérêts.\nIl faut vérifier les sources avant de tirer une conclusion.\nRéférence 1875 : coût total 2 345,60 euros.",
+      "sha256": "caf006b98927231bd9afc9220be7ac9019617bd1dc4259da4399062c88d5c29c",
+      "kind": "clean-single-block"
+    },
+    {
+      "id": "german",
+      "languages": "de",
+      "rapid_language": "latin",
+      "image": "german.png",
+      "reference": "Forschungsbericht\nDie Regierung prüft die Einnahmen und die öffentlichen Ausgaben.\nEine zuverlässige Quelle unterscheidet Tatsachen von Vermutungen.\nÜbermäßige Macht kann neue politische Konflikte verursachen.\nAktenzeichen 1874: Gesamtbetrag 3.456,70 Euro.",
+      "sha256": "0c6d21edc737bc09a1fda4a23fa3cf90e28874c8695815384382ad33fb5e6936",
+      "kind": "clean-single-block"
+    },
+    {
+      "id": "thai",
+      "languages": "th",
+      "rapid_language": "th",
+      "image": "thai.png",
+      "reference": "บันทึกการวิจัย\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ\nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม\nควรตรวจสอบหลักฐานก่อนสรุปว่าใครเป็นผู้สั่งการ\nเลขที่เอกสาร ๒๔๑๗ จำนวนเงิน ๑๒,๔๕๐ บาท",
+      "sha256": "f4ec7dd4d9601def82697d579e472c2308833ae94228a539f7f1e8cebd2558f8",
+      "kind": "clean-single-block"
+    },
+    {
+      "id": "chinese",
+      "languages": "zh",
+      "rapid_language": "ch",
+      "image": "chinese.png",
+      "reference": "研究记录\n委员会讨论了贸易、税收以及政府的公共支出。\n可靠的历史研究必须区分事实、传闻和个人意见。\n谈判双方都希望保护自己的利益与安全。\n档案编号1874：总金额为12,450元。",
+      "sha256": "2d032ec171aa680503d7ea6bf95f5ba6d140af331f01f0ef9fdcdeb02ade8a46",
+      "kind": "clean-single-block"
+    },
+    {
+      "id": "japanese",
+      "languages": "ja",
+      "rapid_language": "ch",
+      "image": "japanese.png",
+      "reference": "調査報告書\n委員会は貿易と税金について話し合いました。\n歴史を研究するときは、事実と推測を区別する必要があります。\n交渉では、それぞれの立場と利益を理解することが重要です。\n資料番号1874：合計金額は12,450円です。",
+      "sha256": "31f6c27fd0e6594508e5734551b95e963d2547b940e7570026ce36cef86c81bb",
+      "kind": "clean-single-block"
+    },
+    {
+      "id": "arabic",
+      "languages": "ar",
+      "rapid_language": "arabic",
+      "image": "arabic.png",
+      "reference": "تقرير البحث\nناقشت اللجنة التجارة والضرائب والنفقات العامة.\nيجب التمييز بين الحقائق والشائعات عند قراءة الوثائق التاريخية.\nتحتاج المفاوضات إلى الثقة والسجلات الواضحة.\nرقم الوثيقة 1874 والمبلغ الإجمالي 12450.",
+      "sha256": "417288abab7deae2904b3724f921b792a2390564c37624b44afe7bce15081ace",
+      "kind": "clean-single-block"
+    },
+    {
+      "id": "hindi",
+      "languages": "hi",
+      "rapid_language": "devanagari",
+      "image": "hindi.png",
+      "reference": "अनुसंधान रिपोर्ट\nसमिति ने व्यापार और सार्वजनिक खर्च पर चर्चा की।\nऐतिहासिक दस्तावेज पढ़ते समय तथ्य और अनुमान अलग रखने चाहिए।\nसमझौते के लिए विश्वास और स्पष्ट अभिलेख आवश्यक हैं।\nदस्तावेज संख्या 1874 और कुल राशि 12450 रुपये है।",
+      "sha256": "18e8c0f4ed3faf0376da92f9a9f233ba02522eb0a0425d8e3b5b292038fea23c",
+      "kind": "clean-single-block"
+    },
+    {
+      "id": "mixed-thai-english",
+      "languages": "th+en",
+      "rapid_language": "th",
+      "image": "mixed-thai-english.png",
+      "reference": "Trade and public revenue\nรายงานการค้าและรายได้ของรัฐ\nImport duty: 3 percent of the market value.\nต้องตรวจสอบบัญชีและหลักฐานการชำระเงิน\nReference 1874 / จำนวนเงิน 12,450 บาท",
+      "sha256": "ecbde5d416add70eaac32637278a2d9d3421eaf6044f9b94ac58739bb1e3a1b4",
+      "kind": "clean-single-block"
+    },
+    {
+      "id": "mixed-latin",
+      "languages": "en+fr+de",
+      "rapid_language": "latin",
+      "image": "mixed-latin.png",
+      "reference": "International research notes\nVerify the source before making a claim.\nVérifiez les sources avant de conclure.\nPrüfen Sie die Quelle vor einer Schlussfolgerung.\nTotal: 1,234.50 / Référence 1874 / Akte 1875",
+      "sha256": "eddf0ba35f1e18738bdf994b01abdebb08c1b28dfa64ce65bf4cb1114642e693",
+      "kind": "clean-single-block"
+    },
+    {
+      "id": "english-degraded",
+      "languages": "en",
+      "rapid_language": "en",
+      "image": "english-degraded.png",
+      "reference": "Research memorandum\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht.",
+      "sha256": "183248be47d7ba6353ccd036c8a8e8ba867e65817e1ed28f4431ddf32b42386b",
+      "kind": "degraded-single-block"
+    },
+    {
+      "id": "thai-degraded",
+      "languages": "th",
+      "rapid_language": "th",
+      "image": "thai-degraded.png",
+      "reference": "บันทึกการวิจัย\nคณะกรรมการประชุมเพื่อพิจารณารายได้และค่าใช้จ่ายของรัฐ\nการเจรจาต้องคำนึงถึงผลประโยชน์ของประชาชนหลายกลุ่ม\nควรตรวจสอบหลักฐานก่อนสรุปว่าใครเป็นผู้สั่งการ\nเลขที่เอกสาร ๒๔๑๗ จำนวนเงิน ๑๒,๔๕๐ บาท",
+      "sha256": "a5fd20b8d588bf8b247ac3977454358445f4feac8ff80d1c7f0c900a09675949",
+      "kind": "degraded-single-block"
+    },
+    {
+      "id": "mixed-thai-english-degraded",
+      "languages": "th+en",
+      "rapid_language": "th",
+      "image": "mixed-thai-english-degraded.png",
+      "reference": "Trade and public revenue\nรายงานการค้าและรายได้ของรัฐ\nImport duty: 3 percent of the market value.\nต้องตรวจสอบบัญชีและหลักฐานการชำระเงิน\nReference 1874 / จำนวนเงิน 12,450 บาท",
+      "sha256": "276ab850425eaa24c739d2a704f58b8ab2d601519177edd368a3e3bac691d777",
+      "kind": "degraded-single-block"
+    }
+  ]
+}

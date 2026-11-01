@@ -1,0 +1,21 @@
+# Router vs Firecrawl — 1 November 2026
+
+Compare the completed local retrieval router against the connected Firecrawl scrape tool using exactly the same 17 public URLs and file bytes. Thirteen documents are single-page scanned PDFs containing the unchanged multilingual image fixtures from the previous test, plus two static HTML pages, one JavaScript page and one digital-text PDF. References and file SHA256s are in manifest.json. The source server exposes only allowlisted synthetic assets, never references or workspace files; its temporary tunnel is stopped at the end.
+
+PDF `/Lang` metadata is supplied in both systems' source bytes for single-language samples. Mixed pages declare `mul`. Local balanced routing uses that source metadata: known language -> RapidOCR; mean confidence below .95, minimum line confidence below .85, too little text or replacement characters -> LightOn. Unknown/mixed language -> LightOn directly. No thresholds are tuned using reference text. Metadata language selection excludes the cost of discovering an unlabelled script; unknown-source documents may be slower.
+
+Three retrieval phases per provider/document:
+
+1. `off`: fresh retrieval, no result-cache read/write. Firecrawl maxAge=0, storeInCache=false. Local cache=false disables both URL and OCR result caches. Models/browser remain warm.
+2. `prime`: caching enabled on a previously unpopulated key. Firecrawl maxAge=3600000, storeInCache=true; local cache=true. First population is timed and charged separately.
+3. `hit`: identical URL/options repeated. Record actual local cache_hit and Firecrawl metadata.cacheState, not just requested cache mode.
+
+The first English PDF pilot is retained as its real off/prime/hit observations, not rerun for a nicer number. One observation per document/phase, 17 heterogeneous documents; p50/p95 describe this mix, not per-type tail SLAs. Cache prime costs are not hidden. Paid operation budget is at most 80 reported credits; starting team balance 129 credits. Endpoint receipt usage is primary; balance difference is a cross-check and may include unrelated activity if any. Search is skipped because URLs are already known; this is retrieval/OCR performance, not a search-engine benchmark.
+
+Latency boundaries: local persistent HTTP client POST /read until full JSON response, including source download/render/OCR/router/cache work. Firecrawl connected-tool invocation until complete returned result, including connector/service transport. These are the available operational interfaces, not identical SDK transports; local MCP overhead is not included in its HTTP timing. Recording and scoring files are outside timed spans. Local first model/browser warmup is recorded separately and excluded. Providers may have uncontrollable worker/CDN warmth. The source disables intermediate HTTP caching with Cache-Control:no-store; result caches are controlled separately.
+
+Accuracy uses identical NFC/whitespace/Markdown normalization and Levenshtein CER from the earlier benchmark. Source text only is the target; metadata is not counted as expected document text. Empty/error responses count as CER 100%, not omitted. Report scanned-PDF and web/digital groups separately as well as the combined result. No estimate is substituted for an absent receipt/cache-hit signal.
+
+Native search and Firecrawl connector calls are performed by the client agent, because their credentials/tools belong to the client. The package emits a bounded next_tool_call and accepts research_complete_fallback to complete/cache the result with actual metadata and credits. An actual Firecrawl fallback is tested separately under a controlled injected local-reader outage, excluded from normal-document latency/CER aggregates. No Firecrawl API key is extracted or stored in the local package.
+
+Setup issues are preserved separately and excluded from final observations: Crawl4AI's structural checker initially rejected valid sparse JS-rendered text. The final adapter accepts only its no_content_elements structural false positive when HTTP 200 and independently extracted text passes the local quality check; known CAPTCHA/block signatures remain failures. Only the affected JS observation is replaced after the generic adapter fix; the failed setup result is retained.

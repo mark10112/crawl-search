@@ -1,0 +1,13 @@
+services:
+  research:
+    build: .
+    image: local-research-stack:0.1.0
+    stdin_open: true
+    environment:
+      SEARXNG_URL: http://host.docker.internal:8088
+    extra_hosts:
+      - host.docker.internal:host-gateway
+    volumes:
+      - research-cache:/data
+volumes:
+  research-cache:

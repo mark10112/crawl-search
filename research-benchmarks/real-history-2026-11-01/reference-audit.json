@@ -1,0 +1,18 @@
+{
+  "time": 1793532417.8103895,
+  "changes": [
+    {
+      "id": "g3-top",
+      "before": "ประกาศพระราชบัญญัติรับฟ้องความจำแลห้ามเจ้ามิให้ไปไกลพระนคร",
+      "after": "ประกาศพระราชบัญญัติรับฟ้องความเจ้าแลห้ามเจ้ามิให้ไปไกลพระนคร"
+    },
+    {
+      "id": "table-g2-31",
+      "before": "ประกาศให้ใช้ทะแปะอัฐแลโสฬศที่ทำขึ้นใหม่",
+      "after": "ประกาศให้ใช้กะแปะอัฐแลโสฬศที่ทำขึ้นใหม่"
+    }
+  ],
+  "reason": "Three transcription corrections after checking source at 4x; first provider outputs had already been seen. Original retained for sensitivity analysis; never changed source bytes or reader requests.",
+  "original_sha256": "acdb43b3c6156ad22c8afafe6cd8ebf58f80c7d4bcea868e6bedeac2bfa66a13",
+  "amended_sha256": "987c349e69d45a084af0e24248d4cfc71b09a7c9791cad570e929dbfd2ca6334"
+}
