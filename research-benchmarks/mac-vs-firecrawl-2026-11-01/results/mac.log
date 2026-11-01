@@ -1,0 +1,16 @@
+{"provider": "mac", "phase": "off", "id": "thai-gazette", "ok": false, "seconds": 54.99907, "cache_hit": false, "error": "Recognition did not explicitly finish normally"}
+{"provider": "mac", "phase": "off", "id": "thai-royal", "ok": false, "seconds": 46.78587, "cache_hit": false, "error": "Recognition did not explicitly finish normally"}
+{"provider": "mac", "phase": "off", "id": "us-census", "ok": true, "seconds": 1.1130499999999999, "cache_hit": false, "error": null}
+{"provider": "mac", "phase": "off", "id": "us-preservation", "ok": true, "seconds": 0.8900800000000001, "cache_hit": false, "error": null}
+{"provider": "mac", "phase": "prime", "id": "thai-gazette", "ok": false, "seconds": 53.5601, "cache_hit": false, "error": "Recognition did not explicitly finish normally"}
+{"provider": "mac", "phase": "prime", "id": "thai-royal", "ok": false, "seconds": 48.842400000000005, "cache_hit": false, "error": "Recognition did not explicitly finish normally"}
+{"provider": "mac", "phase": "prime", "id": "us-census", "ok": true, "seconds": 1.41936, "cache_hit": false, "error": null}
+{"provider": "mac", "phase": "prime", "id": "us-preservation", "ok": true, "seconds": 0.86114, "cache_hit": false, "error": null}
+{"provider": "mac", "phase": "hit", "id": "thai-gazette", "ok": true, "seconds": 5.68387, "cache_hit": false, "error": null}
+{"provider": "mac", "phase": "hit", "id": "thai-royal", "ok": false, "seconds": 46.73754, "cache_hit": false, "error": "Recognition did not explicitly finish normally"}
+{"provider": "mac", "phase": "hit", "id": "us-census", "ok": true, "seconds": 0.22440000000000002, "cache_hit": true, "error": null}
+{"provider": "mac", "phase": "hit", "id": "us-preservation", "ok": true, "seconds": 0.21484999999999999, "cache_hit": true, "error": null}
+{"provider": "mac-forced-quality", "phase": "off", "id": "thai-gazette", "ok": true, "seconds": 16.82936, "cache_hit": false, "error": null}
+{"provider": "mac-forced-quality", "phase": "off", "id": "thai-royal", "ok": false, "seconds": 48.903529999999996, "cache_hit": false, "error": "Recognition did not explicitly finish normally"}
+{"provider": "mac-forced-quality", "phase": "off", "id": "us-census", "ok": false, "seconds": 56.65477, "cache_hit": false, "error": "Recognition did not explicitly finish normally"}
+{"provider": "mac-forced-quality", "phase": "off", "id": "us-preservation", "ok": true, "seconds": 25.73272, "cache_hit": false, "error": null}

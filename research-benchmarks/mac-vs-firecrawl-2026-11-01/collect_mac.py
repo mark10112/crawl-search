@@ -2,7 +2,7 @@
 import datetime,json,os,re,signal,sqlite3,time
 from pathlib import Path
 import httpx,psutil
-w=Path.home()/'research-server/benchmarks/mac-vs-firecrawl-2026-11-01'
+w=Path(os.getenv('MAC_BENCH_WORK',str(Path.home()/'research-server/benchmarks/mac-vs-firecrawl-2026-11-01')))
 assert (w/'mac-done.json').exists(),'Wait for the benchmark driver to finish'
 with sqlite3.connect(w/'jobs/jobs.sqlite3') as db:
     assert db.execute("select count(*) from jobs where status in ('queued','running')").fetchone()[0]==0

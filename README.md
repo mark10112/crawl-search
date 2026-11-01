@@ -10,7 +10,7 @@
 - เปิดใช้ Mac server แล้ว: SearXNG, HTTP/browser/PDF reader และ PaddleOCR-VL 1.6 ผ่าน native MLX/Metal พร้อมคิวงาน SQLite
 - Windows เหลือ MCP bridge; ปิด SearXNG/OCR containers เดิมและปิดการเริ่มใหม่อัตโนมัติแล้ว
 - ทดสอบผ่าน MCP จริงทั้งค้นหา เว็บ JavaScript อัปโหลดภาพไทย และการเก็บผลหลังรีสตาร์ต API; ดู [สถานะและคู่มือ](docs/mac-server.md)
-- การย้ายเครื่องไม่ได้ยืนยันว่าความแม่น OCR สแกนเก่า/ตารางแก้ครบแล้ว ยังต้องเทียบชุดเอกสารจริงใหม่
+- เทียบเอกสารจริงบน Mac กับ Firecrawl แล้ว: text layer/แคชเร็ว แต่สแกนไทยยังมีผลถูกปฏิเสธและตารางยังผิด ดู [benchmark รอบ Mac](research-benchmarks/mac-vs-firecrawl-2026-11-01/REPORT.md)
 
 ## โครงสร้าง
 
@@ -38,6 +38,7 @@ Dockerfile/service GPU ที่นำเข้ารุ่นแรกเป็
 
 ## หลักฐานผลวัด
 
+- [Mac mini M4 เทียบ Firecrawl: ความเร็ว ความแม่น แคช และแรม](research-benchmarks/mac-vs-firecrawl-2026-11-01/REPORT.md)
 - [เอกสารจริง ไทย/อังกฤษ หลายหน้าและตาราง](research-benchmarks/real-history-2026-11-01/REPORT.md)
 - [Local router เทียบ Firecrawl บนชุดจำลอง](research-benchmarks/router-vs-firecrawl-2026-11-01/REPORT.md)
 - [RapidOCR / PaddleOCR-VL / LightOnOCR หลายภาษา](research-benchmarks/ocr-multilingual-2026-11-01/REPORT.md)

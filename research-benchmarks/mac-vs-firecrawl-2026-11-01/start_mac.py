@@ -1,6 +1,6 @@
 import hashlib,json,os,re,shutil,subprocess,time
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[2];BASE=Path.home()/'research-server';work=BASE/'benchmarks/mac-vs-firecrawl-2026-11-01'
+ROOT=Path(__file__).resolve().parents[2];BASE=Path.home()/'research-server';work=Path(os.getenv('MAC_BENCH_WORK',str(BASE/'benchmarks/mac-vs-firecrawl-2026-11-01')))
 work.mkdir(parents=True,exist_ok=True)
 if (work/'processes.json').exists():raise RuntimeError('Benchmark already started; inspect existing processes first')
 source=BASE/'releases/2026-11-01-ocr/research-benchmarks/real-history-2026-11-01/public-assets'

@@ -1,0 +1,22 @@
+{
+  "base_url": "https://pick-pal-rate-exp.trycloudflare.com",
+  "work": "/Users/markmacminim4/research-server/benchmarks/mac-vs-firecrawl-2026-11-01",
+  "pids": {
+    "fixture": 6710,
+    "memory": 6711,
+    "api": 6713,
+    "tunnel": 6714
+  },
+  "model": {
+    "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+    "model": "PaddlePaddle/PaddleOCR-VL-1.6",
+    "layout": "PP-DocLayoutV3",
+    "max_tokens": 8192
+  },
+  "commit": "6abd27527610b57881ca576b93ca9d5c5294b858",
+  "started_at": 1793538089.790334,
+  "ram_bytes": 17179869184,
+  "hardware": "Apple M4",
+  "macos": "26.3",
+  "reference_sha256": "8a39b0dcddda560846504e123940927a0fe5099c37bd4b481456413a5e16d488"
+}

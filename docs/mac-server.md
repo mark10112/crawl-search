@@ -43,7 +43,7 @@ Search engines: Brave, DuckDuckGo, Yahoo, Mwmbl and Wikipedia. Google/Bing/Qwant
 - Actual dependency versions: [`ocr-requirements.lock.txt`](../deploy/mac/ocr-requirements.lock.txt). This is a version capture, not a wheel-hash lock. Layout weights downloaded by Paddle are not separately revision-pinned yet.
 - `balanced` and `quality` currently use the same backend. `language_hint` is metadata, not a model selector. RapidOCR/Typhoon/LightOnOCR are not active Mac fallback routes.
 - Missing/non-normal finish reasons, long repetition, very short text and unclosed HTML tables fail completion checks. Failed output is not cached as successful. These checks cannot prove spelling, number or table accuracy.
-- Limits: 8,192 tokens per region; 20 MiB/16 megapixels per image; 32 MiB per upload/download; ten PDF pages per requested range. A read tool waits up to ten minutes, then returns a persistent job ID if pending.
+- Limits: the proxy caps regions at 8,192 tokens, but benchmark logs show requests stopping at 4,096; the cap does not enlarge a smaller upstream request budget. Other limits: 20 MiB/16 megapixels per image; 32 MiB per upload/download; ten PDF pages per requested range. A read tool waits up to ten minutes, then returns a persistent job ID if pending.
 
 Uploaded documents have no public URL, so failed reads request local review. Public URL failures can request the connected client's Firecrawl tool; credentials remain on the client, and the server does not call paid APIs automatically.
 
@@ -121,7 +121,7 @@ There is no automatic state retention policy yet. Back up or prune completed job
 - The completed Thai result remained unchanged after restarting the gateway.
 - A two-page PDF completed in 0.59 s with matching SHA-256, both page markers present, and no OCR. Its result remained available after closing/reopening the MCP session. Duplicate URLs shared one job.
 - A real Census 1900 dense table page failed the normal-finish check after 49.4 s and returned `needs_review=true`, zero credits, and no automatic external upload. Dense historical tables are still an unresolved OCR limitation.
-- Thai output included an extraneous Chinese fragment despite normal finish reasons. Successful completion does not imply accurate OCR. The historical corpus and Firecrawl comparison need a fresh controlled run on this backend.
+- Thai output included an extraneous Chinese fragment despite normal finish reasons. Successful completion does not imply accurate OCR. A fresh same-corpus comparison is now available in [the Mac benchmark](../research-benchmarks/mac-vs-firecrawl-2026-11-01/REPORT.md): seven of sixteen Mac requests were rejected, with backend length stops at 4,096 tokens. The native pipeline is not an accurate replacement for every scanned document.
 
 Run `deploy/mac/smoke.py` on Mac for the API check. Run `deploy/mac/client_smoke.py` on Windows with SSH variables and `CLIENT_SMOKE_OUTPUT` set. `deploy/mac/document_smoke.py` checks two-page transfer hashes, deduplication and reconnects; set `DOCUMENT_SMOKE_OUTPUT` and optionally `RESEARCH_SMOKE_TABLE` to a scanned table image.
 

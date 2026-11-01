@@ -1,0 +1,32 @@
+{
+  "temporary_processes_stopped": {
+    "api": true,
+    "memory": true,
+    "tunnel": true,
+    "fixture": true
+  },
+  "production_health": {
+    "searxng": 200,
+    "packages": {
+      "local-research-stack": "0.2.0",
+      "crawl4ai": "0.9.5",
+      "docling": "not installed",
+      "easyocr": "not installed",
+      "torch": "not installed",
+      "mcp": "1.30.0"
+    },
+    "browser_started": false,
+    "ocr_started": false,
+    "ocr_router": {
+      "ok": true,
+      "backend": "paddle-layout+mlx",
+      "pipeline_loaded": true,
+      "revision": "c5630abae1d940eafe0697512a0325494b02ab42"
+    },
+    "paid_fallback": "connected-client-agent-handoff",
+    "server": "mac-research",
+    "commit": "58ff6f0ab85c8d25be632b342ba124b2739478a7",
+    "worker_alive": true
+  },
+  "completed_at": 1793538991.922452
+}

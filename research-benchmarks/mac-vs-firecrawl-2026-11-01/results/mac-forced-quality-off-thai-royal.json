@@ -1,0 +1,158 @@
+{
+  "provider": "mac-forced-quality",
+  "phase": "off",
+  "id": "thai-royal",
+  "request": {
+    "url": "https://pick-pal-rate-exp.trycloudflare.com/thai-royal.pdf",
+    "cache": false,
+    "max_pages": 3,
+    "max_chars": 40000,
+    "mode": "ocr",
+    "ocr_policy": "quality"
+  },
+  "started_at": 1793538664.112952,
+  "ended_at": 1793538713.016696,
+  "elapsed_ms": 48903.53,
+  "raw": {
+    "ok": false,
+    "url": "https://pick-pal-rate-exp.trycloudflare.com/thai-royal.pdf",
+    "reader": "pdf-text",
+    "cache_hit": false,
+    "stages": [
+      {
+        "name": "fetch",
+        "ok": true,
+        "elapsed_ms": 1885.55
+      },
+      {
+        "name": "pdf-text",
+        "ok": true,
+        "elapsed_ms": 4.94,
+        "needs_ocr": true
+      },
+      {
+        "name": "ocr-router",
+        "ok": false,
+        "elapsed_ms": 46809.86,
+        "error": "Recognition did not explicitly finish normally"
+      }
+    ],
+    "text": "",
+    "external_fallback_required": true,
+    "credits_used": 0,
+    "final_url": "https://pick-pal-rate-exp.trycloudflare.com/thai-royal.pdf",
+    "content_sha256": "d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "document_language_hint": null,
+    "total_pages": 3,
+    "pages_read": [
+      1,
+      3
+    ],
+    "ocr_pages": [
+      1,
+      2,
+      3
+    ],
+    "error": "Recognition did not explicitly finish normally",
+    "elapsed_ms": 48705.95,
+    "fallback_count": 1,
+    "fallback_request_id": "5771f8d73e864f868d25d469a2cce6ad",
+    "next_tool_call": {
+      "server": "firecrawl",
+      "tool": "firecrawl_scrape",
+      "arguments": {
+        "url": "https://pick-pal-rate-exp.trycloudflare.com/thai-royal.pdf",
+        "formats": [
+          "markdown"
+        ],
+        "maxAge": 0,
+        "storeInCache": false,
+        "pdfOptions": {
+          "maxPages": 3
+        },
+        "domainTools": false
+      }
+    },
+    "suggested_next_step": "Use the connected Firecrawl tool once within the authorized credit budget, then research_complete_fallback; do not repeat indefinitely.",
+    "server_commit": "6abd27527610b57881ca576b93ca9d5c5294b858"
+  },
+  "credits_used": 0,
+  "job": {
+    "id": "753516d919be4f1d84d8362c918b3b66",
+    "status": "failed",
+    "result": {
+      "ok": false,
+      "url": "https://pick-pal-rate-exp.trycloudflare.com/thai-royal.pdf",
+      "reader": "pdf-text",
+      "cache_hit": false,
+      "stages": [
+        {
+          "name": "fetch",
+          "ok": true,
+          "elapsed_ms": 1885.55
+        },
+        {
+          "name": "pdf-text",
+          "ok": true,
+          "elapsed_ms": 4.94,
+          "needs_ocr": true
+        },
+        {
+          "name": "ocr-router",
+          "ok": false,
+          "elapsed_ms": 46809.86,
+          "error": "Recognition did not explicitly finish normally"
+        }
+      ],
+      "text": "",
+      "external_fallback_required": true,
+      "credits_used": 0,
+      "final_url": "https://pick-pal-rate-exp.trycloudflare.com/thai-royal.pdf",
+      "content_sha256": "d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+      "document_language_hint": null,
+      "total_pages": 3,
+      "pages_read": [
+        1,
+        3
+      ],
+      "ocr_pages": [
+        1,
+        2,
+        3
+      ],
+      "error": "Recognition did not explicitly finish normally",
+      "elapsed_ms": 48705.95,
+      "fallback_count": 1,
+      "fallback_request_id": "5771f8d73e864f868d25d469a2cce6ad",
+      "next_tool_call": {
+        "server": "firecrawl",
+        "tool": "firecrawl_scrape",
+        "arguments": {
+          "url": "https://pick-pal-rate-exp.trycloudflare.com/thai-royal.pdf",
+          "formats": [
+            "markdown"
+          ],
+          "maxAge": 0,
+          "storeInCache": false,
+          "pdfOptions": {
+            "maxPages": 3
+          },
+          "domainTools": false
+        }
+      },
+      "suggested_next_step": "Use the connected Firecrawl tool once within the authorized credit budget, then research_complete_fallback; do not repeat indefinitely.",
+      "server_commit": "6abd27527610b57881ca576b93ca9d5c5294b858"
+    },
+    "created": 1793538664.113727,
+    "updated": 1793538712.94793,
+    "attempts": 1,
+    "arguments": {
+      "url": "https://pick-pal-rate-exp.trycloudflare.com/thai-royal.pdf",
+      "cache": false,
+      "max_pages": 3,
+      "max_chars": 40000,
+      "mode": "ocr",
+      "ocr_policy": "quality"
+    }
+  }
+}

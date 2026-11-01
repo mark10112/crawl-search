@@ -38,7 +38,9 @@ lines+=['','balanced และ quality ปัจจุบันใช้โม�
 for s in summaries:
     if not s['provider'].startswith('mac'):continue
     lines.append(f"| {s['provider']} / {s['phase']} | {gib(s['native_rss_peak'])} | {gib(s['system_nonfree_peak'])} | {gib(s['compressor_peak'])} | {gib(s['available_min'])} | {s['swap_out_delta']/1024**2:.2f} |")
-lines+=['','RSS เป็นผลรวมโปรเซส OCR, MLX และ API รวม gateway ทดสอบ/production ที่ idle ไม่รวม Docker VM และแอปอื่น RSS อาจนับ shared memory ซ้ำและไม่ใช่ MLX allocation ทั้งหมด จึงไม่ใช่ขนาด RAM ที่โมเดลใช้เพียงตัวเดียว',
+lines+=['','โมเดลโหลดค้างก่อนรัน ค่า native RSS ช่วง baseline 10 วินาทีก่อนเริ่มมีค่ามัธยฐานประมาณ 3.20 GiB จึงห้ามตีความว่า peak 3.45 GiB เป็นแรมที่เพิ่มจากเครื่องว่างทั้งหมด',
+'','![เวลาอ่านและแรมที่วัดจริง](benchmark.png)',
+'','RSS เป็นผลรวมโปรเซส OCR, MLX และ API รวม gateway ทดสอบ/production ที่ idle ไม่รวม Docker VM และแอปอื่น RSS อาจนับ shared memory ซ้ำและไม่ใช่ MLX allocation ทั้งหมด จึงไม่ใช่ขนาด RAM ที่โมเดลใช้เพียงตัวเดียว',
 '','RAM ทั้งเครื่องที่ไม่ free มาจาก vm_stat และรวม file cache ที่เรียกคืนได้ จึงห้ามตีความว่าค่าใกล้ 16 GiB หมายถึงทุกไบต์เป็นแรมที่จำเป็นของระบบนี้ compressor อยู่ใน RAM ทั้งเครื่องแล้ว ห้ามนำมาบวกซ้ำ ใช้ available และ swap ประกอบ มีแอปพื้นหลัง/Docker/Ollama อยู่ตามสภาพเซิร์ฟเวอร์ ไม่ได้กัน RAM แบบ hard isolation',
 '','เก็บตัวอย่างทุก 0.5 วินาที คำขอ cache hit ที่สั้นกว่านั้นบางรายการใช้ตัวอย่างก่อน/หลังและระบุไว้ใน analysis.json ไม่ใช่ peak ที่รับรองว่าจับได้ทุก spike แรมเซิร์ฟเวอร์ Firecrawl วัดไม่ได้ผ่าน connected API จึงรายงาน N/A ไม่ใช่ศูนย์',
 '','## สาเหตุที่ตรวจพบ',

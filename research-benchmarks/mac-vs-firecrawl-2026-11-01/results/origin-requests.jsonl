@@ -1,0 +1,27 @@
+{"time": 1793538116.0503628, "file": "thai-gazette.pdf", "method": "GET", "user_agent": "python-httpx/0.28.1"}
+{"time": 1793538116.73271, "file": "thai-royal.pdf", "method": "GET", "user_agent": "python-httpx/0.28.1"}
+{"time": 1793538117.3275032, "file": "us-census.pdf", "method": "GET", "user_agent": "python-httpx/0.28.1"}
+{"time": 1793538118.4910421, "file": "us-preservation.pdf", "method": "GET", "user_agent": "python-httpx/0.28.1"}
+{"time": 1793538147.356565, "file": "thai-gazette.pdf", "method": "GET", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"}
+{"time": 1793538205.555379, "file": "thai-royal.pdf", "method": "GET", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"}
+{"time": 1793538214.4629729, "file": "us-census.pdf", "method": "GET", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"}
+{"time": 1793538223.9846, "file": "us-preservation.pdf", "method": "GET", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"}
+{"time": 1793538253.581022, "file": "thai-gazette.pdf", "method": "GET", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"}
+{"time": 1793538263.920481, "file": "thai-royal.pdf", "method": "GET", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"}
+{"time": 1793538272.065181, "file": "us-census.pdf", "method": "GET", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"}
+{"time": 1793538272.134877, "file": "us-census.pdf", "method": "GET", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"}
+{"time": 1793538282.3587232, "file": "us-preservation.pdf", "method": "GET", "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"}
+{"time": 1793538387.381265, "file": "thai-gazette.pdf", "method": "GET", "user_agent": "LocalResearch/0.1 (+local research reader)"}
+{"time": 1793538441.334392, "file": "thai-royal.pdf", "method": "GET", "user_agent": "LocalResearch/0.1 (+local research reader)"}
+{"time": 1793538488.084491, "file": "us-census.pdf", "method": "GET", "user_agent": "LocalResearch/0.1 (+local research reader)"}
+{"time": 1793538489.097784, "file": "us-preservation.pdf", "method": "GET", "user_agent": "LocalResearch/0.1 (+local research reader)"}
+{"time": 1793538490.0739589, "file": "thai-gazette.pdf", "method": "GET", "user_agent": "LocalResearch/0.1 (+local research reader)"}
+{"time": 1793538544.708213, "file": "thai-royal.pdf", "method": "GET", "user_agent": "LocalResearch/0.1 (+local research reader)"}
+{"time": 1793538592.473708, "file": "us-census.pdf", "method": "GET", "user_agent": "LocalResearch/0.1 (+local research reader)"}
+{"time": 1793538593.797886, "file": "us-preservation.pdf", "method": "GET", "user_agent": "LocalResearch/0.1 (+local research reader)"}
+{"time": 1793538594.595574, "file": "thai-gazette.pdf", "method": "GET", "user_agent": "LocalResearch/0.1 (+local research reader)"}
+{"time": 1793538600.4778728, "file": "thai-royal.pdf", "method": "GET", "user_agent": "LocalResearch/0.1 (+local research reader)"}
+{"time": 1793538647.705238, "file": "thai-gazette.pdf", "method": "GET", "user_agent": "LocalResearch/0.1 (+local research reader)"}
+{"time": 1793538665.6383948, "file": "thai-royal.pdf", "method": "GET", "user_agent": "LocalResearch/0.1 (+local research reader)"}
+{"time": 1793538713.366997, "file": "us-census.pdf", "method": "GET", "user_agent": "LocalResearch/0.1 (+local research reader)"}
+{"time": 1793538770.9066172, "file": "us-preservation.pdf", "method": "GET", "user_agent": "LocalResearch/0.1 (+local research reader)"}
