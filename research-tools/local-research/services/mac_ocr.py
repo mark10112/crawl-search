@@ -1,24 +1,121 @@
 """Native Paddle layout + MLX recognition. Preserve each region's finish reason."""
-import base64,hashlib,io,json,os,re,threading,time
+import base64,hashlib,html,io,json,os,re,threading,time
 from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
 from pathlib import Path
 import httpx
 from PIL import Image
-from completion_checks import completion_flags
+from completion_checks import completion_flags,compact_markup,excessive_repetition
+from table_bands import is_table,request_image,bands,tile_request,combine,reconciled_summary
+from row_geometry import index_rows,short_table_rows
 
 REVISION='c5630abae1d940eafe0697512a0325494b02ab42'
 STATE=Path(os.environ.get('MAC_OCR_STATE',str(Path.home()/'research-server/state/ocr')));STATE.mkdir(parents=True,exist_ok=True)
-MODEL=os.environ['MAC_OCR_MODEL'];pipeline=None;lock=threading.Lock();calls=[]
+MODEL=os.environ['MAC_OCR_MODEL'];pipeline=None;lock=threading.Lock();generation_lock=threading.Lock();calls=[];recognition_profile='detail'
+INDEX_REPAIR=os.getenv('MAC_OCR_EXPERIMENTAL_INDEX','0')=='1'
+MAX_NEW_TOKENS=int(os.getenv('PADDLEOCR_VL_MAX_NEW_TOKENS','8192'))
+if not 1<=MAX_NEW_TOKENS<=8192:raise ValueError('PADDLEOCR_VL_MAX_NEW_TOKENS must be between 1 and 8192')
+REPETITION_PENALTY=float(os.getenv('MAC_OCR_REPETITION_PENALTY','1.0'))
+if not 1<=REPETITION_PENALTY<=1.2:raise ValueError('MAC_OCR_REPETITION_PENALTY must be between 1 and 1.2')
+
+def recognition_request(body):
+    body=dict(body)
+    requested=body.get('max_tokens') or body.get('max_completion_tokens')
+    body.update(stream=False,temperature=0,max_tokens=min(int(requested or MAX_NEW_TOKENS),MAX_NEW_TOKENS),
+                repetition_penalty=REPETITION_PENALTY,repetition_context_size=64)
+    body.pop('max_completion_tokens',None);body['model']=MODEL
+    return body,requested
+
+def collect_stream(lines):
+    """Reassemble SSE, cancelling consumption on the existing repetition rule.
+
+    A guard is an incomplete result, never a synthetic normal finish. Token
+    usage stays unknown when cancellation prevents the final usage packet.
+    """
+    text='';finish=None;usage=None;guard=False;chunks=0;checked=0;metadata={}
+    for line in lines:
+        if not line.startswith('data:'):continue
+        data=line[5:].strip()
+        if data=='[DONE]':break
+        event=json.loads(data)
+        metadata.update({k:event[k] for k in ['id','created','model'] if k in event})
+        if event.get('error'):raise RuntimeError(str(event['error']))
+        if event.get('usage'):usage=event['usage']
+        for choice in event.get('choices',[]):
+            text+=choice.get('delta',{}).get('content') or ''
+            chunks+=1
+            if choice.get('finish_reason') is not None:finish=choice['finish_reason']
+        if len(text)-checked>=128 or finish is not None:
+            checked=len(text)
+            if excessive_repetition(text[-4096:]):guard=True;break
+    if not guard and finish is None:raise RuntimeError('Recognition stream ended without a finish reason')
+    return {'id':metadata.get('id','native-'+str(time.time_ns())),'created':metadata.get('created',int(time.time())),
+            'model':metadata.get('model',MODEL),'object':'chat.completion',
+            'choices':[{'index':0,'message':{'role':'assistant','content':text},'finish_reason':'length' if guard else finish}],
+            'usage':usage or {'completion_tokens':None},'repetition_guard':guard,
+            'token_usage_complete':usage is not None,'received_chunks':chunks,'received_chars':len(text)}
+
+def stream_recognition(path,body):
+    streaming={**body,'stream':True,'stream_options':{'include_usage':True}}
+    with httpx.Client(timeout=240) as client:
+        with client.stream('POST','http://127.0.0.1:8111'+path,json=streaming) as response:
+            if response.status_code!=200:return httpx.Response(response.status_code,content=response.read())
+            payload=collect_stream(response.iter_lines())
+    return httpx.Response(200,json=payload)
+
+def forward_recognition(path,body):
+    # Paddle dispatches regions concurrently. Keep only one image request in
+    # this MLX backend's continuous batch; isolated crop probes finish normally
+    # where concurrent layout requests can run to the token limit.
+    with generation_lock:
+        image=request_image(body) if recognition_profile!='baseline' and is_table(body) else None
+        shallow=short_table_rows(image) if image is not None else []
+        intervals=(shallow or bands(image)) if image is not None else []
+        if len(intervals)<=1:return stream_recognition(path,body)
+        parts=[];metadata=[]
+        for interval in intervals:
+            request,source_hash=tile_request(body,image,interval)
+            response=stream_recognition(path,request)
+            if response.status_code!=200:return response
+            payload=response.json();parts.append(payload)
+            metadata.append({'y':list(interval),'width':image.width,'input_sha256':source_hash,
+                'finish_reason':payload['choices'][0]['finish_reason'],'usage':payload.get('usage'),
+                'repetition_guard':payload.get('repetition_guard',False)})
+            if payload['choices'][0]['finish_reason'] not in {'stop','eos_token'}:break
+        assembled=combine(parts,metadata,image.height)
+        if not assembled['table_band_complete'] and all(p['choices'][0]['finish_reason'] in {'stop','eos_token'} for p in parts):
+            # Inconsistent band structure is not accepted or padded into a
+            # success. Obtain a new complete read of the original table crop.
+            single=stream_recognition(path,body)
+            if single.status_code!=200:return single
+            payload=single.json()
+            reconciled=reconciled_summary(parts,payload) if shallow else None
+            if reconciled is not None:
+                selected=combine(reconciled,metadata,image.height)
+                selected['table_attempts']=[{'strategy':'source-rows','complete':False,'bands':metadata,
+                    'texts':[p['choices'][0]['message']['content'] for p in parts]},
+                    {'strategy':'full-table-summary-agreement','text':payload['choices'][0]['message']['content'],
+                     'usage':payload.get('usage'),'selected_summary_from_full_read':True}]
+                return httpx.Response(200,json=selected)
+            payload['table_attempts']=[{'strategy':'bands','complete':False,'bands':metadata,
+                'columns':assembled['table_band_columns']},{'strategy':'single-high-detail',
+                'finish_reason':payload['choices'][0]['finish_reason'],'usage':payload.get('usage')}]
+            return httpx.Response(200,json=payload)
+        return httpx.Response(200,json=assembled)
 
 class Proxy(BaseHTTPRequestHandler):
     def do_POST(self):
         try:
             body=json.loads(self.rfile.read(int(self.headers.get('Content-Length',0))))
-            body.update(stream=False,temperature=0,max_tokens=min(int(body.get('max_tokens') or body.get('max_completion_tokens') or 8192),8192))
-            body.pop('max_completion_tokens',None);body['model']=MODEL
-            r=httpx.post('http://127.0.0.1:8111'+self.path,json=body,timeout=240)
+            body,requested=recognition_request(body)
+            r=forward_recognition(self.path,body)
             if r.status_code==200:
-                payload=r.json();calls.extend({'finish_reason':c.get('finish_reason'),'tokens':payload.get('usage',{}).get('completion_tokens')} for c in payload.get('choices',[]))
+                payload=r.json();calls.extend({'finish_reason':'repetition_guard' if payload.get('repetition_guard') else c.get('finish_reason'),'tokens':payload.get('usage',{}).get('completion_tokens'),
+                    'requested_max_tokens':requested,'effective_max_tokens':body['max_tokens'],
+                    'repetition_penalty':body['repetition_penalty'],'repetition_context_size':body['repetition_context_size'],
+                    'serialized':True,'repetition_guard':payload.get('repetition_guard',False),
+                    'token_usage_complete':payload.get('token_usage_complete',True),'received_chars':payload.get('received_chars'),
+                    'table_bands':payload.get('table_bands'),'table_band_complete':payload.get('table_band_complete'),
+                    'table_band_columns':payload.get('table_band_columns'),'table_attempts':payload.get('table_attempts')} for c in payload.get('choices',[]))
             self.send_response(r.status_code);self.send_header('Content-Type','application/json');self.end_headers();self.wfile.write(r.content)
         except Exception as exc:
             self.send_response(502);self.end_headers();self.wfile.write(json.dumps({'error':str(exc)}).encode())
@@ -26,16 +123,52 @@ class Proxy(BaseHTTPRequestHandler):
         r=httpx.get('http://127.0.0.1:8111'+self.path,timeout=15);self.send_response(r.status_code);self.end_headers();self.wfile.write(r.content)
     def log_message(self,*args):pass
 
+def read_crop(image,bbox,prompt='OCR:',direct=False):
+    buf=io.BytesIO();image.crop(tuple(bbox)).save(buf,format='PNG');data=buf.getvalue()
+    body={'messages':[{'role':'user','content':[{'type':'image_url','image_url':{'url':'data:image/png;base64,'+base64.b64encode(data).decode()}},{'type':'text','text':prompt}]}]}
+    body,requested=recognition_request(body)
+    if direct:
+        with generation_lock:response=stream_recognition('/v1/chat/completions',body)
+    else:response=forward_recognition('/v1/chat/completions',body)
+    if response.status_code!=200:raise RuntimeError('Crop recognition HTTP '+str(response.status_code))
+    payload=response.json()
+    choice=payload['choices'][0]
+    meta={'bbox':bbox,'input_sha256':hashlib.sha256(data).hexdigest(),'finish_reason':choice['finish_reason'],
+          'tokens':(payload.get('usage') or {}).get('completion_tokens'),'usage':payload.get('usage'),
+          'requested_max_tokens':requested,'effective_max_tokens':body['max_tokens'],
+          'repetition_guard':payload.get('repetition_guard',False),'token_usage_complete':payload.get('token_usage_complete',True)}
+    calls.append(meta)
+    return {'text':choice['message']['content'].strip(),**meta}
+
+def read_index_page(image,rows):
+    # The measured row/cell trials lost Thai language context. Keep the entire
+    # source page in one genuine recognition, bypassing table band splitting.
+    part=read_crop(image,[0,0,image.width,image.height],prompt='Table Recognition:',direct=True)
+    parsed=[]
+    for raw in part['text'].split('<nl>'):
+        if not raw.strip():continue
+        cells=[c.strip() for c in re.split(r'<(?:fcel|ecel|lcel|ucel|xcel)>',raw)[1:]]
+        parsed.append(cells)
+    data=[cells for cells in parsed if len(cells)==3 and re.fullmatch(r'\d{2,6}',cells[0]) and cells[1] and re.fullmatch(r'\d{1,6}',cells[2])]
+    complete=part['finish_reason'] in {'stop','eos_token'} and not part['repetition_guard'] and len(data)==len(rows)
+    attempt={'strategy':'whole-index-page-no-banding','recognition':part,'cells':parsed,'data_rows':len(data),'expected_rows':len(rows),'complete':bool(complete)}
+    # Preserve headers/years in the same order when they are present in output.
+    text='<table>'+''.join('<tr>'+''.join('<td>'+html.escape(cell)+'</td>' for cell in cells)+'</tr>' for cells in parsed)+'</table>'
+    return (text if complete else None),[attempt]
+
 def ocr(body):
-    global pipeline
+    global pipeline,recognition_profile
     data=base64.b64decode(body['image_base64'],validate=True)
     if len(data)>20*1024*1024:raise ValueError('Image exceeds 20 MiB')
     image=Image.open(io.BytesIO(data))
     if image.width*image.height>16000000:raise ValueError('Image exceeds 16 megapixels')
     policy=body.get('policy','balanced')
     if policy not in {'balanced','quality'}:raise ValueError('Invalid OCR policy')
-    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v1',policy]).encode()).hexdigest();cache=STATE/(key+'.json')
+    profile=body.get('recognition_profile','detail')
+    if profile not in {'detail','baseline'}:raise ValueError('Invalid recognition profile')
+    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v13-shallow-summary-index-opt-in',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64,profile,INDEX_REPAIR]).encode()).hexdigest();cache=STATE/(key+'.json')
     with lock:
+        recognition_profile=profile
         if body.get('cache',True) and cache.exists():
             result=json.loads(cache.read_text());result.update(cache_hit=True,elapsed_ms=0);return result
         if pipeline is None:
@@ -43,17 +176,33 @@ def ocr(body):
             pipeline=PaddleOCRVL(pipeline_version='v1.6',device='cpu',use_doc_orientation_classify=False,use_doc_unwarping=False,
                 vl_rec_backend='mlx-vlm-server',vl_rec_server_url='http://127.0.0.1:8112/',vl_rec_api_model_name=MODEL)
         calls.clear();start=time.perf_counter();path=STATE/(key+'.png');image.convert('RGB').save(path)
-        output=list(pipeline.predict(str(path)))
+        # Paddle's pipeline otherwise supplies 4096, overriding its model/env default.
+        output=list(pipeline.predict(str(path),max_new_tokens=MAX_NEW_TOKENS))
         texts=[];regions=[]
         for result in output:
             markdown=result.markdown;texts.append(markdown.get('markdown_texts',''))
             detail=result.json
             if isinstance(detail,dict):regions.extend(detail.get('res',detail).get('parsing_res_list',[]))
-        text='\n\n'.join(texts);flags=completion_flags(text,calls)
+        layout_text='\n\n'.join(texts);original_text=layout_text;row_attempts=[]
+        detected=index_rows(image) if profile!='baseline' and INDEX_REPAIR else []
+        if detected:
+            rebuilt,row_attempts=read_index_page(image,detected)
+            if rebuilt is not None:
+                # Keep headings/year labels outside the reconstructed row area.
+                top=detected[0]['bbox'][1];bottom=detected[-1]['bbox'][3]
+                outside=[r.get('block_content','') for r in regions if r.get('block_label')!='seal' and
+                         (r['block_bbox'][3]<top or r['block_bbox'][1]>bottom)]
+                original_text='\n\n'.join(outside+[rebuilt])
+        flags=completion_flags(original_text,calls)
+        if detected and (not row_attempts or not all(a['complete'] for a in row_attempts)):
+            flags.append('Index row reconstruction incomplete')
+        text=compact_markup(original_text)
         result={'ok':not flags,'text':text,'engine':'paddleocr-vl-1.6-mlx-layout','revision':REVISION,'cache_hit':False,
-            'truncated':bool(flags),'policy':policy,'language_hint':body.get('language_hint'),'elapsed_ms':round((time.perf_counter()-start)*1000,2),
+            'truncated':bool(flags),'policy':policy,'max_new_tokens':MAX_NEW_TOKENS,'repetition_penalty':REPETITION_PENALTY,
+            'original_markup_chars':len(original_text),'recognition_profile':profile,'language_hint':body.get('language_hint'),'elapsed_ms':round((time.perf_counter()-start)*1000,2),
             'route':[{'engine':'paddle-layout+mlx','regions':len(regions),'generations':list(calls)}],
-            'quality_flags':flags,'regions':regions,'quality_warning':'Completion checks are not proof of transcription accuracy.'}
+            'quality_flags':flags,'regions':regions,'index_rows':row_attempts,'index_repair_enabled':INDEX_REPAIR,'original_layout_text':layout_text if detected else None,
+            'quality_warning':'Completion checks are not proof of transcription accuracy.'}
         if flags:result['error']='; '.join(flags)
         if body.get('cache',True) and result['ok']:
             temp=cache.with_suffix('.tmp');temp.write_text(json.dumps(result,ensure_ascii=False));temp.replace(cache)

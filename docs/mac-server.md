@@ -126,3 +126,49 @@ There is no automatic state retention policy yet. Back up or prune completed job
 Run `deploy/mac/smoke.py` on Mac for the API check. Run `deploy/mac/client_smoke.py` on Windows with SSH variables and `CLIENT_SMOKE_OUTPUT` set. `deploy/mac/document_smoke.py` checks two-page transfer hashes, deduplication and reconnects; set `DOCUMENT_SMOKE_OUTPUT` and optionally `RESEARCH_SMOKE_TABLE` to a scanned table image.
 
 Official reference: [PaddleOCR Apple Silicon deployment](https://www.paddleocr.ai/latest/en/version3.x/pipeline_usage/PaddleOCR-VL-Apple-Silicon.html).
+
+## Experimental OCR output controls (PR #3; not deployed to main)
+
+The follow-up candidate serializes recognition requests into MLX and forwards an explicit 8,192-token recognition budget and `repetition_penalty=1.0` with a 64-token context to MLX. `MAC_OCR_REPETITION_PENALTY` accepts 1.0–1.2; changing it invalidates page results. Normal-finish, repeated-output and table-closure checks remain required. These settings require measured accuracy review; they are not proof of complete or correct recognition.
+
+Table markup is compacted by removing presentation attributes while preserving cells, text, row/column spans and element structure. Per-page results retain region provenance and the original markup length.
+
+For the candidate API/MCP reader, `max_chars=0` returns the complete selected page range. A positive value explicitly requests a preview and is no longer silently clamped to 40,000. Check `output_complete` and `truncated`; if truncated, repeat with `max_chars=0`. Existing page/input-size bounds still apply. `research_read_file` negotiates complete selected output on a server advertising `complete-output-v1`, and preserves the existing preview default on older servers, while URL reads keep a bounded preview default. Full selected output does not imply that unrequested pages were read or every character was recognised accurately.
+
+The controlled second-round evidence is in `research-benchmarks/ocr-repeat-round2-2026-11-01/REPORT.md`.
+
+The 1.05 global-penalty trial did not resolve Thai length stops and is retained as failed experimental evidence. The serialized candidate is evaluated separately in `research-benchmarks/ocr-serial-round2b-2026-11-01/REPORT.md`.
+
+The final experimental candidate also consumes upstream SSE and closes the HTTP stream when the existing excessive-repetition rule fires. This is an incomplete, rejected recognition result, not a repaired transcript. Cancellation before final usage leaves token counts unknown. The selected full-output API and table compaction do not override this failure. Final evidence is in `research-benchmarks/ocr-guard-round2c-2026-11-01/REPORT.md`.
+
+Clients explicitly requesting `max_chars=0` check the server feature before submitting. An old server interprets zero as a short preview, so unsupported full-output requests fail clearly rather than silently returning a 100-character result. No production service needs to change before this candidate is accepted.
+
+## Accuracy candidate after round 3 (PR #3; not deployed)
+
+Input rendering now preserves up to 300 DPI for small pages and pages with several long vertical table rules. A <=500k-pixel preview selects detail for large ruled pages; large plain pages retain 144 DPI. Rendering remains bounded by 12MP and 20MiB encoded input. The selected DPI and dimensions are recorded per page.
+
+Dense tables are read in source-contiguous image bands (no missing/overlapping pixels). Inconsistent band structure is never padded into a success: one new full-table recognition is attempted and both traces retained. A failed detail page may be rerendered and independently recognised once with the baseline profile. Both failures remain failures; failed attempts count toward elapsed time.
+
+Repetition checks distinguish printed dot/dash leaders from repeated letters/numbers/marks. Semantic 20x repetition checks remain; punctuation-only generation is bounded at 1024 characters. Legitimate table leaders must not trigger a false cancellation. No reference-derived corrections or CPU prototype outputs are used.
+
+See `research-benchmarks/ocr-accuracy-round3c-2026-11-02/REPORT.md` for final measured evidence; earlier failed trials and CPU/grid pilots are retained separately. All changes remain on the experimental branch.
+
+## Row diagnosis and selected candidate (round 4; not deployed)
+
+Shallow table crops now use first-column text-line boundaries before the dense-table strategy. If only the last band has fewer cells, its nonempty cell values must exactly match one normally completed full-table row at the established preceding-row width. The independently recognised full-table summary can then be selected alongside the independently recognised data rows. No empty cells or values are inferred; both raw strategies remain in `table_attempts`. The San Diego Sun row passed the unchanged strict reference in two trials; final Preservation references were 3/3 at 39.16s versus the recorded 2/3 at 35.02s.
+
+Thai index geometry detection and whole-page reconstruction remain experimental, **off by default**. `MAC_OCR_EXPERIMENTAL_INDEX=1` enables the experiment; restart both reader and worker with the same value, since both caches include it. Independent ID/value crops, full-row reads and whole-page table recognition all failed the source-row/completion checks on the Gazette sample. Default operation retains its prior complete layout output, with page-number accuracy still 0/6. Do not treat normally finished generation as an accuracy guarantee.
+
+The separate Census oracle-crop study measured 11/20 numeric cells from whole tables, 14/20 from accepted row reads and 17/20 from cell reads; one row was rejected for repetition despite a correct prefix. These are diagnostic outputs, never replacements in the document pipeline. No alternative model was tested. See `research-benchmarks/ocr-row-round4-2026-11-02/REPORT.md` for frozen prompts, pixel identity checks, individual failures, candidate SHAs and restoration evidence. The target PDFs were retested on the final candidate; the other two document observations are explicitly from an earlier candidate.
+
+## Backup recognizer trial (round 5; diagnostic only)
+
+The follow-up compares nine frozen numeric crops on Mac: original VL, Thai/English PP-OCRv5 mobile recognizers, official Tesseract fast/best data, and separate detector-assisted / segmentation-mode configurations. Across three repeated warm passes, Tesseract best PSM 7 was correct on only 1/6 Gazette page numbers and 1/3 hard Census cells (nine-image read time about 0.273s; sampled reader RSS peak 109 MiB). Detector-assisted PP recovered a different Census cell but no Thai page number. RSS excludes unreported Metal allocations, and CLI timings include per-image startup.
+
+No backup recognizer is integrated or selected automatically. The Tesseract binary/dependencies and pinned Thai/English model files are installed on Mac for these experiments only; production remains on the existing immutable release. See `research-benchmarks/ocr-backup-round5-2026-11-02/REPORT.md` for all seven configurations, per-cell results, repeated timings, model/input hashes, exact memory boundaries, and three restoration records.
+
+## Source/crop audit (round 6; diagnostic only)
+
+Source review confirms six Thai page numbers visually. The three intended Census values are corroborated by other official Census tables, but the glyphs in this exact scan remain ambiguous. Their intended-value scores are now reported separately from the six image-confirmed cases; old reference values/results remain unchanged.
+
+A fixed 2x2 ablation compares original/tight dominant-line crop, each with/without 10px white border, on the same VL and Tesseract-best PSM7 readers. Tesseract padding improves the clear Thai subset from 1/6 to 2/6 but loses previous correct cells; the legacy nine-case total stays 2/9. Tight crop alone worsens recognition and VL stays 0/6. Sampled reader-phase RSS peaks were about 2122 MiB (VL, excluding unreported Metal allocations) and 110 MiB (Tesseract wrapper plus subprocess). All four variants and 288 observations are retained in `research-benchmarks/ocr-crop-round6-2026-11-02/REPORT.md`. No preprocessing rule is promoted into runtime.

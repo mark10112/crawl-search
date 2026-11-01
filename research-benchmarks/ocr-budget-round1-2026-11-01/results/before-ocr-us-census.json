@@ -1,0 +1,68 @@
+{
+  "variant": "before",
+  "mode": "ocr",
+  "id": "us-census",
+  "worker_sha": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b",
+  "reader_sha": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b",
+  "started_at": 1793544827.1735098,
+  "ended_at": 1793544883.881933,
+  "elapsed_ms": 56708.22,
+  "request": {
+    "upload_id": "4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+    "mode": "ocr",
+    "cache": false,
+    "max_pages": 3,
+    "max_chars": 40000,
+    "ocr_policy": "quality"
+  },
+  "raw": {
+    "ok": false,
+    "url": "http://127.0.0.1:8778/assets/4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+    "reader": "pdf-text",
+    "cache_hit": false,
+    "stages": [
+      {
+        "name": "fetch",
+        "ok": true,
+        "elapsed_ms": 8.66
+      },
+      {
+        "name": "pdf-text",
+        "ok": true,
+        "elapsed_ms": 42.37,
+        "needs_ocr": true
+      },
+      {
+        "name": "ocr-router",
+        "ok": false,
+        "elapsed_ms": 56409.65,
+        "error": "Recognition did not explicitly finish normally"
+      }
+    ],
+    "text": "",
+    "external_fallback_required": false,
+    "credits_used": 0,
+    "final_url": "http://127.0.0.1:8778/assets/4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+    "content_sha256": "4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+    "document_language_hint": null,
+    "total_pages": 3,
+    "pages_read": [
+      1,
+      3
+    ],
+    "ocr_pages": [
+      1,
+      2,
+      3
+    ],
+    "error": "Recognition did not explicitly finish normally",
+    "elapsed_ms": 56461.22,
+    "fallback_count": 1,
+    "fallback_request_id": "574168478ecd44ec99e47b4242f0c91f",
+    "suggested_next_step": "This uploaded document has no public URL. Review it or explicitly authorise a separate cloud document upload.",
+    "upload_id": "4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+    "source_kind": "uploaded-document",
+    "needs_review": true,
+    "server_commit": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b"
+  }
+}

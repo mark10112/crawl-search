@@ -1,0 +1,18 @@
+{
+  "packages": {
+    "paddleocr": "3.7.0",
+    "paddlex": "3.7.2",
+    "paddlepaddle": "3.2.1",
+    "mlx-vlm": "0.7.11",
+    "mlx": "0.32.4",
+    "mlx-metal": "0.32.4"
+  },
+  "pipeline_file_sha256": "32966d14aad6ac1bc043737c96352a4f0b4efcbead96f9354254dd4b9d1c6675",
+  "default_locations": [
+    {
+      "line": 505,
+      "source": "        elif vlm_kwargs.get(\"max_new_tokens\", None) is None:\n            vlm_kwargs[\"max_new_tokens\"] = 4096"
+    }
+  ],
+  "cause": "Pipeline fills max_new_tokens=4096 when the prediction argument is None; candidate passes the configured budget explicitly."
+}

@@ -1,0 +1,6100 @@
+{
+  "mode": "vl",
+  "setup": {
+    "warmup_seconds": 3.4846745840004587,
+    "warmup": {
+      "text": "Research memorandum\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht.",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-323e10ec-b763-4595-aebf-74ef794dece2",
+        "created": 1793560945,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Research memorandum\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht."
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1253,
+          "completion_tokens": 73,
+          "total_tokens": 1326,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 73,
+        "received_chars": 259
+      }
+    },
+    "startup_seconds": 3.5627081250022457
+  },
+  "rows": [
+    {
+      "id": "g1__original",
+      "source_id": "g1",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "started_at": 1793560945.137711,
+      "ended_at": 1793560945.4389062,
+      "seconds": 0.30119570800161455,
+      "text": "⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-1ecbbbc4-17a1-4460-93dc-f8670ebc1c9b",
+        "created": 1793560945,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 4,
+          "total_tokens": 172,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g1__original_pad10",
+      "source_id": "g1",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "accad12d7844fb635ed3f5d64ed5b78ca91bf7d9af7758a5af659d409595de9e",
+      "started_at": 1793560945.444288,
+      "ended_at": 1793560945.736568,
+      "seconds": 0.2922809169976972,
+      "text": "⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-545e4f6c-e99f-4228-99fd-dc47e80f402b",
+        "created": 1793560945,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 4,
+          "total_tokens": 167,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g1__tight",
+      "source_id": "g1",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "8105fc0cf1cf0eed6105696785adb66ca7aaa8c466faa172954f75ab7bfcbb71",
+      "started_at": 1793560945.743398,
+      "ended_at": 1793560946.049024,
+      "seconds": 0.3056257080024807,
+      "text": "⑥",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-0e295a36-a550-4c9e-9442-b7ea7ad53344",
+        "created": 1793560946,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑥"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 2,
+          "total_tokens": 183,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g1__tight_pad10",
+      "source_id": "g1",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "b7e643424d15d2a5d0eaf7a219edc7d60ac033d096925c1a22b7f4bbe8fb5b82",
+      "started_at": 1793560946.055574,
+      "ended_at": 1793560946.334672,
+      "seconds": 0.27909912500035716,
+      "text": "③",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-27204465-5fe9-42a3-85a0-189b1b94816b",
+        "created": 1793560946,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "③"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 2,
+          "total_tokens": 171,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g2__original",
+      "source_id": "g2",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "started_at": 1793560946.3405619,
+      "ended_at": 1793560946.628764,
+      "seconds": 0.2882020420001936,
+      "text": "30",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-3aec41d4-aa20-4204-acc0-424e9839e21b",
+        "created": 1793560946,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "30"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 3,
+          "total_tokens": 171,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g2__original_pad10",
+      "source_id": "g2",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "3e7d7ea4b9407590b4c4e60d429c63c56e31c96741fe4082c6724068dffcfec9",
+      "started_at": 1793560946.635125,
+      "ended_at": 1793560946.950758,
+      "seconds": 0.3156331659993157,
+      "text": "๑๐",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-e3d70eb5-5be1-47c4-8be9-d6e7bf97f39c",
+        "created": 1793560946,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "๑๐"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 7,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g2__tight",
+      "source_id": "g2",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "349068633f120c6200b7d54053b3f461fec5197c378e8066221f52ae5ef93555",
+      "started_at": 1793560946.957367,
+      "ended_at": 1793560947.265387,
+      "seconds": 0.30802020899864146,
+      "text": "30",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-3042d3d7-fe3b-43e5-a84e-b098ac56f013",
+        "created": 1793560947,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "30"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 3,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g2__tight_pad10",
+      "source_id": "g2",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "73a7da2e5d3c9c8ec02aadde372664580d9ae8ff45898697be3af442c56193f6",
+      "started_at": 1793560947.271613,
+      "ended_at": 1793560947.592607,
+      "seconds": 0.3209939580010541,
+      "text": "౦௰",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-1c11bcb5-1093-4447-bde0-acb4174082c9",
+        "created": 1793560947,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "౦௰"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 7,
+          "total_tokens": 180,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__original",
+      "source_id": "g3",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "started_at": 1793560947.5978591,
+      "ended_at": 1793560947.888024,
+      "seconds": 0.29016487500121,
+      "text": "33",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-9b359ff8-9e35-42a1-93e3-fb268092372c",
+        "created": 1793560947,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "33"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__original_pad10",
+      "source_id": "g3",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "65c4b47f1bd9553ec565fb5e81bfb143c235f565cb8f96603fc336db467f5aec",
+      "started_at": 1793560947.8955278,
+      "ended_at": 1793560948.212491,
+      "seconds": 0.31696287500017206,
+      "text": "๒๙",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-394cabe0-19bf-4679-b9c5-556401d3d97e",
+        "created": 1793560948,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "๒๙"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 7,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__tight",
+      "source_id": "g3",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "85233b46708ce577ff4e1d621b5974692e111732524b423c2b42ff0c034382aa",
+      "started_at": 1793560948.219077,
+      "ended_at": 1793560948.5080671,
+      "seconds": 0.2889894580002874,
+      "text": "33",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-c836da9b-7831-41a1-ba56-b9e64bd2e217",
+        "created": 1793560948,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "33"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__tight_pad10",
+      "source_id": "g3",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "7d195351ea1d5e67f588edc65c7624ca854d7f1f6f1d00f69d32a6adc8bd2095",
+      "started_at": 1793560948.5130932,
+      "ended_at": 1793560948.791469,
+      "seconds": 0.2783755830023438,
+      "text": "ఆ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-5d90a175-511d-47e5-a338-cdc21edb2392",
+        "created": 1793560948,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ఆ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 2,
+          "total_tokens": 168,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g4__original",
+      "source_id": "g4",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "started_at": 1793560948.797101,
+      "ended_at": 1793560949.1028612,
+      "seconds": 0.30576045799898566,
+      "text": "मॅ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-86a45fb1-caa2-4fcf-8829-9d1ed4565c19",
+        "created": 1793560949,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "मॅ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 5,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4__original_pad10",
+      "source_id": "g4",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "1a949d6d35f087518b880c0a18138080f83c64ad230f677db786a3ae75173538",
+      "started_at": 1793560949.109243,
+      "ended_at": 1793560949.393579,
+      "seconds": 0.2843358329992043,
+      "text": "ตอ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-efb6930c-2095-4bfe-bf57-de4fc5b1e133",
+        "created": 1793560949,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ตอ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 3,
+          "total_tokens": 166,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4__tight",
+      "source_id": "g4",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "92cf9d588cf74eebd4516597f498f930d028963ec6fdea1fc0fa6910a9628038",
+      "started_at": 1793560949.3981628,
+      "ended_at": 1793560949.6986,
+      "seconds": 0.3004372079994937,
+      "text": "m⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-77b312c4-d481-4212-bdfa-64c18e180115",
+        "created": 1793560949,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "m⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 5,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4__tight_pad10",
+      "source_id": "g4",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "d94e84d291bd4d9e382d633194a2e57aa43987f8638b3cd6bcc70370e741411f",
+      "started_at": 1793560949.704648,
+      "ended_at": 1793560949.99341,
+      "seconds": 0.2887617910018889,
+      "text": "ต่อ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-5d616855-e51b-417f-b332-35e233291169",
+        "created": 1793560949,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ต่อ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 3
+      }
+    },
+    {
+      "id": "g5__original",
+      "source_id": "g5",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "started_at": 1793560950.001,
+      "ended_at": 1793560950.302794,
+      "seconds": 0.30179333300111466,
+      "text": "ཨུ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-5733011a-a57e-4fe2-bef4-9263735f176d",
+        "created": 1793560950,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ཨུ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 5,
+          "total_tokens": 168,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g5__original_pad10",
+      "source_id": "g5",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "0acf8b0249321b512a0cca5ab520c92b5c5b0a238559e2ecbf8a664e7924d847",
+      "started_at": 1793560950.310019,
+      "ended_at": 1793560950.635274,
+      "seconds": 0.3252544589995523,
+      "text": "อ๖",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-e02ea1b5-01a8-472f-a0de-b65f9a6c6f95",
+        "created": 1793560950,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "อ๖"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 5,
+          "total_tokens": 186,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g5__tight",
+      "source_id": "g5",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "5a0fd59557b6d0b3cac634647a74f1aca40dc2ff4a0838bae5a32f6e561052b8",
+      "started_at": 1793560950.6417952,
+      "ended_at": 1793560950.9427562,
+      "seconds": 0.30096066699843504,
+      "text": "a",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-fbefefe7-fc6b-4535-ae62-6f85f438d1e0",
+        "created": 1793560950,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "a"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 2,
+          "total_tokens": 177,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g5__tight_pad10",
+      "source_id": "g5",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "3759daf25862836d99d616641433610a9ed3f5a4604e62450be84eb316456ce3",
+      "started_at": 1793560950.949054,
+      "ended_at": 1793560951.279792,
+      "seconds": 0.33073774999866146,
+      "text": "ཤཱི",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-75feec0b-c8dd-4c8c-8faa-a28d6230af6f",
+        "created": 1793560951,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ཤཱི"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 8,
+          "total_tokens": 181,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 4,
+        "received_chars": 3
+      }
+    },
+    {
+      "id": "g6__original",
+      "source_id": "g6",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "started_at": 1793560951.287015,
+      "ended_at": 1793560951.660761,
+      "seconds": 0.3737461670025368,
+      "text": "༢༤་༤",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-a7f3755f-b36d-4962-896a-c542d8437a43",
+        "created": 1793560951,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "༢༤་༤"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 11,
+          "total_tokens": 192,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 5,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "g6__original_pad10",
+      "source_id": "g6",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "2326aa31f5e4446b4df4162c08cb7cc2ca92da6711c4999c1ca5c9c102097006",
+      "started_at": 1793560951.665601,
+      "ended_at": 1793560951.981343,
+      "seconds": 0.3157422919975943,
+      "text": "อดีต",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-a2dd2788-e7b0-4d9a-9aad-ff1a762d0bf1",
+        "created": 1793560951,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "อดีต"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 174,
+          "completion_tokens": 4,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 4,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "g6__tight",
+      "source_id": "g6",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "375434539d714daeb9bbca434a3a82bc68b6f8df9991cecd926c722936f1cdb5",
+      "started_at": 1793560951.9884212,
+      "ended_at": 1793560952.339828,
+      "seconds": 0.3514071250028792,
+      "text": "༢༤་༤",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-1ec70d56-1bbc-4637-8603-ecef242cef70",
+        "created": 1793560952,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "༢༤་༤"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 11,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 5,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "g6__tight_pad10",
+      "source_id": "g6",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "26989098a8697d85574d2d05c08a088a53c95cd4083c90c9855933ce0cb79e9a",
+      "started_at": 1793560952.34578,
+      "ended_at": 1793560952.673815,
+      "seconds": 0.3280346669998835,
+      "text": "ఐడిఐ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-9b1244c2-a955-4e07-8efa-9a5fd4d3a5a9",
+        "created": 1793560952,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ఐడిఐ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 8,
+          "total_tokens": 174,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 4,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "r1-c3__original",
+      "source_id": "r1-c3",
+      "variant": "original",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "started_at": 1793560952.68029,
+      "ended_at": 1793560953.0001311,
+      "seconds": 0.31984079200265114,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-9b20e77c-b0dd-4c8a-a80c-dccd175fd08e",
+        "created": 1793560952,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 7,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r1-c3__original_pad10",
+      "source_id": "r1-c3",
+      "variant": "original_pad10",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "434641204b596f5cb429ab14ce3476babaf1d62ac958f4568ae8b90757fd7f66",
+      "started_at": 1793560953.006745,
+      "ended_at": 1793560953.3209019,
+      "seconds": 0.31415658299738425,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-3b38fb3a-cf98-4efd-921e-d1d1010260bc",
+        "created": 1793560953,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 160,
+          "completion_tokens": 7,
+          "total_tokens": 167,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r1-c3__tight",
+      "source_id": "r1-c3",
+      "variant": "tight",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "50cdc67544b3f1034a0853f3df95fb64c04b88603a397c95c2ba052fbe0153fd",
+      "started_at": 1793560953.327809,
+      "ended_at": 1793560953.649447,
+      "seconds": 0.3216379169971333,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-04bce1d2-7dd6-4f7f-b0f3-8f50c954201f",
+        "created": 1793560953,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 7,
+          "total_tokens": 180,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r1-c3__tight_pad10",
+      "source_id": "r1-c3",
+      "variant": "tight_pad10",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "dfe498c74ee799f3790066fe5f1af16d6bd3c5dd5d50f4031291a028dac6a453",
+      "started_at": 1793560953.6553862,
+      "ended_at": 1793560953.98718,
+      "seconds": 0.33179370799916796,
+      "text": "69, 135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-a3fc7f5c-958d-4c4b-98ef-9fe197c772b6",
+        "created": 1793560953,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69, 135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 8,
+          "total_tokens": 174,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 8,
+        "received_chars": 7
+      }
+    },
+    {
+      "id": "r3-c1__original",
+      "source_id": "r3-c1",
+      "variant": "original",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "started_at": 1793560953.992769,
+      "ended_at": 1793560954.332662,
+      "seconds": 0.33989241699964623,
+      "text": "1,833,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-fc4a42c9-cf02-41cb-b278-786ebcbc9458",
+        "created": 1793560954,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,833,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 10,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r3-c1__original_pad10",
+      "source_id": "r3-c1",
+      "variant": "original_pad10",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "899f13df9cef05f950152786a452fcb09aeb493caedb3d989027508c9e830eb7",
+      "started_at": 1793560954.338889,
+      "ended_at": 1793560954.676484,
+      "seconds": 0.3375943749997532,
+      "text": "1,833,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-32c2ec5e-b465-4a5d-8f4f-512751b774cd",
+        "created": 1793560954,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,833,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 160,
+          "completion_tokens": 10,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r3-c1__tight",
+      "source_id": "r3-c1",
+      "variant": "tight",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "65a35126412b5372cfaa0f36263779ad6ca3133405564f3c8db9e129795a25c1",
+      "started_at": 1793560954.6843562,
+      "ended_at": 1793560955.0271192,
+      "seconds": 0.34276308300104574,
+      "text": "1,839,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-b58da08b-70db-4007-8e91-50a9fae32d22",
+        "created": 1793560955,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,839,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 10,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r3-c1__tight_pad10",
+      "source_id": "r3-c1",
+      "variant": "tight_pad10",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "8c4a6b47408ac37fe9654b30e4039ecd1d5c5621dcde6ea0191ebc66c747f3b2",
+      "started_at": 1793560955.03455,
+      "ended_at": 1793560955.3815382,
+      "seconds": 0.34698745800051256,
+      "text": "1,839,785",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-8d686b7c-40ab-46c8-9024-10634803dfed",
+        "created": 1793560955,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,839,785"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 10,
+          "total_tokens": 183,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r4-c5__original",
+      "source_id": "r4-c5",
+      "variant": "original",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "started_at": 1793560955.3884292,
+      "ended_at": 1793560955.7315369,
+      "seconds": 0.34310808400186943,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-a18231c7-8e48-4888-8188-fded2b860ad5",
+        "created": 1793560955,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r4-c5__original_pad10",
+      "source_id": "r4-c5",
+      "variant": "original_pad10",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "ffc8d850e2e6240f0688e94f99baef5e0ce0a5d8afbc63c2fc688ac26ac3af2c",
+      "started_at": 1793560955.739163,
+      "ended_at": 1793560956.0810611,
+      "seconds": 0.3418976249995467,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-47bcbd46-e725-4133-8057-7a417a77e699",
+        "created": 1793560956,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r4-c5__tight",
+      "source_id": "r4-c5",
+      "variant": "tight",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "1a93b7dc2dac5ea3d77d60fbe285634b066d01cb1c650babf65012d001ac01dc",
+      "started_at": 1793560956.0868008,
+      "ended_at": 1793560956.4295318,
+      "seconds": 0.3427303340031358,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-d251eddb-f5db-450e-8786-761c1a73bbd2",
+        "created": 1793560956,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r4-c5__tight_pad10",
+      "source_id": "r4-c5",
+      "variant": "tight_pad10",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "18ff33d6a9907b6dd096e3aaff1e28f24c54f047876c0d9d132441e735fee1b1",
+      "started_at": 1793560956.436674,
+      "ended_at": 1793560956.764519,
+      "seconds": 0.32784449999962817,
+      "text": "18, 282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-8ba321b1-6879-44ad-8a8d-105fb3396abd",
+        "created": 1793560956,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18, 282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 8,
+          "total_tokens": 174,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 8,
+        "received_chars": 7
+      }
+    },
+    {
+      "id": "g1__original",
+      "source_id": "g1",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "started_at": 1793560956.77053,
+      "ended_at": 1793560957.066255,
+      "seconds": 0.2957243330019992,
+      "text": "⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-83ab9130-d045-4a3d-9946-9de2c47885fb",
+        "created": 1793560957,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 4,
+          "total_tokens": 172,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g1__original_pad10",
+      "source_id": "g1",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "accad12d7844fb635ed3f5d64ed5b78ca91bf7d9af7758a5af659d409595de9e",
+      "started_at": 1793560957.0736861,
+      "ended_at": 1793560957.3673952,
+      "seconds": 0.29370879199996125,
+      "text": "⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-54caacf0-bf84-4f0a-89ab-b3372328f393",
+        "created": 1793560957,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 4,
+          "total_tokens": 167,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g1__tight",
+      "source_id": "g1",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "8105fc0cf1cf0eed6105696785adb66ca7aaa8c466faa172954f75ab7bfcbb71",
+      "started_at": 1793560957.373638,
+      "ended_at": 1793560957.6743941,
+      "seconds": 0.3007565000007162,
+      "text": "⑥",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-739e1ab1-9087-4ddf-af18-8d339fc7251b",
+        "created": 1793560957,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑥"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 2,
+          "total_tokens": 183,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g1__tight_pad10",
+      "source_id": "g1",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "b7e643424d15d2a5d0eaf7a219edc7d60ac033d096925c1a22b7f4bbe8fb5b82",
+      "started_at": 1793560957.681717,
+      "ended_at": 1793560957.962843,
+      "seconds": 0.28112666599918157,
+      "text": "③",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-9d108a9f-e419-405b-9b3e-d63d75cc770f",
+        "created": 1793560957,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "③"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 2,
+          "total_tokens": 171,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g2__original",
+      "source_id": "g2",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "started_at": 1793560957.967629,
+      "ended_at": 1793560958.255297,
+      "seconds": 0.28766737499972805,
+      "text": "30",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-ee7f992a-d6fd-4688-92fc-64c6a76e57f3",
+        "created": 1793560958,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "30"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 3,
+          "total_tokens": 171,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g2__original_pad10",
+      "source_id": "g2",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "3e7d7ea4b9407590b4c4e60d429c63c56e31c96741fe4082c6724068dffcfec9",
+      "started_at": 1793560958.260277,
+      "ended_at": 1793560958.577981,
+      "seconds": 0.3177040830014448,
+      "text": "๑๐",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-52c8bbcb-4b51-48b8-afad-e3add18e83cd",
+        "created": 1793560958,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "๑๐"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 7,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g2__tight",
+      "source_id": "g2",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "349068633f120c6200b7d54053b3f461fec5197c378e8066221f52ae5ef93555",
+      "started_at": 1793560958.5858712,
+      "ended_at": 1793560958.895136,
+      "seconds": 0.30926512500082026,
+      "text": "30",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-09c883ca-5c5e-4e9f-98d7-af6f67a753cb",
+        "created": 1793560958,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "30"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 3,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g2__tight_pad10",
+      "source_id": "g2",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "73a7da2e5d3c9c8ec02aadde372664580d9ae8ff45898697be3af442c56193f6",
+      "started_at": 1793560958.90171,
+      "ended_at": 1793560959.223243,
+      "seconds": 0.321532792000653,
+      "text": "౦௰",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-7ac632e3-e755-4b4d-bc6c-84930e574cca",
+        "created": 1793560959,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "౦௰"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 7,
+          "total_tokens": 180,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__original",
+      "source_id": "g3",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "started_at": 1793560959.229989,
+      "ended_at": 1793560959.519961,
+      "seconds": 0.2899718339976971,
+      "text": "33",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-c5d90958-56f9-4f7d-8143-49c58b89b56e",
+        "created": 1793560959,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "33"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__original_pad10",
+      "source_id": "g3",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "65c4b47f1bd9553ec565fb5e81bfb143c235f565cb8f96603fc336db467f5aec",
+      "started_at": 1793560959.528403,
+      "ended_at": 1793560959.845811,
+      "seconds": 0.31740841600185377,
+      "text": "๒๙",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-b697f1a9-a0fb-4e0d-be20-1f7c337d8203",
+        "created": 1793560959,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "๒๙"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 7,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__tight",
+      "source_id": "g3",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "85233b46708ce577ff4e1d621b5974692e111732524b423c2b42ff0c034382aa",
+      "started_at": 1793560959.852679,
+      "ended_at": 1793560960.143073,
+      "seconds": 0.29039429199838196,
+      "text": "33",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-19a46a2c-e8f1-49e3-b96f-45bcbafd8c48",
+        "created": 1793560960,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "33"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__tight_pad10",
+      "source_id": "g3",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "7d195351ea1d5e67f588edc65c7624ca854d7f1f6f1d00f69d32a6adc8bd2095",
+      "started_at": 1793560960.149804,
+      "ended_at": 1793560960.4292428,
+      "seconds": 0.27943862499887473,
+      "text": "ఆ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-2ef80013-10fa-4f2a-b720-fd19fa59f7bc",
+        "created": 1793560960,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ఆ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 2,
+          "total_tokens": 168,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g4__original",
+      "source_id": "g4",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "started_at": 1793560960.436935,
+      "ended_at": 1793560960.7431328,
+      "seconds": 0.30619770800331025,
+      "text": "मॅ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-dc4e350c-d0b9-4142-bb10-cc9d562310a3",
+        "created": 1793560960,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "मॅ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 5,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4__original_pad10",
+      "source_id": "g4",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "1a949d6d35f087518b880c0a18138080f83c64ad230f677db786a3ae75173538",
+      "started_at": 1793560960.750318,
+      "ended_at": 1793560961.0350778,
+      "seconds": 0.2847607910007355,
+      "text": "ตอ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-92af1433-fff7-497e-bff0-67e918d1eb8d",
+        "created": 1793560961,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ตอ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 3,
+          "total_tokens": 166,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4__tight",
+      "source_id": "g4",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "92cf9d588cf74eebd4516597f498f930d028963ec6fdea1fc0fa6910a9628038",
+      "started_at": 1793560961.0424042,
+      "ended_at": 1793560961.3423529,
+      "seconds": 0.29994887499924516,
+      "text": "m⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-8c5761d5-b0bc-44b1-8c67-d224e5b726f3",
+        "created": 1793560961,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "m⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 5,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4__tight_pad10",
+      "source_id": "g4",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "d94e84d291bd4d9e382d633194a2e57aa43987f8638b3cd6bcc70370e741411f",
+      "started_at": 1793560961.349227,
+      "ended_at": 1793560961.638898,
+      "seconds": 0.28967137500148965,
+      "text": "ต่อ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-c2b938b2-6bcc-4afc-87ef-5a525e27769a",
+        "created": 1793560961,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ต่อ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 3
+      }
+    },
+    {
+      "id": "g5__original",
+      "source_id": "g5",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "started_at": 1793560961.645879,
+      "ended_at": 1793560961.9470952,
+      "seconds": 0.30121620899808477,
+      "text": "ཨུ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-f9f929af-ddaf-4a93-805d-c4b1ae92eb39",
+        "created": 1793560961,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ཨུ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 5,
+          "total_tokens": 168,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g5__original_pad10",
+      "source_id": "g5",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "0acf8b0249321b512a0cca5ab520c92b5c5b0a238559e2ecbf8a664e7924d847",
+      "started_at": 1793560961.9536781,
+      "ended_at": 1793560962.279424,
+      "seconds": 0.3257462500005204,
+      "text": "อ๖",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-2f47b182-069f-4d66-b9d2-27e6606eb828",
+        "created": 1793560962,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "อ๖"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 5,
+          "total_tokens": 186,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g5__tight",
+      "source_id": "g5",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "5a0fd59557b6d0b3cac634647a74f1aca40dc2ff4a0838bae5a32f6e561052b8",
+      "started_at": 1793560962.287406,
+      "ended_at": 1793560962.58757,
+      "seconds": 0.30016408300070907,
+      "text": "a",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-56d09b5f-2e6d-40a1-8b60-554ba42b2ce8",
+        "created": 1793560962,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "a"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 2,
+          "total_tokens": 177,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g5__tight_pad10",
+      "source_id": "g5",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "3759daf25862836d99d616641433610a9ed3f5a4604e62450be84eb316456ce3",
+      "started_at": 1793560962.5943491,
+      "ended_at": 1793560962.924303,
+      "seconds": 0.329954083001212,
+      "text": "ཤཱི",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-31ed8264-c71f-4b1d-a25f-f78da762d40f",
+        "created": 1793560962,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ཤཱི"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 8,
+          "total_tokens": 181,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 4,
+        "received_chars": 3
+      }
+    },
+    {
+      "id": "g6__original",
+      "source_id": "g6",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "started_at": 1793560962.93194,
+      "ended_at": 1793560963.3063009,
+      "seconds": 0.37436033400081214,
+      "text": "༢༤་༤",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-e0933698-45e9-4f52-8255-48eedd003ad2",
+        "created": 1793560963,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "༢༤་༤"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 11,
+          "total_tokens": 192,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 5,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "g6__original_pad10",
+      "source_id": "g6",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "2326aa31f5e4446b4df4162c08cb7cc2ca92da6711c4999c1ca5c9c102097006",
+      "started_at": 1793560963.313513,
+      "ended_at": 1793560963.6280372,
+      "seconds": 0.31452374999935273,
+      "text": "อดีต",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-d50e0346-21dc-4dec-987b-e22d9ef0bc42",
+        "created": 1793560963,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "อดีต"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 174,
+          "completion_tokens": 4,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 4,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "g6__tight",
+      "source_id": "g6",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "375434539d714daeb9bbca434a3a82bc68b6f8df9991cecd926c722936f1cdb5",
+      "started_at": 1793560963.634198,
+      "ended_at": 1793560963.985703,
+      "seconds": 0.3515052500006277,
+      "text": "༢༤་༤",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-6ba8bf83-ca6d-4f78-aec7-1eb56bd47f69",
+        "created": 1793560963,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "༢༤་༤"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 11,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 5,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "g6__tight_pad10",
+      "source_id": "g6",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "26989098a8697d85574d2d05c08a088a53c95cd4083c90c9855933ce0cb79e9a",
+      "started_at": 1793560963.992036,
+      "ended_at": 1793560964.318795,
+      "seconds": 0.32676004200038733,
+      "text": "ఐడిఐ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-9673d8a5-dce5-486f-a73d-525ea4d8dcbe",
+        "created": 1793560964,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ఐడిఐ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 8,
+          "total_tokens": 174,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 4,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "r1-c3__original",
+      "source_id": "r1-c3",
+      "variant": "original",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "started_at": 1793560964.325235,
+      "ended_at": 1793560964.6447759,
+      "seconds": 0.3195442500000354,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-8e0ae452-bc77-481f-9be9-fa0c7d3fd737",
+        "created": 1793560964,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 7,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r1-c3__original_pad10",
+      "source_id": "r1-c3",
+      "variant": "original_pad10",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "434641204b596f5cb429ab14ce3476babaf1d62ac958f4568ae8b90757fd7f66",
+      "started_at": 1793560964.654151,
+      "ended_at": 1793560964.9710379,
+      "seconds": 0.31688716699864017,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-921a29c0-d938-4509-9656-c88e353add20",
+        "created": 1793560964,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 160,
+          "completion_tokens": 7,
+          "total_tokens": 167,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r1-c3__tight",
+      "source_id": "r1-c3",
+      "variant": "tight",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "50cdc67544b3f1034a0853f3df95fb64c04b88603a397c95c2ba052fbe0153fd",
+      "started_at": 1793560964.980275,
+      "ended_at": 1793560965.303204,
+      "seconds": 0.32292970799971954,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-a54e244c-70e6-4d84-9d5a-ed9115f26e18",
+        "created": 1793560965,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 7,
+          "total_tokens": 180,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r1-c3__tight_pad10",
+      "source_id": "r1-c3",
+      "variant": "tight_pad10",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "dfe498c74ee799f3790066fe5f1af16d6bd3c5dd5d50f4031291a028dac6a453",
+      "started_at": 1793560965.309897,
+      "ended_at": 1793560965.639692,
+      "seconds": 0.329795000001468,
+      "text": "69, 135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-51ac9662-e31f-4b8c-8ba1-37507c72449b",
+        "created": 1793560965,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69, 135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 8,
+          "total_tokens": 174,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 8,
+        "received_chars": 7
+      }
+    },
+    {
+      "id": "r3-c1__original",
+      "source_id": "r3-c1",
+      "variant": "original",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "started_at": 1793560965.6486862,
+      "ended_at": 1793560965.98996,
+      "seconds": 0.34127458299917635,
+      "text": "1,833,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-53872da4-40b2-425f-aaa2-bd4e4b56dd60",
+        "created": 1793560965,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,833,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 10,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r3-c1__original_pad10",
+      "source_id": "r3-c1",
+      "variant": "original_pad10",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "899f13df9cef05f950152786a452fcb09aeb493caedb3d989027508c9e830eb7",
+      "started_at": 1793560965.998295,
+      "ended_at": 1793560966.335042,
+      "seconds": 0.33674670799882733,
+      "text": "1,833,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-005add73-d97f-497e-93a8-1cf9673d7afd",
+        "created": 1793560966,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,833,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 160,
+          "completion_tokens": 10,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r3-c1__tight",
+      "source_id": "r3-c1",
+      "variant": "tight",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "65a35126412b5372cfaa0f36263779ad6ca3133405564f3c8db9e129795a25c1",
+      "started_at": 1793560966.3435578,
+      "ended_at": 1793560966.684907,
+      "seconds": 0.3413498750014696,
+      "text": "1,839,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-1ea77f6f-0c18-4813-aa12-57e95f8950f1",
+        "created": 1793560966,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,839,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 10,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r3-c1__tight_pad10",
+      "source_id": "r3-c1",
+      "variant": "tight_pad10",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "8c4a6b47408ac37fe9654b30e4039ecd1d5c5621dcde6ea0191ebc66c747f3b2",
+      "started_at": 1793560966.6945841,
+      "ended_at": 1793560967.041763,
+      "seconds": 0.34717908300081035,
+      "text": "1,839,785",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-9a82b531-2702-4ee7-9f19-6f1b344de049",
+        "created": 1793560967,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,839,785"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 10,
+          "total_tokens": 183,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r4-c5__original",
+      "source_id": "r4-c5",
+      "variant": "original",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "started_at": 1793560967.0491269,
+      "ended_at": 1793560967.390511,
+      "seconds": 0.34138412500033155,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-7101e86e-52cc-4aa1-8487-4c3521c5104c",
+        "created": 1793560967,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r4-c5__original_pad10",
+      "source_id": "r4-c5",
+      "variant": "original_pad10",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "ffc8d850e2e6240f0688e94f99baef5e0ce0a5d8afbc63c2fc688ac26ac3af2c",
+      "started_at": 1793560967.3983948,
+      "ended_at": 1793560967.740781,
+      "seconds": 0.3423864169999433,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-29fe61bd-ec2a-4694-bb88-2eff8c19ff62",
+        "created": 1793560967,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r4-c5__tight",
+      "source_id": "r4-c5",
+      "variant": "tight",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "1a93b7dc2dac5ea3d77d60fbe285634b066d01cb1c650babf65012d001ac01dc",
+      "started_at": 1793560967.7481751,
+      "ended_at": 1793560968.090409,
+      "seconds": 0.34223412499704864,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-96dc1e2a-b4f4-483c-a4a2-2029af5b6802",
+        "created": 1793560968,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r4-c5__tight_pad10",
+      "source_id": "r4-c5",
+      "variant": "tight_pad10",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "18ff33d6a9907b6dd096e3aaff1e28f24c54f047876c0d9d132441e735fee1b1",
+      "started_at": 1793560968.098164,
+      "ended_at": 1793560968.4259908,
+      "seconds": 0.32782720899922424,
+      "text": "18, 282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-c3af2c22-ce72-4d14-9a24-f999299e3da4",
+        "created": 1793560968,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18, 282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 8,
+          "total_tokens": 174,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 8,
+        "received_chars": 7
+      }
+    },
+    {
+      "id": "g1__original",
+      "source_id": "g1",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "started_at": 1793560968.4337862,
+      "ended_at": 1793560968.729332,
+      "seconds": 0.2955472089997784,
+      "text": "⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-f33e9417-e099-4aeb-86ba-37d3728e435a",
+        "created": 1793560968,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 4,
+          "total_tokens": 172,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g1__original_pad10",
+      "source_id": "g1",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "accad12d7844fb635ed3f5d64ed5b78ca91bf7d9af7758a5af659d409595de9e",
+      "started_at": 1793560968.736514,
+      "ended_at": 1793560969.029021,
+      "seconds": 0.2925075419989298,
+      "text": "⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-484a7738-ccfa-447b-a587-7fdb45f81730",
+        "created": 1793560969,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 4,
+          "total_tokens": 167,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g1__tight",
+      "source_id": "g1",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "8105fc0cf1cf0eed6105696785adb66ca7aaa8c466faa172954f75ab7bfcbb71",
+      "started_at": 1793560969.037622,
+      "ended_at": 1793560969.340163,
+      "seconds": 0.3025412079987291,
+      "text": "⑥",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-df70472a-2819-4db4-8399-ecd631d74469",
+        "created": 1793560969,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑥"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 2,
+          "total_tokens": 183,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g1__tight_pad10",
+      "source_id": "g1",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "b7e643424d15d2a5d0eaf7a219edc7d60ac033d096925c1a22b7f4bbe8fb5b82",
+      "started_at": 1793560969.347929,
+      "ended_at": 1793560969.6279302,
+      "seconds": 0.2800006249999569,
+      "text": "③",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-b75e9e54-767f-4f06-ae64-be6f4a944574",
+        "created": 1793560969,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "③"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 2,
+          "total_tokens": 171,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g2__original",
+      "source_id": "g2",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "started_at": 1793560969.636074,
+      "ended_at": 1793560969.9236171,
+      "seconds": 0.2875430829990364,
+      "text": "30",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-1930e5cf-399b-4685-b66a-c50f9d4f8212",
+        "created": 1793560969,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "30"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 3,
+          "total_tokens": 171,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g2__original_pad10",
+      "source_id": "g2",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "3e7d7ea4b9407590b4c4e60d429c63c56e31c96741fe4082c6724068dffcfec9",
+      "started_at": 1793560969.931446,
+      "ended_at": 1793560970.248271,
+      "seconds": 0.31682454199835774,
+      "text": "๑๐",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-74aa14a5-6c79-4541-9f33-95c7cc0457b9",
+        "created": 1793560970,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "๑๐"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 7,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g2__tight",
+      "source_id": "g2",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "349068633f120c6200b7d54053b3f461fec5197c378e8066221f52ae5ef93555",
+      "started_at": 1793560970.2576718,
+      "ended_at": 1793560970.5683808,
+      "seconds": 0.3107095420018595,
+      "text": "30",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-813a4df2-d8bf-44d8-a742-780e4e86d14a",
+        "created": 1793560970,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "30"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 3,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g2__tight_pad10",
+      "source_id": "g2",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "73a7da2e5d3c9c8ec02aadde372664580d9ae8ff45898697be3af442c56193f6",
+      "started_at": 1793560970.5756302,
+      "ended_at": 1793560970.8977091,
+      "seconds": 0.32207916699917405,
+      "text": "౦௰",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-7c0a1cfb-d1c6-499d-a0cf-4c39b88978d9",
+        "created": 1793560970,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "౦௰"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 7,
+          "total_tokens": 180,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__original",
+      "source_id": "g3",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "started_at": 1793560970.906958,
+      "ended_at": 1793560971.197081,
+      "seconds": 0.29012287500154343,
+      "text": "33",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-94c7288d-5952-4526-b72b-1125088afd3a",
+        "created": 1793560971,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "33"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__original_pad10",
+      "source_id": "g3",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "65c4b47f1bd9553ec565fb5e81bfb143c235f565cb8f96603fc336db467f5aec",
+      "started_at": 1793560971.2054741,
+      "ended_at": 1793560971.522422,
+      "seconds": 0.3169480839969765,
+      "text": "๒๙",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-e799d449-c6db-4f51-89b5-d177496188c9",
+        "created": 1793560971,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "๒๙"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 7,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__tight",
+      "source_id": "g3",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "85233b46708ce577ff4e1d621b5974692e111732524b423c2b42ff0c034382aa",
+      "started_at": 1793560971.533476,
+      "ended_at": 1793560971.824606,
+      "seconds": 0.2911299580009654,
+      "text": "33",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-1437eccb-0f66-4bec-8177-022ccdb9695b",
+        "created": 1793560971,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "33"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__tight_pad10",
+      "source_id": "g3",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "7d195351ea1d5e67f588edc65c7624ca854d7f1f6f1d00f69d32a6adc8bd2095",
+      "started_at": 1793560971.832461,
+      "ended_at": 1793560972.111439,
+      "seconds": 0.2789783330008504,
+      "text": "ఆ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-1e9bd710-b96f-433f-9707-eb83536f2695",
+        "created": 1793560972,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ఆ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 2,
+          "total_tokens": 168,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g4__original",
+      "source_id": "g4",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "started_at": 1793560972.119618,
+      "ended_at": 1793560972.427026,
+      "seconds": 0.3074077080018469,
+      "text": "मॅ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-7b073e15-9bb7-48ea-9d64-d33b2b12eabd",
+        "created": 1793560972,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "मॅ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 5,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4__original_pad10",
+      "source_id": "g4",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "1a949d6d35f087518b880c0a18138080f83c64ad230f677db786a3ae75173538",
+      "started_at": 1793560972.434774,
+      "ended_at": 1793560972.718901,
+      "seconds": 0.2841274999991583,
+      "text": "ตอ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-905b2e5c-3d60-4b97-89fb-90fda5d410ab",
+        "created": 1793560972,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ตอ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 3,
+          "total_tokens": 166,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4__tight",
+      "source_id": "g4",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "92cf9d588cf74eebd4516597f498f930d028963ec6fdea1fc0fa6910a9628038",
+      "started_at": 1793560972.726065,
+      "ended_at": 1793560973.026104,
+      "seconds": 0.3000389160006307,
+      "text": "m⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-a80007ed-9758-4ab5-a05f-df60962c8f1e",
+        "created": 1793560973,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "m⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 5,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4__tight_pad10",
+      "source_id": "g4",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "d94e84d291bd4d9e382d633194a2e57aa43987f8638b3cd6bcc70370e741411f",
+      "started_at": 1793560973.034574,
+      "ended_at": 1793560973.3241751,
+      "seconds": 0.28960100000040256,
+      "text": "ต่อ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-81394003-9293-441f-b161-07f9f811fb9b",
+        "created": 1793560973,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ต่อ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 3
+      }
+    },
+    {
+      "id": "g5__original",
+      "source_id": "g5",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "started_at": 1793560973.3308969,
+      "ended_at": 1793560973.630791,
+      "seconds": 0.29989387500245357,
+      "text": "ཨུ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-e6b7313b-bcf0-41f0-a65b-fd654fcb33da",
+        "created": 1793560973,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ཨུ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 5,
+          "total_tokens": 168,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g5__original_pad10",
+      "source_id": "g5",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "0acf8b0249321b512a0cca5ab520c92b5c5b0a238559e2ecbf8a664e7924d847",
+      "started_at": 1793560973.6398752,
+      "ended_at": 1793560973.9717162,
+      "seconds": 0.3318402920012886,
+      "text": "อ๖",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-80809a09-f353-43e5-aae5-adfa3f6d2f6f",
+        "created": 1793560973,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "อ๖"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 5,
+          "total_tokens": 186,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g5__tight",
+      "source_id": "g5",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "5a0fd59557b6d0b3cac634647a74f1aca40dc2ff4a0838bae5a32f6e561052b8",
+      "started_at": 1793560973.979049,
+      "ended_at": 1793560974.278262,
+      "seconds": 0.29921249999824795,
+      "text": "a",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-5e4ad1f5-3c36-4312-befc-77e47e272aa6",
+        "created": 1793560974,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "a"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 2,
+          "total_tokens": 177,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g5__tight_pad10",
+      "source_id": "g5",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "3759daf25862836d99d616641433610a9ed3f5a4604e62450be84eb316456ce3",
+      "started_at": 1793560974.286892,
+      "ended_at": 1793560974.6198468,
+      "seconds": 0.33295491700118873,
+      "text": "ཤཱི",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-ee1d533a-8fce-41a0-974e-e7f511097b08",
+        "created": 1793560974,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ཤཱི"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 8,
+          "total_tokens": 181,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 4,
+        "received_chars": 3
+      }
+    },
+    {
+      "id": "g6__original",
+      "source_id": "g6",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "started_at": 1793560974.627009,
+      "ended_at": 1793560975.002099,
+      "seconds": 0.3750910409980861,
+      "text": "༢༤་༤",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-4a905bf7-d61a-408f-8dfd-614fd849b578",
+        "created": 1793560975,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "༢༤་༤"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 11,
+          "total_tokens": 192,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 5,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "g6__original_pad10",
+      "source_id": "g6",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "2326aa31f5e4446b4df4162c08cb7cc2ca92da6711c4999c1ca5c9c102097006",
+      "started_at": 1793560975.01088,
+      "ended_at": 1793560975.325881,
+      "seconds": 0.31500074999712524,
+      "text": "อดีต",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-ac314fb9-31ba-4f12-a954-caef9e95e13c",
+        "created": 1793560975,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "อดีต"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 174,
+          "completion_tokens": 4,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 4,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "g6__tight",
+      "source_id": "g6",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "375434539d714daeb9bbca434a3a82bc68b6f8df9991cecd926c722936f1cdb5",
+      "started_at": 1793560975.333121,
+      "ended_at": 1793560975.682251,
+      "seconds": 0.3491295000021637,
+      "text": "༢༤་༤",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-c2703e12-c7d4-4671-9e00-72ea98a36308",
+        "created": 1793560975,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "༢༤་༤"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 11,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 5,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "g6__tight_pad10",
+      "source_id": "g6",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "26989098a8697d85574d2d05c08a088a53c95cd4083c90c9855933ce0cb79e9a",
+      "started_at": 1793560975.690445,
+      "ended_at": 1793560976.0176399,
+      "seconds": 0.3271947089997411,
+      "text": "ఐడిఐ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-12ff1432-a281-4570-9eeb-275a191583de",
+        "created": 1793560976,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ఐడిఐ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 8,
+          "total_tokens": 174,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 4,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "r1-c3__original",
+      "source_id": "r1-c3",
+      "variant": "original",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "started_at": 1793560976.026231,
+      "ended_at": 1793560976.3473349,
+      "seconds": 0.32110458299939637,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-01dde7b7-8b12-40a9-b6ef-8678eb53824a",
+        "created": 1793560976,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 7,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r1-c3__original_pad10",
+      "source_id": "r1-c3",
+      "variant": "original_pad10",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "434641204b596f5cb429ab14ce3476babaf1d62ac958f4568ae8b90757fd7f66",
+      "started_at": 1793560976.3566148,
+      "ended_at": 1793560976.673514,
+      "seconds": 0.31689887500033365,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-43364848-d484-4f46-8d29-dc52a6874b5f",
+        "created": 1793560976,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 160,
+          "completion_tokens": 7,
+          "total_tokens": 167,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r1-c3__tight",
+      "source_id": "r1-c3",
+      "variant": "tight",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "50cdc67544b3f1034a0853f3df95fb64c04b88603a397c95c2ba052fbe0153fd",
+      "started_at": 1793560976.68299,
+      "ended_at": 1793560977.0073972,
+      "seconds": 0.32440795799993793,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-57b39e87-9826-46a5-b9c6-932b3768fc42",
+        "created": 1793560977,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 7,
+          "total_tokens": 180,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r1-c3__tight_pad10",
+      "source_id": "r1-c3",
+      "variant": "tight_pad10",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "dfe498c74ee799f3790066fe5f1af16d6bd3c5dd5d50f4031291a028dac6a453",
+      "started_at": 1793560977.016432,
+      "ended_at": 1793560977.346519,
+      "seconds": 0.33008808299928205,
+      "text": "69, 135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-0f7cfe37-60c2-4c2c-b008-382be16a4f38",
+        "created": 1793560977,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69, 135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 8,
+          "total_tokens": 174,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 8,
+        "received_chars": 7
+      }
+    },
+    {
+      "id": "r3-c1__original",
+      "source_id": "r3-c1",
+      "variant": "original",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "started_at": 1793560977.3530471,
+      "ended_at": 1793560977.694022,
+      "seconds": 0.340974582999479,
+      "text": "1,833,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-eb2bb2f7-9f66-4266-b630-40e1065303d0",
+        "created": 1793560977,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,833,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 10,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r3-c1__original_pad10",
+      "source_id": "r3-c1",
+      "variant": "original_pad10",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "899f13df9cef05f950152786a452fcb09aeb493caedb3d989027508c9e830eb7",
+      "started_at": 1793560977.702358,
+      "ended_at": 1793560978.0414588,
+      "seconds": 0.33910137500060955,
+      "text": "1,833,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-f0981ea3-78b6-421e-bcbe-44a303f6de74",
+        "created": 1793560978,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,833,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 160,
+          "completion_tokens": 10,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r3-c1__tight",
+      "source_id": "r3-c1",
+      "variant": "tight",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "65a35126412b5372cfaa0f36263779ad6ca3133405564f3c8db9e129795a25c1",
+      "started_at": 1793560978.049441,
+      "ended_at": 1793560978.38959,
+      "seconds": 0.340148915998725,
+      "text": "1,839,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-2dd7ac73-d25c-4b10-8ca0-fee6b11c8e18",
+        "created": 1793560978,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,839,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 10,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r3-c1__tight_pad10",
+      "source_id": "r3-c1",
+      "variant": "tight_pad10",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "8c4a6b47408ac37fe9654b30e4039ecd1d5c5621dcde6ea0191ebc66c747f3b2",
+      "started_at": 1793560978.3982668,
+      "ended_at": 1793560978.7437289,
+      "seconds": 0.3454625419981312,
+      "text": "1,839,785",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-a579a335-b899-45da-945b-65be76e03ab2",
+        "created": 1793560978,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,839,785"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 10,
+          "total_tokens": 183,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r4-c5__original",
+      "source_id": "r4-c5",
+      "variant": "original",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "started_at": 1793560978.752917,
+      "ended_at": 1793560979.094479,
+      "seconds": 0.34156233300018357,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-097ec1bc-ddaa-41d3-8cca-7cd745ed77b7",
+        "created": 1793560979,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r4-c5__original_pad10",
+      "source_id": "r4-c5",
+      "variant": "original_pad10",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "ffc8d850e2e6240f0688e94f99baef5e0ce0a5d8afbc63c2fc688ac26ac3af2c",
+      "started_at": 1793560979.104029,
+      "ended_at": 1793560979.4467142,
+      "seconds": 0.3426853339988156,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-99f85985-4de4-419c-9636-d1e11d77ab14",
+        "created": 1793560979,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r4-c5__tight",
+      "source_id": "r4-c5",
+      "variant": "tight",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "1a93b7dc2dac5ea3d77d60fbe285634b066d01cb1c650babf65012d001ac01dc",
+      "started_at": 1793560979.457661,
+      "ended_at": 1793560979.800499,
+      "seconds": 0.3428383329992357,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-fd999784-47fe-4636-8c9e-5497d56f4973",
+        "created": 1793560979,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r4-c5__tight_pad10",
+      "source_id": "r4-c5",
+      "variant": "tight_pad10",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "18ff33d6a9907b6dd096e3aaff1e28f24c54f047876c0d9d132441e735fee1b1",
+      "started_at": 1793560979.809196,
+      "ended_at": 1793560980.138944,
+      "seconds": 0.3297480830005952,
+      "text": "18, 282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-bff35dcb-7ca4-4efc-b807-e97d58dbee6c",
+        "created": 1793560980,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18, 282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 8,
+          "total_tokens": 174,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 8,
+        "received_chars": 7
+      }
+    },
+    {
+      "id": "g1__original",
+      "source_id": "g1",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "started_at": 1793560980.146156,
+      "ended_at": 1793560980.443178,
+      "seconds": 0.29702208299931954,
+      "text": "⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-5c3fbe77-8655-439c-b5b0-7e6f3169d566",
+        "created": 1793560980,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 4,
+          "total_tokens": 172,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g1__original_pad10",
+      "source_id": "g1",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "accad12d7844fb635ed3f5d64ed5b78ca91bf7d9af7758a5af659d409595de9e",
+      "started_at": 1793560980.450978,
+      "ended_at": 1793560980.744639,
+      "seconds": 0.2936604999995325,
+      "text": "⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-5c7669ff-2bad-46a2-93e5-8ef03b8e0b27",
+        "created": 1793560980,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 4,
+          "total_tokens": 167,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g1__tight",
+      "source_id": "g1",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "8105fc0cf1cf0eed6105696785adb66ca7aaa8c466faa172954f75ab7bfcbb71",
+      "started_at": 1793560980.752172,
+      "ended_at": 1793560981.052544,
+      "seconds": 0.3003720839988091,
+      "text": "⑥",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-6f278eb8-ea04-4810-91d5-3ed87c77c77e",
+        "created": 1793560981,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑥"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 2,
+          "total_tokens": 183,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g1__tight_pad10",
+      "source_id": "g1",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "b7e643424d15d2a5d0eaf7a219edc7d60ac033d096925c1a22b7f4bbe8fb5b82",
+      "started_at": 1793560981.060601,
+      "ended_at": 1793560981.341166,
+      "seconds": 0.28056545900108176,
+      "text": "③",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-b4d2e17b-eeb2-47c5-9b27-346b446baf40",
+        "created": 1793560981,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "③"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 2,
+          "total_tokens": 171,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g2__original",
+      "source_id": "g2",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "started_at": 1793560981.351159,
+      "ended_at": 1793560981.6404421,
+      "seconds": 0.28928316599922255,
+      "text": "30",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-d50048dd-2ad8-4e6b-88f9-0a658e0a6052",
+        "created": 1793560981,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "30"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 3,
+          "total_tokens": 171,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g2__original_pad10",
+      "source_id": "g2",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "3e7d7ea4b9407590b4c4e60d429c63c56e31c96741fe4082c6724068dffcfec9",
+      "started_at": 1793560981.648175,
+      "ended_at": 1793560981.965324,
+      "seconds": 0.317148250000173,
+      "text": "๑๐",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-64284b9d-2890-40de-8187-705ad4c1a06f",
+        "created": 1793560981,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "๑๐"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 7,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g2__tight",
+      "source_id": "g2",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "349068633f120c6200b7d54053b3f461fec5197c378e8066221f52ae5ef93555",
+      "started_at": 1793560981.97355,
+      "ended_at": 1793560982.281253,
+      "seconds": 0.30770387500160723,
+      "text": "30",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-4ee938e3-8aba-49dd-ab5f-dee4d11aa011",
+        "created": 1793560982,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "30"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 3,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g2__tight_pad10",
+      "source_id": "g2",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "73a7da2e5d3c9c8ec02aadde372664580d9ae8ff45898697be3af442c56193f6",
+      "started_at": 1793560982.289691,
+      "ended_at": 1793560982.61152,
+      "seconds": 0.32182900000043446,
+      "text": "౦௰",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-f49a95e2-6d8c-4b2f-b81d-bee4055e3342",
+        "created": 1793560982,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "౦௰"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 7,
+          "total_tokens": 180,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__original",
+      "source_id": "g3",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "started_at": 1793560982.6218932,
+      "ended_at": 1793560982.914469,
+      "seconds": 0.29257637499904376,
+      "text": "33",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-badca7dd-e7ff-44e7-8d8c-f3f65a20bf43",
+        "created": 1793560982,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "33"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__original_pad10",
+      "source_id": "g3",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "65c4b47f1bd9553ec565fb5e81bfb143c235f565cb8f96603fc336db467f5aec",
+      "started_at": 1793560982.9245791,
+      "ended_at": 1793560983.2418518,
+      "seconds": 0.3172739580004418,
+      "text": "๒๙",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-3f6a136d-be9b-424e-b3f9-344612f6909c",
+        "created": 1793560983,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "๒๙"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 7,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__tight",
+      "source_id": "g3",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "85233b46708ce577ff4e1d621b5974692e111732524b423c2b42ff0c034382aa",
+      "started_at": 1793560983.2505999,
+      "ended_at": 1793560983.541878,
+      "seconds": 0.291278084001533,
+      "text": "33",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-3943b31f-beaf-4533-8056-8d47ea74a42b",
+        "created": 1793560983,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "33"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3__tight_pad10",
+      "source_id": "g3",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "7d195351ea1d5e67f588edc65c7624ca854d7f1f6f1d00f69d32a6adc8bd2095",
+      "started_at": 1793560983.5508502,
+      "ended_at": 1793560983.8312352,
+      "seconds": 0.28038491700135637,
+      "text": "ఆ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-85b6d3ad-1e5d-4820-9ca1-eae3872611fa",
+        "created": 1793560983,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ఆ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 2,
+          "total_tokens": 168,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g4__original",
+      "source_id": "g4",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "started_at": 1793560983.840617,
+      "ended_at": 1793560984.1474528,
+      "seconds": 0.3068362910016731,
+      "text": "मॅ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-5fe8a931-34c1-46fa-814d-b48fc8ece731",
+        "created": 1793560984,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "मॅ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 5,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4__original_pad10",
+      "source_id": "g4",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "1a949d6d35f087518b880c0a18138080f83c64ad230f677db786a3ae75173538",
+      "started_at": 1793560984.1554172,
+      "ended_at": 1793560984.440487,
+      "seconds": 0.2850706250028452,
+      "text": "ตอ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-aec85553-fb03-4370-8281-a3c6cdc5f096",
+        "created": 1793560984,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ตอ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 3,
+          "total_tokens": 166,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4__tight",
+      "source_id": "g4",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "92cf9d588cf74eebd4516597f498f930d028963ec6fdea1fc0fa6910a9628038",
+      "started_at": 1793560984.450742,
+      "ended_at": 1793560984.752655,
+      "seconds": 0.30191295799886575,
+      "text": "m⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-a9fe3e8f-2a86-4248-ba82-ec31572abb56",
+        "created": 1793560984,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "m⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 5,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4__tight_pad10",
+      "source_id": "g4",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "d94e84d291bd4d9e382d633194a2e57aa43987f8638b3cd6bcc70370e741411f",
+      "started_at": 1793560984.760652,
+      "ended_at": 1793560985.050963,
+      "seconds": 0.2903115839981183,
+      "text": "ต่อ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-47d00d47-fd2d-40c7-99b0-01a900830729",
+        "created": 1793560985,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ต่อ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 3
+      }
+    },
+    {
+      "id": "g5__original",
+      "source_id": "g5",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "started_at": 1793560985.060311,
+      "ended_at": 1793560985.361538,
+      "seconds": 0.3012272080013645,
+      "text": "ཨུ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-15a68e56-6e13-4b9d-8c6d-35894b308b5c",
+        "created": 1793560985,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ཨུ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 5,
+          "total_tokens": 168,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g5__original_pad10",
+      "source_id": "g5",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "0acf8b0249321b512a0cca5ab520c92b5c5b0a238559e2ecbf8a664e7924d847",
+      "started_at": 1793560985.371364,
+      "ended_at": 1793560985.70878,
+      "seconds": 0.33741625000038766,
+      "text": "อ๖",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-5ad199b2-53f9-4124-b620-983c8e110709",
+        "created": 1793560985,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "อ๖"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 5,
+          "total_tokens": 186,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g5__tight",
+      "source_id": "g5",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "5a0fd59557b6d0b3cac634647a74f1aca40dc2ff4a0838bae5a32f6e561052b8",
+      "started_at": 1793560985.7146208,
+      "ended_at": 1793560986.013707,
+      "seconds": 0.2990849999987404,
+      "text": "a",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-e76fed01-bd53-479f-891e-cca78ec9d55d",
+        "created": 1793560986,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "a"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 175,
+          "completion_tokens": 2,
+          "total_tokens": 177,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g5__tight_pad10",
+      "source_id": "g5",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "3759daf25862836d99d616641433610a9ed3f5a4604e62450be84eb316456ce3",
+      "started_at": 1793560986.022295,
+      "ended_at": 1793560986.351723,
+      "seconds": 0.3294281249982305,
+      "text": "ཤཱི",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-3347a607-a8eb-44e5-8c1d-a21979813040",
+        "created": 1793560986,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ཤཱི"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 8,
+          "total_tokens": 181,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 4,
+        "received_chars": 3
+      }
+    },
+    {
+      "id": "g6__original",
+      "source_id": "g6",
+      "variant": "original",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "started_at": 1793560986.3613389,
+      "ended_at": 1793560986.735913,
+      "seconds": 0.37457350000113365,
+      "text": "༢༤་༤",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-86a8842a-41ed-4f2c-a66c-5d1bd8f91461",
+        "created": 1793560986,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "༢༤་༤"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 11,
+          "total_tokens": 192,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 5,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "g6__original_pad10",
+      "source_id": "g6",
+      "variant": "original_pad10",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "2326aa31f5e4446b4df4162c08cb7cc2ca92da6711c4999c1ca5c9c102097006",
+      "started_at": 1793560986.746725,
+      "ended_at": 1793560987.062506,
+      "seconds": 0.3157812499994179,
+      "text": "อดีต",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-2bebf85b-ab0c-476b-9c3e-62e422acde10",
+        "created": 1793560987,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "อดีต"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 174,
+          "completion_tokens": 4,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 4,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "g6__tight",
+      "source_id": "g6",
+      "variant": "tight",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "375434539d714daeb9bbca434a3a82bc68b6f8df9991cecd926c722936f1cdb5",
+      "started_at": 1793560987.0722718,
+      "ended_at": 1793560987.4250681,
+      "seconds": 0.3527961250001681,
+      "text": "༢༤་༤",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-95164fe6-a1cf-46e4-8f3c-5a66c92c8416",
+        "created": 1793560987,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "༢༤་༤"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 165,
+          "completion_tokens": 11,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 5,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "g6__tight_pad10",
+      "source_id": "g6",
+      "variant": "tight_pad10",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "26989098a8697d85574d2d05c08a088a53c95cd4083c90c9855933ce0cb79e9a",
+      "started_at": 1793560987.436335,
+      "ended_at": 1793560987.7638268,
+      "seconds": 0.3274927080019552,
+      "text": "ఐడిఐ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-6fe8ff99-69cf-40d3-b3a7-110700b620ec",
+        "created": 1793560987,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ఐడిఐ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 8,
+          "total_tokens": 174,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 4,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "r1-c3__original",
+      "source_id": "r1-c3",
+      "variant": "original",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "started_at": 1793560987.7716491,
+      "ended_at": 1793560988.0922399,
+      "seconds": 0.3205919169995468,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-70f2273c-1274-4e7b-a029-5762cbe24be8",
+        "created": 1793560988,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 7,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r1-c3__original_pad10",
+      "source_id": "r1-c3",
+      "variant": "original_pad10",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "434641204b596f5cb429ab14ce3476babaf1d62ac958f4568ae8b90757fd7f66",
+      "started_at": 1793560988.102279,
+      "ended_at": 1793560988.427387,
+      "seconds": 0.3251074999971024,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-ef6b3c97-73a8-458b-b7f1-f16c23500047",
+        "created": 1793560988,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 160,
+          "completion_tokens": 7,
+          "total_tokens": 167,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r1-c3__tight",
+      "source_id": "r1-c3",
+      "variant": "tight",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "50cdc67544b3f1034a0853f3df95fb64c04b88603a397c95c2ba052fbe0153fd",
+      "started_at": 1793560988.43963,
+      "ended_at": 1793560988.76311,
+      "seconds": 0.3234802499973739,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-087c147d-46aa-46b5-9f06-83ea8eda65b4",
+        "created": 1793560988,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 7,
+          "total_tokens": 180,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r1-c3__tight_pad10",
+      "source_id": "r1-c3",
+      "variant": "tight_pad10",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "dfe498c74ee799f3790066fe5f1af16d6bd3c5dd5d50f4031291a028dac6a453",
+      "started_at": 1793560988.7783282,
+      "ended_at": 1793560989.1102562,
+      "seconds": 0.33192849999977625,
+      "text": "69, 135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-81ae1d4e-8ae3-4b2f-ac6a-498f4e33bbfb",
+        "created": 1793560989,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69, 135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 8,
+          "total_tokens": 174,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 8,
+        "received_chars": 7
+      }
+    },
+    {
+      "id": "r3-c1__original",
+      "source_id": "r3-c1",
+      "variant": "original",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "started_at": 1793560989.1246452,
+      "ended_at": 1793560989.469988,
+      "seconds": 0.3453434999973979,
+      "text": "1,833,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-595621f8-edd0-48f7-9eb8-b1b3420edc6b",
+        "created": 1793560989,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,833,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 10,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r3-c1__original_pad10",
+      "source_id": "r3-c1",
+      "variant": "original_pad10",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "899f13df9cef05f950152786a452fcb09aeb493caedb3d989027508c9e830eb7",
+      "started_at": 1793560989.4806569,
+      "ended_at": 1793560989.820437,
+      "seconds": 0.3397800830025517,
+      "text": "1,833,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-f53f1ff4-3f51-4719-a403-869d9de1d309",
+        "created": 1793560989,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,833,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 160,
+          "completion_tokens": 10,
+          "total_tokens": 170,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r3-c1__tight",
+      "source_id": "r3-c1",
+      "variant": "tight",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "65a35126412b5372cfaa0f36263779ad6ca3133405564f3c8db9e129795a25c1",
+      "started_at": 1793560989.828925,
+      "ended_at": 1793560990.169478,
+      "seconds": 0.3405537500002538,
+      "text": "1,839,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-2968729a-13fe-41aa-b800-cf0a518369bf",
+        "created": 1793560990,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,839,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 10,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r3-c1__tight_pad10",
+      "source_id": "r3-c1",
+      "variant": "tight_pad10",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "8c4a6b47408ac37fe9654b30e4039ecd1d5c5621dcde6ea0191ebc66c747f3b2",
+      "started_at": 1793560990.178505,
+      "ended_at": 1793560990.5250921,
+      "seconds": 0.3465868329985824,
+      "text": "1,839,785",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-cacfe29f-03e8-4392-840b-1d8c2b209196",
+        "created": 1793560990,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,839,785"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 10,
+          "total_tokens": 183,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r4-c5__original",
+      "source_id": "r4-c5",
+      "variant": "original",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "started_at": 1793560990.5341709,
+      "ended_at": 1793560990.8758411,
+      "seconds": 0.34167004199844087,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-9940170f-b9ed-40b8-9d7e-ce864c1ae4e6",
+        "created": 1793560990,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r4-c5__original_pad10",
+      "source_id": "r4-c5",
+      "variant": "original_pad10",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "ffc8d850e2e6240f0688e94f99baef5e0ce0a5d8afbc63c2fc688ac26ac3af2c",
+      "started_at": 1793560990.886166,
+      "ended_at": 1793560991.2305899,
+      "seconds": 0.34442404199944576,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-10025ab1-2810-4d79-b2b1-e03e9017a5d3",
+        "created": 1793560991,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r4-c5__tight",
+      "source_id": "r4-c5",
+      "variant": "tight",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "1a93b7dc2dac5ea3d77d60fbe285634b066d01cb1c650babf65012d001ac01dc",
+      "started_at": 1793560991.240949,
+      "ended_at": 1793560991.5832782,
+      "seconds": 0.3423295419997885,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-9cd82d76-f644-4d7d-90e5-e42187733090",
+        "created": 1793560991,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r4-c5__tight_pad10",
+      "source_id": "r4-c5",
+      "variant": "tight_pad10",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "18ff33d6a9907b6dd096e3aaff1e28f24c54f047876c0d9d132441e735fee1b1",
+      "started_at": 1793560991.594101,
+      "ended_at": 1793560991.9219499,
+      "seconds": 0.32784991700100363,
+      "text": "18, 282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-a5286498-4fe7-4384-a8ff-70e7ad47cf39",
+        "created": 1793560991,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18, 282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 166,
+          "completion_tokens": 8,
+          "total_tokens": 174,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 8,
+        "received_chars": 7
+      }
+    }
+  ],
+  "self_peak_rss_bytes": 71335936,
+  "versions": {
+    "paddleocr": "3.7.0",
+    "paddlex": "3.7.2",
+    "paddlepaddle": "3.2.1",
+    "mlx-vlm": "0.7.11",
+    "pillow": "13.0.0",
+    "numpy": "2.3.5",
+    "psutil": "7.2.2"
+  }
+}

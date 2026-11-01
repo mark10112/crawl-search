@@ -1,0 +1,68 @@
+{
+  "variant": "before",
+  "mode": "ocr",
+  "id": "thai-royal",
+  "worker_sha": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b",
+  "reader_sha": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b",
+  "started_at": 1793544779.0866141,
+  "ended_at": 1793544827.170975,
+  "elapsed_ms": 48084.2,
+  "request": {
+    "upload_id": "d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "mode": "ocr",
+    "cache": false,
+    "max_pages": 3,
+    "max_chars": 40000,
+    "ocr_policy": "quality"
+  },
+  "raw": {
+    "ok": false,
+    "url": "http://127.0.0.1:8778/assets/d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "reader": "pdf-text",
+    "cache_hit": false,
+    "stages": [
+      {
+        "name": "fetch",
+        "ok": true,
+        "elapsed_ms": 10.21
+      },
+      {
+        "name": "pdf-text",
+        "ok": true,
+        "elapsed_ms": 4.55,
+        "needs_ocr": true
+      },
+      {
+        "name": "ocr-router",
+        "ok": false,
+        "elapsed_ms": 47801.59,
+        "error": "Recognition did not explicitly finish normally"
+      }
+    ],
+    "text": "",
+    "external_fallback_required": false,
+    "credits_used": 0,
+    "final_url": "http://127.0.0.1:8778/assets/d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "content_sha256": "d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "document_language_hint": null,
+    "total_pages": 3,
+    "pages_read": [
+      1,
+      3
+    ],
+    "ocr_pages": [
+      1,
+      2,
+      3
+    ],
+    "error": "Recognition did not explicitly finish normally",
+    "elapsed_ms": 47817.44,
+    "fallback_count": 1,
+    "fallback_request_id": "eb7d4152f3c54d98b58fa61c792fceec",
+    "suggested_next_step": "This uploaded document has no public URL. Review it or explicitly authorise a separate cloud document upload.",
+    "upload_id": "d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "source_kind": "uploaded-document",
+    "needs_review": true,
+    "server_commit": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b"
+  }
+}

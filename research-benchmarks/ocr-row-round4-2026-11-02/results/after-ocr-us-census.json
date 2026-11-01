@@ -1,0 +1,1746 @@
+{
+  "variant": "after",
+  "mode": "ocr",
+  "id": "us-census",
+  "worker_sha": "00d623a03e741e2e1b0edf030e9a5dcb5ce0f268",
+  "reader_sha": "00d623a03e741e2e1b0edf030e9a5dcb5ce0f268",
+  "started_at": 1793557374.005267,
+  "ended_at": 1793557564.512201,
+  "elapsed_ms": 190506.75,
+  "request": {
+    "upload_id": "4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+    "mode": "ocr",
+    "cache": false,
+    "max_pages": 3,
+    "max_chars": 40000,
+    "ocr_policy": "quality"
+  },
+  "raw": {
+    "ok": true,
+    "output_complete": true,
+    "url": "http://127.0.0.1:8778/assets/4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+    "reader": "router:paddleocr-vl-1.6-mlx-layout",
+    "cache_hit": false,
+    "stages": [
+      {
+        "name": "fetch",
+        "ok": true,
+        "elapsed_ms": 7.67
+      },
+      {
+        "name": "pdf-text",
+        "ok": true,
+        "elapsed_ms": 40.99,
+        "needs_ocr": true
+      },
+      {
+        "name": "ocr-router",
+        "ok": true,
+        "elapsed_ms": 190167.97
+      }
+    ],
+    "text": "\n\n<!-- subset page 1 -->\n# CENSUS BULLETIN.\n\nNo. 21.\n\nWASHINGTON, D. C.\n\nDecember 15, 1900.\n\n## POPULATION OF ILLINOIS BY COUNTIES AND MINOR CIVIL DIVISIONS\n\nThis bulletin, prepared under the direction of Mr. WILLIAM C. HUNT, chief statistician for population, gives the aggregate population of Illinois by counties and minor civil divisions, according to the official count of the returns of the Twelfth Census, taken as of June 1, 1900.\n\nIllinois was organized as a territory March 1, 1809, and admitted as a state December 3, 1818. Table 1 shows the population of Illinois at each census from 1810 to 1900, inclusive, together with the increase by number and per cent during each decade.\n\n<div style=\"text-align: center;\">TABLE 1.—POPULATION OF ILLINOIS: 1810 TO 1900.</div>\n\n\n\n<table><tr><td rowspan=\"2\">GENSUS YEARS.</td><td rowspan=\"2\">Population.</td><td colspan=\"2\">INCREASE.</td></tr><tr><td>Number.</td><td>Per cent.</td></tr><tr><td>1900</td><td>4,821,550</td><td>995,199</td><td>26.0</td></tr><tr><td>1890</td><td>5,826,351</td><td>748,480</td><td>24.3</td></tr><tr><td>1880</td><td>8,077,871</td><td>587,980</td><td>21.1</td></tr><tr><td>1870</td><td>2,599,891</td><td>827,940</td><td>48.3</td></tr><tr><td>1860</td><td>1,711,951</td><td>860,481</td><td>101.0</td></tr><tr><td>1850</td><td>851,470</td><td>875,287</td><td>78.8</td></tr><tr><td>1840</td><td>476,183</td><td>818,738</td><td>202.4</td></tr><tr><td>1830</td><td>157,445</td><td>102,283</td><td>185.4</td></tr><tr><td>1820</td><td>55,162</td><td>42,880</td><td>849.1</td></tr><tr><td>1810</td><td>12,282</td><td></td><td></td></tr></table>\n\nThe population of the state in 1900 is 4,821,550 as compared with a population in 1890 of 3,826,351, showing an increase during the last ten years of 995,199, or 26 per cent. This is a greater rate of increase than that for any decade since 1870, and a greater numerical increase than that for any decade in the history of the state. Prior to 1870 the growth of the state was very rapid, and the rate of increase was much greater than it has since been.\n\nThe present population of the state is more than 392 times as great as the population reported for 1810, the first census taken after its organization as a territory in 1809.\n\nThe total land surface of Illinois is, approximately, 56,000 square miles, the average number of persons to the square mile at the censuses of 1890 and 1900 being as follows: 1890, 68.3; 1900, 86.0.\n\n<!-- subset page 2 -->\nTable 2 shows the population of Illinois by counties at each census from 1810 to 1900, inclusive, while table 3, which immediately follows, shows, for each county, the increase (or decrease) by number and per cent during the ten years from 1890 to 1900.\n\n<div style=\"text-align: center;\">TABLE 2.—POPULATION OF ILLINOIS BY COUNTIES: 1810 TO 1900.</div>\n\n\n\n<table><tr><td colspan=\"2\">COUNTIES</td><td>1900</td><td>1890</td><td>1880</td><td>1870</td><td>1860</td><td>1850</td><td>1840</td><td>1830</td><td>1820</td><td>1810</td><td>1800</td><td>1790</td></tr><tr><td colspan=\"2\">The State</td><td>4,821,550</td><td>8,826,351</td><td>3,077,871</td><td>2,539,891</td><td>1,711,931</td><td>851,470</td><td>476,183</td><td>157,445</td><td>55,162</td><td>12,282</td><td>12,458</td><td></td></tr><tr><td>Adams</td><td>67,058</td><td>61,888</td><td>59,155</td><td>56,862</td><td>41,323</td><td>26,508</td><td>14,476</td><td>2,186</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Alexander</td><td>15,884</td><td>16,565</td><td>14,826</td><td>10,844</td><td>4,707</td><td>2,454</td><td>3,013</td><td>1,390</td><td>626</td><td></td><td></td><td></td><td></td></tr><tr><td>Bond</td><td>16,078</td><td>14,550</td><td>14,806</td><td>10,152</td><td>9,815</td><td>6,144</td><td>5,090</td><td>3,124</td><td>2,931</td><td></td><td></td><td></td><td></td></tr><tr><td>Boone</td><td>15,791</td><td>12,205</td><td>11,508</td><td>12,942</td><td>11,678</td><td>7,624</td><td>1,705</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Brown</td><td>11,557</td><td>11,951</td><td>13,041</td><td>12,205</td><td>9,938</td><td>7,198</td><td>4,168</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Bureau</td><td>41,112</td><td>85,014</td><td>83,172</td><td>82,415</td><td>26,426</td><td>8,841</td><td>3,067</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Calhoun</td><td>8,917</td><td>7,652</td><td>7,407</td><td>6,562</td><td>5,144</td><td>3,231</td><td>1,741</td><td>1,090</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Carroll</td><td>18,963</td><td>18,320</td><td>16,976</td><td>16,705</td><td>11,733</td><td>4,586</td><td>1,028</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Glas</td><td>17,222</td><td>15,903</td><td>14,493</td><td>11,580</td><td>11,329</td><td>7,253</td><td>2,931</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Champaign</td><td>47,622</td><td>42,159</td><td>40,563</td><td>32,737</td><td>14,629</td><td>2,649</td><td>1,475</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Christian</td><td>32,790</td><td>30,531</td><td>28,227</td><td>20,363</td><td>10,492</td><td>3,208</td><td>1,878</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Chase</td><td>24,033</td><td>21,899</td><td>23,694</td><td>15,719</td><td>14,987</td><td>9,532</td><td>7,455</td><td>3,940</td><td>631</td><td></td><td></td><td></td><td></td></tr><tr><td>Clay</td><td>19,653</td><td>16,732</td><td>16,192</td><td>15,975</td><td>9,326</td><td>4,259</td><td>2,228</td><td>755</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Clinton</td><td>19,824</td><td>17,411</td><td>18,714</td><td>16,285</td><td>10,941</td><td>5,139</td><td>3,718</td><td>2,830</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Coles</td><td>84,146</td><td>30,098</td><td>27,042</td><td>25,235</td><td>14,203</td><td>9,335</td><td>9,616</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Cook</td><td>1,833,785</td><td>1,191,922</td><td>607,524</td><td>849,966</td><td>144,954</td><td>43,385</td><td>10,201</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Crawford</td><td>19,240</td><td>17,283</td><td>10,197</td><td>18,859</td><td>11,551</td><td>7,135</td><td>4,422</td><td>8,117</td><td>2,999</td><td></td><td></td><td></td><td></td></tr><tr><td>Cumberland</td><td>16,124</td><td>15,448</td><td>13,759</td><td>12,223</td><td>8,311</td><td>8,718</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Descalp</td><td>31,736</td><td>27,065</td><td>26,768</td><td>25,265</td><td>19,095</td><td>7,540</td><td>1,697</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Dewitt</td><td>18,972</td><td>17,011</td><td>17,010</td><td>14,768</td><td>10,820</td><td>5,002</td><td>3,247</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Douglas</td><td>19,097</td><td>17,669</td><td>15,853</td><td>13,484</td><td>7,140</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Duryage</td><td>23,106</td><td>22,651</td><td>19,161</td><td>16,685</td><td>14,701</td><td>9,200</td><td>3,585</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Edgar</td><td>28,373</td><td>25,767</td><td>25,490</td><td>21,450</td><td>10,925</td><td>10,692</td><td>8,235</td><td>4,071</td><td>3,444</td><td></td><td></td><td></td><td></td></tr><tr><td>Edwards</td><td>10,845</td><td>9,444</td><td>8,507</td><td>7,565</td><td>5,454</td><td>3,524</td><td>3,070</td><td>1,649</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Eifingham</td><td>20,405</td><td>19,358</td><td>18,920</td><td>15,658</td><td>7,816</td><td>3,799</td><td>1,675</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Fayette</td><td>28,065</td><td>23,857</td><td>23,241</td><td>19,638</td><td>11,180</td><td>8,075</td><td>6,828</td><td>2,704</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ford</td><td>18,899</td><td>17,035</td><td>15,099</td><td>9,100</td><td>1,979</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Franklin</td><td>19,075</td><td>17,138</td><td>16,129</td><td>12,652</td><td>9,393</td><td>5,651</td><td>3,682</td><td>4,083</td><td>1,768</td><td></td><td></td><td></td><td></td></tr><tr><td>Fulton</td><td>45,201</td><td>48,110</td><td>41,240</td><td>38,291</td><td>33,338</td><td>22,508</td><td>13,142</td><td>1,841</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Gallatin</td><td>15,836</td><td>14,305</td><td>12,861</td><td>11,134</td><td>8,055</td><td>5,448</td><td>10,700</td><td>7,406</td><td>8,155</td><td></td><td></td><td></td><td></td></tr><tr><td>Greene</td><td>23,402</td><td>23,791</td><td>23,010</td><td>20,277</td><td>16,093</td><td>12,429</td><td>11,951</td><td>7,674</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Grundy</td><td>24,136</td><td>21,024</td><td>16,732</td><td>14,938</td><td>10,879</td><td>9,023</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Hamilton</td><td>30,157</td><td>17,980</td><td>16,712</td><td>12,014</td><td>9,915</td><td>6,302</td><td>8,945</td><td>2,616</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Hancock</td><td>32,215</td><td>81,907</td><td>35,837</td><td>35,935</td><td>29,061</td><td>14,622</td><td>9,946</td><td>453</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Hardin</td><td>7,448</td><td>7,224</td><td>6,024</td><td>5,113</td><td>3,759</td><td>2,887</td><td>1,878</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Henderson</td><td>10,836</td><td>9,878</td><td>10,722</td><td>12,582</td><td>9,501</td><td>4,412</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Henry</td><td>40,049</td><td>83,838</td><td>36,597</td><td>35,506</td><td>20,660</td><td>3,807</td><td>1,320</td><td>41</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Iroquois</td><td>38,014</td><td>85,167</td><td>35,451</td><td>25,782</td><td>12,325</td><td>4,149</td><td>1,695</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Jackson</td><td>33,871</td><td>27,809</td><td>22,505</td><td>19,684</td><td>9,650</td><td>5,862</td><td>3,566</td><td>1,828</td><td>1,542</td><td></td><td></td><td></td><td></td></tr><tr><td>Jasper</td><td>20,160</td><td>18,188</td><td>14,515</td><td>11,234</td><td>8,364</td><td>3,220</td><td>1,472</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Jefferson</td><td>28,138</td><td>22,590</td><td>20,686</td><td>17,804</td><td>12,965</td><td>8,109</td><td>5,762</td><td>2,555</td><td>691</td><td></td><td></td><td></td><td></td></tr><tr><td>Jorey</td><td>14,612</td><td>14,810</td><td>15,542</td><td>15,054</td><td>12,051</td><td>7,854</td><td>4,535</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Jo Davis</td><td>24,533</td><td>25,101</td><td>27,738</td><td>27,820</td><td>27,825</td><td>18,004</td><td>6,180</td><td>2,111</td><td></td><td></td><td></td><td>1,100</td><td></td></tr><tr><td>Johnson</td><td>15,667</td><td>15,018</td><td>13,078</td><td>11,248</td><td>9,192</td><td>4,114</td><td>8,626</td><td>1,596</td><td>843</td><td></td><td></td><td></td><td></td></tr><tr><td>Kane</td><td>75,792</td><td>65,061</td><td>44,999</td><td>39,091</td><td>30,062</td><td>16,708</td><td>6,501</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Kankakee</td><td>37,154</td><td>28,732</td><td>25,047</td><td>24,352</td><td>15,412</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Kendall</td><td>11,467</td><td>12,106</td><td>13,083</td><td>12,399</td><td>13,074</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Knox</td><td>43,612</td><td>88,792</td><td>38,844</td><td>39,522</td><td>28,663</td><td>13,279</td><td>7,060</td><td>274</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Lake</td><td>31,504</td><td>24,225</td><td>21,296</td><td>21,014</td><td>18,257</td><td>14,226</td><td>2,634</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Lasalle</td><td>87,776</td><td>80,798</td><td>70,403</td><td>60,792</td><td>48,832</td><td>17,815</td><td>9,848</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Lawrence</td><td>16,523</td><td>14,698</td><td>13,608</td><td>12,533</td><td>9,214</td><td>6,121</td><td>7,092</td><td>8,668</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Lose</td><td>29,894</td><td>26,187</td><td>27,491</td><td>27,171</td><td>17,631</td><td>5,292</td><td>2,035</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Livingston</td><td>40,036</td><td>38,455</td><td>38,460</td><td>31,471</td><td>11,637</td><td>1,552</td><td>759</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Logan</td><td>25,680</td><td>25,489</td><td>25,037</td><td>29,050</td><td>14,272</td><td>5,128</td><td>2,333</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>McDonough</td><td>26,412</td><td>27,467</td><td>27,970</td><td>26,509</td><td>20,069</td><td>7,616</td><td>5,808</td><td>(2)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>McHenry</td><td>23,759</td><td>26,114</td><td>24,908</td><td>23,762</td><td>23,089</td><td>14,978</td><td>2,678</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>McLean</td><td>67,848</td><td>63,096</td><td>60,100</td><td>58,988</td><td>25,772</td><td>10,110</td><td>6,565</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Macon</td><td>44,003</td><td>38,088</td><td>30,665</td><td>26,481</td><td>13,738</td><td>9,888</td><td>3,089</td><td>1,122</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Macoupin</td><td>42,266</td><td>40,880</td><td>37,692</td><td>32,726</td><td>24,602</td><td>12,355</td><td>7,826</td><td>1,990</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Madison</td><td>64,694</td><td>51,555</td><td>60,126</td><td>44,181</td><td>81,251</td><td>20,441</td><td>14,433</td><td>6,221</td><td>18,550</td><td></td><td></td><td></td><td></td></tr><tr><td>Marlon</td><td>30,446</td><td>24,841</td><td>28,686</td><td>20,622</td><td>12,739</td><td>6,720</td><td>4,742</td><td>2,125</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Marshall</td><td>16,370</td><td>13,688</td><td>15,055</td><td>16,956</td><td>13,437</td><td>5,150</td><td>1,849</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mason</td><td>17,431</td><td>16,067</td><td>15,242</td><td>16,184</td><td>10,931</td><td>5,921</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Massac</td><td>13,110</td><td>11,818</td><td>10,443</td><td>9,681</td><td>6,213</td><td>4,002</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Menard</td><td>14,386</td><td>13,120</td><td>13,024</td><td>11,735</td><td>9,393</td><td>6,849</td><td>4,431</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Mercer</td><td>20,945</td><td>18,645</td><td>19,502</td><td>15,769</td><td>15,042</td><td>5,246</td><td>2,852</td><td>26</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Monroe</td><td>13,847</td><td>12,948</td><td>13,682</td><td>12,063</td><td>12,382</td><td>6,679</td><td>4,481</td><td>2,000</td><td>1,516</td><td></td><td></td><td></td><td></td></tr><tr><td>Montgomery</td><td>30,836</td><td>30,003</td><td>28,078</td><td>23,314</td><td>13,979</td><td>6,277</td><td>4,480</td><td>2,585</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Moyam</td><td>35,006</td><td>32,636</td><td>31,514</td><td>28,463</td><td>22,112</td><td>16,064</td><td>19,547</td><td>12,714</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Moultrie</td><td>15,224</td><td>14,481</td><td>13,699</td><td>10,385</td><td>6,385</td><td>3,234</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Ogle</td><td>29,129</td><td>28,710</td><td>29,997</td><td>27,492</td><td>22,888</td><td>10,020</td><td>8,479</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Pecorla</td><td>88,608</td><td>70,878</td><td>65,555</td><td>47,540</td><td>30,601</td><td>17,547</td><td>6,158</td><td>(3)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Perry</td><td>19,800</td><td>17,529</td><td>15,007</td><td>13,728</td><td>9,552</td><td>5,278</td><td>3,222</td><td>1,215</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Platt</td><td>17,708</td><td>17,062</td><td>15,583</td><td>10,953</td><td>6,127</td><td>1,606</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Pike</td><td>81,595</td><td>81,000</td><td>83,701</td><td>30,768</td><td>27,249</td><td>18,819</td><td>11,728</td><td>2,836</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Pope</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Pulaski</td><td>13,585</td><td>14,018</td><td>13,256</td><td>11,437</td><td>6,743</td><td>8,975</td><td>4,094</td><td>8,316</td><td>2,610</td><td></td><td></td><td></td><td></td></tr><tr><td>Putnam</td><td>14,594</td><td>11,355</td><td>9,507</td><td>8,752</td><td>3,943</td><td>2,265</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Rando/Ph</td><td>4,746</td><td>4,780</td><td>5,554</td><td>6,280</td><td>5,587</td><td>3,924</td><td>2,181</td><td>8,110</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Richland</td><td>28,001</td><td>25,049</td><td>25,690</td><td>20,859</td><td>17,205</td><td>11,079</td><td>7,944</td><td>4,429</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Richmond</td><td></td><td>15,019</td><td>15,645</td><td>12,803</td><td>9,711</td><td>4,012</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr></table>\n\nThen in the territory of Indiana.\n\n0. McDonough and Schuyler reported together and credited to Schuyler in\n\n $ ^{2} $ Peoria and Putnam reported together and credited to Putnam in 1830.\n\n<!-- subset page 3 -->\n<div style=\"text-align: center;\">TABLE 2.—POPULATION OF ILLINOIS BY COUNTIES: 1810 TO 1900.—Continued.</div>\n\n\n\n<table><tr><td>COUNTIES.</td><td>1900</td><td>1890</td><td>1880</td><td>1870</td><td>1860</td><td>1850</td><td>1840</td><td>1830</td><td>1820</td><td>1810</td><td>1800</td><td>1790</td></tr><tr><td>Rock Island</td><td>55,249</td><td>41,917</td><td>38,302</td><td>29,783</td><td>21,005</td><td>6,937</td><td>2,610</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>St. Clair</td><td>86,685</td><td>66,571</td><td>61,806</td><td>51,068</td><td>37,694</td><td>20,180</td><td>13,631</td><td>7,078</td><td>5,248</td><td>5,007</td><td>11,255</td><td></td></tr><tr><td>Saline</td><td>21,685</td><td>19,342</td><td>15,940</td><td>12,714</td><td>9,331</td><td>5,588</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Sangamon</td><td>71,593</td><td>61,195</td><td>52,894</td><td>46,852</td><td>82,274</td><td>19,228</td><td>14,716</td><td>12,900</td><td></td><td></td><td></td><td></td></tr><tr><td>Schuyler</td><td>16,129</td><td>16,013</td><td>16,249</td><td>17,419</td><td>14,684</td><td>10,573</td><td>6,972</td><td>$ ^{{2}} $ 2,959</td><td></td><td></td><td></td><td></td></tr><tr><td>Scott</td><td>10,455</td><td>10,304</td><td>10,741</td><td>10,580</td><td>9,069</td><td>7,914</td><td>6,215</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Shelby</td><td>32,126</td><td>31,191</td><td>30,270</td><td>25,476</td><td>14,613</td><td>7,807</td><td>6,659</td><td>2,972</td><td></td><td></td><td></td><td></td></tr><tr><td>Stark</td><td>10,186</td><td>9,982</td><td>11,207</td><td>10,751</td><td>9,004</td><td>3,710</td><td>1,573</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Stephenson</td><td>34,933</td><td>31,338</td><td>31,963</td><td>30,608</td><td>25,112</td><td>11,666</td><td>2,800</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Tazewell</td><td>33,221</td><td>29,556</td><td>29,666</td><td>27,903</td><td>21,470</td><td>12,052</td><td>7,221</td><td>4,716</td><td></td><td></td><td></td><td></td></tr><tr><td>Union</td><td>22,610</td><td>21,549</td><td>18,102</td><td>16,518</td><td>11,181</td><td>7,615</td><td>5,524</td><td>3,239</td><td>2,362</td><td></td><td></td><td></td></tr><tr><td>Vermillion</td><td>65,635</td><td>49,905</td><td>41,588</td><td>30,388</td><td>19,800</td><td>11,492</td><td>9,303</td><td>5,836</td><td></td><td></td><td></td><td></td></tr><tr><td>Wabash</td><td>12,583</td><td>11,866</td><td>9,945</td><td>8,841</td><td>7,313</td><td>4,690</td><td>4,240</td><td>2,710</td><td></td><td></td><td></td><td></td></tr><tr><td>Warren</td><td>23,163</td><td>21,281</td><td>22,933</td><td>23,174</td><td>18,336</td><td>8,176</td><td>6,739</td><td>308</td><td></td><td></td><td></td><td></td></tr><tr><td>Washington</td><td>19,526</td><td>19,262</td><td>21,112</td><td>17,599</td><td>13,731</td><td>6,953</td><td>4,810</td><td>1,675</td><td>1,517</td><td></td><td></td><td></td></tr><tr><td>Wayne</td><td>27,626</td><td>23,806</td><td>21,291</td><td>19,758</td><td>12,223</td><td>6,825</td><td>5,133</td><td>2,553</td><td>1,114</td><td></td><td></td><td></td></tr><tr><td>White</td><td>25,386</td><td>25,005</td><td>23,087</td><td>16,846</td><td>12,403</td><td>8,925</td><td>7,919</td><td>6,091</td><td>4,828</td><td></td><td></td><td></td></tr><tr><td>Whiteside</td><td>34,710</td><td>30,854</td><td>30,885</td><td>27,503</td><td>18,737</td><td>5,361</td><td>2,514</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Will</td><td>74,764</td><td>62,007</td><td>53,422</td><td>48,013</td><td>29,821</td><td>16,703</td><td>10,167</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Williamson</td><td>27,796</td><td>22,226</td><td>19,324</td><td>17,329</td><td>12,205</td><td>7,216</td><td>4,457</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Winnebago</td><td>47,845</td><td>39,938</td><td>30,505</td><td>29,301</td><td>24,491</td><td>11,773</td><td>4,609</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Woodford</td><td>21,822</td><td>21,429</td><td>21,620</td><td>18,956</td><td>18,282</td><td>4,415</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>\n\n $ ^{1} $ Then in the territory of Indiana.\n\n $ ^{2} $ McDonough and Schuyler reported together and credited to Schuyler in 1830.\n\n<div style=\"text-align: center;\">TABLE 3.—INCREASE IN POPULATION OF ILLINOIS BY COUNTIES: 1890 TO 1900.</div>\n\n\n\n<table><tr><td rowspan=\"2\">COUNTIES,</td><td colspan=\"2\">INCREASE.</td><td rowspan=\"2\">COUNTIES.</td><td colspan=\"2\">INCREASE.</td></tr><tr><td>Number.</td><td>Per cent.</td><td>Number.</td><td>Per cent.</td></tr><tr><td></td><td></td><td></td><td>8</td><td></td><td></td></tr><tr><td>The State</td><td>995,199</td><td>26.0</td><td>Lawrence</td><td>1,830</td><td>12.4</td></tr><tr><td></td><td></td><td></td><td>Lee</td><td>3,707</td><td>14.1</td></tr><tr><td>Adams</td><td>5,170</td><td>8.8</td><td>Livingston</td><td>8,580</td><td>9.3</td></tr><tr><td>Alexander</td><td>2,821</td><td>17.0</td><td>Logan</td><td>3,191</td><td>12.5</td></tr><tr><td>Bond</td><td>1,528</td><td>10.5</td><td>McDonough</td><td>945</td><td>3.4</td></tr><tr><td>Boone</td><td>3,588</td><td>29.4</td><td>McHenry</td><td>3,645</td><td>13.9</td></tr><tr><td>Brown</td><td>1,394</td><td>13.2</td><td>McLean</td><td>4,807</td><td>7.6</td></tr><tr><td>Bureau</td><td>6,098</td><td>17.4</td><td>Macon</td><td>5,920</td><td>15.5</td></tr><tr><td>Calhoun</td><td>1,265</td><td>16.5</td><td>Macoupin</td><td>1,876</td><td>4.6</td></tr><tr><td>Carroll</td><td>643</td><td>3.5</td><td>Madison</td><td>13,159</td><td>25.5</td></tr><tr><td>Other</td><td>1,950</td><td>7.8</td><td>Marion</td><td>6,105</td><td>25.0</td></tr><tr><td>Cass</td><td>1,209</td><td>7.0</td><td>Marshall</td><td>2,717</td><td>19.9</td></tr><tr><td>Champaign</td><td>5,468</td><td>12.9</td><td>Mason</td><td>1,424</td><td>8.8</td></tr><tr><td>Christian</td><td>2,259</td><td>7.3</td><td>Massac</td><td>1,797</td><td>15.8</td></tr><tr><td>Clark</td><td>2,134</td><td>9.7</td><td>Menard</td><td>1,216</td><td>9.2</td></tr><tr><td>Clay</td><td>2,781</td><td>16.5</td><td>Mercer</td><td>2,400</td><td>12.9</td></tr><tr><td>Clinton</td><td>2,413</td><td>13.8</td><td>Monroe</td><td>899</td><td>6.9</td></tr><tr><td>Coles</td><td>4,053</td><td>13.4</td><td>Montgomery</td><td>833</td><td>2.7</td></tr><tr><td>Cook</td><td>646,813</td><td>54.2</td><td>Morgan</td><td>2,370</td><td>7.2</td></tr><tr><td>Crawford</td><td>1,957</td><td>11.8</td><td>Moultrie</td><td>743</td><td>5.1</td></tr><tr><td>Cumberland</td><td>681</td><td>4.4</td><td>Ogle</td><td>419</td><td>1.4</td></tr><tr><td>Dekalb</td><td>4,690</td><td>17.3</td><td>Peoria</td><td>18,230</td><td>26.9</td></tr><tr><td>Dewitt</td><td>1,961</td><td>11.5</td><td>Perry</td><td>2,301</td><td>13.1</td></tr><tr><td>Douglas</td><td>1,428</td><td>8.0</td><td>Piatt</td><td>644</td><td>3.7</td></tr><tr><td>Dupage</td><td>5,645</td><td>25.0</td><td>Pike</td><td>595</td><td>1.9</td></tr><tr><td>Edgar</td><td>1,486</td><td>5.5</td><td>Pope</td><td>1,431</td><td>13.0</td></tr><tr><td>Edwards</td><td>901</td><td>9.5</td><td>Pulaski</td><td>3,199</td><td>28.1</td></tr><tr><td>Effingham</td><td>1,107</td><td>5.7</td><td>Putnam</td><td>16</td><td>0.3</td></tr><tr><td>Fayette</td><td>4,698</td><td>20.1</td><td>Randolph</td><td>2,952</td><td>11.7</td></tr><tr><td>Tromb</td><td>1,204</td><td>7.7</td><td></td><td></td><td></td></tr><tr><td>Ford</td><td>1,824</td><td>7.7</td><td>Richland</td><td>1,372</td><td>9.1</td></tr><tr><td>Franklin</td><td>2,537</td><td>14.8</td><td>Rock Island</td><td>13,332</td><td>31.8</td></tr><tr><td>Fulton</td><td>3,091</td><td>7.1</td><td>St. Clair</td><td>20,114</td><td>30.2</td></tr><tr><td>Gallatin</td><td>901</td><td>6.0</td><td>Saline</td><td>2,343</td><td>12.1</td></tr><tr><td>Greene</td><td>1,389</td><td>11.6</td><td>Sangamon</td><td>10,398</td><td>16.9</td></tr><tr><td>Grundy</td><td>3,112</td><td>14.8</td><td>Schuyler</td><td>116</td><td>0.7</td></tr><tr><td>Hamilton</td><td>2,397</td><td>13.4</td><td>Scott</td><td>151</td><td>1.4</td></tr><tr><td>Hancock</td><td>808</td><td>0.9</td><td>Shelby</td><td>935</td><td>2.9</td></tr><tr><td>Hardin</td><td>214</td><td>2.9</td><td>Stark</td><td>204</td><td>2.0</td></tr><tr><td>Henderson</td><td>960</td><td>9.7</td><td>Stephenson</td><td>3,595</td><td>11.4</td></tr><tr><td>Henry</td><td>6,711</td><td>20.1</td><td>Tazewell</td><td>3,665</td><td>12.4</td></tr><tr><td>Iroquois</td><td>2,847</td><td>8.0</td><td>Union</td><td>1,061</td><td>4.9</td></tr><tr><td>Jackson</td><td>6,062</td><td>21.7</td><td>Vermillion</td><td>15,780</td><td>81.5</td></tr><tr><td>Jasper</td><td>1,972</td><td>10.8</td><td>Wabash</td><td>717</td><td>6.0</td></tr><tr><td>Jefferson</td><td>5,543</td><td>24.5</td><td>Warren</td><td>1,882</td><td>8.8</td></tr><tr><td>Jersey</td><td>1,198</td><td>11.8</td><td>Washington</td><td>264</td><td>1.3</td></tr><tr><td>Jo Daviess</td><td>1,568</td><td>12.2</td><td>Wayne</td><td>8,820</td><td>16.0</td></tr><tr><td>Johnson</td><td>654</td><td>4.3</td><td>White</td><td>381</td><td>1.5</td></tr><tr><td>Kane</td><td>13,731</td><td>21.1</td><td>Whiteside</td><td>3,856</td><td>12.4</td></tr><tr><td>Kankakee</td><td>8,422</td><td>29.3</td><td>Will</td><td>12,757</td><td>20.5</td></tr><tr><td>Kendall</td><td>1,639</td><td>15.2</td><td>Williamson</td><td>5,570</td><td>25.0</td></tr><tr><td>Knox</td><td>4,860</td><td>12.5</td><td>Winnebago</td><td>7,907</td><td>19.7</td></tr><tr><td>Lake</td><td>10,269</td><td>42.8</td><td>Woodford</td><td>393</td><td>1.8</td></tr><tr><td>Lasalle</td><td>6,978</td><td>8.6</td><td></td><td></td><td></td></tr></table>\n\n $ ^{1} $Decrease.\n\nThere have been no territorial changes in the counties of Illinois since 1890.\n\nOr the 102 counties in the state all but 6 have increased in population during the decade, the counties showing the largest percentages of increase being Cook, 54.2 per cent; Lake, 42.3 per cent; Rock Island, 31.8 per cent; Vermilion, 31.5 per cent; St. Clair, 30.2 per cent; Boone, 29.4 per cent; Kankakee, 29.3 per cent; and Pulaski, 28.1 per cent.\n\nThe 6 counties showing a decrease are Brown, Greene, Jersey, Jo Daviess, Kendall, and Pope.",
+    "external_fallback_required": false,
+    "credits_used": 0,
+    "final_url": "http://127.0.0.1:8778/assets/4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+    "content_sha256": "4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+    "document_language_hint": null,
+    "total_pages": 3,
+    "pages_read": [
+      1,
+      3
+    ],
+    "ocr_pages": [
+      1,
+      2,
+      3
+    ],
+    "ocr_routes": [
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 13,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 10,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 36,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 7,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 7,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 9,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 16,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 12,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 18,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 9,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 17,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 72,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 250,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 26,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 46,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 296,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 605,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 137,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 453,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 45,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 174,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 74,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 198,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 67,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 280,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 22,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 61,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 11372.7,
+        "quality_warning": "Completion checks are not proof of transcription accuracy.",
+        "rendering": {
+          "dpi": 144,
+          "width": 1222,
+          "height": 1583,
+          "encoded_bytes": 319952
+        },
+        "attempts": [
+          {
+            "ok": true,
+            "engine": "paddleocr-vl-1.6-mlx-layout",
+            "error": null,
+            "quality_flags": [],
+            "route": [
+              {
+                "engine": "paddle-layout+mlx",
+                "regions": 13,
+                "generations": [
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 10,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 36,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 7,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 7,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 9,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 16,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 12,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 18,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 9,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 17,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 72,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 250,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 26,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 46,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 296,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 605,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 137,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 453,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 45,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 174,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 74,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 198,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 67,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 280,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 22,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 61,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  }
+                ]
+              }
+            ],
+            "rendering": {
+              "dpi": 144,
+              "width": 1222,
+              "height": 1583,
+              "encoded_bytes": 319952
+            },
+            "recognition_profile": "detail",
+            "elapsed_ms": 11372.7
+          }
+        ],
+        "selected_elapsed_ms": 11372.7
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 8,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 1,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 72,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 253,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 29,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 58,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 8,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 33,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 19,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 71,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 25,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 76,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 6,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 5,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 4930,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 11420,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": [
+                  {
+                    "strategy": "bands",
+                    "complete": false,
+                    "bands": [
+                      {
+                        "y": [
+                          0,
+                          479
+                        ],
+                        "width": 2087,
+                        "input_sha256": "847f8439a5584e91b30889c83e6b83ffff893f139f86481dd9ad5c95d20cc33b",
+                        "finish_reason": "stop",
+                        "usage": {
+                          "prompt_tokens": 1288,
+                          "completion_tokens": 778,
+                          "total_tokens": 2066,
+                          "prompt_tokens_details": {
+                            "cached_tokens": 0
+                          }
+                        },
+                        "repetition_guard": false
+                      },
+                      {
+                        "y": [
+                          479,
+                          935
+                        ],
+                        "width": 2087,
+                        "input_sha256": "9c059477d2a9aa0810615d2426dba7a452c549031232345b4ba6022a822ec28c",
+                        "finish_reason": "stop",
+                        "usage": {
+                          "prompt_tokens": 1213,
+                          "completion_tokens": 873,
+                          "total_tokens": 2086,
+                          "prompt_tokens_details": {
+                            "cached_tokens": 0
+                          }
+                        },
+                        "repetition_guard": false
+                      },
+                      {
+                        "y": [
+                          935,
+                          1378
+                        ],
+                        "width": 2087,
+                        "input_sha256": "3846b9d9e942a93b7307f7023838909f1a556a7dd9800d1b91f9dec03da1ee28",
+                        "finish_reason": "stop",
+                        "usage": {
+                          "prompt_tokens": 1213,
+                          "completion_tokens": 859,
+                          "total_tokens": 2072,
+                          "prompt_tokens_details": {
+                            "cached_tokens": 0
+                          }
+                        },
+                        "repetition_guard": false
+                      },
+                      {
+                        "y": [
+                          1378,
+                          1821
+                        ],
+                        "width": 2087,
+                        "input_sha256": "f102a1be6aaa395f08a853d61fcc54b8df2e37d552b21bd05e8fde9dc4b00afc",
+                        "finish_reason": "stop",
+                        "usage": {
+                          "prompt_tokens": 1213,
+                          "completion_tokens": 850,
+                          "total_tokens": 2063,
+                          "prompt_tokens_details": {
+                            "cached_tokens": 0
+                          }
+                        },
+                        "repetition_guard": false
+                      },
+                      {
+                        "y": [
+                          1821,
+                          2267
+                        ],
+                        "width": 2087,
+                        "input_sha256": "b83129ca1787627c3bf43babc327f9519ff349e364d2cf2e125a8d1749694daf",
+                        "finish_reason": "stop",
+                        "usage": {
+                          "prompt_tokens": 1213,
+                          "completion_tokens": 865,
+                          "total_tokens": 2078,
+                          "prompt_tokens_details": {
+                            "cached_tokens": 0
+                          }
+                        },
+                        "repetition_guard": false
+                      },
+                      {
+                        "y": [
+                          2267,
+                          2558
+                        ],
+                        "width": 2087,
+                        "input_sha256": "2ef0aa2041e4058c8f842cfb0ef90d0405c252a22db1f35ec451eb9703955784",
+                        "finish_reason": "stop",
+                        "usage": {
+                          "prompt_tokens": 763,
+                          "completion_tokens": 579,
+                          "total_tokens": 1342,
+                          "prompt_tokens_details": {
+                            "cached_tokens": 0
+                          }
+                        },
+                        "repetition_guard": false
+                      }
+                    ],
+                    "columns": [
+                      13,
+                      13,
+                      12,
+                      12,
+                      12,
+                      12
+                    ]
+                  },
+                  {
+                    "strategy": "single-high-detail",
+                    "finish_reason": "stop",
+                    "usage": {
+                      "prompt_tokens": 1261,
+                      "completion_tokens": 4930,
+                      "total_tokens": 6191,
+                      "prompt_tokens_details": {
+                        "cached_tokens": 0
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 117707.42,
+        "quality_warning": "Completion checks are not proof of transcription accuracy.",
+        "rendering": {
+          "dpi": 300,
+          "width": 2564,
+          "height": 3311,
+          "encoded_bytes": 413176
+        },
+        "attempts": [
+          {
+            "ok": true,
+            "engine": "paddleocr-vl-1.6-mlx-layout",
+            "error": null,
+            "quality_flags": [],
+            "route": [
+              {
+                "engine": "paddle-layout+mlx",
+                "regions": 8,
+                "generations": [
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 2,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 1,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 72,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 253,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 29,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 58,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 8,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 33,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 19,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 71,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 25,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 76,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 6,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 5,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 4930,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 11420,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": [
+                      {
+                        "strategy": "bands",
+                        "complete": false,
+                        "bands": [
+                          {
+                            "y": [
+                              0,
+                              479
+                            ],
+                            "width": 2087,
+                            "input_sha256": "847f8439a5584e91b30889c83e6b83ffff893f139f86481dd9ad5c95d20cc33b",
+                            "finish_reason": "stop",
+                            "usage": {
+                              "prompt_tokens": 1288,
+                              "completion_tokens": 778,
+                              "total_tokens": 2066,
+                              "prompt_tokens_details": {
+                                "cached_tokens": 0
+                              }
+                            },
+                            "repetition_guard": false
+                          },
+                          {
+                            "y": [
+                              479,
+                              935
+                            ],
+                            "width": 2087,
+                            "input_sha256": "9c059477d2a9aa0810615d2426dba7a452c549031232345b4ba6022a822ec28c",
+                            "finish_reason": "stop",
+                            "usage": {
+                              "prompt_tokens": 1213,
+                              "completion_tokens": 873,
+                              "total_tokens": 2086,
+                              "prompt_tokens_details": {
+                                "cached_tokens": 0
+                              }
+                            },
+                            "repetition_guard": false
+                          },
+                          {
+                            "y": [
+                              935,
+                              1378
+                            ],
+                            "width": 2087,
+                            "input_sha256": "3846b9d9e942a93b7307f7023838909f1a556a7dd9800d1b91f9dec03da1ee28",
+                            "finish_reason": "stop",
+                            "usage": {
+                              "prompt_tokens": 1213,
+                              "completion_tokens": 859,
+                              "total_tokens": 2072,
+                              "prompt_tokens_details": {
+                                "cached_tokens": 0
+                              }
+                            },
+                            "repetition_guard": false
+                          },
+                          {
+                            "y": [
+                              1378,
+                              1821
+                            ],
+                            "width": 2087,
+                            "input_sha256": "f102a1be6aaa395f08a853d61fcc54b8df2e37d552b21bd05e8fde9dc4b00afc",
+                            "finish_reason": "stop",
+                            "usage": {
+                              "prompt_tokens": 1213,
+                              "completion_tokens": 850,
+                              "total_tokens": 2063,
+                              "prompt_tokens_details": {
+                                "cached_tokens": 0
+                              }
+                            },
+                            "repetition_guard": false
+                          },
+                          {
+                            "y": [
+                              1821,
+                              2267
+                            ],
+                            "width": 2087,
+                            "input_sha256": "b83129ca1787627c3bf43babc327f9519ff349e364d2cf2e125a8d1749694daf",
+                            "finish_reason": "stop",
+                            "usage": {
+                              "prompt_tokens": 1213,
+                              "completion_tokens": 865,
+                              "total_tokens": 2078,
+                              "prompt_tokens_details": {
+                                "cached_tokens": 0
+                              }
+                            },
+                            "repetition_guard": false
+                          },
+                          {
+                            "y": [
+                              2267,
+                              2558
+                            ],
+                            "width": 2087,
+                            "input_sha256": "2ef0aa2041e4058c8f842cfb0ef90d0405c252a22db1f35ec451eb9703955784",
+                            "finish_reason": "stop",
+                            "usage": {
+                              "prompt_tokens": 763,
+                              "completion_tokens": 579,
+                              "total_tokens": 1342,
+                              "prompt_tokens_details": {
+                                "cached_tokens": 0
+                              }
+                            },
+                            "repetition_guard": false
+                          }
+                        ],
+                        "columns": [
+                          13,
+                          13,
+                          12,
+                          12,
+                          12,
+                          12
+                        ]
+                      },
+                      {
+                        "strategy": "single-high-detail",
+                        "finish_reason": "stop",
+                        "usage": {
+                          "prompt_tokens": 1261,
+                          "completion_tokens": 4930,
+                          "total_tokens": 6191,
+                          "prompt_tokens_details": {
+                            "cached_tokens": 0
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "rendering": {
+              "dpi": 300,
+              "width": 2564,
+              "height": 3311,
+              "encoded_bytes": 413176
+            },
+            "recognition_profile": "detail",
+            "elapsed_ms": 117707.42
+          }
+        ],
+        "selected_elapsed_ms": 117707.42
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 11,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 1,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 33,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 69,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 13,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 42,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 28,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 83,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 32,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 70,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 10,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 17,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 19,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 78,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 123,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 350,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 26,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 91,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 1398,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 3086,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null,
+                "table_attempts": [
+                  {
+                    "strategy": "bands",
+                    "complete": false,
+                    "bands": [
+                      {
+                        "y": [
+                          0,
+                          471
+                        ],
+                        "width": 2119,
+                        "input_sha256": "a63557f2f1a4e5006872dbc247028a24b46cc1efd1504c64818da2c9ec35f155",
+                        "finish_reason": "stop",
+                        "usage": {
+                          "prompt_tokens": 1213,
+                          "completion_tokens": 798,
+                          "total_tokens": 2011,
+                          "prompt_tokens_details": {
+                            "cached_tokens": 0
+                          }
+                        },
+                        "repetition_guard": false
+                      },
+                      {
+                        "y": [
+                          471,
+                          794
+                        ],
+                        "width": 2119,
+                        "input_sha256": "204ba8f27cf65444dec7312240c0e3a3eef35d74ec7a6d53314719c7863a646c",
+                        "finish_reason": "stop",
+                        "usage": {
+                          "prompt_tokens": 925,
+                          "completion_tokens": 584,
+                          "total_tokens": 1509,
+                          "prompt_tokens_details": {
+                            "cached_tokens": 0
+                          }
+                        },
+                        "repetition_guard": false
+                      }
+                    ],
+                    "columns": [
+                      13,
+                      12
+                    ]
+                  },
+                  {
+                    "strategy": "single-high-detail",
+                    "finish_reason": "stop",
+                    "usage": {
+                      "prompt_tokens": 1231,
+                      "completion_tokens": 1398,
+                      "total_tokens": 2629,
+                      "prompt_tokens_details": {
+                        "cached_tokens": 0
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 1512,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 3912,
+                "table_bands": [
+                  {
+                    "y": [
+                      0,
+                      466
+                    ],
+                    "width": 1498,
+                    "input_sha256": "fbe1fcc6403fd54559856f6a8c8a5b7987bf4b271108a202088eaa3db4e3c7ea",
+                    "finish_reason": "stop",
+                    "usage": {
+                      "prompt_tokens": 931,
+                      "completion_tokens": 343,
+                      "total_tokens": 1274,
+                      "prompt_tokens_details": {
+                        "cached_tokens": 0
+                      }
+                    },
+                    "repetition_guard": false
+                  },
+                  {
+                    "y": [
+                      466,
+                      913
+                    ],
+                    "width": 1498,
+                    "input_sha256": "368bb9e87e30fd2f3f59e96eb870c3f90646f28f1de788aee7d4df3bf0e09fb1",
+                    "finish_reason": "stop",
+                    "usage": {
+                      "prompt_tokens": 877,
+                      "completion_tokens": 510,
+                      "total_tokens": 1387,
+                      "prompt_tokens_details": {
+                        "cached_tokens": 0
+                      }
+                    },
+                    "repetition_guard": false
+                  },
+                  {
+                    "y": [
+                      913,
+                      1525
+                    ],
+                    "width": 1498,
+                    "input_sha256": "617ccac22e38d73291632554aedd6a5e88b607a0c58efa2ebf55c9138e5f83d0",
+                    "finish_reason": "stop",
+                    "usage": {
+                      "prompt_tokens": 1201,
+                      "completion_tokens": 659,
+                      "total_tokens": 1860,
+                      "prompt_tokens_details": {
+                        "cached_tokens": 0
+                      }
+                    },
+                    "repetition_guard": false
+                  }
+                ],
+                "table_band_complete": true,
+                "table_band_columns": [
+                  6,
+                  6,
+                  6
+                ],
+                "table_attempts": null
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 60521.53,
+        "quality_warning": "Completion checks are not proof of transcription accuracy.",
+        "rendering": {
+          "dpi": 300,
+          "width": 2544,
+          "height": 3296,
+          "encoded_bytes": 326417
+        },
+        "attempts": [
+          {
+            "ok": true,
+            "engine": "paddleocr-vl-1.6-mlx-layout",
+            "error": null,
+            "quality_flags": [],
+            "route": [
+              {
+                "engine": "paddle-layout+mlx",
+                "regions": 11,
+                "generations": [
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 2,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 1,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 33,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 69,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 13,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 42,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 28,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 83,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 32,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 70,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 10,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 17,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 19,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 78,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 123,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 350,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 26,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 91,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 1398,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 3086,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null,
+                    "table_attempts": [
+                      {
+                        "strategy": "bands",
+                        "complete": false,
+                        "bands": [
+                          {
+                            "y": [
+                              0,
+                              471
+                            ],
+                            "width": 2119,
+                            "input_sha256": "a63557f2f1a4e5006872dbc247028a24b46cc1efd1504c64818da2c9ec35f155",
+                            "finish_reason": "stop",
+                            "usage": {
+                              "prompt_tokens": 1213,
+                              "completion_tokens": 798,
+                              "total_tokens": 2011,
+                              "prompt_tokens_details": {
+                                "cached_tokens": 0
+                              }
+                            },
+                            "repetition_guard": false
+                          },
+                          {
+                            "y": [
+                              471,
+                              794
+                            ],
+                            "width": 2119,
+                            "input_sha256": "204ba8f27cf65444dec7312240c0e3a3eef35d74ec7a6d53314719c7863a646c",
+                            "finish_reason": "stop",
+                            "usage": {
+                              "prompt_tokens": 925,
+                              "completion_tokens": 584,
+                              "total_tokens": 1509,
+                              "prompt_tokens_details": {
+                                "cached_tokens": 0
+                              }
+                            },
+                            "repetition_guard": false
+                          }
+                        ],
+                        "columns": [
+                          13,
+                          12
+                        ]
+                      },
+                      {
+                        "strategy": "single-high-detail",
+                        "finish_reason": "stop",
+                        "usage": {
+                          "prompt_tokens": 1231,
+                          "completion_tokens": 1398,
+                          "total_tokens": 2629,
+                          "prompt_tokens_details": {
+                            "cached_tokens": 0
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 1512,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 3912,
+                    "table_bands": [
+                      {
+                        "y": [
+                          0,
+                          466
+                        ],
+                        "width": 1498,
+                        "input_sha256": "fbe1fcc6403fd54559856f6a8c8a5b7987bf4b271108a202088eaa3db4e3c7ea",
+                        "finish_reason": "stop",
+                        "usage": {
+                          "prompt_tokens": 931,
+                          "completion_tokens": 343,
+                          "total_tokens": 1274,
+                          "prompt_tokens_details": {
+                            "cached_tokens": 0
+                          }
+                        },
+                        "repetition_guard": false
+                      },
+                      {
+                        "y": [
+                          466,
+                          913
+                        ],
+                        "width": 1498,
+                        "input_sha256": "368bb9e87e30fd2f3f59e96eb870c3f90646f28f1de788aee7d4df3bf0e09fb1",
+                        "finish_reason": "stop",
+                        "usage": {
+                          "prompt_tokens": 877,
+                          "completion_tokens": 510,
+                          "total_tokens": 1387,
+                          "prompt_tokens_details": {
+                            "cached_tokens": 0
+                          }
+                        },
+                        "repetition_guard": false
+                      },
+                      {
+                        "y": [
+                          913,
+                          1525
+                        ],
+                        "width": 1498,
+                        "input_sha256": "617ccac22e38d73291632554aedd6a5e88b607a0c58efa2ebf55c9138e5f83d0",
+                        "finish_reason": "stop",
+                        "usage": {
+                          "prompt_tokens": 1201,
+                          "completion_tokens": 659,
+                          "total_tokens": 1860,
+                          "prompt_tokens_details": {
+                            "cached_tokens": 0
+                          }
+                        },
+                        "repetition_guard": false
+                      }
+                    ],
+                    "table_band_complete": true,
+                    "table_band_columns": [
+                      6,
+                      6,
+                      6
+                    ],
+                    "table_attempts": null
+                  }
+                ]
+              }
+            ],
+            "rendering": {
+              "dpi": 300,
+              "width": 2544,
+              "height": 3296,
+              "encoded_bytes": 326417
+            },
+            "recognition_profile": "detail",
+            "elapsed_ms": 60521.53
+          }
+        ],
+        "selected_elapsed_ms": 60521.53
+      }
+    ],
+    "ocr_conversion_ms": 189601.65,
+    "ocr_cold": false,
+    "fast_ocr_error": null,
+    "ocr_warning": "OCR subset page numbers map in order to ocr_pages. OCR may misread names, dates and Thai text; verify against page images.",
+    "extracted_chars": 28693,
+    "truncated": false,
+    "elapsed_ms": 190217.09,
+    "fallback_count": 1,
+    "upload_id": "4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8",
+    "source_kind": "uploaded-document",
+    "server_commit": "00d623a03e741e2e1b0edf030e9a5dcb5ce0f268"
+  }
+}

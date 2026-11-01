@@ -1,0 +1,8 @@
+{
+  "locked_before_new_provider_runs": true,
+  "windows_crlf_bytes_sha256": "987c349e69d45a084af0e24248d4cfc71b09a7c9791cad570e929dbfd2ca6334",
+  "mac_lf_bytes_sha256": "8a39b0dcddda560846504e123940927a0fe5099c37bd4b481456413a5e16d488",
+  "canonical_json_sha256": "72a37213b39a3a3dd1b4e344162d962b39c3c460fcad2bf2dfea105620301ac2",
+  "source": "../real-history-2026-11-01/references.json",
+  "note": "Canonical JSON equality and original Windows file equality verified. Raw hash difference is CRLF versus LF only. No reference content changed."
+}

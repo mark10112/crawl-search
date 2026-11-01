@@ -1,0 +1,1190 @@
+{
+  "variant": "after",
+  "mode": "ocr",
+  "id": "us-preservation",
+  "worker_sha": "92af4f08f152b326fe52ca7518f04723c510814d",
+  "reader_sha": "92af4f08f152b326fe52ca7518f04723c510814d",
+  "started_at": 1793554259.507669,
+  "ended_at": 1793554307.4118981,
+  "elapsed_ms": 47904.17,
+  "request": {
+    "upload_id": "20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+    "mode": "ocr",
+    "cache": false,
+    "max_pages": 3,
+    "max_chars": 40000,
+    "ocr_policy": "quality"
+  },
+  "raw": {
+    "ok": true,
+    "output_complete": true,
+    "url": "http://127.0.0.1:8778/assets/20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+    "reader": "router:paddleocr-vl-1.6-mlx-layout",
+    "cache_hit": false,
+    "stages": [
+      {
+        "name": "fetch",
+        "ok": true,
+        "elapsed_ms": 6.15
+      },
+      {
+        "name": "pdf-text",
+        "ok": true,
+        "elapsed_ms": 14.74,
+        "needs_ocr": true
+      },
+      {
+        "name": "ocr-router",
+        "ok": true,
+        "elapsed_ms": 47736.94
+      }
+    ],
+    "text": "\n\n<!-- subset page 1 -->\n# PRESERVATION OF NEWSPAPER RECORDS\n\nBy B. W. Scribner\n\n## ABSTRACT\n\nAn examination of newspapers published in the United States during the period 1830 to 1900 was made relative to preservation of this form of record. The papers were composed entirely of rag fiber prior to 1868, and mixtures of this fiber with other chemically treated fibers from straw were found in some papers dated prior to 1880. Nearly all of these papers were in good condition. Most of the papers published after 1868 contained crude ground wood fiber and these had deteriorated considerably. Tests of special issues of newspapers printed since 1927 on high-grade paper for permanent library files indicate that some records will be preserved in this way. For retarding decay of newspapers, the use of Japanese tissue paper or transparent cellulose acetate sheeting appears to be effective. Apparently very stable reproductions of newspaper records can be made by photostatic and photolithographic printing on high-grade paper or by the use of photographic glass plates. The printing of the negative on glass plates in miniature, and reproduction of the prints on film slides, from which they can be projected in enlarged form for reading, are suggested for consideration when extensive reproductions are made.\n\n## CONTENTS\n\nPage  \n  \nI. Introduction.....1  \nII. Examination of old newspapers.....2  \nIII. Protective measures.....5  \nIV. Reproduction of newspapers.....8  \nV. Newsprint for permanent editions.....9  \nVI. Recommendations.....10\n\n### I. INTRODUCTION\n\nNewspapers are a most important class of historical records as they present, when taken as a whole, the most authentic cross section of contemporaneous life and events. These records are in the main factual; they are not the result of opinions and deductions such as is often the case in historical writings. For this reason, the newspaper files constitute one of the most important and active classes of reference records preserved in libraries.\n\nUnfortunately, considered from the viewpoint of their perpetual value, the immediate function of newspapers is to inform people of current events as quickly and inexpensively as possible, and this requires cheap paper suited to rapid and low-cost printing. The present type of newsprint, composed largely of crude ground wood fibers, is ideally suited to this function but its preservation is difficult, as its initial strength is low and it becomes brittle through deterioration of the fibers. Newspapers were first printed on rag fiber paper which was strong and durable, and there has been little difficulty in preserving the papers printed prior to the use of crude wood fibers. As a result of the observed deterioration of newspapers, the New York Times initiated in 1927 the issue of a part of its daily edition\n\n<!-- subset page 2 -->\nprinted on high-grade paper for the permanent files of libraries, and several other newspaper publishers have adopted this practice. Preceding these special editions, then, there was a long period during which all newspapers were printed on paper which is subject to more or less rapid decay. In view of the importance of obtaining information which might assist in any project to perpetuate the newspaper records, a study of newspapers stored in libraries was made to definitely fix the period of use of impermanent newsprint, and some attention was given to preservative treatments for newspapers and the reproduction of their contents. $ ^{1} $\n\n### II. EXAMINATION OF OLD NEWSPAPERS\n\nThrough the cooperation of the New York Public Library, the Library of Congress, the Free Library of Oakland, Calif., and publishers of Pacific coast papers, specimens were secured from newspapers published in the United States during the period 1830 to 1900, with short intervals between the publication dates. This period covers the various transitions in the use of different kinds of fibers for newsprint. The specimens examined were from 18 eastern papers and 9 west coast papers. Since there are seldom duplicate copies of old newspapers in any one file, the specimens were necessarily limited to small strips cut from the margins. They were examined for state of preservation by visual inspection of color and by creasing them between the fingers for estimation of their relative strength and flexibility. Actual measurement of these properties was not necessary as it was found that three different operators graded the papers quite uniformly by this procedure. The papers fell naturally into five grades. Those designated as grade 1 were in excellent condition, showing little evidence of discoloration or brittleness, while those in grade 5 were deep brown in color and so brittle that they usually broke under one or two creasings. The other specimens were intermediate in these respects, in the relative order of the numbers. The degree of discoloration of the specimens closely paralleled the degree of brittleness. Identification of the fibers was made by the usual microscopical method.\n\nThe results of the examination of the papers are given in tables 1, 2, and 3, in which the papers are grouped according to the kinds of fibers in them. Some of the papers apparently contained some esparto fibers but, as their differentiation from straw fibers could not in most cases be made positively, all such fibers were included under the general designation of “straw.”\n\n<!-- subset page 3 -->\n<div style=\"text-align: center;\">TABLE 1.—Condition of newspapers composed entirely of chemically purified rag fiber</div>\n\n\n<div style=\"text-align: center;\">EASTERN PAPERS</div>\n\n\n\n<table><tr><td>Title</td><td>Date</td><td>Grade</td></tr><tr><td>New York Journal of Commerce</td><td>May 19, 1830</td><td>1</td></tr><tr><td>Albany Argus</td><td>June 30, 1830</td><td>1</td></tr><tr><td>Cincinnati Daily Gazette</td><td>Oct. 2, 1830</td><td>2</td></tr><tr><td>New York Journal of Commerce</td><td>Oct. 1, 1834</td><td>1</td></tr><tr><td>Albany Argus</td><td>June 30, 1835</td><td>1</td></tr><tr><td>New York Herald</td><td>May 1, 1838</td><td>1</td></tr><tr><td>Cincinnati Daily Gazette</td><td>Sept. 6, 1838</td><td>1</td></tr><tr><td>Albany Argus</td><td>July 30, 1839</td><td>1</td></tr><tr><td>New York Herald</td><td>Feb. 4, 1840</td><td>2</td></tr><tr><td>New York Journal of Commerce</td><td>June 27, 1840</td><td>1</td></tr><tr><td>Cincinnati Daily Gazette</td><td>Sept. 2, 1840</td><td>1</td></tr><tr><td>Do</td><td>June 21, 1845</td><td>1</td></tr><tr><td>New York Journal of Commerce</td><td>June 24, 1845</td><td>1</td></tr><tr><td>New York Herald</td><td>Sept. 1, 1845</td><td>1</td></tr><tr><td>Albany Argus</td><td>Sept. 5, 1845</td><td>1</td></tr><tr><td>New York Herald</td><td>June 22, 1850</td><td>1</td></tr><tr><td>New York Journal of Commerce</td><td>June 28, 1850</td><td>1</td></tr><tr><td>Cincinnati Daily Gazette</td><td>Sept. 2, 1850</td><td>1</td></tr><tr><td>Albany Journal</td><td>Sept. 3, 1850</td><td>1</td></tr><tr><td>Albany Argus</td><td>Feb. 21, 1855</td><td>1</td></tr><tr><td>New York Commercial Advertiser</td><td>June 22, 1855</td><td>2</td></tr><tr><td>New York Herald</td><td>June 24, 1855</td><td>1</td></tr><tr><td>New York Evening Post</td><td>June 30, 1855</td><td>1</td></tr><tr><td>Cincinnati Daily Gazette</td><td>Sept. 1, 1855</td><td>1</td></tr><tr><td>New York Journal of Commerce</td><td>Sept. 4, 1855</td><td>2</td></tr><tr><td>New York Commercial Advertiser</td><td>Sept. 2, 1859</td><td>2</td></tr><tr><td>New York Evening Post</td><td>June 29, 1860</td><td>1</td></tr><tr><td>New York Herald</td><td>June 30, 1860</td><td>1</td></tr><tr><td>New York Journal of Commerce</td><td>Sept. 4, 1860</td><td>1</td></tr><tr><td>Cincinnati Daily Gazette</td><td>do</td><td>1</td></tr><tr><td>New York Staats Zeitung</td><td>Jan. 9, 1866</td><td>2</td></tr></table>\n\n<div style=\"text-align: center;\">PACIFIC COAST PAPERS</div>\n\n\n\n<table><tr><td>San Francisco Chronicle</td><td>July 17, 1854</td><td>1</td></tr><tr><td>Portland Oregonian</td><td>Sept. —, 1859</td><td>1</td></tr><tr><td>Do</td><td>Jan. —, 1863</td><td>2</td></tr><tr><td>Do</td><td>Aug. —, 1872</td><td>1</td></tr><tr><td>Do</td><td>Jan. —, 1876</td><td>1</td></tr><tr><td>Average</td><td></td><td>1.2</td></tr></table>\n\n<div style=\"text-align: center;\">TABLE 2.—Condition of newspapers composed of various chemically purified fibers EASTERN PAPERS</div>\n\n\n\n<table><tr><td rowspan=\"2\">Title</td><td rowspan=\"2\">Date</td><td colspan=\"3\">Percentages of each kind of fiber</td><td rowspan=\"2\">Grade</td></tr><tr><td>Rag</td><td>Chemical wood</td><td>Straw</td></tr><tr><td>New York World</td><td>Jan. 19, 1868</td><td>85</td><td></td><td>15</td><td>1</td></tr><tr><td>Brooklyn Daily Eagle</td><td>Jan. 27, 1869</td><td></td><td></td><td>100</td><td>1</td></tr><tr><td>New York Evening Express</td><td>Sept. 7, 1870</td><td>50</td><td></td><td>50</td><td>1</td></tr><tr><td>New York Staats Zeitung</td><td>Jan. 26, 1870</td><td>75</td><td></td><td>25</td><td>4</td></tr><tr><td>New York Times</td><td>Aug. 20, 1871</td><td>15</td><td></td><td>85</td><td>1</td></tr><tr><td>Albany Argus</td><td>Mar. 19, 1872</td><td>15</td><td>15</td><td>70</td><td>1</td></tr><tr><td>New York Herald</td><td>Dec. 28, 1872</td><td>90</td><td></td><td>10</td><td>1</td></tr><tr><td>New York Sun</td><td>May 21, 1872</td><td></td><td></td><td>100</td><td>1</td></tr><tr><td>New York Weekly Times</td><td>Jan. 31, 1872</td><td>20</td><td></td><td>80</td><td>1</td></tr><tr><td>New York Journal of Commerce</td><td>Mar. 27, 1873</td><td>10</td><td></td><td>90</td><td>1</td></tr><tr><td>New York Times</td><td>Aug. 23, 1873</td><td>25</td><td></td><td>75</td><td>3</td></tr><tr><td>New York Evening Post</td><td>Aug. 15, 1873</td><td>85</td><td></td><td>15</td><td>1</td></tr><tr><td>Chicago Verbote</td><td>Feb. 14, 1874</td><td>90</td><td>10</td><td>20</td><td>4</td></tr><tr><td>Do</td><td>Apr. 29, 1876</td><td>50</td><td>30</td><td>20</td><td>4</td></tr><tr><td>Cincinnati Daily Gazette</td><td>Aug. 30, 1880</td><td>10</td><td>90</td><td>2</td><td>2</td></tr></table>\n\n<div style=\"text-align: center;\">PACIFIC COAST PAPERS</div>\n\n\n\n<table><tr><td>Portland Oregonian San Diego Sun</td><td rowspan=\"2\">Jan. —, 1868 Oct. 31, 1872</td><td rowspan=\"2\">35</td><td rowspan=\"2\">65 100</td><td>2 1</td></tr><tr><td>Average</td><td>1.8</td></tr></table>",
+    "external_fallback_required": false,
+    "credits_used": 0,
+    "final_url": "http://127.0.0.1:8778/assets/20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+    "content_sha256": "20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+    "document_language_hint": null,
+    "total_pages": 3,
+    "pages_read": [
+      1,
+      3
+    ],
+    "ocr_pages": [
+      1,
+      2,
+      3
+    ],
+    "ocr_routes": [
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 11,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 9,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 17,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 12,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 33,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 8,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 3,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 8,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 246,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 1216,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 56,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 204,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 6,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 15,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 85,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 446,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 1,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 9,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 8,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 159,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 817,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 13391.01,
+        "quality_warning": "Completion checks are not proof of transcription accuracy.",
+        "rendering": {
+          "dpi": 300,
+          "width": 1588,
+          "height": 2621,
+          "encoded_bytes": 2056281
+        },
+        "attempts": [
+          {
+            "ok": true,
+            "engine": "paddleocr-vl-1.6-mlx-layout",
+            "error": null,
+            "quality_flags": [],
+            "route": [
+              {
+                "engine": "paddle-layout+mlx",
+                "regions": 11,
+                "generations": [
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 9,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 17,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 12,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 33,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 2,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 8,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 3,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 8,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 246,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 1216,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 56,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 204,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 6,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 15,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 85,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 446,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 2,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 1,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 9,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 8,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 159,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 817,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  }
+                ]
+              }
+            ],
+            "rendering": {
+              "dpi": 300,
+              "width": 1588,
+              "height": 2621,
+              "encoded_bytes": 2056281
+            },
+            "recognition_profile": "detail"
+          }
+        ]
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 7,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 1,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 10,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 56,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 13,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 33,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 124,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 646,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 50,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 266,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 80,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 375,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 289,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 1501,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 12260.72,
+        "quality_warning": "Completion checks are not proof of transcription accuracy.",
+        "rendering": {
+          "dpi": 300,
+          "width": 1621,
+          "height": 2630,
+          "encoded_bytes": 2187728
+        },
+        "attempts": [
+          {
+            "ok": true,
+            "engine": "paddleocr-vl-1.6-mlx-layout",
+            "error": null,
+            "quality_flags": [],
+            "route": [
+              {
+                "engine": "paddle-layout+mlx",
+                "regions": 7,
+                "generations": [
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 2,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 1,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 10,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 56,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 13,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 33,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 124,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 646,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 50,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 266,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 80,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 375,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 289,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 1501,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  }
+                ]
+              }
+            ],
+            "rendering": {
+              "dpi": 300,
+              "width": 1621,
+              "height": 2630,
+              "encoded_bytes": 2187728
+            },
+            "recognition_profile": "detail"
+          }
+        ]
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 12,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 5,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 9,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 8,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 33,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 1,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 15,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 83,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 7,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 14,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 8,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 20,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 90,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 256,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 20,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 94,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 613,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 865,
+                "table_bands": [
+                  {
+                    "y": [
+                      0,
+                      512
+                    ],
+                    "width": 1328,
+                    "input_sha256": "a8c8fddf4bbe2416432c7cf4b727952992783ec9ceee7579f2e070bf55dbe7d1",
+                    "finish_reason": "stop",
+                    "usage": {
+                      "prompt_tokens": 859,
+                      "completion_tokens": 319,
+                      "total_tokens": 1178,
+                      "prompt_tokens_details": {
+                        "cached_tokens": 0
+                      }
+                    },
+                    "repetition_guard": false
+                  },
+                  {
+                    "y": [
+                      512,
+                      898
+                    ],
+                    "width": 1328,
+                    "input_sha256": "d927e0d40aa7f5a1116c5cc5e094caf52198bb6b50edb0914220430985dbf6e4",
+                    "finish_reason": "stop",
+                    "usage": {
+                      "prompt_tokens": 671,
+                      "completion_tokens": 294,
+                      "total_tokens": 965,
+                      "prompt_tokens_details": {
+                        "cached_tokens": 0
+                      }
+                    },
+                    "repetition_guard": false
+                  }
+                ],
+                "table_band_complete": true,
+                "table_band_columns": [
+                  3,
+                  3
+                ]
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 8,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 20,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 54,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 147,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 439,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 1281,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 20949.5,
+        "quality_warning": "Completion checks are not proof of transcription accuracy.",
+        "rendering": {
+          "dpi": 300,
+          "width": 1609,
+          "height": 2617,
+          "encoded_bytes": 1930584
+        },
+        "attempts": [
+          {
+            "ok": true,
+            "engine": "paddleocr-vl-1.6-mlx-layout",
+            "error": null,
+            "quality_flags": [],
+            "route": [
+              {
+                "engine": "paddle-layout+mlx",
+                "regions": 12,
+                "generations": [
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 5,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 9,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 8,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 33,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 2,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 1,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 15,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 83,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 7,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 14,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 8,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 20,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 90,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 256,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 20,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 94,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 613,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 865,
+                    "table_bands": [
+                      {
+                        "y": [
+                          0,
+                          512
+                        ],
+                        "width": 1328,
+                        "input_sha256": "a8c8fddf4bbe2416432c7cf4b727952992783ec9ceee7579f2e070bf55dbe7d1",
+                        "finish_reason": "stop",
+                        "usage": {
+                          "prompt_tokens": 859,
+                          "completion_tokens": 319,
+                          "total_tokens": 1178,
+                          "prompt_tokens_details": {
+                            "cached_tokens": 0
+                          }
+                        },
+                        "repetition_guard": false
+                      },
+                      {
+                        "y": [
+                          512,
+                          898
+                        ],
+                        "width": 1328,
+                        "input_sha256": "d927e0d40aa7f5a1116c5cc5e094caf52198bb6b50edb0914220430985dbf6e4",
+                        "finish_reason": "stop",
+                        "usage": {
+                          "prompt_tokens": 671,
+                          "completion_tokens": 294,
+                          "total_tokens": 965,
+                          "prompt_tokens_details": {
+                            "cached_tokens": 0
+                          }
+                        },
+                        "repetition_guard": false
+                      }
+                    ],
+                    "table_band_complete": true,
+                    "table_band_columns": [
+                      3,
+                      3
+                    ]
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 8,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 20,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 54,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 147,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 439,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 1281,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  }
+                ]
+              }
+            ],
+            "rendering": {
+              "dpi": 300,
+              "width": 1609,
+              "height": 2617,
+              "encoded_bytes": 1930584
+            },
+            "recognition_profile": "detail"
+          }
+        ]
+      }
+    ],
+    "ocr_conversion_ms": 46601.229999999996,
+    "ocr_cold": false,
+    "fast_ocr_error": null,
+    "ocr_warning": "OCR subset page numbers map in order to ocr_pages. OCR may misread names, dates and Thai text; verify against page images.",
+    "extracted_chars": 10382,
+    "truncated": false,
+    "elapsed_ms": 47758.26,
+    "fallback_count": 1,
+    "upload_id": "20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66",
+    "source_kind": "uploaded-document",
+    "server_commit": "92af4f08f152b326fe52ca7518f04723c510814d"
+  }
+}

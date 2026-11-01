@@ -1,0 +1,660 @@
+{
+  "variant": "after",
+  "mode": "ocr",
+  "id": "thai-royal",
+  "worker_sha": "92af4f08f152b326fe52ca7518f04723c510814d",
+  "reader_sha": "92af4f08f152b326fe52ca7518f04723c510814d",
+  "started_at": 1793554028.515214,
+  "ended_at": 1793554097.745839,
+  "elapsed_ms": 69230.57,
+  "request": {
+    "upload_id": "d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "mode": "ocr",
+    "cache": false,
+    "max_pages": 3,
+    "max_chars": 40000,
+    "ocr_policy": "quality"
+  },
+  "raw": {
+    "ok": true,
+    "output_complete": true,
+    "url": "http://127.0.0.1:8778/assets/d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "reader": "router:paddleocr-vl-1.6-mlx-layout",
+    "cache_hit": false,
+    "stages": [
+      {
+        "name": "fetch",
+        "ok": true,
+        "elapsed_ms": 12.21
+      },
+      {
+        "name": "pdf-text",
+        "ok": true,
+        "elapsed_ms": 3.45,
+        "needs_ocr": true
+      },
+      {
+        "name": "ocr-router",
+        "ok": true,
+        "elapsed_ms": 69102.11
+      }
+    ],
+    "text": "\n\n<!-- subset page 1 -->\n# จดหมายเหตุพระราชกิจรายว้น พระราชนีพนธ์\n\nในพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอูฤหัว\n\nป๊บาล สัมฤทธิศก จุลศักราช ๑๒๔๐ (พ.ศ. ๒๘๒๒)\n\nวันพุธ ขึ้นกำ ๑ เคือน ๑๐ ปีขาล สัมฤทธิศก ๑๒๕๐\n\n๑. เวลาเช้า ๔ โมงเศษเกือบ ๕ โมง ทรงฉลองพระองค์เยียรับบับ เครื่องราชอิสริยยศนพรัทนราชวารากณ์ ทรงพระราชยานลงยาราชาวดี เสด็จวังกรมหมื่น เจริญผลภูลสวัสดี ได้กษ์ (เช้า ๓ โมงจน ๔ โมง ๒๕ พันฤกษ์) กรมเจริญสรงที่ชาลารี ชันล่างด้านใต้ พระราชทานน้ำแล้ว วังหน้าเสด็จที่วัด สมเด็จกรมพระ กรมหลวงรสีกกา กรมขุนภูวนัย กรมขุนบนดินทร สมเด็จเจ้าพระเจ้า เจ้าพระยาสุรวงศ์ เจ้าพระยาภาพุรณ์ เจ้าพระยาธรรมชาติ เจ้าพระยาศรีพิพัฒน์ ทุลกระหม่อมปราสาท พระองค์ แม้นเชียน พระองค์เงินยวง พระองค์แสงจันทร์ พระองค์สุบงกช พระองค์จามรี เจ้าคุณ กลาง ท้าววรจันทร์ ท้าวสมาศักดิ์ ท้าวโสภา เจ้าจอมมารดาของท่าน แล้วแต่งพระองค์ สีเขียวมาทรงยืนฟังประกาศ พระศรีสุนทร (น้อย) เป็นผู้อ่าน แล้วพระราชทานพระสุพรรณบัญ แหวนนพเก้า ชองบุหรี ที่ชา พระแสงผักทอง (ครั้งนี้หาได้ทรงศีลไม่) แล้วท่านถวายดอกไม้รูปเทียน ทันไม้ทอง ทันไม้เงิน ถุงบุหวาเงิน บุหงาทอง พระสงฆ์ถวายอธิเวก แล้วเสด็จกลับ กรมขุนเจริญท่านก็ถวายต้นไม้ทอง ทันไม้เงิน กับรูปเทียนวังหน้าแล้วกวายรูปเทียนเจ้านายและสมเด็จเจ้าพระยาเสนามาคี เมื่อสมเด็จเจ้าพระยาจะไปว่ากับกรมหมื่นเจริญว่ามีอย่างดีเคียวแล้ว รักษาพระองค์ให้ดีอย่างพุงชำนไป แล้วท่านก็ไปถวายรูปเทียนเจ้านายข้างใน เลิกการเวลาเทียน\n\n๒. รับสำเนาหนังสือเจ้าพระยากาณวงศ์ส่งหนังสือพชน์ ๒ ฉบับ ๑\n\nการประชุมที่เบอร์ลิน เลิกเมื่อวันที่ ๑๕ ยูโลส ลอร์กบิกออนพื้นที่กับลอร์กเซลล์ศบุรี\n\nราชทุกอังกฤษได้กลับมากรุงลอนกอนแล้ว หนังสือสัญญาที่กกลงกันนั่น ได้กัดมาจาก\n\n<!-- subset page 2 -->\nจากหมายเหตุชิโทมั่งส่งมาให้ทราบ หนังสือสัญญาน้ำลงพิมพ์เป็นสมุคมีแผนที่ด้วย ถ้าแล้วจะส่งเข้ามา อื่นว่าได้ส่งหนังสือประกาศกอเวออนแมนต์อังกฤษให้แก่ว่าราชการที่กำสุลเยเนอราลสยามที่อังกฤษ และได้รับเอกษกวาเตอร์วันที่ ๑๕ ยุโลอี มีสเตอร์แคสเวลได้ล่าออกจากราชการเมื่อวันที่ ๓๐ ยูน เพื่อเข้าเป็นธุระจักการของเขาเอง อื่นบอกด้วย มหาราชาตเมื่องยะโฮวา คอเวออนแมนต์อักฤษ ให้เป็นรายามีมองต่าง ๆ ที่คิดต่อกับยะโฮวา มหาราชาตได้แผ่อำนาจมาถึงเขตแคนหัวเมืองมลายุทธีขันกรุงสยามแล้ว เดียวนัยย์อยูลอนคอน แล้วขออนุยาตทำรากงสุลเยเนอราล หนังสือสังคมที่ ๑๘ ยุโลอี อีกฉบับ ๑ ว่าด้วยความเห็นรายภูรินีเมืองอังกฤษที่เดียวกันไปเดิมกว่าจัดการไม่เหมือนกับหนังสือเซกุเลอชีงลอร์กเซลล์สิกบุรีออก ส่งสมุคแผนที่มาด้วย หนังสือสังคมที่ ๒๕ ยุโลอี กับสำเนาหนังสือมิสเตอร์รักเมืองสิงคโปร์มีมาฉบับหนึ่ง ว่าได้พบกับแอคเดกของเขากวนการสิกโปรแกรมจำการที่เกาวนาจะเข้ามากรุงเทพ ๖ ยังไม่มีกำหนด เวลานีเรือรบที่สิงคโปร์ก็ยังไม่มี กับเช้าวันนี้มีสายโทรเลขมาทีสิกคิโปร ได้ประทานรายเชิงไม่ล่ำเคอนเซนต์ยอดให้พระยาไทรบุรี หนังสือสังคมที่ ๒๓ ออกคัต\n\nc. เจ้าพระยาณุวงศ์ถวายหนังสืออีกฉบับ ๑ ว่าด้วยกฎหมายที่จะตั้งโรงสำหรับไว้น้ำมันปิโครเลียมนั่น ท่านได้มีหนังสือไปปรึกษากงสุดต่างประเทศ แต่ว่า องการ ชื้น ๑๑ คำ เดือน ๗ บันทึกสุลต่งประเทศตอบเห็นชอบยอมตามกฎหมาย ๔ กงสุดแต่กงสุลอังกฤษว่าลูกค้าหลายคนอยากจะตั้งโรงสำหรับเก็บน้ำมันของลูกค้าไว้เองทุกคนกับความเห็นอีก ๓ ช้อนน้ำหน้าไปเรียนสมเด็จเจ้าพระยา ๆ ว่าความเห็นกงสุลอังกฤษว่ามานั๊ก็เป็นการคือยู ถ้าลูกค้าที่เป็นสัปยก์ประเทศใดจะตั้งโรงเก็บน้ำมันแล้วก็ให้ต้องได้แต่สัปยก์คล้วยโรง ถ้าลูกค้าประเทศเดียวกันมีน้ำมันเข้ามาก็ได้ไปเก็บไว้ในโรงประเทศเดียวกัน สัปยก์ประเทศหนึ่งก็ให้มีโรงหนึ่ง ให้เหมือนกันทุกประเทศ จึงจะไม่เป็นที่หวงหึงแก่กัน ท่านเห็นดังนี้ สำเนินหนังสือเจ้าพระยาภวุฒิก็ไปลงวันอังการ ชื้น ๑๑ คำ เดือน ๗ ว่าด้วยน้ำมันลูกค้าบรรทุกเข้ามามากใช้อุปไทยกวุฒิเทพ ๖ ทั่วไปเป็นที่น่ากลัวมากถ้าจะเกิดเพลิงไหมบ้านเรือนเรือแพ้ชื้นแล้ว น้ำมันก็จะเป็นเชื่อให้ไหมมากขึ้น การจะช่วยกับเพลิงได้โดยยาก จึงได้ทรงปรึกษาพร้อมด้วยเสนาบดี ว่าต้องมีโรงสำหรับไว้น้ำมันในที่สวนแถบข้างล่าง ที่ห่างบ้านเรือนเหนือเมืองนครเขื่อนชันธ์ ถ้าลูกค้าบรรทุกน้ำมันเข้ามา\n\n<!-- subset page 3 -->\nขอให้ประพฤติังกฎหมายทุกประการ ได้ส่งเอสตีเม็กราคาที่จะต้องลงทุนทำโรงและรักษากับกฎหมายบังคับเรือทีบรรทุกน้ำมันและลูกค้าที่เขายน้ำมันฉบับ ๑ ไปให้ทุกกรุงสุลเมื่อกฎสุลเห็นการประการใดให้แข็งความมาให้ทราบ บัญชีเอสตีเม็กโรงยาว ๓๘ ฟุตครั้งกว้าง ๘๖ ฟุตครั้งสูง ๒๖ ฟุตเสาส์ ๑๒ ฟุตไว้น้ำมันไถ้ ๒๖,๑๐๐ หีบ ฝาขัดแตะ เป็นเสาพื้นเกรื่องบนไม้จริง หลังคาสังกะสี หน้าต่างที่บานและลูกกรงเหล็ก หลังคามีราน้ำ ทกลงที่กรอบโรง แล้วทั้งคินข้นข้างกุข้างนอกเป็นกันสูง ๔ ฟุต กว้าง ๑๐ ฟุต ถ้าโดยเกิดเพลิงไม่ให้น้ำมันไหลลงแม่น้ำได้ แล้วมีสะพานข้ามชักได้ มีรัวข้างนอกอีกแล้วปลุกต้นไม้รอบ ข้างนอกมีโรง ๆอึกฝา หลัง แล้วมีกุมีร้ำเหมือนกัน มีสะพานสำหรับข้ำลงรวมประมาณเงิน ๑๑๕ ชั้ง และค่ำใช้สายสำหรับโรงนั้น การช่อมแสมคิดเดือนละ ๕๐ บาท เสมัยคนหนึ่งเดือนละ ๖๐ บาท กุลี ๒ คนเดือนละ ๓๐ บาท คนน้ำยาม ๒ คนเดือนละ ๒๐ บาท ความเดือนละ ๑๒๖ บาทที่จะต้องใช้เสมอทุกเดือน\n\nกฎหมายข้อ ๑ ว่าเรือกลไฟและเรือใบลำหนึ่งลำใด ถ้าบรรทุกนักมันเข้ามาใน\n\nกรุงเทพฯ เกิน ๕๐๐ ทึบแล้วต้องทอดสมอท้ายไรงน้ำมัน หรือแวะที่สะพานไรงน้ำมัน\n\nก็ได้ ให้ชนน้ำมันชันไว้ในโรงเสียก่อน แล้วจึงเข้ามาได้\n\nข้อ ๒ เรือไฟหรือเรือใบลำหนึ่งลำใด ถ้าบรรทุกนักแต่งไม่ได้เพิ่มที่00 ที่บุรี เรือ\n\nล้านนัลจะเข้ามาก็ได้ แต่กองขนน้ำมันส่งไปไว้ที่โรงในกำหนด ๔๘ ชั่วโมง นับถึงแต่เรือ\n\nได้เข้าทอดสมอาลด้วย\n\nข้อ ๓ เรือกลไฟหรือเรือลำหนึ่งลำใด ที่จะรับบรรทุกนักแม่นางเรือกค์ หรือ ขนชันจากเรือกค์ ห้ามมีให้มีผู้ถือไฟหรือสุขบุหร่กล้องเข้ามาใกล้เคียงน้ำมัน ในเวลาที่ ฝนขนขนลงนันให้เจ้าของผู้ทรับผู้ทรงส่งน้ำมันก้องเป็นธุระตามระวัง\n\nข้อ ๑ ว่าห้ามมีให้เรือไฟเรือใบลำหนึ่งลำใด รับบรรทุกนำมันลงเรือหรือขน\n\nชันในเวลากลางคืน และห้ามมีให้เอเยนค์และเจ้าของเรือไฟเรือใบ ขนน้ำมันชื้นไว้บน\n\nสะพานเกิน ๑ ที่บชันไป\n\nข้อ ๕ ว่าเรื่องลำหนึ่งลำไค่ที่บรรทุกน้ำมันเข้ามาในกรุงเทพฯ ถ้าเจ้าของเรือ\n\nนั จะไม่จำหน่ายในกรุงเทพฯ เรือลำนั่นจะต้องทอดสมออยที่หายโรงน้ำมัน ถ้าจะเข้ามา\n\nต้องขนน้ำมันขื้นไว้ในโรงเสียก่อน แล้วจึงจะเข้ามาได้ ถ้ามีเพียง ๘ หิบ ไม่ต้องห้าม\n\nตามกฎหมาย",
+    "external_fallback_required": false,
+    "credits_used": 0,
+    "final_url": "http://127.0.0.1:8778/assets/d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "content_sha256": "d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "document_language_hint": null,
+    "total_pages": 3,
+    "pages_read": [
+      1,
+      3
+    ],
+    "ocr_pages": [
+      1,
+      2,
+      3
+    ],
+    "ocr_routes": [
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 5,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 31,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 38,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 90,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 81,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 53,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 45,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 155,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 215,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 762,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 1093,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 19687.3,
+        "quality_warning": "Completion checks are not proof of transcription accuracy.",
+        "rendering": {
+          "dpi": 252,
+          "width": 2846,
+          "height": 4200,
+          "encoded_bytes": 2158716
+        },
+        "attempts": [
+          {
+            "ok": true,
+            "engine": "paddleocr-vl-1.6-mlx-layout",
+            "error": null,
+            "quality_flags": [],
+            "route": [
+              {
+                "engine": "paddle-layout+mlx",
+                "regions": 5,
+                "generations": [
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 31,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 38,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 90,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 81,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 53,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 45,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 155,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 215,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 762,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 1093,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  }
+                ]
+              }
+            ],
+            "rendering": {
+              "dpi": 252,
+              "width": 2846,
+              "height": 4200,
+              "encoded_bytes": 2158716
+            },
+            "recognition_profile": "detail"
+          }
+        ]
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 3,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 2,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 677,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 988,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 661,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 1030,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 19918.58,
+        "quality_warning": "Completion checks are not proof of transcription accuracy.",
+        "rendering": {
+          "dpi": 252,
+          "width": 2846,
+          "height": 4200,
+          "encoded_bytes": 2133352
+        },
+        "attempts": [
+          {
+            "ok": true,
+            "engine": "paddleocr-vl-1.6-mlx-layout",
+            "error": null,
+            "quality_flags": [],
+            "route": [
+              {
+                "engine": "paddle-layout+mlx",
+                "regions": 3,
+                "generations": [
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 2,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 2,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 677,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 988,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 661,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 1030,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  }
+                ]
+              }
+            ],
+            "rendering": {
+              "dpi": 252,
+              "width": 2846,
+              "height": 4200,
+              "encoded_bytes": 2133352
+            },
+            "recognition_profile": "detail"
+          }
+        ]
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 7,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 1,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 136,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 195,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 122,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 181,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 136,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 217,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 114,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 167,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 626,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 822,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 159,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 242,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "quality",
+        "language_hint": null,
+        "elapsed_ms": 28722.85,
+        "quality_warning": "Completion checks are not proof of transcription accuracy.",
+        "rendering": {
+          "dpi": 252,
+          "width": 2846,
+          "height": 4200,
+          "encoded_bytes": 2158130
+        },
+        "attempts": [
+          {
+            "ok": true,
+            "engine": "paddleocr-vl-1.6-mlx-layout",
+            "error": null,
+            "quality_flags": [],
+            "route": [
+              {
+                "engine": "paddle-layout+mlx",
+                "regions": 7,
+                "generations": [
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 2,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 1,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 136,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 195,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 122,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 181,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 136,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 217,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 114,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 167,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 626,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 822,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 159,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 242,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  }
+                ]
+              }
+            ],
+            "rendering": {
+              "dpi": 252,
+              "width": 2846,
+              "height": 4200,
+              "encoded_bytes": 2158130
+            },
+            "recognition_profile": "detail"
+          }
+        ]
+      }
+    ],
+    "ocr_conversion_ms": 68328.73,
+    "ocr_cold": false,
+    "fast_ocr_error": null,
+    "ocr_warning": "OCR subset page numbers map in order to ocr_pages. OCR may misread names, dates and Thai text; verify against page images.",
+    "extracted_chars": 5423,
+    "truncated": false,
+    "elapsed_ms": 69118.97,
+    "fallback_count": 1,
+    "upload_id": "d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "source_kind": "uploaded-document",
+    "server_commit": "92af4f08f152b326fe52ca7518f04723c510814d"
+  }
+}

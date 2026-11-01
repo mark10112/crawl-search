@@ -1,0 +1,2122 @@
+{
+  "reference_hash": "72a37213b39a3a3dd1b4e344162d962b39c3c460fcad2bf2dfea105620301ac2",
+  "summaries": [
+    {
+      "mode": "vl",
+      "groups": {
+        "gazette": {
+          "unique_cases": 6,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0,
+          "median_warm_ms": 298.6760210005741
+        },
+        "census": {
+          "unique_cases": 3,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0,
+          "median_warm_ms": 341.4999170017836
+        }
+      },
+      "startup_seconds": 3.5770381250003993,
+      "median_warm_ms": 307.0021249986894,
+      "median_nine_image_ms": 2868.018043001939,
+      "first_pass_ms": 2873.1152920008753,
+      "rss_sample_peak_bytes": 2198749184,
+      "self_peak_rss_bytes": 65732608,
+      "tesseract_subprocess_peak_bytes": 0,
+      "host_available_min": 4561338368,
+      "swap_used_min": 690487296,
+      "swap_used_max": 690487296,
+      "all_outputs_complete": true,
+      "rss_samples": 337,
+      "max_memory_sample_gap_s": 0.05427908897399902,
+      "raw_result_sha256": "7c8f22cb968f4787d4d4641272bcd7a411dd024fc7a85f90ceec01e333d72e2f"
+    },
+    {
+      "mode": "paddle_mobile",
+      "groups": {
+        "gazette": {
+          "unique_cases": 6,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0,
+          "median_warm_ms": 55.01241700039827
+        },
+        "census": {
+          "unique_cases": 3,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0,
+          "median_warm_ms": 54.90483299945481
+        }
+      },
+      "startup_seconds": 3.1238466249997145,
+      "median_warm_ms": 54.91329100186704,
+      "median_nine_image_ms": 497.62512600864284,
+      "first_pass_ms": 568.6813329957658,
+      "rss_sample_peak_bytes": 1043283968,
+      "self_peak_rss_bytes": 1043234816,
+      "tesseract_subprocess_peak_bytes": 0,
+      "host_available_min": 6936641536,
+      "swap_used_min": 690487296,
+      "swap_used_max": 690487296,
+      "all_outputs_complete": true,
+      "rss_samples": 164,
+      "max_memory_sample_gap_s": 0.03685927391052246,
+      "raw_result_sha256": "19415ddbc170ff5cb5d3bc595e55bb6eb1a6263ec9f4665f3a3c015b3d445432"
+    },
+    {
+      "mode": "tesseract_fast",
+      "groups": {
+        "gazette": {
+          "unique_cases": 6,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0,
+          "median_warm_ms": 15.84968749921245
+        },
+        "census": {
+          "unique_cases": 3,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0,
+          "median_warm_ms": 44.542250001541106
+        }
+      },
+      "startup_seconds": 1.4125002053333446e-05,
+      "median_warm_ms": 16.2265409999236,
+      "median_nine_image_ms": 230.66100199866924,
+      "first_pass_ms": 252.93787499686005,
+      "rss_sample_peak_bytes": 64274432,
+      "self_peak_rss_bytes": 27803648,
+      "tesseract_subprocess_peak_bytes": 35848192,
+      "host_available_min": 6938558464,
+      "swap_used_min": 690487296,
+      "swap_used_max": 690487296,
+      "all_outputs_complete": true,
+      "rss_samples": 34,
+      "max_memory_sample_gap_s": 0.03524518013000488,
+      "raw_result_sha256": "9b7927731bfa5207e62afafcb3a9c7ff2ed93f56401e2221175298118ce72405"
+    },
+    {
+      "mode": "tesseract_best",
+      "groups": {
+        "gazette": {
+          "unique_cases": 6,
+          "correct_per_warm_pass": [
+            1,
+            1,
+            1
+          ],
+          "stable_correct": 1,
+          "varying_outputs": 0,
+          "median_warm_ms": 19.019750001461944
+        },
+        "census": {
+          "unique_cases": 3,
+          "correct_per_warm_pass": [
+            1,
+            1,
+            1
+          ],
+          "stable_correct": 1,
+          "varying_outputs": 0,
+          "median_warm_ms": 53.62041600164957
+        }
+      },
+      "startup_seconds": 1.3583001418737695e-05,
+      "median_warm_ms": 19.42616700034705,
+      "median_nine_image_ms": 273.03787701021065,
+      "first_pass_ms": 283.5097909992328,
+      "rss_sample_peak_bytes": 114393088,
+      "self_peak_rss_bytes": 27951104,
+      "tesseract_subprocess_peak_bytes": 85590016,
+      "host_available_min": 7691288576,
+      "swap_used_min": 690487296,
+      "swap_used_max": 690487296,
+      "all_outputs_complete": true,
+      "rss_samples": 38,
+      "max_memory_sample_gap_s": 0.03522920608520508,
+      "raw_result_sha256": "ed0bb4b9af0eaf9a24ad0310792d9c233da092882bbd07390749f0500e083073"
+    },
+    {
+      "mode": "paddle_mobile_ocr",
+      "groups": {
+        "gazette": {
+          "unique_cases": 6,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0,
+          "median_warm_ms": 10.55024999914167
+        },
+        "census": {
+          "unique_cases": 3,
+          "correct_per_warm_pass": [
+            1,
+            1,
+            1
+          ],
+          "stable_correct": 1,
+          "varying_outputs": 0,
+          "median_warm_ms": 61.83858300209977
+        }
+      },
+      "startup_seconds": 2.135241042000416,
+      "median_warm_ms": 61.68966699988232,
+      "median_nine_image_ms": 354.18787500384497,
+      "first_pass_ms": 412.59474900289206,
+      "rss_sample_peak_bytes": 1055064064,
+      "self_peak_rss_bytes": 1054982144,
+      "tesseract_subprocess_peak_bytes": 0,
+      "host_available_min": 6848315392,
+      "swap_used_min": 690487296,
+      "swap_used_max": 690487296,
+      "all_outputs_complete": true,
+      "rss_samples": 120,
+      "max_memory_sample_gap_s": 0.0365147590637207,
+      "raw_result_sha256": "02b5af79235f7d0b9943b24641873ebfadf3a1daf3794356ea7199689b46c9dd"
+    },
+    {
+      "mode": "tesseract_best_psm8",
+      "groups": {
+        "gazette": {
+          "unique_cases": 6,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0,
+          "median_warm_ms": 26.707229000749066
+        },
+        "census": {
+          "unique_cases": 3,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0,
+          "median_warm_ms": 55.0852920023317
+        }
+      },
+      "startup_seconds": 1.5749999874969944e-05,
+      "median_warm_ms": 27.941000000282656,
+      "median_nine_image_ms": 335.4978729985305,
+      "first_pass_ms": 336.8938740059093,
+      "rss_sample_peak_bytes": 114655232,
+      "self_peak_rss_bytes": 27934720,
+      "tesseract_subprocess_peak_bytes": 86016000,
+      "host_available_min": 7425359872,
+      "swap_used_min": 690487296,
+      "swap_used_max": 690487296,
+      "all_outputs_complete": true,
+      "rss_samples": 45,
+      "max_memory_sample_gap_s": 0.03508782386779785,
+      "raw_result_sha256": "2b602b22a7054316040f428a196db3f70d3b04c733467f0dafc199a3e03a100e"
+    },
+    {
+      "mode": "tesseract_best_psm13",
+      "groups": {
+        "gazette": {
+          "unique_cases": 6,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0,
+          "median_warm_ms": 26.53089550040022
+        },
+        "census": {
+          "unique_cases": 3,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0,
+          "median_warm_ms": 54.52066700308933
+        }
+      },
+      "startup_seconds": 1.2666001566685736e-05,
+      "median_warm_ms": 27.281292001134716,
+      "median_nine_image_ms": 323.6408760021732,
+      "first_pass_ms": 326.3126699930581,
+      "rss_sample_peak_bytes": 114655232,
+      "self_peak_rss_bytes": 27869184,
+      "tesseract_subprocess_peak_bytes": 85950464,
+      "host_available_min": 7437631488,
+      "swap_used_min": 690487296,
+      "swap_used_max": 690487296,
+      "all_outputs_complete": true,
+      "rss_samples": 45,
+      "max_memory_sample_gap_s": 0.0352330207824707,
+      "raw_result_sha256": "b81e865b21d77782754622842fce62f6df8e3bd099375e2f20244934d95a916c"
+    }
+  ],
+  "details": [
+    {
+      "mode": "vl",
+      "id": "g1",
+      "group": "gazette",
+      "expected": "๑",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "⑨",
+          "correct": false,
+          "seconds": 0.2965017499991518,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "⑨",
+          "correct": false,
+          "seconds": 0.2970242920018791,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "⑨",
+          "correct": false,
+          "seconds": 0.2966557079998893,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "id": "g2",
+      "group": "gazette",
+      "expected": "๒๐",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "30",
+          "correct": false,
+          "seconds": 0.28891433299941127,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "30",
+          "correct": false,
+          "seconds": 0.2891627079989121,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "30",
+          "correct": false,
+          "seconds": 0.2888431669998681,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "id": "g3",
+      "group": "gazette",
+      "expected": "๒๘",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "33",
+          "correct": false,
+          "seconds": 0.2899880410004698,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "33",
+          "correct": false,
+          "seconds": 0.2915027090020885,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "33",
+          "correct": false,
+          "seconds": 0.28967150000244146,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "id": "g4",
+      "group": "gazette",
+      "expected": "๓๑",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "मॅ",
+          "correct": false,
+          "seconds": 0.3070021249986894,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "मॅ",
+          "correct": false,
+          "seconds": 0.306200875002105,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "मॅ",
+          "correct": false,
+          "seconds": 0.30627950000052806,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "id": "g5",
+      "group": "gazette",
+      "expected": "๙๔",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "ཨུ",
+          "correct": false,
+          "seconds": 0.30032774999926914,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "ཨུ",
+          "correct": false,
+          "seconds": 0.3130080420014565,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "ཨུ",
+          "correct": false,
+          "seconds": 0.30154674999721465,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "id": "g6",
+      "group": "gazette",
+      "expected": "๑๕๙",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "༢༤་༤",
+          "correct": false,
+          "seconds": 0.3729572919983184,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "༢༤་༤",
+          "correct": false,
+          "seconds": 0.3749650420031685,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "༢༤་༤",
+          "correct": false,
+          "seconds": 0.37705545900098514,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "id": "r1-c3",
+      "group": "census",
+      "expected": "59,135",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "69,135",
+          "correct": false,
+          "seconds": 0.32212437500129454,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "69,135",
+          "correct": false,
+          "seconds": 0.32285645799856866,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "69,135",
+          "correct": false,
+          "seconds": 0.32334479199926136,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "id": "r3-c1",
+      "group": "census",
+      "expected": "1,838,735",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1,833,735",
+          "correct": false,
+          "seconds": 0.3411639580008341,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "1,833,735",
+          "correct": false,
+          "seconds": 0.3416373339969141,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "1,833,735",
+          "correct": false,
+          "seconds": 0.3419609170014155,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "id": "r4-c5",
+      "group": "census",
+      "expected": "13,282",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "18,282",
+          "correct": false,
+          "seconds": 0.34531745899948874,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "18,282",
+          "correct": false,
+          "seconds": 0.3414999170017836,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "18,282",
+          "correct": false,
+          "seconds": 0.3426602500003355,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile",
+      "id": "g1",
+      "group": "gazette",
+      "expected": "๑",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "cl",
+          "correct": false,
+          "seconds": 0.055071917002351256,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "cl",
+          "correct": false,
+          "seconds": 0.054845833001309074,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "cl",
+          "correct": false,
+          "seconds": 0.05486741699860431,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile",
+      "id": "g2",
+      "group": "gazette",
+      "expected": "๒๐",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "cYalwb",
+          "correct": false,
+          "seconds": 0.0549995420005871,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "cYalwb",
+          "correct": false,
+          "seconds": 0.054795790998468874,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "cYalwb",
+          "correct": false,
+          "seconds": 0.054764333999628434,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile",
+      "id": "g3",
+      "group": "gazette",
+      "expected": "๒๘",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "c-w",
+          "correct": false,
+          "seconds": 0.055624249998800224,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "c-w",
+          "correct": false,
+          "seconds": 0.05518174999815528,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "c-w",
+          "correct": false,
+          "seconds": 0.05544933300188859,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile",
+      "id": "g4",
+      "group": "gazette",
+      "expected": "๓๑",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "c-b",
+          "correct": false,
+          "seconds": 0.05770458300321479,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "c-b",
+          "correct": false,
+          "seconds": 0.05786412499946891,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "c-b",
+          "correct": false,
+          "seconds": 0.057979625002190005,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile",
+      "id": "g5",
+      "group": "gazette",
+      "expected": "๙๔",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "cYwb",
+          "correct": false,
+          "seconds": 0.05490562500199303,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "cYwb",
+          "correct": false,
+          "seconds": 0.05512850000013714,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "cYwb",
+          "correct": false,
+          "seconds": 0.05491154199989978,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile",
+      "id": "g6",
+      "group": "gazette",
+      "expected": "๑๕๙",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "cYwb",
+          "correct": false,
+          "seconds": 0.05474483299985877,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "cYwb",
+          "correct": false,
+          "seconds": 0.054694292000931455,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "cYwb",
+          "correct": false,
+          "seconds": 0.05502529200020945,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile",
+      "id": "r1-c3",
+      "group": "census",
+      "expected": "59,135",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "69, 135",
+          "correct": false,
+          "seconds": 0.05474079199848347,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "69, 135",
+          "correct": false,
+          "seconds": 0.05486387500059209,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "69, 135",
+          "correct": false,
+          "seconds": 0.05491329100186704,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile",
+      "id": "r3-c1",
+      "group": "census",
+      "expected": "1,838,735",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1, 838, 785",
+          "correct": false,
+          "seconds": 0.0561576249965583,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "1, 838, 785",
+          "correct": false,
+          "seconds": 0.055226000000402564,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "1, 838, 785",
+          "correct": false,
+          "seconds": 0.05503625000346801,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile",
+      "id": "r4-c5",
+      "group": "census",
+      "expected": "13,282",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "18, 282",
+          "correct": false,
+          "seconds": 0.05451499999981024,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "18, 282",
+          "correct": false,
+          "seconds": 0.05490483299945481,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "18, 282",
+          "correct": false,
+          "seconds": 0.05467804200088722,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_fast",
+      "id": "g1",
+      "group": "gazette",
+      "expected": "๑",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "อ",
+          "correct": false,
+          "seconds": 0.014927915999578545,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "อ",
+          "correct": false,
+          "seconds": 0.015056459000334144,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "อ",
+          "correct": false,
+          "seconds": 0.01508566700067604,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_fast",
+      "id": "g2",
+      "group": "gazette",
+      "expected": "๒๐",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๒๓๐",
+          "correct": false,
+          "seconds": 0.015905000000202563,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "๒๓๐",
+          "correct": false,
+          "seconds": 0.01572433299952536,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "๒๓๐",
+          "correct": false,
+          "seconds": 0.015357667001808295,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_fast",
+      "id": "g3",
+      "group": "gazette",
+      "expected": "๒๘",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๒๓๕๐",
+          "correct": false,
+          "seconds": 0.0162265409999236,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "๒๓๕๐",
+          "correct": false,
+          "seconds": 0.01619741700051236,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "๒๓๕๐",
+          "correct": false,
+          "seconds": 0.01601220899829059,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_fast",
+      "id": "g4",
+      "group": "gazette",
+      "expected": "๓๑",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๓อ๑",
+          "correct": false,
+          "seconds": 0.01936050000222167,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "๓อ๑",
+          "correct": false,
+          "seconds": 0.019229292000090936,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "๓อ๑",
+          "correct": false,
+          "seconds": 0.019149166997522116,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_fast",
+      "id": "g5",
+      "group": "gazette",
+      "expected": "๙๔",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๕๕",
+          "correct": false,
+          "seconds": 0.01574820899986662,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "๕๕",
+          "correct": false,
+          "seconds": 0.015696750000643078,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "๕๕",
+          "correct": false,
+          "seconds": 0.015478375000384403,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_fast",
+      "id": "g6",
+      "group": "gazette",
+      "expected": "๑๕๙",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๑๕๓",
+          "correct": false,
+          "seconds": 0.016266417002043454,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "๑๕๓",
+          "correct": false,
+          "seconds": 0.015794374998222338,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "๑๕๓",
+          "correct": false,
+          "seconds": 0.01615720900008455,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_fast",
+      "id": "r1-c3",
+      "group": "census",
+      "expected": "59,135",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "69,185",
+          "correct": false,
+          "seconds": 0.04573200000231736,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "69,185",
+          "correct": false,
+          "seconds": 0.04290883299836423,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "69,185",
+          "correct": false,
+          "seconds": 0.042341874999692664,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_fast",
+      "id": "r3-c1",
+      "group": "census",
+      "expected": "1,838,735",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1, 888, 785",
+          "correct": false,
+          "seconds": 0.044831041999714216,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "1, 888, 785",
+          "correct": false,
+          "seconds": 0.044542250001541106,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "1, 888, 785",
+          "correct": false,
+          "seconds": 0.04679808299988508,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_fast",
+      "id": "r4-c5",
+      "group": "census",
+      "expected": "13,282",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "18, 282",
+          "correct": false,
+          "seconds": 0.043494166999153094,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "18, 282",
+          "correct": false,
+          "seconds": 0.04506641699845204,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "18, 282",
+          "correct": false,
+          "seconds": 0.0442807500003255,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "id": "g1",
+      "group": "gazette",
+      "expected": "๑",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "อ",
+          "correct": false,
+          "seconds": 0.020197334000840783,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "อ",
+          "correct": false,
+          "seconds": 0.019645208998554153,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "อ",
+          "correct": false,
+          "seconds": 0.0200099589965248,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "id": "g2",
+      "group": "gazette",
+      "expected": "๒๐",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๒๓๐",
+          "correct": false,
+          "seconds": 0.018344250001973705,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "๒๓๐",
+          "correct": false,
+          "seconds": 0.01893249999920954,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "๒๓๐",
+          "correct": false,
+          "seconds": 0.01843258299777517,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "id": "g3",
+      "group": "gazette",
+      "expected": "๒๘",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๒๓๕๐",
+          "correct": false,
+          "seconds": 0.018994750000274507,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "๒๓๕๐",
+          "correct": false,
+          "seconds": 0.01917949999915436,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "๒๓๕๐",
+          "correct": false,
+          "seconds": 0.019339874997967854,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "id": "g4",
+      "group": "gazette",
+      "expected": "๓๑",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๓๑",
+          "correct": true,
+          "seconds": 0.01904475000264938,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "๓๑",
+          "correct": true,
+          "seconds": 0.01879279200147721,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "๓๑",
+          "correct": true,
+          "seconds": 0.01895791599963559,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "id": "g5",
+      "group": "gazette",
+      "expected": "๙๔",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๕๕",
+          "correct": false,
+          "seconds": 0.01839470900085871,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "๕๕",
+          "correct": false,
+          "seconds": 0.01844941600211314,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "๕๕",
+          "correct": false,
+          "seconds": 0.01834358400083147,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "id": "g6",
+      "group": "gazette",
+      "expected": "๑๕๙",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๑๕๓",
+          "correct": false,
+          "seconds": 0.01942616700034705,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "๑๕๓",
+          "correct": false,
+          "seconds": 0.019193874999473337,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "๑๕๓",
+          "correct": false,
+          "seconds": 0.01997783299884759,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "id": "r1-c3",
+      "group": "census",
+      "expected": "59,135",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "69,185",
+          "correct": false,
+          "seconds": 0.053646791999199195,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "69,185",
+          "correct": false,
+          "seconds": 0.054156499998498475,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "69,185",
+          "correct": false,
+          "seconds": 0.05556912500105682,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "id": "r3-c1",
+      "group": "census",
+      "expected": "1,838,735",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1,838,785",
+          "correct": false,
+          "seconds": 0.05203229200196802,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "1,838,785",
+          "correct": false,
+          "seconds": 0.05362041600164957,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "1,838,785",
+          "correct": false,
+          "seconds": 0.05189583299943479,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "id": "r4-c5",
+      "group": "census",
+      "expected": "13,282",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "13,282",
+          "correct": true,
+          "seconds": 0.0529568330020993,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "13,282",
+          "correct": true,
+          "seconds": 0.05014708299859194,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "13,282",
+          "correct": true,
+          "seconds": 0.05395870899883448,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile_ocr",
+      "id": "g1",
+      "group": "gazette",
+      "expected": "๑",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "",
+          "correct": false,
+          "seconds": 0.010044917002232978,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "",
+          "correct": false,
+          "seconds": 0.00984858299852931,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "",
+          "correct": false,
+          "seconds": 0.01017583300199476,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile_ocr",
+      "id": "g2",
+      "group": "gazette",
+      "expected": "๒๐",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "3O",
+          "correct": false,
+          "seconds": 0.06495908299984876,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "3O",
+          "correct": false,
+          "seconds": 0.06451554199884413,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "3O",
+          "correct": false,
+          "seconds": 0.06396804099858855,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile_ocr",
+      "id": "g3",
+      "group": "gazette",
+      "expected": "๒๘",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "",
+          "correct": false,
+          "seconds": 0.010828124999534339,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "",
+          "correct": false,
+          "seconds": 0.010815707999427104,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "",
+          "correct": false,
+          "seconds": 0.010555500000918983,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile_ocr",
+      "id": "g4",
+      "group": "gazette",
+      "expected": "๓๑",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "3",
+          "correct": false,
+          "seconds": 0.06528787500064936,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "3",
+          "correct": false,
+          "seconds": 0.06451429200023995,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "3",
+          "correct": false,
+          "seconds": 0.06521866700131795,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile_ocr",
+      "id": "g5",
+      "group": "gazette",
+      "expected": "๙๔",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "",
+          "correct": false,
+          "seconds": 0.009680833001766587,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "",
+          "correct": false,
+          "seconds": 0.009544958000333281,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "",
+          "correct": false,
+          "seconds": 0.010544999997364357,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile_ocr",
+      "id": "g6",
+      "group": "gazette",
+      "expected": "๑๕๙",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "",
+          "correct": false,
+          "seconds": 0.007961916999192908,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "",
+          "correct": false,
+          "seconds": 0.007927958002255764,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "",
+          "correct": false,
+          "seconds": 0.008110333001241088,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile_ocr",
+      "id": "r1-c3",
+      "group": "census",
+      "expected": "59,135",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "69, 135",
+          "correct": false,
+          "seconds": 0.06188170799941872,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "69, 135",
+          "correct": false,
+          "seconds": 0.06203904200083343,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "69, 135",
+          "correct": false,
+          "seconds": 0.062070332998700906,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile_ocr",
+      "id": "r3-c1",
+      "group": "census",
+      "expected": "1,838,735",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1, 838, 735",
+          "correct": true,
+          "seconds": 0.06168966699988232,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "1, 838, 735",
+          "correct": true,
+          "seconds": 0.061471749999327585,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "1, 838, 735",
+          "correct": true,
+          "seconds": 0.06180133299858426,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "paddle_mobile_ocr",
+      "id": "r4-c5",
+      "group": "census",
+      "expected": "13,282",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "18, 282",
+          "correct": false,
+          "seconds": 0.061853750001318986,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "18, 282",
+          "correct": false,
+          "seconds": 0.06183858300209977,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "18, 282",
+          "correct": false,
+          "seconds": 0.061776083002769155,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm8",
+      "id": "g1",
+      "group": "gazette",
+      "expected": "๑",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "\"จ@ รรส[เงเว",
+          "correct": false,
+          "seconds": 0.03894791700076894,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "\"จ@ รรส[เงเว",
+          "correct": false,
+          "seconds": 0.03979224999784492,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "\"จ@ รรส[เงเว",
+          "correct": false,
+          "seconds": 0.03948591600055806,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm8",
+      "id": "g2",
+      "group": "gazette",
+      "expected": "๒๐",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1๒๒)๐ วุ",
+          "correct": false,
+          "seconds": 0.026535208002314903,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "1๒๒)๐ วุ",
+          "correct": false,
+          "seconds": 0.026276957996742567,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "1๒๒)๐ วุ",
+          "correct": false,
+          "seconds": 0.026336667000578018,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm8",
+      "id": "g3",
+      "group": "gazette",
+      "expected": "๒๘",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "141ๆ๕ ภ-ฝฉ",
+          "correct": false,
+          "seconds": 0.026958082999044564,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "141ๆ๕ ภ-ฝฉ",
+          "correct": false,
+          "seconds": 0.02710545800073305,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "141ๆ๕ ภ-ฝฉ",
+          "correct": false,
+          "seconds": 0.02687924999918323,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm8",
+      "id": "g4",
+      "group": "gazette",
+      "expected": "๓๑",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "วฑ@ >ณป",
+          "correct": false,
+          "seconds": 0.027941000000282656,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "วฑ@ >ณป",
+          "correct": false,
+          "seconds": 0.027832040999783203,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "วฑ@ >ณป",
+          "correct": false,
+          "seconds": 0.027970167000603396,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm8",
+      "id": "g5",
+      "group": "gazette",
+      "expected": "๙๔",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๕๕ โงเว",
+          "correct": false,
+          "seconds": 0.026038416999654146,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "๕๕ โงเว",
+          "correct": false,
+          "seconds": 0.025618915999075398,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "๕๕ โงเว",
+          "correct": false,
+          "seconds": 0.02565333299935446,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm8",
+      "id": "g6",
+      "group": "gazette",
+      "expected": "๑๕๙",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๑๕๓๕ ว",
+          "correct": false,
+          "seconds": 0.02397887500046636,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "๑๕๓๕ ว",
+          "correct": false,
+          "seconds": 0.024620750002213754,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "๑๕๓๕ ว",
+          "correct": false,
+          "seconds": 0.024311874996783445,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm8",
+      "id": "r1-c3",
+      "group": "census",
+      "expected": "59,135",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "59,185",
+          "correct": false,
+          "seconds": 0.05127675000039744,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "59,185",
+          "correct": false,
+          "seconds": 0.0550852920023317,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "59,185",
+          "correct": false,
+          "seconds": 0.06161341600090964,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm8",
+      "id": "r3-c1",
+      "group": "census",
+      "expected": "1,838,735",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1,838,786",
+          "correct": false,
+          "seconds": 0.05225395799789112,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "1,838,786",
+          "correct": false,
+          "seconds": 0.051238957999885315,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "1,838,786",
+          "correct": false,
+          "seconds": 0.05301737500121817,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm8",
+      "id": "r4-c5",
+      "group": "census",
+      "expected": "13,282",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "18,282",
+          "correct": false,
+          "seconds": 0.06081908299893257,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "18,282",
+          "correct": false,
+          "seconds": 0.057927249999920605,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "18,282",
+          "correct": false,
+          "seconds": 0.061110125003324356,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm13",
+      "id": "g1",
+      "group": "gazette",
+      "expected": "๑",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "\"จ@ รรส[เงเว",
+          "correct": false,
+          "seconds": 0.026177333002124215,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "\"จ@ รรส[เงเว",
+          "correct": false,
+          "seconds": 0.026158832999499282,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "\"จ@ รรส[เงเว",
+          "correct": false,
+          "seconds": 0.026703457999246893,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm13",
+      "id": "g2",
+      "group": "gazette",
+      "expected": "๒๐",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1๒๒)๐ วุ",
+          "correct": false,
+          "seconds": 0.02660325000033481,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "1๒๒)๐ วุ",
+          "correct": false,
+          "seconds": 0.026537875000940403,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "1๒๒)๐ วุ",
+          "correct": false,
+          "seconds": 0.026523915999860037,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm13",
+      "id": "g3",
+      "group": "gazette",
+      "expected": "๒๘",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "141ๆ๕ ภ-ฝฉ",
+          "correct": false,
+          "seconds": 0.027281292001134716,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "141ๆ๕ ภ-ฝฉ",
+          "correct": false,
+          "seconds": 0.027356334001524374,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "141ๆ๕ ภ-ฝฉ",
+          "correct": false,
+          "seconds": 0.026862292001169408,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm13",
+      "id": "g4",
+      "group": "gazette",
+      "expected": "๓๑",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "วฑ@ >ณป",
+          "correct": false,
+          "seconds": 0.028210667001985712,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "วฑ@ >ณป",
+          "correct": false,
+          "seconds": 0.02832000000125845,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "วฑ@ >ณป",
+          "correct": false,
+          "seconds": 0.02814099999886821,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm13",
+      "id": "g5",
+      "group": "gazette",
+      "expected": "๙๔",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๕๕ โงเว",
+          "correct": false,
+          "seconds": 0.02578637499755132,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "๕๕ โงเว",
+          "correct": false,
+          "seconds": 0.02531562500007567,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "๕๕ โงเว",
+          "correct": false,
+          "seconds": 0.026339416999690002,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm13",
+      "id": "g6",
+      "group": "gazette",
+      "expected": "๑๕๙",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๑๕๓๕ ว",
+          "correct": false,
+          "seconds": 0.02426641700003529,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "๑๕๓๕ ว",
+          "correct": false,
+          "seconds": 0.024331332999281585,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "๑๕๓๕ ว",
+          "correct": false,
+          "seconds": 0.024151166002411628,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm13",
+      "id": "r1-c3",
+      "group": "census",
+      "expected": "59,135",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "59,185",
+          "correct": false,
+          "seconds": 0.05300024999814923,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "59,185",
+          "correct": false,
+          "seconds": 0.054284541998640634,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "59,185",
+          "correct": false,
+          "seconds": 0.0543342089986254,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm13",
+      "id": "r3-c1",
+      "group": "census",
+      "expected": "1,838,735",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1,838,786",
+          "correct": false,
+          "seconds": 0.05452066700308933,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "1,838,786",
+          "correct": false,
+          "seconds": 0.052976167000451824,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "1,838,786",
+          "correct": false,
+          "seconds": 0.054876875001355074,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best_psm13",
+      "id": "r4-c5",
+      "group": "census",
+      "expected": "13,282",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "18,282",
+          "correct": false,
+          "seconds": 0.057744499998079846,
+          "complete": true
+        },
+        {
+          "repeat": 2,
+          "text": "18,282",
+          "correct": false,
+          "seconds": 0.05836016700050095,
+          "complete": true
+        },
+        {
+          "repeat": 3,
+          "text": "18,282",
+          "correct": false,
+          "seconds": 0.05807266700139735,
+          "complete": true
+        }
+      ]
+    }
+  ],
+  "note": "Primary four readers plus separately frozen detector-assisted supplement. Median times include each reader API/CLI overhead, not setup or harness JSON writes. RSS excludes unreported Metal allocations."
+}

@@ -1,0 +1,54 @@
+{
+  "source": "../ocr-repeat-round2-2026-11-01/results",
+  "note": "Same-turn fresh baseline, byte-identical document result files; combined telemetry/memory retain timestamps. No before inference in follow-up.",
+  "files": [
+    {
+      "file": "before-auto-thai-gazette.json",
+      "sha256": "1675e294e5980b10359bfa8ce2ec32bf0890ed15981194e23a5e9d4fce50a80d",
+      "started_at": 1793546526.3463092,
+      "ended_at": 1793546624.066057
+    },
+    {
+      "file": "before-auto-thai-royal.json",
+      "sha256": "1c034c0192f977f2aabcf8b0391eafe9be37ed9efa73577cf222cf59f037e316",
+      "started_at": 1793546624.070015,
+      "ended_at": 1793546716.6334789
+    },
+    {
+      "file": "before-auto-us-census.json",
+      "sha256": "c998065d7b9637b83d9ff19486d7f45542fe22a98ab568aa4d0222fa7cc72d5f",
+      "started_at": 1793546716.635678,
+      "ended_at": 1793546716.873153
+    },
+    {
+      "file": "before-auto-us-preservation.json",
+      "sha256": "f38363d4501edd47d9e9207e77483fd24bbb449e018b64e477abe235d98ada03",
+      "started_at": 1793546716.875044,
+      "ended_at": 1793546717.0979269
+    },
+    {
+      "file": "before-ocr-thai-gazette.json",
+      "sha256": "f6020db4f51ddfba6cc285544bbe753caa6f6e42b6a905067961921cc4a1bcb2",
+      "started_at": 1793546717.09889,
+      "ended_at": 1793546815.695644
+    },
+    {
+      "file": "before-ocr-thai-royal.json",
+      "sha256": "55973a649294e23e00643dd034ccb7e014cb2a4e5dce4ec799e31462ddcc61fb",
+      "started_at": 1793546815.6992261,
+      "ended_at": 1793546909.408841
+    },
+    {
+      "file": "before-ocr-us-census.json",
+      "sha256": "f70957cbb0c2dabcacf2218da4c7646bcadaa01dda7eb81847a314786a2a63dc",
+      "started_at": 1793546909.411395,
+      "ended_at": 1793546993.6871948
+    },
+    {
+      "file": "before-ocr-us-preservation.json",
+      "sha256": "319739e61113b68b1ffe7ab39d4ce8437619f7f0a42046e60ad481f43db4a764",
+      "started_at": 1793546993.68865,
+      "ended_at": 1793547017.362622
+    }
+  ]
+}

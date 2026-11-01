@@ -1,0 +1,166 @@
+{
+  "source_id": "thai-royal",
+  "page": 1,
+  "dpi": 144,
+  "bbox": [
+    126,
+    1978,
+    1427,
+    2206
+  ],
+  "prompt": "OCR:",
+  "max_tokens": 1024,
+  "note": "Supplemental isolated region; different from full layout/batched inference, not scored as a document.",
+  "rows": [
+    {
+      "penalty": 1.0,
+      "seconds": 1.9642514169991045,
+      "response": {
+        "id": "chatcmpl-837cda6e-9c79-4682-a394-12394cee8ffc",
+        "object": "chat.completion",
+        "created": 1793547512,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "๒. รับสำเนาหนังสือเจ้าพระยากาณวุวงศ์ส่งหนังสือเพชชัน ๒ ฉบับ ฉบับ\nการประชุมที่เบอร์ลิน เลิกเมื่อวันที่ ๑๘ ยุไล ลอร์ดบิคอนฟีนก์กับลอร์กเซลล์ศบุรี\nราชทุกอังกฤษได้กลับมากรุงลอนดอนแล้ว หนังสือสัญญาที่ตกลงกันนั่นได้คัดมาจาก",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 381,
+          "completion_tokens": 154,
+          "total_tokens": 535,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 381,
+          "cache_n": 0,
+          "predicted_n": 154,
+          "prompt_ms": 599.4464160012285,
+          "prompt_per_token_ms": 1.573350173231571,
+          "prompt_per_second": 635.5864174508955,
+          "predicted_ms": 1279.6747855299934,
+          "predicted_per_token_ms": 8.309576529415542,
+          "predicted_per_second": 120.34307602319362,
+          "peak_memory": 2.700868388,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "penalty": 1.1,
+      "seconds": 2.0057381249989703,
+      "response": {
+        "id": "chatcmpl-93d34f5a-7396-4b9e-bc9e-af2888353b23",
+        "object": "chat.completion",
+        "created": 1793547514,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "๒. รับสำเนาหนังสือเจ้าพระยากาณวุจศักราชฯ หลังหนังสือเพชชัน ๒ ฉบับ ฉบับ\nการประชุมที่เบอร์ลิน เลิกเมื่อวันที่ ๑๘ ยูไล ลอร์ดบิคอนฟีนก็กับลอร์กเซลล์ศบุรี\nราชทุกอังกฤษได้กลับมากรุงลอนดอนแล้ว หนังสือสัญญาที่ตกลงกันน้ำในได้กัดมาจาก",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 381,
+          "completion_tokens": 160,
+          "total_tokens": 541,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 381,
+          "cache_n": 0,
+          "predicted_n": 160,
+          "prompt_ms": 596.3369579985738,
+          "prompt_per_token_ms": 1.565188866137989,
+          "prompt_per_second": 638.9005324753177,
+          "predicted_ms": 1351.9756397493798,
+          "predicted_per_token_ms": 8.449847748433623,
+          "predicted_per_second": 118.34532760491138,
+          "peak_memory": 2.700868388,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "penalty": 1.15,
+      "seconds": 1.9314807920000021,
+      "response": {
+        "id": "chatcmpl-dfd397f9-a89c-4266-bcd5-031910d660bf",
+        "object": "chat.completion",
+        "created": 1793547516,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "๒. รับสำเนาหนังสือเจ้าพระยากมุวงศ์ส่งหนังสือเพชชัน ๒ ฉบับ ฉบับ\nการประชุมที่เบอร์ลิน เลิกเมื่อวันที่ ๑๘ ยูไล ลอร์ดบิคอนฟีนก็กับลอร์กเซลล์ศบุรี\nราชทุกอังกฤษได้กลับมากรุงลอนดอนแล้ว หนังสือสัญญาที่ตกลงกันน้ำในได้กัดมาจาก",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 381,
+          "completion_tokens": 151,
+          "total_tokens": 532,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 381,
+          "cache_n": 0,
+          "predicted_n": 151,
+          "prompt_ms": 596.116582999457,
+          "prompt_per_token_ms": 1.5646104540668164,
+          "prompt_per_second": 639.1367240329683,
+          "predicted_ms": 1277.278212106709,
+          "predicted_per_token_ms": 8.458796106666947,
+          "predicted_per_second": 118.22013291132915,
+          "peak_memory": 2.700868388,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    }
+  ]
+}

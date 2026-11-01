@@ -1,0 +1,814 @@
+{
+  "reference_hash": "72a37213b39a3a3dd1b4e344162d962b39c3c460fcad2bf2dfea105620301ac2",
+  "documents": [
+    {
+      "variant": "before",
+      "id": "thai-gazette",
+      "ok": true,
+      "complete": true,
+      "seconds": 25.03059,
+      "cer": 7.985,
+      "worker_sha": "9859627a68a7960f575a91f50aba34107543dbda",
+      "strict_rows": 0,
+      "row_count": 6,
+      "table_rows": [
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศสงกรานต์ ปีจอ จัตวาศก",
+          "values": [
+            "๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศวางโทษเรื่องทักอ้วนผอม",
+          "values": [
+            "๒๐"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้เก็บภาษีหัวเบี้ยรวมอยู่ในบ่อน",
+          "values": [
+            "๒๘"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้ใช้กะแปะอัฐแลโสฬศที่ทำขึ้นใหม่",
+          "values": [
+            "๓๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศมหาสงกรานต์ ปีกุน เบญจศก",
+          "values": [
+            "๙๔"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศพิกัดภาษี เรือ ตึก แพ โรง ร้าน",
+          "values": [
+            "๑๕๙"
+          ],
+          "correct": false
+        }
+      ],
+      "raw_sha256": "cf764b0d07c64d9f34aee51200b19b90cfba5436546340147210d8424c2dea93",
+      "source_sha256": "4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627"
+    },
+    {
+      "variant": "before",
+      "id": "thai-royal",
+      "ok": true,
+      "complete": true,
+      "seconds": 55.24161,
+      "cer": 8.038,
+      "worker_sha": "9859627a68a7960f575a91f50aba34107543dbda",
+      "strict_rows": 0,
+      "row_count": 0,
+      "table_rows": [],
+      "raw_sha256": "c9624e1f35645832bc4d027a7e7af5a3d9d9938bb1bb862fb02f9033c987fd6f",
+      "source_sha256": "d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0"
+    },
+    {
+      "variant": "before",
+      "id": "us-census",
+      "ok": true,
+      "complete": true,
+      "seconds": 190.82786,
+      "cer": 1.163,
+      "worker_sha": "9859627a68a7960f575a91f50aba34107543dbda",
+      "strict_rows": 2,
+      "row_count": 6,
+      "table_rows": [
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Adams",
+          "values": [
+            "67,058",
+            "61,888",
+            "59,135",
+            "56,362",
+            "41,323"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Alexander",
+          "values": [
+            "19,384",
+            "16,563",
+            "14,808",
+            "10,564",
+            "4,707"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Cook",
+          "values": [
+            "1,838,735",
+            "1,191,922",
+            "607,524",
+            "349,966",
+            "144,954"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Rock Island",
+          "values": [
+            "55,249",
+            "41,917",
+            "38,302",
+            "29,783",
+            "21,005"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Saline",
+          "values": [
+            "21,685",
+            "19,342",
+            "15,940",
+            "12,714",
+            "9,331"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Woodford",
+          "values": [
+            "21,822",
+            "21,429",
+            "21,620",
+            "18,956",
+            "13,282"
+          ],
+          "correct": false
+        }
+      ],
+      "raw_sha256": "478aa35610c5602d99985f117a6445de093e034b351dabb042932a0da5fab43b",
+      "source_sha256": "4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8"
+    },
+    {
+      "variant": "before",
+      "id": "us-preservation",
+      "ok": true,
+      "complete": true,
+      "seconds": 35.02421,
+      "cer": 7.445,
+      "worker_sha": "9859627a68a7960f575a91f50aba34107543dbda",
+      "strict_rows": 2,
+      "row_count": 3,
+      "table_rows": [
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "New York Journal of Commerce",
+          "values": [
+            "May",
+            "19",
+            "1830",
+            "1"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "Brooklyn Daily Eagle",
+          "values": [
+            "Jan.",
+            "27",
+            "1869",
+            "100",
+            "1"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "San Diego Sun",
+          "values": [
+            "Oct.",
+            "31",
+            "1872",
+            "100",
+            "1"
+          ],
+          "correct": false
+        }
+      ],
+      "raw_sha256": "cb45fbf525dc2d8289d02e217a2bd692271b90a7a9ec091773deb1f66e8060cc",
+      "source_sha256": "20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66"
+    },
+    {
+      "variant": "after",
+      "id": "thai-gazette",
+      "ok": true,
+      "complete": true,
+      "seconds": 24.9968,
+      "cer": 7.985,
+      "worker_sha": "1a45c4d83bd22b418cb42be9ca92b0ec4ad933b0",
+      "strict_rows": 0,
+      "row_count": 6,
+      "table_rows": [
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศสงกรานต์ ปีจอ จัตวาศก",
+          "values": [
+            "๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 1,
+          "label": "ประกาศวางโทษเรื่องทักอ้วนผอม",
+          "values": [
+            "๒๐"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้เก็บภาษีหัวเบี้ยรวมอยู่ในบ่อน",
+          "values": [
+            "๒๘"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 2,
+          "label": "ประกาศให้ใช้กะแปะอัฐแลโสฬศที่ทำขึ้นใหม่",
+          "values": [
+            "๓๑"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศมหาสงกรานต์ ปีกุน เบญจศก",
+          "values": [
+            "๙๔"
+          ],
+          "correct": false
+        },
+        {
+          "document": "thai-gazette",
+          "page": 3,
+          "label": "ประกาศพิกัดภาษี เรือ ตึก แพ โรง ร้าน",
+          "values": [
+            "๑๕๙"
+          ],
+          "correct": false
+        }
+      ],
+      "raw_sha256": "4c02d285b7e05fedc511f51528f0c2e7dd1d8edac8b975cab746124196aa2346",
+      "source_sha256": "4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627"
+    },
+    {
+      "variant": "after",
+      "id": "thai-royal",
+      "ok": true,
+      "complete": true,
+      "seconds": 55.33357,
+      "cer": 8.038,
+      "worker_sha": "00d623a03e741e2e1b0edf030e9a5dcb5ce0f268",
+      "strict_rows": 0,
+      "row_count": 0,
+      "table_rows": [],
+      "raw_sha256": "563ec00f1d44bba82aa26d446b9fc3931ae347d86693dd18dc83998fcbb0d7ba",
+      "source_sha256": "d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0"
+    },
+    {
+      "variant": "after",
+      "id": "us-census",
+      "ok": true,
+      "complete": true,
+      "seconds": 190.50675,
+      "cer": 1.163,
+      "worker_sha": "00d623a03e741e2e1b0edf030e9a5dcb5ce0f268",
+      "strict_rows": 2,
+      "row_count": 6,
+      "table_rows": [
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Adams",
+          "values": [
+            "67,058",
+            "61,888",
+            "59,135",
+            "56,362",
+            "41,323"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Alexander",
+          "values": [
+            "19,384",
+            "16,563",
+            "14,808",
+            "10,564",
+            "4,707"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 2,
+          "label": "Cook",
+          "values": [
+            "1,838,735",
+            "1,191,922",
+            "607,524",
+            "349,966",
+            "144,954"
+          ],
+          "correct": false
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Rock Island",
+          "values": [
+            "55,249",
+            "41,917",
+            "38,302",
+            "29,783",
+            "21,005"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Saline",
+          "values": [
+            "21,685",
+            "19,342",
+            "15,940",
+            "12,714",
+            "9,331"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-census",
+          "page": 3,
+          "label": "Woodford",
+          "values": [
+            "21,822",
+            "21,429",
+            "21,620",
+            "18,956",
+            "13,282"
+          ],
+          "correct": false
+        }
+      ],
+      "raw_sha256": "cbf75af59085da6fc3402150571138c1f1a9141e7e416df12a59aa049fae7f9f",
+      "source_sha256": "4dc984ff629b75db61bedce2768746926ba54ec65ee2394a43b8fbdb23e691a8"
+    },
+    {
+      "variant": "after",
+      "id": "us-preservation",
+      "ok": true,
+      "complete": true,
+      "seconds": 39.161480000000005,
+      "cer": 0.394,
+      "worker_sha": "1a45c4d83bd22b418cb42be9ca92b0ec4ad933b0",
+      "strict_rows": 3,
+      "row_count": 3,
+      "table_rows": [
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "New York Journal of Commerce",
+          "values": [
+            "May",
+            "19",
+            "1830",
+            "1"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "Brooklyn Daily Eagle",
+          "values": [
+            "Jan.",
+            "27",
+            "1869",
+            "100",
+            "1"
+          ],
+          "correct": true
+        },
+        {
+          "document": "us-preservation",
+          "page": 3,
+          "label": "San Diego Sun",
+          "values": [
+            "Oct.",
+            "31",
+            "1872",
+            "100",
+            "1"
+          ],
+          "correct": true
+        }
+      ],
+      "raw_sha256": "0e90afe5cd5ceaa48f39499159167ebec68cc4c3fe1ea11b24b1897263821945",
+      "source_sha256": "20727cd43807edae48c0ad846b57b658f40fc756b72cb2ad92cf6beb365bac66"
+    }
+  ],
+  "crop_summary": {
+    "whole": {
+      "correct": 11,
+      "total": 20,
+      "previous_wrong_correct": 0,
+      "previous_wrong_total": 9,
+      "control_correct": 11,
+      "control_total": 11,
+      "seconds": 68.27503104199786
+    },
+    "row": {
+      "correct": 14,
+      "total": 20,
+      "previous_wrong_correct": 4,
+      "previous_wrong_total": 9,
+      "control_correct": 10,
+      "control_total": 11,
+      "seconds": 4.35680924999906
+    },
+    "cell": {
+      "correct": 17,
+      "total": 20,
+      "previous_wrong_correct": 6,
+      "previous_wrong_total": 9,
+      "control_correct": 11,
+      "control_total": 11,
+      "seconds": 6.754946790999384
+    }
+  },
+  "cells": [
+    {
+      "case": "r1",
+      "label": "Adams",
+      "year": 1900,
+      "expected": "67,058",
+      "previous_pipeline": "67,058",
+      "previous_wrong": false,
+      "whole": "67,058",
+      "row": "67,058",
+      "cell": "67,058",
+      "cell_finish": "stop",
+      "cell_input_sha256": "9874c97e36c65fdbc8144d40f839c2e1775496662421368adaa3b37782f6a409",
+      "whole_correct": true,
+      "row_correct": true,
+      "cell_correct": true
+    },
+    {
+      "case": "r1",
+      "label": "Adams",
+      "year": 1890,
+      "expected": "61,888",
+      "previous_pipeline": "61,888",
+      "previous_wrong": false,
+      "whole": "61,888",
+      "row": "61,888",
+      "cell": "61,888",
+      "cell_finish": "stop",
+      "cell_input_sha256": "2c01c43307a4ce0aad0f290d8f1b1d3ec0510ba2ead64fe9b52ca0f6e395d9d2",
+      "whole_correct": true,
+      "row_correct": true,
+      "cell_correct": true
+    },
+    {
+      "case": "r1",
+      "label": "Adams",
+      "year": 1880,
+      "expected": "59,135",
+      "previous_pipeline": "59,155",
+      "previous_wrong": true,
+      "whole": "59,155",
+      "row": "59,135",
+      "cell": "69,135",
+      "cell_finish": "stop",
+      "cell_input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "whole_correct": false,
+      "row_correct": true,
+      "cell_correct": false
+    },
+    {
+      "case": "r1",
+      "label": "Adams",
+      "year": 1870,
+      "expected": "56,362",
+      "previous_pipeline": "56,862",
+      "previous_wrong": true,
+      "whole": "56,862",
+      "row": "56,362",
+      "cell": "56,362",
+      "cell_finish": "stop",
+      "cell_input_sha256": "0146a693a201e786481a8c8dfa925d180ed9ac18d1fcdee5050b3682dfff2606",
+      "whole_correct": false,
+      "row_correct": true,
+      "cell_correct": true
+    },
+    {
+      "case": "r1",
+      "label": "Adams",
+      "year": 1860,
+      "expected": "41,323",
+      "previous_pipeline": "41,323",
+      "previous_wrong": false,
+      "whole": "41,323",
+      "row": "41,323",
+      "cell": "41,323",
+      "cell_finish": "stop",
+      "cell_input_sha256": "e5c9a02003242032c4d6716f8954125fe5e3e2f9546a0046998a7666bd669294",
+      "whole_correct": true,
+      "row_correct": true,
+      "cell_correct": true
+    },
+    {
+      "case": "r2",
+      "label": "Alexander",
+      "year": 1900,
+      "expected": "19,384",
+      "previous_pipeline": "15,884",
+      "previous_wrong": true,
+      "whole": "15,884",
+      "row": "19,384",
+      "cell": "19,384",
+      "cell_finish": "stop",
+      "cell_input_sha256": "f335a6e491d3669206ac362fff5f6da813b88daf307cd68931d876b75a65c7a0",
+      "whole_correct": false,
+      "row_correct": false,
+      "cell_correct": true
+    },
+    {
+      "case": "r2",
+      "label": "Alexander",
+      "year": 1890,
+      "expected": "16,563",
+      "previous_pipeline": "16,565",
+      "previous_wrong": true,
+      "whole": "16,565",
+      "row": "16,563",
+      "cell": "16,563",
+      "cell_finish": "stop",
+      "cell_input_sha256": "05100bc2e1cf45855275b789b9b911f5dfa702a6708ad5273dedbeacb274e1be",
+      "whole_correct": false,
+      "row_correct": false,
+      "cell_correct": true
+    },
+    {
+      "case": "r2",
+      "label": "Alexander",
+      "year": 1880,
+      "expected": "14,808",
+      "previous_pipeline": "14,826",
+      "previous_wrong": true,
+      "whole": "14,826",
+      "row": "14,808",
+      "cell": "14,808",
+      "cell_finish": "stop",
+      "cell_input_sha256": "c0a5fe210efe69887b7a5c38393649efa88ede3f15794ddcb721fae8f1ac04ae",
+      "whole_correct": false,
+      "row_correct": false,
+      "cell_correct": true
+    },
+    {
+      "case": "r2",
+      "label": "Alexander",
+      "year": 1870,
+      "expected": "10,564",
+      "previous_pipeline": "10,844",
+      "previous_wrong": true,
+      "whole": "10,844",
+      "row": "10,564",
+      "cell": "10,564",
+      "cell_finish": "stop",
+      "cell_input_sha256": "49cfefe8a4be39d3c9e995b5f872affce49c9a32805fe4e0f4f3cb9402e0ef70",
+      "whole_correct": false,
+      "row_correct": false,
+      "cell_correct": true
+    },
+    {
+      "case": "r2",
+      "label": "Alexander",
+      "year": 1860,
+      "expected": "4,707",
+      "previous_pipeline": "4,707",
+      "previous_wrong": false,
+      "whole": "4,707",
+      "row": "4,707",
+      "cell": "4,707",
+      "cell_finish": "stop",
+      "cell_input_sha256": "e721d9c4f03db15800181c0f138d9bb16cb795b8ad5b8143ce7ae98c2b2966f6",
+      "whole_correct": true,
+      "row_correct": false,
+      "cell_correct": true
+    },
+    {
+      "case": "r3",
+      "label": "Cook",
+      "year": 1900,
+      "expected": "1,838,735",
+      "previous_pipeline": "1,833,785",
+      "previous_wrong": true,
+      "whole": "1,835,785",
+      "row": "1,838,735",
+      "cell": "1,833,735",
+      "cell_finish": "stop",
+      "cell_input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "whole_correct": false,
+      "row_correct": true,
+      "cell_correct": false
+    },
+    {
+      "case": "r3",
+      "label": "Cook",
+      "year": 1890,
+      "expected": "1,191,922",
+      "previous_pipeline": "1,191,922",
+      "previous_wrong": false,
+      "whole": "1,191,922",
+      "row": "1,191,922",
+      "cell": "1,191,922",
+      "cell_finish": "stop",
+      "cell_input_sha256": "b16afb9d29e5fa7092594bcc30a2447874f70ac03557f7123edf632116fc6e4b",
+      "whole_correct": true,
+      "row_correct": true,
+      "cell_correct": true
+    },
+    {
+      "case": "r3",
+      "label": "Cook",
+      "year": 1880,
+      "expected": "607,524",
+      "previous_pipeline": "607,524",
+      "previous_wrong": false,
+      "whole": "607,524",
+      "row": "607,524",
+      "cell": "607,524",
+      "cell_finish": "stop",
+      "cell_input_sha256": "8202fe3933a25300e5c39a3939839134031eb78af21f638585d161e2de16ccf0",
+      "whole_correct": true,
+      "row_correct": true,
+      "cell_correct": true
+    },
+    {
+      "case": "r3",
+      "label": "Cook",
+      "year": 1870,
+      "expected": "349,966",
+      "previous_pipeline": "849,966",
+      "previous_wrong": true,
+      "whole": "849,966",
+      "row": "349,966",
+      "cell": "349,966",
+      "cell_finish": "stop",
+      "cell_input_sha256": "0c299afa83fb870476948a5a5e142807b76fabc4a35e131e69d84c6037198d3f",
+      "whole_correct": false,
+      "row_correct": true,
+      "cell_correct": true
+    },
+    {
+      "case": "r3",
+      "label": "Cook",
+      "year": 1860,
+      "expected": "144,954",
+      "previous_pipeline": "144,954",
+      "previous_wrong": false,
+      "whole": "144,954",
+      "row": "144,954",
+      "cell": "144,954",
+      "cell_finish": "stop",
+      "cell_input_sha256": "c69d296cd9e8e0accf6e5172a2346d2b907c2b7cc4c65c5bfabe4be8846dfc08",
+      "whole_correct": true,
+      "row_correct": true,
+      "cell_correct": true
+    },
+    {
+      "case": "r4",
+      "label": "Woodford",
+      "year": 1900,
+      "expected": "21,822",
+      "previous_pipeline": "21,822",
+      "previous_wrong": false,
+      "whole": "21,822",
+      "row": "21,822",
+      "cell": "21,822",
+      "cell_finish": "stop",
+      "cell_input_sha256": "1010274e388b70cec8404b021f1d9522b1b716a1d52c75d1360abf6a43c849ed",
+      "whole_correct": true,
+      "row_correct": true,
+      "cell_correct": true
+    },
+    {
+      "case": "r4",
+      "label": "Woodford",
+      "year": 1890,
+      "expected": "21,429",
+      "previous_pipeline": "21,429",
+      "previous_wrong": false,
+      "whole": "21,429",
+      "row": "21,429",
+      "cell": "21,429",
+      "cell_finish": "stop",
+      "cell_input_sha256": "4bf30cbd79cdfab0bcdd64f83d659ce4c52d8cbfa169401d41dd8efa322e730f",
+      "whole_correct": true,
+      "row_correct": true,
+      "cell_correct": true
+    },
+    {
+      "case": "r4",
+      "label": "Woodford",
+      "year": 1880,
+      "expected": "21,620",
+      "previous_pipeline": "21,620",
+      "previous_wrong": false,
+      "whole": "21,620",
+      "row": "21,620",
+      "cell": "21,620",
+      "cell_finish": "stop",
+      "cell_input_sha256": "1d3734c48a33167cb5858acbe552abde53afeeb90145c497159eee8dcaa8f1f6",
+      "whole_correct": true,
+      "row_correct": true,
+      "cell_correct": true
+    },
+    {
+      "case": "r4",
+      "label": "Woodford",
+      "year": 1870,
+      "expected": "18,956",
+      "previous_pipeline": "18,956",
+      "previous_wrong": false,
+      "whole": "18,956",
+      "row": "18,956",
+      "cell": "18,956",
+      "cell_finish": "stop",
+      "cell_input_sha256": "855b0002170aa39fd0d00561c4c51bb94997f7845a354abeb0fc362ddb2d9903",
+      "whole_correct": true,
+      "row_correct": true,
+      "cell_correct": true
+    },
+    {
+      "case": "r4",
+      "label": "Woodford",
+      "year": 1860,
+      "expected": "13,282",
+      "previous_pipeline": "18,282",
+      "previous_wrong": true,
+      "whole": "18,282",
+      "row": "18,282",
+      "cell": "18,282",
+      "cell_finish": "stop",
+      "cell_input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "whole_correct": false,
+      "row_correct": false,
+      "cell_correct": false
+    }
+  ]
+}

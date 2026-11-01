@@ -1,0 +1,445 @@
+{
+  "note": "geometry-only pilot; fixed 260px target bands, no reference input",
+  "rows": [
+    {
+      "file": "us-census-p2-table0.png",
+      "y": [
+        0,
+        231
+      ],
+      "scale": 1.5,
+      "seconds": 7.786337749999802,
+      "response": {
+        "id": "chatcmpl-9c444e8a-7455-47ac-a7ca-16660c776d47",
+        "object": "chat.completion",
+        "created": 1793550414,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>COUNTIES.<fcel>1900<fcel>1890<fcel>1880<fcel>1870<fcel>1860<fcel>1850<fcel>1840<fcel>1830<fcel>1820<fcel>1810<fcel>1800<fcel>1700<nl><fcel>The State<fcel>4,821,550<fcel>8,826,351<fcel>3,077,871<fcel>2,539,891<fcel>1,711,951<fcel>851,470<fcel>476,183<fcel>157,445<fcel>55,162<fcel>12,282<fcel>12,458<ecel><nl><fcel>Adams-Alexander<fcel>67,058<fcel>61,888<fcel>59,135<fcel>56,362<fcel>41,323<fcel>26,508<fcel>14,476<fcel>2,186<ecel><ecel><ecel><ecel><nl><fcel>Bond<fcel>19,884<fcel>16,563<fcel>14,808<fcel>10,564<fcel>4,707<fcel>2,484<fcel>8,313<fcel>1,890<fcel>626<ecel><ecel><ecel><nl><fcel>Boone<fcel>16,078<fcel>14,550<fcel>14,866<fcel>18,152<fcel>9,815<fcel>6,144<fcel>5,060<fcel>8,124<fcel>2,931<ecel><ecel><ecel><nl><fcel>Brown<fcel>15,791<fcel>12,203<fcel>11,608<fcel>12,942<fcel>11,678<fcel>7,624<fcel>1,705<ecel><ecel><ecel><ecel><ecel><nl><fcel>Bureau<fcel>11,557<fcel>11,951<fcel>18,041<fcel>12,205<fcel>9,938<fcel>7,198<fcel>4,183<ecel><ecel><ecel><ecel><ecel><nl><fcel>Calhoun<fcel>41,112<fcel>85,014<fcel>83,172<fcel>82,415<fcel>26,426<fcel>8,841<fcel>3,067<ecel><ecel><ecel><ecel><ecel><nl><fcel>Carroll<fcel>8,917<fcel>7,652<fcel>7,467<fcel>6,562<fcel>5,144<fcel>8,231<fcel>1,741<fcel>1,090<ecel><ecel><ecel><ecel><nl><fcel>Cass<fcel>18,963<fcel>18,320<fcel>16,976<fcel>16,705<fcel>11,733<fcel>4,586<fcel>1,023<ecel><ecel><ecel><ecel><ecel><nl><fcel>Champaign<fcel>17,222<fcel>16,963<fcel>14,493<fcel>11,580<fcel>11,325<fcel>7,253<fcel>2,981<ecel><ecel><ecel><ecel><ecel><nl><fcel>Total<fcel>47,622<fcel>42,159<fcel>40,863<fcel>32,737<fcel>14,629<fcel>2,649<fcel>1,475<ecel><ecel><ecel><ecel><ecel><nl>",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 661,
+          "completion_tokens": 748,
+          "total_tokens": 1409,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 661,
+          "cache_n": 0,
+          "predicted_n": 748,
+          "prompt_ms": 1170.9580829956394,
+          "prompt_per_token_ms": 1.771494830553161,
+          "prompt_per_second": 564.4950144662536,
+          "predicted_ms": 6498.863778561916,
+          "predicted_per_token_ms": 8.688320559574754,
+          "predicted_per_second": 115.09704241954726,
+          "peak_memory": 2.685017142,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "file": "us-census-p2-table0.png",
+      "y": [
+        231,
+        510
+      ],
+      "scale": 1.5,
+      "seconds": 11.990915250000398,
+      "response": {
+        "id": "chatcmpl-3b39e215-b927-4955-8ab9-b7570fe9c3c8",
+        "object": "chat.completion",
+        "created": 1793550426,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Christian<fcel>32,790<fcel>30,531<fcel>28,227<fcel>20,363<fcel>10,492<fcel>3,203<fcel>1,878<ecel><ecel><ecel><ecel><nl><fcel>Clark<fcel>24,033<fcel>21,899<fcel>21,694<fcel>18,719<fcel>14,987<fcel>9,532<fcel>7,453<fcel>3,940<fcel>931<ecel><ecel><nl><fcel>Clay<fcel>19,553<fcel>16,772<fcel>16,192<fcel>15,875<fcel>9,336<fcel>4,289<fcel>3,228<fcel>755<ecel><ecel><ecel><nl><fcel>Clinton<fcel>19,824<fcel>17,411<fcel>18,714<fcel>16,285<fcel>10,941<fcel>5,139<fcel>3,718<fcel>2,830<ecel><ecel><ecel><nl><fcel>Coles<fcel>34,146<fcel>30,093<fcel>27,042<fcel>25,235<fcel>14,203<fcel>9,335<fcel>9,616<ecel><ecel><ecel><ecel><nl><fcel>Cook<fcel>1,833,785<fcel>1,191,922<fcel>607,524<fcel>349,966<fcel>144,954<fcel>43,385<fcel>10,201<ecel><ecel><ecel><ecel><nl><fcel>Crawford<fcel>19,240<fcel>17,283<fcel>16,197<fcel>13,889<fcel>11,551<fcel>7,135<fcel>4,422<fcel>8,117<fcel>2,909<ecel><ecel><nl><fcel>Cumberland<fcel>16,124<fcel>15,443<fcel>18,759<fcel>12,223<fcel>8,311<fcel>8,718<ecel><ecel><ecel><ecel><ecel><nl><fcel>Dekalb<fcel>31,756<fcel>27,066<fcel>26,708<fcel>28,265<fcel>19,086<fcel>7,540<fcel>1,697<ecel><ecel><ecel><ecel><nl><fcel>Dewitt<fcel>18,972<fcel>17,011<fcel>17,010<fcel>14,768<fcel>10,820<fcel>5,002<fcel>3,247<ecel><ecel><ecel><ecel><nl><fcel>Douglas<fcel>19,097<fcel>17,669<fcel>15,853<fcel>13,484<fcel>7,140<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Dupage<fcel>28,196<fcel>22,551<fcel>19,161<fcel>16,685<fcel>14,701<fcel>9,200<fcel>3,585<ecel><ecel><ecel><ecel><nl><fcel>Edgar<fcel>28,278<fcel>26,787<fcel>25,499<fcel>21,450<fcel>16,925<fcel>10,692<fcel>8,225<fcel>4,071<ecel><ecel><ecel><nl><fcel>Edwards<fcel>10,845<fcel>9,444<fcel>8,597<fcel>7,565<fcel>5,454<fcel>8,524<fcel>3,070<fcel>1,649<fcel>8,444<ecel><ecel><nl><fcel>Eflingham<fcel>20,465<fcel>19,358<fcel>18,920<fcel>15,658<fcel>7,816<fcel>3,799<fcel>1,675<ecel><ecel><ecel><ecel><nl><fcel>Fayette<fcel>28,065<fcel>23,867<fcel>23,241<fcel>19,638<fcel>11,189<fcel>8,075<fcel>6,328<fcel>2,704<ecel><ecel><ecel><nl><fcel>Ford<fcel>18,859<fcel>17,035<fcel>15,099<fcel>9,108<fcel>1,979<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Franklin<fcel>19,075<fcel>17,138<fcel>16,129<fcel>12,652<fcel>9,393<fcel>5,631<fcel>3,682<fcel>4,083<fcel>1,768<ecel><ecel><nl><fcel>Fulton<fcel>46,201<fcel>43,110<fcel>41,240<fcel>83,291<fcel>33,338<fcel>22,508<fcel>13,142<fcel>1,841<ecel><ecel><ecel><nl><fcel>Gallatin<fcel>15,836<fcel>14,935<fcel>12,861<fcel>11,134<fcel>8,055<fcel>5,448<fcel>10,760<fcel>7,405<fcel>8,155<ecel><ecel><nl>",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 823,
+          "completion_tokens": 1154,
+          "total_tokens": 1977,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 823,
+          "cache_n": 0,
+          "predicted_n": 1154,
+          "prompt_ms": 1550.3808749999732,
+          "prompt_per_token_ms": 1.8838163730254838,
+          "prompt_per_second": 530.8373015114845,
+          "predicted_ms": 10343.387157791454,
+          "predicted_per_token_ms": 8.963073793580117,
+          "predicted_per_second": 111.56886834026282,
+          "peak_memory": 2.685017142,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "file": "us-census-p2-table0.png",
+      "y": [
+        510,
+        797
+      ],
+      "scale": 1.5,
+      "seconds": 12.014117040998826,
+      "response": {
+        "id": "chatcmpl-ae291ce1-33f9-43cd-a234-495f14f04b47",
+        "object": "chat.completion",
+        "created": 1793550438,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Greene<fcel>23,402<fcel>23,791<fcel>23,010<fcel>20,277<fcel>16,093<fcel>12,429<fcel>11,951<fcel>7,674<ecel><ecel><ecel><ecel><nl><fcel>Grundy<fcel>24,136<fcel>21,024<fcel>16,732<fcel>14,938<fcel>10,379<fcel>3,023<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Hamilton<fcel>20,197<fcel>17,800<fcel>16,712<fcel>13,014<fcel>9,915<fcel>6,302<fcel>3,945<fcel>2,616<ecel><ecel><ecel><ecel><nl><fcel>Hancock<fcel>32,215<fcel>81,907<fcel>85,837<fcel>35,935<fcel>29,061<fcel>14,652<fcel>9,946<fcel>483<ecel><ecel><ecel><ecel><nl><fcel>Hardin<fcel>7,448<fcel>7,234<fcel>6,024<fcel>5,118<fcel>3,759<fcel>2,887<fcel>1,378<ecel><ecel><ecel><ecel><ecel><nl><fcel>Henderson<fcel>10,836<fcel>9,876<fcel>10,722<fcel>12,582<fcel>9,501<fcel>4,612<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Henry<fcel>40,040<fcel>88,838<fcel>86,597<fcel>35,506<fcel>20,660<fcel>3,807<fcel>1,260<fcel>41<ecel><ecel><ecel><ecel><nl><fcel>Iroquois<fcel>38,014<fcel>85,167<fcel>85,451<fcel>25,782<fcel>12,325<fcel>4,149<fcel>1,695<ecel><ecel><ecel><ecel><ecel><nl><fcel>Jackson<fcel>33,871<fcel>27,809<fcel>22,505<fcel>19,684<fcel>9,580<fcel>5,862<fcel>3,566<fcel>1,828<fcel>1,542<ecel><ecel><ecel><nl><fcel>Jasper<fcel>20,100<fcel>18,188<fcel>14,515<fcel>11,234<fcel>8,864<fcel>3,220<fcel>1,472<ecel><ecel><ecel><ecel><ecel><nl><fcel>Jefferson<fcel>28,138<fcel>22,590<fcel>20,686<fcel>17,864<fcel>12,965<fcel>8,109<fcel>5,762<fcel>2,555<fcel>691<ecel><ecel><ecel><nl><fcel>Jersey<fcel>14,612<fcel>14,810<fcel>15,542<fcel>15,064<fcel>12,051<fcel>7,854<fcel>4,535<ecel><ecel><ecel><fcel>1 100<ecel><nl><fcel>Jo Daviess<fcel>24,533<fcel>25,101<fcel>27,528<fcel>27,820<fcel>27,825<fcel>18,604<fcel>6,180<fcel>2,111<ecel><ecel><ecel><ecel><nl><fcel>Johnson<fcel>15,667<fcel>15,013<fcel>13,078<fcel>11,248<fcel>9,342<fcel>4,114<fcel>8,626<fcel>1,596<fcel>843<ecel><ecel><ecel><nl><fcel>Kane<fcel>78,792<fcel>65,061<fcel>44,939<fcel>39,091<fcel>30,062<fcel>16,703<fcel>6,501<ecel><ecel><ecel><ecel><ecel><nl><fcel>Kankakee<fcel>37,154<fcel>28,732<fcel>25,047<fcel>24,352<fcel>15,412<ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Kendall<fcel>11,467<fcel>12,106<fcel>13,083<fcel>12,399<fcel>13,074<fcel>7,730<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Knox<fcel>43,612<fcel>88,752<fcel>38,844<fcel>39,522<fcel>28,663<fcel>18,279<fcel>7,060<fcel>274<ecel><ecel><ecel><ecel><nl><fcel>Lake<fcel>34,504<fcel>24,235<fcel>21,296<fcel>21,014<fcel>18,257<fcel>14,226<fcel>2,634<ecel><ecel><ecel><ecel><ecel><nl><fcel>Lasalle<fcel>87,776<fcel>80,798<fcel>70,403<fcel>60,792<fcel>48,332<fcel>17,815<fcel>9,348<ecel><ecel><ecel><ecel><ecel><nl>",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 823,
+          "completion_tokens": 1154,
+          "total_tokens": 1977,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 823,
+          "cache_n": 0,
+          "predicted_n": 1154,
+          "prompt_ms": 1552.34554100025,
+          "prompt_per_token_ms": 1.886203573511847,
+          "prompt_per_second": 530.1654678440356,
+          "predicted_ms": 10353.63904057221,
+          "predicted_per_token_ms": 8.971957574152695,
+          "predicted_per_second": 111.45839597825331,
+          "peak_memory": 2.685017142,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "file": "us-census-p2-table0.png",
+      "y": [
+        797,
+        1013
+      ],
+      "scale": 1.5,
+      "seconds": 8.822500416001276,
+      "response": {
+        "id": "chatcmpl-ffda0462-98c3-4853-965b-d0f9ca2def5b",
+        "object": "chat.completion",
+        "created": 1793550447,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Lawrence Lee<fcel>16,523<fcel>14,698<fcel>13,668<fcel>12,533<fcel>9,214<fcel>6,121<fcel>7,002<fcel>8,668<ecel><ecel><ecel><ecel><nl><fcel>Livingston<fcel>20,894<fcel>26,187<fcel>27,491<fcel>27,171<fcel>17,651<fcel>5,292<fcel>2,035<ecel><ecel><ecel><ecel><ecel><nl><fcel>Logan<fcel>42,035<fcel>88,455<fcel>88,450<fcel>81,471<fcel>11,037<fcel>1,552<fcel>759<ecel><ecel><ecel><ecel><ecel><nl><fcel>McDonough<fcel>23,680<fcel>25,489<fcel>25,037<fcel>23,053<fcel>14,272<fcel>5,128<fcel>2,333<ecel><ecel><ecel><ecel><ecel><nl><fcel>McHenry<fcel>28,412<fcel>27,467<fcel>27,970<fcel>26,509<fcel>20,069<fcel>7,616<fcel>5,808<fcel>(2)<ecel><ecel><ecel><ecel><nl><fcel>McLean<fcel>29,759<fcel>26,114<fcel>24,908<fcel>23,762<fcel>22,089<fcel>14,978<fcel>2,578<ecel><ecel><ecel><ecel><ecel><nl><fcel>Macon<fcel>67,848<fcel>63,036<fcel>60,100<fcel>58,988<fcel>28,772<fcel>10,168<fcel>6,565<ecel><ecel><ecel><ecel><ecel><nl><fcel>Macoupin<fcel>44,003<fcel>38,088<fcel>30,665<fcel>26,481<fcel>18,738<fcel>8,988<fcel>3,089<fcel>1,122<ecel><ecel><ecel><ecel><nl><fcel>Madison<fcel>42,256<fcel>40,880<fcel>37,692<fcel>32,726<fcel>24,602<fcel>12,355<fcel>7,826<fcel>1,990<ecel><ecel><ecel><ecel><nl><fcel>Marion<fcel>64,694<fcel>51,535<fcel>50,126<fcel>44,181<fcel>81,251<fcel>20,411<fcel>14,433<fcel>6,221<fcel>18,550<ecel><ecel><ecel><nl><fcel>Marshall<fcel>30,446<fcel>24,341<fcel>28,686<fcel>20,622<fcel>12,739<fcel>6,720<fcel>4,742<fcel>2,125<ecel><ecel><ecel><ecel><nl><fcel>Mason<fcel>16,370<fcel>18,058<fcel>15,055<fcel>16,956<fcel>13,437<fcel>5,180<fcel>1,849<ecel><ecel><ecel><ecel><ecel><nl><fcel>Massac<fcel>17,491<fcel>16,067<fcel>16,242<fcel>16,184<fcel>10,931<fcel>5,921<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Menard<fcel>13,110<fcel>11,313<fcel>10,443<fcel>9,581<fcel>6,218<fcel>4,092<ecel><ecel><ecel><ecel><ecel><ecel><nl><ecel><fcel>14,336<fcel>13,120<fcel>13,024<fcel>11,735<fcel>9,584<fcel>6,849<fcel>4,431<ecel><ecel><ecel><ecel><ecel><nl>",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 661,
+          "completion_tokens": 864,
+          "total_tokens": 1525,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 661,
+          "cache_n": 0,
+          "predicted_n": 864,
+          "prompt_ms": 1169.4558750023134,
+          "prompt_per_token_ms": 1.7692222012137873,
+          "prompt_per_second": 565.2201285479817,
+          "predicted_ms": 7553.776004301224,
+          "predicted_per_token_ms": 8.742796301274565,
+          "predicted_per_second": 114.37988093743135,
+          "peak_memory": 2.685017142,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "file": "us-census-p2-table0.png",
+      "y": [
+        1013,
+        1225
+      ],
+      "scale": 1.5,
+      "seconds": 8.924607042001298,
+      "response": {
+        "id": "chatcmpl-699695df-73e5-4782-a024-e966e08cebb4",
+        "object": "chat.completion",
+        "created": 1793550456,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Mercer<fcel>20,945<fcel>18,545<fcel>19,502<fcel>18,769<fcel>15,042<fcel>5,246<fcel>2,352<fcel>26<ecel><ecel><ecel><ecel><nl><fcel>Monroe<fcel>13,847<fcel>12,948<fcel>18,682<fcel>12,982<fcel>12,882<fcel>7,679<fcel>4,481<fcel>2,000<fcel>1,516<ecel><ecel><ecel><nl><fcel>Montgomery<fcel>80,836<fcel>80,003<fcel>28,078<fcel>25,314<fcel>18,979<fcel>6,277<fcel>4,490<fcel>2,953<ecel><ecel><ecel><ecel><nl><fcel>Morgan<fcel>85,006<fcel>82,686<fcel>81,514<fcel>28,463<fcel>22,112<fcel>16,064<fcel>19,547<fcel>12,714<ecel><ecel><ecel><ecel><nl><fcel>Moultrie<fcel>15,224<fcel>14,481<fcel>13,699<fcel>10,385<fcel>6,385<fcel>3,234<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Ogle<fcel>29,129<fcel>28,710<fcel>29,987<fcel>27,492<fcel>22,888<fcel>10,020<fcel>8,479<ecel><ecel><ecel><ecel><ecel><nl><fcel>Peoria<fcel>88,608<fcel>70,378<fcel>55,355<fcel>47,540<fcel>86,601<fcel>17,547<fcel>6,153<fcel>(8)<ecel><ecel><ecel><ecel><nl><fcel>Perry<fcel>19,890<fcel>17,529<fcel>16,007<fcel>13,728<fcel>9,552<fcel>5,278<fcel>3,222<fcel>1,215<ecel><ecel><ecel><ecel><nl><fcel>Piatt<fcel>17,706<fcel>17,062<fcel>15,583<fcel>10,953<fcel>6,127<fcel>1,606<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Pike<fcel>81,595<fcel>81,000<fcel>88,761<fcel>80,768<fcel>27,249<fcel>18,819<fcel>11,728<fcel>2,806<ecel><ecel><ecel><ecel><nl><fcel>Pope<fcel>18,585<fcel>14,016<fcel>13,256<fcel>11,437<fcel>6,742<fcel>8,975<fcel>4,094<fcel>8,316<fcel>2,610<ecel><ecel><ecel><nl><fcel>Pulaski<fcel>14,554<fcel>11,355<fcel>9,507<fcel>8,752<fcel>8,948<fcel>2,265<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Putnam<fcel>4,746<fcel>4,780<fcel>5,554<fcel>6,280<fcel>5,587<fcel>3,924<fcel>2,181<fcel>8,1310<ecel><ecel><ecel><ecel><nl><fcel>Randolph<fcel>28,001<fcel>25,049<fcel>25,690<fcel>20,859<fcel>17,205<fcel>11,079<fcel>7,944<fcel>4,429<fcel>8,492<fcel>7,275<fcel>11,108<ecel><nl><fcel>Richland<fcel>16,391<fcel>15,019<fcel>15,545<fcel>12,803<fcel>9,711<fcel>4,012<ecel><ecel><ecel><ecel><ecel><ecel><nl>",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 607,
+          "completion_tokens": 890,
+          "total_tokens": 1497,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 607,
+          "cache_n": 0,
+          "predicted_n": 890,
+          "prompt_ms": 1066.6489579962217,
+          "prompt_per_token_ms": 1.7572470477697228,
+          "prompt_per_second": 569.0719476633568,
+          "predicted_ms": 7745.763187705247,
+          "predicted_per_token_ms": 8.703104705286794,
+          "predicted_per_second": 114.90152466998809,
+          "peak_memory": 2.685017142,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "file": "us-preservation-p3-table0.png",
+      "y": [
+        0,
+        258
+      ],
+      "scale": 1.5,
+      "seconds": 3.758079582999926,
+      "response": {
+        "id": "chatcmpl-1a8f9d54-e33e-4897-9373-b052d03ba823",
+        "object": "chat.completion",
+        "created": 1793550460,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Title<fcel>Date<fcel>Grade<nl><fcel>New York Journal of Commerce<fcel>May 19, 1830<fcel>1<nl><fcel>Albany Argus<fcel>June 30, 1830<fcel>1<nl><fcel>Cincinnati Daily Gazette<fcel>Oct. 2, 1830<fcel>2<nl><fcel>New York Journal of Commerce<fcel>Oct. 1, 1834<fcel>1<nl><fcel>Albany Argus<fcel>June 30, 1835<fcel>1<nl><fcel>New York Herald<fcel>May 1, 1838<fcel>1<nl><fcel>Cincinnati Daily Gazette<fcel>Sept. 6, 1838<fcel>1<nl><fcel>Albany Argus<fcel>July 30, 1839<fcel>1<nl><fcel>New York Herald<fcel>Feb. 4, 1840<fcel>2<nl><fcel>New York Journal of Commerce<fcel>June 27, 1840<fcel>1<nl><fcel>Cincinnati Daily Gazette<fcel>Sept. 2, 1840<fcel>1<nl><fcel>Do<fcel>June 21, 1845<fcel>1<nl><fcel>New York Journal of Commerce<fcel>June 24, 1845<fcel>1<nl><fcel>New York Herald<fcel>Sept. 1, 1845<fcel>1<nl><fcel>Albany Argus<fcel>Sept. 5, 1845<fcel>1<nl><fcel>New York Herald<fcel>June 22, 1850<fcel>1<nl><fcel>New York Journal of Commerce<fcel>June 28, 1850<fcel>1<nl>",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 489,
+          "completion_tokens": 339,
+          "total_tokens": 828,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 489,
+          "cache_n": 0,
+          "predicted_n": 339,
+          "prompt_ms": 814.021459002106,
+          "prompt_per_token_ms": 1.664665560331505,
+          "prompt_per_second": 600.7212642765661,
+          "predicted_ms": 2867.741372077718,
+          "predicted_per_token_ms": 8.459414076925421,
+          "predicted_per_second": 118.21149679002951,
+          "peak_memory": 2.685017142,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "file": "us-preservation-p3-table0.png",
+      "y": [
+        258,
+        432
+      ],
+      "scale": 1.5,
+      "seconds": 2.8426454580003337,
+      "response": {
+        "id": "chatcmpl-b21a0b36-22ae-4d45-94f0-8a1667c60c78",
+        "object": "chat.completion",
+        "created": 1793550462,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Cincinnati Daily Gazette<fcel>Sept. 2, 1850<fcel>1<nl><fcel>Albany Journal<fcel>Sept. 3, 1850<fcel>1<nl><fcel>Albany Argus<fcel>Feb. 21, 1855<fcel>1<nl><fcel>New York Commercial Advertiser<fcel>June 22, 1855<fcel>2<nl><fcel>New York Herald<fcel>June 24, 1855<fcel>1<nl><fcel>New York Evening Post<fcel>June 30, 1855<fcel>1<nl><fcel>Cincinnati Daily Gazette<fcel>Sept. 1, 1855<fcel>1<nl><fcel>New York Journal of Commerce<fcel>Sept. 4, 1855<fcel>2<nl><fcel>New York Commercial Advertiser<fcel>Sept. 2, 1859<fcel>2<nl><fcel>New York Evening Post<fcel>June 29, 1860<fcel>1<nl><fcel>New York Herald<fcel>June 30, 1860<fcel>1<nl><fcel>New York Journal of Commerce<fcel>Sept. 4, 1860<fcel>1<nl><fcel>Cincinnati Daily Gazette<fcel>do.<fcel>1<nl><fcel>New York Staats Zeitung<fcel>Jan. 9, 1866<fcel>2<nl>",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 319,
+          "completion_tokens": 275,
+          "total_tokens": 594,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 319,
+          "cache_n": 0,
+          "predicted_n": 275,
+          "prompt_ms": 501.1305000007269,
+          "prompt_per_token_ms": 1.570942006271871,
+          "prompt_per_second": 636.5607361745838,
+          "predicted_ms": 2289.5064359505527,
+          "predicted_per_token_ms": 8.3254779489111,
+          "predicted_per_second": 120.11322426609648,
+          "peak_memory": 2.685017142,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "file": "us-preservation-p3-table2.png",
+      "y": [
+        0,
+        300
+      ],
+      "scale": 1.5,
+      "seconds": 4.887231791999511,
+      "response": {
+        "id": "chatcmpl-b706dea4-f834-495f-8727-d8aca1d7afab",
+        "object": "chat.completion",
+        "created": 1793550467,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Title<fcel>Date<fcel>Percentages of each kind of fiber<lcel><lcel><fcel>Grade<nl><ucel><ucel><fcel>Rag<fcel>Chemical wood<fcel>Straw<ucel><nl><fcel>New York World<fcel>Jan. 19, 1868<fcel>85<fcel>-----<fcel>15<fcel>1<nl><fcel>Brooklyn Daily Eagle<fcel>Jan. 27, 1869<fcel>-----<fcel>-----<fcel>100<fcel>1<nl><fcel>New York Evening Express<fcel>Sept. 7, 1870<fcel>50<fcel>-----<fcel>50<fcel>1<nl><fcel>New York Staats Zeitung<fcel>Jan. 26, 1870<fcel>75<fcel>-----<fcel>25<fcel>4<nl><fcel>New York Times<fcel>Aug. 20, 1871<fcel>15<fcel>-----<fcel>85<fcel>1<nl><fcel>Albany Argus<fcel>Mar. 19, 1872<fcel>15<fcel>15<fcel>70<fcel>1<nl><fcel>New York Herald<fcel>Dec. 28, 1872<fcel>90<fcel>-----<fcel>10<fcel>1<nl><fcel>New York Sun<fcel>May 21, 1872<fcel>-----<fcel>-----<fcel>100<fcel>1<nl><fcel>New York Weekly Times<fcel>Jan. 31, 1872<fcel>20<fcel>-----<fcel>80<fcel>1<nl><fcel>New York Journal of Commerce<fcel>Mar. 27, 1873<fcel>10<fcel>-----<fcel>90<fcel>1<nl><fcel>New York Times<fcel>Aug. 23, 1873<fcel>25<fcel>-----<fcel>75<fcel>3<nl><fcel>New York Evening Post<fcel>Aug. 15, 1873<fcel>85<fcel>-----<fcel>15<fcel>1<nl><fcel>Chicago Verbote<fcel>Feb. 14, 1874<fcel>90<fcel>10<fcel>-----<fcel>4<nl><fcel>Do.<fcel>Apr. 29, 1876<fcel>50<fcel>30<fcel>20<fcel>4<nl><fcel>Cincinnati Daily Gazette<fcel>Aug. 30, 1880<fcel>10<fcel>90<fcel>-----<fcel>2<nl>",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 557,
+          "completion_tokens": 452,
+          "total_tokens": 1009,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 557,
+          "cache_n": 0,
+          "predicted_n": 452,
+          "prompt_ms": 941.2073339990455,
+          "prompt_per_token_ms": 1.6897797737864373,
+          "prompt_per_second": 591.7930936995491,
+          "predicted_ms": 3860.4464356991034,
+          "predicted_per_token_ms": 8.540810698449343,
+          "predicted_per_second": 117.08490391685632,
+          "peak_memory": 2.739941886,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    }
+  ]
+}

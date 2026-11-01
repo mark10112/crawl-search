@@ -1,0 +1,699 @@
+{
+  "reference_hash": "72a37213b39a3a3dd1b4e344162d962b39c3c460fcad2bf2dfea105620301ac2",
+  "inference_rerun": false,
+  "runtime_modified": false,
+  "counts": {
+    "missing_page_number": 6,
+    "digit_substitution": 4,
+    "merged_rows": 1,
+    "correct": 4
+  },
+  "wrong_numeric_cells_in_four_census_rows": 9,
+  "gazette_secondary_label_errors": 4,
+  "gazette_digit_centers_outside_text_regions": 2,
+  "limitations": "Stored parsing boxes are not a capture of every recognizer input crop. No oracle-crop inference or model comparison was run. Recommendations are hypotheses, not measured fixes.",
+  "rows": [
+    {
+      "index": 1,
+      "document": "thai-gazette",
+      "page": 1,
+      "label": "ประกาศสงกรานต์ ปีจอ จัตวาศก",
+      "values": [
+        "๑"
+      ],
+      "legacy_strict_correct": false,
+      "evidence_page": "../ocr-accuracy-round3c-2026-11-02/results/after-ocr-thai-gazette.json",
+      "page_telemetry": "../ocr-accuracy-round3c-2026-11-02/results/after-only-telemetry.jsonl",
+      "category": "missing_page_number",
+      "observed_label": "ประกาศสงกรานต์ ปี๒๐ จัตวาศก",
+      "observed_values": [],
+      "same_numeric_token_elsewhere_on_page": false,
+      "secondary_label_error": true,
+      "digit_center_300": [
+        1151.25,
+        858.0
+      ],
+      "text_region_indices_covering_digit_center": [],
+      "layout_evidence": "outside_all_recorded_text_regions",
+      "source_annotation_200": {
+        "observed_label": "ประกาศสงกรานต์ ปี๒๐ จัตวาศก",
+        "digit_box_200": [
+          754,
+          559,
+          781,
+          585
+        ],
+        "row_box_200": [
+          34,
+          538,
+          797,
+          590
+        ]
+      },
+      "confidence": "high_observed_failure; crop_causality_not_proven"
+    },
+    {
+      "index": 2,
+      "document": "thai-gazette",
+      "page": 1,
+      "label": "ประกาศวางโทษเรื่องทักอ้วนผอม",
+      "values": [
+        "๒๐"
+      ],
+      "legacy_strict_correct": false,
+      "evidence_page": "../ocr-accuracy-round3c-2026-11-02/results/after-ocr-thai-gazette.json",
+      "page_telemetry": "../ocr-accuracy-round3c-2026-11-02/results/after-only-telemetry.jsonl",
+      "category": "missing_page_number",
+      "observed_label": "ประกาศวางโทษเรื่องทักอ้วนผอม",
+      "observed_values": [],
+      "same_numeric_token_elsewhere_on_page": true,
+      "secondary_label_error": false,
+      "digit_center_300": [
+        1136.25,
+        1491.0
+      ],
+      "text_region_indices_covering_digit_center": [],
+      "layout_evidence": "outside_all_recorded_text_regions",
+      "source_annotation_200": {
+        "observed_label": "ประกาศวางโทษเรื่องทักอ้วนผอม",
+        "digit_box_200": [
+          735,
+          977,
+          780,
+          1011
+        ],
+        "row_box_200": [
+          34,
+          957,
+          797,
+          1015
+        ]
+      },
+      "confidence": "high_observed_failure; crop_causality_not_proven"
+    },
+    {
+      "index": 3,
+      "document": "thai-gazette",
+      "page": 2,
+      "label": "ประกาศให้เก็บภาษีหัวเบี้ยรวมอยู่ในบ่อน",
+      "values": [
+        "๒๘"
+      ],
+      "legacy_strict_correct": false,
+      "evidence_page": "../ocr-accuracy-round3c-2026-11-02/results/after-ocr-thai-gazette.json",
+      "page_telemetry": "../ocr-accuracy-round3c-2026-11-02/results/after-only-telemetry.jsonl",
+      "category": "missing_page_number",
+      "observed_label": "ประกาศให้เก็บภาษีหัวเปียรวมอยูโนบ่อน",
+      "observed_values": [],
+      "same_numeric_token_elsewhere_on_page": false,
+      "secondary_label_error": true,
+      "digit_center_300": [
+        1206.0,
+        529.5
+      ],
+      "text_region_indices_covering_digit_center": [
+        2
+      ],
+      "layout_evidence": "inside_recorded_text_region_but_not_transcribed",
+      "source_annotation_200": {
+        "observed_label": "ประกาศให้เก็บภาษีหัวเปียรวมอยูโนบ่อน",
+        "digit_box_200": [
+          780,
+          337,
+          828,
+          369
+        ],
+        "row_box_200": [
+          82,
+          327,
+          838,
+          374
+        ]
+      },
+      "confidence": "high_observed_failure; crop_causality_not_proven"
+    },
+    {
+      "index": 4,
+      "document": "thai-gazette",
+      "page": 2,
+      "label": "ประกาศให้ใช้กะแปะอัฐแลโสฬศที่ทำขึ้นใหม่",
+      "values": [
+        "๓๑"
+      ],
+      "legacy_strict_correct": false,
+      "evidence_page": "../ocr-accuracy-round3c-2026-11-02/results/after-ocr-thai-gazette.json",
+      "page_telemetry": "../ocr-accuracy-round3c-2026-11-02/results/after-only-telemetry.jsonl",
+      "category": "missing_page_number",
+      "observed_label": "ปรากฏให้ใช้กะแปะอัฐและโสพสที่ทำขึ้นใหม่",
+      "observed_values": [],
+      "same_numeric_token_elsewhere_on_page": false,
+      "secondary_label_error": true,
+      "digit_center_300": [
+        1203.75,
+        608.25
+      ],
+      "text_region_indices_covering_digit_center": [
+        3
+      ],
+      "layout_evidence": "inside_recorded_text_region_but_not_transcribed",
+      "source_annotation_200": {
+        "observed_label": "ปรากฏให้ใช้กะแปะอัฐและโสพสที่ทำขึ้นใหม่",
+        "digit_box_200": [
+          777,
+          389,
+          828,
+          422
+        ],
+        "row_box_200": [
+          82,
+          377,
+          838,
+          425
+        ]
+      },
+      "confidence": "high_observed_failure; crop_causality_not_proven"
+    },
+    {
+      "index": 5,
+      "document": "thai-gazette",
+      "page": 3,
+      "label": "ประกาศมหาสงกรานต์ ปีกุน เบญจศก",
+      "values": [
+        "๙๔"
+      ],
+      "legacy_strict_correct": false,
+      "evidence_page": "../ocr-accuracy-round3c-2026-11-02/results/after-ocr-thai-gazette.json",
+      "page_telemetry": "../ocr-accuracy-round3c-2026-11-02/results/after-only-telemetry.jsonl",
+      "category": "missing_page_number",
+      "observed_label": "ประกาศมหาสงกรานต์ ปีกุน เบญจศก",
+      "observed_values": [],
+      "same_numeric_token_elsewhere_on_page": false,
+      "secondary_label_error": false,
+      "digit_center_300": [
+        1166.25,
+        437.25
+      ],
+      "text_region_indices_covering_digit_center": [
+        1
+      ],
+      "layout_evidence": "inside_recorded_text_region_but_not_transcribed",
+      "source_annotation_200": {
+        "observed_label": "ประกาศมหาสงกรานต์ ปีกุน เบญจศก",
+        "digit_box_200": [
+          754,
+          275,
+          801,
+          308
+        ],
+        "row_box_200": [
+          40,
+          263,
+          814,
+          316
+        ]
+      },
+      "confidence": "high_observed_failure; crop_causality_not_proven"
+    },
+    {
+      "index": 6,
+      "document": "thai-gazette",
+      "page": 3,
+      "label": "ประกาศพิกัดภาษี เรือ ตึก แพ โรง ร้าน",
+      "values": [
+        "๑๕๙"
+      ],
+      "legacy_strict_correct": false,
+      "evidence_page": "../ocr-accuracy-round3c-2026-11-02/results/after-ocr-thai-gazette.json",
+      "page_telemetry": "../ocr-accuracy-round3c-2026-11-02/results/after-only-telemetry.jsonl",
+      "category": "missing_page_number",
+      "observed_label": "ประกาศพิกัดภาษี เรือ ตึก แพง โรง ร้าน",
+      "observed_values": [],
+      "same_numeric_token_elsewhere_on_page": false,
+      "secondary_label_error": true,
+      "digit_center_300": [
+        1157.25,
+        1638.0
+      ],
+      "text_region_indices_covering_digit_center": [
+        1
+      ],
+      "layout_evidence": "inside_recorded_text_region_but_not_transcribed",
+      "source_annotation_200": {
+        "observed_label": "ประกาศพิกัดภาษี เรือ ตึก แพง โรง ร้าน",
+        "digit_box_200": [
+          741,
+          1076,
+          802,
+          1108
+        ],
+        "row_box_200": [
+          40,
+          1064,
+          814,
+          1116
+        ]
+      },
+      "confidence": "high_observed_failure; crop_causality_not_proven"
+    },
+    {
+      "index": 7,
+      "document": "us-census",
+      "page": 2,
+      "label": "Adams",
+      "values": [
+        "67,058",
+        "61,888",
+        "59,135",
+        "56,362",
+        "41,323"
+      ],
+      "legacy_strict_correct": false,
+      "evidence_page": "../ocr-accuracy-round3c-2026-11-02/results/after-ocr-us-census.json",
+      "page_telemetry": "../ocr-accuracy-round3c-2026-11-02/results/after-only-telemetry.jsonl",
+      "observed_html": "<tr><td>Adams</td><td>67,058</td><td>61,888</td><td>59,155</td><td>56,862</td><td>41,323</td><td>26,508</td><td>14,476</td><td>2,186</td><td></td><td></td><td></td><td></td><td></td></tr>",
+      "observed_cells": [
+        "Adams",
+        "67,058",
+        "61,888",
+        "59,155",
+        "56,862",
+        "41,323",
+        "26,508",
+        "14,476",
+        "2,186",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "raw_region_matches_final_cells": true,
+      "source_region_indices": [
+        3
+      ],
+      "category": "digit_substitution",
+      "observed_values": [
+        "67,058",
+        "61,888",
+        "59,155",
+        "56,862",
+        "41,323"
+      ],
+      "value_differences": [
+        {
+          "year": "1880",
+          "expected": "59,135",
+          "observed": "59,155"
+        },
+        {
+          "year": "1870",
+          "expected": "56,362",
+          "observed": "56,862"
+        }
+      ],
+      "note": "Body value sequence aligns with source years. Page 2 also has an unrelated phantom header colspan/empty-column issue.",
+      "confidence": "high"
+    },
+    {
+      "index": 8,
+      "document": "us-census",
+      "page": 2,
+      "label": "Alexander",
+      "values": [
+        "19,384",
+        "16,563",
+        "14,808",
+        "10,564",
+        "4,707"
+      ],
+      "legacy_strict_correct": false,
+      "evidence_page": "../ocr-accuracy-round3c-2026-11-02/results/after-ocr-us-census.json",
+      "page_telemetry": "../ocr-accuracy-round3c-2026-11-02/results/after-only-telemetry.jsonl",
+      "observed_html": "<tr><td>Alexander</td><td>15,884</td><td>16,565</td><td>14,826</td><td>10,844</td><td>4,707</td><td>2,454</td><td>3,013</td><td>1,390</td><td>626</td><td></td><td></td><td></td><td></td></tr>",
+      "observed_cells": [
+        "Alexander",
+        "15,884",
+        "16,565",
+        "14,826",
+        "10,844",
+        "4,707",
+        "2,454",
+        "3,013",
+        "1,390",
+        "626",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "raw_region_matches_final_cells": true,
+      "source_region_indices": [
+        3
+      ],
+      "category": "digit_substitution",
+      "observed_values": [
+        "15,884",
+        "16,565",
+        "14,826",
+        "10,844",
+        "4,707"
+      ],
+      "value_differences": [
+        {
+          "year": "1900",
+          "expected": "19,384",
+          "observed": "15,884"
+        },
+        {
+          "year": "1890",
+          "expected": "16,563",
+          "observed": "16,565"
+        },
+        {
+          "year": "1880",
+          "expected": "14,808",
+          "observed": "14,826"
+        },
+        {
+          "year": "1870",
+          "expected": "10,564",
+          "observed": "10,844"
+        }
+      ],
+      "note": "Body value sequence aligns with source years. Page 2 also has an unrelated phantom header colspan/empty-column issue.",
+      "confidence": "high"
+    },
+    {
+      "index": 9,
+      "document": "us-census",
+      "page": 2,
+      "label": "Cook",
+      "values": [
+        "1,838,735",
+        "1,191,922",
+        "607,524",
+        "349,966",
+        "144,954"
+      ],
+      "legacy_strict_correct": false,
+      "evidence_page": "../ocr-accuracy-round3c-2026-11-02/results/after-ocr-us-census.json",
+      "page_telemetry": "../ocr-accuracy-round3c-2026-11-02/results/after-only-telemetry.jsonl",
+      "observed_html": "<tr><td>Cook</td><td>1,833,785</td><td>1,191,922</td><td>607,524</td><td>849,966</td><td>144,954</td><td>43,385</td><td>10,201</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
+      "observed_cells": [
+        "Cook",
+        "1,833,785",
+        "1,191,922",
+        "607,524",
+        "849,966",
+        "144,954",
+        "43,385",
+        "10,201",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "raw_region_matches_final_cells": true,
+      "source_region_indices": [
+        3
+      ],
+      "category": "digit_substitution",
+      "observed_values": [
+        "1,833,785",
+        "1,191,922",
+        "607,524",
+        "849,966",
+        "144,954"
+      ],
+      "value_differences": [
+        {
+          "year": "1900",
+          "expected": "1,838,735",
+          "observed": "1,833,785"
+        },
+        {
+          "year": "1870",
+          "expected": "349,966",
+          "observed": "849,966"
+        }
+      ],
+      "note": "Body value sequence aligns with source years. Page 2 also has an unrelated phantom header colspan/empty-column issue.",
+      "confidence": "high"
+    },
+    {
+      "index": 10,
+      "document": "us-census",
+      "page": 3,
+      "label": "Rock Island",
+      "values": [
+        "55,249",
+        "41,917",
+        "38,302",
+        "29,783",
+        "21,005"
+      ],
+      "legacy_strict_correct": true,
+      "evidence_page": "../ocr-accuracy-round3c-2026-11-02/results/after-ocr-us-census.json",
+      "page_telemetry": "../ocr-accuracy-round3c-2026-11-02/results/after-only-telemetry.jsonl",
+      "observed_html": "<tr><td>Rock Island</td><td>55,249</td><td>41,917</td><td>38,302</td><td>29,783</td><td>21,005</td><td>6,937</td><td>2,610</td><td></td><td></td><td></td><td></td><td></td></tr>",
+      "observed_cells": [
+        "Rock Island",
+        "55,249",
+        "41,917",
+        "38,302",
+        "29,783",
+        "21,005",
+        "6,937",
+        "2,610",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "raw_region_matches_final_cells": true,
+      "source_region_indices": [
+        2
+      ],
+      "category": "correct",
+      "observed_values": [
+        "55,249",
+        "41,917",
+        "38,302",
+        "29,783",
+        "21,005"
+      ],
+      "value_differences": [],
+      "note": "Body value sequence aligns with source years. Page 2 also has an unrelated phantom header colspan/empty-column issue.",
+      "confidence": "high"
+    },
+    {
+      "index": 11,
+      "document": "us-census",
+      "page": 3,
+      "label": "Saline",
+      "values": [
+        "21,685",
+        "19,342",
+        "15,940",
+        "12,714",
+        "9,331"
+      ],
+      "legacy_strict_correct": true,
+      "evidence_page": "../ocr-accuracy-round3c-2026-11-02/results/after-ocr-us-census.json",
+      "page_telemetry": "../ocr-accuracy-round3c-2026-11-02/results/after-only-telemetry.jsonl",
+      "observed_html": "<tr><td>Saline</td><td>21,685</td><td>19,342</td><td>15,940</td><td>12,714</td><td>9,331</td><td>5,588</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
+      "observed_cells": [
+        "Saline",
+        "21,685",
+        "19,342",
+        "15,940",
+        "12,714",
+        "9,331",
+        "5,588",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "raw_region_matches_final_cells": true,
+      "source_region_indices": [
+        2
+      ],
+      "category": "correct",
+      "observed_values": [
+        "21,685",
+        "19,342",
+        "15,940",
+        "12,714",
+        "9,331"
+      ],
+      "value_differences": [],
+      "note": "Body value sequence aligns with source years. Page 2 also has an unrelated phantom header colspan/empty-column issue.",
+      "confidence": "high"
+    },
+    {
+      "index": 12,
+      "document": "us-census",
+      "page": 3,
+      "label": "Woodford",
+      "values": [
+        "21,822",
+        "21,429",
+        "21,620",
+        "18,956",
+        "13,282"
+      ],
+      "legacy_strict_correct": false,
+      "evidence_page": "../ocr-accuracy-round3c-2026-11-02/results/after-ocr-us-census.json",
+      "page_telemetry": "../ocr-accuracy-round3c-2026-11-02/results/after-only-telemetry.jsonl",
+      "observed_html": "<tr><td>Woodford</td><td>21,822</td><td>21,429</td><td>21,620</td><td>18,956</td><td>18,282</td><td>4,415</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>",
+      "observed_cells": [
+        "Woodford",
+        "21,822",
+        "21,429",
+        "21,620",
+        "18,956",
+        "18,282",
+        "4,415",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "raw_region_matches_final_cells": true,
+      "source_region_indices": [
+        2
+      ],
+      "category": "digit_substitution",
+      "observed_values": [
+        "21,822",
+        "21,429",
+        "21,620",
+        "18,956",
+        "18,282"
+      ],
+      "value_differences": [
+        {
+          "year": "1860",
+          "expected": "13,282",
+          "observed": "18,282"
+        }
+      ],
+      "note": "Body value sequence aligns with source years. Page 2 also has an unrelated phantom header colspan/empty-column issue.",
+      "confidence": "high"
+    },
+    {
+      "index": 13,
+      "document": "us-preservation",
+      "page": 3,
+      "label": "New York Journal of Commerce",
+      "values": [
+        "May",
+        "19",
+        "1830",
+        "1"
+      ],
+      "legacy_strict_correct": true,
+      "evidence_page": "../ocr-accuracy-round3c-2026-11-02/results/after-ocr-us-preservation.json",
+      "page_telemetry": "../ocr-accuracy-round3c-2026-11-02/results/after-only-telemetry.jsonl",
+      "observed_html": "<tr><td>New York Journal of Commerce</td><td>May 19, 1830</td><td>1</td></tr>",
+      "observed_cells": [
+        "New York Journal of Commerce",
+        "May 19, 1830",
+        "1"
+      ],
+      "raw_region_matches_final_cells": true,
+      "source_region_indices": [
+        5
+      ],
+      "category": "correct",
+      "observed_values": [
+        "May 19, 1830",
+        "1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "index": 14,
+      "document": "us-preservation",
+      "page": 3,
+      "label": "Brooklyn Daily Eagle",
+      "values": [
+        "Jan.",
+        "27",
+        "1869",
+        "100",
+        "1"
+      ],
+      "legacy_strict_correct": true,
+      "evidence_page": "../ocr-accuracy-round3c-2026-11-02/results/after-ocr-us-preservation.json",
+      "page_telemetry": "../ocr-accuracy-round3c-2026-11-02/results/after-only-telemetry.jsonl",
+      "observed_html": "<tr><td>Brooklyn Daily Eagle</td><td>Jan. 27, 1869</td><td>--------</td><td>--------</td><td>100</td><td>1</td></tr>",
+      "observed_cells": [
+        "Brooklyn Daily Eagle",
+        "Jan. 27, 1869",
+        "--------",
+        "--------",
+        "100",
+        "1"
+      ],
+      "raw_region_matches_final_cells": true,
+      "source_region_indices": [
+        9
+      ],
+      "category": "correct",
+      "observed_values": [
+        "Jan. 27, 1869",
+        "--------",
+        "--------",
+        "100",
+        "1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "index": 15,
+      "document": "us-preservation",
+      "page": 3,
+      "label": "San Diego Sun",
+      "values": [
+        "Oct.",
+        "31",
+        "1872",
+        "100",
+        "1"
+      ],
+      "legacy_strict_correct": false,
+      "evidence_page": "../ocr-accuracy-round3c-2026-11-02/results/after-ocr-us-preservation.json",
+      "page_telemetry": "../ocr-accuracy-round3c-2026-11-02/results/after-only-telemetry.jsonl",
+      "observed_html": "<tr><td>Portland Oregonian San Diego Sun</td><td>Jan. —, 1868 Oct. 31, 1872</td><td>35</td><td></td><td>65 100</td><td>2 1</td></tr>",
+      "observed_cells": [
+        "Portland Oregonian San Diego Sun",
+        "Jan. —, 1868 Oct. 31, 1872",
+        "35",
+        "",
+        "65 100",
+        "2 1"
+      ],
+      "raw_region_matches_final_cells": true,
+      "source_region_indices": [
+        11
+      ],
+      "category": "merged_rows",
+      "observed_values": [
+        "Oct. 31, 1872",
+        "100",
+        "1"
+      ],
+      "note": "All target values survive, but two source rows are merged cell by cell. Not a mere whitespace/scoring issue.",
+      "confidence": "high"
+    }
+  ]
+}

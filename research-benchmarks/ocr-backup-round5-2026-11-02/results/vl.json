@@ -1,0 +1,1420 @@
+{
+  "mode": "vl",
+  "setup": {
+    "warmup_seconds": 3.4995830830011982,
+    "warmup": {
+      "text": "Research memorandum\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht.",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-fa82d8f0-bca9-4c25-81cf-400676662d3d",
+        "created": 1793559589,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "Research memorandum\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht."
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1253,
+          "completion_tokens": 73,
+          "total_tokens": 1326,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 73,
+        "received_chars": 259
+      }
+    },
+    "startup_seconds": 3.5770381250003993
+  },
+  "rows": [
+    {
+      "id": "g1",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "seconds": 0.2984530840003572,
+      "text": "⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-892557c7-42d5-46f8-b178-237e9165d702",
+        "created": 1793559590,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 4,
+          "total_tokens": 172,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g2",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "seconds": 0.289544625000417,
+      "text": "30",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-dd0ebd99-9120-45ab-b8f5-ee20ab0cf502",
+        "created": 1793559590,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "30"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 3,
+          "total_tokens": 171,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "seconds": 0.2886723340016033,
+      "text": "33",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-6ce6eb64-bc6a-455c-9bd3-0cbfe3b20dfc",
+        "created": 1793559590,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "33"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "seconds": 0.30610170799991465,
+      "text": "मॅ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-87d8a290-0067-4207-95b5-b06263981b61",
+        "created": 1793559591,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "मॅ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 5,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g5",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "seconds": 0.3011473750011646,
+      "text": "ཨུ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-d3984260-979a-412f-ba12-3fce087a2ed2",
+        "created": 1793559591,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ཨུ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 5,
+          "total_tokens": 168,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g6",
+      "group": "gazette",
+      "repeat": 0,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "seconds": 0.3797819999999774,
+      "text": "༢༤་༤",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-71003227-59cf-47fa-a0bc-742b3e158e88",
+        "created": 1793559591,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "༢༤་༤"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 11,
+          "total_tokens": 192,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 5,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "r1-c3",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "seconds": 0.32058224999855156,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-cf9e4cd0-1edb-4b38-81ce-f4d389a2c7e0",
+        "created": 1793559592,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 7,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r3-c1",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "seconds": 0.3404443330000504,
+      "text": "1,833,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-d1ef2202-c2aa-419f-a143-cabbde32ab5d",
+        "created": 1793559592,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,833,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 10,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r4-c5",
+      "group": "census",
+      "repeat": 0,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "seconds": 0.3483875829988392,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-027bfe2d-d59b-4cef-adbc-0b1bd46ed4b6",
+        "created": 1793559592,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "g1",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "seconds": 0.2965017499991518,
+      "text": "⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-f44b10c7-feb3-4b0d-a398-23ffd5b81525",
+        "created": 1793559593,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 4,
+          "total_tokens": 172,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g2",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "seconds": 0.28891433299941127,
+      "text": "30",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-fe59b3c2-cc1c-48af-8c51-3a3586e0ea6b",
+        "created": 1793559593,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "30"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 3,
+          "total_tokens": 171,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "seconds": 0.2899880410004698,
+      "text": "33",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-78954bd2-dfd8-4835-9888-fc88c3fc3de8",
+        "created": 1793559593,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "33"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "seconds": 0.3070021249986894,
+      "text": "मॅ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-8f501466-a280-4e70-98e5-a5611ed96e10",
+        "created": 1793559594,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "मॅ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 5,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g5",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "seconds": 0.30032774999926914,
+      "text": "ཨུ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-1dfeec8c-4805-463f-bd49-f72c8b2a6fd0",
+        "created": 1793559594,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ཨུ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 5,
+          "total_tokens": 168,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g6",
+      "group": "gazette",
+      "repeat": 1,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "seconds": 0.3729572919983184,
+      "text": "༢༤་༤",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-ba97fc67-6fab-4048-9527-c82a35b0fd18",
+        "created": 1793559594,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "༢༤་༤"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 11,
+          "total_tokens": 192,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 5,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "r1-c3",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "seconds": 0.32212437500129454,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-48457ba0-f8d9-4584-bb14-ea90bebb542c",
+        "created": 1793559595,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 7,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r3-c1",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "seconds": 0.3411639580008341,
+      "text": "1,833,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-ff9d3e88-e411-43d4-b607-8c6dd35278af",
+        "created": 1793559595,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,833,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 10,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r4-c5",
+      "group": "census",
+      "repeat": 1,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "seconds": 0.34531745899948874,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-094c4cd1-ccac-46b5-9879-09c14cb2b46b",
+        "created": 1793559595,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "g1",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "seconds": 0.2970242920018791,
+      "text": "⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-c096ec2d-f705-4817-9577-20c5d6414c5a",
+        "created": 1793559596,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 4,
+          "total_tokens": 172,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g2",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "seconds": 0.2891627079989121,
+      "text": "30",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-130e0ef6-2d88-4047-9dda-a25b6031ca5c",
+        "created": 1793559596,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "30"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 3,
+          "total_tokens": 171,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "seconds": 0.2915027090020885,
+      "text": "33",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-eac96f3b-b588-4592-8274-9ace70a1f88d",
+        "created": 1793559596,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "33"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "seconds": 0.306200875002105,
+      "text": "मॅ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-3a0d4dea-4f2b-4359-a0dc-0daa0ff9aa88",
+        "created": 1793559596,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "मॅ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 5,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g5",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "seconds": 0.3130080420014565,
+      "text": "ཨུ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-fec37fd7-cc78-4cb0-92d6-8fef99c88f60",
+        "created": 1793559597,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ཨུ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 5,
+          "total_tokens": 168,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g6",
+      "group": "gazette",
+      "repeat": 2,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "seconds": 0.3749650420031685,
+      "text": "༢༤་༤",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-e81d0194-5053-4399-9648-00423824d71e",
+        "created": 1793559597,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "༢༤་༤"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 11,
+          "total_tokens": 192,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 5,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "r1-c3",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "seconds": 0.32285645799856866,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-4309362b-de6d-430c-9f14-b3aed3ad0e4b",
+        "created": 1793559597,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 7,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r3-c1",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "seconds": 0.3416373339969141,
+      "text": "1,833,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-d0f85234-4385-48d9-8beb-9e39bc3f9655",
+        "created": 1793559598,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,833,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 10,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r4-c5",
+      "group": "census",
+      "repeat": 2,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "seconds": 0.3414999170017836,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-2829a762-0717-4dd0-bd12-1f7412ed9f3c",
+        "created": 1793559598,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "g1",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "7120aa4d5c51426815179501000d00a71730501697a87b970008d889e34376d4",
+      "seconds": 0.2966557079998893,
+      "text": "⑨",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-21be1a9c-b7a7-42ea-98d3-77bfbcd62182",
+        "created": 1793559598,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "⑨"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 4,
+          "total_tokens": 172,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 2,
+        "received_chars": 1
+      }
+    },
+    {
+      "id": "g2",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "4568daeec05abcd1427e7748517b426922398b8a5006bcc68c2355d5a3c249fa",
+      "seconds": 0.2888431669998681,
+      "text": "30",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-55fa8a04-309c-4824-8450-c5ac49ce4033",
+        "created": 1793559599,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "30"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 168,
+          "completion_tokens": 3,
+          "total_tokens": 171,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g3",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "b53d5edc56d373dd783fc2b0c59a1053e9990cb501b58a0b1655aebe15a48b09",
+      "seconds": 0.28967150000244146,
+      "text": "33",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-16a9f254-a4ea-4907-828c-650dabd46141",
+        "created": 1793559599,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "33"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 3,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g4",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "738707a6d466d4b7b38f22c1ab2c1a9cfc0788cc792449960d95b44b852d9428",
+      "seconds": 0.30627950000052806,
+      "text": "मॅ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-1dea40ca-20f2-4988-b9a0-dcea38455504",
+        "created": 1793559599,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "मॅ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 173,
+          "completion_tokens": 5,
+          "total_tokens": 178,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g5",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "5441c8db5798afa21905e3d392a39fdc7a8a49cac9db19875271a8d15eae2b99",
+      "seconds": 0.30154674999721465,
+      "text": "ཨུ",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-2d9c7ca8-ab64-43d2-8ae7-4d36a19d07a9",
+        "created": 1793559600,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "ཨུ"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 5,
+          "total_tokens": 168,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 3,
+        "received_chars": 2
+      }
+    },
+    {
+      "id": "g6",
+      "group": "gazette",
+      "repeat": 3,
+      "input_sha256": "5a56fd505a59fd4de696b7cc2179518ecaa5ed8a2248a70f1ad73cecae1f22bf",
+      "seconds": 0.37705545900098514,
+      "text": "༢༤་༤",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-3fe4469f-d428-4d96-9219-f01e8e92fd6b",
+        "created": 1793559600,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "༢༤་༤"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 11,
+          "total_tokens": 192,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 5,
+        "received_chars": 4
+      }
+    },
+    {
+      "id": "r1-c3",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "8ee02f5bbfec5e248fafb925a508e47bcdb4004974e142fc3bbafe27c825bf00",
+      "seconds": 0.32334479199926136,
+      "text": "69,135",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-dc3e1f24-0935-4119-8216-cf64e2106f2c",
+        "created": 1793559600,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "69,135"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 169,
+          "completion_tokens": 7,
+          "total_tokens": 176,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    },
+    {
+      "id": "r3-c1",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "ac62c09648a483e977fa595c68d08ebc07766c733af2c7ecd326d7b03e29d93b",
+      "seconds": 0.3419609170014155,
+      "text": "1,833,735",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-f5477ac8-27a0-461b-b722-4c901aae6957",
+        "created": 1793559601,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "1,833,735"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 163,
+          "completion_tokens": 10,
+          "total_tokens": 173,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 10,
+        "received_chars": 9
+      }
+    },
+    {
+      "id": "r4-c5",
+      "group": "census",
+      "repeat": 3,
+      "input_sha256": "a4d065bf1663e6ff68fd4115da4621c12514f72bee116ef39b3c349491b1f7fc",
+      "seconds": 0.3426602500003355,
+      "text": "18,282",
+      "complete": true,
+      "finish_reason": "stop",
+      "raw": {
+        "id": "chatcmpl-4a599a9f-6f7b-42b0-9b95-ded059af3773",
+        "created": 1793559601,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "object": "chat.completion",
+        "choices": [
+          {
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "18,282"
+            },
+            "finish_reason": "stop"
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 181,
+          "completion_tokens": 7,
+          "total_tokens": 188,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "repetition_guard": false,
+        "token_usage_complete": true,
+        "received_chunks": 7,
+        "received_chars": 6
+      }
+    }
+  ],
+  "self_peak_rss_bytes": 65732608,
+  "versions": {
+    "paddleocr": "3.7.0",
+    "paddlex": "3.7.2",
+    "paddlepaddle": "3.2.1",
+    "mlx-vlm": "0.7.11",
+    "pillow": "13.0.0",
+    "numpy": "2.3.5",
+    "psutil": "7.2.2"
+  }
+}

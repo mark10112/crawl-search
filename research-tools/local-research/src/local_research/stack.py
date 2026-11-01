@@ -5,6 +5,7 @@ import base64
 import hashlib
 import ipaddress
 import json
+import math
 import os
 import socket
 import sys
@@ -22,6 +23,42 @@ from lxml import html as html_parser
 
 def ms(start: float) -> float:
     return round((time.perf_counter() - start) * 1000, 2)
+
+def has_table_rules(page):
+    """Detect several separated long vertical rules on a cheap preview."""
+    area=page.rect.width*page.rect.height
+    preview_dpi=min(48,int(72*math.sqrt(500000/area)))
+    if preview_dpi<1:return False
+    pix=page.get_pixmap(dpi=preview_dpi,colorspace=pymupdf.csGRAY,alpha=False)
+    data=pix.samples;w,h=pix.width,pix.height;columns=[];minimum=max(20,int(h*.08))
+    for x in range(1,w-1):
+        run=0;longest=0
+        for y in range(h):
+            offset=y*w+x
+            if min(data[offset-1:offset+2])<170:run+=1;longest=max(longest,run)
+            else:run=0
+        if longest>=minimum:columns.append(x)
+    groups=[]
+    for x in columns:
+        if not groups or x-groups[-1][-1]>2:groups.append([x])
+        else:groups[-1].append(x)
+    return len(groups)>=4
+
+def render_ocr_page(page,target_dpi=300):
+    """Keep real small-print detail, with bounded pixels and encoded payload."""
+    area=page.rect.width*page.rect.height
+    if target_dpi>144 and area*(target_dpi/72)**2>4000000 and not has_table_rules(page):
+        target_dpi=144
+    dpi=min(target_dpi,int(72*math.sqrt(12000000/area)))
+    if dpi<1:raise ValueError('PDF page exceeds OCR pixel budget at minimum DPI')
+    while True:
+        pix=page.get_pixmap(dpi=dpi,alpha=False)
+        data=pix.tobytes('png')
+        if len(data)<=20*1024*1024:
+            return data,{'dpi':dpi,'width':pix.width,'height':pix.height,'encoded_bytes':len(data)}
+        next_dpi=int(dpi*.8)
+        if next_dpi<1:raise ValueError('PDF page exceeds OCR payload budget')
+        dpi=next_dpi
 
 
 @dataclass
@@ -204,24 +241,48 @@ class ResearchStack:
     async def router_ocr(self, data: bytes, language_hint: str | None, policy: str, cache: bool) -> dict:
         if not self.settings.ocr_service_url:
             raise RuntimeError("OCR router service is not configured")
-        images=[]
+        images=[];rendering=[]
         if data.startswith(b"%PDF"):
             with pymupdf.open(stream=data,filetype="pdf") as doc:
-                images=[page.get_pixmap(dpi=144,alpha=False).tobytes("png") for page in doc]
+                for page in doc:
+                    image,metadata=render_ocr_page(page);images.append(image);rendering.append(metadata)
         else:
             images=[data]
         texts=[]
         routes=[]
         for number,image in enumerate(images,1):
+            attempts=[]
             response=await self.client.post(self.settings.ocr_service_url.rstrip('/')+'/ocr',json={
                 'image_base64':base64.b64encode(image).decode(), 'language_hint':language_hint,
-                'policy':policy,'cache':cache},timeout=self.settings.ocr_timeout)
+                'policy':policy,'cache':cache,'recognition_profile':'detail'},timeout=self.settings.ocr_timeout)
             response.raise_for_status()
             result=response.json()
+            def attempt(value,metadata,profile):
+                return {'ok':value.get('ok'),'engine':value.get('engine'),'error':value.get('error'),
+                        'quality_flags':value.get('quality_flags'),'route':value.get('route'),
+                        'rendering':metadata,'recognition_profile':profile,'elapsed_ms':value.get('elapsed_ms')}
+            if rendering:
+                selected_rendering=rendering[number-1]
+                attempts.append(attempt(result,selected_rendering,'detail'))
+            if not result.get('ok') and rendering:
+                # A higher-detail crop can still destabilize a generative model.
+                # One genuine baseline read is permitted; never turn the failed
+                # high-detail output itself into an accepted transcript.
+                with pymupdf.open(stream=data,filetype='pdf') as retry_pdf:
+                    retry_image,selected_rendering=render_ocr_page(retry_pdf[number-1],target_dpi=144)
+                response=await self.client.post(self.settings.ocr_service_url.rstrip('/')+'/ocr',json={
+                    'image_base64':base64.b64encode(retry_image).decode(),'language_hint':language_hint,
+                    'policy':policy,'cache':cache,'recognition_profile':'baseline'},timeout=self.settings.ocr_timeout)
+                response.raise_for_status();result=response.json()
+                attempts.append(attempt(result,selected_rendering,'baseline'))
             if not result.get('ok'):
                 raise RuntimeError(result.get('error','OCR router returned unusable text'))
             texts.append(f'<!-- subset page {number} -->\n'+result['text'])
             routes.append({k:result.get(k) for k in ['engine','revision','route','cache_hit','policy','language_hint','elapsed_ms','quality_warning']})
+            if rendering:
+                routes[-1].update(rendering=selected_rendering,attempts=attempts,
+                    selected_elapsed_ms=result.get('elapsed_ms'),
+                    elapsed_ms=sum(a.get('elapsed_ms') or 0 for a in attempts))
         return {'text':'\n\n'.join(texts),'engine':'router:'+','.join(dict.fromkeys(r['engine'] for r in routes)),
                 'cold':False,'conversion_ms':sum(r['elapsed_ms'] for r in routes),'routes':routes}
 
@@ -235,11 +296,13 @@ class ResearchStack:
             raise ValueError("ocr_engine must be auto/tesseract/docling/router")
         if ocr_policy not in {"balanced","quality"}:
             raise ValueError("ocr_policy must be balanced or quality")
-        max_chars = max(100, min(max_chars, 40000))
+        if max_chars < 0:
+            raise ValueError('max_chars must be nonnegative; 0 returns the complete selected page range')
+        max_chars = max(100, max_chars) if max_chars else 0
         max_pages = max(1, min(max_pages, 10))
         start_page = max(1, start_page)
         start = time.perf_counter()
-        key = hashlib.sha256(json.dumps(["reader-v4", url, mode, max_chars, max_pages, start_page, ocr_engine,language_hint,ocr_policy]).encode()).hexdigest()
+        key = hashlib.sha256(json.dumps(["reader-v12-shallow-summary-index-opt-in", os.getenv('MAC_OCR_EXPERIMENTAL_INDEX','0'), url, mode, max_chars, max_pages, start_page, ocr_engine,language_hint,ocr_policy]).encode()).hexdigest()
         cached_path = self.settings.state_dir / (key + ".json")
         if cache and cached_path.exists() and time.time() - cached_path.stat().st_mtime < self.settings.cache_seconds:
             result = json.loads(cached_path.read_text(encoding="utf-8"))
@@ -248,7 +311,7 @@ class ResearchStack:
                           original_credits_used=result.get('credits_used',0),credits_used=0)
             return result
         stages = []
-        result = {"ok": False, "url": url, "reader": None, "cache_hit": False,
+        result = {"ok": False, "output_complete": False, "url": url, "reader": None, "cache_hit": False,
                   "stages": stages, "text": "", "external_fallback_required": False,'credits_used':0}
         source_allowed=False
         async def stage(name, operation):
@@ -344,7 +407,10 @@ class ResearchStack:
             if mode == "basic" and result.get("reader") == "pdf-text" and needs_ocr:
                 result["ok"] = False
                 result["incomplete_pages"] = [p + 1 for p in ocr_pages]
-            result.update(text=text[:max_chars], extracted_chars=len(text), truncated=len(text) > max_chars)
+            truncated=bool(max_chars and len(text)>max_chars)
+            result.update(text=text[:max_chars] if max_chars else text, extracted_chars=len(text),
+                          truncated=truncated,output_complete=bool(result['ok'] and not truncated))
+            if truncated:result['next_step']='Repeat with max_chars=0 for the complete selected page range.'
             if not result["ok"]:
                 result["error"] = "No usable article text; do not treat an empty/challenge page as evidence"
         except Exception as exc:
@@ -385,10 +451,14 @@ class ResearchStack:
         if metadata.get('numPages',0)>pending['max_pages']:
             raise ValueError('External reader exceeded the requested page bound')
         result={**pending['local_result'],'ok':self.usable(text),'reader':'firecrawl-fallback',
-                'text':text[:pending['max_chars']],'external_metadata':metadata,'credits_used':credits_used,
+                'text':text[:pending['max_chars']] if pending['max_chars'] else text,'external_metadata':metadata,'credits_used':credits_used,
                 'external_fallback_required':False,'fallback_request_id':request_id,
                 'cache_hit':False,'fallback_count':pending['local_result'].get('fallback_count',0)+1,
                 'elapsed_ms':round((time.time()-pending['created_at'])*1000+pending['local_result']['elapsed_ms'],2)}
+        truncated=bool(pending['max_chars'] and len(text)>pending['max_chars'])
+        result.update(extracted_chars=len(text),truncated=truncated,output_complete=bool(result['ok'] and not truncated))
+        if truncated:result['next_step']='Repeat with max_chars=0 for the complete selected page range.'
+        else:result.pop('next_step',None)
         if result['ok']:
             result.pop('error',None)
         if pending['cache'] and result['ok']:

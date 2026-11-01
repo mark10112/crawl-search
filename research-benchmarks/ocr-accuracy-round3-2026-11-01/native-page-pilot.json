@@ -1,0 +1,159 @@
+{
+  "note": "Original round2c worker, only page input changed from 144 to source 300 DPI; pilot, not timed corpus comparison",
+  "seconds": 9.411300125000707,
+  "result": {
+    "ok": true,
+    "text": "## (ω)\n\n๒๖๐\n\n๒๓๑\n\n๒๓๖\n\nประกาศมหาสงกรานต์ ปีกุน เบญจศก\n\nประกาศพระราชบัญญัติรับพ้องความเจ้าแล\n\nห้ามเจ้ามิให้ไปไกลพระนคร\n\n๑๐๖\n\nประกาศการทรงปฏิสังขรณ์พระเจ้ายีวัคชุมพล-\n\nนิกายราม เกาะบางปะอิน\n\n๒๖๓\n\nประกาศพระราชทานอนุญาตให้ข้ารำชการ\n\nฝ่ายในทุลลาออกนอกราชการได้\n\nประกาศพิกัดราคาทางแปร ทศ พิศ พัดถึงสัตว์\n\nประกาศห้ามไม่ให้เชื่อถือข้าราชการนอก\n\nทำแหน่ง\n\nพระราชปรารภเรืองเดินเป็นผู้ว่าราชการเมือง\n\nประกาศว่าด้วยการเดินเป็นเจ้าเมือง\n\nประกาศงานพระเมรุเจ้าฟ้าจันทรมณาทล\n\nแลงงานฉลองวัด\n\nประกาศพิกัดภาษี เรือ ตึก แพง โรง ร้าน\n\nพ.ศ. ๒๕๐๓\n\nW.K. 1200\n\nปรากฏสงครามตั้งเป็นชวด ฯศก",
+    "engine": "paddleocr-vl-1.6-mlx-layout",
+    "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+    "cache_hit": false,
+    "truncated": false,
+    "policy": "balanced",
+    "max_new_tokens": 8192,
+    "repetition_penalty": 1.0,
+    "original_markup_chars": 561,
+    "language_hint": null,
+    "elapsed_ms": 9403.9,
+    "route": [
+      {
+        "engine": "paddle-layout+mlx",
+        "regions": 3,
+        "generations": [
+          {
+            "finish_reason": "stop",
+            "tokens": 4,
+            "requested_max_tokens": 8192,
+            "effective_max_tokens": 8192,
+            "repetition_penalty": 1.0,
+            "repetition_context_size": 64,
+            "serialized": true,
+            "repetition_guard": false,
+            "token_usage_complete": true,
+            "received_chars": 3
+          },
+          {
+            "finish_reason": "stop",
+            "tokens": 378,
+            "requested_max_tokens": 8192,
+            "effective_max_tokens": 8192,
+            "repetition_penalty": 1.0,
+            "repetition_context_size": 64,
+            "serialized": true,
+            "repetition_guard": false,
+            "token_usage_complete": true,
+            "received_chars": 494
+          },
+          {
+            "finish_reason": "stop",
+            "tokens": 34,
+            "requested_max_tokens": 8192,
+            "effective_max_tokens": 8192,
+            "repetition_penalty": 1.0,
+            "repetition_context_size": 64,
+            "serialized": true,
+            "repetition_guard": false,
+            "token_usage_complete": true,
+            "received_chars": 36
+          }
+        ]
+      }
+    ],
+    "quality_flags": [],
+    "regions": [
+      {
+        "block_label": "paragraph_title",
+        "block_content": "(ω)",
+        "block_bbox": [
+          594,
+          112,
+          676,
+          176
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            594.0,
+            112.0
+          ],
+          [
+            676.0,
+            112.0
+          ],
+          [
+            676.0,
+            176.0
+          ],
+          [
+            594.0,
+            176.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "๒๖๐\n๒๓๑\n๒๓๖\nประกาศมหาสงกรานต์ ปีกุน เบญจศก\nประกาศพระราชบัญญัติรับพ้องความเจ้าแล\nห้ามเจ้ามิให้ไปไกลพระนคร\n๑๐๖\nประกาศการทรงปฏิสังขรณ์พระเจ้ายีวัคชุมพล-\nนิกายราม เกาะบางปะอิน\n๒๖๓\nประกาศพระราชทานอนุญาตให้ข้ารำชการ\nฝ่ายในทุลลาออกนอกราชการได้\nประกาศพิกัดราคาทางแปร ทศ พิศ พัดถึงสัตว์\nประกาศห้ามไม่ให้เชื่อถือข้าราชการนอก\nทำแหน่ง\nพระราชปรารภเรืองเดินเป็นผู้ว่าราชการเมือง\nประกาศว่าด้วยการเดินเป็นเจ้าเมือง\nประกาศงานพระเมรุเจ้าฟ้าจันทรมณาทล\nแลงงานฉลองวัด\nประกาศพิกัดภาษี เรือ ตึก แพง โรง ร้าน\nพ.ศ. ๒๕๐๓",
+        "block_bbox": [
+          72,
+          350,
+          1204,
+          1812
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            72.0,
+            350.0
+          ],
+          [
+            1204.0,
+            350.0
+          ],
+          [
+            1204.0,
+            1812.0
+          ],
+          [
+            72.0,
+            1812.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "W.K. 1200\nปรากฏสงครามตั้งเป็นชวด ฯศก",
+        "block_bbox": [
+          77,
+          1717,
+          1198,
+          1877
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            77.0,
+            1717.0
+          ],
+          [
+            1198.0,
+            1717.0
+          ],
+          [
+            1198.0,
+            1877.0
+          ],
+          [
+            77.0,
+            1877.0
+          ]
+        ]
+      }
+    ],
+    "quality_warning": "Completion checks are not proof of transcription accuracy."
+  }
+}

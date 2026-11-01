@@ -1,0 +1,335 @@
+{
+  "note": "geometry-only pilot; fixed 520px target bands at 300 DPI, no reference input",
+  "rows": [
+    {
+      "file": "us-census-p2-table0-native300.png",
+      "y": [
+        0,
+        487
+      ],
+      "scale": 1.0,
+      "seconds": 9.887870499998826,
+      "response": {
+        "id": "chatcmpl-539ee0cc-32f0-4698-a0ab-e225fe5cfcb1",
+        "object": "chat.completion",
+        "created": 1793551745,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>COUNTIES.<fcel>1900<fcel>1890<fcel>1880<fcel>1870<fcel>1860<fcel>1850<fcel>1840<fcel>1830<fcel>1820<fcel>1810<fcel>1800<fcel>1790<nl><fcel>The State................................................<fcel>4,821,550<fcel>8,826,351<fcel>3,077,871<fcel>2,539,891<fcel>1,711,951<fcel>851,470<fcel>476,183<fcel>157,445<fcel>55,162<fcel>12,282<fcel>12,458<ecel><nl><fcel>Adams...................................................<fcel>67,058<fcel>61,888<fcel>59,135<fcel>56,862<fcel>41,323<fcel>26,508<fcel>14,476<fcel>2,186<ecel><ecel><ecel><ecel><nl><fcel>Alexander...............................................<fcel>19,384<fcel>16,563<fcel>14,808<fcel>10,564<fcel>4,707<fcel>2,484<fcel>3,313<fcel>1,390<fcel>626<ecel><ecel><ecel><nl><fcel>Bond...................................................<fcel>16,078<fcel>14,550<fcel>14,866<fcel>13,152<fcel>9,815<fcel>6,144<fcel>5,060<fcel>8,124<fcel>2,931<ecel><ecel><ecel><nl><fcel>Boone...................................................<fcel>15,791<fcel>12,203<fcel>11,508<fcel>12,942<fcel>11,678<fcel>7,624<fcel>1,705<ecel><ecel><ecel><ecel><ecel><nl><fcel>Brown...................................................<fcel>11,557<fcel>11,951<fcel>13,041<fcel>12,205<fcel>9,938<fcel>7,198<fcel>4,183<ecel><ecel><ecel><ecel><ecel><nl><fcel>Bureau...................................................<fcel>41,112<fcel>85,014<fcel>83,172<fcel>32,415<fcel>26,426<fcel>8,841<fcel>3,067<ecel><ecel><ecel><ecel><ecel><nl><fcel>Calhoun...............................................<fcel>8,917<fcel>7,652<fcel>7,467<fcel>6,562<fcel>5,144<fcel>3,231<fcel>1,741<fcel>1,090<ecel><ecel><ecel><ecel><nl><fcel>Carroll...............................................<fcel>18,963<fcel>18,320<fcel>16,976<fcel>16,705<fcel>11,733<fcel>4,586<fcel>1,023<ecel><ecel><ecel><ecel><ecel><nl><fcel>Cass...................................................<fcel>17,222<fcel>15,963<fcel>14,493<fcel>11,580<fcel>11,325<fcel>7,253<fcel>2,981<ecel><ecel><ecel><ecel><ecel><nl><fcel>Champaign...........................................<fcel>47,622<fcel>42,159<fcel>40,863<fcel>32,737<fcel>14,629<fcel>2,649<fcel>1,475<ecel><ecel><ecel><ecel><ecel><nl>",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1288,
+          "completion_tokens": 778,
+          "total_tokens": 2066,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 1288,
+          "cache_n": 0,
+          "predicted_n": 778,
+          "prompt_ms": 2792.411082995386,
+          "prompt_per_token_ms": 2.168021027170331,
+          "prompt_per_second": 461.250138936699,
+          "predicted_ms": 6947.289302767938,
+          "predicted_per_token_ms": 8.929677767053905,
+          "predicted_per_second": 111.98612380947333,
+          "peak_memory": 2.739941886,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "file": "us-census-p2-table0-native300.png",
+      "y": [
+        487,
+        1060
+      ],
+      "scale": 1.0,
+      "seconds": 13.041120750000118,
+      "response": {
+        "id": "chatcmpl-1d439349-fc4c-418e-bfa1-85c40dfa6c20",
+        "object": "chat.completion",
+        "created": 1793551758,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Christian<fcel>32,790<fcel>30,531<fcel>28,227<fcel>20,363<fcel>10,492<fcel>3,203<fcel>1,878<ecel><ecel><ecel><ecel><nl><fcel>Clark<fcel>24,033<fcel>21,899<fcel>21,894<fcel>18,719<fcel>14,987<fcel>9,532<fcel>7,453<fcel>3,940<fcel>931<ecel><ecel><nl><fcel>Clay<fcel>19,558<fcel>16,772<fcel>16,192<fcel>15,875<fcel>9,336<fcel>4,289<fcel>3,228<fcel>755<ecel><ecel><ecel><nl><fcel>Clinton<fcel>19,824<fcel>17,411<fcel>18,714<fcel>16,285<fcel>10,941<fcel>5,139<fcel>3,718<fcel>2,330<ecel><ecel><ecel><nl><fcel>Coles<fcel>34,146<fcel>30,093<fcel>27,042<fcel>25,235<fcel>14,203<fcel>9,335<fcel>9,616<ecel><ecel><ecel><ecel><nl><fcel>Cook<fcel>1,833,785<fcel>1,191,922<fcel>607,524<fcel>349,966<fcel>144,954<fcel>43,385<fcel>10,201<ecel><ecel><ecel><ecel><nl><fcel>Crawford<fcel>19,240<fcel>17,283<fcel>16,197<fcel>13,889<fcel>11,551<fcel>7,135<fcel>4,422<fcel>3,117<fcel>2,999<ecel><ecel><nl><fcel>Cumberland<fcel>16,124<fcel>15,448<fcel>13,759<fcel>12,223<fcel>8,311<fcel>3,718<ecel><ecel><ecel><ecel><ecel><nl><fcel>Dekalb<fcel>31,756<fcel>27,066<fcel>26,768<fcel>23,265<fcel>19,086<fcel>7,540<fcel>1,697<ecel><ecel><ecel><ecel><nl><fcel>Dewitt<fcel>18,972<fcel>17,011<fcel>17,010<fcel>14,768<fcel>10,820<fcel>5,002<fcel>3,247<ecel><ecel><ecel><ecel><nl><fcel>Douglas<fcel>19,097<fcel>17,669<fcel>15,853<fcel>13,484<fcel>7,140<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Dupage<fcel>28,196<fcel>22,551<fcel>19,161<fcel>16,685<fcel>14,701<fcel>9,290<fcel>3,535<ecel><ecel><ecel><ecel><nl><fcel>Edgar<fcel>28,278<fcel>26,787<fcel>25,499<fcel>21,450<fcel>16,925<fcel>10,692<fcel>8,225<fcel>4,071<ecel><ecel><ecel><nl><fcel>Edwards<fcel>10,345<fcel>9,444<fcel>8,597<fcel>7,565<fcel>5,454<fcel>3,524<fcel>3,070<fcel>1,649<fcel>3,444<ecel><ecel><nl><fcel>Eflingham<fcel>20,465<fcel>19,358<fcel>18,920<fcel>15,658<fcel>7,816<fcel>3,799<fcel>1,675<ecel><ecel><ecel><ecel><nl><fcel>Fayette<fcel>28,065<fcel>23,367<fcel>23,241<fcel>19,638<fcel>11,189<fcel>8,075<fcel>6,328<fcel>2,704<ecel><ecel><ecel><nl><fcel>Ford<fcel>18,859<fcel>17,035<fcel>15,099<fcel>9,103<fcel>1,979<ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Franklin<fcel>19,675<fcel>17,138<fcel>16,129<fcel>12,652<fcel>9,393<fcel>5,681<fcel>3,682<fcel>4,083<fcel>1,768<ecel><ecel><nl><fcel>Fulton<fcel>46,201<fcel>48,110<fcel>41,240<fcel>38,291<fcel>33,338<fcel>22,508<fcel>13,142<fcel>1,841<ecel><ecel><ecel><nl><fcel>Gallatin<fcel>15,836<fcel>14,935<fcel>12,861<fcel>11,134<fcel>8,055<fcel>5,448<fcel>10,760<fcel>7,405<fcel>3,155<ecel><ecel><nl>",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1237,
+          "completion_tokens": 1154,
+          "total_tokens": 2391,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 1237,
+          "cache_n": 0,
+          "predicted_n": 1154,
+          "prompt_ms": 2609.5503750002536,
+          "prompt_per_token_ms": 2.1095799312855728,
+          "prompt_per_second": 474.02802101487686,
+          "predicted_ms": 10298.61398354806,
+          "predicted_per_token_ms": 8.924275549001786,
+          "predicted_per_second": 112.05391345316022,
+          "peak_memory": 2.739941886,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "file": "us-census-p2-table0-native300.png",
+      "y": [
+        1060,
+        1522
+      ],
+      "scale": 1.0,
+      "seconds": 10.750048999998398,
+      "response": {
+        "id": "chatcmpl-e2a3f9b7-6ea5-41f1-828e-7f38dfbeadd6",
+        "object": "chat.completion",
+        "created": 1793551768,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Greene<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Grundy<fcel>23,402<fcel>23,791<fcel>23,010<fcel>20,277<fcel>16,093<fcel>12,429<fcel>11,951<fcel>7,674<ecel><ecel><ecel><nl><fcel>Hamilton<fcel>24,136<fcel>21,024<fcel>16,732<fcel>14,938<fcel>10,379<fcel>3,023<ecel><ecel><ecel><ecel><ecel><nl><fcel>Hancock<fcel>20,197<fcel>17,800<fcel>16,712<fcel>13,014<fcel>9,915<fcel>6,362<fcel>8,945<fcel>2,616<ecel><ecel><ecel><nl><fcel>Hardin<fcel>32,215<fcel>81,907<fcel>85,337<fcel>35,935<fcel>29,061<fcel>14,652<fcel>9,946<fcel>483<ecel><ecel><ecel><nl><ecel><fcel>7,448<fcel>7,234<fcel>6,024<fcel>5,113<fcel>8,759<fcel>2,887<fcel>1,878<ecel><ecel><ecel><ecel><nl><fcel>Henderson<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Henry<fcel>10,836<fcel>9,876<fcel>10,722<fcel>12,582<fcel>9,501<fcel>4,612<ecel><ecel><ecel><ecel><ecel><nl><fcel>Iroquois<fcel>40,049<fcel>88,338<fcel>36,597<fcel>35,506<fcel>20,660<fcel>3,807<fcel>1,260<fcel>41<ecel><ecel><ecel><nl><fcel>Jackson<fcel>38,014<fcel>85,167<fcel>35,451<fcel>25,782<fcel>12,325<fcel>4,149<fcel>1,695<ecel><ecel><ecel><ecel><nl><fcel>Jasper<fcel>33,871<fcel>27,809<fcel>22,505<fcel>19,634<fcel>9,589<fcel>5,862<fcel>3,560<fcel>1,828<fcel>1,542<ecel><ecel><nl><ecel><fcel>20,160<fcel>18,188<fcel>14,515<fcel>11,234<fcel>8,864<fcel>3,220<fcel>1,472<ecel><ecel><ecel><ecel><nl><fcel>Jefferson<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Jersey<fcel>28,138<fcel>22,590<fcel>20,686<fcel>17,864<fcel>12,965<fcel>8,109<fcel>5,762<fcel>2,555<fcel>691<ecel><ecel><nl><fcel>Jo Daviess<fcel>14,612<fcel>14,810<fcel>15,542<fcel>15,054<fcel>12,051<fcel>7,354<fcel>4,535<ecel><ecel><fcel>1 100<ecel><nl><fcel>Johnson<fcel>24,533<fcel>25,101<fcel>27,528<fcel>27,820<fcel>27,325<fcel>18,604<fcel>6,180<fcel>2,111<ecel><ecel><ecel><nl><fcel>Kane<fcel>15,667<fcel>15,018<fcel>13,078<fcel>11,248<fcel>9,342<fcel>4,114<fcel>8,626<fcel>1,596<fcel>843<ecel><ecel><nl><ecel><fcel>78,792<fcel>65,061<fcel>44,939<fcel>39,091<fcel>30,062<fcel>16,703<fcel>6,501<ecel><ecel><ecel><ecel><nl>",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1213,
+          "completion_tokens": 905,
+          "total_tokens": 2118,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 1213,
+          "cache_n": 0,
+          "predicted_n": 905,
+          "prompt_ms": 2523.7369579990627,
+          "prompt_per_token_ms": 2.0805745737832337,
+          "prompt_per_second": 480.6364610049232,
+          "predicted_ms": 8125.899728727632,
+          "predicted_per_token_ms": 8.978894727875836,
+          "predicted_per_second": 111.37228248098337,
+          "peak_memory": 2.739941886,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "file": "us-census-p2-table0-native300.png",
+      "y": [
+        1522,
+        2109
+      ],
+      "scale": 1.0,
+      "seconds": 12.634944915997039,
+      "response": {
+        "id": "chatcmpl-e53faf4e-7302-42e7-b5ab-6f0bdb918500",
+        "object": "chat.completion",
+        "created": 1793551781,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Kannrakee<fcel>37,154<fcel>28,732<fcel>25,047<fcel>24,352<fcel>15,412<ecel><ecel><ecel><ecel><ecel><nl><fcel>Kendall<fcel>11,467<fcel>12,106<fcel>13,083<fcel>12,399<fcel>13,074<fcel>7,730<ecel><ecel><ecel><ecel><nl><fcel>Knox<fcel>43,612<fcel>38,752<fcel>38,344<fcel>39,522<fcel>28,663<fcel>13,279<fcel>7,060<fcel>274<ecel><ecel><nl><fcel>Lake<fcel>34,504<fcel>24,235<fcel>21,296<fcel>21,014<fcel>18,257<fcel>14,226<fcel>2,684<ecel><ecel><ecel><nl><fcel>Lasalle<fcel>87,776<fcel>80,798<fcel>70,403<fcel>60,792<fcel>48,332<fcel>17,815<fcel>9,348<ecel><ecel><ecel><nl><fcel>Lawrence<fcel>16,523<fcel>14,698<fcel>13,663<fcel>12,533<fcel>9,214<fcel>6,121<fcel>7,092<fcel>3,668<ecel><ecel><nl><fcel>Lee<fcel>29,894<fcel>26,187<fcel>27,491<fcel>27,171<fcel>17,651<fcel>5,292<fcel>2,035<ecel><ecel><ecel><nl><fcel>Livingston<fcel>42,035<fcel>38,455<fcel>38,450<fcel>31,471<fcel>11,637<fcel>1,552<fcel>759<ecel><ecel><ecel><nl><fcel>Logan<fcel>28,680<fcel>25,489<fcel>25,037<fcel>23,053<fcel>14,272<fcel>5,128<fcel>2,333<ecel><ecel><ecel><nl><fcel>McDonough<fcel>28,412<fcel>27,467<fcel>27,970<fcel>26,509<fcel>20,069<fcel>7,616<fcel>5,308<fcel>(2)<ecel><ecel><nl><fcel>McHenry<fcel>29,759<fcel>26,114<fcel>24,908<fcel>23,762<fcel>22,089<fcel>14,978<fcel>2,578<ecel><ecel><ecel><nl><fcel>McLean<fcel>67,848<fcel>63,036<fcel>60,100<fcel>53,983<fcel>28,772<fcel>10,163<fcel>6,565<ecel><ecel><ecel><nl><fcel>Macon<fcel>44,003<fcel>38,083<fcel>30,665<fcel>26,481<fcel>13,738<fcel>3,988<fcel>3,089<fcel>1,122<ecel><ecel><nl><fcel>Macoupin<fcel>42,256<fcel>40,880<fcel>37,692<fcel>32,726<fcel>24,602<fcel>12,355<fcel>7,826<fcel>1,990<ecel><ecel><nl><fcel>Madison<fcel>64,694<fcel>51,535<fcel>50,126<fcel>44,131<fcel>31,251<fcel>20,411<fcel>14,433<fcel>6,221<fcel>13,550<ecel><nl><fcel>Marion<fcel>30,446<fcel>24,341<fcel>23,686<fcel>20,622<fcel>12,739<fcel>6,720<fcel>4,742<fcel>2,125<ecel><ecel><nl><fcel>Marshall<fcel>16,370<fcel>13,053<fcel>15,055<fcel>16,956<fcel>13,437<fcel>5,180<fcel>1,849<ecel><ecel><ecel><nl><fcel>Mason<fcel>17,491<fcel>16,067<fcel>16,242<fcel>16,184<fcel>10,931<fcel>5,921<ecel><ecel><ecel><ecel><nl><fcel>Massac<fcel>13,110<fcel>11,313<fcel>10,443<fcel>9,581<fcel>6,213<fcel>4,092<ecel><ecel><ecel><ecel><nl><fcel>Menard<fcel>14,336<fcel>13,120<fcel>13,024<fcel>11,735<fcel>9,584<fcel>6,349<fcel>4,431<ecel><ecel><ecel><nl>",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1219,
+          "completion_tokens": 1098,
+          "total_tokens": 2317,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 1219,
+          "cache_n": 0,
+          "predicted_n": 1098,
+          "prompt_ms": 2594.1799159991206,
+          "prompt_per_token_ms": 2.1281213420829537,
+          "prompt_per_second": 469.8980176671807,
+          "predicted_ms": 9929.717708750277,
+          "predicted_per_token_ms": 9.043458751138685,
+          "predicted_per_second": 110.57716162791006,
+          "peak_memory": 2.739941886,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "file": "us-census-p2-table0-native300.png",
+      "y": [
+        2109,
+        2552
+      ],
+      "scale": 1.0,
+      "seconds": 10.696234042003198,
+      "response": {
+        "id": "chatcmpl-8cf516c0-6b66-4721-8207-723bff1e7ada",
+        "object": "chat.completion",
+        "created": 1793551792,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Mercer<fcel>20,945<fcel>18,545<fcel>19,502<fcel>18,769<fcel>15,042<fcel>5,246<fcel>2,352<fcel>26<ecel><ecel><ecel><nl><fcel>Monroe<fcel>13,847<fcel>12,948<fcel>18,682<fcel>12,982<fcel>12,882<fcel>7,679<fcel>4,481<fcel>2,000<fcel>1,516<ecel><ecel><nl><fcel>Montgomery<fcel>30,836<fcel>30,003<fcel>28,078<fcel>25,314<fcel>13,979<fcel>6,277<fcel>4,490<fcel>2,958<ecel><ecel><ecel><nl><fcel>Morgan<fcel>35,006<fcel>32,686<fcel>31,514<fcel>28,463<fcel>22,112<fcel>16,064<fcel>19,547<fcel>12,714<ecel><ecel><ecel><nl><fcel>Moultrie<fcel>15,224<fcel>14,481<fcel>13,699<fcel>10,385<fcel>6,385<fcel>3,234<ecel><ecel><ecel><ecel><ecel><nl><fcel>Ogle<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Peoria<fcel>29,129<fcel>28,710<fcel>29,937<fcel>27,492<fcel>22,888<fcel>10,020<fcel>8,479<ecel><ecel><ecel><ecel><nl><fcel>Perry<fcel>88,608<fcel>70,378<fcel>65,355<fcel>47,540<fcel>36,601<fcel>17,547<fcel>6,153<fcel>(3)<ecel><ecel><ecel><nl><fcel>Platt<fcel>19,830<fcel>17,529<fcel>16,007<fcel>13,723<fcel>9,552<fcel>5,278<fcel>3,222<fcel>1,215<ecel><ecel><ecel><nl><fcel>Pike<fcel>17,706<fcel>17,062<fcel>15,583<fcel>10,953<fcel>6,127<fcel>1,606<ecel><ecel><ecel><ecel><ecel><nl><ecel><fcel>31,595<fcel>31,000<fcel>83,751<fcel>30,768<fcel>27,249<fcel>18,819<fcel>11,728<fcel>2,396<ecel><ecel><ecel><nl><fcel>Pope<ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><ecel><nl><fcel>Pulaski<fcel>13,585<fcel>14,016<fcel>13,256<fcel>11,437<fcel>6,742<fcel>3,975<fcel>4,094<fcel>3,316<fcel>2,610<ecel><ecel><nl><fcel>Putnam<fcel>14,554<fcel>11,355<fcel>9,507<fcel>8,752<fcel>8,943<fcel>2,265<ecel><ecel><ecel><ecel><ecel><nl><fcel>Randolph<fcel>4,746<fcel>4,780<fcel>5,554<fcel>6,280<fcel>5,587<fcel>3,924<fcel>2,131<fcel>81,310<ecel><ecel><ecel><nl><fcel>Richland<fcel>28,001<fcel>25,049<fcel>25,690<fcel>20,859<fcel>17,205<fcel>11,079<fcel>7,944<fcel>4,429<fcel>8,492<fcel>7,275<fcel>11,103<nl><ecel><fcel>16,391<fcel>15,019<fcel>15,545<fcel>12,803<fcel>9,711<fcel>4,012<ecel><ecel><ecel><ecel><ecel><nl>",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 1213,
+          "completion_tokens": 901,
+          "total_tokens": 2114,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 1213,
+          "cache_n": 0,
+          "predicted_n": 901,
+          "prompt_ms": 2525.968333997298,
+          "prompt_per_token_ms": 2.0824141253069235,
+          "prompt_per_second": 480.2118790145124,
+          "predicted_ms": 8071.313463545685,
+          "predicted_per_token_ms": 8.9581725455557,
+          "predicted_per_second": 111.62991055537513,
+          "peak_memory": 2.739941886,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    },
+    {
+      "file": "us-preservation-p3-table3-native300.png",
+      "y": [
+        0,
+        158
+      ],
+      "scale": 1.0,
+      "seconds": 0.9853354999977455,
+      "response": {
+        "id": "chatcmpl-342fcf9b-62d4-4309-a9f6-a109dfb8b457",
+        "object": "chat.completion",
+        "created": 1793551793,
+        "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+        "choices": [
+          {
+            "index": 0,
+            "finish_reason": "stop",
+            "message": {
+              "role": "assistant",
+              "content": "<fcel>Portland Oregonian San Diego Sun<fcel>Jan. —, 1868 Oct. 31, 1872<fcel>35<fcel>65 100<fcel>2 1<nl><fcel>Average<ucel><ucel><ucel><ucel><nl><ecel><ecel><ecel><ecel><fcel>1.8<nl>",
+              "reasoning_content": null,
+              "reasoning": null,
+              "tool_calls": null,
+              "tool_call_id": null,
+              "name": null
+            },
+            "logprobs": null
+          }
+        ],
+        "usage": {
+          "prompt_tokens": 295,
+          "completion_tokens": 60,
+          "total_tokens": 355,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "prompt_n": 295,
+          "cache_n": 0,
+          "predicted_n": 60,
+          "prompt_ms": 454.1456259976258,
+          "prompt_per_token_ms": 1.5394766982970367,
+          "prompt_per_second": 649.571377797531,
+          "predicted_ms": 488.98250033898415,
+          "predicted_per_token_ms": 8.14970833898307,
+          "predicted_per_second": 122.7037776574936,
+          "peak_memory": 2.739941886,
+          "draft_kind": null,
+          "draft_rounds": null,
+          "draft_n": null,
+          "draft_n_accepted": null
+        }
+      }
+    }
+  ]
+}

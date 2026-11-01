@@ -1,0 +1,12 @@
+{
+  "time": 1793559586.216091,
+  "candidate": "0284cb761cebeff97c34ac0f7186e8fd36c0f152",
+  "mlx_restart_to_ready_seconds": 3.052623624997068,
+  "model_order": [
+    "vl",
+    "paddle_mobile",
+    "tesseract_fast",
+    "tesseract_best"
+  ],
+  "note": "One reader at a time; CPU readers run with production MLX unloaded. Model/file OS caches not flushed. Three warm passes after first pass."
+}

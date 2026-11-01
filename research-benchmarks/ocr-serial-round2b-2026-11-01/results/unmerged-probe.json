@@ -1,0 +1,504 @@
+{
+  "note": "Supplemental page 3 only, merge_layout_blocks=False; not a full-document score.",
+  "seconds": 92.93725445900054,
+  "result": {
+    "ok": false,
+    "text": "๒๓๐ ประกาศมหาสงกรานต์ บีกุน เบญจศก\n\n๒๓๑ ประกาศพระราชบัญญัติรับฟ้องความเจ้าแล\n\nห้ามเจ้ามิให้ไปไกลพระนคร\n\n๑๐๖\n\nประกาศการทรงปฏิสังขรณ์พระเจ้าย์วัดชุมพล-\n\nนิกายราม เกาะบางปะอิน\n\nโฆกม ประกาศพระราชทานอนุญาตให้ข้าราชการ\n\nฝ้ายในทุลลาออกนอกราชการได้\n\n๒๓๔ ประกาศกำกว้างการทองแปททีพิศ พัดถึงสี\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_seal_box_359_392_461_576.jpg\" alt=\"Image\" width=\"16%\" /></div>\n\n\nปะกาห้ามไม่ให้เชื่อถอ้ข้าราชการนอก\n\nทำแหน่ง\n\nโต๊กฯ พระว้าชปรารภเรืองเกินเป็นผู้ว่าร้าชการเมือง\n\nปราณฯ/ ประกาศว่าด้วยการเดินเป็นเจ้าเมือง\n\nประกาศงานพระเมรุเจ้าพื้นที่ทรมณีทุก\n\nแลงงานฉลองวัด\n\nปรากฏกำหนดที่ 1 หรือ 100 ทีม 100 ไรท์ 100 ดร\n\nW.A.T. 10000",
+    "engine": "paddleocr-vl-1.6-mlx-layout",
+    "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+    "cache_hit": false,
+    "truncated": true,
+    "policy": "balanced",
+    "max_new_tokens": 8192,
+    "repetition_penalty": 1.0,
+    "original_markup_chars": 652,
+    "language_hint": null,
+    "elapsed_ms": 92934.46,
+    "route": [
+      {
+        "engine": "paddle-layout+mlx",
+        "regions": 12,
+        "generations": [
+          {
+            "finish_reason": "stop",
+            "tokens": 36,
+            "requested_max_tokens": 8192,
+            "effective_max_tokens": 8192,
+            "repetition_penalty": 1.0,
+            "repetition_context_size": 64,
+            "serialized": true
+          },
+          {
+            "finish_reason": "stop",
+            "tokens": 25,
+            "requested_max_tokens": 8192,
+            "effective_max_tokens": 8192,
+            "repetition_penalty": 1.0,
+            "repetition_context_size": 64,
+            "serialized": true
+          },
+          {
+            "finish_reason": "stop",
+            "tokens": 27,
+            "requested_max_tokens": 8192,
+            "effective_max_tokens": 8192,
+            "repetition_penalty": 1.0,
+            "repetition_context_size": 64,
+            "serialized": true
+          },
+          {
+            "finish_reason": "stop",
+            "tokens": 52,
+            "requested_max_tokens": 8192,
+            "effective_max_tokens": 8192,
+            "repetition_penalty": 1.0,
+            "repetition_context_size": 64,
+            "serialized": true
+          },
+          {
+            "finish_reason": "stop",
+            "tokens": 35,
+            "requested_max_tokens": 8192,
+            "effective_max_tokens": 8192,
+            "repetition_penalty": 1.0,
+            "repetition_context_size": 64,
+            "serialized": true
+          },
+          {
+            "finish_reason": "stop",
+            "tokens": 35,
+            "requested_max_tokens": 8192,
+            "effective_max_tokens": 8192,
+            "repetition_penalty": 1.0,
+            "repetition_context_size": 64,
+            "serialized": true
+          },
+          {
+            "finish_reason": "length",
+            "tokens": 8192,
+            "requested_max_tokens": 8192,
+            "effective_max_tokens": 8192,
+            "repetition_penalty": 1.0,
+            "repetition_context_size": 64,
+            "serialized": true
+          },
+          {
+            "finish_reason": "stop",
+            "tokens": 34,
+            "requested_max_tokens": 8192,
+            "effective_max_tokens": 8192,
+            "repetition_penalty": 1.0,
+            "repetition_context_size": 64,
+            "serialized": true
+          },
+          {
+            "finish_reason": "stop",
+            "tokens": 40,
+            "requested_max_tokens": 8192,
+            "effective_max_tokens": 8192,
+            "repetition_penalty": 1.0,
+            "repetition_context_size": 64,
+            "serialized": true
+          },
+          {
+            "finish_reason": "stop",
+            "tokens": 50,
+            "requested_max_tokens": 8192,
+            "effective_max_tokens": 8192,
+            "repetition_penalty": 1.0,
+            "repetition_context_size": 64,
+            "serialized": true
+          },
+          {
+            "finish_reason": "stop",
+            "tokens": 58,
+            "requested_max_tokens": 8192,
+            "effective_max_tokens": 8192,
+            "repetition_penalty": 1.0,
+            "repetition_context_size": 64,
+            "serialized": true
+          }
+        ]
+      }
+    ],
+    "quality_flags": [
+      "Recognition did not explicitly finish normally"
+    ],
+    "regions": [
+      {
+        "block_label": "text",
+        "block_content": "๒๓๐ ประกาศมหาสงกรานต์ บีกุน เบญจศก",
+        "block_bbox": [
+          35,
+          190,
+          575,
+          228
+        ],
+        "block_id": 0,
+        "block_order": 1,
+        "group_id": 0,
+        "block_polygon_points": [
+          [
+            34.72564697265625,
+            190.03172302246094
+          ],
+          [
+            573.8963623046875,
+            186.0304412841797
+          ],
+          [
+            574.1707153320312,
+            222.9987335205078
+          ],
+          [
+            35.0,
+            227.00001525878906
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "๒๓๑ ประกาศพระราชบัญญัติรับฟ้องความเจ้าแล\nห้ามเจ้ามิให้ไปไกลพระนคร\n๑๐๖",
+        "block_bbox": [
+          36,
+          234,
+          575,
+          304
+        ],
+        "block_id": 1,
+        "block_order": 2,
+        "group_id": 1,
+        "block_polygon_points": [
+          [
+            36.0,
+            234.0
+          ],
+          [
+            575.0,
+            234.0
+          ],
+          [
+            575.0,
+            304.0
+          ],
+          [
+            36.0,
+            304.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "ประกาศการทรงปฏิสังขรณ์พระเจ้าย์วัดชุมพล-\nนิกายราม เกาะบางปะอิน",
+        "block_bbox": [
+          36,
+          312,
+          575,
+          383
+        ],
+        "block_id": 2,
+        "block_order": 3,
+        "group_id": 2,
+        "block_polygon_points": [
+          [
+            36.0,
+            312.0
+          ],
+          [
+            575.0,
+            312.0
+          ],
+          [
+            575.0,
+            383.0
+          ],
+          [
+            36.0,
+            383.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "โฆกม ประกาศพระราชทานอนุญาตให้ข้าราชการ\nฝ้ายในทุลลาออกนอกราชการได้",
+        "block_bbox": [
+          36,
+          394,
+          567,
+          467
+        ],
+        "block_id": 3,
+        "block_order": 4,
+        "group_id": 3,
+        "block_polygon_points": [
+          [
+            36.0,
+            394.0
+          ],
+          [
+            567.0,
+            394.0
+          ],
+          [
+            567.0,
+            467.0
+          ],
+          [
+            36.0,
+            467.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "๒๓๔ ประกาศกำกว้างการทองแปททีพิศ พัดถึงสี",
+        "block_bbox": [
+          36,
+          475,
+          573,
+          510
+        ],
+        "block_id": 4,
+        "block_order": 5,
+        "group_id": 4,
+        "block_polygon_points": [
+          [
+            35.67669677734375,
+            475.1270751953125
+          ],
+          [
+            559.6767578125,
+            470.1270751953125
+          ],
+          [
+            560.0,
+            503.99993896484375
+          ],
+          [
+            35.99993896484375,
+            508.99993896484375
+          ]
+        ]
+      },
+      {
+        "block_label": "seal",
+        "block_content": "",
+        "block_bbox": [
+          359,
+          392,
+          461,
+          576
+        ],
+        "block_id": 5,
+        "block_order": 6,
+        "group_id": 5,
+        "block_polygon_points": [
+          [
+            359.0,
+            392.0
+          ],
+          [
+            461.0,
+            392.0
+          ],
+          [
+            461.0,
+            576.0
+          ],
+          [
+            359.0,
+            576.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "ปะกาห้ามไม่ให้เชื่อถอ้ข้าราชการนอก\nทำแหน่ง",
+        "block_bbox": [
+          37,
+          516,
+          455,
+          590
+        ],
+        "block_id": 6,
+        "block_order": 7,
+        "group_id": 6,
+        "block_polygon_points": [
+          [
+            37.0,
+            516.0
+          ],
+          [
+            455.0,
+            516.0
+          ],
+          [
+            455.0,
+            590.0
+          ],
+          [
+            37.0,
+            590.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "โต๊กฯ พระว้าชปรารภเรืองเกินเป็นผู้ว่าร้าชการเมือง",
+        "block_bbox": [
+          36,
+          598,
+          576,
+          631
+        ],
+        "block_id": 7,
+        "block_order": 8,
+        "group_id": 7,
+        "block_polygon_points": [
+          [
+            36.0,
+            598.0
+          ],
+          [
+            576.0,
+            598.0
+          ],
+          [
+            576.0,
+            631.0
+          ],
+          [
+            36.0,
+            631.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "ปราณฯ/ ประกาศว่าด้วยการเดินเป็นเจ้าเมือง",
+        "block_bbox": [
+          36,
+          641,
+          575,
+          673
+        ],
+        "block_id": 8,
+        "block_order": 9,
+        "group_id": 8,
+        "block_polygon_points": [
+          [
+            36.0,
+            641.0
+          ],
+          [
+            575.0,
+            641.0
+          ],
+          [
+            575.0,
+            673.0
+          ],
+          [
+            36.0,
+            673.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "ประกาศงานพระเมรุเจ้าพื้นที่ทรมณีทุก\nแลงงานฉลองวัด",
+        "block_bbox": [
+          38,
+          683,
+          564,
+          754
+        ],
+        "block_id": 9,
+        "block_order": 10,
+        "group_id": 9,
+        "block_polygon_points": [
+          [
+            38.0,
+            683.0
+          ],
+          [
+            564.0,
+            683.0
+          ],
+          [
+            564.0,
+            754.0
+          ],
+          [
+            38.0,
+            754.0
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "ปรากฏกำหนดที่ 1 หรือ 100 ทีม 100 ไรท์ 100 ดร",
+        "block_bbox": [
+          39,
+          764,
+          576,
+          798
+        ],
+        "block_id": 10,
+        "block_order": 11,
+        "group_id": 10,
+        "block_polygon_points": [
+          [
+            38.75592041015625,
+            764.4746704101562
+          ],
+          [
+            571.8984985351562,
+            760.4735717773438
+          ],
+          [
+            572.142578125,
+            792.9989624023438
+          ],
+          [
+            39.0,
+            797.0000610351562
+          ]
+        ]
+      },
+      {
+        "block_label": "text",
+        "block_content": "W.A.T. 10000",
+        "block_bbox": [
+          36,
+          825,
+          575,
+          901
+        ],
+        "block_id": 11,
+        "block_order": 12,
+        "group_id": 11,
+        "block_polygon_points": [
+          [
+            36.0,
+            825.0
+          ],
+          [
+            575.0,
+            825.0
+          ],
+          [
+            575.0,
+            901.0
+          ],
+          [
+            36.0,
+            901.0
+          ]
+        ]
+      }
+    ],
+    "quality_warning": "Completion checks are not proof of transcription accuracy.",
+    "error": "Recognition did not explicitly finish normally"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "variant": "after",
+  "mode": "ocr",
+  "id": "thai-gazette",
+  "worker_sha": "8670a72455e80775dc2a406ea983256e5a07e194",
+  "reader_sha": "8670a72455e80775dc2a406ea983256e5a07e194",
+  "started_at": 1793558222.678077,
+  "ended_at": 1793558378.040372,
+  "elapsed_ms": 155362.15,
+  "request": {
+    "upload_id": "4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+    "mode": "ocr",
+    "cache": false,
+    "max_pages": 3,
+    "max_chars": 40000,
+    "ocr_policy": "quality"
+  },
+  "raw": {
+    "ok": false,
+    "output_complete": false,
+    "url": "http://127.0.0.1:8778/assets/4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+    "reader": "pdf-text",
+    "cache_hit": false,
+    "stages": [
+      {
+        "name": "fetch",
+        "ok": true,
+        "elapsed_ms": 14.14
+      },
+      {
+        "name": "pdf-text",
+        "ok": true,
+        "elapsed_ms": 3.52,
+        "needs_ocr": true
+      },
+      {
+        "name": "ocr-router",
+        "ok": false,
+        "elapsed_ms": 155116.5,
+        "error": "Repetition guard cancelled recognition; incomplete text; Recognition did not explicitly finish normally"
+      }
+    ],
+    "text": "",
+    "external_fallback_required": false,
+    "credits_used": 0,
+    "final_url": "http://127.0.0.1:8778/assets/4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+    "content_sha256": "4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+    "document_language_hint": null,
+    "total_pages": 3,
+    "pages_read": [
+      1,
+      3
+    ],
+    "ocr_pages": [
+      1,
+      2,
+      3
+    ],
+    "error": "Repetition guard cancelled recognition; incomplete text; Recognition did not explicitly finish normally",
+    "elapsed_ms": 155136.28,
+    "fallback_count": 1,
+    "fallback_request_id": "3d8729d723ae466b90142bdd5e78110f",
+    "suggested_next_step": "This uploaded document has no public URL. Review it or explicitly authorise a separate cloud document upload.",
+    "upload_id": "4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+    "source_kind": "uploaded-document",
+    "needs_review": true,
+    "server_commit": "8670a72455e80775dc2a406ea983256e5a07e194"
+  }
+}

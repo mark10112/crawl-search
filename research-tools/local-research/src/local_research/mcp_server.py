@@ -35,6 +35,7 @@ async def research_read(url: str, max_pages: int = 5, start_page: int = 1,
                         max_chars: int = 22000, cache: bool = True, ocr_engine: str = "auto",
                         language_hint: str | None = None, ocr_policy: str = 'balanced') -> dict:
     """Read: cache -> HTTP/browser/PDF text -> RapidOCR or LightOn GPU router.
+    max_chars=0 returns the complete selected page range; positive values request a preview. Check output_complete.
     OCR uses source language metadata or an optional known language hint; unknown/mixed -> LightOn.
     If external_fallback_required, call the returned Firecrawl tool once within the user's budget,
     then research_complete_fallback. Never claim a result is complete before this handoff completes.
