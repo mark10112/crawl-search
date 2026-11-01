@@ -1,7 +1,7 @@
 """Install per-user launchd services; run on the Mac after Git checkout/dependencies."""
 import json,os,plistlib,secrets,subprocess,time
 from pathlib import Path
-ROOT=Path(__file__).resolve().parents[2];HOME=Path.home();BASE=HOME/'research-server'
+ROOT=Path(os.getenv('RESEARCH_RELEASE_ROOT',str(Path(__file__).resolve().parents[2]))).resolve();HOME=Path.home();BASE=HOME/'research-server'
 os.environ['PATH']='/opt/homebrew/bin:/usr/local/bin:/Applications/Docker.app/Contents/Resources/bin:/usr/bin:/bin:/usr/sbin:/sbin'
 PKG=ROOT/'research-tools/local-research';PY=PKG/'.venv/bin/python';OCR=Path(os.getenv('RESEARCH_OCR_PYTHON',str(BASE/'envs/ocr/bin/python')))
 MODEL=HOME/'.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42'
@@ -27,16 +27,18 @@ p.write_text(yaml.safe_dump(s));p.chmod(0o600)
 subprocess.run([str(OCR),'-c',configure,str(settings),json.dumps(engine_names)],check=True)
 docker='/usr/local/bin/docker'
 image='searxng/searxng@sha256:f4aa660c54d062dedb268be84e821ea24e39f48c7a496af8dd02cc9eedb93847'
-subprocess.run([docker,'pull',image],check=True)
-containers=subprocess.check_output([docker,'ps','-a','--format','{{.Names}}'],text=True).splitlines()
+if os.getenv('RESEARCH_USE_LOCAL_IMAGE')=='1':
+    subprocess.run([docker,'image','inspect',image],check=True,stdout=subprocess.DEVNULL,timeout=30)
+else:subprocess.run([docker,'pull',image],check=True,timeout=180)
+containers=subprocess.check_output([docker,'ps','-a','--format','{{.Names}}'],text=True,timeout=30).splitlines()
 if 'crawl-search-searxng' not in containers:
     subprocess.run([docker,'run','-d','--name','crawl-search-searxng','--restart','unless-stopped','--cpus','2','--memory','1536m','--memory-swap','1536m',
-        '-p','127.0.0.1:8088:8080','-v',f'{config}:/etc/searxng',image],check=True)
+        '-p','127.0.0.1:8088:8080','-v',f'{config}:/etc/searxng',image],check=True,timeout=60)
 else:
-    actual=subprocess.check_output([docker,'inspect','--format','{{.Image}}','crawl-search-searxng'],text=True).strip()
-    expected=subprocess.check_output([docker,'image','inspect','--format','{{.Id}}',image],text=True).strip()
+    actual=subprocess.check_output([docker,'inspect','--format','{{.Image}}','crawl-search-searxng'],text=True,timeout=30).strip()
+    expected=subprocess.check_output([docker,'image','inspect','--format','{{.Id}}',image],text=True,timeout=30).strip()
     if actual!=expected:raise RuntimeError('Existing search container uses a different image; migrate it explicitly')
-    subprocess.run([docker,'restart','crawl-search-searxng'],check=True)
+    subprocess.run([docker,'restart','crawl-search-searxng'],check=True,timeout=60)
 logs=BASE/'logs';logs.mkdir(exist_ok=True)
 state=BASE/'state';state.mkdir(exist_ok=True);os.chmod(state,0o700)
 env={'PATH':'/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin','HF_HUB_DISABLE_XET':'1','PYTHONUNBUFFERED':'1','CRAWL4AI_NO_CLOUD_NOTICE':'1',

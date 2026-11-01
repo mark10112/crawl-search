@@ -2,6 +2,8 @@ import copy
 import importlib.util
 from pathlib import Path
 import unittest
+import tempfile
+from unittest.mock import Mock,patch
 
 path = Path(__file__).resolve().parents[3] / 'deploy/mac/deploy_agent.py'
 spec = importlib.util.spec_from_file_location('deploy_agent_under_test', path)
@@ -29,6 +31,28 @@ class FakeRuntime:
 
 
 class DeploymentTests(unittest.TestCase):
+    def test_cached_image_does_not_start_a_network_pull(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);(root/'deploy/mac').mkdir(parents=True)
+            (root/'deploy/mac/install_services.py').write_text("image='searxng/searxng@sha256:"+'a'*64+"'\n")
+            runtime=agent.Runtime.__new__(agent.Runtime);runtime.run=Mock()
+            with patch.object(agent.subprocess,'run',return_value=Mock(returncode=0)):
+                runtime.prepare_image(root)
+            runtime.run.assert_not_called()
+    def test_missing_image_is_pulled_in_preflight_with_timeout(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);(root/'deploy/mac').mkdir(parents=True)
+            (root/'deploy/mac/install_services.py').write_text("image='searxng/searxng@sha256:"+'b'*64+"'\n")
+            runtime=agent.Runtime.__new__(agent.Runtime);runtime.run=Mock()
+            with patch.object(agent.subprocess,'run',return_value=Mock(returncode=1)):
+                runtime.prepare_image(root)
+            self.assertEqual(runtime.run.call_args.kwargs['timeout'],180)
+            self.assertEqual(runtime.run.call_args.args[0][1],'pull')
+    def test_preflight_failure_never_changes_live_admission(self):
+        runtime=FakeRuntime('prepare');state={'current':{'sha':'old'}}
+        self.assertFalse(agent.transition(runtime,state,{'sha':'new'}))
+        self.assertFalse(runtime.resumed)
+        self.assertEqual(runtime.activated,[])
     def test_newest_run_must_be_successful_push_for_exact_main_sha(self):
         good = {'head_sha': 'abc', 'head_branch': 'main', 'event': 'push', 'status': 'completed',
             'conclusion': 'success', 'head_repository': {'full_name': 'mark10112/crawl-search'}, 'path': '.github/workflows/ci.yml'}
