@@ -22,6 +22,15 @@ class AccuracyRenderingTests(unittest.TestCase):
   self.assertLess(meta['width']*meta['height'],12100000)
   self.assertEqual(Image.open(io.BytesIO(data)).size,(meta['width'],meta['height']))
   d.close()
+ def test_dense_ruled_page_gets_detail_while_large_plain_page_keeps_baseline(self):
+  d=pymupdf.open();plain=d.new_page(width=600,height=800)
+  _,plain_meta=render_ocr_page(plain)
+  ruled=d.new_page(width=600,height=800)
+  for x in [100,200,300,400]:ruled.draw_line((x,100),(x,700),width=1)
+  _,table_meta=render_ocr_page(ruled)
+  self.assertEqual(plain_meta['dpi'],144)
+  self.assertEqual(table_meta['dpi'],300)
+  d.close()
  def test_band_partition_preserves_every_source_pixel(self):
   from PIL import ImageDraw
   image=Image.new('RGB',(1800,1800),'white');draw=ImageDraw.Draw(image)
@@ -41,6 +50,7 @@ class AccuracyRenderingTests(unittest.TestCase):
   self.assertTrue(r['table_band_complete'])
   self.assertEqual(r['choices'][0]['message']['content'],'<fcel>Alpha<fcel>123<nl><fcel>Beta<fcel>456<nl>')
   self.assertEqual(r['usage']['completion_tokens'],8)
+  self.assertEqual(r['received_chars'],len(r['choices'][0]['message']['content']))
  def test_incomplete_or_inconsistent_tiles_are_not_success(self):
   for parts,metadata in [([self.part('<fcel>Alpha<nl>')],[{'y':[0,100]}]),
     ([self.part('<fcel>Alpha<nl>'),self.part('<fcel>Beta<fcel>456<nl>')],[{'y':[0,100]},{'y':[100,200]}]),

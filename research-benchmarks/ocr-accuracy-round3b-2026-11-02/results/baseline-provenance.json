@@ -1,0 +1,54 @@
+{
+  "source": "../ocr-accuracy-round3-2026-11-01/results",
+  "note": "Same-turn fresh baseline, byte-identical document result files; combined telemetry/memory retain timestamps. No before inference in follow-up.",
+  "files": [
+    {
+      "file": "before-auto-thai-gazette.json",
+      "sha256": "7c5ef32279ef2332ef501fd772e331cf4a49fca633da9f5c04d6e73562e90f7a",
+      "started_at": 1793552946.8424551,
+      "ended_at": 1793552969.864435
+    },
+    {
+      "file": "before-auto-thai-royal.json",
+      "sha256": "4186bd4cc8224afdadd952d8c80dad2b8d787606832f2e81b26c8feebcc0664f",
+      "started_at": 1793552969.8669848,
+      "ended_at": 1793553023.488718
+    },
+    {
+      "file": "before-auto-us-census.json",
+      "sha256": "2d295e7e5f0adae6addf87dccf7e817b06e7238e6d1c0c57094fd3dcec3dd44a",
+      "started_at": 1793553023.4917061,
+      "ended_at": 1793553023.727011
+    },
+    {
+      "file": "before-auto-us-preservation.json",
+      "sha256": "f9a94114cf95165f48e699d72126451c0c9883a887e3a9ba4c2363970a2b675b",
+      "started_at": 1793553023.727944,
+      "ended_at": 1793553024.0470731
+    },
+    {
+      "file": "before-ocr-thai-gazette.json",
+      "sha256": "179bbbadf242c1aa562683f1be4aeb55fef443533bfee210cc97e2b3b00030bc",
+      "started_at": 1793553024.049746,
+      "ended_at": 1793553046.975764
+    },
+    {
+      "file": "before-ocr-thai-royal.json",
+      "sha256": "68d9aae5c40a87dda674732ecd9990ba31adc58670bb9d61193b134ee2e0c99b",
+      "started_at": 1793553046.977293,
+      "ended_at": 1793553101.060812
+    },
+    {
+      "file": "before-ocr-us-census.json",
+      "sha256": "21997c5d5818f60450d6c27055d55e531bcb6f62f5991369bcef3bbfd89b9515",
+      "started_at": 1793553101.064043,
+      "ended_at": 1793553202.642145
+    },
+    {
+      "file": "before-ocr-us-preservation.json",
+      "sha256": "1dd8e7e7db1c31682b2417103c938b4d1218dc1c9d1d82f07727b51fa5d7c134",
+      "started_at": 1793553202.643349,
+      "ended_at": 1793553236.437363
+    }
+  ]
+}

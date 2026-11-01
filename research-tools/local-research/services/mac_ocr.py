@@ -78,7 +78,18 @@ def forward_recognition(path,body):
                 'finish_reason':payload['choices'][0]['finish_reason'],'usage':payload.get('usage'),
                 'repetition_guard':payload.get('repetition_guard',False)})
             if payload['choices'][0]['finish_reason'] not in {'stop','eos_token'}:break
-        return httpx.Response(200,json=combine(parts,metadata,image.height))
+        assembled=combine(parts,metadata,image.height)
+        if not assembled['table_band_complete'] and all(p['choices'][0]['finish_reason'] in {'stop','eos_token'} for p in parts):
+            # Inconsistent band structure is not accepted or padded into a
+            # success. Obtain a new complete read of the original table crop.
+            single=stream_recognition(path,body)
+            if single.status_code!=200:return single
+            payload=single.json()
+            payload['table_attempts']=[{'strategy':'bands','complete':False,'bands':metadata,
+                'columns':assembled['table_band_columns']},{'strategy':'single-high-detail',
+                'finish_reason':payload['choices'][0]['finish_reason'],'usage':payload.get('usage')}]
+            return httpx.Response(200,json=payload)
+        return httpx.Response(200,json=assembled)
 
 class Proxy(BaseHTTPRequestHandler):
     def do_POST(self):
@@ -93,7 +104,7 @@ class Proxy(BaseHTTPRequestHandler):
                     'serialized':True,'repetition_guard':payload.get('repetition_guard',False),
                     'token_usage_complete':payload.get('token_usage_complete',True),'received_chars':payload.get('received_chars'),
                     'table_bands':payload.get('table_bands'),'table_band_complete':payload.get('table_band_complete'),
-                    'table_band_columns':payload.get('table_band_columns')} for c in payload.get('choices',[]))
+                    'table_band_columns':payload.get('table_band_columns'),'table_attempts':payload.get('table_attempts')} for c in payload.get('choices',[]))
             self.send_response(r.status_code);self.send_header('Content-Type','application/json');self.end_headers();self.wfile.write(r.content)
         except Exception as exc:
             self.send_response(502);self.end_headers();self.wfile.write(json.dumps({'error':str(exc)}).encode())
@@ -111,7 +122,7 @@ def ocr(body):
     if policy not in {'balanced','quality'}:raise ValueError('Invalid OCR policy')
     profile=body.get('recognition_profile','detail')
     if profile not in {'detail','baseline'}:raise ValueError('Invalid recognition profile')
-    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v7-bounded-profile',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64,profile]).encode()).hexdigest();cache=STATE/(key+'.json')
+    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v8-leader-aware',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64,profile]).encode()).hexdigest();cache=STATE/(key+'.json')
     with lock:
         recognition_profile=profile
         if body.get('cache',True) and cache.exists():

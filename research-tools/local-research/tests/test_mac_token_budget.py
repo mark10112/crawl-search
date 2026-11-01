@@ -75,6 +75,17 @@ class TokenBudgetTests(unittest.TestCase):
         self.assertEqual(result['choices'][0]['finish_reason'],'length')
         self.assertIsNone(result['usage']['completion_tokens'])
         self.assertFalse(result['token_usage_complete'])
+    def test_band_structure_conflict_uses_new_whole_table_read(self):
+        import json,httpx
+        stream=io.BytesIO();Image.new('RGB',(1200,1000),'white').save(stream,format='PNG')
+        body={'messages':[{'role':'user','content':[{'type':'image_url','image_url':{'url':'data:image/png;base64,'+base64.b64encode(stream.getvalue()).decode()}},{'type':'text','text':'Table Recognition:'}]}]}
+        def response(text):return httpx.Response(200,json={'choices':[{'message':{'content':text},'finish_reason':'stop'}],'usage':{'completion_tokens':5},'token_usage_complete':True})
+        with patch.object(self.worker,'stream_recognition',side_effect=[response('<fcel>discarded<fcel>12<nl>'),response('<fcel>other<fcel>34<fcel>56<nl>'),response('<fcel>fresh<fcel>78<fcel>90<nl>')]) as request:
+            result=self.worker.forward_recognition('/v1/chat/completions',body).json()
+        self.assertEqual(request.call_count,3)
+        self.assertEqual(result['choices'][0]['message']['content'],'<fcel>fresh<fcel>78<fcel>90<nl>')
+        self.assertEqual(result['table_attempts'][0]['complete'],False)
+        self.assertEqual(result['table_attempts'][1]['strategy'],'single-high-detail')
     def test_normal_stream_keeps_full_text_and_final_token_usage(self):
         import json
         events=[{'choices':[{'delta':{'content':'Public revenue records and expenditure evidence.'},'finish_reason':None}]},

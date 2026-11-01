@@ -1,10 +1,17 @@
 """Detect incomplete generation; this is not an OCR accuracy score."""
 import re
+import unicodedata
 from bs4 import BeautifulSoup
 
 def excessive_repetition(text):
     plain=BeautifulSoup(text,'html.parser').get_text(' ')
-    return bool(re.search(r'(.{2,40}?)\1{19,}',re.sub(r'\s+','',plain)))
+    compact=re.sub(r'\s+','',plain)
+    for match in re.finditer(r'(.{2,40}?)\1{19,}',compact):
+        # Printed dot leaders / dashed empty table fields are real structure.
+        # Repeated letters, marks and numbers still trigger the existing rule.
+        semantic=any(unicodedata.category(c)[0] in 'LNM' for c in match.group(1))
+        if semantic or len(match.group(0))>=1024:return True
+    return False
 
 def compact_markup(text):
     """Drop presentation attributes, never cells, spans, text or table structure."""

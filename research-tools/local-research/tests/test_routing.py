@@ -14,7 +14,7 @@ class RoutingTests(unittest.IsolatedAsyncioTestCase):
         self.stack.settings.ocr_service_url='http://127.0.0.1:8091'
         def response(value):return httpx.Response(200,json=value,request=httpx.Request('POST','http://127.0.0.1/ocr'))
         text='A complete independent recognition of the source page, with provenance.'
-        self.stack.client.post=AsyncMock(side_effect=[response({'ok':False,'text':'000000','error':'guard','quality_flags':['guard']}),
+        self.stack.client.post=AsyncMock(side_effect=[response({'ok':False,'text':'000000','error':'guard','quality_flags':['guard'],'elapsed_ms':5}),
             response({'ok':True,'text':text,'engine':'paddle','elapsed_ms':1,'route':[]})])
         result=await self.stack.router_ocr(data,None,'quality',False)
         calls=self.stack.client.post.call_args_list
@@ -23,6 +23,8 @@ class RoutingTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual([Image.open(io.BytesIO(base64.b64decode(c.kwargs['json']['image_base64']))).size for c in calls],[(300,300),(144,144)])
         self.assertIn(text,result['text']);self.assertNotIn('000000',result['text'])
         self.assertEqual([a['ok'] for a in result['routes'][0]['attempts']],[False,True])
+        self.assertEqual(result['conversion_ms'],6)
+        self.assertEqual(result['routes'][0]['selected_elapsed_ms'],1)
         self.assertTrue(all(c.kwargs['json']['cache'] is False for c in calls))
 
     async def test_both_resolution_attempts_fail_without_third_attempt_or_false_success(self):

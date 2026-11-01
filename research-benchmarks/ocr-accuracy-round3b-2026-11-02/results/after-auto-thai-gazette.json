@@ -1,0 +1,810 @@
+{
+  "variant": "after",
+  "mode": "auto",
+  "id": "thai-gazette",
+  "worker_sha": "92af4f08f152b326fe52ca7518f04723c510814d",
+  "reader_sha": "92af4f08f152b326fe52ca7518f04723c510814d",
+  "started_at": 1793553908.780044,
+  "ended_at": 1793553933.7201831,
+  "elapsed_ms": 24940.1,
+  "request": {
+    "upload_id": "4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+    "mode": "auto",
+    "cache": false,
+    "max_pages": 3,
+    "max_chars": 40000,
+    "ocr_policy": "balanced"
+  },
+  "raw": {
+    "ok": true,
+    "output_complete": true,
+    "url": "http://127.0.0.1:8778/assets/4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+    "reader": "router:paddleocr-vl-1.6-mlx-layout",
+    "cache_hit": false,
+    "stages": [
+      {
+        "name": "fetch",
+        "ok": true,
+        "elapsed_ms": 16.7
+      },
+      {
+        "name": "pdf-text",
+        "ok": true,
+        "elapsed_ms": 4.91,
+        "needs_ocr": true
+      },
+      {
+        "name": "ocr-router",
+        "ok": true,
+        "elapsed_ms": 24779.45
+      }
+    ],
+    "text": "\n\n<!-- subset page 1 -->\n# สารบาดู\n\nW.ศ. ๒๔๐๕\n\n๒๑๖ ประกาศสงกรานต์ ปี๒๐ จัตวาศก\n\n๒๑๘ ประกาศเรื่องการถวายทองเงินพระเจ้าลูกเธอ\n\nในการโสกันต์\n\nประกาศเรื่องเกณฑ์ทรายโรยถนนในการ\n\nพระศพ\n\nประกาศห้ามมิติให้กราบบังคมทุลทักอ้วนผอม\n\nขาวดำ\n\nประกาศวางโทษเรื่องทักอ้วนผอม\n\n\n\n\n\n\n\n\n\n\n\n<div style=\"text-align: center;\"><img src=\"imgs/img_in_seal_box_388_768_947_1285.jpg\" alt=\"Image\" width=\"43%\" /></div>\n\n\nประกาศให้เรียกกลองวัดชัยพฤกษ์ว่ากลองมหา\n\nสวัสดิ่ง กลองเข้าไปพระปฐมว่ากลองเจ็ดย์บุชา\n\nออส ประกาศให้ชำระตัวเลขพระกลังสุภรัต ซึ่งไป\n\nแอบอิงอยูโนกรมต่างๆ ส่งให้กลังสุภรัต\n\n<!-- subset page 2 -->\n## (b)\n\nประกาศให้คัดเรื่องความที่รายภูรวมของร้อยล้าน\n\nทุลเกล้า ๒ ถวาย\n\n๒๒๐ ประกาศให้เก็บภาษีหัวเปียรวมอยูโนบ่อน\n\nปรากฏให้ใช้กะแปะอัฐและโสพสที่ทำขึ้นใหม่\n\nปรากฏห้ามไม่ให้ต้นกันเรื่องกะแปะอัฐและโสพส\n\nจะใช้ไม่ได้\n\n๒๒๓ ประกาศกำหนดในวันปัจจุรัโสพสลงทัพนแข็ง ๆ\n\n๒๒๔ ประกาศขยายสถานทีวัตหน้ายแล้วบกะแปะอัจฉริยะ\n\nและโสเซอร์\n\n๒๒๕ ๓๙ประกาศพระราชทานเปลี่ยนที่วิสงค์ความสีมา\n\nเมืองลพบุรี\n\nประกาศการพระราชพิธรณีสร้างโสชันต์พระเจ้า\n\nลูกเธอ\n\nปรากฏให้ข้าราชการที่ทำการวิว่าหมดกลโกนจุก\n\nบุตร นำความกราบบังคมทุล ๒ แลข้าราชการใน\n\nทำเนียบ ถึงแก่กรรมให้บอกกระทรวงวัง\n\nประกาศไม่ให้หม่อมเจ้าหม่อมราชวงศ์ตลอดจน\n\nบุตรหลานเหล่นไปเทียวตามหัวเมืองโดยมิได้\n\nทุลลา\n\n๒๒๙ ประกาศเรื่องการนุ่มขาว แลกระแสพระราชคำรัส\n\nในการทีทรงแจกพระราชทรัพย์ส่วนพระองค์\n\n<!-- subset page 3 -->\n## (ω)\n\n๒๖๐\n\n๒๓๑\n\n๒๓๖\n\nประกาศมหาสงกรานต์ ปีกุน เบญจศก\n\nประกาศพระราชบัญญัติรับพ้องความเจ้าแล\n\nห้ามเจ้ามิให้ไปไกลพระนคร\n\n๑๐๖\n\nประกาศการทรงปฏิสังขรณ์พระเจ้ายีวัคชุมพล-\n\nนิกายราม เกาะบางปะอิน\n\n๒๖๓\n\nประกาศพระราชทานอนุญาตให้ข้ารำชการ\n\nฝ่ายในทุลลาออกนอกราชการได้\n\nประกาศพิกัดราคาทางแปร ทศ พิศ พัดถึงสัตว์\n\nประกาศห้ามไม่ให้เชื่อถือข้าราชการนอก\n\nทำแหน่ง\n\nพระราชปรารภเรืองเดินเป็นผู้ว่าราชการเมือง\n\nประกาศว่าด้วยการเดินเป็นเจ้าเมือง\n\nประกาศงานพระเมรุเจ้าฟ้าจันทรมณาทล\n\nแลงงานฉลองวัด\n\nประกาศพิกัดภาษี เรือ ตึก แพง โรง ร้าน\n\nพ.ศ. ๒๕๐๓\n\nW.K. 1200\n\nปรากฏสงครามตั้งเป็นชวด ฯศก",
+    "external_fallback_required": false,
+    "credits_used": 0,
+    "final_url": "http://127.0.0.1:8778/assets/4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+    "content_sha256": "4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+    "document_language_hint": null,
+    "total_pages": 3,
+    "pages_read": [
+      1,
+      3
+    ],
+    "ocr_pages": [
+      1,
+      2,
+      3
+    ],
+    "ocr_routes": [
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 11,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 4,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 3,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 7,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 7,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 183,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 212,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 56,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 82,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 56,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 80,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "balanced",
+        "language_hint": null,
+        "elapsed_ms": 6496.44,
+        "quality_warning": "Completion checks are not proof of transcription accuracy.",
+        "rendering": {
+          "dpi": 300,
+          "width": 1283,
+          "height": 2006,
+          "encoded_bytes": 1384716
+        },
+        "attempts": [
+          {
+            "ok": true,
+            "engine": "paddleocr-vl-1.6-mlx-layout",
+            "error": null,
+            "quality_flags": [],
+            "route": [
+              {
+                "engine": "paddle-layout+mlx",
+                "regions": 11,
+                "generations": [
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 4,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 3,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 7,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 7,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 183,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 212,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 56,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 82,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 56,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 80,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  }
+                ]
+              }
+            ],
+            "rendering": {
+              "dpi": 300,
+              "width": 1283,
+              "height": 2006,
+              "encoded_bytes": 1384716
+            },
+            "recognition_profile": "detail"
+          }
+        ]
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 12,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 42,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 60,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 4,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 3,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 37,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 40,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 27,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 39,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 35,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 54,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 43,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 43,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 50,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 57,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 50,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 57,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 78,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 116,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 36,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 47,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 59,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 85,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 66,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 82,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "balanced",
+        "language_hint": null,
+        "elapsed_ms": 9448.13,
+        "quality_warning": "Completion checks are not proof of transcription accuracy.",
+        "rendering": {
+          "dpi": 300,
+          "width": 1300,
+          "height": 2006,
+          "encoded_bytes": 1791414
+        },
+        "attempts": [
+          {
+            "ok": true,
+            "engine": "paddleocr-vl-1.6-mlx-layout",
+            "error": null,
+            "quality_flags": [],
+            "route": [
+              {
+                "engine": "paddle-layout+mlx",
+                "regions": 12,
+                "generations": [
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 42,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 60,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 4,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 3,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 37,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 40,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 27,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 39,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 35,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 54,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 43,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 43,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 50,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 57,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 50,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 57,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 78,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 116,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 36,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 47,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 59,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 85,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 66,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 82,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  }
+                ]
+              }
+            ],
+            "rendering": {
+              "dpi": 300,
+              "width": 1300,
+              "height": 2006,
+              "encoded_bytes": 1791414
+            },
+            "recognition_profile": "detail"
+          }
+        ]
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 3,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 4,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 3,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 34,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 36,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 378,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 494,
+                "table_bands": null,
+                "table_band_complete": null,
+                "table_band_columns": null
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "balanced",
+        "language_hint": null,
+        "elapsed_ms": 8361.38,
+        "quality_warning": "Completion checks are not proof of transcription accuracy.",
+        "rendering": {
+          "dpi": 300,
+          "width": 1300,
+          "height": 1981,
+          "encoded_bytes": 1624997
+        },
+        "attempts": [
+          {
+            "ok": true,
+            "engine": "paddleocr-vl-1.6-mlx-layout",
+            "error": null,
+            "quality_flags": [],
+            "route": [
+              {
+                "engine": "paddle-layout+mlx",
+                "regions": 3,
+                "generations": [
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 4,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 3,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 34,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 36,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  },
+                  {
+                    "finish_reason": "stop",
+                    "tokens": 378,
+                    "requested_max_tokens": 8192,
+                    "effective_max_tokens": 8192,
+                    "repetition_penalty": 1.0,
+                    "repetition_context_size": 64,
+                    "serialized": true,
+                    "repetition_guard": false,
+                    "token_usage_complete": true,
+                    "received_chars": 494,
+                    "table_bands": null,
+                    "table_band_complete": null,
+                    "table_band_columns": null
+                  }
+                ]
+              }
+            ],
+            "rendering": {
+              "dpi": 300,
+              "width": 1300,
+              "height": 1981,
+              "encoded_bytes": 1624997
+            },
+            "recognition_profile": "detail"
+          }
+        ]
+      }
+    ],
+    "ocr_conversion_ms": 24305.949999999997,
+    "ocr_cold": false,
+    "fast_ocr_error": null,
+    "ocr_warning": "OCR subset page numbers map in order to ocr_pages. OCR may misread names, dates and Thai text; verify against page images.",
+    "extracted_chars": 1884,
+    "truncated": false,
+    "elapsed_ms": 24803.2,
+    "fallback_count": 1,
+    "upload_id": "4295455e037ff8c4ec98d815322bffc7fe96f84e686158080505e7279e171627",
+    "source_kind": "uploaded-document",
+    "server_commit": "92af4f08f152b326fe52ca7518f04723c510814d"
+  }
+}

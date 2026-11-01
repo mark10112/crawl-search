@@ -24,9 +24,32 @@ from lxml import html as html_parser
 def ms(start: float) -> float:
     return round((time.perf_counter() - start) * 1000, 2)
 
+def has_table_rules(page):
+    """Detect several separated long vertical rules on a cheap preview."""
+    area=page.rect.width*page.rect.height
+    preview_dpi=min(48,int(72*math.sqrt(500000/area)))
+    if preview_dpi<1:return False
+    pix=page.get_pixmap(dpi=preview_dpi,colorspace=pymupdf.csGRAY,alpha=False)
+    data=pix.samples;w,h=pix.width,pix.height;columns=[];minimum=max(20,int(h*.08))
+    for x in range(1,w-1):
+        run=0;longest=0
+        for y in range(h):
+            offset=y*w+x
+            if min(data[offset-1:offset+2])<170:run+=1;longest=max(longest,run)
+            else:run=0
+        if longest>=minimum:columns.append(x)
+    groups=[]
+    for x in columns:
+        if not groups or x-groups[-1][-1]>2:groups.append([x])
+        else:groups[-1].append(x)
+    return len(groups)>=4
+
 def render_ocr_page(page,target_dpi=300):
     """Keep real small-print detail, with bounded pixels and encoded payload."""
-    dpi=min(target_dpi,int(72*math.sqrt(12000000/(page.rect.width*page.rect.height))))
+    area=page.rect.width*page.rect.height
+    if target_dpi>144 and area*(target_dpi/72)**2>4000000 and not has_table_rules(page):
+        target_dpi=144
+    dpi=min(target_dpi,int(72*math.sqrt(12000000/area)))
     if dpi<1:raise ValueError('PDF page exceeds OCR pixel budget at minimum DPI')
     while True:
         pix=page.get_pixmap(dpi=dpi,alpha=False)
@@ -237,7 +260,7 @@ class ResearchStack:
             def attempt(value,metadata,profile):
                 return {'ok':value.get('ok'),'engine':value.get('engine'),'error':value.get('error'),
                         'quality_flags':value.get('quality_flags'),'route':value.get('route'),
-                        'rendering':metadata,'recognition_profile':profile}
+                        'rendering':metadata,'recognition_profile':profile,'elapsed_ms':value.get('elapsed_ms')}
             if rendering:
                 selected_rendering=rendering[number-1]
                 attempts.append(attempt(result,selected_rendering,'detail'))
@@ -256,7 +279,10 @@ class ResearchStack:
                 raise RuntimeError(result.get('error','OCR router returned unusable text'))
             texts.append(f'<!-- subset page {number} -->\n'+result['text'])
             routes.append({k:result.get(k) for k in ['engine','revision','route','cache_hit','policy','language_hint','elapsed_ms','quality_warning']})
-            if rendering:routes[-1].update(rendering=selected_rendering,attempts=attempts)
+            if rendering:
+                routes[-1].update(rendering=selected_rendering,attempts=attempts,
+                    selected_elapsed_ms=result.get('elapsed_ms'),
+                    elapsed_ms=sum(a.get('elapsed_ms') or 0 for a in attempts))
         return {'text':'\n\n'.join(texts),'engine':'router:'+','.join(dict.fromkeys(r['engine'] for r in routes)),
                 'cold':False,'conversion_ms':sum(r['elapsed_ms'] for r in routes),'routes':routes}
 
@@ -276,7 +302,7 @@ class ResearchStack:
         max_pages = max(1, min(max_pages, 10))
         start_page = max(1, start_page)
         start = time.perf_counter()
-        key = hashlib.sha256(json.dumps(["reader-v9-native300-bounded-retry", url, mode, max_chars, max_pages, start_page, ocr_engine,language_hint,ocr_policy]).encode()).hexdigest()
+        key = hashlib.sha256(json.dumps(["reader-v10-adaptive-detail-leader-aware", url, mode, max_chars, max_pages, start_page, ocr_engine,language_hint,ocr_policy]).encode()).hexdigest()
         cached_path = self.settings.state_dir / (key + ".json")
         if cache and cached_path.exists() and time.time() - cached_path.stat().st_mtime < self.settings.cache_seconds:
             result = json.loads(cached_path.read_text(encoding="utf-8"))

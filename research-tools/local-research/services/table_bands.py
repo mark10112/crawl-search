@@ -51,5 +51,6 @@ def combine(parts,metadata,height):
     usage={key:sum((p.get('usage') or {}).get(key) or 0 for p in parts) for key in ['completion_tokens','prompt_tokens','total_tokens']} if usage_complete else {'completion_tokens':None}
     out={**parts[-1],'choices':[{'index':0,'message':{'role':'assistant','content':''.join(texts)},'finish_reason':'stop' if complete else 'length'}],
          'usage':usage,'token_usage_complete':usage_complete,'repetition_guard':any(p.get('repetition_guard',False) for p in parts),
+         'received_chars':sum(len(p['choices'][0]['message']['content']) for p in parts),'assembled_chars':len(''.join(texts)),
          'table_bands':metadata,'table_band_columns':widths,'table_band_complete':bool(complete),'engine':'paddle-vl-table-bands'}
     return out
