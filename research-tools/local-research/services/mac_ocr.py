@@ -4,7 +4,7 @@ from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
 from pathlib import Path
 import httpx
 from PIL import Image
-from bs4 import BeautifulSoup
+from completion_checks import completion_flags
 
 REVISION='c5630abae1d940eafe0697512a0325494b02ab42'
 STATE=Path(os.environ.get('MAC_OCR_STATE',str(Path.home()/'research-server/state/ocr')));STATE.mkdir(parents=True,exist_ok=True)
@@ -49,12 +49,7 @@ def ocr(body):
             markdown=result.markdown;texts.append(markdown.get('markdown_texts',''))
             detail=result.json
             if isinstance(detail,dict):regions.extend(detail.get('res',detail).get('parsing_res_list',[]))
-        text='\n\n'.join(texts);plain=BeautifulSoup(text,'html.parser').get_text(' ')
-        flags=[]
-        if not calls or any(c['finish_reason'] not in {'stop','eos_token'} for c in calls):flags.append('Recognition did not explicitly finish normally')
-        if re.search(r'(.{2,40}?)\1{19,}',re.sub(r'\s+','',plain)):flags.append('Excessive repeated text')
-        if len(plain.strip())<40:flags.append('Too little recognised text')
-        if text.count('<table')!=text.count('</table>'):flags.append('Unclosed table')
+        text='\n\n'.join(texts);flags=completion_flags(text,calls)
         result={'ok':not flags,'text':text,'engine':'paddleocr-vl-1.6-mlx-layout','revision':REVISION,'cache_hit':False,
             'truncated':bool(flags),'policy':policy,'language_hint':body.get('language_hint'),'elapsed_ms':round((time.perf_counter()-start)*1000,2),
             'route':[{'engine':'paddle-layout+mlx','regions':len(regions),'generations':list(calls)}],

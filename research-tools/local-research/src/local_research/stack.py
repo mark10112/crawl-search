@@ -221,7 +221,7 @@ class ResearchStack:
             if not result.get('ok'):
                 raise RuntimeError(result.get('error','OCR router returned unusable text'))
             texts.append(f'<!-- subset page {number} -->\n'+result['text'])
-            routes.append({k:result.get(k) for k in ['engine','route','cache_hit','policy','language_hint','elapsed_ms']})
+            routes.append({k:result.get(k) for k in ['engine','revision','route','cache_hit','policy','language_hint','elapsed_ms','quality_warning']})
         return {'text':'\n\n'.join(texts),'engine':'router:'+','.join(dict.fromkeys(r['engine'] for r in routes)),
                 'cold':False,'conversion_ms':sum(r['elapsed_ms'] for r in routes),'routes':routes}
 
@@ -281,7 +281,7 @@ class ResearchStack:
                     if content_type.startswith('image/'):
                         ocr=await stage('ocr-router',self.router_ocr(data,language_hint,ocr_policy,cache))
                         text=ocr['text']
-                        result.update(reader=ocr['engine'],ocr_routes=ocr['routes'])
+                        result.update(reader=ocr['engine'],ocr_routes=ocr['routes'],ocr_warning='OCR completion checks are not proof of transcription accuracy; verify against the image.')
                     elif data.startswith(b"%PDF") or "application/pdf" in content_type:
                         parse_start = time.perf_counter()
                         with pymupdf.open(stream=data, filetype="pdf") as pdf:
