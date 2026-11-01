@@ -9,7 +9,7 @@ assert not (WORK/'started.json').exists(),'Use a fresh run directory, do not ove
 BEFORE=BASE/'deployments/releases/ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b'
 PY=BEFORE/'research-tools/local-research/.venv/bin/python';OCR=BASE/'envs/ocr/bin/python'
 MODEL=Path.home()/'.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42'
-domain=f'gui/{os.getuid()}';processes={};paused=False
+domain=f'gui/{os.getuid()}';processes={};paused=False;ocr_stopped=False
 def run(args,**kwargs):return subprocess.run([str(a) for a in args],check=True,**kwargs)
 def write(path,data):
     temp=path.with_suffix('.tmp');temp.write_text(json.dumps(data,ensure_ascii=False,indent=2));temp.replace(path)
@@ -37,8 +37,9 @@ def restart_mlx():
 def restore():
     for name in list(processes):stop(name)
     if paused:
-        plist=Path.home()/'Library/LaunchAgents/local.crawl-search.ocr.plist'
-        run(['launchctl','bootstrap',domain,plist])
+        if ocr_stopped:
+            plist=Path.home()/'Library/LaunchAgents/local.crawl-search.ocr.plist'
+            run(['launchctl','bootstrap',domain,plist])
         wait_ready('http://127.0.0.1:8091/health')
         r=httpx.post('http://127.0.0.1:8768/maintenance',json={'action':'resume'},timeout=20);r.raise_for_status()
         run(['launchctl','bootstrap',domain,Path.home()/'Library/LaunchAgents/local.crawl-search.deploy.plist'])
@@ -64,9 +65,9 @@ try:
         if not jobs.get('running',0) and not jobs.get('queued',0):break
         time.sleep(1)
     else:raise TimeoutError('Production jobs busy')
-    run(['launchctl','bootout',domain+'/local.crawl-search.ocr']);time.sleep(1)
+    run(['launchctl','bootout',domain+'/local.crawl-search.ocr']);ocr_stopped=True;time.sleep(1)
     spawn('gateway',[PY,'-m','local_research.server_api'],env);wait_ready('http://127.0.0.1:8778/health')
-    spawn('memory',[OCR,ROOT/'research-benchmarks/mac-vs-firecrawl-2026-11-01/memory_monitor.py',WORK/'memory.jsonl'],env)
+    spawn('memory',[OCR,HERE/'memory_monitor.py',WORK/'memory.jsonl'],env)
     with httpx.Client(base_url='http://127.0.0.1:8778',timeout=30) as client:
         uploads={}
         for case in manifest:
