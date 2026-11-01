@@ -42,10 +42,11 @@ elif mode in ['paddle_mobile','paddle_mobile_ocr']:
         raw=results[0].json;raw=raw.get('res',raw)
         if mode=='paddle_mobile':return {'text':raw['rec_text'],'score':float(raw['rec_score']),'complete':True,'raw':raw}
         return {'text':' '.join(raw['rec_texts']),'scores':raw['rec_scores'],'complete':True,'raw':raw}
-elif mode in ['tesseract_fast','tesseract_best']:
+elif mode.startswith('tesseract_'):
     variant=mode.split('_')[1];folder=Path.home()/'research-server/models/tesseract-round5'/variant
     def read(file,language):
-        command=['/usr/bin/time','-l','/opt/homebrew/bin/tesseract',str(file),'stdout','--tessdata-dir',str(folder),'-l',language,'--oem','1','--psm','7']
+        psm=mode.split('_')[2].replace('psm','') if len(mode.split('_'))>2 else '7'
+        command=['/usr/bin/time','-l','/opt/homebrew/bin/tesseract',str(file),'stdout','--tessdata-dir',str(folder),'-l',language,'--oem','1','--psm',psm]
         result=subprocess.run(command,capture_output=True,text=True,timeout=30)
         peak=re.search(r'(\d+)\s+maximum resident set size',result.stderr)
         return {'text':result.stdout.strip(),'complete':result.returncode==0,'returncode':result.returncode,
