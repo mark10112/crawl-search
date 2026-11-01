@@ -22,7 +22,12 @@ async def run_job(args):
         local=ResearchStack(Settings(allow_local=True,state_dir=stack.settings.state_dir,ocr_service_url=stack.settings.ocr_service_url))
         try:
             result=await local.read(f'http://127.0.0.1:{os.getenv("LOCAL_RESEARCH_PORT","8768")}/assets/{ident}',**args)
-            result.update(upload_id=ident,source_kind='uploaded-document');return result
+            result.update(upload_id=ident,source_kind='uploaded-document')
+            if result.get('external_fallback_required'):
+                result['external_fallback_required']=False;result['needs_review']=True
+                result.pop('next_tool_call',None)
+                result['suggested_next_step']='This uploaded document has no public URL. Review it or explicitly authorise a separate cloud document upload.'
+            return result
         finally:await local.close()
     return await stack.read(**args)
 async def consume():
@@ -70,7 +75,8 @@ async def upload(request):
     except ValueError as exc:return JSONResponse({'error':str(exc)},status_code=400)
 async def asset(request):
     try:
-        path=store.asset(request.path_params['ident']);magic=path.open('rb').read(8)
+        path=store.asset(request.path_params['ident'])
+        with path.open('rb') as source:magic=source.read(8)
         media='application/pdf' if magic.startswith(b'%PDF') else 'image/png' if magic.startswith(b'\x89PNG') else 'image/jpeg' if magic.startswith(b'\xff\xd8') else 'image/tiff'
         return FileResponse(path,media_type=media)
     except ValueError:return JSONResponse({'error':'Unknown asset'},status_code=404)
