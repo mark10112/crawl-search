@@ -142,3 +142,13 @@ The 1.05 global-penalty trial did not resolve Thai length stops and is retained 
 The final experimental candidate also consumes upstream SSE and closes the HTTP stream when the existing excessive-repetition rule fires. This is an incomplete, rejected recognition result, not a repaired transcript. Cancellation before final usage leaves token counts unknown. The selected full-output API and table compaction do not override this failure. Final evidence is in `research-benchmarks/ocr-guard-round2c-2026-11-01/REPORT.md`.
 
 Clients explicitly requesting `max_chars=0` check the server feature before submitting. An old server interprets zero as a short preview, so unsupported full-output requests fail clearly rather than silently returning a 100-character result. No production service needs to change before this candidate is accepted.
+
+## Accuracy candidate after round 3 (PR #3; not deployed)
+
+Input rendering now preserves up to 300 DPI for small pages and pages with several long vertical table rules. A <=500k-pixel preview selects detail for large ruled pages; large plain pages retain 144 DPI. Rendering remains bounded by 12MP and 20MiB encoded input. The selected DPI and dimensions are recorded per page.
+
+Dense tables are read in source-contiguous image bands (no missing/overlapping pixels). Inconsistent band structure is never padded into a success: one new full-table recognition is attempted and both traces retained. A failed detail page may be rerendered and independently recognised once with the baseline profile. Both failures remain failures; failed attempts count toward elapsed time.
+
+Repetition checks distinguish printed dot/dash leaders from repeated letters/numbers/marks. Semantic 20x repetition checks remain; punctuation-only generation is bounded at 1024 characters. Legitimate table leaders must not trigger a false cancellation. No reference-derived corrections or CPU prototype outputs are used.
+
+See `research-benchmarks/ocr-accuracy-round3c-2026-11-02/REPORT.md` for final measured evidence; earlier failed trials and CPU/grid pilots are retained separately. All changes remain on the experimental branch.

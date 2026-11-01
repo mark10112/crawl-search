@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "document_observations": 16,
+  "source_hashes_verified": 16,
+  "baseline_files_byte_identical": 8,
+  "after_outputs_complete": 8,
+  "forced_table_rows_correct": 4,
+  "forced_table_rows_total": 15,
+  "reference_hash": "72a37213b39a3a3dd1b4e344162d962b39c3c460fcad2bf2dfea105620301ac2",
+  "inference_commit": "9859627a68a7960f575a91f50aba34107543dbda",
+  "production_commit": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b",
+  "test_evidence": "57 tests passed; GitHub Actions run 41333120827 succeeded for inference commit",
+  "note": "Completion is not character accuracy. One observation per condition; reused baseline."
+}
