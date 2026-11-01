@@ -8,7 +8,7 @@ flowchart LR
   P --> Q[GitHub-hosted Windows + Linux checks]
   Q --> M[Merge to main]
   M --> G[Main push checks + Quality gate]
-  G --> A[Mac checks GitHub every 5 minutes]
+  G --> A[Mac checks GitHub every minute]
   A --> R[Prepare immutable release + dependencies]
   R --> D[Drain existing jobs]
   D --> S[Start candidate, admission closed]
@@ -36,9 +36,9 @@ Files under `~/research-server/deployments/`:
 - `state.json`: current, previous and failed release records.
 - `status.json`, `events.jsonl`, `last-probe.json`: actual deployment state and probe result. `/health` includes the short deployment status.
 
-The controller is a user LaunchAgent named `local.crawl-search.deploy`, run at login and every 300 seconds. It uses an OS lock so two deploys cannot overlap. Logs are `~/research-server/logs/deploy.log` and `deploy.err.log`. It runs alongside the four existing service supervisors. Mac login is still required after reboot.
+The controller is a user LaunchAgent named `local.crawl-search.deploy`, run at login and every 60 seconds. Completed unsuccessful quality runs back off for five minutes to conserve public API requests. It uses an OS lock so two deploys cannot overlap. Logs are `~/research-server/logs/deploy.log` and `deploy.err.log`. It runs alongside the four existing service supervisors. Mac login is still required after reboot.
 
-Source preparation and dependency installation happen before pausing production. The controller then closes admission and lets accepted jobs finish, for up to fifteen minutes. A candidate starts closed to normal submissions; only the internal probe can submit while it is checked. The admitted SHA in durable state lets an ordinary later process restart reopen the accepted release, rather than leaving the service stuck in maintenance.
+Source preparation, dependencies and any missing pinned Docker image are prepared before pausing production. Existing digest-pinned images are reused without a network pull; a missing-image pull has a three-minute timeout. Activation and rollback use only locally verified image content. The controller then closes admission and lets accepted jobs finish, for up to fifteen minutes. A candidate starts closed to normal submissions; only the internal probe can submit while it is checked. The admitted SHA in durable state lets an ordinary later process restart reopen the accepted release, rather than leaving the service stuck in maintenance.
 
 The probe checks live SearXNG/worker/OCR service health, the exact deployed SHA and an uncached uploaded English image with three expected anchors. It does not depend on an upstream search query escaping CAPTCHA. On failure, the previous code/environment is restored and checked. The failed SHA is held rather than retried endlessly; a new main commit can attempt the next deployment. State/uploads/cache remain shared; this rollout does **not** introduce a database schema migration.
 
@@ -52,13 +52,13 @@ research-tools/local-research/.venv/bin/python deploy/mac/install_deployer.py
 
 The first installation records the actually running commit, verifies the installed OCR versions against its lock and prepares that immutable rollback release. It registers the controller without replacing the running service. It then waits for main to pass its push gate.
 
-Controller code is deliberately copied outside release directories. Changes to the controller/policy itself require running this installer again from reviewed code. Service code and locked environment updates deploy automatically. Model weight revisions must be present on the Mac before a service change that requires them; a missing/invalid model causes probe failure and rollback.
+Controller code and a compatibility installer for pre-CI rollback releases are deliberately copied outside release directories. Changes to the controller/policy itself require running this installer again from reviewed code. Service code and locked environment updates deploy automatically. Model weight revisions must be present on the Mac before a service change that requires them; a missing/invalid model causes probe failure and rollback. Changing the SearXNG image digest still requires explicit container migration; the installer refuses to silently replace an existing container with different content.
 
 ## Daily use
 
 1. Develop and test on Windows in a `codex/` branch, then push.
 2. Inspect the GitHub Actions checks and merge the PR into `main` when ready.
-3. The main push is checked again. Within the next five-minute poll, Mac prepares and deploys that exact successful main commit.
+3. The main push is checked again. Normally within the next one-minute poll, Mac prepares and deploys that exact successful main commit (plus preparation/startup time).
 4. Inspect `/health` through `research_health`, or the controller's status/logs, to confirm actual deployment. A green CI badge is eligibility, not proof that an offline Mac has deployed.
 
 To stop automatic deployment while leaving research services running:

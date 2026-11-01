@@ -17,7 +17,7 @@ BASE = HOME / 'research-server/deployments'
 BASE.mkdir(parents=True, exist_ok=True)
 BASE.chmod(0o700)
 config = BASE / 'config.json'
-write_json(config, {'base': str(BASE), 'repository': 'mark10112/crawl-search', 'branch': 'main', 'poll_seconds': 300})
+write_json(config, {'base': str(BASE), 'repository': 'mark10112/crawl-search', 'branch': 'main', 'poll_seconds': 60})
 source = BASE / 'source.git'
 if not source.exists():
     subprocess.run(['git', 'clone', '--mirror', 'https://github.com/mark10112/crawl-search.git', str(source)], check=True)
@@ -47,13 +47,14 @@ if not (BASE / 'state.json').exists():
 bin_dir = BASE / 'bin'
 bin_dir.mkdir(exist_ok=True)
 shutil.copy2(ROOT / 'deploy/mac/deploy_agent.py', bin_dir / 'deploy_agent.py')
+shutil.copy2(ROOT / 'deploy/mac/install_services.py', bin_dir / 'install_services.py')
 logs = HOME / 'research-server/logs'
 label = 'local.crawl-search.deploy'
 plist = HOME / 'Library/LaunchAgents' / (label + '.plist')
 spec = {'Label': label, 'ProgramArguments': ['/usr/bin/caffeinate', '-i', str(HOME / 'research-server/envs/ocr/bin/python'),
     str(bin_dir / 'deploy_agent.py'), '--config', str(config)],
     'EnvironmentVariables': {'PATH': '/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin', 'PYTHONUNBUFFERED': '1'},
-    'RunAtLoad': True, 'StartInterval': 300, 'ThrottleInterval': 60,
+    'RunAtLoad': True, 'StartInterval': 60, 'ThrottleInterval': 30,
     'StandardOutPath': str(logs / 'deploy.log'), 'StandardErrorPath': str(logs / 'deploy.err.log')}
 plist.write_bytes(plistlib.dumps(spec)); plist.chmod(0o600)
 domain = f'gui/{os.getuid()}'
@@ -63,4 +64,4 @@ for _ in range(40):
         break
     time.sleep(.25)
 subprocess.run(['launchctl', 'bootstrap', domain, str(plist)], check=True)
-print(json.dumps({'agent': label, 'branch': 'main', 'poll_seconds': 300, 'state': str(BASE / 'state.json')}))
+print(json.dumps({'agent': label, 'branch': 'main', 'poll_seconds': 60, 'state': str(BASE / 'state.json')}))

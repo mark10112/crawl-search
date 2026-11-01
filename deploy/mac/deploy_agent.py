@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import ast
 import hashlib
 import json
 import os
@@ -14,6 +15,13 @@ import time
 import httpx
 
 REQUIRED_JOBS = {'Quality (ubuntu-latest)', 'Quality (windows-latest)', 'Quality gate'}
+
+def pinned_image(installer):
+    for node in ast.parse(Path(installer).read_text()).body:
+        if isinstance(node,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='image' for t in node.targets):
+            value=ast.literal_eval(node.value)
+            if isinstance(value,str) and re.fullmatch(r'[a-z0-9./_-]+@sha256:[0-9a-f]{64}',value):return value
+    raise ValueError('Installer must pin one literal Docker image digest')
 
 
 def write_json(path, value):
@@ -104,7 +112,7 @@ class Runtime:
         print(json.dumps(value), flush=True)
 
     def run(self, args, **kwargs):
-        return subprocess.run([str(a) for a in args], check=True, timeout=1200, **kwargs)
+        return subprocess.run([str(a) for a in args], check=True, timeout=kwargs.pop('timeout',1200), **kwargs)
 
     def git(self, *args):
         return subprocess.check_output(['git', '--git-dir', str(self.source), *args], text=True, timeout=90).strip()
@@ -124,6 +132,7 @@ class Runtime:
 
     def prepare(self, release):
         root = self.fetch_release(release['sha'])
+        self.prepare_image(root)
         package = root / 'research-tools/local-research'
         self.run(['/opt/homebrew/bin/uv', 'sync', '--frozen', '--python', '3.12', '--extra', 'browser'], cwd=package)
         py = package / '.venv/bin/python'
@@ -143,6 +152,13 @@ class Runtime:
             envs[digest] = ocr
             write_json(self.base / 'ocr-environments.json', envs)
         release.update(path=str(root), ocr_python=ocr)
+
+    def prepare_image(self, root):
+        image=pinned_image(Path(root)/'deploy/mac/install_services.py')
+        present=subprocess.run(['/usr/local/bin/docker','image','inspect',image],capture_output=True,timeout=30)
+        if present.returncode:
+            env={**os.environ,'PATH':'/opt/homebrew/bin:/usr/local/bin:/Applications/Docker.app/Contents/Resources/bin:/usr/bin:/bin:/usr/sbin:/sbin'}
+            self.run(['/usr/local/bin/docker','pull',image],env=env,timeout=180)
 
     def maintenance(self, action):
         response = self.api.post('/maintenance', json={'action': action})
@@ -164,9 +180,14 @@ class Runtime:
         raise TimeoutError('Jobs did not drain; leaving the previous release active')
 
     def activate(self, release):
-        env = {**os.environ, 'RESEARCH_OCR_PYTHON': release['ocr_python'], 'RESEARCH_START_DRAINED': '1'}
         root = Path(release['path'])
-        self.run([root / 'research-tools/local-research/.venv/bin/python', root / 'deploy/mac/install_services.py'], env=env)
+        env = {**os.environ, 'RESEARCH_OCR_PYTHON': release['ocr_python'], 'RESEARCH_START_DRAINED': '1',
+            'RESEARCH_USE_LOCAL_IMAGE':'1','RESEARCH_RELEASE_ROOT':str(root)}
+        installer=root/'deploy/mac/install_services.py'
+        if 'RESEARCH_USE_LOCAL_IMAGE' not in installer.read_text():
+            # Bootstrap rollback releases predate cache-only activation support.
+            installer=Path(__file__).with_name('install_services.py')
+        self.run([root/'research-tools/local-research/.venv/bin/python',installer],env=env)
 
     def probe(self, release):
         deadline = time.monotonic() + 180
@@ -210,6 +231,8 @@ class Runtime:
             return 'current'
         if sha == self.state.get('last_failed', {}).get('sha') and not retry:
             return 'failed-sha-held'
+        wait=self.state.get('quality_wait',{})
+        if wait.get('sha')==sha and time.time()<wait.get('until',0) and not retry:return 'quality-backoff'
         response = self.github.get(f'/repos/{repository}/actions/workflows/ci.yml/runs',
             params={'branch': branch, 'event': 'push', 'head_sha': sha, 'per_page': 1})
         if response.status_code == 404:
@@ -223,6 +246,9 @@ class Runtime:
             response.raise_for_status(); jobs = response.json()['jobs']
         run = approved_run(runs, jobs, sha, repository, branch)
         if not run:
+            delay=300 if runs and runs[0].get('status')=='completed' else 60
+            self.state['quality_wait']={'sha':sha,'until':time.time()+delay}
+            self.save(self.state)
             self.publish('waiting_for_quality', sha)
             return 'quality-not-green'
         self.run(['git', '--git-dir', self.source, 'fetch', 'origin', '+refs/heads/main:refs/remotes/origin/main'])
