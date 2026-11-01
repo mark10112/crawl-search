@@ -2,6 +2,7 @@
 import json,os,plistlib,secrets,subprocess
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[2];HOME=Path.home();BASE=HOME/'research-server'
+os.environ['PATH']='/opt/homebrew/bin:/usr/local/bin:/Applications/Docker.app/Contents/Resources/bin:/usr/bin:/bin:/usr/sbin:/sbin'
 PKG=ROOT/'research-tools/local-research';PY=PKG/'.venv/bin/python';OCR=BASE/'envs/ocr/bin/python'
 MODEL=HOME/'.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42'
 config=BASE/'config/searxng';config.mkdir(parents=True,exist_ok=True)
