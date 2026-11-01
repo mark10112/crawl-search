@@ -72,6 +72,7 @@ async def search(request):
     return await guarded(call)
 async def health(request):
     result=await stack.health();result.update(server='mac-research',commit=os.getenv('RESEARCH_COMMIT','unknown'),worker_alive=bool(worker and not worker.done()),draining=draining,jobs=store.counts())
+    result['reader_features']=['complete-output-v1']
     status_file=os.getenv('RESEARCH_DEPLOY_STATUS_FILE')
     if status_file:
         try:

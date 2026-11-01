@@ -1,0 +1,11 @@
+{
+  "timed_comparison_rows": 16,
+  "all_source_hashes_verified_by_analyzer": true,
+  "before_raw_file_hashes_verified": 8,
+  "after_guard_rejections": 2,
+  "accepted_after_outputs_not_truncated": true,
+  "local_tests": 46,
+  "measured_ocr_sha": "bfa295e0b9de2b07df236bd242890f76ce8d0423",
+  "later_code_change": "Feature negotiation only: remote client does not send max_chars=0 to an old server that treats it as a short preview; server advertises complete-output-v1. No worker/reader inference changes after measured SHA.",
+  "production_restored": true
+}

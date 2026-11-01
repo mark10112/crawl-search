@@ -31,6 +31,10 @@ async def lifespan(server):
         if tunnel:tunnel.terminate();await asyncio.to_thread(tunnel.wait)
 mcp=FastMCP('local-research',lifespan=lifespan)
 async def post(path,args):
+    if path=='/jobs' and args.get('max_chars')==0:
+        health=await client.get('/health');health.raise_for_status()
+        if 'complete-output-v1' not in health.json().get('reader_features',[]):
+            raise RuntimeError('The server does not support complete output yet; update it before requesting max_chars=0.')
     response=await client.post(path,json=args);response.raise_for_status();return response.json()
 async def wait(job,timeout=600):
     started=time.monotonic()
@@ -59,10 +63,13 @@ async def research_read(url:str,max_pages:int=5,start_page:int=1,max_chars:int=2
     """Read remotely; max_chars=0 returns the complete selected page range. Positive values request a preview; check output_complete. Incomplete OCR is not successful evidence."""
     return await wait(await post('/jobs',locals()))
 @mcp.tool()
-async def research_read_file(path:str,max_pages:int=5,ocr_policy:str='balanced',start_page:int=1,cache:bool=True,mode:str='auto',max_chars:int=0)->dict:
+async def research_read_file(path:str,max_pages:int=5,ocr_policy:str='balanced',start_page:int=1,cache:bool=True,mode:str='auto',max_chars:int|None=None)->dict:
     """Upload a local client PDF/image once by content hash and read it on Mac. Max 32 MiB."""
     source=Path(path).expanduser()
     if source.stat().st_size>32*1024*1024:raise ValueError('File exceeds 32 MiB')
+    if max_chars is None:
+        health=await client.get('/health');health.raise_for_status()
+        max_chars=0 if 'complete-output-v1' in health.json().get('reader_features',[]) else 22000
     r=await client.post('/uploads',content=source.read_bytes());r.raise_for_status()
     return await wait(await post('/jobs',{'upload_id':r.json()['upload_id'],'max_pages':max_pages,'start_page':start_page,'cache':cache,'mode':mode,'ocr_policy':ocr_policy,'max_chars':max_chars}))
 @mcp.tool()

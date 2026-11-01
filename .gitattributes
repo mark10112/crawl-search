@@ -1,0 +1,4 @@
+# Preserve raw benchmark evidence bytes on Windows and Mac.
+research-benchmarks/**/results/*.json -text
+research-benchmarks/**/results/*.jsonl -text
+research-benchmarks/**/results/*.log -text

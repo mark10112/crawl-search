@@ -1,0 +1,303 @@
+{
+  "variant": "after",
+  "mode": "auto",
+  "id": "thai-royal",
+  "worker_sha": "bfa295e0b9de2b07df236bd242890f76ce8d0423",
+  "reader_sha": "bfa295e0b9de2b07df236bd242890f76ce8d0423",
+  "started_at": 1793549186.237042,
+  "ended_at": 1793549240.921636,
+  "elapsed_ms": 54685.97,
+  "request": {
+    "upload_id": "d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "mode": "auto",
+    "cache": false,
+    "max_pages": 3,
+    "max_chars": 40000,
+    "ocr_policy": "balanced"
+  },
+  "raw": {
+    "ok": true,
+    "output_complete": true,
+    "url": "http://127.0.0.1:8778/assets/d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "reader": "router:paddleocr-vl-1.6-mlx-layout",
+    "cache_hit": false,
+    "stages": [
+      {
+        "name": "fetch",
+        "ok": true,
+        "elapsed_ms": 11.57
+      },
+      {
+        "name": "pdf-text",
+        "ok": true,
+        "elapsed_ms": 3.67,
+        "needs_ocr": true
+      },
+      {
+        "name": "ocr-router",
+        "ok": true,
+        "elapsed_ms": 54436.38
+      }
+    ],
+    "text": "\n\n<!-- subset page 1 -->\n# จดหมายเหตุพระราชกิจรายวัน พระราชนีพนธ์\n\nในพระบาทสมเด็จพระจุลจอมเกล้าเจ้าอยูหัว\n\nป๊บาล สัมฤทธิศก จุลศักราช ๑๒๔๐ (พ.ศ. ๒๔๒๒)\n\nวันพุธ ชั้นกำ ๑ เคือน ๑๐ บีขาล สัมฤทธิศักดิ์ ๑๒๕๐\n\n๑. เวลาเช้า ๔ โมงเศษเกือบ ๕ โมง ทรงฉลองพระองค์เยียรับบับ เครื่องราชอิสริยยศนพรัตนราชวารากณ์ ทรงพระราชยานลงยาราชาตค์ เสด็จวังกรมหมื่น เจริญผลภูลสวัตริ ไถ่ฝกย์ (เช้า ๓ โมงจน ๔ โมง ๒๕ พันฤกษ์) กรมเจริญสรงที่ชาลารี ชันล่างด้านใต้ พระราชทานน้ำแล้ว วังหน้าเสด็จที่วัด สมเด็จกรมพระ กรมหลวงรสีกกา กรมขุนภูวนัย กรมขุนบินทร สมเด็จเจ้าพระเจ้า เจ้าพระยาสุรวงศ์ เจ้าพระยาภาขุวงศ์ เจ้าพระยาธรรมมา เจ้าพระยาศรีพิพัฒน์ ทุลกระหม่อมปราสาท พระองค์ แม้นเชียน พระองค์เงินยวง พระองค์แสงจันทร์ พระองค์สุบงกช พระองค์จามรี เจ้าคุณ กลาง ท้าววรจันทร์ ท้าวสมศักดิ์ ท้าวโสภา เจ้าจอมมารดาของท่าน แล้วแต่งพระองค์ สีเขียวมาทรงยืนฟังประกาศ พระศรีสุนทร (น้อย) เป็นผู้อ่าน แล้วพระราชทานพระสุพรรมบัญ แหวนนพเก้า ชองบุหรี ที่ชา พระแสงผักทอง (ครั้งนี้หาได้ทรงศีลไม่) แล้วท่านถวายคอกไม้ธุปเทียน ทันไม้ทอง ทันไม้เงิน ถุงบุหวาเงิน บุหงาทอง พระสงฆ์ถวายอธิเวก แล้วเสด็จกกลับ กรมขุนเจริญท่านก็ถวายต้นไม้ทอง ทันไม้เงิน กับธุปเทียนวังหน้าแล้วถวายธุปเทียนเจ้านายและสมเด็จเจ้าพระยาเสนามาคี เมื่อสมเด็จเจ้าพระยาจะไปว่ากับกรมหมื่นเจริญว่ามีอย่างดีเคียวแล้ว รักษาพระองค์ให้ดีอย่างพุงชำนไป แล้วท่านก็ไปถวายธุปเทียนเจ้านายข้างใน เลิกการเวลาเทียน\n\n๒. รับสำเนาหนังสือเจ้าพระยากาณวุวงศ์ส่งหนังสือเพชชัน ๒ ฉบับ ฉบับ\n\nการประชุมที่เบอร์ลิน เลิกเมื่อวันที่ ๑๘ ยุไล ลอร์ดบิคอนฟีนก์กับลอร์กเซลล์ศบุรี\n\nราชทุกอังกฤษได้กลับมากรุงลอนดอนแล้ว หนังสือสัญญาที่ตกลงกันนั้น ได้คัดมาจาก\n\n<!-- subset page 2 -->\nจากหมายเหตุชิโตมั่งส่งมาให้ทราบ หนังสือสัญญานีลังพิมพ์เป็นสมุดมีแผ่นที่ด้วย ถ้าแล้วจะส่งเข้ามา อนึกว่าได้ส่งหนังสือประกาศกอเวออนแมนต์อังกฤษให้แก่ว่าราชการที่กำลังสุลยเนอราลสยามที่อังกฤษ และได้รับเอกชกวาเตอร์วันที่ ๑๕ ยุโลอี อนึกมีสเตอร์แคสเวลได้ลำออกจากราชการเมื่อวันที่ ๓๐ ยูน เพื่อเข้าเป็นธุระจักการของเขาเอง อื่นบอกด้วย มหาราชาเมืองยะโฮวา คอเวออนแมนต์อักฤษ ให้เป็นรายามเมืองต่าง ๆ ที่คิดต่อกับยะโฮมหารายาได้แผ่นดินจากมาถึงเขตแดนหัวเมืองมลายุทธีขันกรุงสยามแล้ว เดียวนัยย์อยูลอนดอน แล้วขออนุญาตทำรายการสุลยเนอราล หนังสือสังกฤษ ๑ ว่าด้วยความเห็นรายภูรินีเมืองอังกฤษที่เดียวกันโปลิตกว่าจัดการไม่เหมือนกับหนังสือเซกุเลอชีงลอร์กเซลลีนปุรีออก ส่งสมุคแผนที่มาด้วย หนังสือสังกฤษ ๒๕ ยุโลกกับสำเนาหนังสือมิสเตอร์รักเมืองสิงคโปร์มีมาฉบับหนึ่ง ว่าได้พบกับแอดดอกของเกาวนาสิงคโปร์แจ้งว่าการที่เกาวนาจะเข้ามากรุงเทพ ๖ ยังไม่มีกำหนด เวลานีเรือรบที่สิงคโปร์ก็ยังไม่มี กับเช้าวันนี้มีสายโทรเลขมาทีสิงคโปร์ ได้ประทานทราบเชื้อไมล์เคอนเซนต์ยอดให้พระยาไทรบุรี หนังสือสังกฤษที่๒๓ ออกคำสั\n\n๓. เจ้าพระยาณุวงศ์ถวายหนังสืออีกฉบับ ๑\n\nว่าด้วยกฎหมายที่จะตั้งโรงสำหรับไว้น้ำมันปิโครเลียมันน้ำทำนไว้มีหนังสือไปปรึกษากงสุลต่างประเทศ แต่ว่าองค์การ ชั้น ๑๑ คำ เดือน ๗ บันทึกสุลต่งประเทศตอบเห็นชอบยอมตามกฎหมาย ๔ กงสุลแตกงสุลอังกฤษว่าลูกค้าหลายคนอยากจะตั้งโรงสำหรับเก็บน้ำมันของลูกค้าไว้เองทุกคนกับความเห็นอีก ๓ ข้อน้ำท่านได้นำไปเรียนสมเด็จเจ้าพระยา ๆ ว่าความเห็นกงสุลอังกฤษว่ามานี ก็เป็นการดือฆ์ ถ้าลูกค้าที่เป็นสัปยก์ประเทศใดจะตั้งโรงเก็บน้ำมันแล้วก็ให้ต้องได้แต่สัปยก์คล้วยโรง ถ้าลูกค้าประเทศเดียวกันมีน้ำมันเข้ามาก็ได้ไปเก็บไว้ในโรงประเทศเดียวกัน สัปยก์ประเทศหนึ่งก็ให้มีโรงหนึ่งให้เหมือนกันทุกประเทศ จึงจะไม่เป็นที่หวงหึงแก่กัน ท่านเห็นดังนี้ สำเนินหนังสือเจ้าพระยาภาตุวงศ์มีไปลงวันอังคาร ชั้น ๑๑ คำ เดือน ๗ ว่าด้วยน้ำมันลูกค้าบรรทุกเข้ามามากใช้อัญในกรุงเทพ ๖ ทั่วไปเป็นที่น่ากลัวมากถ้าจะเกิดเพลิงไหมบ้านเรือนเรือแพ้ชื้นแล้ว น้ำมันก็จะเป็นเชื่อให้ไหมมากขึ้น การจะช่วยกับเพลิงได้โดยยาก จึงได้ทรงปรึกษาพร้อมด้วยเสนาบดี ว่าต้องมีโรงสำหรับไว้น้ำมันในที่สวนแถบข้างล่าง ที่ห่างบ้านเรือนเหนือเมืองนครเขื่อนชันธ์ ถ้าลูกค้าบรรทุกน้ำมันเข้ามา\n\n<!-- subset page 3 -->\nขอให้ประพฤติกัญหมายทุกประการ ได้ส่งเอสตีเม็กราคาที่จะต้องลงทุนทำโรงและรักษากับกฎหมายบังคับเรือทีมรรทุกน้ำมันและลูกค้าที่ขายน้ำมันฉบับ ๑ ไปให้ทุกกองสุดเมื่อกองสุดเห็นการประการใดให้แจ้งความมาให้ทราบ บัญชีเอสตีเม็กโรงยาว ๓๔ ฟุกครึงกว้าง ๘๖ ฟุกครึ่งสูง๑๖ ๔๒ ฟุกไว้น้ำมันได้ ๑๖,๑๐๐ หีบ ฝาขัดแตะ เป็นเสาพื้นเครื่องบนไม้จริง หลังคาสังกะสี หน้าต่างที่บานและลูกกวรเหล็ก หลังคามีราน้ำทุกลงที่กุรอบโรง แล้วทั้งคินข้นข้างกุข้างนอกเป็นกันสูง ๔ ฟุก กว้าง ๑๐ ฟุก ถ้าโดยเกิดเพลิงไม่ให้น้ำมันไหลลงแม่น้ำได้ แล้วมีสะพานข้ามชักได้ มีรัวข้างนอกอีกแล้วปลูกต้นไม้รอบ ข้างนอกมีโรง ๆอีก ๓ หลัง แล้วมีกุมีรัวเหมือนกัน มีสะพานสำหรับข้ำลงรวมประมาณเงิน ๑๑๕ ชั้ง และค่ำใช้สอยสำหรับโรงนั้น การช่อมแสมคิกเดือนละ ๕๐ บาท เสมัยคนหนึ่งเดือนละ ๖๐ บาท กุลี ๒ คนเดือนละ ๓๐ บาท คนน้ำยาม ๒ คนเดือนละ ๒๐ บาท คนเดือนละ ๑๖ บาท รวมเดือนละ ๑๗๖ บาทที่จะต้องใช้เสมอทุกเดือน\n\nกฎหมายข้อ ๑ ว่าเรือกลไฟและเรือใบลำหนึ่งลำใด ถ้าบรรทุกน้ำมันเข้ามาในกรุงเทพ ๒ เกิน ๕๐๐ หึบแล้วต้องทอดสมอท้ายโรงน้ำมัน หรือแวะที่สะพานโรงน้ำมันก็ได้ ให้ขนน้ำมันชื้นไว้ในโรงเสียก่อน แล้วจึงเข้ามาได้\n\nข้อ ๒ เรือไฟหรือเรือใบลำหนึ่งลำใด ถ้าบรรทุกน้ำมันไม่ถึง ๕๐0 ที่บ เรือลำนั่นจะเข้ามาก็ได้ แต่ต้องขนน้ำมันส่งไปไว้ที่โรงในกำหนด ๔๘ ชั่วโมง นับตั้งแต่เรือได้เข้าทอดสมอแล้ว\n\nข้อ ๓ เรือกลไฟหรือเรือลำหนึ่งลำใด ที่จะรับบรรทุกน้ำมันลงเรือก็ดี หรือ\n\nขนชื้นจากเรือก็ดี ห้ามมิให้มีผู้ถือไฟหรือสูบบุหรีกล้องเข้ามาใกล้เคียงน้ำมัน ในเวลาที่\n\nขนชื้นขนลงนั้นให้เจ้าของผู้ที่รับผู้ที่ส่งน้ำมันต้องเป็นธุระตามระวัง\n\nข้อ ๔ ว่าห้ามมีให้เรื่อไปเรื่อใบลำหนึ่งลำใด รับบรรทุกน้ำมันลงเรือหรือขน\n\nขันในเวลากลางคืน และห้ามมิให้เอเยนค์และเจ้าของเรือไฟเรือใบ ขนน้ำมันขื้นไว้บน\n\nสะพานเกิน ๔ ที่บรรณะไป\n\nข้อ ๕ ว่าเรือลำหนึ่งลำใดที่บรรทุกน้ำมันเข้ามาในกรุงเทพฯ ถ้าเจ้าของเรือ\n\nนัน จะไม่จำหน่ายในกรุงเทพฯ เรือลำน้ำจะต้องทอดสมออยูท้ายโรงน้ำมัน ถ้าจะเข้ามา\n\nต้องขนน้ำมันชื้นไว้ในโรงเสียก่อน แล้วจึงจะเข้ามาได้ ถ้ามีเพียง ๘ หีบ ไม่ต้องห้าม\n\nตามกฎหมาย",
+    "external_fallback_required": false,
+    "credits_used": 0,
+    "final_url": "http://127.0.0.1:8778/assets/d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "content_sha256": "d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "document_language_hint": null,
+    "total_pages": 3,
+    "pages_read": [
+      1,
+      3
+    ],
+    "ocr_pages": [
+      1,
+      2,
+      3
+    ],
+    "ocr_routes": [
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 5,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 87,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 81
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 31,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 38
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 57,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 49
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 765,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 1091
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 154,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 218
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "balanced",
+        "language_hint": null,
+        "elapsed_ms": 15415.56,
+        "quality_warning": "Completion checks are not proof of transcription accuracy."
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 3,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 2
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 657,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 966
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 658,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 1033
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "balanced",
+        "language_hint": null,
+        "elapsed_ms": 19156.22,
+        "quality_warning": "Completion checks are not proof of transcription accuracy."
+      },
+      {
+        "engine": "paddleocr-vl-1.6-mlx-layout",
+        "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+        "route": [
+          {
+            "engine": "paddle-layout+mlx",
+            "regions": 7,
+            "generations": [
+              {
+                "finish_reason": "stop",
+                "tokens": 2,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 1
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 621,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 826
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 136,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 195
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 116,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 168
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 128,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 224
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 116,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 171
+              },
+              {
+                "finish_reason": "stop",
+                "tokens": 158,
+                "requested_max_tokens": 8192,
+                "effective_max_tokens": 8192,
+                "repetition_penalty": 1.0,
+                "repetition_context_size": 64,
+                "serialized": true,
+                "repetition_guard": false,
+                "token_usage_complete": true,
+                "received_chars": 238
+              }
+            ]
+          }
+        ],
+        "cache_hit": false,
+        "policy": "balanced",
+        "language_hint": null,
+        "elapsed_ms": 18859.51,
+        "quality_warning": "Completion checks are not proof of transcription accuracy."
+      }
+    ],
+    "ocr_conversion_ms": 53431.29,
+    "ocr_cold": false,
+    "fast_ocr_error": null,
+    "ocr_warning": "OCR subset page numbers map in order to ocr_pages. OCR may misread names, dates and Thai text; verify against page images.",
+    "extracted_chars": 5406,
+    "truncated": false,
+    "elapsed_ms": 54452.75,
+    "fallback_count": 1,
+    "upload_id": "d8a6e46b4f889fec751f3d5a8e5e47cab8334ae5e6eccb848b45affe63b68ba0",
+    "source_kind": "uploaded-document",
+    "server_commit": "bfa295e0b9de2b07df236bd242890f76ce8d0423"
+  }
+}

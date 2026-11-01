@@ -133,10 +133,12 @@ The follow-up candidate serializes recognition requests into MLX and forwards an
 
 Table markup is compacted by removing presentation attributes while preserving cells, text, row/column spans and element structure. Per-page results retain region provenance and the original markup length.
 
-For the candidate API/MCP reader, `max_chars=0` returns the complete selected page range. A positive value explicitly requests a preview and is no longer silently clamped to 40,000. Check `output_complete` and `truncated`; if truncated, repeat with `max_chars=0`. Existing page/input-size bounds still apply. `research_read_file` defaults to complete selected output, while URL reads keep a bounded preview default. Full selected output does not imply that unrequested pages were read or every character was recognised accurately.
+For the candidate API/MCP reader, `max_chars=0` returns the complete selected page range. A positive value explicitly requests a preview and is no longer silently clamped to 40,000. Check `output_complete` and `truncated`; if truncated, repeat with `max_chars=0`. Existing page/input-size bounds still apply. `research_read_file` negotiates complete selected output on a server advertising `complete-output-v1`, and preserves the existing preview default on older servers, while URL reads keep a bounded preview default. Full selected output does not imply that unrequested pages were read or every character was recognised accurately.
 
 The controlled second-round evidence is in `research-benchmarks/ocr-repeat-round2-2026-11-01/REPORT.md`.
 
 The 1.05 global-penalty trial did not resolve Thai length stops and is retained as failed experimental evidence. The serialized candidate is evaluated separately in `research-benchmarks/ocr-serial-round2b-2026-11-01/REPORT.md`.
 
 The final experimental candidate also consumes upstream SSE and closes the HTTP stream when the existing excessive-repetition rule fires. This is an incomplete, rejected recognition result, not a repaired transcript. Cancellation before final usage leaves token counts unknown. The selected full-output API and table compaction do not override this failure. Final evidence is in `research-benchmarks/ocr-guard-round2c-2026-11-01/REPORT.md`.
+
+Clients explicitly requesting `max_chars=0` check the server feature before submitting. An old server interprets zero as a short preview, so unsupported full-output requests fail clearly rather than silently returning a 100-character result. No production service needs to change before this candidate is accepted.
