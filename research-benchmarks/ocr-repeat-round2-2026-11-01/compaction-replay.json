@@ -1,0 +1,25 @@
+{
+  "source_telemetry_sha256": "23f1ba400feef4fa45c1e6a011a46ab906afd20fe4832673deaa7d6f1bfa80ec",
+  "pages": [
+    {
+      "before_chars": 4511,
+      "after_chars": 2315,
+      "plain_text_sha256": "95ce1559cb38fe7214d7dd2311d8c4d2d383ef41db4c170b88bb69e835f2cc37",
+      "table_structure_and_text_unchanged": true
+    },
+    {
+      "before_chars": 73289,
+      "after_chars": 18206,
+      "plain_text_sha256": "5358ea41261c9411bc878bfde5fe5ffbc33f58c88c4516b1311928cd0ead9dde",
+      "table_structure_and_text_unchanged": true
+    },
+    {
+      "before_chars": 41837,
+      "after_chars": 10058,
+      "plain_text_sha256": "206a83c19ebcd7ad9db8679fa6c362ca96239cf6054b17920bad499950494962",
+      "table_structure_and_text_unchanged": true
+    }
+  ],
+  "total_before": 119637,
+  "total_after": 30579
+}

@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "text": "Research memorandum\n\nThe council met on 18 April 1855 to discuss trade and taxation. Import duties were calculated on the market value of goods. A successful agreement required trust, money, and clear records. Invoice number 1874: total payment 12,450.75 baht.",
+  "engine": "paddleocr-vl-1.6-mlx-layout",
+  "revision": "c5630abae1d940eafe0697512a0325494b02ab42",
+  "cache_hit": false,
+  "truncated": false,
+  "policy": "balanced",
+  "max_new_tokens": 8192,
+  "repetition_penalty": 1.05,
+  "original_markup_chars": 260,
+  "language_hint": null,
+  "elapsed_ms": 3263.95,
+  "route": [
+    {
+      "engine": "paddle-layout+mlx",
+      "regions": 1,
+      "generations": [
+        {
+          "finish_reason": "stop",
+          "tokens": 71,
+          "requested_max_tokens": 8192,
+          "effective_max_tokens": 8192,
+          "repetition_penalty": 1.05,
+          "repetition_context_size": 64
+        }
+      ]
+    }
+  ],
+  "quality_flags": [],
+  "regions": [
+    {
+      "block_label": "text",
+      "block_content": "Research memorandum\nThe council met on 18 April 1855 to discuss trade and taxation. Import duties were calculated on the market value of goods. A successful agreement required trust, money, and clear records. Invoice number 1874: total payment 12,450.75 baht.",
+      "block_bbox": [
+        66,
+        115,
+        1042,
+        401
+      ],
+      "block_id": 0,
+      "block_order": 1,
+      "group_id": 0,
+      "block_polygon_points": [
+        [
+          66.0,
+          115.0
+        ],
+        [
+          1042.0,
+          115.0
+        ],
+        [
+          1042.0,
+          401.0
+        ],
+        [
+          66.0,
+          401.0
+        ]
+      ]
+    }
+  ],
+  "quality_warning": "Completion checks are not proof of transcription accuracy."
+}

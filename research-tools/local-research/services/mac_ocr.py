@@ -8,10 +8,10 @@ from completion_checks import completion_flags,compact_markup
 
 REVISION='c5630abae1d940eafe0697512a0325494b02ab42'
 STATE=Path(os.environ.get('MAC_OCR_STATE',str(Path.home()/'research-server/state/ocr')));STATE.mkdir(parents=True,exist_ok=True)
-MODEL=os.environ['MAC_OCR_MODEL'];pipeline=None;lock=threading.Lock();calls=[]
+MODEL=os.environ['MAC_OCR_MODEL'];pipeline=None;lock=threading.Lock();generation_lock=threading.Lock();calls=[]
 MAX_NEW_TOKENS=int(os.getenv('PADDLEOCR_VL_MAX_NEW_TOKENS','8192'))
 if not 1<=MAX_NEW_TOKENS<=8192:raise ValueError('PADDLEOCR_VL_MAX_NEW_TOKENS must be between 1 and 8192')
-REPETITION_PENALTY=float(os.getenv('MAC_OCR_REPETITION_PENALTY','1.05'))
+REPETITION_PENALTY=float(os.getenv('MAC_OCR_REPETITION_PENALTY','1.0'))
 if not 1<=REPETITION_PENALTY<=1.2:raise ValueError('MAC_OCR_REPETITION_PENALTY must be between 1 and 1.2')
 
 def recognition_request(body):
@@ -22,16 +22,24 @@ def recognition_request(body):
     body.pop('max_completion_tokens',None);body['model']=MODEL
     return body,requested
 
+def forward_recognition(path,body):
+    # Paddle dispatches regions concurrently. Keep only one image request in
+    # this MLX backend's continuous batch; isolated crop probes finish normally
+    # where concurrent layout requests can run to the token limit.
+    with generation_lock:
+        return httpx.post('http://127.0.0.1:8111'+path,json=body,timeout=240)
+
 class Proxy(BaseHTTPRequestHandler):
     def do_POST(self):
         try:
             body=json.loads(self.rfile.read(int(self.headers.get('Content-Length',0))))
             body,requested=recognition_request(body)
-            r=httpx.post('http://127.0.0.1:8111'+self.path,json=body,timeout=240)
+            r=forward_recognition(self.path,body)
             if r.status_code==200:
                 payload=r.json();calls.extend({'finish_reason':c.get('finish_reason'),'tokens':payload.get('usage',{}).get('completion_tokens'),
                     'requested_max_tokens':requested,'effective_max_tokens':body['max_tokens'],
-                    'repetition_penalty':body['repetition_penalty'],'repetition_context_size':body['repetition_context_size']} for c in payload.get('choices',[]))
+                    'repetition_penalty':body['repetition_penalty'],'repetition_context_size':body['repetition_context_size'],
+                    'serialized':True} for c in payload.get('choices',[]))
             self.send_response(r.status_code);self.send_header('Content-Type','application/json');self.end_headers();self.wfile.write(r.content)
         except Exception as exc:
             self.send_response(502);self.end_headers();self.wfile.write(json.dumps({'error':str(exc)}).encode())
@@ -47,7 +55,7 @@ def ocr(body):
     if image.width*image.height>16000000:raise ValueError('Image exceeds 16 megapixels')
     policy=body.get('policy','balanced')
     if policy not in {'balanced','quality'}:raise ValueError('Invalid OCR policy')
-    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v3-compact',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64]).encode()).hexdigest();cache=STATE/(key+'.json')
+    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v4-serial-compact',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64]).encode()).hexdigest();cache=STATE/(key+'.json')
     with lock:
         if body.get('cache',True) and cache.exists():
             result=json.loads(cache.read_text());result.update(cache_hit=True,elapsed_ms=0);return result

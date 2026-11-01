@@ -126,3 +126,15 @@ There is no automatic state retention policy yet. Back up or prune completed job
 Run `deploy/mac/smoke.py` on Mac for the API check. Run `deploy/mac/client_smoke.py` on Windows with SSH variables and `CLIENT_SMOKE_OUTPUT` set. `deploy/mac/document_smoke.py` checks two-page transfer hashes, deduplication and reconnects; set `DOCUMENT_SMOKE_OUTPUT` and optionally `RESEARCH_SMOKE_TABLE` to a scanned table image.
 
 Official reference: [PaddleOCR Apple Silicon deployment](https://www.paddleocr.ai/latest/en/version3.x/pipeline_usage/PaddleOCR-VL-Apple-Silicon.html).
+
+## Experimental OCR output controls (PR #3; not deployed to main)
+
+The follow-up candidate serializes recognition requests into MLX and forwards an explicit 8,192-token recognition budget and `repetition_penalty=1.0` with a 64-token context to MLX. `MAC_OCR_REPETITION_PENALTY` accepts 1.0–1.2; changing it invalidates page results. Normal-finish, repeated-output and table-closure checks remain required. These settings require measured accuracy review; they are not proof of complete or correct recognition.
+
+Table markup is compacted by removing presentation attributes while preserving cells, text, row/column spans and element structure. Per-page results retain region provenance and the original markup length.
+
+For the candidate API/MCP reader, `max_chars=0` returns the complete selected page range. A positive value explicitly requests a preview and is no longer silently clamped to 40,000. Check `output_complete` and `truncated`; if truncated, repeat with `max_chars=0`. Existing page/input-size bounds still apply. `research_read_file` defaults to complete selected output, while URL reads keep a bounded preview default. Full selected output does not imply that unrequested pages were read or every character was recognised accurately.
+
+The controlled second-round evidence is in `research-benchmarks/ocr-repeat-round2-2026-11-01/REPORT.md`.
+
+The 1.05 global-penalty trial did not resolve Thai length stops and is retained as failed experimental evidence. The serialized candidate is evaluated separately in `research-benchmarks/ocr-serial-round2b-2026-11-01/REPORT.md`.

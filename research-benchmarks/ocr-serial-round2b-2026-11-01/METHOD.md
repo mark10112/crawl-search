@@ -1,0 +1,9 @@
+# Follow-up 2b: serialized recognition, frozen before results
+
+The 1.05-penalty A/B is retained in ../ocr-repeat-round2-2026-11-01 (all 16 timed reads). It did not fix Thai length stops, although Census delivery became complete after lossless table markup compaction. An isolated royal-document crop finished normally at penalty 1.0 in ~2 s; a bounding-box crop is not identical to the original pipeline polygon/group preprocessing, so this only motivates a concurrency experiment.
+
+Candidate: forward only one recognition image request at a time into MLX via a global generation lock; restore penalty=1.0 (no suppression), retain 8192 tokens, all completion checks, compact tables and full-output API. No retry, no source-specific special case, no text removal, no OCR threshold/reference changes. Freeze code SHA before new inference.
+
+Compare with the SAME-TURN fresh 27466ca baseline eight reads from round 2, not a selected historic run: all four original 3-page PDFs in auto then forced OCR, cache false, max_chars=40000. New after eight reads restart MLX and repeat the same English warmup, order, policies, source hashes and references. Do not remeasure/select baseline based on better or worse scores. Baseline raw files are byte copies; baseline telemetry/memory are filtered by variant/time and joined with this after capture for analysis, preserving original timestamps. This is a reused-baseline follow-up, not a second fully paired A/B or statistical result.
+
+Times are to full result OR rejection; a successful candidate can read more pages than a rejected baseline. Retain all failures and page/region provenance. Completion means normal generation checks and no API truncation, not proof of every character/layout region. Compare sampled CER and strict table rows for delivered output. No Firecrawl calls. Never merge main as part of the experiment; restore production and review the evidence.

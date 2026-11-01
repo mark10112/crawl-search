@@ -52,10 +52,11 @@ for path in sorted((ROOT/'results').glob('*.json')):
     case=next(c for c in manifest['cases'] if c['id']==rec['id'])
     assert raw['content_sha256']==case['sha256']
     row={'variant':rec['variant'],'mode':rec['mode'],'id':rec['id'],'ok':ok,'seconds':round(rec['elapsed_ms']/1000,3),
-        'reader':raw.get('reader'),'chars':len(text),'output_truncated':raw.get('truncated',False),'error':raw.get('error'),'accepted_cer_pct':round(statistics.mean(a['accepted_cer_pct'] for a in anchors),3) if ok else None,
+        'complete_output':bool(ok and not raw.get('truncated',False)),'reader':raw.get('reader'),'chars':len(text),'output_truncated':raw.get('truncated',False),'error':raw.get('error'),'accepted_cer_pct':round(statistics.mean(a['accepted_cer_pct'] for a in anchors),3) if ok else None,
         'delivery_penalty_pct':round(statistics.mean(a['delivery_penalty_pct'] for a in anchors),3),'anchors_present':sum(a['present'] for a in anchors),
         'table_correct':sum(t['correct'] for t in tables),'table_total':len(tables),'generation_count':len(calls),
-        'sent_limits':sorted(set(c.get('max_tokens') for c in calls)),'length_stops':sum(c.get('finish_reason')=='length' for r in calls for c in r.get('choices',[])),
+        'sent_limits':sorted(set(c.get('max_tokens') for c in calls)),
+        'sent_penalties':sorted(set(c.get('repetition_penalty') for c in calls),key=lambda x: str(x)),'length_stops':sum(c.get('finish_reason')=='length' for r in calls for c in r.get('choices',[])),
         'normal_stops':sum(c.get('finish_reason')=='stop' for r in calls for c in r.get('choices',[])),
         'max_generated_tokens':max((r.get('usage') or {}).get('completion_tokens',0) for r in calls) if calls else 0,
         'native_rss_peak':max(s['native_rss'] for s in inside),'available_min':min(s['available_bytes'] for s in inside),
@@ -63,6 +64,9 @@ for path in sorted((ROOT/'results').glob('*.json')):
         'memory_bracketed':bracketed,'swap_out_delta':inside[-1]['swap_out_bytes']-inside[0]['swap_out_bytes']}
     pages=[r['result'] for r in telemetry if r.get('variant')==rec['variant'] and r.get('mode')==rec['mode'] and r.get('id')==rec['id'] and r['kind']=='page']
     row['diagnostic_pages_observed']=len(pages)
+    row['normal_pages']=sum(bool(p.get('ok')) for p in pages)
+    row['region_counts']=[len(p.get('regions',[])) for p in pages]
+    row['original_markup_chars']=sum(p.get('original_markup_chars',len(p.get('text',''))) for p in pages)
     if len(pages)==3 and all(p.get('ok') for p in pages):
         full='\n\n'.join(p['text'] for p in pages);full_clean=normalize(full);full_flat=table_norm(full)
         spans=[r for r in refs['anchors'] if r['document']==rec['id']]
@@ -76,7 +80,7 @@ for variant in ['before','after']:
         group=[r for r in rows if r['variant']==variant and r['mode']==mode]
         if not group:continue
         accepted=[r for r in group if r['ok']]
-        summary.append({'variant':variant,'mode':mode,'n':len(group),'ok':len(accepted),'median_seconds':statistics.median(r['seconds'] for r in group),
+        summary.append({'variant':variant,'mode':mode,'n':len(group),'ok':len(accepted),'complete_output':sum(r['complete_output'] for r in group),'median_seconds':statistics.median(r['seconds'] for r in group),
             'accepted_cer_pct':round(statistics.mean(r['accepted_cer_pct'] for r in accepted),3) if accepted else None,
             'delivery_penalty_pct':round(statistics.mean(r['delivery_penalty_pct'] for r in group),3),
             'table_correct':sum(r['table_correct'] for r in group),'table_total':sum(r['table_total'] for r in group),

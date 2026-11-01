@@ -32,9 +32,27 @@ class TokenBudgetTests(unittest.TestCase):
         body,requested=self.worker.recognition_request({'max_completion_tokens':10000,'messages':[]})
         self.assertEqual(requested,10000)
         self.assertEqual(body['max_tokens'],8192)
-        self.assertEqual(body['repetition_penalty'],1.05)
+        self.assertEqual(body['repetition_penalty'],1.0)
         self.assertEqual(body['repetition_context_size'],64)
         self.assertNotIn('max_completion_tokens',body)
+    def test_concurrent_regions_do_not_overlap_in_mlx(self):
+        import threading,time
+        from concurrent.futures import ThreadPoolExecutor
+        active=0;peak=0;guard=threading.Lock();start=threading.Barrier(4)
+        def post(*args,**kwargs):
+            nonlocal active,peak
+            with guard:active+=1;peak=max(peak,active)
+            time.sleep(.02)
+            with guard:active-=1
+            return SimpleNamespace(status_code=200)
+        def request(_):
+            start.wait()
+            return self.worker.forward_recognition('/v1/chat/completions',{'messages':[]})
+        with patch.object(self.worker.httpx,'post',side_effect=post) as mocked:
+            with ThreadPoolExecutor(max_workers=4) as pool:results=list(pool.map(request,range(4)))
+        self.assertEqual(peak,1)
+        self.assertEqual(mocked.call_count,4)
+        self.assertTrue(all(r.status_code==200 for r in results))
     def test_budget_change_cannot_reuse_old_page_result(self):
         self.worker.MAX_NEW_TOKENS=4096
         self.worker.ocr(self.body)
