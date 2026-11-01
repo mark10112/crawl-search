@@ -1,0 +1,128 @@
+{
+  "reference_hash": "72a37213b39a3a3dd1b4e344162d962b39c3c460fcad2bf2dfea105620301ac2",
+  "values_changed": false,
+  "audit_order": "Sources inspected and this ledger frozen before inference.",
+  "reviewer_count": 1,
+  "primary_image_confirmed_count": 6,
+  "ambiguous_scan_count": 3,
+  "rows": [
+    {
+      "id": "g1",
+      "expected_unchanged": "๑",
+      "group": "gazette",
+      "status": "image_confirmed",
+      "primary_pixel_accuracy": true,
+      "source_document": "thai-gazette",
+      "source_page": 1,
+      "context": "g1-context600.png",
+      "crosscheck": null,
+      "note": "600 DPI is inspection enlargement, not recovered detail. Old OCR text layer is not ground truth."
+    },
+    {
+      "id": "g2",
+      "expected_unchanged": "๒๐",
+      "group": "gazette",
+      "status": "image_confirmed",
+      "primary_pixel_accuracy": true,
+      "source_document": "thai-gazette",
+      "source_page": 1,
+      "context": "g2-context600.png",
+      "crosscheck": null,
+      "note": "600 DPI is inspection enlargement, not recovered detail. Old OCR text layer is not ground truth."
+    },
+    {
+      "id": "g3",
+      "expected_unchanged": "๒๘",
+      "group": "gazette",
+      "status": "image_confirmed",
+      "primary_pixel_accuracy": true,
+      "source_document": "thai-gazette",
+      "source_page": 2,
+      "context": "g3-context600.png",
+      "crosscheck": null,
+      "note": "600 DPI is inspection enlargement, not recovered detail. Old OCR text layer is not ground truth."
+    },
+    {
+      "id": "g4",
+      "expected_unchanged": "๓๑",
+      "group": "gazette",
+      "status": "image_confirmed",
+      "primary_pixel_accuracy": true,
+      "source_document": "thai-gazette",
+      "source_page": 2,
+      "context": "g4-context600.png",
+      "crosscheck": null,
+      "note": "600 DPI is inspection enlargement, not recovered detail. Old OCR text layer is not ground truth."
+    },
+    {
+      "id": "g5",
+      "expected_unchanged": "๙๔",
+      "group": "gazette",
+      "status": "image_confirmed",
+      "primary_pixel_accuracy": true,
+      "source_document": "thai-gazette",
+      "source_page": 3,
+      "context": "g5-context600.png",
+      "crosscheck": null,
+      "note": "600 DPI is inspection enlargement, not recovered detail. Old OCR text layer is not ground truth."
+    },
+    {
+      "id": "g6",
+      "expected_unchanged": "๑๕๙",
+      "group": "gazette",
+      "status": "image_confirmed",
+      "primary_pixel_accuracy": true,
+      "source_document": "thai-gazette",
+      "source_page": 3,
+      "context": "g6-context600.png",
+      "crosscheck": null,
+      "note": "600 DPI is inspection enlargement, not recovered detail. Old OCR text layer is not ground truth."
+    },
+    {
+      "id": "r1-c3",
+      "expected_unchanged": "59,135",
+      "group": "census",
+      "status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "primary_pixel_accuracy": false,
+      "source_document": "us-census",
+      "source_page": 2,
+      "context": "r1-c3-context600.png",
+      "crosscheck": {
+        "url": "https://www2.census.gov/library/publications/decennial/1890/bulletins/demographics/145-population-of-il.pdf",
+        "evidence": "1890 Bulletin 145, page 1 SUMMARY BY COUNTIES: Adams 1880 = 59,135"
+      },
+      "note": "600 DPI is inspection enlargement, not recovered detail. Old OCR text layer is not ground truth."
+    },
+    {
+      "id": "r3-c1",
+      "expected_unchanged": "1,838,735",
+      "group": "census",
+      "status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "primary_pixel_accuracy": false,
+      "source_document": "us-census",
+      "source_page": 2,
+      "context": "r3-c1-context600.png",
+      "crosscheck": {
+        "url": "https://www2.census.gov/library/publications/decennial/1910/bulletins/demographics/360-population-by-counties-minor-civil-divisions-1910-1900-1890-part-1.pdf",
+        "evidence": "1910 Bulletin 360, Illinois Table 1: Cook County 1900 = 1,838,735; also Table 4 in original Bulletin 21"
+      },
+      "note": "600 DPI is inspection enlargement, not recovered detail. Old OCR text layer is not ground truth."
+    },
+    {
+      "id": "r4-c5",
+      "expected_unchanged": "13,282",
+      "group": "census",
+      "status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "primary_pixel_accuracy": false,
+      "source_document": "us-census",
+      "source_page": 3,
+      "context": "r4-c5-context600.png",
+      "crosscheck": {
+        "url": "https://www2.census.gov/library/publications/decennial/1860/statistics/1860d-13.pdf",
+        "evidence": "1860 Statistics county table: Woodford population = 13,282; corroborated by official Woodford County Census Data Chart"
+      },
+      "note": "600 DPI is inspection enlargement, not recovered detail. Old OCR text layer is not ground truth."
+    }
+  ],
+  "policy": "Six clear Thai values are primary pixel-accuracy set. Keep intended-value scores for the three Census cells separately, with same historical references. Do not relabel ambiguous glyphs to match OCR majority; do not claim OCR failures there are purely model failures."
+}

@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "reference_hash": "72a37213b39a3a3dd1b4e344162d962b39c3c460fcad2bf2dfea105620301ac2",
+  "reference_values_changed": false,
+  "image_confirmed_primary_cases": 6,
+  "ambiguous_scan_cases_reported_separately": 3,
+  "frozen_images": 36,
+  "pixel_identity_verified_images": 36,
+  "reader_observations": 288,
+  "original_controls_match_round5": true,
+  "warm_repeats": 3,
+  "production_commit": "ac1b98ba313e49f0c9a4be57e382a083fa6f0f8b",
+  "runtime_changes": false,
+  "note": "Retained pixels unchanged, white border exact, all outputs kept. RSS excludes unreported Metal allocations. No per-case oracle selection or holdout claim."
+}

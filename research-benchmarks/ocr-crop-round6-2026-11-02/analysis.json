@@ -1,0 +1,2563 @@
+{
+  "reference_hash": "72a37213b39a3a3dd1b4e344162d962b39c3c460fcad2bf2dfea105620301ac2",
+  "reference_audit_sha256": "0dfc70eac741cdd4c5d2eef522fe6eaaddabd84846d47b1f0558569331452583",
+  "models": [
+    {
+      "mode": "vl",
+      "startup": {
+        "warmup_seconds": 3.4846745840004587,
+        "warmup": {
+          "text": "Research memorandum\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht.",
+          "complete": true,
+          "finish_reason": "stop",
+          "raw": {
+            "id": "chatcmpl-323e10ec-b763-4595-aebf-74ef794dece2",
+            "created": 1793560945,
+            "model": "/Users/markmacminim4/.cache/huggingface/hub/models--PaddlePaddle--PaddleOCR-VL-1.6/snapshots/c5630abae1d940eafe0697512a0325494b02ab42",
+            "object": "chat.completion",
+            "choices": [
+              {
+                "index": 0,
+                "message": {
+                  "role": "assistant",
+                  "content": "Research memorandum\nThe council met on 18 April 1855 to discuss trade and taxation.\nImport duties were calculated on the market value of goods.\nA successful agreement required trust, money, and clear records.\nInvoice number 1874: total payment 12,450.75 baht."
+                },
+                "finish_reason": "stop"
+              }
+            ],
+            "usage": {
+              "prompt_tokens": 1253,
+              "completion_tokens": 73,
+              "total_tokens": 1326,
+              "prompt_tokens_details": {
+                "cached_tokens": 0
+              }
+            },
+            "repetition_guard": false,
+            "token_usage_complete": true,
+            "received_chunks": 73,
+            "received_chars": 259
+          }
+        },
+        "startup_seconds": 3.5627081250022457
+      },
+      "rss_phase_peak_bytes": 2225569792,
+      "self_peak_rss_bytes": 71335936,
+      "max_memory_sample_gap_s": 0.05514788627624512,
+      "tesseract_child_peak_bytes": 0,
+      "host_available_min": 4481892352,
+      "swap_used_range": [
+        690487296,
+        690487296
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "startup": {
+        "startup_seconds": 1.7291000403929502e-05
+      },
+      "rss_phase_peak_bytes": 115572736,
+      "self_peak_rss_bytes": 29392896,
+      "max_memory_sample_gap_s": 0.0385589599609375,
+      "tesseract_child_peak_bytes": 85884928,
+      "host_available_min": 7800061952,
+      "swap_used_range": [
+        690487296,
+        690487296
+      ]
+    }
+  ],
+  "summaries": [
+    {
+      "mode": "vl",
+      "variant": "original",
+      "groups": {
+        "gazette": {
+          "n": 6,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0
+        },
+        "census": {
+          "n": 3,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0
+        }
+      },
+      "incomplete_warm_calls": 0,
+      "median_warm_ms": 306.8362910016731,
+      "median_nine_image_ms": 2859.247290001804,
+      "rss_in_call_windows_peak_bytes": 2148630528,
+      "call_window_samples": 192,
+      "first_pass_ms": 2863.703876009822
+    },
+    {
+      "mode": "vl",
+      "variant": "original_pad10",
+      "groups": {
+        "gazette": {
+          "n": 6,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0
+        },
+        "census": {
+          "n": 3,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0
+        }
+      },
+      "incomplete_warm_calls": 0,
+      "median_warm_ms": 317.148250000173,
+      "median_nine_image_ms": 2855.934293991595,
+      "rss_in_call_windows_peak_bytes": 2148614144,
+      "call_window_samples": 190,
+      "first_pass_ms": 2843.85812499022
+    },
+    {
+      "mode": "vl",
+      "variant": "tight",
+      "groups": {
+        "gazette": {
+          "n": 6,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0
+        },
+        "census": {
+          "n": 3,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0
+        }
+      },
+      "incomplete_warm_calls": 0,
+      "median_warm_ms": 309.26512500082026,
+      "median_nine_image_ms": 2859.5116679971397,
+      "rss_in_call_windows_peak_bytes": 2148728832,
+      "call_window_samples": 193,
+      "first_pass_ms": 2862.5717090035323
+    },
+    {
+      "mode": "vl",
+      "variant": "tight_pad10",
+      "groups": {
+        "gazette": {
+          "n": 6,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0
+        },
+        "census": {
+          "n": 3,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0
+        }
+      },
+      "incomplete_warm_calls": 0,
+      "median_warm_ms": 327.1947089997411,
+      "median_nine_image_ms": 2836.1074589993223,
+      "rss_in_call_windows_peak_bytes": 2148614144,
+      "call_window_samples": 187,
+      "first_pass_ms": 2832.6285400034976
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original",
+      "groups": {
+        "gazette": {
+          "n": 6,
+          "correct_per_warm_pass": [
+            1,
+            1,
+            1
+          ],
+          "stable_correct": 1,
+          "varying_outputs": 0
+        },
+        "census": {
+          "n": 3,
+          "correct_per_warm_pass": [
+            1,
+            1,
+            1
+          ],
+          "stable_correct": 1,
+          "varying_outputs": 0
+        }
+      },
+      "incomplete_warm_calls": 0,
+      "median_warm_ms": 20.119125001656357,
+      "median_nine_image_ms": 284.33870899971225,
+      "rss_in_call_windows_peak_bytes": 115408896,
+      "call_window_samples": 26,
+      "first_pass_ms": 327.69324999753735
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original_pad10",
+      "groups": {
+        "gazette": {
+          "n": 6,
+          "correct_per_warm_pass": [
+            2,
+            2,
+            2
+          ],
+          "stable_correct": 2,
+          "varying_outputs": 0
+        },
+        "census": {
+          "n": 3,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0
+        }
+      },
+      "incomplete_warm_calls": 0,
+      "median_warm_ms": 18.306041998584988,
+      "median_nine_image_ms": 272.35828999619116,
+      "rss_in_call_windows_peak_bytes": 114753536,
+      "call_window_samples": 27,
+      "first_pass_ms": 269.957582000643
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight",
+      "groups": {
+        "gazette": {
+          "n": 6,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0
+        },
+        "census": {
+          "n": 3,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0
+        }
+      },
+      "incomplete_warm_calls": 0,
+      "median_warm_ms": 20.092375001695473,
+      "median_nine_image_ms": 287.3854149984254,
+      "rss_in_call_windows_peak_bytes": 115572736,
+      "call_window_samples": 26,
+      "first_pass_ms": 289.057332000084
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight_pad10",
+      "groups": {
+        "gazette": {
+          "n": 6,
+          "correct_per_warm_pass": [
+            2,
+            2,
+            2
+          ],
+          "stable_correct": 2,
+          "varying_outputs": 0
+        },
+        "census": {
+          "n": 3,
+          "correct_per_warm_pass": [
+            0,
+            0,
+            0
+          ],
+          "stable_correct": 0,
+          "varying_outputs": 0
+        }
+      },
+      "incomplete_warm_calls": 0,
+      "median_warm_ms": 18.489750000298955,
+      "median_nine_image_ms": 273.63529200374614,
+      "rss_in_call_windows_peak_bytes": 115163136,
+      "call_window_samples": 24,
+      "first_pass_ms": 272.6744570027222
+    }
+  ],
+  "details": [
+    {
+      "mode": "vl",
+      "variant": "original",
+      "id": "g1",
+      "group": "gazette",
+      "expected": "๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "⑨",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.2957243330019992
+        },
+        {
+          "repeat": 2,
+          "text": "⑨",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.2955472089997784
+        },
+        {
+          "repeat": 3,
+          "text": "⑨",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.29702208299931954
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original",
+      "id": "g2",
+      "group": "gazette",
+      "expected": "๒๐",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "30",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.28766737499972805
+        },
+        {
+          "repeat": 2,
+          "text": "30",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.2875430829990364
+        },
+        {
+          "repeat": 3,
+          "text": "30",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.28928316599922255
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original",
+      "id": "g3",
+      "group": "gazette",
+      "expected": "๒๘",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "33",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.2899718339976971
+        },
+        {
+          "repeat": 2,
+          "text": "33",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.29012287500154343
+        },
+        {
+          "repeat": 3,
+          "text": "33",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.29257637499904376
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original",
+      "id": "g4",
+      "group": "gazette",
+      "expected": "๓๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "मॅ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.30619770800331025
+        },
+        {
+          "repeat": 2,
+          "text": "मॅ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3074077080018469
+        },
+        {
+          "repeat": 3,
+          "text": "मॅ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3068362910016731
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original",
+      "id": "g5",
+      "group": "gazette",
+      "expected": "๙๔",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "ཨུ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.30121620899808477
+        },
+        {
+          "repeat": 2,
+          "text": "ཨུ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.29989387500245357
+        },
+        {
+          "repeat": 3,
+          "text": "ཨུ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3012272080013645
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original",
+      "id": "g6",
+      "group": "gazette",
+      "expected": "๑๕๙",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "༢༤་༤",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.37436033400081214
+        },
+        {
+          "repeat": 2,
+          "text": "༢༤་༤",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3750910409980861
+        },
+        {
+          "repeat": 3,
+          "text": "༢༤་༤",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.37457350000113365
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original",
+      "id": "r1-c3",
+      "group": "census",
+      "expected": "59,135",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "69,135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3195442500000354
+        },
+        {
+          "repeat": 2,
+          "text": "69,135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.32110458299939637
+        },
+        {
+          "repeat": 3,
+          "text": "69,135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3205919169995468
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original",
+      "id": "r3-c1",
+      "group": "census",
+      "expected": "1,838,735",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1,833,735",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.34127458299917635
+        },
+        {
+          "repeat": 2,
+          "text": "1,833,735",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.340974582999479
+        },
+        {
+          "repeat": 3,
+          "text": "1,833,735",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3453434999973979
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original",
+      "id": "r4-c5",
+      "group": "census",
+      "expected": "13,282",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "18,282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.34138412500033155
+        },
+        {
+          "repeat": 2,
+          "text": "18,282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.34156233300018357
+        },
+        {
+          "repeat": 3,
+          "text": "18,282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.34167004199844087
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original_pad10",
+      "id": "g1",
+      "group": "gazette",
+      "expected": "๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "⑨",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.29370879199996125
+        },
+        {
+          "repeat": 2,
+          "text": "⑨",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.2925075419989298
+        },
+        {
+          "repeat": 3,
+          "text": "⑨",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.2936604999995325
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original_pad10",
+      "id": "g2",
+      "group": "gazette",
+      "expected": "๒๐",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๑๐",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3177040830014448
+        },
+        {
+          "repeat": 2,
+          "text": "๑๐",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.31682454199835774
+        },
+        {
+          "repeat": 3,
+          "text": "๑๐",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.317148250000173
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original_pad10",
+      "id": "g3",
+      "group": "gazette",
+      "expected": "๒๘",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๒๙",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.31740841600185377
+        },
+        {
+          "repeat": 2,
+          "text": "๒๙",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3169480839969765
+        },
+        {
+          "repeat": 3,
+          "text": "๒๙",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3172739580004418
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original_pad10",
+      "id": "g4",
+      "group": "gazette",
+      "expected": "๓๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "ตอ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.2847607910007355
+        },
+        {
+          "repeat": 2,
+          "text": "ตอ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.2841274999991583
+        },
+        {
+          "repeat": 3,
+          "text": "ตอ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.2850706250028452
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original_pad10",
+      "id": "g5",
+      "group": "gazette",
+      "expected": "๙๔",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "อ๖",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3257462500005204
+        },
+        {
+          "repeat": 2,
+          "text": "อ๖",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3318402920012886
+        },
+        {
+          "repeat": 3,
+          "text": "อ๖",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.33741625000038766
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original_pad10",
+      "id": "g6",
+      "group": "gazette",
+      "expected": "๑๕๙",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "อดีต",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.31452374999935273
+        },
+        {
+          "repeat": 2,
+          "text": "อดีต",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.31500074999712524
+        },
+        {
+          "repeat": 3,
+          "text": "อดีต",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3157812499994179
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original_pad10",
+      "id": "r1-c3",
+      "group": "census",
+      "expected": "59,135",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "69,135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.31688716699864017
+        },
+        {
+          "repeat": 2,
+          "text": "69,135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.31689887500033365
+        },
+        {
+          "repeat": 3,
+          "text": "69,135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3251074999971024
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original_pad10",
+      "id": "r3-c1",
+      "group": "census",
+      "expected": "1,838,735",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1,833,735",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.33674670799882733
+        },
+        {
+          "repeat": 2,
+          "text": "1,833,735",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.33910137500060955
+        },
+        {
+          "repeat": 3,
+          "text": "1,833,735",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3397800830025517
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "original_pad10",
+      "id": "r4-c5",
+      "group": "census",
+      "expected": "13,282",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "18,282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3423864169999433
+        },
+        {
+          "repeat": 2,
+          "text": "18,282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3426853339988156
+        },
+        {
+          "repeat": 3,
+          "text": "18,282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.34442404199944576
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight",
+      "id": "g1",
+      "group": "gazette",
+      "expected": "๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "⑥",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3007565000007162
+        },
+        {
+          "repeat": 2,
+          "text": "⑥",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3025412079987291
+        },
+        {
+          "repeat": 3,
+          "text": "⑥",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3003720839988091
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight",
+      "id": "g2",
+      "group": "gazette",
+      "expected": "๒๐",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "30",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.30926512500082026
+        },
+        {
+          "repeat": 2,
+          "text": "30",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3107095420018595
+        },
+        {
+          "repeat": 3,
+          "text": "30",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.30770387500160723
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight",
+      "id": "g3",
+      "group": "gazette",
+      "expected": "๒๘",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "33",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.29039429199838196
+        },
+        {
+          "repeat": 2,
+          "text": "33",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.2911299580009654
+        },
+        {
+          "repeat": 3,
+          "text": "33",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.291278084001533
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight",
+      "id": "g4",
+      "group": "gazette",
+      "expected": "๓๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "m⑨",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.29994887499924516
+        },
+        {
+          "repeat": 2,
+          "text": "m⑨",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3000389160006307
+        },
+        {
+          "repeat": 3,
+          "text": "m⑨",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.30191295799886575
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight",
+      "id": "g5",
+      "group": "gazette",
+      "expected": "๙๔",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "a",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.30016408300070907
+        },
+        {
+          "repeat": 2,
+          "text": "a",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.29921249999824795
+        },
+        {
+          "repeat": 3,
+          "text": "a",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.2990849999987404
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight",
+      "id": "g6",
+      "group": "gazette",
+      "expected": "๑๕๙",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "༢༤་༤",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3515052500006277
+        },
+        {
+          "repeat": 2,
+          "text": "༢༤་༤",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3491295000021637
+        },
+        {
+          "repeat": 3,
+          "text": "༢༤་༤",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3527961250001681
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight",
+      "id": "r1-c3",
+      "group": "census",
+      "expected": "59,135",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "69,135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.32292970799971954
+        },
+        {
+          "repeat": 2,
+          "text": "69,135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.32440795799993793
+        },
+        {
+          "repeat": 3,
+          "text": "69,135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3234802499973739
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight",
+      "id": "r3-c1",
+      "group": "census",
+      "expected": "1,838,735",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1,839,735",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3413498750014696
+        },
+        {
+          "repeat": 2,
+          "text": "1,839,735",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.340148915998725
+        },
+        {
+          "repeat": 3,
+          "text": "1,839,735",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3405537500002538
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight",
+      "id": "r4-c5",
+      "group": "census",
+      "expected": "13,282",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "18,282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.34223412499704864
+        },
+        {
+          "repeat": 2,
+          "text": "18,282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3428383329992357
+        },
+        {
+          "repeat": 3,
+          "text": "18,282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3423295419997885
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight_pad10",
+      "id": "g1",
+      "group": "gazette",
+      "expected": "๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "③",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.28112666599918157
+        },
+        {
+          "repeat": 2,
+          "text": "③",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.2800006249999569
+        },
+        {
+          "repeat": 3,
+          "text": "③",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.28056545900108176
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight_pad10",
+      "id": "g2",
+      "group": "gazette",
+      "expected": "๒๐",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "౦௰",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.321532792000653
+        },
+        {
+          "repeat": 2,
+          "text": "౦௰",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.32207916699917405
+        },
+        {
+          "repeat": 3,
+          "text": "౦௰",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.32182900000043446
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight_pad10",
+      "id": "g3",
+      "group": "gazette",
+      "expected": "๒๘",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "ఆ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.27943862499887473
+        },
+        {
+          "repeat": 2,
+          "text": "ఆ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.2789783330008504
+        },
+        {
+          "repeat": 3,
+          "text": "ఆ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.28038491700135637
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight_pad10",
+      "id": "g4",
+      "group": "gazette",
+      "expected": "๓๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "ต่อ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.28967137500148965
+        },
+        {
+          "repeat": 2,
+          "text": "ต่อ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.28960100000040256
+        },
+        {
+          "repeat": 3,
+          "text": "ต่อ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.2903115839981183
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight_pad10",
+      "id": "g5",
+      "group": "gazette",
+      "expected": "๙๔",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "ཤཱི",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.329954083001212
+        },
+        {
+          "repeat": 2,
+          "text": "ཤཱི",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.33295491700118873
+        },
+        {
+          "repeat": 3,
+          "text": "ཤཱི",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3294281249982305
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight_pad10",
+      "id": "g6",
+      "group": "gazette",
+      "expected": "๑๕๙",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "ఐడిఐ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.32676004200038733
+        },
+        {
+          "repeat": 2,
+          "text": "ఐడిఐ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3271947089997411
+        },
+        {
+          "repeat": 3,
+          "text": "ఐడిఐ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3274927080019552
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight_pad10",
+      "id": "r1-c3",
+      "group": "census",
+      "expected": "59,135",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "69, 135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.329795000001468
+        },
+        {
+          "repeat": 2,
+          "text": "69, 135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.33008808299928205
+        },
+        {
+          "repeat": 3,
+          "text": "69, 135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.33192849999977625
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight_pad10",
+      "id": "r3-c1",
+      "group": "census",
+      "expected": "1,838,735",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1,839,785",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.34717908300081035
+        },
+        {
+          "repeat": 2,
+          "text": "1,839,785",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3454625419981312
+        },
+        {
+          "repeat": 3,
+          "text": "1,839,785",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3465868329985824
+        }
+      ]
+    },
+    {
+      "mode": "vl",
+      "variant": "tight_pad10",
+      "id": "r4-c5",
+      "group": "census",
+      "expected": "13,282",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "18, 282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.32782720899922424
+        },
+        {
+          "repeat": 2,
+          "text": "18, 282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.3297480830005952
+        },
+        {
+          "repeat": 3,
+          "text": "18, 282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.32784991700100363
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original",
+      "id": "g1",
+      "group": "gazette",
+      "expected": "๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "อ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.020807291999517474
+        },
+        {
+          "repeat": 2,
+          "text": "อ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.02097683299871278
+        },
+        {
+          "repeat": 3,
+          "text": "อ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.020725582999148173
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original",
+      "id": "g2",
+      "group": "gazette",
+      "expected": "๒๐",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๒๓๐",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.019051582999964012
+        },
+        {
+          "repeat": 2,
+          "text": "๒๓๐",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.019183541000529658
+        },
+        {
+          "repeat": 3,
+          "text": "๒๓๐",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.019305750000057742
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original",
+      "id": "g3",
+      "group": "gazette",
+      "expected": "๒๘",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๒๓๕๐",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.019963082999311155
+        },
+        {
+          "repeat": 2,
+          "text": "๒๓๕๐",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.020215124997776
+        },
+        {
+          "repeat": 3,
+          "text": "๒๓๕๐",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.020115999999688938
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original",
+      "id": "g4",
+      "group": "gazette",
+      "expected": "๓๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๓๑",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.019707208000909304
+        },
+        {
+          "repeat": 2,
+          "text": "๓๑",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.01969183300025179
+        },
+        {
+          "repeat": 3,
+          "text": "๓๑",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.01953312499972526
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original",
+      "id": "g5",
+      "group": "gazette",
+      "expected": "๙๔",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๕๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.019027833001018735
+        },
+        {
+          "repeat": 2,
+          "text": "๕๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.019103041999187553
+        },
+        {
+          "repeat": 3,
+          "text": "๕๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.019202041999960784
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original",
+      "id": "g6",
+      "group": "gazette",
+      "expected": "๑๕๙",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๑๕๓",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.020028124999953434
+        },
+        {
+          "repeat": 2,
+          "text": "๑๕๓",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.020032750002428656
+        },
+        {
+          "repeat": 3,
+          "text": "๑๕๓",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.020119125001656357
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original",
+      "id": "r1-c3",
+      "group": "census",
+      "expected": "59,135",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "69,185",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05389787500098464
+        },
+        {
+          "repeat": 2,
+          "text": "69,185",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.0560010000008333
+        },
+        {
+          "repeat": 3,
+          "text": "69,185",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.053425083999172784
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original",
+      "id": "r3-c1",
+      "group": "census",
+      "expected": "1,838,735",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1,838,785",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05807324999841512
+        },
+        {
+          "repeat": 2,
+          "text": "1,838,785",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05511612499685725
+        },
+        {
+          "repeat": 3,
+          "text": "1,838,785",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05469291700137546
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original",
+      "id": "r4-c5",
+      "group": "census",
+      "expected": "13,282",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "13,282",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.055845792001491645
+        },
+        {
+          "repeat": 2,
+          "text": "13,282",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.05390854200231843
+        },
+        {
+          "repeat": 3,
+          "text": "13,282",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.05721908299892675
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original_pad10",
+      "id": "g1",
+      "group": "gazette",
+      "expected": "๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๑",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.017369207998854108
+        },
+        {
+          "repeat": 2,
+          "text": "๑",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.017083582999475766
+        },
+        {
+          "repeat": 3,
+          "text": "๑",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.017312207997747464
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original_pad10",
+      "id": "g2",
+      "group": "gazette",
+      "expected": "๒๐",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๒๐",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.017946207997738384
+        },
+        {
+          "repeat": 2,
+          "text": "๒๐",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.017821749999711756
+        },
+        {
+          "repeat": 3,
+          "text": "๒๐",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.017969874999835156
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original_pad10",
+      "id": "g3",
+      "group": "gazette",
+      "expected": "๒๘",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๒๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.018306041998584988
+        },
+        {
+          "repeat": 2,
+          "text": "๒๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.018477915997209493
+        },
+        {
+          "repeat": 3,
+          "text": "๒๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.018227625001600245
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original_pad10",
+      "id": "g4",
+      "group": "gazette",
+      "expected": "๓๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๓อ๑",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.017893374999403022
+        },
+        {
+          "repeat": 2,
+          "text": "๓อ๑",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.0181129590018827
+        },
+        {
+          "repeat": 3,
+          "text": "๓อ๑",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.017962582998734433
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original_pad10",
+      "id": "g5",
+      "group": "gazette",
+      "expected": "๙๔",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "ฒณ๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.017874583001685096
+        },
+        {
+          "repeat": 2,
+          "text": "ฒณ๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.017777791999833426
+        },
+        {
+          "repeat": 3,
+          "text": "ฒณ๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.01778454099985538
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original_pad10",
+      "id": "g6",
+      "group": "gazette",
+      "expected": "๑๕๙",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๑๕๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.01923729099871707
+        },
+        {
+          "repeat": 2,
+          "text": "๑๕๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.01893716699851211
+        },
+        {
+          "repeat": 3,
+          "text": "๑๕๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.019312541000545025
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original_pad10",
+      "id": "r1-c3",
+      "group": "census",
+      "expected": "59,135",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "69,135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05505770899981144
+        },
+        {
+          "repeat": 2,
+          "text": "69,135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.056564750000688946
+        },
+        {
+          "repeat": 3,
+          "text": "69,135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05199779200120247
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original_pad10",
+      "id": "r3-c1",
+      "group": "census",
+      "expected": "1,838,735",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1,838,785",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.053972333000274375
+        },
+        {
+          "repeat": 2,
+          "text": "1,838,785",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05556441600128892
+        },
+        {
+          "repeat": 3,
+          "text": "1,838,785",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.056989083997905254
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "original_pad10",
+      "id": "r4-c5",
+      "group": "census",
+      "expected": "13,282",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "18, 282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.051714417000766844
+        },
+        {
+          "repeat": 2,
+          "text": "18, 282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05644395800118218
+        },
+        {
+          "repeat": 3,
+          "text": "18, 282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05480204099876573
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight",
+      "id": "g1",
+      "group": "gazette",
+      "expected": "๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "อ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.01755987499927869
+        },
+        {
+          "repeat": 2,
+          "text": "อ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.017485874999692896
+        },
+        {
+          "repeat": 3,
+          "text": "อ",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.01735670799826039
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight",
+      "id": "g2",
+      "group": "gazette",
+      "expected": "๒๐",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "ๆ ๐",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.019076290998782497
+        },
+        {
+          "repeat": 2,
+          "text": "ๆ ๐",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.019445707999693695
+        },
+        {
+          "repeat": 3,
+          "text": "ๆ ๐",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.0195045830005256
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight",
+      "id": "g3",
+      "group": "gazette",
+      "expected": "๒๘",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "เ๒ๆ 6",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.02003037499889615
+        },
+        {
+          "repeat": 2,
+          "text": "เ๒ๆ 6",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.020092375001695473
+        },
+        {
+          "repeat": 3,
+          "text": "เ๒ๆ 6",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.02063179199831211
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight",
+      "id": "g4",
+      "group": "gazette",
+      "expected": "๓๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "6| | 6@)",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.019717041999683715
+        },
+        {
+          "repeat": 2,
+          "text": "6| | 6@)",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.01939900000070338
+        },
+        {
+          "repeat": 3,
+          "text": "6| | 6@)",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.019444917001237627
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight",
+      "id": "g5",
+      "group": "gazette",
+      "expected": "๙๔",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "ค4๕6ส",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.023228000001836335
+        },
+        {
+          "repeat": 2,
+          "text": "ค4๕6ส",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.02345966700158897
+        },
+        {
+          "repeat": 3,
+          "text": "ค4๕6ส",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.023168415998952696
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight",
+      "id": "g6",
+      "group": "gazette",
+      "expected": "๑๕๙",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๑๕@",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.01969887500308687
+        },
+        {
+          "repeat": 2,
+          "text": "๑๕@",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.019802957998763304
+        },
+        {
+          "repeat": 3,
+          "text": "๑๕@",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.01970716700088815
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight",
+      "id": "r1-c3",
+      "group": "census",
+      "expected": "59,135",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "HO, 135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05456637499810313
+        },
+        {
+          "repeat": 2,
+          "text": "HO, 135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05428391600071336
+        },
+        {
+          "repeat": 3,
+          "text": "HO, 135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.056148415998904966
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight",
+      "id": "r3-c1",
+      "group": "census",
+      "expected": "1,838,735",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1,838, 785",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05975166699863621
+        },
+        {
+          "repeat": 2,
+          "text": "1,838, 785",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05667416700089234
+        },
+        {
+          "repeat": 3,
+          "text": "1,838, 785",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05676099999982398
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight",
+      "id": "r4-c5",
+      "group": "census",
+      "expected": "13,282",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "13, 232",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.053785832998983096
+        },
+        {
+          "repeat": 2,
+          "text": "13, 232",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05379629199887859
+        },
+        {
+          "repeat": 3,
+          "text": "13, 232",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05466241600151989
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight_pad10",
+      "id": "g1",
+      "group": "gazette",
+      "expected": "๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๑",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.0170032079986413
+        },
+        {
+          "repeat": 2,
+          "text": "๑",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.017260541000723606
+        },
+        {
+          "repeat": 3,
+          "text": "๑",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.017380917000991758
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight_pad10",
+      "id": "g2",
+      "group": "gazette",
+      "expected": "๒๐",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๒๐",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.018135209000320174
+        },
+        {
+          "repeat": 2,
+          "text": "๒๐",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.018106708997947862
+        },
+        {
+          "repeat": 3,
+          "text": "๒๐",
+          "correct": true,
+          "complete": true,
+          "seconds": 0.018079167002724716
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight_pad10",
+      "id": "g3",
+      "group": "gazette",
+      "expected": "๒๘",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๒๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.018489750000298955
+        },
+        {
+          "repeat": 2,
+          "text": "๒๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.01843629100039834
+        },
+        {
+          "repeat": 3,
+          "text": "๒๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.018568833998870105
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight_pad10",
+      "id": "g4",
+      "group": "gazette",
+      "expected": "๓๑",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๓อ๑",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.018078875000355765
+        },
+        {
+          "repeat": 2,
+          "text": "๓อ๑",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.018309957999008475
+        },
+        {
+          "repeat": 3,
+          "text": "๓อ๑",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.018065665997710312
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight_pad10",
+      "id": "g5",
+      "group": "gazette",
+      "expected": "๙๔",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "ฒ๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.017684166003164137
+        },
+        {
+          "repeat": 2,
+          "text": "ฒ๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.01762116699683247
+        },
+        {
+          "repeat": 3,
+          "text": "ฒ๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.01779641599932802
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight_pad10",
+      "id": "g6",
+      "group": "gazette",
+      "expected": "๑๕๙",
+      "reference_status": "image_confirmed",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "๑๕๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.01909570800125948
+        },
+        {
+          "repeat": 2,
+          "text": "๑๕๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.0187124580006639
+        },
+        {
+          "repeat": 3,
+          "text": "๑๕๕",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.019316166999487905
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight_pad10",
+      "id": "r1-c3",
+      "group": "census",
+      "expected": "59,135",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "69,135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05238337500122725
+        },
+        {
+          "repeat": 2,
+          "text": "69,135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05518866700003855
+        },
+        {
+          "repeat": 3,
+          "text": "69,135",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05471495800156845
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight_pad10",
+      "id": "r3-c1",
+      "group": "census",
+      "expected": "1,838,735",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "1,838,785",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.057530083002347965
+        },
+        {
+          "repeat": 2,
+          "text": "1,838,785",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05590416700215428
+        },
+        {
+          "repeat": 3,
+          "text": "1,838,785",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05472008300057496
+        }
+      ]
+    },
+    {
+      "mode": "tesseract_best",
+      "variant": "tight_pad10",
+      "id": "r4-c5",
+      "group": "census",
+      "expected": "13,282",
+      "reference_status": "intended_value_corroborated_but_scan_glyph_ambiguous",
+      "predictions": [
+        {
+          "repeat": 1,
+          "text": "18,282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05438470800072537
+        },
+        {
+          "repeat": 2,
+          "text": "18,282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05440658399675158
+        },
+        {
+          "repeat": 3,
+          "text": "18,282",
+          "correct": false,
+          "complete": true,
+          "seconds": 0.05499308400248992
+        }
+      ]
+    }
+  ],
+  "policy": "Do not combine six image-confirmed Thai cases with three ambiguous-scan Census cases into a primary pixel accuracy. No per-image oracle configuration selection."
+}
