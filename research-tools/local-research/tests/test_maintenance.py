@@ -1,4 +1,4 @@
-import os
+import json,os
 from pathlib import Path
 import tempfile
 import unittest
@@ -41,3 +41,9 @@ class MaintenanceTests(unittest.TestCase):
         with TestClient(server_api.app) as client:
             self.assertEqual(client.post('/maintenance', json={'action': 'delete'}).status_code, 400)
             self.assertFalse(client.get('/health').json()['draining'])
+    def test_admitted_release_reopens_after_process_restart(self):
+        state=Path(self.temp.name)/'deployment.json'
+        state.write_text(json.dumps({'current':{'sha':'accepted'}}))
+        with patch.dict(os.environ,{'RESEARCH_START_DRAINED':'1','RESEARCH_DEPLOY_STATE_FILE':str(state),'RESEARCH_COMMIT':'accepted'}),TestClient(server_api.app) as client:
+            self.assertFalse(client.get('/health').json()['draining'])
+            self.assertEqual(client.post('/jobs',json={'url':'https://example.com'}).status_code,200)

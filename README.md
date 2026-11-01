@@ -11,6 +11,7 @@
 - Windows เหลือ MCP bridge; ปิด SearXNG/OCR containers เดิมและปิดการเริ่มใหม่อัตโนมัติแล้ว
 - ทดสอบผ่าน MCP จริงทั้งค้นหา เว็บ JavaScript อัปโหลดภาพไทย และการเก็บผลหลังรีสตาร์ต API; ดู [สถานะและคู่มือ](docs/mac-server.md)
 - เทียบเอกสารจริงบน Mac กับ Firecrawl แล้ว: text layer/แคชเร็ว แต่สแกนไทยยังมีผลถูกปฏิเสธและตารางยังผิด ดู [benchmark รอบ Mac](research-benchmarks/mac-vs-firecrawl-2026-11-01/REPORT.md)
+- มี [CI/CD สำหรับ Windows → GitHub Actions → Mac](docs/ci-cd.md): ตรวจสองแพลตฟอร์ม รับเฉพาะ main ที่ผ่าน gate และตรวจ OCR หลัง deploy พร้อม rollback
 
 ## โครงสร้าง
 

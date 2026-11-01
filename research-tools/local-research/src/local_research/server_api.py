@@ -1,5 +1,5 @@
 """Loopback API with durable OCR jobs; reach it over SSH forwarding."""
-import asyncio,contextlib,os,time
+import asyncio,contextlib,json,os,time
 from contextlib import asynccontextmanager
 from pathlib import Path
 from starlette.applications import Starlette
@@ -41,6 +41,13 @@ async def consume():
 async def lifespan(app):
     global stack,store,worker,draining
     draining=os.getenv('RESEARCH_START_DRAINED','0')=='1'
+    # A previously admitted release must reopen after an ordinary process restart.
+    state_file=os.getenv('RESEARCH_DEPLOY_STATE_FILE')
+    if draining and state_file:
+        try:
+            admitted=json.loads(Path(state_file).read_text()).get('current',{}).get('sha')
+            if admitted==os.getenv('RESEARCH_COMMIT'):draining=False
+        except (OSError,ValueError):pass
     stack=ResearchStack();store=JobStore(Path(os.getenv('RESEARCH_JOBS_DIR',str(stack.settings.state_dir/'jobs'))));store.recover();worker=asyncio.create_task(consume())
     try:yield
     finally:
@@ -68,7 +75,6 @@ async def health(request):
     status_file=os.getenv('RESEARCH_DEPLOY_STATUS_FILE')
     if status_file:
         try:
-            import json
             result['deployment']=json.loads(Path(status_file).read_text())
         except (OSError,ValueError):pass
     return JSONResponse(result)

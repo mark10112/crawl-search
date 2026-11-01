@@ -43,7 +43,7 @@ env={'PATH':'/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin','HF
     'PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK':'True','LOCAL_RESEARCH_STATE':str(state/'reader'),'LOCAL_RESEARCH_OCR_URL':'http://127.0.0.1:8091',
     'LOCAL_RESEARCH_OCR_TIMEOUT':'480','SEARXNG_URL':'http://127.0.0.1:8088','RESEARCH_JOBS_DIR':str(state/'jobs'),
     'MAC_OCR_MODEL':str(MODEL),'PADDLEOCR_VL_MAX_NEW_TOKENS':'8192','RESEARCH_COMMIT':subprocess.check_output(['git','-C',str(ROOT),'rev-parse','HEAD'],text=True).strip()}
-env.update(RESEARCH_START_DRAINED=os.getenv('RESEARCH_START_DRAINED','0'),RESEARCH_DEPLOY_STATUS_FILE=str(BASE/'deployments/status.json'))
+env.update(RESEARCH_START_DRAINED=os.getenv('RESEARCH_START_DRAINED','0'),RESEARCH_DEPLOY_STATUS_FILE=str(BASE/'deployments/status.json'),RESEARCH_DEPLOY_STATE_FILE=str(BASE/'deployments/state.json'))
 agents=HOME/'Library/LaunchAgents';agents.mkdir(exist_ok=True)
 services={
     'search':[str(PY),str(ROOT/'deploy/mac/search_service.py')],

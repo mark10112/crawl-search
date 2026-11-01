@@ -44,9 +44,11 @@ def transition(runtime, state, candidate):
     """Prepare before draining; failed activation/probe restores the prior release."""
     previous = state['current']
     activated = False
+    drain_started = False
     try:
         runtime.prepare(candidate)
         runtime.publish('draining', candidate['sha'])
+        drain_started = True
         runtime.drain()
         activated = True  # A partially failed installer also requires rollback.
         runtime.publish('deploying', candidate['sha'])
@@ -60,7 +62,8 @@ def transition(runtime, state, candidate):
                 runtime.publish('rolling_back', candidate['sha'])
                 runtime.activate(previous)
                 runtime.probe(previous)
-            runtime.resume()
+            if drain_started:
+                runtime.resume()
             state['last_failed']['rollback_ok'] = True
             runtime.publish('rolled_back' if activated else 'preflight_failed', previous['sha'])
         except Exception as rollback:
