@@ -32,10 +32,11 @@ for variant,path in [('before',HERE.parent/'ocr-accuracy-round3c-2026-11-02/resu
         for r in refs['anchors']:
             if r['document']!=ident:continue
             expected=normalize(r['text']);clean=normalize(text)
-            cer=edlib.align(expected,clean,mode='HW')['editDistance']/len(expected)*100 if ok and clean else None
+            cer=round(edlib.align(expected,clean,mode='HW')['editDistance']/len(expected)*100,3) if ok and clean else None
             anchors.append({'id':r['id'],'cer':cer})
         cases.append({'variant':variant,'id':ident,'ok':ok,'complete':ok and not raw.get('truncated',False),
-                      'seconds':rec['elapsed_ms']/1000,'cer':statistics.mean(a['cer'] for a in anchors) if ok else None,
+                      'seconds':rec['elapsed_ms']/1000,'cer':round(statistics.mean(a['cer'] for a in anchors),3) if ok else None,
+                      'worker_sha':rec['worker_sha'],
                       'strict_rows':sum(r['correct'] for r in table),'row_count':len(table),'table_rows':table,
                       'raw_sha256':hashlib.sha256(file.read_bytes()).hexdigest(),'source_sha256':raw.get('content_sha256')})
 study=json.loads((HERE/'crop-study/results.json').read_text(encoding='utf8'))

@@ -98,18 +98,16 @@ class TokenBudgetTests(unittest.TestCase):
     def test_missing_stream_finish_is_rejected(self):
         with self.assertRaisesRegex(RuntimeError,'without a finish reason'):
             self.worker.collect_stream(['data: [DONE]'])
-    def test_index_rebuild_preserves_ids_values_and_rejects_unfinished_reads(self):
-        geometry=[{'bbox':[0,0,20,20]}]
-        def value(text,finish='stop'):
-            return {'text':text,'finish_reason':finish,'repetition_guard':False}
-        with patch.object(self.worker,'read_crop',return_value=value('๒๑๒ Historical entry ๑')):
-            text,attempts=self.worker.read_index(Image.new('RGB',(20,20)),geometry)
-        self.assertIn('<td>๒๑๒</td><td>Historical entry</td><td>๑</td>',text)
-        self.assertTrue(attempts[0]['complete'])
-        with patch.object(self.worker,'read_crop',return_value=value('๒๑๒ Historical entry ๑','length')):
-            text,attempts=self.worker.read_index(Image.new('RGB',(20,20)),geometry)
-        self.assertIsNone(text)
-        self.assertFalse(attempts[0]['complete'])
+    def test_failed_experimental_index_path_is_opt_in_and_has_separate_cache(self):
+        self.worker.INDEX_REPAIR=False
+        with patch.object(self.worker,'index_rows',return_value=[]) as detect:
+            first=self.worker.ocr(self.body)
+            self.assertFalse(detect.called)
+            self.worker.INDEX_REPAIR=True
+            second=self.worker.ocr(self.body)
+            self.assertTrue(detect.called)
+        self.assertTrue(first['ok']);self.assertTrue(second['ok'])
+        self.assertFalse(second['cache_hit'])
     def test_crop_accepts_real_internal_response_and_preserves_finish(self):
         import httpx
         payload={'choices':[{'message':{'content':'๑๕๙'},'finish_reason':'stop'}],'usage':{'completion_tokens':4}}

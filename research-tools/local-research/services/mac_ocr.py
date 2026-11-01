@@ -11,6 +11,7 @@ from row_geometry import index_rows,short_table_rows
 REVISION='c5630abae1d940eafe0697512a0325494b02ab42'
 STATE=Path(os.environ.get('MAC_OCR_STATE',str(Path.home()/'research-server/state/ocr')));STATE.mkdir(parents=True,exist_ok=True)
 MODEL=os.environ['MAC_OCR_MODEL'];pipeline=None;lock=threading.Lock();generation_lock=threading.Lock();calls=[];recognition_profile='detail'
+INDEX_REPAIR=os.getenv('MAC_OCR_EXPERIMENTAL_INDEX','0')=='1'
 MAX_NEW_TOKENS=int(os.getenv('PADDLEOCR_VL_MAX_NEW_TOKENS','8192'))
 if not 1<=MAX_NEW_TOKENS<=8192:raise ValueError('PADDLEOCR_VL_MAX_NEW_TOKENS must be between 1 and 8192')
 REPETITION_PENALTY=float(os.getenv('MAC_OCR_REPETITION_PENALTY','1.0'))
@@ -139,19 +140,6 @@ def read_crop(image,bbox,prompt='OCR:',direct=False):
     calls.append(meta)
     return {'text':choice['message']['content'].strip(),**meta}
 
-def read_index(image,rows):
-    attempts=[];output=[]
-    for row in rows:
-        part=read_crop(image,row['bbox'],prompt='OCR:')
-        match=re.fullmatch(r'\s*(\d{2,6})\s*(\D.*?)\s+(\d{1,6})\s*',part['text'],flags=re.S)
-        cells=list(match.groups()) if match else []
-        complete=part['finish_reason'] in {'stop','eos_token'} and not part['repetition_guard']
-        complete=complete and len(cells)==3 and bool(cells[1]) and all(re.fullmatch(r'\d{1,6}',cells[j]) for j in [0,2])
-        attempts.append({'geometry':row,'recognition':part,'cells':cells,'complete':bool(complete)})
-        if not complete:return None,attempts
-        output.append('<tr>'+''.join('<td>'+html.escape(cell)+'</td>' for cell in cells)+'</tr>')
-    return '<table>'+''.join(output)+'</table>',attempts
-
 def read_index_page(image,rows):
     # The measured row/cell trials lost Thai language context. Keep the entire
     # source page in one genuine recognition, bypassing table band splitting.
@@ -178,7 +166,7 @@ def ocr(body):
     if policy not in {'balanced','quality'}:raise ValueError('Invalid OCR policy')
     profile=body.get('recognition_profile','detail')
     if profile not in {'detail','baseline'}:raise ValueError('Invalid recognition profile')
-    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v12-index-page-context',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64,profile]).encode()).hexdigest();cache=STATE/(key+'.json')
+    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v13-shallow-summary-index-opt-in',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64,profile,INDEX_REPAIR]).encode()).hexdigest();cache=STATE/(key+'.json')
     with lock:
         recognition_profile=profile
         if body.get('cache',True) and cache.exists():
@@ -196,7 +184,7 @@ def ocr(body):
             detail=result.json
             if isinstance(detail,dict):regions.extend(detail.get('res',detail).get('parsing_res_list',[]))
         layout_text='\n\n'.join(texts);original_text=layout_text;row_attempts=[]
-        detected=index_rows(image) if profile!='baseline' else []
+        detected=index_rows(image) if profile!='baseline' and INDEX_REPAIR else []
         if detected:
             rebuilt,row_attempts=read_index_page(image,detected)
             if rebuilt is not None:
@@ -213,7 +201,7 @@ def ocr(body):
             'truncated':bool(flags),'policy':policy,'max_new_tokens':MAX_NEW_TOKENS,'repetition_penalty':REPETITION_PENALTY,
             'original_markup_chars':len(original_text),'recognition_profile':profile,'language_hint':body.get('language_hint'),'elapsed_ms':round((time.perf_counter()-start)*1000,2),
             'route':[{'engine':'paddle-layout+mlx','regions':len(regions),'generations':list(calls)}],
-            'quality_flags':flags,'regions':regions,'index_rows':row_attempts,'original_layout_text':layout_text if detected else None,
+            'quality_flags':flags,'regions':regions,'index_rows':row_attempts,'index_repair_enabled':INDEX_REPAIR,'original_layout_text':layout_text if detected else None,
             'quality_warning':'Completion checks are not proof of transcription accuracy.'}
         if flags:result['error']='; '.join(flags)
         if body.get('cache',True) and result['ok']:
