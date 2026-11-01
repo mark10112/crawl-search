@@ -52,6 +52,8 @@ signal.signal(signal.SIGTERM,interrupted)
 candidate=subprocess.check_output(['git','-C',str(ROOT),'rev-parse','HEAD'],text=True).strip()
 write(WORK/'started.json',{'time':time.time(),'before_sha':BEFORE_SHA,'after_sha':candidate,'reader_sha':'matched-to-worker-per-variant','protocol':str(HERE/'METHOD.md')})
 manifest=json.loads((ROOT/'research-benchmarks/real-history-2026-11-01/manifest.json').read_text())['cases']
+if os.environ.get('OCR_ROW_DOCS'):
+    selected=set(os.environ['OCR_ROW_DOCS'].split(','));manifest=[case for case in manifest if case['id'] in selected]
 assets=BASE/'releases/2026-11-01-ocr/research-benchmarks/real-history-2026-11-01/public-assets'
 for case in manifest:assert hashlib.sha256((assets/case['filename']).read_bytes()).hexdigest()==case['sha256']
 env={**os.environ,'PYTHONUNBUFFERED':'1','MAC_OCR_MODEL':str(MODEL),'PADDLEOCR_VL_MAX_NEW_TOKENS':'8192','PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK':'True',
@@ -98,7 +100,7 @@ try:
                         'reader_sha':BEFORE_SHA if variant=='before' else candidate,'started_at':start,'ended_at':time.time(),'elapsed_ms':round((time.perf_counter()-clock)*1000,2),'request':request,'raw':result}
                     out=WORK/'results';out.mkdir(exist_ok=True);write(out/f'{variant}-{mode}-{case["id"]}.json',row)
                     print(json.dumps({k:row[k] for k in ['variant','mode','id','elapsed_ms']}|{'ok':result.get('ok'),'error':result.get('error')},ensure_ascii=False),flush=True)
-            run([OCR,HERE/'crop_study.py',ROOT,WORK],env=venv)
+            if os.environ.get('OCR_ROW_SKIP_STUDY')!='1':run([OCR,HERE/'crop_study.py',ROOT,WORK],env=venv)
             stop('worker');stop('gateway')
     write(WORK/'completed.json',{'time':time.time()})
 finally:restore()

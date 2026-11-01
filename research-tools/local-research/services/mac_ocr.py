@@ -113,9 +113,9 @@ class Proxy(BaseHTTPRequestHandler):
         r=httpx.get('http://127.0.0.1:8111'+self.path,timeout=15);self.send_response(r.status_code);self.end_headers();self.wfile.write(r.content)
     def log_message(self,*args):pass
 
-def read_crop(image,bbox):
+def read_crop(image,bbox,prompt='OCR:'):
     buf=io.BytesIO();image.crop(tuple(bbox)).save(buf,format='PNG');data=buf.getvalue()
-    body={'messages':[{'role':'user','content':[{'type':'image_url','image_url':{'url':'data:image/png;base64,'+base64.b64encode(data).decode()}},{'type':'text','text':'OCR:'}]}]}
+    body={'messages':[{'role':'user','content':[{'type':'image_url','image_url':{'url':'data:image/png;base64,'+base64.b64encode(data).decode()}},{'type':'text','text':prompt}]}]}
     body,requested=recognition_request(body)
     response=forward_recognition('/v1/chat/completions',body)
     if response.status_code!=200:raise RuntimeError('Crop recognition HTTP '+str(response.status_code))
@@ -131,12 +131,15 @@ def read_crop(image,bbox):
 def read_index(image,rows):
     attempts=[];output=[]
     for row in rows:
-        parts={key:read_crop(image,row[key+'_bbox']) for key in ['id','label','value']}
-        complete=all(p['finish_reason'] in {'stop','eos_token'} and not p['repetition_guard'] for p in parts.values())
-        complete=complete and bool(parts['label']['text']) and all(re.fullmatch(r'\d{1,6}',parts[key]['text']) for key in ['id','value'])
-        attempts.append({'geometry':row,'parts':parts,'complete':bool(complete)})
+        part=read_crop(image,row['bbox'],prompt='Table Recognition:')
+        raw_rows=[r for r in part['text'].split('<nl>') if r.strip()]
+        cells=re.split(r'<(?:fcel|ecel|lcel|ucel|xcel)>',raw_rows[0])[1:] if len(raw_rows)==1 else []
+        cells=[c.strip() for c in cells]
+        complete=part['finish_reason'] in {'stop','eos_token'} and not part['repetition_guard']
+        complete=complete and len(cells)==3 and bool(cells[1]) and all(re.fullmatch(r'\d{1,6}',cells[j]) for j in [0,2])
+        attempts.append({'geometry':row,'recognition':part,'cells':cells,'complete':bool(complete)})
         if not complete:return None,attempts
-        output.append('<tr>'+''.join('<td>'+html.escape(parts[key]['text'])+'</td>' for key in ['id','label','value'])+'</tr>')
+        output.append('<tr>'+''.join('<td>'+html.escape(cell)+'</td>' for cell in cells)+'</tr>')
     return '<table>'+''.join(output)+'</table>',attempts
 
 def ocr(body):
@@ -149,7 +152,7 @@ def ocr(body):
     if policy not in {'balanced','quality'}:raise ValueError('Invalid OCR policy')
     profile=body.get('recognition_profile','detail')
     if profile not in {'detail','baseline'}:raise ValueError('Invalid recognition profile')
-    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v9-row-geometry',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64,profile]).encode()).hexdigest();cache=STATE/(key+'.json')
+    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v10-contextual-index-rows',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64,profile]).encode()).hexdigest();cache=STATE/(key+'.json')
     with lock:
         recognition_profile=profile
         if body.get('cache',True) and cache.exists():
