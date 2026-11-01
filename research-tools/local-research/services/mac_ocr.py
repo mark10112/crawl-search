@@ -5,7 +5,7 @@ from pathlib import Path
 import httpx
 from PIL import Image
 from completion_checks import completion_flags,compact_markup,excessive_repetition
-from table_bands import is_table,request_image,bands,tile_request,combine
+from table_bands import is_table,request_image,bands,tile_request,combine,reconciled_summary
 from row_geometry import index_rows,short_table_rows
 
 REVISION='c5630abae1d940eafe0697512a0325494b02ab42'
@@ -67,7 +67,8 @@ def forward_recognition(path,body):
     # where concurrent layout requests can run to the token limit.
     with generation_lock:
         image=request_image(body) if recognition_profile!='baseline' and is_table(body) else None
-        intervals=(short_table_rows(image) or bands(image)) if image is not None else []
+        shallow=short_table_rows(image) if image is not None else []
+        intervals=(shallow or bands(image)) if image is not None else []
         if len(intervals)<=1:return stream_recognition(path,body)
         parts=[];metadata=[]
         for interval in intervals:
@@ -86,6 +87,14 @@ def forward_recognition(path,body):
             single=stream_recognition(path,body)
             if single.status_code!=200:return single
             payload=single.json()
+            reconciled=reconciled_summary(parts,payload) if shallow else None
+            if reconciled is not None:
+                selected=combine(reconciled,metadata,image.height)
+                selected['table_attempts']=[{'strategy':'source-rows','complete':False,'bands':metadata,
+                    'texts':[p['choices'][0]['message']['content'] for p in parts]},
+                    {'strategy':'full-table-summary-agreement','text':payload['choices'][0]['message']['content'],
+                     'usage':payload.get('usage'),'selected_summary_from_full_read':True}]
+                return httpx.Response(200,json=selected)
             payload['table_attempts']=[{'strategy':'bands','complete':False,'bands':metadata,
                 'columns':assembled['table_band_columns']},{'strategy':'single-high-detail',
                 'finish_reason':payload['choices'][0]['finish_reason'],'usage':payload.get('usage')}]
@@ -131,10 +140,9 @@ def read_crop(image,bbox,prompt='OCR:'):
 def read_index(image,rows):
     attempts=[];output=[]
     for row in rows:
-        part=read_crop(image,row['bbox'],prompt='Table Recognition:')
-        raw_rows=[r for r in part['text'].split('<nl>') if r.strip()]
-        cells=re.split(r'<(?:fcel|ecel|lcel|ucel|xcel)>',raw_rows[0])[1:] if len(raw_rows)==1 else []
-        cells=[c.strip() for c in cells]
+        part=read_crop(image,row['bbox'],prompt='OCR:')
+        match=re.fullmatch(r'\s*(\d{2,6})\s*(\D.*?)\s+(\d{1,6})\s*',part['text'],flags=re.S)
+        cells=list(match.groups()) if match else []
         complete=part['finish_reason'] in {'stop','eos_token'} and not part['repetition_guard']
         complete=complete and len(cells)==3 and bool(cells[1]) and all(re.fullmatch(r'\d{1,6}',cells[j]) for j in [0,2])
         attempts.append({'geometry':row,'recognition':part,'cells':cells,'complete':bool(complete)})
@@ -152,7 +160,7 @@ def ocr(body):
     if policy not in {'balanced','quality'}:raise ValueError('Invalid OCR policy')
     profile=body.get('recognition_profile','detail')
     if profile not in {'detail','baseline'}:raise ValueError('Invalid recognition profile')
-    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v10-contextual-index-rows',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64,profile]).encode()).hexdigest();cache=STATE/(key+'.json')
+    key=hashlib.sha256(data+json.dumps([REVISION,'layout-mlx-v11-index-ocr-summary-agreement',policy,MAX_NEW_TOKENS,REPETITION_PENALTY,64,profile]).encode()).hexdigest();cache=STATE/(key+'.json')
     with lock:
         recognition_profile=profile
         if body.get('cache',True) and cache.exists():

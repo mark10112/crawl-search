@@ -36,6 +36,26 @@ def tile_request(body,image,interval):
             if item.get('type')=='image_url':item['image_url']['url']='data:image/png;base64,'+base64.b64encode(buf.getvalue()).decode()
     return result,hashlib.sha256(buf.getvalue()).hexdigest()
 
+def reconciled_summary(parts,whole):
+    """Use an independently read summary structure, never invent empty cells.
+
+    Only a shallow table's final row may be reconciled. Its nonempty content
+    must agree exactly with a normal full-table read at the established width.
+    """
+    if len(parts)<2:return None
+    def rows(text):return [r for r in text.split('<nl>') if r.strip()]
+    def cells(row):return re.split(r'<(?:fcel|ecel|lcel|ucel|xcel)>',row)[1:]
+    def values(row):return [re.sub(r'\s+','',c) for c in cells(row) if c.strip()]
+    texts=[p['choices'][0]['message']['content'] for p in parts]
+    if any(len(rows(t))!=1 for t in texts):return None
+    widths=[len(cells(rows(t)[0])) for t in texts]
+    if len(set(widths[:-1]))!=1 or widths[-1]>=widths[0]:return None
+    if whole['choices'][0]['finish_reason'] not in {'stop','eos_token'} or whole.get('repetition_guard'):return None
+    candidates=[r for r in rows(whole['choices'][0]['message']['content']) if len(cells(r))==widths[0] and values(r)==values(rows(texts[-1])[0])]
+    if len(candidates)!=1:return None
+    replaced={**whole,'choices':[{'index':0,'message':{'role':'assistant','content':candidates[0]+'<nl>'},'finish_reason':'stop'}]}
+    return parts[:-1]+[replaced]
+
 def combine(parts,metadata,height):
     complete=bool(parts) and metadata[-1]['y'][1]==height
     texts=[];widths=[]

@@ -3,6 +3,7 @@ from pathlib import Path
 from PIL import Image,ImageDraw
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'services'))
 from row_geometry import index_rows,short_table_rows
+from table_bands import reconciled_summary
 
 class RowGeometryTests(unittest.TestCase):
     def test_index_keeps_multiline_title_and_detached_endpoint(self):
@@ -34,3 +35,14 @@ class RowGeometryTests(unittest.TestCase):
         self.assertEqual(len(intervals),3)
         self.assertEqual([v for a,b in intervals for v in range(a,b)],list(range(80)))
         self.assertEqual(short_table_rows(Image.new('RGB',(640,80),'white')),[])
+    def test_summary_reconciliation_requires_independent_matching_values(self):
+        def part(text,finish='stop'):
+            return {'choices':[{'message':{'content':text},'finish_reason':finish}],'usage':{'completion_tokens':5}}
+        parts=[part('<fcel>First<fcel>12<fcel>1<nl>'),part('<fcel>Second<fcel>34<fcel>2<nl>'),part('<fcel>Average<fcel>1.8<nl>')]
+        whole=part('<fcel>First Second<fcel>12 34<fcel>1 2<nl><fcel>Average<ecel><fcel>1.8<nl>')
+        selected=reconciled_summary(parts,whole)
+        self.assertIsNotNone(selected)
+        self.assertEqual(selected[0]['choices'][0]['message']['content'],parts[0]['choices'][0]['message']['content'])
+        self.assertEqual(selected[-1]['choices'][0]['message']['content'],'<fcel>Average<ecel><fcel>1.8<nl>')
+        self.assertIsNone(reconciled_summary(parts,part('<fcel>Average<ecel><fcel>1.9<nl>')))
+        self.assertIsNone(reconciled_summary(parts,part('<fcel>Average<ecel><fcel>1.8<nl>','length')))

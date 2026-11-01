@@ -102,11 +102,11 @@ class TokenBudgetTests(unittest.TestCase):
         geometry=[{'bbox':[0,0,20,20]}]
         def value(text,finish='stop'):
             return {'text':text,'finish_reason':finish,'repetition_guard':False}
-        with patch.object(self.worker,'read_crop',return_value=value('<fcel>๒๑๒<fcel>Historical entry<fcel>๑<nl>')):
+        with patch.object(self.worker,'read_crop',return_value=value('๒๑๒ Historical entry ๑')):
             text,attempts=self.worker.read_index(Image.new('RGB',(20,20)),geometry)
         self.assertIn('<td>๒๑๒</td><td>Historical entry</td><td>๑</td>',text)
         self.assertTrue(attempts[0]['complete'])
-        with patch.object(self.worker,'read_crop',return_value=value('<fcel>๒๑๒<fcel>Historical entry<fcel>๑<nl>','length')):
+        with patch.object(self.worker,'read_crop',return_value=value('๒๑๒ Historical entry ๑','length')):
             text,attempts=self.worker.read_index(Image.new('RGB',(20,20)),geometry)
         self.assertIsNone(text)
         self.assertFalse(attempts[0]['complete'])
